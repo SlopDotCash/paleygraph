@@ -1,0 +1,10 @@
+# copyrighted paper files and page images are not distributed; see HANDOFF.md
+sources/*
+!sources/manifest.json
+tmp/
+__pycache__/
+*.pyc
+.DS_Store
+credentials.json
+*.lock
+.lake/
