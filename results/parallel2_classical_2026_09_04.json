@@ -1,0 +1,89 @@
+{
+  "claim": "Exact elliptic reduction and finite collision checks; CS-input is disproved by the accompanying asymptotic proof, not by these finite tests",
+  "pointwise_fractional_linear_checks": 645264,
+  "subset_fourth_moment_and_centering_checks": 8440,
+  "fields": [
+    {
+      "p": 5,
+      "subsets_checked": 32,
+      "elliptic_norm_squared": 12
+    },
+    {
+      "p": 7,
+      "subsets_checked": 128,
+      "elliptic_norm_squared": 32
+    },
+    {
+      "p": 13,
+      "subsets_checked": 8192,
+      "elliptic_norm_squared": 140
+    },
+    {
+      "p": 17,
+      "subsets_checked": 44,
+      "elliptic_norm_squared": 252
+    },
+    {
+      "p": 29,
+      "subsets_checked": 44,
+      "elliptic_norm_squared": 780
+    }
+  ],
+  "interval_examples": [
+    {
+      "n": 8,
+      "p": 3361,
+      "all_nonzero_interval_differences_are_squares": true,
+      "uncentered_vector_norm_squared": 31680,
+      "translation_collision_lower_bound": 96,
+      "centered_vector_norm_squared_via_exact_moment_identity": {
+        "numerator": 600003580587840,
+        "denominator": 18943957199
+      },
+      "centered_norm_squared_divided_by_n4": {
+        "numerator": 9375055946685,
+        "denominator": 1212413260736
+      },
+      "exact_fourth_moment": 611080,
+      "meets_asymptotic_p_ge_n8_condition": false
+    },
+    {
+      "n": 12,
+      "p": 18481,
+      "all_nonzero_interval_differences_are_squares": true,
+      "uncentered_vector_norm_squared": 716256,
+      "translation_collision_lower_bound": 2160,
+      "centered_vector_norm_squared_via_exact_moment_identity": {
+        "numerator": 2259643217008775904,
+        "denominator": 3154873121399
+      },
+      "centered_norm_squared_divided_by_n4": {
+        "numerator": 2615327797463861,
+        "denominator": 75716954913576
+      },
+      "exact_fourth_moment": 7761228,
+      "meets_asymptotic_p_ge_n8_condition": false
+    },
+    {
+      "n": 16,
+      "p": 960961,
+      "all_nonzero_interval_differences_are_squares": true,
+      "uncentered_vector_norm_squared": 5068608,
+      "translation_collision_lower_bound": 13440,
+      "centered_vector_norm_squared_via_exact_moment_identity": {
+        "numerator": 2248913886267457467325632,
+        "denominator": 443694584660527199
+      },
+      "centered_norm_squared_divided_by_n4": {
+        "numerator": 35139279472929022926963,
+        "denominator": 454343254692379851776
+      },
+      "exact_fourth_moment": 708038928,
+      "meets_asymptotic_p_ge_n8_condition": false
+    }
+  ],
+  "source_sha256": {
+    "research/parallel2-classical-2026-09-04.md": "be69dd47f7f18a8915b0c3ce7b5d07031a8f50a69f947b8649fad916e3ced6d8",
+    "experiments/parallel2_classical_2026_09_04.py": "9533975e81cdd8e3f9a8a4068d93da0aa1c1458f3cf1f1ad0bb362782db5caab"
+  }
+}

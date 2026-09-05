@@ -1,0 +1,380 @@
+{
+  "status": "exact squared-radius certificates with rational outward rounding",
+  "cases": [
+    {
+      "q": 29,
+      "marks": [
+        1,
+        4,
+        0
+      ],
+      "n": 7,
+      "degree": 6,
+      "cell_only_term": [
+        941207,
+        7475
+      ],
+      "Q": -42,
+      "Q_coefficient": [
+        -2,
+        7475
+      ],
+      "mean": [
+        -213,
+        1495
+      ],
+      "second_moment": [
+        72407,
+        575
+      ],
+      "variance": [
+        56280128,
+        447005
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 24,
+      "uneliminated_ordered_walsh_terms": 6,
+      "generic_compiler_equality": true,
+      "vector_statistics": {
+        "h2_norm_squared": 74,
+        "h3_norm_squared": 26,
+        "h2_sum": -2,
+        "h3_sum": -6
+      },
+      "Q_bound_squared": [
+        1537956,
+        29
+      ],
+      "cell_only_envelope_radius_squared": [
+        6151824,
+        1620393125
+      ],
+      "envelope_radius_rational_upper": [
+        30807876128840209,
+        500000000000000000
+      ],
+      "envelope_radius_upper_float": 0.06161575225768042,
+      "relative_radius_rational_upper": [
+        9786959683176201,
+        20000000000000000000
+      ],
+      "relative_radius_upper_float": 0.00048934798415881,
+      "scope": "All symmetric balanced conference matrices realizing the same marked cell data satisfy this interval; an outer bound, not a realization claim."
+    },
+    {
+      "q": 29,
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "n": 7,
+      "degree": 6,
+      "cell_only_term": [
+        941207,
+        7475
+      ],
+      "Q": 86,
+      "Q_coefficient": [
+        -2,
+        7475
+      ],
+      "mean": [
+        -213,
+        1495
+      ],
+      "second_moment": [
+        188207,
+        1495
+      ],
+      "variance": [
+        281324096,
+        2235025
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 24,
+      "uneliminated_ordered_walsh_terms": 6,
+      "generic_compiler_equality": true,
+      "vector_statistics": {
+        "h2_norm_squared": 74,
+        "h3_norm_squared": 26,
+        "h2_sum": -2,
+        "h3_sum": -6
+      },
+      "Q_bound_squared": [
+        1537956,
+        29
+      ],
+      "cell_only_envelope_radius_squared": [
+        6151824,
+        1620393125
+      ],
+      "envelope_radius_rational_upper": [
+        30807876128840209,
+        500000000000000000
+      ],
+      "envelope_radius_upper_float": 0.06161575225768042,
+      "relative_radius_rational_upper": [
+        9786959683176201,
+        20000000000000000000
+      ],
+      "relative_radius_upper_float": 0.00048934798415881,
+      "scope": "All symmetric balanced conference matrices realizing the same marked cell data satisfy this interval; an outer bound, not a realization claim."
+    },
+    {
+      "q": 1297,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 6,
+      "cell_only_term": [
+        116280168923,
+        90070811
+      ],
+      "Q": 3330,
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "mean": [
+        -1291,
+        90070811
+      ],
+      "second_moment": [
+        116280168923,
+        90070811
+      ],
+      "variance": [
+        10473449118109939872,
+        8112750994197721
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 0,
+      "uneliminated_ordered_walsh_terms": 0,
+      "generic_compiler_equality": true,
+      "vector_statistics": {
+        "h2_norm_squared": 3870,
+        "h3_norm_squared": 1294,
+        "h2_sum": -6,
+        "h3_sum": -2
+      },
+      "Q_bound_squared": [
+        8424052089156,
+        1297
+      ],
+      "cell_only_envelope_radius_squared": [
+        0,
+        1
+      ],
+      "envelope_radius_rational_upper": [
+        0,
+        1
+      ],
+      "envelope_radius_upper_float": 0.0,
+      "relative_radius_rational_upper": [
+        0,
+        1
+      ],
+      "relative_radius_upper_float": 0.0,
+      "scope": "All symmetric balanced conference matrices realizing the same marked cell data satisfy this interval; an outer bound, not a realization claim.",
+      "counts_sha256": "4bb806c158d0edb56dee6c8689a90e9a6d17cf0cec0974df1adb0440a1d4eae8"
+    },
+    {
+      "q": 1297,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "cell_only_term": [
+        178925909687735648,
+        5000100931043
+      ],
+      "Q": 3330,
+      "Q_coefficient": [
+        -810248,
+        15000302793129
+      ],
+      "mean": [
+        -35387980,
+        116281417001
+      ],
+      "second_moment": [
+        178925908788360368,
+        5000100931043
+      ],
+      "variance": [
+        20805758212048373313945159168,
+        581418821409699428862043
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6,
+      "generic_compiler_equality": true,
+      "vector_statistics": {
+        "h2_norm_squared": 3870,
+        "h3_norm_squared": 1294,
+        "h2_sum": -6,
+        "h3_sum": -2
+      },
+      "Q_bound_squared": [
+        8424052089156,
+        1297
+      ],
+      "cell_only_envelope_radius_squared": [
+        1425729708939286054656,
+        75235055890580851153283063
+      ],
+      "envelope_radius_rational_upper": [
+        10882996372233153,
+        2500000000000000000
+      ],
+      "envelope_radius_upper_float": 0.0043531985488932615,
+      "relative_radius_rational_upper": [
+        6082526604259,
+        50000000000000000000
+      ],
+      "relative_radius_upper_float": 1.2165053208518e-07,
+      "scope": "All symmetric balanced conference matrices realizing the same marked cell data satisfy this interval; an outer bound, not a realization claim.",
+      "counts_sha256": "4bb806c158d0edb56dee6c8689a90e9a6d17cf0cec0974df1adb0440a1d4eae8"
+    },
+    {
+      "q": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 16,
+      "degree": 6,
+      "cell_only_term": [
+        58642113340948624377153490835575343182284067338192064288,
+        111851004208180426136443842621345437887139737145
+      ],
+      "Q": 196626,
+      "Q_coefficient": [
+        -61192740735916932142812528315172418416,
+        1006659037873623835227994583592108940984257634305
+      ],
+      "mean": [
+        -1756512087599896,
+        61484456937095868591
+      ],
+      "second_moment": [
+        175926340022841862436847159039159525328121368983928371392,
+        335553012624541278409331527864036313661419211435
+      ],
+      "variance": [
+        32450206431705917642576069569395611382199788865355414051104390338736958734336,
+        61893884264479183728790776504885592959443870114229929356366813614255
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6,
+      "generic_compiler_equality": true,
+      "vector_statistics": {
+        "h2_norm_squared": 196590,
+        "h3_norm_squared": 65534,
+        "h2_sum": -6,
+        "h3_sum": -2
+      },
+      "Q_bound_squared": [
+        55335165426744164676,
+        65537
+      ],
+      "cell_only_envelope_radius_squared": [
+        1522371206038471391363153647911539763002396719235664473419969285899092997985156545492651008,
+        487945019898861078610037121184273298102446448682525119797626955300673941071607925969376768790275
+      ],
+      "envelope_radius_rational_upper": [
+        176634216256808903,
+        100000000000000000000
+      ],
+      "envelope_radius_upper_float": 0.001766342162568089,
+      "relative_radius_rational_upper": [
+        16845159,
+        5000000000000000000
+      ],
+      "relative_radius_upper_float": 3.3690318e-12,
+      "scope": "All symmetric balanced conference matrices realizing the same marked cell data satisfy this interval; an outer bound, not a realization claim.",
+      "counts_sha256": "b50c4b9903944cdfa936b730c0fd98da64d6f7ea3a12f25c120d6c366e0e7dab"
+    },
+    {
+      "q": 1000033,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 31,
+      "degree": 6,
+      "cell_only_term": [
+        75085644377020310218893547826297092026938065505886226685402391143522475,
+        101992164005182265317180108090425454369982782034459699935891
+      ],
+      "Q": -571662,
+      "Q_coefficient": [
+        -50080568096759472526920644457721086442093080000,
+        101992164005182265317180108090425454369982782034459699935891
+      ],
+      "mean": [
+        -40566196461225241935,
+        3663512848795656527359291
+      ],
+      "second_moment": [
+        75085644377020310247522705545626805610622574957875978403062205442482475,
+        101992164005182265317180108090425454369982782034459699935891
+      ],
+      "variance": [
+        275077222935315245608254332909473181670307006293396915679961371284900742233322590622782928896000,
+        373649603309459098601456718941148417395457144714361214782743137739964215760223213281
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6,
+      "generic_compiler_equality": true,
+      "vector_statistics": {
+        "h2_norm_squared": 3000078,
+        "h3_norm_squared": 1000030,
+        "h2_sum": -6,
+        "h3_sum": -1826
+      },
+      "Q_bound_squared": [
+        3000356013241159812120132,
+        1000033
+      ],
+      "cell_only_envelope_radius_squared": [
+        7525082806427273397231748347555475595951674162941449605803446164274929611693604407151272183757649938205841004800000000,
+        10402744797710106088167519972664008534829151621927461418497207474367131457099734335897872960714290655208693645834217709808073
+      ],
+      "envelope_radius_rational_upper": [
+        85051439690134639,
+        100000000000000000000
+      ],
+      "envelope_radius_upper_float": 0.0008505143969013463,
+      "relative_radius_rational_upper": [
+        11553,
+        10000000000000000000
+      ],
+      "relative_radius_upper_float": 1.1553e-15,
+      "scope": "All symmetric balanced conference matrices realizing the same marked cell data satisfy this interval; an outer bound, not a realization claim.",
+      "counts_sha256": "44bc0f9041098c0955f25a2ea263c621cbe1aa3947007185030a38c79eea6303"
+    }
+  ],
+  "source_sha256": {
+    "conditional_moments.py": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "contraction_reduction.py": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+    "certified_envelope.py": "d451c3b471f9851d905080be3fa999e55a24f6aeedb4d9380b6d28f8c2f1e7ed"
+  }
+}

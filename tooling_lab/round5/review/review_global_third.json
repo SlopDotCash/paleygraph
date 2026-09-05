@@ -1,0 +1,1060 @@
+{
+  "status": "all accelerated third moments match independent exhaustive subset oracles",
+  "finite_cases": 40,
+  "compiler_comparisons": 80,
+  "odd_degree_cases_rejected": 25,
+  "ordered_row_triples_normalized_independently": 227388,
+  "records": [
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        -173,
+        33
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -337,
+        3
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -37568,
+        33
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        17,
+        91
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -10229,
+        143
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -1159744,
+        715
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 0,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 1,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 2,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 2,
+      "degree": 2,
+      "third_moment": [
+        -1,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 3,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 3,
+      "degree": 2,
+      "third_moment": [
+        -27,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 2,
+      "third_moment": [
+        -216,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 4,
+      "third_moment": [
+        75,
+        7
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 2,
+      "third_moment": [
+        -1000,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 4,
+      "third_moment": [
+        105,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 2,
+      "third_moment": [
+        -3375,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 4,
+      "third_moment": [
+        2085,
+        7
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        3,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 2,
+      "third_moment": [
+        -9261,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 4,
+      "third_moment": [
+        3375,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -27,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 2,
+      "third_moment": [
+        -21952,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 4,
+      "third_moment": [
+        27000,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -1728,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 0,
+      "third_moment": [
+        729,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 10,
+          "interpolated_classes": 4,
+          "extra_node_checks": 3
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 2,
+      "third_moment": [
+        -46656,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 4,
+      "third_moment": [
+        157464,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 6,
+      "third_moment": [
+        -46656,
+        1
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 7,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        }
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        44555,
+        35673
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 14,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 35,
+          "interpolated_classes": 4,
+          "extra_node_checks": 4
+        }
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        6145,
+        3243
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 12,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 35,
+          "interpolated_classes": 4,
+          "extra_node_checks": 4
+        }
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -99128449,
+        1533939
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 14,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 35,
+          "interpolated_classes": 4,
+          "extra_node_checks": 4
+        }
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -1672321,
+        1533939
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 12,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 35,
+          "interpolated_classes": 4,
+          "extra_node_checks": 4
+        }
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4737196096,
+        1533939
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 14,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 35,
+          "interpolated_classes": 4,
+          "extra_node_checks": 4
+        }
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4199178304,
+        1533939
+      ],
+      "comparisons": [
+        {
+          "method": "direct_inventory",
+          "coefficient_evaluations": 12,
+          "interpolated_classes": 0,
+          "extra_node_checks": 0
+        },
+        {
+          "method": "interpolate",
+          "coefficient_evaluations": 35,
+          "interpolated_classes": 4,
+          "extra_node_checks": 4
+        }
+      ]
+    }
+  ],
+  "malformed_optional_metadata_rejections": 4,
+  "synthetic_degree_bound_regressions": [
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "nodes": [
+        -34,
+        -26,
+        -18,
+        -10,
+        -2,
+        6,
+        14,
+        22
+      ],
+      "seventh_finite_differences_zero": 9,
+      "graph_realizability_claimed": false
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "nodes": [
+        -30,
+        -22,
+        -14,
+        -6,
+        2,
+        10,
+        18,
+        26
+      ],
+      "seventh_finite_differences_zero": 9,
+      "graph_realizability_claimed": false
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "nodes": [
+        -30,
+        -22,
+        -14,
+        -6,
+        2,
+        10,
+        18,
+        26
+      ],
+      "seventh_finite_differences_zero": 9,
+      "graph_realizability_claimed": false
+    },
+    {
+      "edges": [
+        1,
+        1,
+        1
+      ],
+      "nodes": [
+        -22,
+        -14,
+        -6,
+        2,
+        10,
+        18,
+        26,
+        34
+      ],
+      "seventh_finite_differences_zero": 9,
+      "graph_realizability_claimed": false
+    }
+  ],
+  "source_sha256": {
+    "../third_moment/third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+    "../third_moment/union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+    "review_global_third.py": "5f119edcf118414cbc6a3d87e82c043bb9814d687d5a16a05c4aa4c4cd3bba9f"
+  },
+  "oracle_artifact_sha256": {
+    "direct_third_oracle.json": "cae25fc613d09d404b2613a7b1214e755aeaeb5f340a747b8c883343415caf5e",
+    "twins_n6_third_oracle.json": "e5dbc1cc80ef8f424ef994ff4b2c5b5f2736b23a72b06a89934d449f0b39be45",
+    "twins_n7_third_oracle.json": "224d516607c7aa2ecbccafe2846c390d5adca6d2a326f2472d42858fb4977137",
+    "twins_n8_third_oracle.json": "a9ab1ff842dd8381759e489753d3791f03c4fd24871e0d45fc6adc0c9efed505"
+  },
+  "elapsed_seconds": 6.073604292003438
+}

@@ -1,0 +1,318 @@
+Running observables/cohort_review.py
+61 958 947 143 {'baseline': 0.001708, 'actual': 0.019456, 'shuffled': 0.000846}
+1297 4083 4109 0 {'baseline': -0.001856, 'actual': -0.002074, 'shuffled': -0.001972}
+2437 2024 2072 0 {'baseline': -0.000698, 'actual': -0.002547, 'shuffled': -0.0017}
+4129 1023 1025 0 {'baseline': -0.000763, 'actual': -0.000893, 'shuffled': -0.003707}
+Running observables/exchange_spectrum.py
+13 0.5113801452784503 0.4886198547215496
+17 0.8384983623078861 0.16150163769211387
+61 0.9989796505765655 0.006330988741591904
+1297 0.9998639817039722 8.336907919705368e-06
+2437 0.9999711969378142 8.561404017302164e-06
+4129 1.0000257796875158 5.039782451595594e-06
+Running observables/stress_exchange.py
+61 [('multiplicative_subgroup', -29, -0.618181), ('arithmetic_progression', -5, 0.000391), ('geometric_progression', -1, -1.102088), ('random_cohort_max_T6', 19, -0.156472), ('random_cohort_min_T6', -21, -0.165351), ('three_anchor_max_T6', 27, -0.331093), ('random_max_abs_triangle', 15, 1.09399)]
+1297 [('multiplicative_subgroup', 91, 0.095707), ('arithmetic_progression', -21, 0.145406), ('geometric_progression', -1, -0.103314), ('random_cohort_max_T6', 123, 0.070727), ('random_cohort_min_T6', -125, 0.083144), ('three_anchor_max_T6', 115, 0.064511), ('random_max_abs_triangle', -25, -0.121962)]
+2437 [('multiplicative_subgroup', 357, 0.020229), ('arithmetic_progression', 117, 0.600361), ('geometric_progression', 157, -0.464312), ('random_cohort_max_T6', 533, 0.415868), ('random_cohort_min_T6', -539, 0.428947), ('three_anchor_max_T6', 381, -0.108317), ('random_max_abs_triangle', 13, -1.585045)]
+4129 [('multiplicative_subgroup', -12, 3.213433), ('arithmetic_progression', -140, 0.265442), ('geometric_progression', 364, -1.039963), ('random_cohort_max_T6', 1268, 0.952747), ('random_cohort_min_T6', -1156, -0.364113), ('three_anchor_max_T6', 1236, -0.818557), ('random_max_abs_triangle', 540, 3.050322)]
+equal-feature pairs [{'p': 61, 'C': [0, 1, 2, 3, 7, 9], 'D': [0, 1, 2, 9, 10, 17], 'component_differences': [[0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [32, 1]], 'target_difference': [32, 1], 'all_lower_components_equal': True}, {'p': 61, 'C': [0, 1, 2, 4, 38, 52], 'D': [0, 1, 3, 8, 10, 21], 'component_differences': [[0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [32, 1]], 'target_difference': [32, 1], 'all_lower_components_equal': True}]
+Running observables/review_exchange.py
+13 6 exact high 0.5113801452784503 exact lower 0.4886198547215496
+17 6 exact high 0.8384983623078861 exact lower 0.16150163769211387
+61 6 exact high 0.9947721831319665 exact lower 0.005227816868033543
+1297 6 exact high 0.9999909791740711 exact lower 9.020825928933742e-06
+2437 7 exact high 0.9999923719290131 exact lower 7.628070986837672e-06
+4129 8 exact high 0.9999946979198686 exact lower 5.302080131412428e-06
+Saved independent review in 5.59 seconds
+Running observables/exchange_grouped.py
+65537 16 critical True high 0.9999997693874668 lower 2.306125331303968e-07 seconds 0.064005
+1000033 31 critical True high 0.999999994735015 lower 5.264984958369761e-09 seconds 0.027475
+6700417 50 critical True high 0.9999999996541924 lower 3.458075708225458e-10 seconds 0.300404
+6700417 64 critical False high 0.9999999994086165 lower 5.913835325270596e-10 seconds 0.132332
+Saved grouped spectra in 4.911 seconds
+Running novelty/review_exchange_grouped.py
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "row_type_histograms": 22,
+  "single_coordinate_coefficient_checks": 550,
+  "all_distinct_row_pair_histograms": 448,
+  "exact_containment_probabilities": 324,
+  "ordered_input_pairs_enumerated": 35033,
+  "odd_degree_cases": [
+    {
+      "p": 13,
+      "n": 6,
+      "d": 3,
+      "level_two_energy": "448/99"
+    },
+    {
+      "p": 13,
+      "n": 6,
+      "d": 5,
+      "level_two_energy": "64/77"
+    },
+    {
+      "p": 17,
+      "n": 6,
+      "d": 3,
+      "level_two_energy": "3520/1183"
+    }
+  ],
+  "source_sha256": "0d31dd3e14602f1428c17c1d2a16f64a6dab9e58425cb1c001f6240a497d676a",
+  "review_sha256": "088be159aa6e67f997b90a321f9988859b6335ee40d0252d79e27a21b8aa5d79"
+}
+Running novelty/verify_arithmetic_lift.py
+{
+  "passed": true,
+  "modular_diagonal_certificates": 20,
+  "root_checks": 384,
+  "exact_nonlifting_witnesses": 1,
+  "results_sha256": "354de5920521818b237d167c6250b664405df4c55c1cda007cc38bc8c0576868",
+  "verifier_sha256": "d401737a616a615170084e7555ecc34afdfa7c6dfca2cc25f86322d5e9843b92"
+}
+Running novelty/review_compressed.py
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "cover_checks": {
+    "plans": 495,
+    "supports": 12291
+  },
+  "distinct_pencils": 827,
+  "census_oracle_equalities": 4962,
+  "symbolic_all_field_cases": 756,
+  "scope": "Complete tiny polynomial/scalar oracles, all three cover modes and both symbolic/materialized branches; no production theorem",
+  "reviewed_source_sha256": "c92ad219679c17d704425d583a310729c3cc63f0ebfcc14418cd77c56fdda88d",
+  "reviewer_sha256": "6d8951d3511e461a42b0529144bae1dafc716c7dac65297bfb98d0e9e565df66"
+}
+Running spectral/verify_exact.py
+1000033 positive exact 10846139116118 lower 0.867504
+1000033 negative exact -11158353344624 lower 0.865619
+1009 positive exact 862267582 lower 0.819479
+1009 negative exact -1043024718 lower 0.85802
+101 positive exact 55826294 lower 0.604849
+101 negative exact -59775888 lower 0.777097
+4001 positive exact 4473226142 lower 0.873767
+4001 negative exact -4609398230 lower 0.861633
+401 positive exact 348758252 lower 0.799574
+401 negative exact -321570254 lower 0.877492
+65537 positive exact 199851414570 lower 0.863186
+65537 negative exact -304645098460 lower 0.866423
+Running spectral/extra_transport_check.py
+{
+  "p": 65537,
+  "m": 16383,
+  "norm_squared": 343365276,
+  "sum_entries": 50,
+  "sum_absolute_entries": 1900290,
+  "signed_quadratic_form": -76160140876,
+  "ntt_modulus": 998244353,
+  "ntt_length": 262144,
+  "integer_recovery_margin": 994443773,
+  "direct_small_rows_checked": 0,
+  "autocorrelation_computed": true,
+  "max_abs_nonzero_translation_numerator": 12426901,
+  "max_translation_shift": 17303,
+  "count_translation_ge_3_5": 1,
+  "rayleigh_H_display": -0.8664192374884315,
+  "status": "exact finite outlier with no nonzero overlap >=3/5; no asymptotic claim",
+  "file": "witness_65537_negative_512.bin",
+  "sha256": "3e3f43cb6fe766609cf9af1234aa63b129721e35fb44ec44b8237edd281c9ac9",
+  "strict_directional_rayleigh_lower_bound": [
+    866400,
+    1000000
+  ],
+  "rational_bound_exceeds_sqrt3_over2_squared_margin": 2595840000,
+  "source_sha256": "6c07ef22856a2d17e44e4afbf7225f6f2d5f89aaa0f57ac76daf73dfcb897437"
+}
+Running spectral/million_transport_check.py
+{
+  "p": 1000033,
+  "m": 250007,
+  "norm_squared": 195367076,
+  "sum_entries": 4910,
+  "sum_absolute_entries": 5580122,
+  "signed_quadratic_form": 169466354708,
+  "ntt_modulus": 998244353,
+  "ntt_length": 2097152,
+  "integer_recovery_margin": 987084109,
+  "direct_small_rows_checked": 0,
+  "autocorrelation_computed": true,
+  "max_abs_nonzero_translation_numerator": 2189980,
+  "max_translation_shift": 1,
+  "count_translation_ge_3_5": 1,
+  "rayleigh_H_display": 0.8674109166431235,
+  "status": "exact finite outlier with no nonzero overlap >=3/5; no asymptotic claim",
+  "file": "witness_1000033_positive_128.bin",
+  "sha256": "f3e0b411b86c65828c00c0b0d18bfe400fb5e1dce18e0b1d4a01a33caa664b6c",
+  "strict_directional_rayleigh_lower_bound": [
+    867000,
+    1000000
+  ],
+  "rational_bound_exceeds_sqrt3_over2_squared_margin": 6756000000,
+  "source_sha256": "af6be28b9d916826b36eb533ea03b08b83e40237b1bf6f319429a4a82066ba33"
+}
+Running novelty/review_spectral_exact.py
+{
+  "passed": true,
+  "sign_cases": 15680,
+  "witnesses": 11,
+  "large_witnesses": [
+    {
+      "file": "witness_65537_positive.bin",
+      "sha256": "c06db5ce1143d2a1a59c0cd68f4022982396e297e2c4ead5d6b21b7f80ded250",
+      "p": 65537,
+      "m": 16383,
+      "norm_squared": 904393715,
+      "sum_entries": 12395,
+      "signed_quadratic_form": 199851414570,
+      "directional_lower_bound": [
+        863186,
+        1000000
+      ],
+      "strict_square_margin": 8682026218546900131222809383043100,
+      "direct_rows_checked": 32,
+      "packing": {
+        "radix_bytes": 4,
+        "linear_coefficient_bound": 244715158
+      },
+      "autocorrelation": null
+    },
+    {
+      "file": "witness_65537_negative.bin",
+      "sha256": "16d570f4bb27fb0ee33bd1f563be9e926eeb04e4184eb2fc63ab5cd2713e6534",
+      "p": 65537,
+      "m": 16383,
+      "norm_squared": 1373473548,
+      "sum_entries": 4,
+      "signed_quadratic_form": -304645098460,
+      "directional_lower_bound": [
+        866423,
+        1000000
+      ],
+      "strict_square_margin": 18042093032641376855386015725648496,
+      "direct_rows_checked": 32,
+      "packing": {
+        "radix_bytes": 4,
+        "linear_coefficient_bound": 257167188
+      },
+      "autocorrelation": null
+    },
+    {
+      "file": "witness_65537_negative_512.bin",
+      "sha256": "3e3f43cb6fe766609cf9af1234aa63b129721e35fb44ec44b8237edd281c9ac9",
+      "p": 65537,
+      "m": 16383,
+      "norm_squared": 343365276,
+      "sum_entries": 50,
+      "signed_quadratic_form": -76160140876,
+      "directional_lower_bound": [
+        866400,
+        1000000
+      ],
+      "strict_square_margin": 16880585041865367248518802421760000,
+      "direct_rows_checked": 32,
+      "packing": {
+        "radix_bytes": 4,
+        "linear_coefficient_bound": 128583594
+      },
+      "autocorrelation": {
+        "all_shifts": 65537,
+        "max_abs_nonzero_numerator": 12426901,
+        "max_shift": 17303,
+        "count_ge_3_5_including_zero": 1,
+        "direct_sampled_shifts": 15,
+        "packing": {
+          "radix_bytes": 5,
+          "linear_coefficient_bound": 63070252857
+        }
+      }
+    }
+  ],
+  "int64_bounds": {
+    "p_at_most": 1000033,
+    "coefficient_at_most": 1024,
+    "m_at_most": 250007,
+    "sum_absolute_at_most": 256007168,
+    "norm_squared_at_most": 262151340032,
+    "quadratic_form_abs_at_most": 65539670067380224,
+    "ntt_residue_product_at_most": 996491786299899904,
+    "int64_max": 9223372036854775807
+  }
+}
+Running novelty/review_million_samples.py
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "file": "witness_1000033_positive_128.bin",
+  "sha256": "f3e0b411b86c65828c00c0b0d18bfe400fb5e1dce18e0b1d4a01a33caa664b6c",
+  "cpp_source_sha256": "49b8ffd38fff67bcdf3b4873e9f72046c5efc962f01a1c247a7b7c0f41f77bee",
+  "logged_cpp_sha256": "8be1ea5aa1cd91fc4f98b65f52a614f9edf86cab747f52ce52cd7576db7bfd0c",
+  "reviewer_sha256": "a93c635370ee91072c8acc56a2e89af2a2ad07e36dc3f6f0e807c60664089ce2",
+  "p": 1000033,
+  "m": 250007,
+  "direct_character_rows": [
+    {
+      "row": 2,
+      "value": 5204
+    },
+    {
+      "row": 142029,
+      "value": -15286
+    },
+    {
+      "row": 333226,
+      "value": 16793
+    },
+    {
+      "row": 500017,
+      "value": 5204
+    },
+    {
+      "row": 1000032,
+      "value": 5204
+    }
+  ],
+  "direct_autocorrelation_shifts": [
+    {
+      "shift": 0,
+      "value": 195367076
+    },
+    {
+      "shift": 1,
+      "value": 2189980
+    },
+    {
+      "shift": 2,
+      "value": 201128
+    },
+    {
+      "shift": 17,
+      "value": 249539
+    },
+    {
+      "shift": 142861,
+      "value": -654462
+    },
+    {
+      "shift": 333344,
+      "value": 161918
+    },
+    {
+      "shift": 500016,
+      "value": 124918
+    },
+    {
+      "shift": 1000032,
+      "value": 2189980
+    }
+  ],
+  "directional_lower_bound": [
+    867000,
+    1000000
+  ],
+  "strict_square_margin": 27204278231265607038297961217904000000,
+  "scope": "Full freshly compiled candidate replay plus independent sampled rows; not independent full million-point convolution"
+}
+Round2 verification passed. Exact finite artifacts and declared statistical checks only.

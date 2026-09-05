@@ -1,0 +1,61 @@
+{
+  "status": "independent scalar numerical audit passed; no exact nonzero-phase certificate",
+  "generic_complex_cases": [
+    {
+      "p": 7,
+      "sample": 0,
+      "all_phase_points": 49,
+      "direct_ambiguity_error": 1.7554167342883506e-16,
+      "direct_Wigner_error": 4.2918352930384893e-17,
+      "Fourier_covariance_error": 2.220635627294454e-16
+    },
+    {
+      "p": 7,
+      "sample": 1,
+      "all_phase_points": 49,
+      "direct_ambiguity_error": 2.2247786310271853e-16,
+      "direct_Wigner_error": 2.840240293521343e-17,
+      "Fourier_covariance_error": 2.0014830212433605e-16
+    },
+    {
+      "p": 7,
+      "sample": 2,
+      "all_phase_points": 49,
+      "direct_ambiguity_error": 1.8619006149354548e-16,
+      "direct_Wigner_error": 3.5231312390735516e-17,
+      "Fourier_covariance_error": 2.2887833992611187e-16
+    },
+    {
+      "p": 13,
+      "sample": 0,
+      "all_phase_points": 169,
+      "direct_ambiguity_error": 2.7755575615628914e-16,
+      "direct_Wigner_error": 2.850260183419878e-17,
+      "Fourier_covariance_error": 4.236704743275018e-16
+    },
+    {
+      "p": 13,
+      "sample": 1,
+      "all_phase_points": 169,
+      "direct_ambiguity_error": 3.3306690738754696e-16,
+      "direct_Wigner_error": 2.719520363448012e-17,
+      "Fourier_covariance_error": 4.484050470211362e-16
+    },
+    {
+      "p": 13,
+      "sample": 2,
+      "all_phase_points": 169,
+      "direct_ambiguity_error": 2.633125101432526e-16,
+      "direct_Wigner_error": 2.4371805799713305e-17,
+      "Fourier_covariance_error": 5.578909535698976e-16
+    }
+  ],
+  "fixed_operator_chirp_quotients": [
+    -0.877493305589021,
+    -0.013022823832575223
+  ],
+  "source_witness_sha256": "290c23ac0dac236f814cf8b82e1fdb1805ac3eb932f3a7c96c267bc77861c7fc",
+  "ambiguity_source_sha256": "976562a52347fd52852d345eacf39460c9fcb6fad752711a4997ee4cd55214b9",
+  "Wigner_source_sha256": "1651a09754b7c7543fa09607cd5083dfa0c049128849f5f713f657c3ce832e51",
+  "reviewer_sha256": "2ffa69fa67f635bd1e36c8b14dc6d86b171b7f42cae2f164c07bfa1db7d5a111"
+}

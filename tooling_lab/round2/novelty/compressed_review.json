@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "cover_checks": {
+    "plans": 495,
+    "supports": 12291
+  },
+  "distinct_pencils": 827,
+  "census_oracle_equalities": 4962,
+  "symbolic_all_field_cases": 756,
+  "scope": "Complete tiny polynomial/scalar oracles, all three cover modes and both symbolic/materialized branches; no production theorem",
+  "reviewed_source_sha256": "c92ad219679c17d704425d583a310729c3cc63f0ebfcc14418cd77c56fdda88d",
+  "reviewer_sha256": "6d8951d3511e461a42b0529144bae1dafc716c7dac65297bfb98d0e9e565df66"
+}

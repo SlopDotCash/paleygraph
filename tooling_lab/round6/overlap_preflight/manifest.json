@@ -1,0 +1,70 @@
+{
+  "schema": "overlap_preflight_manifest_v1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8426,
+      "sha256": "ea1d6f8aceac1e2e9d77948c8529cdea68a25f13918923f591d0ea739342ba20"
+    },
+    {
+      "path": "coset_medium_characteristic_sample0.catalog.json",
+      "bytes": 1015924,
+      "sha256": "541ed75b1e76cbad68efd3749af2316f168dfb027b3f297cbacb6e4407fb538e"
+    },
+    {
+      "path": "coset_medium_characteristic_sample0.certificate.json",
+      "bytes": 101612,
+      "sha256": "28559c457413bde8cfa1b873513754d94b87ed9dc36be80317c69e4387f6666a"
+    },
+    {
+      "path": "coset_small_characteristic_sample3.catalog.json",
+      "bytes": 982757,
+      "sha256": "4eb0752d11da4f3b7aaff835b0e8f7cfd28682cad030e9222c90d6d58ca23c7a"
+    },
+    {
+      "path": "coset_small_characteristic_sample3.certificate.json",
+      "bytes": 69784,
+      "sha256": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764"
+    },
+    {
+      "path": "counting_bounds.json",
+      "bytes": 2697,
+      "sha256": "4688431ee4dfd376f04afa5444bdec1129c37e285f30020fa1da16a45c931a5a"
+    },
+    {
+      "path": "counting_bounds.py",
+      "bytes": 2638,
+      "sha256": "0342faf20e83513f1334394cb168b0c7747b4948eabae9e1b09bd20686bf1e74"
+    },
+    {
+      "path": "overlap_cover.py",
+      "bytes": 7743,
+      "sha256": "989ecbab215758dff4ae7522bf5aa8e22b69da5404d878f83c44b58581bdccc1"
+    },
+    {
+      "path": "prior_art.md",
+      "bytes": 6349,
+      "sha256": "8cd664e06a7206707c722cac92978b0bce8d108570b561273b791cd2b884e2b4"
+    },
+    {
+      "path": "results.json",
+      "bytes": 4961,
+      "sha256": "3b9ee61ad88cb40656bc5786b7dec19d4f50cff149585adeed2847c54ee74439"
+    },
+    {
+      "path": "run_overlap.py",
+      "bytes": 5346,
+      "sha256": "286399f618c4f1927d530f8ee2bf1e90072596aab867403e81e72a5f86835683"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1759,
+      "sha256": "55ed0edd5e87690e832b2850ec3b200b64b1c568666cf261a01cf16f689f4e6a"
+    },
+    {
+      "path": "verify_overlap.py",
+      "bytes": 8307,
+      "sha256": "b530641192f0fb047735065eda7ee27f26e98b35bec32bb4d75d3b17a4513d21"
+    }
+  ]
+}

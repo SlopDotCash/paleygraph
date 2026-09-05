@@ -1,0 +1,773 @@
+{
+  "status": "Exact identities and literature-bound specializations passed",
+  "scope": "Singleton two-anchor necklaces with one or two occurrences of one anchor; not the full necklace or Paley conjectures",
+  "arithmetic": "Python integers in NumPy object arrays",
+  "numpy_version": "2.4.4",
+  "cases": [
+    {
+      "p": 5,
+      "depth": 12,
+      "tested_second_anchors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        -6,
+        -3,
+        20,
+        59,
+        14,
+        -263,
+        -600,
+        119,
+        3234,
+        5877
+      ],
+      "one_anchor_checks": 48,
+      "two_anchor_checks": 264,
+      "cross_trace_checks": 66,
+      "literal_tuple_checks": 60,
+      "triple_averaging_checks": 2,
+      "two_anchor_values_sha256": "d457e82c43b2b41f9bc8645d292a38b5eba4004493e2eb62d67d33c4dac20327",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": 8
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -7
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": -44
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": -9
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": 56
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": -32
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 53
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": -152
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": -7
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": 16,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md",
+          "averaged_distinct_contribution": 336,
+          "averaged_repeated_contribution": -36
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": 121,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md",
+          "averaged_distinct_contribution": 720,
+          "averaged_repeated_contribution": 0
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "depth": 12,
+      "tested_second_anchors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        10,
+        -35,
+        -300,
+        -933,
+        1694,
+        -6087,
+        -10328,
+        287799,
+        241714,
+        161557
+      ],
+      "one_anchor_checks": 144,
+      "two_anchor_checks": 792,
+      "cross_trace_checks": 66,
+      "literal_tuple_checks": 12,
+      "triple_averaging_checks": 2,
+      "two_anchor_values_sha256": "cc909dfdc11c4ee97a44d0e74aad01673e487b1ccd01904b12c55955ba0338a2",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": 48
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -95
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": 1388
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": 1583
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": 400
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": 18216
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 24157
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": -30352
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": -1791
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": -848,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md",
+          "averaged_distinct_contribution": -20112,
+          "averaged_repeated_contribution": -1260
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": 2233,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md",
+          "averaged_distinct_contribution": 15600,
+          "averaged_repeated_contribution": 0
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "depth": 12,
+      "tested_second_anchors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        -30,
+        -67,
+        -60,
+        59,
+        10150,
+        -22407,
+        50568,
+        1399,
+        1781098,
+        -5174731
+      ],
+      "one_anchor_checks": 192,
+      "two_anchor_checks": 1056,
+      "cross_trace_checks": 66,
+      "literal_tuple_checks": 0,
+      "triple_averaging_checks": 2,
+      "two_anchor_values_sha256": "c4764af80551a5979c9fe44e88ea221d9e9b5c2ce75f740f513cc4744f613284",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": 84
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -171
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": 1080
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": 1403
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": 10940
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": 21404
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 40801
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": 58532
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": 25637
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": -9392,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md",
+          "averaged_distinct_contribution": -146112,
+          "averaged_repeated_contribution": -3216
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": 15241,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md",
+          "averaged_distinct_contribution": 244800,
+          "averaged_repeated_contribution": 0
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "depth": 12,
+      "tested_second_anchors": [
+        1,
+        2,
+        28
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        42,
+        -227,
+        340,
+        -3301,
+        -20802,
+        103353,
+        -826968,
+        -7765321,
+        -47699630,
+        3519445
+      ],
+      "one_anchor_checks": 36,
+      "two_anchor_checks": 198,
+      "cross_trace_checks": 66,
+      "literal_tuple_checks": 0,
+      "triple_averaging_checks": 0,
+      "two_anchor_values_sha256": "94515a2990b5ee8e36215d09572fd6e5691ac46865bfb7a7b409a17992ebd097",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": 256
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -527
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": 9884
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": 10783
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": 31808
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": -7624
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 183341
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": 336896
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": 734225
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": -131984,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": 54457,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "depth": 12,
+      "tested_second_anchors": [
+        1,
+        3,
+        40
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        18,
+        157,
+        4100,
+        15323,
+        93142,
+        -1411143,
+        3007368,
+        31991351,
+        -43975910,
+        122357077
+      ],
+      "one_anchor_checks": 36,
+      "two_anchor_checks": 198,
+      "cross_trace_checks": 66,
+      "literal_tuple_checks": 0,
+      "triple_averaging_checks": 0,
+      "two_anchor_values_sha256": "1e70dc96126f8aba26bc6e795a01cfa8b1f02ec13d3470ec3395720f8c1e379a",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": -116
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -1715
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": -21760
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": -19997
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": -67516
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": 782900
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 519065
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": 4509308
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": -262723
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": 281968,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": -2039,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        }
+      ]
+    },
+    {
+      "p": 61,
+      "depth": 10,
+      "tested_second_anchors": [
+        1,
+        2,
+        60
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        -22,
+        -611,
+        -300,
+        -18789,
+        151550,
+        3135161,
+        20624552,
+        132034487
+      ],
+      "one_anchor_checks": 30,
+      "two_anchor_checks": 135,
+      "cross_trace_checks": 45,
+      "literal_tuple_checks": 0,
+      "triple_averaging_checks": 0,
+      "two_anchor_values_sha256": "0d66d2b9c78312e31abf7b3e72951229fbcf07dd074914d29b68be2168d2aeec",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": 672
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -2927
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": 56060
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": 59903
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": -171104
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": -1989032
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 284621
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": -2498016
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": 6253105
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": -1848848,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": 48313,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "depth": 10,
+      "tested_second_anchors": [
+        1,
+        5,
+        96
+      ],
+      "monochromatic_normalized_traces": [
+        1,
+        0,
+        -1,
+        130,
+        381,
+        -1980,
+        -11909,
+        -2700474,
+        -3302663,
+        142492552,
+        -637761801
+      ],
+      "one_anchor_checks": 30,
+      "two_anchor_checks": 135,
+      "cross_trace_checks": 45,
+      "literal_tuple_checks": 0,
+      "triple_averaging_checks": 0,
+      "two_anchor_values_sha256": "6ff49f6374eb48b214b6cd09ff1da568fc1f3baa46498361d8591ee6f552cbcd",
+      "examples": [
+        {
+          "k": 4,
+          "ell": 1,
+          "value": -284
+        },
+        {
+          "k": 4,
+          "ell": 2,
+          "value": -9499
+        },
+        {
+          "k": 6,
+          "ell": 1,
+          "value": -25048
+        },
+        {
+          "k": 6,
+          "ell": 2,
+          "value": -15445
+        },
+        {
+          "k": 6,
+          "ell": 3,
+          "value": 757548
+        },
+        {
+          "k": 8,
+          "ell": 1,
+          "value": 4457836
+        },
+        {
+          "k": 8,
+          "ell": 2,
+          "value": 873201
+        },
+        {
+          "k": 8,
+          "ell": 3,
+          "value": -20733452
+        },
+        {
+          "k": 8,
+          "ell": 4,
+          "value": -69301643
+        }
+      ],
+      "three_occurrence_examples": [
+        {
+          "labels": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "value": 4305808,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        },
+        {
+          "labels": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "value": 1651209,
+          "status": "Exact finite value; length-six formula proved in planar-necklace-reductions.md"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "one_anchor_checks": 516,
+    "two_anchor_checks": 2778,
+    "cross_trace_checks": 420,
+    "literal_tuple_checks": 72,
+    "triple_averaging_checks": 6
+  },
+  "source_sha256": {
+    "experiments/localized_necklace_identities.py": "ffa9f2b1b10e01794d0d7a5131d6883a226e1b4900da7342d0f8c3e815f60d9f",
+    "experiments/paley_exact.py": "dc49be40d787a8a8bb7eb638b4ea8574de60330f3000d2de9f08ab30c00c3b8c",
+    "sources/kunisky-2303.16475v1.html": "b16c8771a78741f54683e5a8e3acfe2fb9fee03e859ba55f49f9d5ee652a06da",
+    "sources/lu-zheng-zheng-1305.3405v3.html": "36cb40ed597d53c673c6dbe7bb1d96d6ddf4ec29ad90c918bc7b8850d9167337"
+  }
+}

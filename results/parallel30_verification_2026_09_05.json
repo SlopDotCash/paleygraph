@@ -1,0 +1,413 @@
+{
+  "status": "exact finite checks passed; no uniform upper bound or full conjecture proof",
+  "cases": [
+    {
+      "p": 5,
+      "n": 4,
+      "generator": 2,
+      "kappa": 3,
+      "tau": 0,
+      "triangles": 0,
+      "triangle_scaling_orbits": 0,
+      "relative_pair_categories": {},
+      "diagonal": [],
+      "triangle_D6": 0,
+      "triangle_D6_scaling_orbits": 0
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "kappa": 15,
+      "tau": 12,
+      "triangles": 32,
+      "triangle_scaling_orbits": 2,
+      "relative_pair_categories": {
+        "overlap": 32,
+        "opposite": 22,
+        "balanced": 6,
+        "good": 4
+      },
+      "diagonal": [
+        {
+          "representative": [
+            1,
+            2,
+            14
+          ],
+          "bad_count": 16,
+          "good_count": 0
+        },
+        {
+          "representative": [
+            1,
+            3,
+            13
+          ],
+          "bad_count": 16,
+          "good_count": 0
+        }
+      ],
+      "triangle_D6": 23040,
+      "triangle_D6_scaling_orbits": 2
+    },
+    {
+      "p": 97,
+      "n": 32,
+      "generator": 28,
+      "kappa": 12,
+      "tau": 12,
+      "triangles": 64,
+      "triangle_scaling_orbits": 2,
+      "relative_pair_categories": {
+        "overlap": 32,
+        "good": 50,
+        "balanced": 18,
+        "opposite": 28
+      },
+      "diagonal": [
+        {
+          "representative": [
+            1,
+            18,
+            78
+          ],
+          "bad_count": 18,
+          "good_count": 14
+        },
+        {
+          "representative": [
+            1,
+            19,
+            77
+          ],
+          "bad_count": 20,
+          "good_count": 12
+        }
+      ],
+      "triangle_D6": 576000,
+      "triangle_D6_scaling_orbits": 25
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "generator": 81,
+      "kappa": 15,
+      "tau": 12,
+      "triangles": 128,
+      "triangle_scaling_orbits": 2,
+      "relative_pair_categories": {
+        "overlap": 32,
+        "good": 164,
+        "balanced": 30,
+        "opposite": 30
+      },
+      "diagonal": [
+        {
+          "representative": [
+            1,
+            15,
+            241
+          ],
+          "bad_count": 16,
+          "good_count": 48
+        },
+        {
+          "representative": [
+            1,
+            22,
+            234
+          ],
+          "bad_count": 20,
+          "good_count": 44
+        }
+      ],
+      "triangle_D6": 3778560,
+      "triangle_D6_scaling_orbits": 82
+    },
+    {
+      "p": 215535361,
+      "n": 128,
+      "generator": 13293036,
+      "kappa": 6,
+      "tau": 6,
+      "triangles": 128,
+      "triangle_scaling_orbits": 1,
+      "relative_pair_categories": {
+        "overlap": 7,
+        "good": 108,
+        "opposite": 7,
+        "balanced": 6
+      },
+      "diagonal": [
+        {
+          "representative": [
+            1,
+            3739056,
+            211796304
+          ],
+          "bad_count": 20,
+          "good_count": 108
+        }
+      ],
+      "triangle_D6": 4976640,
+      "triangle_D6_scaling_orbits": 54
+    }
+  ],
+  "short_certificate": {
+    "p": 215535361,
+    "n": 128,
+    "generator": 25525303,
+    "triangle": [
+      1,
+      25525303,
+      190010057
+    ],
+    "ratio_exponents": [
+      0,
+      1,
+      18,
+      19,
+      109,
+      110,
+      127
+    ],
+    "bad_scale_exponents": [
+      0,
+      1,
+      18,
+      19,
+      26,
+      28,
+      45,
+      46,
+      62,
+      63,
+      64,
+      65,
+      66,
+      82,
+      83,
+      100,
+      102,
+      109,
+      110,
+      127
+    ],
+    "good_scale_exponents": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      101,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ],
+    "analytic_D6_lower_bound": 4976640,
+    "n_cubed": 2097152,
+    "norm_determinant": 215535361
+  },
+  "independent_direct_counts": [
+    {
+      "p": 5,
+      "n": 4,
+      "E3": 820,
+      "T6": 400,
+      "J6": 360,
+      "repeated_R6": 60,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "triangle_D6": 0,
+      "primitive_D6": 0,
+      "normalized_multiset_candidates": 40
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "E3": 986896,
+      "T6": 50560,
+      "J6": 577440,
+      "repeated_R6": 289776,
+      "distinct_balanced_R6": 34560,
+      "distinct_unbalanced_R6": 34560,
+      "triangle_D6": 23040,
+      "primitive_D6": 11520,
+      "normalized_multiset_candidates": 6528
+    },
+    {
+      "p": 97,
+      "n": 32,
+      "E3": 11090240,
+      "T6": 446720,
+      "J6": 3563520,
+      "repeated_R6": 3186240,
+      "distinct_balanced_R6": 1105920,
+      "distinct_unbalanced_R6": 2787840,
+      "triangle_D6": 576000,
+      "primitive_D6": 2211840,
+      "normalized_multiset_candidates": 32606
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "E3": 267810880,
+      "T6": 3750400,
+      "J6": 51893760,
+      "repeated_R6": 48905280,
+      "distinct_balanced_R6": 25482240,
+      "distinct_unbalanced_R6": 137779200,
+      "triangle_D6": 3778560,
+      "primitive_D6": 134000640,
+      "normalized_multiset_candidates": 370864
+    },
+    {
+      "p": 215535361,
+      "n": 128,
+      "E3": 68737280,
+      "T6": 30725120,
+      "J6": 22855680,
+      "repeated_R6": 2438400,
+      "distinct_balanced_R6": 1751040,
+      "distinct_unbalanced_R6": 10967040,
+      "triangle_D6": 4976640,
+      "primitive_D6": 5990400,
+      "normalized_multiset_candidates": 45606
+    }
+  ],
+  "witness_D6_ratio": "5355/1024",
+  "check_counts": {
+    "trial_division_prime": 5,
+    "dyadic_splitting_order": 5,
+    "exact_subgroup_order": 5,
+    "exact_triangle_count": 5,
+    "actual_zero_triangles": 5,
+    "triangle_orbit_count": 5,
+    "unique_zero_triple_partition": 5,
+    "relative_and_absolute_pair_counts_agree": 5,
+    "general_triangle_D6_bounds": 5,
+    "free_triangle_scaling": 7,
+    "relative_pair_lower_bound": 13,
+    "exact_diagonal_forbidden_ratios": 7,
+    "diagonal_bad_ratio_bound": 7,
+    "direct_zero_partition_count": 12992,
+    "single_orbit_D6_lower_bound": 4,
+    "witness_quartic_window": 1,
+    "witness_generator_orders": 1,
+    "witness_zero_triangle": 1,
+    "witness_twenty_forbidden_scales": 1,
+    "witness_each_good_scale": 108,
+    "analytic_counterexample_without_full_enumeration": 1,
+    "independent_cyclotomic_norm_determinant": 1,
+    "independent_Cpp_triangle_D6": 5,
+    "independent_Cpp_full_remainder": 6,
+    "primitive_remainder_also_exceeds_n_cubed": 1
+  },
+  "elapsed_seconds": 14.315000832997612,
+  "source_sha256": {
+    "experiments/parallel30_verify_2026_09_05.py": "0e96a8d096f92497d511279d3afe7b6b0475c1e91481f3042dc6e2cd7dd8ceae",
+    "experiments/parallel30_direct_six.cpp": "6e4259b90fe46bc7ca2e5cf92c6013de14fc221d24271aeaedef8b461ab2a720",
+    "experiments/cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288",
+    "results/parallel30_sparse_witness_2026_09_05.json": "e3a9b516e5f1c57dc6ca229084b34524cd40ab24094d340439221112bc46639c"
+  }
+}

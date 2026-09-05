@@ -1,0 +1,395 @@
+{
+  "claim": "Exact transfer checks for polynomial-size structured-class corollaries; imported asymptotic constants are not inferred from finite tests",
+  "exhaustive_remainder_and_directional_cases": 3869,
+  "exhaustive_fields": [
+    {
+      "p": 5,
+      "subsets": 16
+    },
+    {
+      "p": 7,
+      "subsets": 29
+    },
+    {
+      "p": 11,
+      "subsets": 232
+    },
+    {
+      "p": 13,
+      "subsets": 378
+    },
+    {
+      "p": 17,
+      "subsets": 3214
+    }
+  ],
+  "progression_cases": 20,
+  "perturbation_cases": 8,
+  "progression_records": [
+    {
+      "n": 4,
+      "M2": 52,
+      "M4": 388,
+      "maximum_row": 4,
+      "directional_pairing": "-384/5",
+      "remainder": "2324/5",
+      "p": 17,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        2,
+        2
+      ],
+      "scale": 1,
+      "shift": 0
+    },
+    {
+      "n": 4,
+      "M2": 52,
+      "M4": 388,
+      "maximum_row": 4,
+      "directional_pairing": "-384/5",
+      "remainder": "2324/5",
+      "p": 17,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        2,
+        2
+      ],
+      "scale": 2,
+      "shift": 16
+    },
+    {
+      "n": 4,
+      "M2": 52,
+      "M4": 388,
+      "maximum_row": 4,
+      "directional_pairing": "-384/5",
+      "remainder": "2324/5",
+      "p": 17,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        2,
+        2
+      ],
+      "scale": 3,
+      "shift": 7
+    },
+    {
+      "n": 4,
+      "M2": 52,
+      "M4": 292,
+      "maximum_row": 3,
+      "directional_pairing": "-384/5",
+      "remainder": "1844/5",
+      "p": 17,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 3,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 4,
+      "M2": 52,
+      "M4": 580,
+      "maximum_row": 4,
+      "directional_pairing": "576/5",
+      "remainder": "2324/5",
+      "p": 17,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 3,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 6,
+      "M2": 210,
+      "M4": 3894,
+      "maximum_row": 6,
+      "directional_pairing": "10560/13",
+      "remainder": "40062/13",
+      "p": 41,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        2,
+        3
+      ],
+      "scale": 1,
+      "shift": 0
+    },
+    {
+      "n": 6,
+      "M2": 210,
+      "M4": 3894,
+      "maximum_row": 6,
+      "directional_pairing": "10560/13",
+      "remainder": "40062/13",
+      "p": 41,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        2,
+        3
+      ],
+      "scale": 2,
+      "shift": 40
+    },
+    {
+      "n": 6,
+      "M2": 210,
+      "M4": 3894,
+      "maximum_row": 6,
+      "directional_pairing": "10560/13",
+      "remainder": "40062/13",
+      "p": 41,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        2,
+        3
+      ],
+      "scale": 3,
+      "shift": 7
+    },
+    {
+      "n": 6,
+      "M2": 210,
+      "M4": 2262,
+      "maximum_row": 4,
+      "directional_pairing": "-6912/13",
+      "remainder": "36318/13",
+      "p": 41,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 4,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 6,
+      "M2": 210,
+      "M4": 2166,
+      "maximum_row": 4,
+      "directional_pairing": "-9408/13",
+      "remainder": "37566/13",
+      "p": 41,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 4,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 9,
+      "M2": 792,
+      "M4": 15192,
+      "maximum_row": 6,
+      "directional_pairing": "-196032/95",
+      "remainder": "1639272/95",
+      "p": 97,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        3,
+        3
+      ],
+      "scale": 1,
+      "shift": 0
+    },
+    {
+      "n": 9,
+      "M2": 792,
+      "M4": 15192,
+      "maximum_row": 6,
+      "directional_pairing": "-196032/95",
+      "remainder": "1639272/95",
+      "p": 97,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        3,
+        3
+      ],
+      "scale": 2,
+      "shift": 96
+    },
+    {
+      "n": 9,
+      "M2": 792,
+      "M4": 15192,
+      "maximum_row": 6,
+      "directional_pairing": "-196032/95",
+      "remainder": "1639272/95",
+      "p": 97,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        3,
+        3
+      ],
+      "scale": 3,
+      "shift": 7
+    },
+    {
+      "n": 9,
+      "M2": 792,
+      "M4": 18552,
+      "maximum_row": 8,
+      "directional_pairing": "150528/95",
+      "remainder": "1611912/95",
+      "p": 97,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 8,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 9,
+      "M2": 792,
+      "M4": 19416,
+      "maximum_row": 8,
+      "directional_pairing": "205248/95",
+      "remainder": "1639272/95",
+      "p": 97,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 8,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 16,
+      "M2": 3856,
+      "M4": 133552,
+      "maximum_row": 10,
+      "directional_pairing": "-584832/17",
+      "remainder": "2855216/17",
+      "p": 257,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        4,
+        4
+      ],
+      "scale": 1,
+      "shift": 0
+    },
+    {
+      "n": 16,
+      "M2": 3856,
+      "M4": 133552,
+      "maximum_row": 10,
+      "directional_pairing": "-584832/17",
+      "remainder": "2855216/17",
+      "p": 257,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        4,
+        4
+      ],
+      "scale": 2,
+      "shift": 256
+    },
+    {
+      "n": 16,
+      "M2": 3856,
+      "M4": 133552,
+      "maximum_row": 10,
+      "directional_pairing": "-584832/17",
+      "remainder": "2855216/17",
+      "p": 257,
+      "kind": "proper_rank_two_GAP",
+      "shape": [
+        4,
+        4
+      ],
+      "scale": 3,
+      "shift": 7
+    },
+    {
+      "n": 16,
+      "M2": 3856,
+      "M4": 104080,
+      "maximum_row": 8,
+      "directional_pairing": "-1090752/17",
+      "remainder": "2860112/17",
+      "p": 257,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 8,
+      "meets_finite_edit_budget": true
+    },
+    {
+      "n": 16,
+      "M2": 3856,
+      "M4": 116752,
+      "maximum_row": 8,
+      "directional_pairing": "-868800/17",
+      "remainder": "2853584/17",
+      "p": 257,
+      "kind": "perturbed_arithmetic_progression",
+      "symmetric_difference": 2,
+      "original_maximum_row": 8,
+      "meets_finite_edit_budget": true
+    }
+  ],
+  "integer_Burgess_parameters_checked": 99,
+  "thresholds": [
+    {
+      "r": 2,
+      "threshold": "7/16"
+    },
+    {
+      "r": 3,
+      "threshold": "13/30"
+    },
+    {
+      "r": 4,
+      "threshold": "7/16"
+    },
+    {
+      "r": 5,
+      "threshold": "31/70"
+    },
+    {
+      "r": 6,
+      "threshold": "43/96"
+    },
+    {
+      "r": 7,
+      "threshold": "19/42"
+    },
+    {
+      "r": 8,
+      "threshold": "73/160"
+    }
+  ],
+  "exponent_records": [
+    {
+      "beta": "1/120",
+      "minimum_size_exponent": "53/120",
+      "row_saving": "1/30",
+      "directional_saving": "1/120"
+    },
+    {
+      "beta": "1/60",
+      "minimum_size_exponent": "9/20",
+      "row_saving": "1/30",
+      "directional_saving": "1/60"
+    },
+    {
+      "beta": "1/30",
+      "minimum_size_exponent": "7/15",
+      "row_saving": "1/30",
+      "directional_saving": "1/30"
+    },
+    {
+      "beta": "1/20",
+      "minimum_size_exponent": "29/60",
+      "row_saving": "1/30",
+      "directional_saving": "1/20"
+    }
+  ],
+  "primary_source": {
+    "url": "https://arxiv.org/html/2509.07765v1",
+    "inputs": [
+      "Introduction: classical Burgess estimate",
+      "Theorem 1.1: proper rank-two GAPs"
+    ],
+    "scope": "Theorems imported; no numerical value assigned to delta(epsilon)"
+  },
+  "source_sha256": {
+    "research/parallel4-classical-2026-09-04.md": "c2193bc6b6b68f9bc90be16290687ef0c31715a31f8d7407c048570564806e32",
+    "experiments/parallel4_classical_2026_09_04.py": "6e6943c1e32a3fb9fa82d5c930b0534eccef55722875e855188b9e545f7507da"
+  }
+}

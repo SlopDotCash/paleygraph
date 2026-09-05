@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "gf9_direct_complete_joint_censuses": 2,
+  "sets_per_gf9_census": 84,
+  "gf9_histogram": {
+    "-1": 72,
+    "3": 12
+  },
+  "permutation_null_same_histogram": true,
+  "permutation_null_has_pointwise_differences": true,
+  "gf49_direct_product_vs_bit_parity_checks": 2168,
+  "largest_difference_witness_directly_rechecked": {
+    "paley_value": 19,
+    "peisert_value": -21,
+    "C": [
+      0,
+      1,
+      7,
+      41,
+      47,
+      48
+    ]
+  },
+  "source_sha256": {
+    "controls.py": "e54b2429e658f4f653c9cf11d30efcd96ef57dbd9ad883c8a5fa00840a3f883b",
+    "census_six.cpp": "21f52ad798cf7c95cae3395ff9cc16ac7dc35db19b6a04ebbe3bfcb42385e679",
+    "results.json": "04e1f3c2912e6c98fab7b72845eb1886d8e29aa03a0b334a7ad03ce599ac010a"
+  }
+}

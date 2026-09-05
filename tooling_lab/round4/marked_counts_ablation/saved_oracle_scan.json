@@ -1,0 +1,22 @@
+{
+  "oracle_sha256": "f0814639bb27efae151c2f7c6ae27f435a84d61b9637779b1fed5cce07bb5802",
+  "findings": [],
+  "censuses": [
+    {
+      "graph": "Paley13",
+      "n": 7,
+      "marks": 3,
+      "literal_profiles": 14,
+      "checked_mark_sets": 286,
+      "difference_found": false
+    },
+    {
+      "graph": "Paley17",
+      "n": 8,
+      "marks": 3,
+      "literal_profiles": 14,
+      "checked_mark_sets": 680,
+      "difference_found": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "2c2f9c364277fd3e1658f7e0b862f91460134bca9a0a28373297adb7ef10fbc8",
+  "input_sha256": {
+    "third_moment/results.json": "c4ef2ac6da3639bf764e79029570945e5cd50883dc184dfba3fb0eeedb38c7bd",
+    "trace_invariants/residue_results.json": "6bdb47a16592db3de30f05cc044e46698e76554b8bf169e0a6271bc2d223b5ac",
+    "piece_discovery/results.json": "e33f37635088e83a8897154e15fba4327e23195f0d4916d14d448b90cb54ed9a"
+  },
+  "scope": "Saved exact evidence displayed; floating values only for standardized moments and plotting."
+}

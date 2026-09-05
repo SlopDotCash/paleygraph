@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "date": "2026-09-05",
+  "configurations": [
+    {
+      "q": 3,
+      "n": 3,
+      "maximum_k": 3
+    },
+    {
+      "q": 5,
+      "n": 5,
+      "maximum_k": 3
+    },
+    {
+      "q": 9,
+      "n": 6,
+      "maximum_k": 2
+    }
+  ],
+  "complete_polynomial_scalar_comparisons": 261,
+  "independent_selected_base_interpolations": 1335,
+  "whole_field_cases": 162,
+  "symbolic_node_ledger_cases": 87,
+  "sequential_family_subtraction_checks": 2200,
+  "candidate_sha256": {
+    "symbolic_batches.py": "bde92e5a68878389a19848b4e99e0873faab24162b1a8f4a1666d4bfec91e356",
+    "verify_exports.py": "f3e87027e479b9fce270c9e72d9b958fe1eee633e7bbeef6edb8a62eb1fa5f25"
+  },
+  "reviewer_sha256": "26102694466e0268a67f27e40b5f017bfb075bab1dba5f4c732ae35128568607",
+  "scope": "Independent prime/GF9 field arithmetic, complete coefficient/scalar enumeration, explicit selected bases; does not rerun large structured cases."
+}

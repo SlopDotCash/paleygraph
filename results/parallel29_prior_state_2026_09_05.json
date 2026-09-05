@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-05T20:16:17.399044+00:00",
+  "previous_turn_classification": "progress",
+  "prior_sha256": {
+    "experiments/parallel28_complete_remainder_2026_09_05.py": "9b7a55db00b37a839233c3199ad1ed2f135ecfa4a253377cb6fe0b05601c00fb",
+    "experiments/parallel28_final_audit_2026_09_05.py": "c432c1ff61d80fba07f61e9a188c5bde280908ada30621e84f11a986b602cc60",
+    "experiments/parallel28_verify_2026_09_05.py": "17b9cab4aff4e18b6a2e0496fffec18769208c564fed31b369fe032ffe850d3f",
+    "research/parallel28-moment-recurrence-2026-09-05.md": "59ee458120af5b78e41f5ece79b9e0a5a9c49ca2524805335d36b8a8c12ef3a9",
+    "research/parallel28-pass-summary-2026-09-05.md": "a29a0a92d51305c030bc5baa5a6ecc0039514305c2de76eff190ce615f503e9d",
+    "results/parallel28_complete_remainder_2026_09_05.json": "81832f29f51399917c81ae1184f318bc1ac18dbad81f3df4bd1d0215459ce063",
+    "results/parallel28_prior_state_2026_09_05.json": "4ae49171599a2a632bf214adb7b10f42973bdbe7bbc6fd8145773b9722e8cfa4",
+    "results/parallel28_source_scope_2026_09_05.json": "cfa02e06258694fde494755d690d69a0712b2183c40cc390b060d3b99880a36b",
+    "results/parallel28_verification_2026_09_05.json": "b73365c5a8d8ca4eaeaf725760948c63add31fb28b8882efbe80e1a5612fee35",
+    "results/parallel28_pass_audit_2026_09_05.json": "228819b1bf2f6e1181b6fee79dcb6919719cbd7fdb42dcd48f968c0c95c8ff3c",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

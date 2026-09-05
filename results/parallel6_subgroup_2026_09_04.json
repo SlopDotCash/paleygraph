@@ -1,0 +1,1025 @@
+{
+  "status": "all checks passed",
+  "scope": "Fixed exact certificates; uniform theorem is proved in the note, not by enumeration",
+  "fixed_prime_subgroup_case_count": 8,
+  "distinct_prime_field_count": 5,
+  "walk_moment_count": 32,
+  "core_certificate_count": 216,
+  "strict_interval_certificate_count": 213,
+  "covered_nonzero_frequency_order_pairs": 1440,
+  "centering_polynomial_certificate_count": 64,
+  "exact_full_group_equality_count": 2,
+  "exact_pentagon_equality_count": 1,
+  "pi_certificate": {
+    "lower": "3141592653589793238462643383279/1000000000000000000000000000000",
+    "upper": "39269908169872415480783042291/12500000000000000000000000000",
+    "width": "1/1000000000000000000000000000000",
+    "method": "Machin identity and alternating arctangent intervals"
+  },
+  "cosine_certificate": {
+    "Taylor_degree": 48,
+    "outward_rounding_denominator": "10000000000000000000000000",
+    "remainder": "|midpoint|^50/50! plus half-angle-interval width"
+  },
+  "fields": [
+    {
+      "prime": 5,
+      "subgroup_size": 2,
+      "subgroup_generator": 4,
+      "elements": [
+        1,
+        4
+      ],
+      "frequency_coset_representatives": [
+        1,
+        2
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 16,
+      "strict_interval_certificates": 15,
+      "covered_nonzero_frequency_order_pairs": 32,
+      "exact_full_group_equalities": 0,
+      "exact_pentagon_equalities": 1,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "0",
+      "minimum_margin_decimal_diagnostic": 0.0,
+      "largest_period_interval_width": "1/10000000000000000000000000",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 2,
+          "centered_energy": "6/5",
+          "nonzero_variance": "1/4"
+        },
+        {
+          "order": 2,
+          "origin_count": 2,
+          "origin_probability": "1/2",
+          "energy": 6,
+          "centered_energy": "14/5",
+          "nonzero_variance": "1/16"
+        },
+        {
+          "order": 3,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 20,
+          "centered_energy": "36/5",
+          "nonzero_variance": "1/16"
+        },
+        {
+          "order": 4,
+          "origin_count": 6,
+          "origin_probability": "3/8",
+          "energy": 70,
+          "centered_energy": "94/5",
+          "nonzero_variance": "9/256"
+        }
+      ]
+    },
+    {
+      "prime": 5,
+      "subgroup_size": 4,
+      "subgroup_generator": 2,
+      "elements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency_coset_representatives": [
+        1
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 8,
+      "strict_interval_certificates": 7,
+      "covered_nonzero_frequency_order_pairs": 32,
+      "exact_full_group_equalities": 1,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "0",
+      "minimum_margin_decimal_diagnostic": 0.0,
+      "largest_period_interval_width": "0",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 4,
+          "centered_energy": "4/5",
+          "nonzero_variance": "0"
+        },
+        {
+          "order": 2,
+          "origin_count": 4,
+          "origin_probability": "1/4",
+          "energy": 52,
+          "centered_energy": "4/5",
+          "nonzero_variance": "0"
+        },
+        {
+          "order": 3,
+          "origin_count": 12,
+          "origin_probability": "3/16",
+          "energy": 820,
+          "centered_energy": "4/5",
+          "nonzero_variance": "0"
+        },
+        {
+          "order": 4,
+          "origin_count": 52,
+          "origin_probability": "13/64",
+          "energy": 13108,
+          "centered_energy": "4/5",
+          "nonzero_variance": "0"
+        }
+      ]
+    },
+    {
+      "prime": 13,
+      "subgroup_size": 4,
+      "subgroup_generator": 8,
+      "elements": [
+        1,
+        5,
+        8,
+        12
+      ],
+      "frequency_coset_representatives": [
+        1,
+        2,
+        4
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 24,
+      "strict_interval_certificates": 24,
+      "covered_nonzero_frequency_order_pairs": 96,
+      "exact_full_group_equalities": 0,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "17097647221681852415173353/160000000000000000000000000",
+      "minimum_margin_decimal_diagnostic": 0.10686029513551158,
+      "largest_period_interval_width": "1/10000000000000000000000000",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 4,
+          "centered_energy": "36/13",
+          "nonzero_variance": "1/6"
+        },
+        {
+          "order": 2,
+          "origin_count": 4,
+          "origin_probability": "1/4",
+          "energy": 36,
+          "centered_energy": "212/13",
+          "nonzero_variance": "1/32"
+        },
+        {
+          "order": 3,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 424,
+          "centered_energy": "1416/13",
+          "nonzero_variance": "31/1536"
+        },
+        {
+          "order": 4,
+          "origin_count": 36,
+          "origin_probability": "9/64",
+          "energy": 5796,
+          "centered_energy": "9812/13",
+          "nonzero_variance": "175/24576"
+        }
+      ]
+    },
+    {
+      "prime": 17,
+      "subgroup_size": 4,
+      "subgroup_generator": 13,
+      "elements": [
+        1,
+        4,
+        13,
+        16
+      ],
+      "frequency_coset_representatives": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 32,
+      "strict_interval_certificates": 32,
+      "covered_nonzero_frequency_order_pairs": 128,
+      "exact_full_group_equalities": 0,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "454724497658208179932166351/3276800000000000000000000000",
+      "minimum_margin_decimal_diagnostic": 0.13877090382635748,
+      "largest_period_interval_width": "1/10000000000000000000000000",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 4,
+          "centered_energy": "52/17",
+          "nonzero_variance": "3/16"
+        },
+        {
+          "order": 2,
+          "origin_count": 4,
+          "origin_probability": "1/4",
+          "energy": 36,
+          "centered_energy": "356/17",
+          "nonzero_variance": "11/256"
+        },
+        {
+          "order": 3,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 400,
+          "centered_energy": "2704/17",
+          "nonzero_variance": "9/256"
+        },
+        {
+          "order": 4,
+          "origin_count": 36,
+          "origin_probability": "9/64",
+          "energy": 5124,
+          "centered_energy": "21572/17",
+          "nonzero_variance": "803/65536"
+        }
+      ]
+    },
+    {
+      "prime": 17,
+      "subgroup_size": 8,
+      "subgroup_generator": 9,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        13,
+        15,
+        16
+      ],
+      "frequency_coset_representatives": [
+        1,
+        3
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 16,
+      "strict_interval_certificates": 16,
+      "covered_nonzero_frequency_order_pairs": 128,
+      "exact_full_group_equalities": 0,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "224836183882684155943249207/5120000000000000000000000000",
+      "minimum_margin_decimal_diagnostic": 0.04391331716458675,
+      "largest_period_interval_width": "1/10000000000000000000000000",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 8,
+          "centered_energy": "72/17",
+          "nonzero_variance": "1/16"
+        },
+        {
+          "order": 2,
+          "origin_count": 8,
+          "origin_probability": "1/8",
+          "energy": 264,
+          "centered_energy": "392/17",
+          "nonzero_variance": "1/1024"
+        },
+        {
+          "order": 3,
+          "origin_count": 24,
+          "origin_probability": "3/64",
+          "energy": 15560,
+          "centered_energy": "2376/17",
+          "nonzero_variance": "25/65536"
+        },
+        {
+          "order": 4,
+          "origin_count": 264,
+          "origin_probability": "33/512",
+          "energy": 987784,
+          "centered_energy": "15112/17",
+          "nonzero_variance": "81/4194304"
+        }
+      ]
+    },
+    {
+      "prime": 17,
+      "subgroup_size": 16,
+      "subgroup_generator": 3,
+      "elements": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "frequency_coset_representatives": [
+        1
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 8,
+      "strict_interval_certificates": 7,
+      "covered_nonzero_frequency_order_pairs": 128,
+      "exact_full_group_equalities": 1,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "0",
+      "minimum_margin_decimal_diagnostic": 0.0,
+      "largest_period_interval_width": "0",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 16,
+          "centered_energy": "16/17",
+          "nonzero_variance": "0"
+        },
+        {
+          "order": 2,
+          "origin_count": 16,
+          "origin_probability": "1/16",
+          "energy": 3856,
+          "centered_energy": "16/17",
+          "nonzero_variance": "0"
+        },
+        {
+          "order": 3,
+          "origin_count": 240,
+          "origin_probability": "15/256",
+          "energy": 986896,
+          "centered_energy": "16/17",
+          "nonzero_variance": "0"
+        },
+        {
+          "order": 4,
+          "origin_count": 3856,
+          "origin_probability": "241/4096",
+          "energy": 252645136,
+          "centered_energy": "16/17",
+          "nonzero_variance": "0"
+        }
+      ]
+    },
+    {
+      "prime": 41,
+      "subgroup_size": 8,
+      "subgroup_generator": 27,
+      "elements": [
+        1,
+        3,
+        9,
+        14,
+        27,
+        32,
+        38,
+        40
+      ],
+      "frequency_coset_representatives": [
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 40,
+      "strict_interval_certificates": 40,
+      "covered_nonzero_frequency_order_pairs": 320,
+      "exact_full_group_equalities": 0,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "1933613100181260152875578999261/20971520000000000000000000000000",
+      "minimum_margin_decimal_diagnostic": 0.09220185757547665,
+      "largest_period_interval_width": "1/10000000000000000000000000",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 8,
+          "centered_energy": "264/41",
+          "nonzero_variance": "1/10"
+        },
+        {
+          "order": 2,
+          "origin_count": 8,
+          "origin_probability": "1/8",
+          "energy": 200,
+          "centered_energy": "4104/41",
+          "nonzero_variance": "9/640"
+        },
+        {
+          "order": 3,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 8240,
+          "centered_energy": "75696/41",
+          "nonzero_variance": "527/81920"
+        },
+        {
+          "order": 4,
+          "origin_count": 200,
+          "origin_probability": "25/512",
+          "energy": 445256,
+          "centered_energy": "1478280/41",
+          "nonzero_variance": "4029/2621440"
+        }
+      ]
+    },
+    {
+      "prime": 73,
+      "subgroup_size": 8,
+      "subgroup_generator": 10,
+      "elements": [
+        1,
+        10,
+        22,
+        27,
+        46,
+        51,
+        63,
+        72
+      ],
+      "frequency_coset_representatives": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        12,
+        18
+      ],
+      "orders": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "core_certificates": 72,
+      "strict_interval_certificates": 72,
+      "covered_nonzero_frequency_order_pairs": 576,
+      "exact_full_group_equalities": 0,
+      "exact_pentagon_equalities": 0,
+      "centering_polynomial_certificates": 8,
+      "minimum_rational_margin": "10029893842458058313612410547189/94371840000000000000000000000000",
+      "minimum_margin_decimal_diagnostic": 0.10628057948703827,
+      "largest_period_interval_width": "1/10000000000000000000000000",
+      "moments": [
+        {
+          "order": 1,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 8,
+          "centered_energy": "520/73",
+          "nonzero_variance": "1/9"
+        },
+        {
+          "order": 2,
+          "origin_count": 8,
+          "origin_probability": "1/8",
+          "energy": 168,
+          "centered_energy": "8168/73",
+          "nonzero_variance": "17/1152"
+        },
+        {
+          "order": 3,
+          "origin_count": 0,
+          "origin_probability": "0",
+          "energy": 5600,
+          "centered_energy": "146656/73",
+          "nonzero_variance": "551/73728"
+        },
+        {
+          "order": 4,
+          "origin_count": 168,
+          "origin_probability": "21/512",
+          "energy": 268968,
+          "centered_energy": "2857448/73",
+          "nonzero_variance": "7439/4718592"
+        }
+      ]
+    }
+  ],
+  "exponent_ledger": {
+    "new_M_exponent": "17/18",
+    "old_class_M_exponent": "23/24",
+    "improvement_in_exponent": "1/72",
+    "new_B_exponent": "1/18",
+    "E4_feedback_exponent": "44/9",
+    "feedback_exponents": [
+      {
+        "order": 3,
+        "n_exponent": "3",
+        "B_exponent": "1",
+        "two_exponent": "0"
+      },
+      {
+        "order": 4,
+        "n_exponent": "44/9",
+        "B_exponent": "10/9",
+        "two_exponent": "1/3"
+      },
+      {
+        "order": 5,
+        "n_exponent": "61/9",
+        "B_exponent": "11/9",
+        "two_exponent": "2/3"
+      },
+      {
+        "order": 6,
+        "n_exponent": "26/3",
+        "B_exponent": "4/3",
+        "two_exponent": "1"
+      },
+      {
+        "order": 7,
+        "n_exponent": "95/9",
+        "B_exponent": "13/9",
+        "two_exponent": "4/3"
+      },
+      {
+        "order": 8,
+        "n_exponent": "112/9",
+        "B_exponent": "14/9",
+        "two_exponent": "5/3"
+      },
+      {
+        "order": 9,
+        "n_exponent": "43/3",
+        "B_exponent": "5/3",
+        "two_exponent": "2"
+      },
+      {
+        "order": 10,
+        "n_exponent": "146/9",
+        "B_exponent": "16/9",
+        "two_exponent": "7/3"
+      },
+      {
+        "order": 11,
+        "n_exponent": "163/9",
+        "B_exponent": "17/9",
+        "two_exponent": "8/3"
+      },
+      {
+        "order": 12,
+        "n_exponent": "20",
+        "B_exponent": "2",
+        "two_exponent": "3"
+      },
+      {
+        "order": 13,
+        "n_exponent": "197/9",
+        "B_exponent": "19/9",
+        "two_exponent": "10/3"
+      },
+      {
+        "order": 14,
+        "n_exponent": "214/9",
+        "B_exponent": "20/9",
+        "two_exponent": "11/3"
+      },
+      {
+        "order": 15,
+        "n_exponent": "77/3",
+        "B_exponent": "7/3",
+        "two_exponent": "4"
+      },
+      {
+        "order": 16,
+        "n_exponent": "248/9",
+        "B_exponent": "22/9",
+        "two_exponent": "13/3"
+      },
+      {
+        "order": 17,
+        "n_exponent": "265/9",
+        "B_exponent": "23/9",
+        "two_exponent": "14/3"
+      },
+      {
+        "order": 18,
+        "n_exponent": "94/3",
+        "B_exponent": "8/3",
+        "two_exponent": "5"
+      },
+      {
+        "order": 19,
+        "n_exponent": "299/9",
+        "B_exponent": "25/9",
+        "two_exponent": "16/3"
+      },
+      {
+        "order": 20,
+        "n_exponent": "316/9",
+        "B_exponent": "26/9",
+        "two_exponent": "17/3"
+      },
+      {
+        "order": 21,
+        "n_exponent": "37",
+        "B_exponent": "3",
+        "two_exponent": "6"
+      },
+      {
+        "order": 22,
+        "n_exponent": "350/9",
+        "B_exponent": "28/9",
+        "two_exponent": "19/3"
+      },
+      {
+        "order": 23,
+        "n_exponent": "367/9",
+        "B_exponent": "29/9",
+        "two_exponent": "20/3"
+      },
+      {
+        "order": 24,
+        "n_exponent": "128/3",
+        "B_exponent": "10/3",
+        "two_exponent": "7"
+      },
+      {
+        "order": 25,
+        "n_exponent": "401/9",
+        "B_exponent": "31/9",
+        "two_exponent": "22/3"
+      },
+      {
+        "order": 26,
+        "n_exponent": "418/9",
+        "B_exponent": "32/9",
+        "two_exponent": "23/3"
+      },
+      {
+        "order": 27,
+        "n_exponent": "145/3",
+        "B_exponent": "11/3",
+        "two_exponent": "8"
+      },
+      {
+        "order": 28,
+        "n_exponent": "452/9",
+        "B_exponent": "34/9",
+        "two_exponent": "25/3"
+      },
+      {
+        "order": 29,
+        "n_exponent": "469/9",
+        "B_exponent": "35/9",
+        "two_exponent": "26/3"
+      },
+      {
+        "order": 30,
+        "n_exponent": "54",
+        "B_exponent": "4",
+        "two_exponent": "9"
+      },
+      {
+        "order": 31,
+        "n_exponent": "503/9",
+        "B_exponent": "37/9",
+        "two_exponent": "28/3"
+      },
+      {
+        "order": 32,
+        "n_exponent": "520/9",
+        "B_exponent": "38/9",
+        "two_exponent": "29/3"
+      }
+    ],
+    "finite_pairs_checked": 4096,
+    "max_saving": "1/18",
+    "maximizers": [
+      [
+        3,
+        3
+      ]
+    ],
+    "analytic_tail_reduction": "r,s>=3: 1/(2rs); r=1 peaks at s=21; r=2 peaks at s=3",
+    "conditional_centered_E4_M_exponent": "15/16",
+    "conditional_centered_E4_D_exponent": "1/16",
+    "explicit_constants": [
+      "sixth: 2^(1/6)",
+      "eighth: 3^(1/4)"
+    ]
+  },
+  "atom_counterexample": {
+    "prime": 5,
+    "subgroup": [
+      1,
+      4
+    ],
+    "frequency": 2,
+    "orders": [
+      1,
+      2
+    ],
+    "delta": "(1+sqrt(5))/4",
+    "correct_rhs": "(3+sqrt(5))/32",
+    "uncorrected_lhs": "(7+3*sqrt(5))/32",
+    "corrected_lhs": "(3-sqrt(5))/32",
+    "claim_refuted": "Deleting zero-atom terms from the exact centered gate",
+    "method": "Exact arithmetic and positivity in Q(sqrt(5))",
+    "quartic_endpoint_scope": false
+  },
+  "source_sha256": {
+    "research/parallel6-subgroup-2026-09-04.md": "cef1125e3f3951eb412e4865afb1c9f5d59730c67416090c21e59c65e77cd7b3",
+    "experiments/parallel6_subgroup_2026_09_04.py": "c45f9cb3a099a88203f2860a1eed74799868a0d71a3f4c39a5de390582f02156",
+    "research/parallel5-subgroup-2026-09-04.md": "feac7ce978920e6ffcbd05e070ac2aa06d6a437de92f9f3a8cfdcd54433dc55e",
+    "research/parallel4-subgroup-2026-09-04.md": "e3f76ed5f91e08470244f69ab115af2933754c731648f41254f88eda17dc4fe0"
+  },
+  "elapsed_seconds": 2.742788
+}

@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7731,
+      "sha256": "ed0a3facae91b6a6a4ccc9907cb791234abb2fa21e0c0592d39b2d9e10a5099c"
+    },
+    {
+      "path": "audit_certificates.py",
+      "bytes": 16094,
+      "sha256": "59f863722b2a2c28732c9b60aea50b37f0c56573bf6cac27de1ecba04a8d4931"
+    },
+    {
+      "path": "q101_uniqueness.json",
+      "bytes": 1742,
+      "sha256": "01b89ac85cd31488fffcedc07eb25c54dc6eea5b788876a159ad0e4737501eb9"
+    },
+    {
+      "path": "rational_ambiguity_witness_1297.json",
+      "bytes": 3820,
+      "sha256": "db9483c9b18b0bc03145de4e92c52d36232eebbfed9f4d52ae1da7c18340998e"
+    },
+    {
+      "path": "review_results.json",
+      "bytes": 16662,
+      "sha256": "77fcf1a52ea99a20094cbb98a21552956e8a82f55fb083f536613ddba35b389d"
+    }
+  ],
+  "reviewed_source_sha256": "0315f4367914d1cad6ceef2e08647cc706357762df0c00c5b68175aab41ee6ed",
+  "reviewed_results_sha256": "10f8f77d25261422c9c0077a9cff4fe23843a8d08fe2b7688677ad3b3534689d",
+  "scope": "Independent saved-certificate review; all writes confined to this lane."
+}

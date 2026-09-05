@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "theorems": {
+    "paley_functional_kernel_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "paley_functional_survival_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "proof_sha256": "b4660da70bbc9d0d9166e00698518c97bf505a76ba2ff4bf4c7beac01adb7557",
+  "scope": "Local formal kernel and survival cardinality identities; no server submission or full code theorem."
+}

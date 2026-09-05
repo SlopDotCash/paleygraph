@@ -1,0 +1,47 @@
+{
+  "status": "both large discovered covers and symbolic lists independently verified",
+  "records": [
+    {
+      "name": "interleaved-n1024-k64-3-pieces",
+      "q": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "independently_certified_minimum_piece_count": 3,
+      "maximal_support_sizes": [
+        342,
+        341,
+        341
+      ],
+      "weighted_degree": 189,
+      "monic_coefficient_equations_checked": 1024,
+      "rank_certification": "root-count factor divisibility gives unique monic relation and zero homogeneous kernel; no discovery solver reuse",
+      "complete_static_list_size": 0,
+      "symbolic_node_count": 1
+    },
+    {
+      "name": "interleaved-n1024-k64-2-pieces",
+      "q": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "independently_certified_minimum_piece_count": 2,
+      "maximal_support_sizes": [
+        512,
+        512
+      ],
+      "weighted_degree": 126,
+      "monic_coefficient_equations_checked": 1024,
+      "rank_certification": "root-count factor divisibility gives unique monic relation and zero homogeneous kernel; no discovery solver reuse",
+      "complete_static_list_size": 2,
+      "symbolic_node_count": 131073
+    }
+  ],
+  "source_sha256": {
+    "review_piece_scale.py": "cab9ad2d8d8da49759b8f39d103f27bca791569d43cada6cfda5683cfb8382b2",
+    "review_piece_discovery.py": "7575af1ce63700c03986dc0fa4a4ed14e8ab6a26790f055c22e5dac16d9e2f37",
+    "../../round4/novelty/review_support_batches.py": "26102694466e0268a67f27e40b5f017bfb075bab1dba5f4c732ae35128568607"
+  },
+  "results_sha256": "e33f37635088e83a8897154e15fba4327e23195f0d4916d14d448b90cb54ed9a",
+  "elapsed_seconds": 3.8380399579909863
+}

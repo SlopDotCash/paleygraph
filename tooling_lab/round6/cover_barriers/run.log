@@ -1,0 +1,13 @@
+partition DP 22140
+tiny maxima 793
+passed 10 bases, 8 samples, barycentric enumeration
+passed 10 bases, 8 samples, Newton verification
+passed 184756 bases, 4 samples, Newton verification
+hard F41_linear_middle [[14, 12, 11], [14, 12, 11], [14, 13, 12], [14, 13, 11]] seconds 19.808927750011208
+passed 12870 bases, 4 samples, Newton verification
+hard coset_small_characteristic [[13, 11, 9], [12, 10, 9], [11, 10, 9], [11, 10, 10]] seconds 1.3245224580023205
+passed 12870 bases, 4 samples, Newton verification
+hard coset_medium_characteristic [[11, 9, 8], [11, 9, 8], [11, 9, 8], [11, 9, 8]] seconds 0.7907329580048099
+passed 12870 bases, 4 samples, Newton verification
+hard coset_large_characteristic [[11, 8, 8], [11, 8, 8], [11, 8, 8], [11, 8, 8]] seconds 0.8092554169998039
+complete 52.95014962500136

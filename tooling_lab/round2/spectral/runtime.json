@@ -1,0 +1,8 @@
+{
+  "python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "seed": 20260905,
+  "source_sha256": "79f1b10852156a99c622f00dc6c4def91a544821c05b17af77e5be196dfe44bc"
+}

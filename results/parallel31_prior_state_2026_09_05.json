@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-09-05T21:21:20.713519+00:00",
+  "previous_turn_classification": "progress",
+  "prior_sha256": {
+    "research/parallel30-triangle-remainder-2026-09-05.md": "43669f2c9b9db9d43766455073d372e6aa21897e4087b706ea662322a30aa483",
+    "research/parallel30-pass-summary-2026-09-05.md": "5cbd6c85fc78adfd514ab8c5b3a0df52c12d733f02f0c760bfc352b84d501c54",
+    "experiments/parallel30_triangle_search_2026_09_05.py": "b56483f70d7b1ddc4b6f0305eb2e890527f3b769432ce9ee765f9c02c2272538",
+    "experiments/parallel30_verify_2026_09_05.py": "0e96a8d096f92497d511279d3afe7b6b0475c1e91481f3042dc6e2cd7dd8ceae",
+    "experiments/parallel30_direct_six.cpp": "6e4259b90fe46bc7ca2e5cf92c6013de14fc221d24271aeaedef8b461ab2a720",
+    "experiments/parallel30_final_audit_2026_09_05.py": "0492626c15361f4f5133b0c2c025d425dec17c1710ccd1d8018e244849638d06",
+    "results/parallel30_prior_state_2026_09_05.json": "e35eca8b7c36cbde0b39e2532f4bb2cde7aeeae403591a2bf73bcba367e3666c",
+    "results/parallel30_triangle_search_2026_09_05.json": "fe7cfb7b0d858a46d683ceaa15b8ca76fa20c96cf847db0a40d6357734e74c98",
+    "results/parallel30_sparse_witness_2026_09_05.json": "e3a9b516e5f1c57dc6ca229084b34524cd40ab24094d340439221112bc46639c",
+    "results/parallel30_direct_witness_2026_09_05.json": "3a01e77f2f180c858df7b6733d9f00fb26ef8f6f066227a6461576baae78dc97",
+    "results/parallel30_verification_2026_09_05.json": "b74d7c380457bad8596764d47647cb1a8836dae2272d49d66244c8916ad40bfe",
+    "results/parallel30_source_scope_2026_09_05.json": "d3ae2bc5c9196a02ea0a6419f956f162a544413d586f6feb91c45142e1760a7a",
+    "results/parallel30_pass_audit_2026_09_05.json": "55687c03a0a3260da09c1a978c46fcb1774315af77249805437521d5a97ae35c",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

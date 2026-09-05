@@ -1,0 +1,99 @@
+{
+ "check1_pointcount_identity": {
+  "cases": 528,
+  "weil_checked": 454,
+  "max_ratio_to_sqrtp": 0.9494253265550826
+ },
+ "check2_jacobi_expansion": {
+  "cases": 730,
+  "max_abs_error": 4.440892098500626e-14,
+  "boundary_term_formula": "none: the trivial-character term -chi(-a) cancels the t=0 term +chi(-a) exactly",
+  "records": [
+   {
+    "p": 5,
+    "m": 2,
+    "c": 1,
+    "W_D": -1,
+    "genus_upper": 0
+   },
+   {
+    "p": 5,
+    "m": 2,
+    "c": 2,
+    "W_D": -1,
+    "genus_upper": 0
+   },
+   {
+    "p": 5,
+    "m": 2,
+    "c": 3,
+    "W_D": -1,
+    "genus_upper": 0
+   },
+   {
+    "p": 5,
+    "m": 2,
+    "c": 2,
+    "W_D": -1,
+    "genus_upper": 0
+   },
+   {
+    "p": 5,
+    "m": 2,
+    "c": 4,
+    "W_D": -1,
+    "genus_upper": 0
+   },
+   {
+    "p": 5,
+    "m": 4,
+    "c": 1,
+    "W_D": 1,
+    "genus_upper": 1
+   },
+   {
+    "p": 5,
+    "m": 4,
+    "c": 2,
+    "W_D": 1,
+    "genus_upper": 1
+   },
+   {
+    "p": 5,
+    "m": 4,
+    "c": 3,
+    "W_D": 1,
+    "genus_upper": 1
+   },
+   {
+    "p": 5,
+    "m": 4,
+    "c": 2,
+    "W_D": 1,
+    "genus_upper": 1
+   },
+   {
+    "p": 5,
+    "m": 4,
+    "c": 4,
+    "W_D": 1,
+    "genus_upper": 1
+   },
+   {
+    "p": 7,
+    "m": 2,
+    "c": 1,
+    "W_D": -1,
+    "genus_upper": 0
+   },
+   {
+    "p": 7,
+    "m": 2,
+    "c": 2,
+    "W_D": -1,
+    "genus_upper": 0
+   }
+  ]
+ },
+ "scope": "finite exact identities only; the Katz-Sarnak independence heuristic is not tested here"
+}

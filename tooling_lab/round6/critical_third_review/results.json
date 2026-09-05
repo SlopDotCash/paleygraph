@@ -1,0 +1,588 @@
+{
+  "status": "passed",
+  "scope": "Independent literal polynomial checks and exact critical-weight exclusion; no production compiler import.",
+  "literal_triple_cases": 19,
+  "raw_union_equalities": 361,
+  "second_moment_union_equalities": 39,
+  "records": [
+    {
+      "q": 13,
+      "triple": [
+        0,
+        0,
+        0
+      ],
+      "type": "all_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 13,
+      "triple": [
+        0,
+        0,
+        2
+      ],
+      "type": "two_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 13,
+      "triple": [
+        0,
+        0,
+        1
+      ],
+      "type": "two_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 13,
+      "triple": [
+        0,
+        1,
+        2
+      ],
+      "type": "mono=False,theta=6",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 13,
+      "triple": [
+        0,
+        1,
+        3
+      ],
+      "type": "mono=False,theta=-2",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 13,
+      "triple": [
+        0,
+        1,
+        4
+      ],
+      "type": "mono=True,theta=2",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 17,
+      "triple": [
+        0,
+        0,
+        0
+      ],
+      "type": "all_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 17,
+      "triple": [
+        0,
+        0,
+        3
+      ],
+      "type": "two_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 17,
+      "triple": [
+        0,
+        0,
+        1
+      ],
+      "type": "two_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 17,
+      "triple": [
+        0,
+        1,
+        2
+      ],
+      "type": "mono=True,theta=-2",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 17,
+      "triple": [
+        0,
+        1,
+        3
+      ],
+      "type": "mono=False,theta=-6",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 17,
+      "triple": [
+        0,
+        1,
+        4
+      ],
+      "type": "mono=False,theta=2",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        0,
+        0
+      ],
+      "type": "all_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        0,
+        2
+      ],
+      "type": "two_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        0,
+        1
+      ],
+      "type": "two_equal",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        1,
+        2
+      ],
+      "type": "mono=False,theta=-10",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        1,
+        3
+      ],
+      "type": "mono=False,theta=-2",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        1,
+        4
+      ],
+      "type": "mono=False,theta=6",
+      "exact_union_coefficients": 19
+    },
+    {
+      "q": 29,
+      "triple": [
+        0,
+        1,
+        5
+      ],
+      "type": "mono=True,theta=2",
+      "exact_union_coefficients": 19
+    }
+  ],
+  "baseline_top_terms": [
+    {
+      "union": 9,
+      "q_degree": 10,
+      "coefficient": [
+        1,
+        216
+      ],
+      "critical_weight": [
+        13,
+        4
+      ]
+    },
+    {
+      "union": 10,
+      "q_degree": 10,
+      "coefficient": [
+        -11,
+        192
+      ],
+      "critical_weight": [
+        5,
+        2
+      ]
+    },
+    {
+      "union": 9,
+      "q_degree": 9,
+      "coefficient": [
+        -1,
+        3
+      ],
+      "critical_weight": [
+        9,
+        4
+      ]
+    },
+    {
+      "union": 12,
+      "q_degree": 11,
+      "coefficient": [
+        -1,
+        11520
+      ],
+      "critical_weight": [
+        2,
+        1
+      ]
+    },
+    {
+      "union": 8,
+      "q_degree": 8,
+      "coefficient": [
+        -1,
+        16
+      ],
+      "critical_weight": [
+        2,
+        1
+      ]
+    },
+    {
+      "union": 11,
+      "q_degree": 10,
+      "coefficient": [
+        99,
+        320
+      ],
+      "critical_weight": [
+        7,
+        4
+      ]
+    },
+    {
+      "union": 10,
+      "q_degree": 9,
+      "coefficient": [
+        1565,
+        384
+      ],
+      "critical_weight": [
+        3,
+        2
+      ]
+    },
+    {
+      "union": 6,
+      "q_degree": 6,
+      "coefficient": [
+        1,
+        24
+      ],
+      "critical_weight": [
+        3,
+        2
+      ]
+    }
+  ],
+  "second_moment_top_terms": [
+    {
+      "union": 6,
+      "q_degree": 7,
+      "coefficient": [
+        1,
+        720
+      ],
+      "critical_weight": [
+        5,
+        2
+      ]
+    },
+    {
+      "union": 7,
+      "q_degree": 7,
+      "coefficient": [
+        -1,
+        120
+      ],
+      "critical_weight": [
+        7,
+        4
+      ]
+    },
+    {
+      "union": 6,
+      "q_degree": 6,
+      "coefficient": [
+        -7,
+        240
+      ],
+      "critical_weight": [
+        3,
+        2
+      ]
+    },
+    {
+      "union": 8,
+      "q_degree": 7,
+      "coefficient": [
+        1,
+        32
+      ],
+      "critical_weight": [
+        1,
+        1
+      ]
+    },
+    {
+      "union": 7,
+      "q_degree": 6,
+      "coefficient": [
+        13,
+        60
+      ],
+      "critical_weight": [
+        3,
+        4
+      ]
+    },
+    {
+      "union": 6,
+      "q_degree": 5,
+      "coefficient": [
+        2,
+        9
+      ],
+      "critical_weight": [
+        1,
+        2
+      ]
+    },
+    {
+      "union": 9,
+      "q_degree": 7,
+      "coefficient": [
+        -5,
+        72
+      ],
+      "critical_weight": [
+        1,
+        4
+      ]
+    },
+    {
+      "union": 8,
+      "q_degree": 6,
+      "coefficient": [
+        -29,
+        32
+      ],
+      "critical_weight": [
+        0,
+        1
+      ]
+    }
+  ],
+  "arithmetic_statistic_top_weights": [
+    {
+      "statistic": "A1",
+      "Hasse_mass_weight": [
+        3,
+        2
+      ],
+      "maximum_term": {
+        "union": 8,
+        "q_degree": 3,
+        "coefficient": [
+          48,
+          1
+        ],
+        "critical_weight": [
+          -3,
+          2
+        ]
+      }
+    },
+    {
+      "statistic": "A2",
+      "Hasse_mass_weight": [
+        2,
+        1
+      ],
+      "maximum_term": {
+        "union": 7,
+        "q_degree": 3,
+        "coefficient": [
+          2,
+          1
+        ],
+        "critical_weight": [
+          -1,
+          4
+        ]
+      }
+    },
+    {
+      "statistic": "A3",
+      "Hasse_mass_weight": [
+        5,
+        2
+      ],
+      "maximum_term": {
+        "union": 8,
+        "q_degree": 3,
+        "coefficient": [
+          1,
+          1
+        ],
+        "critical_weight": [
+          -1,
+          2
+        ]
+      }
+    },
+    {
+      "statistic": "B3",
+      "Hasse_mass_weight": [
+        5,
+        2
+      ],
+      "maximum_term": {
+        "union": 8,
+        "q_degree": 3,
+        "coefficient": [
+          -1,
+          3
+        ],
+        "critical_weight": [
+          -1,
+          2
+        ]
+      }
+    },
+    {
+      "statistic": "A4",
+      "Hasse_mass_weight": [
+        3,
+        1
+      ],
+      "maximum_term": {
+        "union": 6,
+        "q_degree": 3,
+        "coefficient": [
+          -1,
+          48
+        ],
+        "critical_weight": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "statistic": "B4",
+      "Hasse_mass_weight": [
+        3,
+        1
+      ],
+      "maximum_term": {
+        "union": 6,
+        "q_degree": 3,
+        "coefficient": [
+          -1,
+          48
+        ],
+        "critical_weight": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "statistic": "M6",
+      "Hasse_mass_weight": [
+        4,
+        1
+      ],
+      "maximum_term": {
+        "union": 6,
+        "q_degree": 2,
+        "coefficient": [
+          1,
+          720
+        ],
+        "critical_weight": [
+          3,
+          2
+        ]
+      }
+    }
+  ],
+  "fixed_ordinary_top_weights": [
+    {
+      "statistic": "A2",
+      "maximum_term": {
+        "union": 7,
+        "q_degree": 3,
+        "coefficient": [
+          2,
+          1
+        ],
+        "critical_weight": [
+          -1,
+          4
+        ]
+      }
+    },
+    {
+      "statistic": "A3",
+      "maximum_term": {
+        "union": 8,
+        "q_degree": 3,
+        "coefficient": [
+          4,
+          3
+        ],
+        "critical_weight": [
+          -1,
+          2
+        ]
+      }
+    },
+    {
+      "statistic": "A4",
+      "maximum_term": {
+        "union": 7,
+        "q_degree": 2,
+        "coefficient": [
+          -1,
+          3
+        ],
+        "critical_weight": [
+          -1,
+          4
+        ]
+      }
+    }
+  ],
+  "leading_skew_constant_squared": [
+    8000,
+    1
+  ],
+  "mean_formula": "-q*binom((q-1)/2,3)*(n)_6/(q)_6; critical weight -1/2",
+  "source_sha256": {
+    "round6/critical_third_review/review_polynomials.py": "761ea6644a41f82910e498086ec3964cf07c01545e6883f9d9403b2c15b697b3",
+    "round6/critical_third/q_polynomials.json": "8ee7458b1a79e83dba600061a057da9a1d89b3a98c1e76c8d0dda42572bbc7d6",
+    "round5/review/review_union_backend.py": "cd98283642eac52c9de15f808511f795d7d315c8a0a941115b168a01c7762b69"
+  },
+  "elapsed_seconds": 12.980956082988996
+}

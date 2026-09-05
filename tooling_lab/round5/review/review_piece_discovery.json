@@ -1,0 +1,91 @@
+{
+  "status": "all successful bounded discoveries match independent complete lists",
+  "counts": {
+    "exact_minimum_cover_sizes_checked": 805,
+    "minimum_cover_lower_bounds_checked": 928,
+    "full_branch_identities": 1596,
+    "complete_factor_products": 805,
+    "independent_linear_rank_checks": 1962,
+    "complete_static_list_oracles": 793,
+    "complete_scalar_fiber_oracles": 164,
+    "complete_nodes_compared": 842,
+    "whole_field_cases": 140,
+    "cases": 928,
+    "status:complete_scalar_fibers_certified": 164,
+    "field_3_cases": 135,
+    "status:complete_static_list_certified": 629,
+    "dual_inconsistency_checks": 930,
+    "status:discovery_incomplete": 123,
+    "status:piece_cover_discovered": 12,
+    "field_5_cases": 625,
+    "field_9_cases": 168,
+    "fresh_export_readbacks": 10
+  },
+  "field_cases": [
+    {
+      "q": 3,
+      "n": 3,
+      "cases": 135
+    },
+    {
+      "q": 5,
+      "n": 4,
+      "cases": 625
+    },
+    {
+      "q": 9,
+      "n": 7,
+      "cases": 168
+    }
+  ],
+  "mutated_exports_rejected": [
+    "false_minimum_cover",
+    "false_node_count",
+    "nonmonic_relation",
+    "false_support",
+    "false_dual_residual"
+  ],
+  "intentional_incompleteness_controls": {
+    "three_distinct_polynomial_factors_without_simple_center": {
+      "status": "no_simple_split_center_within_budget",
+      "branches": [],
+      "centers": [
+        {
+          "center": 0,
+          "status": "not_squarefree",
+          "splitting_attempts": 0
+        },
+        {
+          "center": 1,
+          "status": "not_squarefree",
+          "splitting_attempts": 0
+        },
+        {
+          "center": 2,
+          "status": "not_squarefree",
+          "splitting_attempts": 0
+        }
+      ]
+    },
+    "nonpolynomial_Hensel_jets_rejected": {
+      "status": "some_simple_branches_nonpolynomial",
+      "branches": [],
+      "centers": [
+        {
+          "center": 0,
+          "status": "all_simple_roots_verified",
+          "splitting_attempts": 1
+        }
+      ],
+      "chosen_center": 0,
+      "factor_product_verified": false,
+      "root_method": "bounded Cantor-Zassenhaus, then Hensel coefficients and exact identities"
+    }
+  },
+  "source_sha256": {
+    "../piece_discovery/piece_discovery.py": "2c546e99c602906d9957b5d0c541b0d7ba15fd83359ac158f9d7bd703a1917a0",
+    "review_piece_discovery.py": "7575af1ce63700c03986dc0fa4a4ed14e8ab6a26790f055c22e5dac16d9e2f37",
+    "../../round4/novelty/review_support_batches.py": "26102694466e0268a67f27e40b5f017bfb075bab1dba5f4c732ae35128568607"
+  },
+  "elapsed_seconds": 29.937789542003884
+}

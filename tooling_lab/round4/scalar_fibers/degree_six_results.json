@@ -1,0 +1,256 @@
+{
+  "status": "passed",
+  "field": "GF(3^6)",
+  "full_scalar_constant_codeword_pairs": 531441,
+  "exact_nodes_compared": 1457,
+  "certificate": {
+    "schema": "exact-scalar-fiber-certificate/v1",
+    "status": "certified_complete",
+    "event_definition": "exists a codeword with at least s matches; MCA non-jointness is not imposed",
+    "field": {
+      "p": 3,
+      "e": 6,
+      "q": 729,
+      "modulus": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "n": 4,
+    "k": 1,
+    "s": 2,
+    "domain": [
+      0,
+      1,
+      3,
+      9
+    ],
+    "u0": [
+      226,
+      142,
+      226,
+      142
+    ],
+    "u1": [
+      1,
+      100,
+      1,
+      100
+    ],
+    "anchor": {
+      "scalar": 642,
+      "coefficients": [
+        517
+      ],
+      "codeword": [
+        517,
+        517,
+        517,
+        517
+      ],
+      "agreement_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "discovery": "unique_code_intersection"
+    },
+    "static_direction_certificate": {
+      "complete": true,
+      "kind": "disjoint_piece_root_count",
+      "piece_discovery": "supplied polynomial/partition witness; only verification is performed",
+      "pieces": [
+        {
+          "coefficients": [
+            1
+          ],
+          "coordinates": [
+            0,
+            2
+          ]
+        },
+        {
+          "coefficients": [
+            100
+          ],
+          "coordinates": [
+            1,
+            3
+          ]
+        }
+      ],
+      "distinct_piece_polynomials": 2,
+      "outside_piece_agreement_cap": 0,
+      "threshold": 2,
+      "piece_candidates": [
+        {
+          "coefficients": [
+            1
+          ],
+          "codeword": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "agreement_support": [
+            0,
+            2
+          ],
+          "qualifies": true
+        },
+        {
+          "coefficients": [
+            100
+          ],
+          "codeword": [
+            100,
+            100,
+            100,
+            100
+          ],
+          "agreement_support": [
+            1,
+            3
+          ],
+          "qualifies": true
+        }
+      ],
+      "complete_static_list": [
+        {
+          "coefficients": [
+            1
+          ],
+          "codeword": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "agreement_support": [
+            0,
+            2
+          ],
+          "qualifies": true
+        },
+        {
+          "coefficients": [
+            100
+          ],
+          "codeword": [
+            100,
+            100,
+            100,
+            100
+          ],
+          "agreement_support": [
+            1,
+            3
+          ],
+          "qualifies": true
+        }
+      ],
+      "complete_static_list_size": 2
+    },
+    "nonanchor_fibers": [
+      {
+        "scalar_domain": {
+          "kind": "all_except",
+          "excluded": [
+            642
+          ]
+        },
+        "direction_coefficients": [
+          1
+        ],
+        "direction_codeword": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "intercept_coefficients": [
+          226
+        ],
+        "intercept_codeword": [
+          226,
+          226,
+          226,
+          226
+        ],
+        "slope_coefficients": [
+          1
+        ],
+        "slope_codeword": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "agreement_support_for_every_scalar_in_domain": [
+          0,
+          2
+        ]
+      },
+      {
+        "scalar_domain": {
+          "kind": "all_except",
+          "excluded": [
+            642
+          ]
+        },
+        "direction_coefficients": [
+          100
+        ],
+        "direction_codeword": [
+          100,
+          100,
+          100,
+          100
+        ],
+        "intercept_coefficients": [
+          142
+        ],
+        "intercept_codeword": [
+          142,
+          142,
+          142,
+          142
+        ],
+        "slope_coefficients": [
+          100
+        ],
+        "slope_codeword": [
+          100,
+          100,
+          100,
+          100
+        ],
+        "agreement_support_for_every_scalar_in_domain": [
+          1,
+          3
+        ]
+      }
+    ],
+    "transport": "g(z)=f+(z-zstar)*h; inverse h=(g-f)/(z-zstar)",
+    "list_size_at_anchor": 1,
+    "list_size_at_every_nonanchor_scalar": 2,
+    "bad_scalar_count": 729,
+    "bad_scalar_set": {
+      "kind": "whole_field"
+    },
+    "complete_symbolic_node_count": 1457,
+    "elapsed_seconds": 0.000927
+  },
+  "scope": "n4,k1,s2 exact toy; field degree matches the profile, field size does not",
+  "source_sha256": {
+    "scalar_fibers.py": "42792a1315c9aafdd34de92bd52258fd62cad5495d3584b78bf2d2ac047a5353",
+    "degree_six_control.py": "2dd31001aaae82f4e92d94286cab9c22983e53aadad4dc4b60d1a272eb870213"
+  }
+}

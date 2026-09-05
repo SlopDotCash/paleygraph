@@ -1,0 +1,351 @@
+{
+  "checked_at_utc": "2026-09-05T18:26:04.661285+00:00",
+  "authenticated": true,
+  "platform_version": "0.9.7",
+  "account_user_id": "f3989809-c1a3-484d-a958-9b145e6dec8b",
+  "environment": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "supported_environments": {
+    "environments": [
+      {
+        "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+        "toolchain": "leanprover/lean4:v4.33.1",
+        "display_name": "Mathlib 0df444a (Lean v4.33.1)",
+        "is_default": true
+      },
+      {
+        "mathlib_rev": "777aaa61dcd2a1258d2b4962dbe983ede4d23b2e",
+        "toolchain": "leanprover/lean4:v4.29.0-rc3",
+        "display_name": "Mathlib 777aaa6 (Lean v4.29.0-rc3)",
+        "is_default": false
+      },
+      {
+        "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+        "toolchain": "leanprover/lean4:v4.30.0",
+        "display_name": "Mathlib c5ea003 (Lean v4.30.0)",
+        "is_default": false
+      }
+    ]
+  },
+  "lean_workspace": "/Users/shawwalters/prove2me_workspace",
+  "proposal": {
+    "id": "b5e7121a-eb3c-48f1-a495-29fffd24e71d",
+    "name": "Paley Graph Conjecture over Prime Fields",
+    "status": "Draft",
+    "visibility": "private",
+    "env": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+    "main_item_id": "68aba001-86ca-4b07-b23d-601227941990"
+  },
+  "proposal_items": [
+    {
+      "id": "68aba001-86ca-4b07-b23d-601227941990",
+      "kind": "reference",
+      "role": "goal",
+      "theorem_id": "973dac7a-fac5-4e8e-961a-936f59818faa",
+      "milestone_title": null,
+      "milestone_description": null,
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:53.496373+00:00",
+      "updated_at": "2026-09-05T12:02:53.496373+00:00",
+      "theorem_name": "paley_two_set_conjecture",
+      "theorem_title": "The prime-field (two-set) Paley graph conjecture: $|\\sum_{a\\in A,b\\in B}\\chi(a+b)| \\le p^{-\\delta}|A||B|$ for $|A|,|B|>p^{\\varepsilon}$",
+      "formal_statement": "theorem paley_two_set_conjecture :\n    \u2200 \u03b5 : \u211d, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192\n      \u2203 \u03b4 : \u211d, 0 < \u03b4 \u2227 \u2203 p\u2080 : \u2115, \u2200 (p : \u2115) [Fact p.Prime], p\u2080 < p \u2192\n        \u2200 A B : Finset (ZMod p), (p : \u211d) ^ \u03b5 < A.card \u2192 (p : \u211d) ^ \u03b5 < B.card \u2192\n          ((|\u2211 a \u2208 A, \u2211 b \u2208 B, quadraticChar (ZMod p) (a + b)| : \u2124) : \u211d)\n            \u2264 (p : \u211d) ^ (-\u03b4) * A.card * B.card := by sorry",
+      "natural_language_statement": "**Conjecture 7 (Paley graph conjecture)** in S. Satake, *On the restricted isometry property of the Paley matrix* (arXiv:2011.02907v2), quoted verbatim: \"Let $p$ be a prime. For $0 < \\alpha \\le 1$ and $\\beta > 0$, we say that the property $P(\\alpha,\\beta)$ holds if for every pair of $S, T \\subset \\mathbb{F}_p$ with $|S|, |T| > p^{\\alpha}$,\n$$\n\\Big|\\sum_{s \\in S,\\, t \\in T} \\chi(s-t)\\Big| \\le p^{-\\beta}\\,|S|\\,|T|.\n$$\nThen for each $0 < \\alpha \\le 1$, there exist $\\beta = \\beta(\\alpha) > 0$ and $p(\\alpha) > 0$ such that $P(\\alpha,\\beta)$ holds for any prime $p > p(\\alpha)$.\"\n\nHere $\\chi$ is the quadratic character (Legendre symbol) of $\\mathbb{F}_p$ with $\\chi(0) = 0$. The statement is the two-set form of the folklore conjecture that the quadratic residues behave like a random set on every polynomially dense pair of subsets; it is stated as Problem 4.3 in M.-C. Chang's survey *Character sums in finite fields* and as the unnamed \"Conjecture\" of Section 1 in Hanson\u2013Petridis (arXiv:1905.09134). It implies $\\omega(G_p) \\le p^{\\varepsilon}$ for the clique number of the Paley graph (Satake, Remark 9) and, through the interval case $A = B = \\{1,\\dots,N\\}$, that the least quadratic non-residue modulo $p$ is at most $2p^{\\varepsilon}$. **This statement is open.**\n\n**Formalization Note** $\\varepsilon = \\alpha$, $\\delta = \\beta$, $p_0 = p(\\alpha)$; the sum is written with $a + b$ (replace $B$ by $-B$ to recover $s - t$; $B$ ranges over all subsets, so nothing changes). The range $0 < \\varepsilon < 1$ omits only $\\alpha = 1$, for which $P(1,\\beta)$ is vacuous since $|S| > p$ is impossible. Sets are `Finset (ZMod p)`, the sum is an integer, and $p^{\\varepsilon}$, $p^{-\\delta}$ are real powers (`Real.rpow`).",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nimport Mathlib.Analysis.SpecialFunctions.Pow.Real\nset_option autoImplicit false\nopen Finset",
+      "source": "S. Satake, On the restricted isometry property of the Paley matrix, https://arxiv.org/abs/2011.02907 (v2, 6 Nov 2020), Section 2, p. 4, Conjecture 7 (Paley graph conjecture). Same statement: M.-C. Chang, Character sums in finite fields (survey), https://math.ucr.edu/~mcc/paper/DubProc.pdf, Section 4, p. 9, Problem 4.3; B. Hanson, G. Petridis, https://arxiv.org/abs/1905.09134 (v3), Section 1, 'Conjecture'.",
+      "status": "Open",
+      "tags": [
+        "number-theory",
+        "open-problem",
+        "character-sums",
+        "additive-combinatorics",
+        "paley-graph"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "c0ee8331-ebf3-4101-8e60-6ac1ada55719",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "088f1fc8-5c05-4c9a-88ba-06444c4e3bef",
+      "milestone_title": "Section 1 (moments-and-obstructions) \u2014 shift orthogonality: sum_x chi(x) chi(x+c) = -1 for c != 0",
+      "milestone_description": "Verbatim from research/moments-and-obstructions.md, Section 1 (\"Exact second moment and the standard size barrier\"): \"For distinct $u, v$, $\\sum_x \\chi(x-u)\\chi(x-v) = -1$. Indeed, for $x \\neq v$, the map $t = (x-u)/(x-v)$ is a bijection onto $\\mathbb{F}_p \\setminus \\{1\\}$. The product has character $\\chi(t)$ because $(x-v)^2$ is a nonzero square. The missing term $x = v$ is zero, and $\\sum_{t \\neq 1}\\chi(t) = -1$. For $u = v$, the sum is $p-1$.\"\n\nTarget form (take $u = 0$, $v = -c$): for every odd prime $p$ and every $c \\neq 0$ in $\\mathbb{F}_p$, $\\sum_{x \\in \\mathbb{F}_p}\\chi(x)\\chi(x+c) = -1$.",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:53.839537+00:00",
+      "updated_at": "2026-09-05T12:02:56.573644+00:00",
+      "theorem_name": "paley_shift_orthogonality",
+      "theorem_title": "Shift orthogonality of the quadratic character: $\\sum_x \\chi(x)\\chi(x+c) = -1$ for $c \\ne 0$",
+      "formal_statement": "theorem paley_shift_orthogonality (p : \u2115) [Fact p.Prime] (hp : p \u2260 2) (c : ZMod p) (hc : c \u2260 0) :\n    \u2211 x : ZMod p, quadraticChar (ZMod p) x * quadraticChar (ZMod p) (x + c) = -1 := by sorry",
+      "natural_language_statement": "Let $p$ be an odd prime and let $\\chi$ be the quadratic character of $\\mathbb{F}_p$: $\\chi(0) = 0$, $\\chi(x) = 1$ if $x$ is a nonzero square and $\\chi(x) = -1$ otherwise. For every $c \\in \\mathbb{F}_p$ with $c \\neq 0$,\n$$\n\\sum_{x \\in \\mathbb{F}_p} \\chi(x)\\,\\chi(x+c) = -1 .\n$$\n\nThis is the orthogonality relation for shifted products of the quadratic character. It is the only arithmetic input needed for the exact second moment of $F_B(x) = \\sum_{b \\in B}\\chi(x-b)$ and hence for the Vinogradov/Chung two-set bound; it holds verbatim for any non-trivial quadratic character.\n\n**Formalization Note** $\\chi$ is Mathlib's `quadraticChar (ZMod p)` (definitionally the Legendre symbol `legendreSym p`), with values in $\\mathbb{Z}$; the hypothesis `p \u2260 2` makes $p$ odd, i.e. $\\chi$ non-trivial.",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nset_option autoImplicit false\nopen Finset",
+      "source": "Elementary and classical. Stated with proof in this proposal's Solutions/Sol_paley_shift_orthogonality.lean; the same identity in the form sum_x chi(x-u)chi(x-v) = -1 (u != v) is Section 1 of the workspace note research/moments-and-obstructions.md (paleygraph workspace, 2026-09-04). Context: B. Hanson, G. Petridis, https://arxiv.org/abs/1905.09134 (v3), Section 1 (proof context of 'Theorem (Vinogradov)').",
+      "status": "Proved",
+      "tags": [
+        "number-theory",
+        "character-sums",
+        "paley-graph",
+        "legendre-symbol"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "da4793db-5464-45b0-accc-c7be6f58a2b8",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "3b819822-953a-4aec-8409-5f1197fa26a8",
+      "milestone_title": "Section 1 (moments-and-obstructions) \u2014 exact second moment M_2(B) = |B|(p - |B|)",
+      "milestone_description": "Verbatim from research/moments-and-obstructions.md, Section 1, with $F_B(x) = \\sum_{b\\in B}\\chi(x-b)$, $n = |B|$ and $M_{2}(B) = \\sum_{x \\in \\mathbb{F}_p} F_B(x)^{2}$: \"Consequently, $\\sum_x F_B(x) = 0$, $M_2(B) = pn - n^2$.\"\n\nTarget: for every odd prime $p$ and every $B \\subseteq \\mathbb{F}_p$, $\\sum_{x\\in\\mathbb{F}_p}\\big(\\sum_{b\\in B}\\chi(x-b)\\big)^2 = |B|(p-|B|)$.",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:54.115597+00:00",
+      "updated_at": "2026-09-05T12:02:56.907286+00:00",
+      "theorem_name": "paley_second_moment",
+      "theorem_title": "Exact second moment: $\\sum_x\\big(\\sum_{b\\in B}\\chi(x-b)\\big)^2 = |B|(p-|B|)$",
+      "formal_statement": "theorem paley_second_moment (p : \u2115) [Fact p.Prime] (hp : p \u2260 2) (B : Finset (ZMod p)) :\n    \u2211 x : ZMod p, (\u2211 b \u2208 B, quadraticChar (ZMod p) (x - b)) ^ 2\n      = (B.card : \u2124) * ((p : \u2124) - B.card) := by sorry",
+      "natural_language_statement": "Let $p$ be an odd prime, $\\chi$ the quadratic character of $\\mathbb{F}_p$ with $\\chi(0) = 0$, and $B \\subseteq \\mathbb{F}_p$ an arbitrary subset. Then\n$$\n\\sum_{x \\in \\mathbb{F}_p}\\Big(\\sum_{b \\in B}\\chi(x-b)\\Big)^2 = |B|\\,\\big(p - |B|\\big).\n$$\n\nEquivalently, the function $F_B(x) = \\sum_{b \\in B}\\chi(x-b)$ has mean square $|B|(p-|B|)/p$ over $\\mathbb{F}_p$. The identity is exact and holds for the empty and the full set (both sides are $0$). It is the reason the second-moment (Vinogradov/Chung) bound is non-trivial only when $|A||B| > p$: second moments alone contain no information below the square-root scale.\n\n**Formalization Note** $\\chi$ is `quadraticChar (ZMod p)` with integer values; `p \u2260 2` makes $p$ odd. $|B|$ is `Finset.card`, cast to $\\mathbb{Z}$.",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nset_option autoImplicit false\nopen Finset",
+      "source": "Elementary and classical. Stated with proof in this proposal's Solutions/Sol_paley_second_moment.lean; the identity M_2(B) = pn - n^2 (n = |B|) is displayed in Section 1 of the workspace note research/moments-and-obstructions.md (paleygraph workspace, 2026-09-04).",
+      "status": "Proved",
+      "tags": [
+        "number-theory",
+        "second-moment",
+        "character-sums",
+        "paley-graph"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "c584d555-71a0-4385-808c-0d96afeb3b7c",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "63bb5a7e-af3a-405c-ab99-53cb381ac121",
+      "milestone_title": "Theorem (Vinogradov), Hanson\u2013Petridis \u00a71 \u2014 two-set bound, sharpened form S^2 <= |A||B|(p - |B|)",
+      "milestone_description": "Verbatim from B. Hanson, G. Petridis, arXiv:1905.09134v3, Section 1, with $S_\\chi(A,B) = \\sum_{a\\in A}\\sum_{b\\in B}\\chi(a+b)$: \"Theorem (Vinogradov). For any subsets $A$ and $B$ of $\\mathbb{F}_p$ and any non-trivial multiplicative character $\\chi$, we have the estimate $|S_\\chi(A,B)| \\le \\sqrt{p|A||B|}$.\" (The authors add: \"Any improvement on the estimate $|A||B|$ is called non-trivial, and so we see that Vinogradov's theorem provides a non-trivial estimate when $|A||B| > p$.\")\n\nTarget (sharpened form, quadratic character, difference convention): for every odd prime $p$ and all $A, B \\subseteq \\mathbb{F}_p$, $\\big(\\sum_{a\\in A}\\sum_{b\\in B}\\chi(a-b)\\big)^2 \\le |A|\\,|B|\\,(p-|B|)$; this implies Vinogradov's bound since $p - |B| \\le p$.",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:54.426801+00:00",
+      "updated_at": "2026-09-05T12:02:57.266413+00:00",
+      "theorem_name": "paley_chung_bound",
+      "theorem_title": "Vinogradov/Chung two-set bound: $\\big(\\sum_{a\\in A}\\sum_{b\\in B}\\chi(a-b)\\big)^2 \\le |A||B|(p-|B|)$",
+      "formal_statement": "theorem paley_chung_bound (p : \u2115) [Fact p.Prime] (hp : p \u2260 2) (A B : Finset (ZMod p)) :\n    (\u2211 a \u2208 A, \u2211 b \u2208 B, quadraticChar (ZMod p) (a - b)) ^ 2\n      \u2264 (A.card : \u2124) * B.card * ((p : \u2124) - B.card) := by sorry",
+      "natural_language_statement": "Let $p$ be an odd prime and $\\chi$ the quadratic character of $\\mathbb{F}_p$ with $\\chi(0) = 0$. For all subsets $A, B \\subseteq \\mathbb{F}_p$,\n$$\n\\Big(\\sum_{a \\in A}\\sum_{b \\in B}\\chi(a-b)\\Big)^2 \\le |A|\\,|B|\\,\\big(p - |B|\\big).\n$$\n\nIn particular $\\big|\\sum_{a\\in A,\\,b\\in B}\\chi(a-b)\\big| \\le \\sqrt{p\\,|A|\\,|B|}$, which is Vinogradov's estimate as stated in Hanson\u2013Petridis, Section 1 (\"Theorem (Vinogradov)\"); the sharper factor $p - |B|$ comes from the exact second moment. The bound is non-trivial only when $|A||B| > p$ \u2014 the square-root barrier that every known method for arbitrary sets stops at \u2014 and, since the second moment is exact, it cannot be improved by second-moment arguments.\n\n**Formalization Note** $\\chi$ is `quadraticChar (ZMod p)` with integer values; `p \u2260 2` makes $p$ odd. The difference $a - b$ is used (replace $B$ by $-B$ for $a + b$). Cardinalities are cast to $\\mathbb{Z}$.",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nset_option autoImplicit false\nopen Finset",
+      "source": "Vinogradov's estimate |S_chi(A,B)| <= sqrt(p|A||B|): B. Hanson, G. Petridis, Refined estimates concerning sumsets contained in the roots of unity, Proc. Lond. Math. Soc. (3) 121 (2020), no. 2, 287-292, https://arxiv.org/abs/1905.09134 (v3), Section 1, 'Theorem (Vinogradov)', attributed there to I. M. Vinogradov, Elements of Number Theory, Dover (1954), Chapter 5, Exercise 8. The sharpened form with the factor (p-|B|) is Cauchy-Schwarz plus the exact second moment (S. Satake, arXiv:2011.02907, cites F. Chung, Several generalizations of Weil's sums, J. Number Theory 49 (1994) 95-106, for the general bound; theorem number not verified here). Full proof: Solutions/Sol_paley_chung_bound.lean in this proposal.",
+      "status": "Proved",
+      "tags": [
+        "number-theory",
+        "character-sums",
+        "paley-graph",
+        "cauchy-schwarz"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "f4994443-2042-48f9-afc9-9e788a7f242d",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "3168650d-eaa9-4a62-b26e-2b51a554f39c",
+      "milestone_title": "Background fact (sigma brief) \u2014 interval case of the Paley bound gives a non-residue <= 2N",
+      "milestone_description": "From the workspace brief research/sigma-brief-2026-09-05.md (background facts): \"The conjecture for $A = B = \\{1,\\dots,N\\}$ with $N = p^{\\varepsilon}$ implies the least quadratic non-residue is at most $2N$, i.e. it implies Vinogradov's conjecture, which is open. Any general proof must therefore beat the Burgess barrier for short interval character sums as a special case.\"\n\nTarget (fixed $p$ and $N$): if $2N < p$ and $\\sum_{a=1}^{N}\\sum_{b=1}^{N}\\chi(a+b) < N^2$, then some $n \\in [2, 2N]$ satisfies $\\chi(n) = -1$.",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:54.708838+00:00",
+      "updated_at": "2026-09-05T12:02:57.590061+00:00",
+      "theorem_name": "paley_interval_nonresidue",
+      "theorem_title": "Interval case of the Paley bound forces a quadratic non-residue in $[2, 2N]$",
+      "formal_statement": "theorem paley_interval_nonresidue (p : \u2115) [Fact p.Prime] (N : \u2115) (hN : 2 * N < p)\n    (h : \u2211 a \u2208 Icc 1 N, \u2211 b \u2208 Icc 1 N,\n        quadraticChar (ZMod p) ((a : ZMod p) + (b : ZMod p)) < (N : \u2124) ^ 2) :\n    \u2203 n : \u2115, 2 \u2264 n \u2227 n \u2264 2 * N \u2227 quadraticChar (ZMod p) (n : ZMod p) = -1 := by sorry",
+      "natural_language_statement": "Let $p$ be a prime and $N$ a natural number with $2N < p$. Write $\\chi$ for the quadratic character of $\\mathbb{F}_p$ ($\\chi(0) = 0$), evaluated at an integer $n$ through $n \\bmod p$. If\n$$\n\\sum_{a=1}^{N}\\sum_{b=1}^{N}\\chi(a+b) < N^{2},\n$$\nthen there is an integer $n$ with $2 \\le n \\le 2N$ and $\\chi(n) = -1$, i.e. a quadratic non-residue modulo $p$ in $[2, 2N]$.\n\nThis is the link between the two-set Paley graph conjecture and the least quadratic non-residue: with $A = B = \\{1,\\dots,N\\}$ and $N = \\lceil p^{\\varepsilon}\\rceil$, any bound $\\big|\\sum_{a\\in A,b\\in B}\\chi(a+b)\\big| \\le p^{-\\delta}|A||B| < N^2$ forces a non-residue below $2p^{\\varepsilon}$. Hence a proof of the conjecture must beat, as a special case, the Burgess exponent for the least non-residue ($p^{1/(4\\sqrt{e})+\\varepsilon}$, Chang's survey, Corollary 1.3).\n\n**Formalization Note** The double sum runs over `Finset.Icc 1 N` with the natural numbers cast into `ZMod p`; $\\chi$ is `quadraticChar (ZMod p)` with integer values; no oddness hypothesis on $p$ is needed.",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nimport Mathlib.Order.Interval.Finset.Nat\nset_option autoImplicit false\nopen Finset",
+      "source": "Elementary. Consequence recorded as a background fact in the paleygraph workspace brief research/sigma-brief-2026-09-05.md ('The conjecture for A = B = {1,...,N} with N = p^eps implies the least quadratic non-residue is at most 2N'); Burgess context: M.-C. Chang, Character sums in finite fields (survey), https://math.ucr.edu/~mcc/paper/DubProc.pdf, Section 1, Corollary 1.3, and Section 4, Problem 4.3. Full proof: Solutions/Sol_paley_interval_nonresidue.lean in this proposal.",
+      "status": "Proved",
+      "tags": [
+        "number-theory",
+        "character-sums",
+        "quadratic-nonresidue",
+        "paley-graph"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "a4e1c07e-16ba-4e0b-9fc9-68080d39ae74",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "ca0607b1-a20c-4460-a5ab-61d9de0e8ad3",
+      "milestone_title": "Theorem 4.4 (Karacuba), Chang survey \u00a74 \u2014 amplification bound for |A| > p^{1/2+\u03b4}, |B| > p^\u03b4",
+      "milestone_description": "Verbatim from M.-C. Chang, *Character sums in finite fields* (survey), Section 4, p. 9: \"Theorem 4.4. (Karacuba) Let $\\chi$ be a non-trivial multiplicative character mod $p$. If $|A| > p^{\\frac12+\\delta}$, $|B| > p^{\\delta}$, then $\\big|\\sum_{x\\in A, y\\in B}\\chi(x+y)\\big| \\ll p^{-0.05\\delta^2}|A||B|$.\" Chang attributes it to Karacuba [Kar3], *A certain arithmetic sum*, Soviet Math. Dokl. 12 (1971), no. 4, 1172\u20131174, and adds the remark: \"It is unknown if there is non-trivial bound on the character sum $\\sum_{x\\in A,y\\in B}\\chi(x+y)$ for $|A| = |B| \\sim p^{\\frac12}$, not even for the special case when $A = B = H < \\mathbb{F}_p^{*}$.\"\n\nTarget: the statement for the quadratic character, with the implied constant depending on $\\delta$ only.",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:55.028782+00:00",
+      "updated_at": "2026-09-05T12:02:57.86164+00:00",
+      "theorem_name": "paley_karatsuba_amplification",
+      "theorem_title": "Karatsuba's amplification bound (Chang, Theorem 4.4): $|A|>p^{1/2+\\delta}$, $|B|>p^{\\delta}$ gives $p^{-0.05\\delta^2}$ saving",
+      "formal_statement": "theorem paley_karatsuba_amplification :\n    \u2200 \u03b4 : \u211d, 0 < \u03b4 \u2192 \u2203 C : \u211d, 0 < C \u2227 \u2200 (p : \u2115) [Fact p.Prime], p \u2260 2 \u2192\n      \u2200 A B : Finset (ZMod p), (p : \u211d) ^ (1 / 2 + \u03b4) < A.card \u2192 (p : \u211d) ^ \u03b4 < B.card \u2192\n        ((|\u2211 a \u2208 A, \u2211 b \u2208 B, quadraticChar (ZMod p) (a + b)| : \u2124) : \u211d)\n          \u2264 C * (p : \u211d) ^ (-(0.05 * \u03b4 ^ 2)) * A.card * B.card := by sorry",
+      "natural_language_statement": "**Theorem 4.4 (Karacuba)** in M.-C. Chang, *Character sums in finite fields* (survey), Section 4, quoted verbatim: \"Let $\\chi$ be a non-trivial multiplicative character mod $p$. If $|A| > p^{\\frac12 + \\delta}$, $|B| > p^{\\delta}$, then\n$$\n\\Big|\\sum_{x \\in A,\\, y \\in B}\\chi(x+y)\\Big| \\ll p^{-0.05\\delta^{2}}\\,|A|\\,|B|.\n$$\"\nChang attributes the result to Karacuba [Kar3] (A. A. Karatsuba, *A certain arithmetic sum*, Soviet Math. Dokl. 12 (1971), 1172\u20131174).\n\nThe theorem is the strongest unconditional power saving known for arbitrary sets: one set may be as small as $p^{\\delta}$ provided the other exceeds $p^{1/2+\\delta}$. Its proof (H\u00f6lder in one variable followed by Weil's bound for a complete sum) cannot pass below $|A| \\approx \\sqrt{p}$, which is exactly the gap between this theorem and the two-set Paley graph conjecture. **Proved in the literature; open on this platform.**\n\n**Formalization Note** The statement is specialized to the quadratic character $\\chi$ = `quadraticChar (ZMod p)`; `p \u2260 2` records that $\\chi$ is non-trivial (for $p = 2$ the quadratic character is trivial and the source's hypothesis fails). The Vinogradov symbol $\\ll$ is read as: there is a constant $C = C(\\delta) > 0$, depending on $\\delta$ only, with $|\\sum| \\le C\\,p^{-0.05\\delta^2}|A||B|$ for every prime $p \\neq 2$ and all $A, B$ satisfying the size hypotheses. Sizes are compared with real powers (`Real.rpow`).",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nimport Mathlib.Analysis.SpecialFunctions.Pow.Real\nset_option autoImplicit false\nopen Finset",
+      "source": "M.-C. Chang, Character sums in finite fields (survey; AMS Contemporary Mathematics, 2010, pp. 83-98), https://math.ucr.edu/~mcc/paper/DubProc.pdf, Section 4, p. 9, Theorem 4.4 (Karacuba), citing [Kar3] A. A. Karacuba, A certain arithmetic sum, Soviet Math. Dokl. 12 (1971), no. 4, 1172-1174.",
+      "status": "Open",
+      "tags": [
+        "number-theory",
+        "literature",
+        "karatsuba",
+        "character-sums",
+        "paley-graph"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "4b34787b-d0d3-4b43-893c-e84dcded6df0",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "58b3552d-bb5c-42f6-8595-ecf402103ee1",
+      "milestone_title": "Corollary 1.5 (first sentence), Hanson\u2013Petridis \u2014 |A|(|A|-1) <= d when A - A \u2286 Z_d \u222a {0}",
+      "milestone_description": "Verbatim from B. Hanson, G. Petridis, arXiv:1905.09134v3, p. 4: \"Corollary 1.5. Let $p$ be a prime, $d$ properly dividing $p-1$ and suppose $A \\subseteq \\mathbb{F}_p$ is such that $A - A \\subseteq Z_d \\cup \\{0\\}$. Then $|A|(|A|-1) \\le d$.\" Here $Z_d$ denotes the $d$-th roots of unity in $\\mathbb{F}_p$ (Section 1: \"Let $Z_d$ denote the $d$'th roots of unity belonging to a field $F$, which is to say, the solutions to $z^d = 1$\").",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:55.320267+00:00",
+      "updated_at": "2026-09-05T12:02:58.303481+00:00",
+      "theorem_name": "paley_hanson_petridis_difference_bound",
+      "theorem_title": "Hanson\u2013Petridis, Corollary 1.5: $A - A \\subseteq Z_d \\cup \\{0\\}$ implies $|A|(|A|-1) \\le d$",
+      "formal_statement": "theorem paley_hanson_petridis_difference_bound (p : \u2115) [Fact p.Prime] (d : \u2115)\n    (hd : d \u2223 p - 1) (hd' : d < p - 1) (A : Finset (ZMod p))\n    (hA : \u2200 a \u2208 A, \u2200 a' \u2208 A, a - a' = 0 \u2228 (a - a') ^ d = 1) :\n    A.card * (A.card - 1) \u2264 d := by sorry",
+      "natural_language_statement": "**Corollary 1.5 (first sentence)** of B. Hanson and G. Petridis, *Refined estimates concerning sumsets contained in the roots of unity*, Proc. Lond. Math. Soc. (3) 121 (2020), 287\u2013292, quoted verbatim: \"Let $p$ be a prime, $d$ properly dividing $p-1$ and suppose $A \\subseteq \\mathbb{F}_p$ is such that $A - A \\subseteq Z_d \\cup \\{0\\}$. Then $|A|(|A|-1) \\le d$.\"\n\nHere $Z_d = \\{z \\in \\mathbb{F}_p : z^{d} = 1\\}$ is the group of $d$-th roots of unity, a multiplicative subgroup of index $(p-1)/d$. The corollary is derived from the authors' Theorem 1.2 ($A + B \\subseteq Z_d \\cup \\{0\\}$ implies $|A||B| \\le d + |B \\cap (-A)|$), proved by Stepanov's method of auxiliary polynomials, applied with $B = -A$. For $d = (p-1)/2$ it gives the best known clique bound for Paley graphs. **Proved in the literature; open on this platform.**\n\n**Formalization Note** \"$d$ properly dividing $p-1$\" is encoded as `d \u2223 p - 1` together with `d < p - 1`. The hypothesis $A - A \\subseteq Z_d \\cup \\{0\\}$ is: for all $a, a' \\in A$, $a - a' = 0$ or $(a-a')^{d} = 1$. The conclusion $|A|(|A|-1) \\le d$ is an inequality of natural numbers (for $|A| = 0$ the left side is $0$).",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nset_option autoImplicit false\nopen Finset",
+      "source": "B. Hanson, G. Petridis, Refined estimates concerning sumsets contained in the roots of unity, Proc. Lond. Math. Soc. (3) 121 (2020), no. 2, 287-292, https://doi.org/10.1112/plms.12322, https://arxiv.org/abs/1905.09134 (v3, 6 May 2020), Section 1, p. 4, Corollary 1.5, first sentence.",
+      "status": "Open",
+      "tags": [
+        "number-theory",
+        "literature",
+        "roots-of-unity",
+        "character-sums",
+        "paley-graph",
+        "stepanov-method"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    },
+    {
+      "id": "2ace7c8c-fa5d-4121-925e-829fb5db855d",
+      "kind": "reference",
+      "role": "milestone",
+      "theorem_id": "cb279d48-6789-4966-9b30-fb95f7de7bc6",
+      "milestone_title": "Corollary 1.5 (second sentence), Hanson\u2013Petridis \u2014 \u03c9(G_p) <= (sqrt(2p-1)+1)/2 for p \u2261 1 (mod 4)",
+      "milestone_description": "Verbatim from B. Hanson, G. Petridis, arXiv:1905.09134v3, p. 4, Corollary 1.5: \"In particular, for $p \\equiv 1 \\pmod 4$, we have $\\omega(G_p) \\le \\frac{\\sqrt{2p-1}+1}{2}$.\" The Paley graph is recalled ibid.: \"when $p \\equiv 1 \\pmod 4$, the Paley graph $G_p$ is the Cayley graph on the additive group $\\mathbb{F}_p$ generated by the quadratic residues.\"\n\nTarget: for every prime $p \\equiv 1 \\pmod 4$ and every $A \\subseteq \\mathbb{F}_p$ whose pairwise differences of distinct elements are nonzero squares, $|A| \\le (\\sqrt{2p-1}+1)/2$.",
+      "confirmed_at": null,
+      "created_at": "2026-09-05T12:02:55.556251+00:00",
+      "updated_at": "2026-09-05T12:02:58.953628+00:00",
+      "theorem_name": "paley_hanson_petridis_clique_number",
+      "theorem_title": "Hanson\u2013Petridis, Corollary 1.5: clique number of the Paley graph $\\omega(G_p) \\le (\\sqrt{2p-1}+1)/2$",
+      "formal_statement": "theorem paley_hanson_petridis_clique_number (p : \u2115) [Fact p.Prime] (hp : p % 4 = 1)\n    (A : Finset (ZMod p)) (hA : \u2200 a \u2208 A, \u2200 a' \u2208 A, a \u2260 a' \u2192 IsSquare (a - a')) :\n    (A.card : \u211d) \u2264 (Real.sqrt (2 * (p : \u211d) - 1) + 1) / 2 := by sorry",
+      "natural_language_statement": "**Corollary 1.5 (second sentence)** of B. Hanson and G. Petridis, *Refined estimates concerning sumsets contained in the roots of unity*, Proc. Lond. Math. Soc. (3) 121 (2020), 287\u2013292, quoted verbatim: \"In particular, for $p \\equiv 1 \\pmod 4$, we have\n$$\n\\omega(G_p) \\le \\frac{\\sqrt{2p-1}+1}{2}.\n$$\"\n\nHere $G_p$ is the Paley graph: the graph on vertex set $\\mathbb{F}_p$ in which distinct $x, y$ are adjacent when $x - y$ is a nonzero square (for $p \\equiv 1 \\pmod 4$ this is symmetric since $-1$ is a square), and $\\omega(G_p)$ is its clique number. The bound is the case $d = (p-1)/2$ of the first sentence of the corollary and is the best known upper bound for $\\omega(G_p)$; the conjectured truth is $\\omega(G_p) \\le p^{\\varepsilon}$ (a consequence of the two-set Paley graph conjecture, Satake, Remark 9), and the Graham\u2013Ringrose lower bound shows that no $O(\\log p)$ bound holds for all $p$. **Proved in the literature; open on this platform.**\n\n**Formalization Note** A clique is encoded as a `Finset (ZMod p)` all of whose differences of distinct elements are squares (`IsSquare (a - a')`; for $a \\neq a'$ the difference is nonzero, so this means a nonzero square, i.e. $\\chi(a-a') = 1$). The conclusion bounds the clique's cardinality, cast to $\\mathbb{R}$, by $(\\sqrt{2p-1}+1)/2$ with `Real.sqrt`; $p \\equiv 1 \\pmod 4$ is `p % 4 = 1`.",
+      "preamble": "import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic\nimport Mathlib.Data.Real.Sqrt\nset_option autoImplicit false\nopen Finset",
+      "source": "B. Hanson, G. Petridis, Refined estimates concerning sumsets contained in the roots of unity, Proc. Lond. Math. Soc. (3) 121 (2020), no. 2, 287-292, https://doi.org/10.1112/plms.12322, https://arxiv.org/abs/1905.09134 (v3, 6 May 2020), Section 1, p. 4, Corollary 1.5, second sentence; Paley graph defined ibid. p. 4 ('the Cayley graph on the additive group F_p generated by the quadratic residues') and in S. Satake, arXiv:2011.02907v2, Remark 9.",
+      "status": "Open",
+      "tags": [
+        "number-theory",
+        "literature",
+        "paley-graph",
+        "clique-number",
+        "stepanov-method"
+      ],
+      "pre_confirmed": false,
+      "flags": [],
+      "readback": null,
+      "readback_model": null
+    }
+  ],
+  "milestones": {
+    "proposal_id": "b5e7121a-eb3c-48f1-a495-29fffd24e71d",
+    "milestones": [
+      {
+        "item_id": "c0ee8331-ebf3-4101-8e60-6ac1ada55719",
+        "title": "Section 1 (moments-and-obstructions) \u2014 shift orthogonality: sum_x chi(x) chi(x+c) = -1 for c != 0",
+        "milestone_description": "Verbatim from research/moments-and-obstructions.md, Section 1 (\"Exact second moment and the standard size barrier\"): \"For distinct $u, v$, $\\sum_x \\chi(x-u)\\chi(x-v) = -1$. Indeed, for $x \\neq v$, the map $t = (x-u)/(x-v)$ is a bijection onto $\\mathbb{F}_p \\setminus \\{1\\}$. The product has character $\\chi(t)$ because $(x-v)^2$ is a nonzero square. The missing term $x = v$ is zero, and $\\sum_{t \\neq 1}\\chi(t) = -1$. For $u = v$, the sum is $p-1$.\"\n\nTarget form (take $u = 0$, $v = -c$): for every odd prime $p$ and every $c \\neq 0$ in $\\mathbb{F}_p$, $\\sum_{x \\in \\mathbb{F}_p}\\chi(x)\\chi(x+c) = -1$.",
+        "sort_order": 0,
+        "theorem_id": "088f1fc8-5c05-4c9a-88ba-06444c4e3bef"
+      },
+      {
+        "item_id": "da4793db-5464-45b0-accc-c7be6f58a2b8",
+        "title": "Section 1 (moments-and-obstructions) \u2014 exact second moment M_2(B) = |B|(p - |B|)",
+        "milestone_description": "Verbatim from research/moments-and-obstructions.md, Section 1, with $F_B(x) = \\sum_{b\\in B}\\chi(x-b)$, $n = |B|$ and $M_{2}(B) = \\sum_{x \\in \\mathbb{F}_p} F_B(x)^{2}$: \"Consequently, $\\sum_x F_B(x) = 0$, $M_2(B) = pn - n^2$.\"\n\nTarget: for every odd prime $p$ and every $B \\subseteq \\mathbb{F}_p$, $\\sum_{x\\in\\mathbb{F}_p}\\big(\\sum_{b\\in B}\\chi(x-b)\\big)^2 = |B|(p-|B|)$.",
+        "sort_order": 1,
+        "theorem_id": "3b819822-953a-4aec-8409-5f1197fa26a8"
+      },
+      {
+        "item_id": "c584d555-71a0-4385-808c-0d96afeb3b7c",
+        "title": "Theorem (Vinogradov), Hanson\u2013Petridis \u00a71 \u2014 two-set bound, sharpened form S^2 <= |A||B|(p - |B|)",
+        "milestone_description": "Verbatim from B. Hanson, G. Petridis, arXiv:1905.09134v3, Section 1, with $S_\\chi(A,B) = \\sum_{a\\in A}\\sum_{b\\in B}\\chi(a+b)$: \"Theorem (Vinogradov). For any subsets $A$ and $B$ of $\\mathbb{F}_p$ and any non-trivial multiplicative character $\\chi$, we have the estimate $|S_\\chi(A,B)| \\le \\sqrt{p|A||B|}$.\" (The authors add: \"Any improvement on the estimate $|A||B|$ is called non-trivial, and so we see that Vinogradov's theorem provides a non-trivial estimate when $|A||B| > p$.\")\n\nTarget (sharpened form, quadratic character, difference convention): for every odd prime $p$ and all $A, B \\subseteq \\mathbb{F}_p$, $\\big(\\sum_{a\\in A}\\sum_{b\\in B}\\chi(a-b)\\big)^2 \\le |A|\\,|B|\\,(p-|B|)$; this implies Vinogradov's bound since $p - |B| \\le p$.",
+        "sort_order": 2,
+        "theorem_id": "63bb5a7e-af3a-405c-ab99-53cb381ac121"
+      },
+      {
+        "item_id": "f4994443-2042-48f9-afc9-9e788a7f242d",
+        "title": "Background fact (sigma brief) \u2014 interval case of the Paley bound gives a non-residue <= 2N",
+        "milestone_description": "From the workspace brief research/sigma-brief-2026-09-05.md (background facts): \"The conjecture for $A = B = \\{1,\\dots,N\\}$ with $N = p^{\\varepsilon}$ implies the least quadratic non-residue is at most $2N$, i.e. it implies Vinogradov's conjecture, which is open. Any general proof must therefore beat the Burgess barrier for short interval character sums as a special case.\"\n\nTarget (fixed $p$ and $N$): if $2N < p$ and $\\sum_{a=1}^{N}\\sum_{b=1}^{N}\\chi(a+b) < N^2$, then some $n \\in [2, 2N]$ satisfies $\\chi(n) = -1$.",
+        "sort_order": 3,
+        "theorem_id": "3168650d-eaa9-4a62-b26e-2b51a554f39c"
+      },
+      {
+        "item_id": "a4e1c07e-16ba-4e0b-9fc9-68080d39ae74",
+        "title": "Theorem 4.4 (Karacuba), Chang survey \u00a74 \u2014 amplification bound for |A| > p^{1/2+\u03b4}, |B| > p^\u03b4",
+        "milestone_description": "Verbatim from M.-C. Chang, *Character sums in finite fields* (survey), Section 4, p. 9: \"Theorem 4.4. (Karacuba) Let $\\chi$ be a non-trivial multiplicative character mod $p$. If $|A| > p^{\\frac12+\\delta}$, $|B| > p^{\\delta}$, then $\\big|\\sum_{x\\in A, y\\in B}\\chi(x+y)\\big| \\ll p^{-0.05\\delta^2}|A||B|$.\" Chang attributes it to Karacuba [Kar3], *A certain arithmetic sum*, Soviet Math. Dokl. 12 (1971), no. 4, 1172\u20131174, and adds the remark: \"It is unknown if there is non-trivial bound on the character sum $\\sum_{x\\in A,y\\in B}\\chi(x+y)$ for $|A| = |B| \\sim p^{\\frac12}$, not even for the special case when $A = B = H < \\mathbb{F}_p^{*}$.\"\n\nTarget: the statement for the quadratic character, with the implied constant depending on $\\delta$ only.",
+        "sort_order": 4,
+        "theorem_id": "ca0607b1-a20c-4460-a5ab-61d9de0e8ad3"
+      },
+      {
+        "item_id": "4b34787b-d0d3-4b43-893c-e84dcded6df0",
+        "title": "Corollary 1.5 (first sentence), Hanson\u2013Petridis \u2014 |A|(|A|-1) <= d when A - A \u2286 Z_d \u222a {0}",
+        "milestone_description": "Verbatim from B. Hanson, G. Petridis, arXiv:1905.09134v3, p. 4: \"Corollary 1.5. Let $p$ be a prime, $d$ properly dividing $p-1$ and suppose $A \\subseteq \\mathbb{F}_p$ is such that $A - A \\subseteq Z_d \\cup \\{0\\}$. Then $|A|(|A|-1) \\le d$.\" Here $Z_d$ denotes the $d$-th roots of unity in $\\mathbb{F}_p$ (Section 1: \"Let $Z_d$ denote the $d$'th roots of unity belonging to a field $F$, which is to say, the solutions to $z^d = 1$\").",
+        "sort_order": 5,
+        "theorem_id": "58b3552d-bb5c-42f6-8595-ecf402103ee1"
+      },
+      {
+        "item_id": "2ace7c8c-fa5d-4121-925e-829fb5db855d",
+        "title": "Corollary 1.5 (second sentence), Hanson\u2013Petridis \u2014 \u03c9(G_p) <= (sqrt(2p-1)+1)/2 for p \u2261 1 (mod 4)",
+        "milestone_description": "Verbatim from B. Hanson, G. Petridis, arXiv:1905.09134v3, p. 4, Corollary 1.5: \"In particular, for $p \\equiv 1 \\pmod 4$, we have $\\omega(G_p) \\le \\frac{\\sqrt{2p-1}+1}{2}$.\" The Paley graph is recalled ibid.: \"when $p \\equiv 1 \\pmod 4$, the Paley graph $G_p$ is the Cayley graph on the additive group $\\mathbb{F}_p$ generated by the quadratic residues.\"\n\nTarget: for every prime $p \\equiv 1 \\pmod 4$ and every $A \\subseteq \\mathbb{F}_p$ whose pairwise differences of distinct elements are nonzero squares, $|A| \\le (\\sqrt{2p-1}+1)/2$.",
+        "sort_order": 6,
+        "theorem_id": "cb279d48-6789-4966-9b30-fb95f7de7bc6"
+      }
+    ]
+  },
+  "verified_existing_submissions": {
+    "paley_shift_orthogonality": {
+      "submission_id": "965f3276-7f70-4916-9865-b8ca6c5ada62",
+      "theorem_id": "088f1fc8-5c05-4c9a-88ba-06444c4e3bef",
+      "status": "ACCEPTED"
+    },
+    "paley_second_moment": {
+      "submission_id": "6a5656c4-7ede-40bc-a230-2b366fba29aa",
+      "theorem_id": "3b819822-953a-4aec-8409-5f1197fa26a8",
+      "status": "ACCEPTED"
+    },
+    "paley_chung_bound": {
+      "submission_id": "35802501-9a0a-4c58-84cc-c3bc2d6a8907",
+      "theorem_id": "63bb5a7e-af3a-405c-ab99-53cb381ac121",
+      "status": "ACCEPTED"
+    },
+    "paley_interval_nonresidue": {
+      "submission_id": "f31c31b7-907c-477a-b77f-6c00a2e986ad",
+      "theorem_id": "3168650d-eaa9-4a62-b26e-2b51a554f39c",
+      "status": "ACCEPTED"
+    }
+  },
+  "goal": {
+    "theorem_id": "973dac7a-fac5-4e8e-961a-936f59818faa",
+    "theorem_name": "paley_two_set_conjecture",
+    "status": "Open"
+  },
+  "scope": "Authenticated readback. No new proof or public release."
+}

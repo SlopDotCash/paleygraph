@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "mca": [
+    {
+      "p": 2,
+      "n": 3,
+      "k": 1,
+      "agreement": 2,
+      "scalar_max": 2,
+      "two_row_max": 2,
+      "code_family": "Linear repetition code; domain labels need not be distinct field elements."
+    },
+    {
+      "p": 3,
+      "n": 2,
+      "k": 1,
+      "agreement": 2,
+      "scalar_max": 1,
+      "two_row_max": 1,
+      "code_family": "Linear repetition code; domain labels need not be distinct field elements."
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "k": 2,
+      "agreement": 3,
+      "scalar_max": 4,
+      "two_row_scope": "80 sampled pairs, every nonzero projection; not an exhaustive two-row maximum.",
+      "sample_two_row_max": 3
+    }
+  ],
+  "lists": [
+    {
+      "p": 5,
+      "rows": 2,
+      "list_size": 6,
+      "nonzero_projections": 24,
+      "injective_projections": 8,
+      "colliding_pairs_total": 48,
+      "largest_distinct_projected_list": 6
+    },
+    {
+      "p": 29,
+      "rows": 2,
+      "list_size": 6,
+      "nonzero_projections": 840,
+      "injective_projections": 728,
+      "colliding_pairs_total": 336,
+      "largest_distinct_projected_list": 6
+    },
+    {
+      "p": 29,
+      "rows": 3,
+      "list_size": 6,
+      "nonzero_projections": 24388,
+      "injective_projections": 21112,
+      "colliding_pairs_total": 10164,
+      "largest_distinct_projected_list": 6
+    }
+  ],
+  "extension": {
+    "field": "F_5[u]/(u^2-2)",
+    "received_pairs": 50,
+    "base_field_lines": 30,
+    "scope": "Actual RS n4,k2,s3; all challenges and witnesses for every sampled pair."
+  },
+  "official": {
+    "p": 2130706433,
+    "q": 93571093019388561295270373781649880353786165192103559169,
+    "n": 262144,
+    "k": 131072,
+    "budget": 274980728111395087,
+    "large_alphabet_slack": 187142186038777122590465133162467087719047174118687985682,
+    "conditional_base_list_A": 2130706415,
+    "conditional_interleaved_upper": 252217214619120071,
+    "scope": "Pinned contract arithmetic only; neither scalar maximum nor spot-check obligation proved."
+  },
+  "input_sha256": {
+    "research/parallel25-prize-projection-2026-09-05.md": "229553fcd14b2999bfcab47b5ada37339a27ed954905332c8b744d9e1449c331",
+    "experiments/parallel25_prize_projection_2026_09_05.py": "fa340a9b0f52de3e2aabf742e5d622c538bee9e7fe5a42f3074f4b8f9a72fc4e",
+    "research/parallel23-prize-bridge-2026-09-05.md": "ab9ccb9ffca81ce34411d2ddc9b86e18a01c4be142787aa98185226e85a20b6b",
+    "results/parallel23_prize_bridge_2026_09_05.json": "ab5f8bbb4a94574f33a8ee155a5d3a8b3a010cb3b17acd9ead5782a131d7f641",
+    "research/parallel-prize-subfield-2026-09-04.md": "68311e1c8e382e4bb9c910003c5a951288a09f06f63161b916ad37d38143e46c",
+    "sources/official-prize-2026-09-04/ProximityPrize/Benchmark/IRSProfile.lean": "75d40b94814bdc0ad00b107a2cf6a995c79f45a4b8c1ec1ce2f18ec612e81126",
+    "sources/official-prize-2026-09-04/ProximityPrize/Benchmark/TargetLower.lean": "7d11762452db502cc244e2522eb83f01d3d4b8318ec1771d0c86041181bdc474",
+    "sources/official-prize-2026-09-04/dependencies/ArkLib/ProofSystem/ToyProblem/Impl/IRS.lean": "9a06a01f2cd6529208fb91ee87777467d1a2b45364a6da6bc7ee12ea7e4f6357",
+    "sources/gopalan-guruswami-raghavendra-0811.4395-abstract.html": "64cce14865972459c0e28d03cadd068b47b23ef3146852702ebeb0949f086a15"
+  },
+  "counts": {
+    "exhaustive_MCA_word_pairs": 401427,
+    "exact_MCA_interleaving_maxima": 2,
+    "nontrivial_q_minus_one_MCA_endpoint": 1,
+    "actual_projected_MCA_scalar_bound": 1920,
+    "sampled_MCA_interleaving_bound": 80,
+    "nonzero_projection_witness_survival": 42,
+    "six_distinct_interleaved_explanations": 3,
+    "scalar_list_maximum_certificate": 3,
+    "projected_list_agreement_preservation": 25252,
+    "projected_pair_collision_count": 3,
+    "large_alphabet_injective_projection": 2,
+    "dimension_free_list_inequality": 2,
+    "quadratic_field_inverse": 24,
+    "all_affine_base_field_lines": 1,
+    "extension_remainder_ratio_vs_direct_fold": 50,
+    "extension_bad_set_affine_line_bound": 1500,
+    "exact_affine_line_descent": 50,
+    "official_combined_integer_budget": 1,
+    "official_large_alphabet_list_hypothesis": 1,
+    "conditional_base_list_projection_example": 1,
+    "MCA_exact_integer_rounding": 176
+  },
+  "limitations": "Projection identities and exact conditional reduction; no production maxima, full Paley/prize proof, or formal certification."
+}

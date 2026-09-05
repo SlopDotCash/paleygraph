@@ -1,0 +1,11 @@
+{
+  "p": 215535361,
+  "n": 128,
+  "E3": 68737280,
+  "T6": 30725120,
+  "J6": 22855680,
+  "repeated_R6": 2438400,
+  "distinct_balanced_R6": 1751040,
+  "distinct_unbalanced_R6": 10967040,
+  "normalized_multiset_candidates": 45606
+}

@@ -1,0 +1,510 @@
+{
+  "status": "Passed final artifact audit. All-word quadratic control has a limited depth range; a dimension obstruction excludes unrestricted isometry at the required long depth. Full goal remains unproved.",
+  "audited_at_utc": "2026-09-05T05:13:48.419882+00:00",
+  "previous_turn_classification": "progress",
+  "input_hash_checks": [
+    "research/parallel10-word-aggregate-2026-09-05.md",
+    "experiments/parallel10_word_aggregate_2026_09_05.py",
+    "research/parallel9-all-degrees-2026-09-05.md",
+    "experiments/parallel9_all_degrees_2026_09_05.py",
+    "sources/katz-rigid-local-systems.pdf",
+    "sources/bbd-faisceaux-pervers.pdf",
+    "sources/katz-gauss-kloosterman-monodromy.pdf"
+  ],
+  "syntax_checks": [
+    "experiments/parallel10_word_aggregate_2026_09_05.py",
+    "experiments/parallel9_all_degrees_2026_09_05.py"
+  ],
+  "local_link_checks": [
+    [
+      "research/parallel10-word-aggregate-2026-09-05.md",
+      "parallel9-all-degrees-2026-09-05.md"
+    ],
+    [
+      "research/parallel10-word-aggregate-2026-09-05.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/parallel10-word-aggregate-2026-09-05.md",
+      "../sources/katz-rigid-local-systems.pdf"
+    ],
+    [
+      "research/parallel10-word-aggregate-2026-09-05.md",
+      "../experiments/parallel10_word_aggregate_2026_09_05.py"
+    ],
+    [
+      "research/parallel10-word-aggregate-2026-09-05.md",
+      "../results/parallel10_word_aggregate_2026_09_05.json"
+    ],
+    [
+      "research/parallel10-pass-summary-2026-09-05.md",
+      "parallel10-word-aggregate-2026-09-05.md"
+    ],
+    [
+      "research/parallel10-pass-summary-2026-09-05.md",
+      "../experiments/parallel10_word_aggregate_2026_09_05.py"
+    ],
+    [
+      "research/parallel10-pass-summary-2026-09-05.md",
+      "../results/parallel10_word_aggregate_2026_09_05.json"
+    ],
+    [
+      "research/parallel10-pass-summary-2026-09-05.md",
+      "../results/parallel10_pass_audit_2026_09_05.json"
+    ],
+    [
+      "README.md",
+      "research/parallel10-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel9-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel8-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel7-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel6-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel5-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel4-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel3-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel2-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/subgroup-target.md"
+    ],
+    [
+      "README.md",
+      "research/source-audit.md"
+    ],
+    [
+      "README.md",
+      "research/moments-and-obstructions.md"
+    ],
+    [
+      "README.md",
+      "research/MomentObstruction.lean"
+    ],
+    [
+      "README.md",
+      "experiments/paley_exact.py"
+    ],
+    [
+      "README.md",
+      "results/exact_checks.json"
+    ],
+    [
+      "README.md",
+      "research/frontier.md"
+    ],
+    [
+      "README.md",
+      "experiments/subgroup_moments.py"
+    ],
+    [
+      "README.md",
+      "research/SubgroupQuarticCounterexample.lean"
+    ],
+    [
+      "README.md",
+      "research/finite-spectral-obstruction.md"
+    ],
+    [
+      "README.md",
+      "research/geometric-lift-and-alias.md"
+    ],
+    [
+      "README.md",
+      "research/prize-reduction-audit.md"
+    ],
+    [
+      "README.md",
+      "research/coset-coherence.md"
+    ],
+    [
+      "README.md",
+      "research/period-polynomial-certificate.md"
+    ],
+    [
+      "README.md",
+      "research/jacobi-coefficient-route.md"
+    ],
+    [
+      "README.md",
+      "research/cyclotomic-prime-average.md"
+    ],
+    [
+      "README.md",
+      "research/official-profile-and-trace.md"
+    ],
+    [
+      "README.md",
+      "research/subset-sums-and-lists.md"
+    ],
+    [
+      "README.md",
+      "research/riesz-tail-route.md"
+    ],
+    [
+      "README.md",
+      "research/analytic-bounds-and-amplification.md"
+    ],
+    [
+      "README.md",
+      "research/mixed-periods-and-shifted-energy.md"
+    ],
+    [
+      "README.md",
+      "research/kernel-discriminant.md"
+    ],
+    [
+      "README.md",
+      "research/quadruple-orbits-and-cube.md"
+    ],
+    [
+      "README.md",
+      "research/dyadic-descent-and-mixed-energy.md"
+    ],
+    [
+      "README.md",
+      "research/positive-product-moments.md"
+    ],
+    [
+      "README.md",
+      "research/signed-quotient-operators.md"
+    ],
+    [
+      "README.md",
+      "research/list-to-winning-set.md"
+    ],
+    [
+      "README.md",
+      "research/localized-necklace-identities.md"
+    ],
+    [
+      "README.md",
+      "research/planar-necklace-reductions.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel10-pass-summary-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "subgroup-target.md"
+    ],
+    [
+      "research/frontier.md",
+      "geometric-lift-and-alias.md"
+    ],
+    [
+      "research/frontier.md",
+      "coset-coherence.md"
+    ],
+    [
+      "research/frontier.md",
+      "period-polynomial-certificate.md"
+    ],
+    [
+      "research/frontier.md",
+      "jacobi-coefficient-route.md"
+    ],
+    [
+      "research/frontier.md",
+      "cyclotomic-prime-average.md"
+    ],
+    [
+      "research/frontier.md",
+      "official-profile-and-trace.md"
+    ],
+    [
+      "research/frontier.md",
+      "subset-sums-and-lists.md"
+    ],
+    [
+      "research/frontier.md",
+      "riesz-tail-route.md"
+    ],
+    [
+      "research/frontier.md",
+      "analytic-bounds-and-amplification.md"
+    ],
+    [
+      "research/frontier.md",
+      "mixed-periods-and-shifted-energy.md"
+    ],
+    [
+      "research/frontier.md",
+      "kernel-discriminant.md"
+    ],
+    [
+      "research/frontier.md",
+      "quadruple-orbits-and-cube.md"
+    ],
+    [
+      "research/frontier.md",
+      "dyadic-descent-and-mixed-energy.md"
+    ],
+    [
+      "research/frontier.md",
+      "positive-product-moments.md"
+    ],
+    [
+      "research/frontier.md",
+      "signed-quotient-operators.md"
+    ],
+    [
+      "research/frontier.md",
+      "list-to-winning-set.md"
+    ],
+    [
+      "research/frontier.md",
+      "localized-necklace-identities.md"
+    ],
+    [
+      "research/frontier.md",
+      "planar-necklace-reductions.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-conic-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-kernel-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-anchor-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-seeded-kernels-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-multiplier-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel8-necklace-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel9-all-degrees-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel10-word-aggregate-2026-09-05.md"
+    ],
+    [
+      "research/source-audit.md",
+      "prize-reduction-audit.md"
+    ]
+  ],
+  "source_manifest_checks": [
+    {
+      "path": "sources/katz-rigid-local-systems.pdf",
+      "sha256": "ca6eb8d5d9e21076dda4e154e83dfa2821f586d6ccbe8c8f1b371b4352f753d1",
+      "bytes": 1115958
+    },
+    {
+      "path": "sources/bbd-faisceaux-pervers.pdf",
+      "sha256": "6e976a78e7607c3026d006d319eea06df44ef75f80f35d9e475b3a8fbc1288d9",
+      "bytes": 6284485
+    },
+    {
+      "path": "sources/katz-gauss-kloosterman-monodromy.pdf",
+      "sha256": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+      "bytes": 6307344
+    }
+  ],
+  "preserved_pass9_artifacts": [
+    "research/parallel9-all-degrees-2026-09-05.md",
+    "research/parallel9-pass-summary-2026-09-05.md",
+    "experiments/parallel9_all_degrees_2026_09_05.py",
+    "results/parallel9_all_degrees_2026_09_05.json"
+  ],
+  "verification_counts": {
+    "recovery_checks": 7541,
+    "distinct_signatures": 7541,
+    "inventory_checks": 773,
+    "convolutions": 114,
+    "literal_entries": 573,
+    "zero_mask_rows": 172,
+    "gram_or_cell_bounds": 35,
+    "positive_definiteness_certificates": 70,
+    "bounds_with_relative_error_below_one": 6
+  },
+  "null_vector_check": {
+    "rows": 10,
+    "columns": 27,
+    "rank": 10,
+    "squared_coefficient_norm": 1101699090350440,
+    "integer_residuals_zero": true
+  },
+  "perron_discriminant_checks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "terminal_verifier": "Exit code 0 on final inputs.",
+  "proof_review": "Root checked inverse recovery, arithmetic self-duality and diagonal scalar normalization, tame off-diagonal correlations, exact finite conductor recurrence including simple exceptions, subset second moments, raw lower-weight perturbations, fresh-cell masks, and the exact dimension obstruction. Source-dependent, without independent review or formal verification.",
+  "worker_status": "No new worker execution; existing workers remain terminal at the previously verified account usage limit.",
+  "artifact_sha256": {
+    "research/parallel10-word-aggregate-2026-09-05.md": "d8ff25b0ead18587725901b23370e6ad1278dbd9deedd81512eb5e280235f7af",
+    "research/parallel10-pass-summary-2026-09-05.md": "2aebcd4d9da7c710b7754fa50a74c46c1404da7f4cfd1d91ec8dcebcd5ae4c1b",
+    "experiments/parallel10_word_aggregate_2026_09_05.py": "3d22f949d9a8f5b8b88a06b602fbadaaba6d31087c7fc69c538f476e055f61a9",
+    "results/parallel10_word_aggregate_2026_09_05.json": "8850414ace123c38c0fdd012de3116aafab99b901a9c8ce490307a907fdebf72"
+  },
+  "central_file_sha256": {
+    "README.md": "4579898cb0b1b5857e2499b36587e4052078fd0f289a54126bad0f720abaaa4b",
+    "research/frontier.md": "69f0086e7ec1993d13a938aae2988867758e4cac6999bb17a7ea4d1cf4e6bbaa",
+    "research/source-audit.md": "252bc5c2252fe30a1991c2ce71e7b7ca9a5823764b54a71a5ac81bdede14a689",
+    "research/checkpoint-2026-09-04.md": "9d6696d7e7ca4c0371054ee84070e1afc9ad5fde6a68e810af6bf20f97950b7e",
+    "sources/manifest.json": "6db229e6b36a1deba4b98690f07d2b674bfc61b128155c2993af3caa40f973fe"
+  },
+  "goal_status": "active and unachieved",
+  "open_obligations": [
+    "Independent mathematical review of the ninth- and tenth-pass arguments.",
+    "Specific coefficients or word-space quotient sufficient for the full long-depth cyclic spectral aggregate, including J and exceptional-fiber terms.",
+    "Uniform subgroup square-root cancellation, exceptional primes and centered energy budget.",
+    "Classical arbitrary-two-set character-sum conjecture.",
+    "Exact quantitative bridge to official Reed-Solomon prize."
+  ]
+}

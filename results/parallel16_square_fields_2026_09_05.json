@@ -1,0 +1,487 @@
+{
+  "status": "Exact actual square-field Paley examples passed; prime-field conjecture remains unproved.",
+  "cases": [
+    {
+      "characteristic": 7,
+      "field_order": 49,
+      "nonresidue": 3,
+      "ambient_square_entries": 2401,
+      "ambient_projection_entries": 2401,
+      "subfield_clique_size": 7,
+      "subfield_eigenvector_entries": 147,
+      "localizations": [
+        {
+          "anchors": 1,
+          "cell_size": 24,
+          "subfield_support": 6,
+          "projection_rayleigh": "39/49",
+          "normalized_rayleigh_squared": "841/2401",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "1"
+        },
+        {
+          "anchors": 2,
+          "cell_size": 11,
+          "subfield_support": 5,
+          "projection_rayleigh": "36/49",
+          "normalized_rayleigh_squared": "2116/7203",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "4/3"
+        },
+        {
+          "anchors": 3,
+          "cell_size": 6,
+          "subfield_support": 4,
+          "projection_rayleigh": "33/49",
+          "normalized_rayleigh_squared": "4624/16807",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "16/7"
+        },
+        {
+          "anchors": 4,
+          "cell_size": 3,
+          "subfield_support": 3,
+          "projection_rayleigh": "30/49",
+          "normalized_rayleigh_squared": "7744/36015",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "64/15"
+        },
+        {
+          "anchors": 5,
+          "cell_size": 2,
+          "subfield_support": 2,
+          "projection_rayleigh": "27/49",
+          "normalized_rayleigh_squared": "6400/74431",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "256/31"
+        }
+      ],
+      "power_trace_checks": 6,
+      "elliptic": {
+        "group_order": 64,
+        "quotient_order": 16,
+        "kernel_entries": 4096,
+        "scalar_zero_fourier": 7,
+        "sharp_twisted_certificates": [
+          {
+            "shifts": [
+              0
+            ],
+            "sharp_coefficient": 1,
+            "rank": 14,
+            "nullity": 2,
+            "largest_pivot_bits": 68
+          },
+          {
+            "shifts": [
+              0,
+              1
+            ],
+            "sharp_coefficient": 2,
+            "rank": 16,
+            "nullity": 0,
+            "largest_pivot_bits": 120
+          },
+          {
+            "shifts": [
+              0,
+              1,
+              2
+            ],
+            "sharp_coefficient": 3,
+            "rank": 16,
+            "nullity": 0,
+            "largest_pivot_bits": 140
+          },
+          {
+            "shifts": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "sharp_coefficient": 4,
+            "rank": 16,
+            "nullity": 0,
+            "largest_pivot_bits": 154
+          }
+        ],
+        "square_entries": 256,
+        "square_strata": {
+          "odd_0_even_1": 4,
+          "odd_0_even_2": 36,
+          "odd_2_even_1": 96,
+          "odd_4_even_0": 120
+        },
+        "full_border_and_centering_checked": true
+      }
+    },
+    {
+      "characteristic": 11,
+      "field_order": 121,
+      "nonresidue": 2,
+      "ambient_square_entries": 14641,
+      "ambient_projection_entries": 14641,
+      "subfield_clique_size": 11,
+      "subfield_eigenvector_entries": 363,
+      "localizations": [
+        {
+          "anchors": 1,
+          "cell_size": 60,
+          "subfield_support": 10,
+          "projection_rayleigh": "105/121",
+          "normalized_rayleigh_squared": "7921/14641",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "1"
+        },
+        {
+          "anchors": 2,
+          "cell_size": 29,
+          "subfield_support": 9,
+          "projection_rayleigh": "100/121",
+          "normalized_rayleigh_squared": "24964/43923",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "4/3"
+        },
+        {
+          "anchors": 3,
+          "cell_size": 16,
+          "subfield_support": 8,
+          "projection_rayleigh": "95/121",
+          "normalized_rayleigh_squared": "76176/102487",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "16/7"
+        },
+        {
+          "anchors": 4,
+          "cell_size": 9,
+          "subfield_support": 7,
+          "projection_rayleigh": "90/121",
+          "normalized_rayleigh_squared": "222784/219615",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "64/15"
+        },
+        {
+          "anchors": 5,
+          "cell_size": 6,
+          "subfield_support": 6,
+          "projection_rayleigh": "85/121",
+          "normalized_rayleigh_squared": "614656/453871",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "256/31"
+        }
+      ],
+      "power_trace_checks": 6
+    },
+    {
+      "characteristic": 17,
+      "field_order": 289,
+      "nonresidue": 3,
+      "ambient_square_entries": 83521,
+      "ambient_projection_entries": 83521,
+      "subfield_clique_size": 17,
+      "subfield_eigenvector_entries": 867,
+      "localizations": [
+        {
+          "anchors": 1,
+          "cell_size": 144,
+          "subfield_support": 16,
+          "projection_rayleigh": "264/289",
+          "normalized_rayleigh_squared": "57121/83521",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "1"
+        },
+        {
+          "anchors": 2,
+          "cell_size": 71,
+          "subfield_support": 15,
+          "projection_rayleigh": "256/289",
+          "normalized_rayleigh_squared": "198916/250563",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "4/3"
+        },
+        {
+          "anchors": 3,
+          "cell_size": 38,
+          "subfield_support": 14,
+          "projection_rayleigh": "248/289",
+          "normalized_rayleigh_squared": "685584/584647",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "16/7"
+        },
+        {
+          "anchors": 4,
+          "cell_size": 21,
+          "subfield_support": 13,
+          "projection_rayleigh": "240/289",
+          "normalized_rayleigh_squared": "2334784/1252815",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "64/15"
+        },
+        {
+          "anchors": 5,
+          "cell_size": 16,
+          "subfield_support": 12,
+          "projection_rayleigh": "232/289",
+          "normalized_rayleigh_squared": "7840000/2589151",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "256/31"
+        }
+      ],
+      "power_trace_checks": 0,
+      "elliptic": {
+        "group_order": 320,
+        "quotient_order": 80,
+        "kernel_entries": 102400,
+        "scalar_zero_fourier": 15,
+        "sharp_twisted_certificates": [
+          {
+            "shifts": [
+              0
+            ],
+            "sharp_coefficient": 1,
+            "rank": 76,
+            "nullity": 4,
+            "largest_pivot_bits": 565
+          },
+          {
+            "shifts": [
+              0,
+              1
+            ],
+            "sharp_coefficient": 2,
+            "rank": 80,
+            "nullity": 0,
+            "largest_pivot_bits": 805
+          },
+          {
+            "shifts": [
+              0,
+              1,
+              2
+            ],
+            "sharp_coefficient": 3,
+            "rank": 80,
+            "nullity": 0,
+            "largest_pivot_bits": 905
+          },
+          {
+            "shifts": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "sharp_coefficient": 4,
+            "rank": 80,
+            "nullity": 0,
+            "largest_pivot_bits": 973
+          }
+        ],
+        "square_entries": 6400,
+        "square_strata": {
+          "odd_0_even_1": 4,
+          "odd_2_even_1": 608,
+          "odd_0_even_2": 164,
+          "odd_4_even_0": 5624
+        },
+        "full_border_and_centering_checked": true
+      }
+    },
+    {
+      "characteristic": 19,
+      "field_order": 361,
+      "nonresidue": 2,
+      "ambient_square_entries": 130321,
+      "ambient_projection_entries": 130321,
+      "subfield_clique_size": 19,
+      "subfield_eigenvector_entries": 1083,
+      "localizations": [
+        {
+          "anchors": 1,
+          "cell_size": 180,
+          "subfield_support": 18,
+          "projection_rayleigh": "333/361",
+          "normalized_rayleigh_squared": "93025/130321",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "1"
+        },
+        {
+          "anchors": 2,
+          "cell_size": 89,
+          "subfield_support": 17,
+          "projection_rayleigh": "324/361",
+          "normalized_rayleigh_squared": "329476/390963",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "4/3"
+        },
+        {
+          "anchors": 3,
+          "cell_size": 48,
+          "subfield_support": 16,
+          "projection_rayleigh": "315/361",
+          "normalized_rayleigh_squared": "1157776/912247",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "16/7"
+        },
+        {
+          "anchors": 4,
+          "cell_size": 29,
+          "subfield_support": 15,
+          "projection_rayleigh": "306/361",
+          "normalized_rayleigh_squared": "4032064/1954815",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "64/15"
+        },
+        {
+          "anchors": 5,
+          "cell_size": 22,
+          "subfield_support": 14,
+          "projection_rayleigh": "297/361",
+          "normalized_rayleigh_squared": "13897984/4039951",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "256/31"
+        }
+      ],
+      "power_trace_checks": 0,
+      "elliptic": {
+        "group_order": 400,
+        "quotient_order": 100,
+        "kernel_entries": 160000,
+        "scalar_zero_fourier": -19,
+        "sharp_twisted_certificates": [
+          {
+            "shifts": [
+              0
+            ],
+            "sharp_coefficient": 1,
+            "rank": 99,
+            "nullity": 1,
+            "largest_pivot_bits": 768
+          },
+          {
+            "shifts": [
+              0,
+              1
+            ],
+            "sharp_coefficient": 2,
+            "rank": 100,
+            "nullity": 0,
+            "largest_pivot_bits": 1038
+          },
+          {
+            "shifts": [
+              0,
+              1,
+              2
+            ],
+            "sharp_coefficient": 3,
+            "rank": 100,
+            "nullity": 0,
+            "largest_pivot_bits": 1162
+          },
+          {
+            "shifts": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "sharp_coefficient": 4,
+            "rank": 100,
+            "nullity": 0,
+            "largest_pivot_bits": 1248
+          }
+        ],
+        "square_entries": 10000,
+        "square_strata": {
+          "odd_0_even_1": 4,
+          "odd_2_even_1": 768,
+          "odd_0_even_2": 204,
+          "odd_4_even_0": 9024
+        },
+        "full_border_and_centering_checked": true
+      }
+    },
+    {
+      "characteristic": 29,
+      "field_order": 841,
+      "nonresidue": 2,
+      "ambient_square_entries": 707281,
+      "ambient_projection_entries": 707281,
+      "subfield_clique_size": 29,
+      "subfield_eigenvector_entries": 2523,
+      "localizations": [
+        {
+          "anchors": 1,
+          "cell_size": 420,
+          "subfield_support": 28,
+          "projection_rayleigh": "798/841",
+          "normalized_rayleigh_squared": "570025/707281",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "1"
+        },
+        {
+          "anchors": 2,
+          "cell_size": 209,
+          "subfield_support": 27,
+          "projection_rayleigh": "784/841",
+          "normalized_rayleigh_squared": "2114116/2121843",
+          "outside_unit_interval": false,
+          "limiting_squared_rayleigh": "4/3"
+        },
+        {
+          "anchors": 3,
+          "cell_size": 98,
+          "subfield_support": 26,
+          "projection_rayleigh": "770/841",
+          "normalized_rayleigh_squared": "7817616/4950967",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "16/7",
+          "transfer_threshold_margin": 665,
+          "energy_lower_base": "63/16"
+        },
+        {
+          "anchors": 4,
+          "cell_size": 53,
+          "subfield_support": 25,
+          "projection_rayleigh": "756/841",
+          "normalized_rayleigh_squared": "28815424/10609215",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "64/15"
+        },
+        {
+          "anchors": 5,
+          "cell_size": 32,
+          "subfield_support": 24,
+          "projection_rayleigh": "742/841",
+          "normalized_rayleigh_squared": "105842944/21925711",
+          "outside_unit_interval": true,
+          "limiting_squared_rayleigh": "256/31"
+        }
+      ],
+      "power_trace_checks": 0
+    }
+  ],
+  "totals": {
+    "fields": 5,
+    "ambient_square_entries": 938165,
+    "ambient_projection_entries": 938165,
+    "localizations": 25,
+    "subfield_eigenvector_entries": 4983,
+    "exact_power_traces": 12,
+    "elliptic_kernel_entries": 266496,
+    "squared_kernel_entries": 16656,
+    "sharp_twisted_certificates": 12
+  },
+  "arithmetic": "Exact quadratic finite fields, integer matrices, rational Rayleigh quotients, fraction-free positive-semidefinite certificates with zero-pivot checks. No floating-point acceptance.",
+  "input_sha256": {
+    "research/parallel16-square-field-barrier-2026-09-05.md": "3d7219b9ff6568efc025d62331ea778c5e9e71a9be3de6db4286fb0f5c62174a",
+    "experiments/parallel16_square_fields_2026_09_05.py": "69e92ed6662871430f94c27f216158b85aec5842046a8f2a6877829eed2264c3",
+    "research/parallel14-elliptic-model-2026-09-05.md": "d24c58a1e0f89d500af8684ed80e9ef929eac1269b2be987386cc7778330dd72",
+    "research/parallel15-elliptic-correlations-2026-09-05.md": "72e532a27b729b3fc443c5f3c200a5a6a135ce5d88ef4a2d54f9290040b3734a",
+    "research/parallel2-spectral-transfer-2026-09-04.md": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+    "sources/kunisky-2303.16475v1.html": "b16c8771a78741f54683e5a8e3acfe2fb9fee03e859ba55f49f9d5ee652a06da"
+  }
+}

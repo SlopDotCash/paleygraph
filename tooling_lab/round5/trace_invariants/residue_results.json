@@ -1,0 +1,3607 @@
+{
+  "scope": "Proved sufficient seven-statistic identity for degree6; no minimality or graph-realizability claim.",
+  "comparisons": [
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        -173,
+        33
+      ],
+      "third_moment_float": -5.242424242424242,
+      "all_equal_rows_contribution": [
+        -5,
+        33
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -30,
+        11
+      ],
+      "distinct_rows_contribution": [
+        -26,
+        11
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        1235520
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            6,
+            -2,
+            -10
+          ],
+          "quartic_coefficients": [
+            [
+              25,
+              429
+            ],
+            [
+              2,
+              117
+            ],
+            [
+              -887,
+              154440
+            ]
+          ],
+          "extra_node_checked": false,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all admissible theta values only",
+          "normalized_low_power_contribution": [
+            -1687,
+            12870
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            2,
+            10
+          ],
+          "quartic_coefficients": [
+            [
+              1337,
+              7722
+            ],
+            [
+              -123,
+              1430
+            ]
+          ],
+          "extra_node_checked": false,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all admissible theta values only",
+          "normalized_low_power_contribution": [
+            43,
+            19305
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 8,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.01466029199946206,
+      "elapsed_seconds": 0.015706332997069694,
+      "maximum_intermediate_bits": 16,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley13",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 17,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -1159744,
+        715
+      ],
+      "third_moment_float": -1622.0195804195805,
+      "all_equal_rows_contribution": [
+        -3416,
+        11
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -214584,
+        143
+      ],
+      "distinct_rows_contribution": [
+        135216,
+        715
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        795600
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              15331,
+              36465
+            ],
+            [
+              -21988,
+              109395
+            ],
+            [
+              -12806,
+              546975
+            ],
+            [
+              4,
+              1287
+            ]
+          ],
+          "extra_node_checked": false,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all admissible theta values only",
+          "normalized_low_power_contribution": [
+            2708,
+            7293
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              193,
+              187
+            ],
+            [
+              12916,
+              36465
+            ],
+            [
+              -45566,
+              546975
+            ]
+          ],
+          "extra_node_checked": false,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all admissible theta values only",
+          "normalized_low_power_contribution": [
+            -307,
+            10725
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 10,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.028150624988484196,
+      "elapsed_seconds": 0.029903499991632998,
+      "maximum_intermediate_bits": 23,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley17",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 29,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        271,
+        117
+      ],
+      "third_moment_float": 2.3162393162393164,
+      "all_equal_rows_contribution": [
+        -1,
+        45
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -22,
+        15
+      ],
+      "distinct_rows_contribution": [
+        742,
+        195
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        342014400
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            22,
+            14,
+            6,
+            -2,
+            -10,
+            -18
+          ],
+          "quartic_coefficients": [
+            [
+              -11,
+              18270
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              449,
+              6107400
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              977184
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -641,
+            169650
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "quartic_coefficients": [
+            [
+              -11,
+              18270
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              449,
+              6107400
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              977184
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -3467,
+            1781325
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.012142459003371187,
+      "elapsed_seconds": 0.014033708008355461,
+      "maximum_intermediate_bits": 25,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley29",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 101,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -57974988352,
+        20009451
+      ],
+      "third_moment_float": -2897.3802605578735,
+      "all_equal_rows_contribution": [
+        -6518120,
+        3201
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -124340120,
+        141911
+      ],
+      "distinct_rows_contribution": [
+        9143536,
+        606347
+      ],
+      "universal_theta6_coefficient": [
+        73,
+        3637718191800
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            30,
+            22,
+            14,
+            6,
+            -2,
+            -10
+          ],
+          "quartic_coefficients": [
+            [
+              -1160934,
+              16841287925
+            ],
+            [
+              433,
+              1562593725
+            ],
+            [
+              1779686,
+              454714773975
+            ],
+            [
+              -172,
+              151571591325
+            ],
+            [
+              -5359,
+              259837013700
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -535659772,
+            50523863775
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10
+          ],
+          "quartic_coefficients": [
+            [
+              -708794,
+              10104772755
+            ],
+            [
+              -1941,
+              2405898275
+            ],
+            [
+              1801034,
+              454714773975
+            ],
+            [
+              34,
+              10104772755
+            ],
+            [
+              -37747,
+              1818859095900
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            47779168,
+            30314318265
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.03129991699825041,
+      "elapsed_seconds": 0.03320045799773652,
+      "maximum_intermediate_bits": 47,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley101",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        111595286003,
+        23328340049
+      ],
+      "third_moment_float": 4.78367881163425,
+      "all_equal_rows_contribution": [
+        -1,
+        111629
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -3870,
+        111629
+      ],
+      "distinct_rows_contribution": [
+        3037952742,
+        630495677
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        4705546407413362560
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -215,
+              31273087608
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4692379,
+              294096650463335160
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -1937,
+              470554640741336256
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -7174620181,
+            24508054205277930
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -215,
+              31273087608
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4692379,
+              294096650463335160
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -1937,
+              470554640741336256
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            355018381,
+            3459960593686296
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.01317912500235252,
+      "elapsed_seconds": 0.01425112500146497,
+      "maximum_intermediate_bits": 60,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley1297",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 1297,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -2253412148797301312,
+        925018672242955
+      ],
+      "third_moment_float": -2436.072066884122,
+      "all_equal_rows_contribution": [
+        -51082471624,
+        20587577
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -1049202354744,
+        13320162319
+      ],
+      "distinct_rows_contribution": [
+        114631899255751728,
+        925018672242955
+      ],
+      "universal_theta6_coefficient": [
+        14993,
+        2591458310662083291600
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -5712175370281,
+              32393228883276041145
+            ],
+            [
+              4622716,
+              58307811989896874061
+            ],
+            [
+              609579887008,
+              1457695299747421851525
+            ],
+            [
+              -5726,
+              291539059949484370305
+            ],
+            [
+              -128336573,
+              1166156239797937481220
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -1811708452859116,
+            161966144416380205725
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -5712510232057,
+              32393228883276041145
+            ],
+            [
+              -4612652,
+              19435937329965624687
+            ],
+            [
+              11953017688,
+              28582260779361212775
+            ],
+            [
+              5722,
+              97179686649828123435
+            ],
+            [
+              -42779707,
+              388718746599312493740
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            54912492395953,
+            32393228883276041145
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.021172041990212165,
+      "elapsed_seconds": 0.022297917006653734,
+      "maximum_intermediate_bits": 77,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley1297",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "degree": 6,
+      "third_moment": [
+        2875271714307434663912553814081123139559873449718792737119969409536,
+        2287078345969669310246603495021013697731619364726498615
+      ],
+      "third_moment_float": 1257181119035.2488,
+      "all_equal_rows_contribution": [
+        214527172906408377301716140542291174064,
+        170641403195032778473979103
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -16391226031769202455606738244835956662155888,
+        95273995699595442061377736149005821265
+      ],
+      "distinct_rows_contribution": [
+        268340699613063109193468256412577410993496048916812105754272,
+        6861235037909007930739810485063041093194858094179495845
+      ],
+      "universal_theta6_coefficient": [
+        5897996998434893256437230510078892842051,
+        58505088485954025710224149870271867007058923292515502529266892800
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -128696125121398044743818405389088163454295388996574719,
+              306971143290499517615373625862537573802469659250852945369610240
+            ],
+            [
+              48435382813135733318210122224173415196861,
+              3111194019836143759615273235093286220970976276191077149016320
+            ],
+            [
+              600336433460250561851300338040964243233763495688099,
+              31080828258163076158556579618581929347500052999148860718673036800
+            ],
+            [
+              -7970058078978835699973460299176673,
+              126964167721254396072535047461527489164624399506327045419416
+            ],
+            [
+              -72209459164658146319877924494188858794876817,
+              731313606074425321377801873378398337588236541156443781615836160
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -261083795504927889238536998019370849643739987747011992,
+            2248323803397213263784474798797882620623557074591208095968825
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -386088418749731546802853185163333950980603914454574301,
+              920913429871498552846120877587612721407408977752558836108830720
+            ],
+            [
+              -2546401802904759364171210662360735726474301,
+              54527768873970309050099262488740226925438689472190983716970240
+            ],
+            [
+              600336478407476291247298812560013793525497796257619,
+              31080828258163076158556579618581929347500052999148860718673036800
+            ],
+            [
+              11476141162178172655612054869058770833,
+              60942800506202110114816822781533194799019711763036981801319680
+            ],
+            [
+              -4513091366639818839676529051167579110440389,
+              45707100379651582586112617086149896099264783822277736350989760
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -1433949642014440480355507207340221351838611166366604569869,
+            13813701448072478292691813163814190821111134666288382541632460800
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.4184546250035055,
+      "elapsed_seconds": 0.4205233329994371,
+      "maximum_intermediate_bits": 146,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley65537",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "degree": 6,
+      "third_moment": [
+        16819072063759998194298060051814276923015516570702033762565423141171060748777063371689801517875,
+        496730012136749810242164052857375112914346374066149578393011109898427991417289
+      ],
+      "third_moment_float": 3.3859584991473612e+16,
+      "all_equal_rows_contribution": [
+        23432378838850421899116739798796987043226352379472978155,
+        692045658733946655564895947345773256569
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -272600929624315085638873000947578865850047005704938035966880,
+        4544914891566427924088748061142936475946707562949243
+      ],
+      "distinct_rows_contribution": [
+        1823437408001919799440636283140322264630703378565575509295960813526901434570785653560,
+        496730012136749810242164052857375112914346374066149578393011109898427991417289
+      ],
+      "universal_theta6_coefficient": [
+        1096575579269583193139737912736799466599423532303367474508625,
+        1490286900336256775388712779409608246342221777454040947388381831210773363868413248164971552
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -454547964360267605049917488295132443152913026841942236331984804838478845549559,
+              41396858342673799316353132761378006842839493818167804094121717533632593440789256893471432
+            ],
+            [
+              9039559582072791653811933378038050832442495635044852270424125000,
+              15523821878502674743632424785516752566064810181812926535295644075112222540295971335051787
+            ],
+            [
+              49205578332502738881969959631332649908621200913757344431350031323840649057,
+              1490286900336256775388712779409608246342221777454040947388381831210773363868413248164971552
+            ],
+            [
+              -2192892049878139570152510303443230565905064486475878462500,
+              15523821878502674743632424785516752566064810181812926535295644075112222540295971335051787
+            ],
+            [
+              -4107541882687255250692644176001405891070106872308993067340307591875,
+              372571725084064193847178194852402061585555444363510236847095457802693340967103312041242888
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -75710707019538809347068299238418622192492753329440405104796556500164631799264306,
+            15523821878502674743632424785516752566064810181812926535295644075112222540295971335051787
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -41322542264261715650435422614341266367966312446467948714349487319800422191897,
+              3763350758424890846941193887398000622076317619833436735829247048512053949162659717588312
+            ],
+            [
+              -27118435495760213678024866149005909810772325845681680925658225000,
+              15523821878502674743632424785516752566064810181812926535295644075112222540295971335051787
+            ],
+            [
+              49205578371931680408407192347099535390540110298739957121132775264818249057,
+              1490286900336256775388712779409608246342221777454040947388381831210773363868413248164971552
+            ],
+            [
+              6578636669649940012130241594784069835344292569179481187500,
+              15523821878502674743632424785516752566064810181812926535295644075112222540295971335051787
+            ],
+            [
+              -9107631672576901933847346366906625764971724642439387313072373125,
+              826101385995707746889530365526390380455777038500022698108859108209963062011315547763288
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -35461473150193708223951306753109960585148378110439223677509926917489889124702113,
+            16935078412912008811235372493291002799343429289250465311231611718304242771231968729147404
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.7676303339976585,
+      "elapsed_seconds": 0.7714498749992345,
+      "maximum_intermediate_bits": 181,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley1000033",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        44555,
+        35673
+      ],
+      "third_moment_float": 1.248983825302049,
+      "all_equal_rows_contribution": [
+        -1,
+        141
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -42,
+        47
+      ],
+      "distinct_rows_contribution": [
+        25562,
+        11891
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        10068347520
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -1,
+              7896
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              233,
+              27359640
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -65,
+              1006834752
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            1475,
+            1498266
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -1,
+              7896
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              233,
+              27359640
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -65,
+              1006834752
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -448243,
+            125854344
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.030776583997067064,
+      "elapsed_seconds": 0.03473629099607933,
+      "maximum_intermediate_bits": 30,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley49",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        6145,
+        3243
+      ],
+      "third_moment_float": 1.894850447116867,
+      "all_equal_rows_contribution": [
+        -1,
+        141
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -42,
+        47
+      ],
+      "distinct_rows_contribution": [
+        3022,
+        1081
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        10068347520
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -1,
+              7896
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              233,
+              27359640
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -65,
+              1006834752
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            167,
+            3495954
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -1,
+              7896
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              233,
+              27359640
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -65,
+              1006834752
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -2776435,
+            125854344
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.023983042003237642,
+      "elapsed_seconds": 0.025966625005821697,
+      "maximum_intermediate_bits": 30,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Peisert49",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -99128449,
+        1533939
+      ],
+      "third_moment_float": -64.62346221068765,
+      "all_equal_rows_contribution": [
+        70259,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -3295824,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        -2713928,
+        511313
+      ],
+      "universal_theta6_coefficient": [
+        5,
+        12369684096
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -3439,
+              42950292
+            ],
+            [
+              118,
+              32212719
+            ],
+            [
+              1919,
+              140564592
+            ],
+            [
+              -1,
+              32212719
+            ],
+            [
+              -547,
+              3092421024
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -128504,
+            32212719
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -1241,
+              14316764
+            ],
+            [
+              -38,
+              3579191
+            ],
+            [
+              22069,
+              1546210512
+            ],
+            [
+              1,
+              10737573
+            ],
+            [
+              -13,
+              71916768
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -1205609,
+            96638157
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.0396907919930527,
+      "elapsed_seconds": 0.04177558299852535,
+      "maximum_intermediate_bits": 34,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley49",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -1672321,
+        1533939
+      ],
+      "third_moment_float": -1.0902134961038217,
+      "all_equal_rows_contribution": [
+        70259,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -3295824,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        29771448,
+        511313
+      ],
+      "universal_theta6_coefficient": [
+        5,
+        12369684096
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              -3439,
+              42950292
+            ],
+            [
+              118,
+              32212719
+            ],
+            [
+              1919,
+              140564592
+            ],
+            [
+              -1,
+              32212719
+            ],
+            [
+              -547,
+              3092421024
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            28156,
+            10737573
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              -1241,
+              14316764
+            ],
+            [
+              -38,
+              3579191
+            ],
+            [
+              22069,
+              1546210512
+            ],
+            [
+              1,
+              10737573
+            ],
+            [
+              -13,
+              71916768
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -6986093,
+            96638157
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.05946120900625829,
+      "elapsed_seconds": 0.06264929100871086,
+      "maximum_intermediate_bits": 34,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Peisert49",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4737196096,
+        1533939
+      ],
+      "third_moment_float": -3088.255853720389,
+      "all_equal_rows_contribution": [
+        -9466744,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -69291096,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        -18501232,
+        511313
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        1104436080
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              1769,
+              3267957
+            ],
+            [
+              7484,
+              676467099
+            ],
+            [
+              -10372,
+              483190785
+            ],
+            [
+              -10,
+              61497009
+            ],
+            [
+              -29,
+              300652044
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -6858748,
+            225489033
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              42271,
+              75163011
+            ],
+            [
+              -4,
+              127323
+            ],
+            [
+              -69044,
+              3382335495
+            ],
+            [
+              106,
+              225489033
+            ],
+            [
+              -313,
+              2705868396
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -11359927,
+            676467099
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.024480916996253654,
+      "elapsed_seconds": 0.02695800000219606,
+      "maximum_intermediate_bits": 37,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Paley49",
+      "matched_four_and_two_family_compilers": true
+    },
+    {
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4199178304,
+        1533939
+      ],
+      "third_moment_float": -2737.5132283617536,
+      "all_equal_rows_contribution": [
+        -9466744,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -69291096,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        160838032,
+        511313
+      ],
+      "universal_theta6_coefficient": [
+        1,
+        1104436080
+      ],
+      "theta5_coefficient": [
+        0,
+        1
+      ],
+      "family_plans": [
+        {
+          "monochromatic": false,
+          "theta_nodes": [
+            26,
+            18,
+            10,
+            2,
+            -6,
+            -14
+          ],
+          "quartic_coefficients": [
+            [
+              1769,
+              3267957
+            ],
+            [
+              7484,
+              676467099
+            ],
+            [
+              -10372,
+              483190785
+            ],
+            [
+              -10,
+              61497009
+            ],
+            [
+              -29,
+              300652044
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            16820,
+            10737573
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta_nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "quartic_coefficients": [
+            [
+              42271,
+              75163011
+            ],
+            [
+              -4,
+              127323
+            ],
+            [
+              -69044,
+              3382335495
+            ],
+            [
+              106,
+              225489033
+            ],
+            [
+              -313,
+              2705868396
+            ]
+          ],
+          "extra_node_checked": true,
+          "synthetic_nodes_claimed_realizable": false,
+          "polynomial_scope": "all theta by degree bound",
+          "normalized_low_power_contribution": [
+            -53668855,
+            676467099
+          ]
+        }
+      ],
+      "measured_integer_statistics": 7,
+      "coefficient_evaluations": 15,
+      "maximum_coefficient_evaluations": 15,
+      "backend_seconds": 0.10000012499222066,
+      "elapsed_seconds": 0.10211291699670255,
+      "maximum_intermediate_bits": 37,
+      "source_sha256": {
+        "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+        "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c"
+      },
+      "graph": "Peisert49",
+      "matched_four_and_two_family_compilers": true
+    }
+  ],
+  "raw_union_high_degree_checks": [
+    {
+      "q": 49,
+      "families": 2,
+      "union_degrees_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "theta5_zero": true,
+      "theta6_equals_universal_polynomial": true,
+      "extra_nodes_pass": true,
+      "seven_statistic_coefficient_rank": 7,
+      "rank_scope": "Exact formal linear dependence at this fixed q after the stated conference identities; not graph-realizability or historical minimality.",
+      "statistic_coefficient_rows_by_union_degree": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -65,
+            72
+          ],
+          [
+            -65,
+            72
+          ],
+          [
+            1,
+            720
+          ]
+        ],
+        [
+          [
+            32,
+            1
+          ],
+          [
+            160,
+            3
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            -8,
+            3
+          ],
+          [
+            559,
+            24
+          ],
+          [
+            189,
+            8
+          ],
+          [
+            -1,
+            40
+          ]
+        ],
+        [
+          [
+            -544,
+            1
+          ],
+          [
+            -5296,
+            3
+          ],
+          [
+            -124,
+            1
+          ],
+          [
+            116,
+            3
+          ],
+          [
+            -5165,
+            24
+          ],
+          [
+            -5293,
+            24
+          ],
+          [
+            49,
+            240
+          ]
+        ],
+        [
+          [
+            -46144,
+            3
+          ],
+          [
+            53584,
+            3
+          ],
+          [
+            2164,
+            3
+          ],
+          [
+            -204,
+            1
+          ],
+          [
+            24109,
+            24
+          ],
+          [
+            8343,
+            8
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        [
+          [
+            211616,
+            1
+          ],
+          [
+            -256360,
+            3
+          ],
+          [
+            -1938,
+            1
+          ],
+          [
+            1274,
+            3
+          ],
+          [
+            -60913,
+            24
+          ],
+          [
+            -21611,
+            8
+          ],
+          [
+            157,
+            48
+          ]
+        ],
+        [
+          [
+            -936128,
+            1
+          ],
+          [
+            637576,
+            3
+          ],
+          [
+            1846,
+            1
+          ],
+          [
+            514,
+            3
+          ],
+          [
+            23811,
+            8
+          ],
+          [
+            82433,
+            24
+          ],
+          [
+            -301,
+            40
+          ]
+        ],
+        [
+          [
+            5457280,
+            3
+          ],
+          [
+            -752800,
+            3
+          ],
+          [
+            7484,
+            3
+          ],
+          [
+            -2644,
+            1
+          ],
+          [
+            33703,
+            72
+          ],
+          [
+            -30329,
+            72
+          ],
+          [
+            8989,
+            720
+          ]
+        ],
+        [
+          [
+            -1323040,
+            1
+          ],
+          [
+            140384,
+            3
+          ],
+          [
+            -8200,
+            1
+          ],
+          [
+            16688,
+            3
+          ],
+          [
+            -113053,
+            24
+          ],
+          [
+            -27943,
+            8
+          ],
+          [
+            -301,
+            20
+          ]
+        ],
+        [
+          [
+            -422112,
+            1
+          ],
+          [
+            431896,
+            3
+          ],
+          [
+            7142,
+            1
+          ],
+          [
+            -16238,
+            3
+          ],
+          [
+            6419,
+            6
+          ],
+          [
+            -641,
+            6
+          ],
+          [
+            157,
+            12
+          ]
+        ],
+        [
+          [
+            2408992,
+            3
+          ],
+          [
+            73640,
+            3
+          ],
+          [
+            1274,
+            3
+          ],
+          [
+            2062,
+            1
+          ],
+          [
+            27661,
+            3
+          ],
+          [
+            10007,
+            1
+          ],
+          [
+            -8,
+            1
+          ]
+        ],
+        [
+          [
+            377568,
+            1
+          ],
+          [
+            -834656,
+            3
+          ],
+          [
+            -4876,
+            1
+          ],
+          [
+            1756,
+            3
+          ],
+          [
+            -39406,
+            3
+          ],
+          [
+            -13482,
+            1
+          ],
+          [
+            49,
+            15
+          ]
+        ],
+        [
+          [
+            -771552,
+            1
+          ],
+          [
+            692480,
+            3
+          ],
+          [
+            3184,
+            1
+          ],
+          [
+            -2320,
+            3
+          ],
+          [
+            7410,
+            1
+          ],
+          [
+            22502,
+            3
+          ],
+          [
+            -4,
+            5
+          ]
+        ],
+        [
+          [
+            772352,
+            3
+          ],
+          [
+            -180608,
+            3
+          ],
+          [
+            -2048,
+            3
+          ],
+          [
+            192,
+            1
+          ],
+          [
+            -14152,
+            9
+          ],
+          [
+            -14248,
+            9
+          ],
+          [
+            4,
+            45
+          ]
+        ]
+      ],
+      "backend_seconds": 1.4127246249991003
+    },
+    {
+      "q": 101,
+      "families": 2,
+      "union_degrees_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "theta5_zero": true,
+      "theta6_equals_universal_polynomial": true,
+      "extra_nodes_pass": true,
+      "seven_statistic_coefficient_rank": 7,
+      "rank_scope": "Exact formal linear dependence at this fixed q after the stated conference identities; not graph-realizability or historical minimality.",
+      "statistic_coefficient_rows_by_union_degree": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -143,
+            72
+          ],
+          [
+            -143,
+            72
+          ],
+          [
+            1,
+            720
+          ]
+        ],
+        [
+          [
+            32,
+            1
+          ],
+          [
+            472,
+            3
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            -8,
+            3
+          ],
+          [
+            429,
+            8
+          ],
+          [
+            1295,
+            24
+          ],
+          [
+            -1,
+            40
+          ]
+        ],
+        [
+          [
+            1952,
+            1
+          ],
+          [
+            -15904,
+            3
+          ],
+          [
+            -72,
+            1
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            -2935,
+            8
+          ],
+          [
+            -8933,
+            24
+          ],
+          [
+            49,
+            240
+          ]
+        ],
+        [
+          [
+            -265792,
+            3
+          ],
+          [
+            127528,
+            3
+          ],
+          [
+            -800,
+            3
+          ],
+          [
+            376,
+            3
+          ],
+          [
+            4271,
+            24
+          ],
+          [
+            5191,
+            24
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        [
+          [
+            666720,
+            1
+          ],
+          [
+            -197392,
+            3
+          ],
+          [
+            4380,
+            1
+          ],
+          [
+            -5044,
+            3
+          ],
+          [
+            59299,
+            8
+          ],
+          [
+            173977,
+            24
+          ],
+          [
+            157,
+            48
+          ]
+        ],
+        [
+          [
+            -735616,
+            1
+          ],
+          [
+            -1384184,
+            3
+          ],
+          [
+            -16068,
+            1
+          ],
+          [
+            18428,
+            3
+          ],
+          [
+            -244665,
+            8
+          ],
+          [
+            -722995,
+            24
+          ],
+          [
+            -301,
+            40
+          ]
+        ],
+        [
+          [
+            -16703456,
+            3
+          ],
+          [
+            5885312,
+            3
+          ],
+          [
+            56312,
+            3
+          ],
+          [
+            -24208,
+            3
+          ],
+          [
+            2115523,
+            72
+          ],
+          [
+            2051491,
+            72
+          ],
+          [
+            8989,
+            720
+          ]
+        ],
+        [
+          [
+            16370688,
+            1
+          ],
+          [
+            -4732744,
+            3
+          ],
+          [
+            29552,
+            1
+          ],
+          [
+            -21064,
+            3
+          ],
+          [
+            890559,
+            8
+          ],
+          [
+            2700901,
+            24
+          ],
+          [
+            -301,
+            20
+          ]
+        ],
+        [
+          [
+            -5402464,
+            1
+          ],
+          [
+            -16404560,
+            3
+          ],
+          [
+            -127460,
+            1
+          ],
+          [
+            118364,
+            3
+          ],
+          [
+            -411938,
+            1
+          ],
+          [
+            -1239344,
+            3
+          ],
+          [
+            157,
+            12
+          ]
+        ],
+        [
+          [
+            -105383264,
+            3
+          ],
+          [
+            45858080,
+            3
+          ],
+          [
+            557180,
+            3
+          ],
+          [
+            -179116,
+            3
+          ],
+          [
+            1868669,
+            3
+          ],
+          [
+            1871029,
+            3
+          ],
+          [
+            -8,
+            1
+          ]
+        ],
+        [
+          [
+            57488128,
+            1
+          ],
+          [
+            -49405568,
+            3
+          ],
+          [
+            -142312,
+            1
+          ],
+          [
+            139192,
+            3
+          ],
+          [
+            -508990,
+            1
+          ],
+          [
+            -1528010,
+            3
+          ],
+          [
+            49,
+            15
+          ]
+        ],
+        [
+          [
+            -35836608,
+            1
+          ],
+          [
+            25481504,
+            3
+          ],
+          [
+            57368,
+            1
+          ],
+          [
+            -56504,
+            3
+          ],
+          [
+            220454,
+            1
+          ],
+          [
+            661634,
+            3
+          ],
+          [
+            -4,
+            5
+          ]
+        ],
+        [
+          [
+            24694016,
+            3
+          ],
+          [
+            -5212544,
+            3
+          ],
+          [
+            -28880,
+            3
+          ],
+          [
+            9520,
+            3
+          ],
+          [
+            -358288,
+            9
+          ],
+          [
+            -358384,
+            9
+          ],
+          [
+            4,
+            45
+          ]
+        ]
+      ],
+      "backend_seconds": 0.6520951249985956
+    },
+    {
+      "q": 1297,
+      "families": 2,
+      "union_degrees_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "theta5_zero": true,
+      "theta6_equals_universal_polynomial": true,
+      "extra_nodes_pass": true,
+      "seven_statistic_coefficient_rank": 7,
+      "rank_scope": "Exact formal linear dependence at this fixed q after the stated conference identities; not graph-realizability or historical minimality.",
+      "statistic_coefficient_rows_by_union_degree": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1937,
+            72
+          ],
+          [
+            -1937,
+            72
+          ],
+          [
+            1,
+            720
+          ]
+        ],
+        [
+          [
+            32,
+            1
+          ],
+          [
+            7648,
+            3
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            -8,
+            3
+          ],
+          [
+            18031,
+            24
+          ],
+          [
+            6013,
+            8
+          ],
+          [
+            -1,
+            40
+          ]
+        ],
+        [
+          [
+            59360,
+            1
+          ],
+          [
+            -259888,
+            3
+          ],
+          [
+            1124,
+            1
+          ],
+          [
+            -1132,
+            3
+          ],
+          [
+            1026931,
+            24
+          ],
+          [
+            1026803,
+            24
+          ],
+          [
+            49,
+            240
+          ]
+        ],
+        [
+          [
+            -5317696,
+            3
+          ],
+          [
+            -11605232,
+            3
+          ],
+          [
+            -68972,
+            3
+          ],
+          [
+            7700,
+            1
+          ],
+          [
+            -18363299,
+            24
+          ],
+          [
+            -6120793,
+            8
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        [
+          [
+            -60511072,
+            1
+          ],
+          [
+            220572248,
+            3
+          ],
+          [
+            -223458,
+            1
+          ],
+          [
+            222794,
+            3
+          ],
+          [
+            -123813217,
+            24
+          ],
+          [
+            -41272379,
+            8
+          ],
+          [
+            157,
+            48
+          ]
+        ],
+        [
+          [
+            1006908736,
+            1
+          ],
+          [
+            1564131976,
+            3
+          ],
+          [
+            3676582,
+            1
+          ],
+          [
+            -3674222,
+            3
+          ],
+          [
+            847352163,
+            8
+          ],
+          [
+            2542067489,
+            24
+          ],
+          [
+            -301,
+            40
+          ]
+        ],
+        [
+          [
+            20322348160,
+            3
+          ],
+          [
+            -25329212320,
+            3
+          ],
+          [
+            -57032356,
+            3
+          ],
+          [
+            6335116,
+            1
+          ],
+          [
+            -43710657113,
+            72
+          ],
+          [
+            -43710721145,
+            72
+          ],
+          [
+            8989,
+            720
+          ]
+        ],
+        [
+          [
+            -79162532128,
+            1
+          ],
+          [
+            117761902112,
+            3
+          ],
+          [
+            52392824,
+            1
+          ],
+          [
+            -52384336,
+            3
+          ],
+          [
+            44074774739,
+            24
+          ],
+          [
+            14691601321,
+            8
+          ],
+          [
+            -301,
+            20
+          ]
+        ],
+        [
+          [
+            271952635680,
+            1
+          ],
+          [
+            -280746770216,
+            3
+          ],
+          [
+            -87182506,
+            1
+          ],
+          [
+            87173410,
+            3
+          ],
+          [
+            -20075060125,
+            6
+          ],
+          [
+            -20075067185,
+            6
+          ],
+          [
+            157,
+            12
+          ]
+        ],
+        [
+          [
+            -1390136883680,
+            3
+          ],
+          [
+            385860405224,
+            3
+          ],
+          [
+            271937354,
+            3
+          ],
+          [
+            -30213058,
+            1
+          ],
+          [
+            11404451341,
+            3
+          ],
+          [
+            3801484567,
+            1
+          ],
+          [
+            -8,
+            1
+          ]
+        ],
+        [
+          [
+            429045016032,
+            1
+          ],
+          [
+            -309375162464,
+            3
+          ],
+          [
+            -57783532,
+            1
+          ],
+          [
+            57780412,
+            3
+          ],
+          [
+            -7925293678,
+            3
+          ],
+          [
+            -2641764906,
+            1
+          ],
+          [
+            49,
+            15
+          ]
+        ],
+        [
+          [
+            -207144640224,
+            1
+          ],
+          [
+            134715413504,
+            3
+          ],
+          [
+            20707504,
+            1
+          ],
+          [
+            -20706640,
+            3
+          ],
+          [
+            1029049554,
+            1
+          ],
+          [
+            3087148934,
+            3
+          ],
+          [
+            -4,
+            5
+          ]
+        ],
+        [
+          [
+            122909043968,
+            3
+          ],
+          [
+            -24659422592,
+            3
+          ],
+          [
+            -9601664,
+            3
+          ],
+          [
+            1066816,
+            1
+          ],
+          [
+            -1550883784,
+            9
+          ],
+          [
+            -1550883880,
+            9
+          ],
+          [
+            4,
+            45
+          ]
+        ]
+      ],
+      "backend_seconds": 0.6813441249978496
+    }
+  ],
+  "universal_theta6_union_coefficients": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      720
+    ],
+    [
+      -1,
+      40
+    ],
+    [
+      49,
+      240
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      157,
+      48
+    ],
+    [
+      -301,
+      40
+    ],
+    [
+      8989,
+      720
+    ],
+    [
+      -301,
+      20
+    ],
+    [
+      157,
+      12
+    ],
+    [
+      -8,
+      1
+    ],
+    [
+      49,
+      15
+    ],
+    [
+      -4,
+      5
+    ],
+    [
+      4,
+      45
+    ]
+  ],
+  "source_sha256": {
+    "run_residue_experiments.py": "f7463e177ff0bd4203315bd720caed270b16e9a96a8c36bee22bfe66a336c180",
+    "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+    "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af"
+  },
+  "baseline_sha256": "bc61f35b2af9abce814f842495ea11704cbf24b5c8dad777343789398faaabbd",
+  "malformed_record_rejections": 3
+}

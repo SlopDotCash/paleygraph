@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-09-05T20:38:40.407244+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel28-moment-recurrence/shkredov-published-2019.pdf",
+      "url": "https://msp.org/moscow/2019/8-1/moscow-v8-n1-p03-s.pdf",
+      "sha256": "85297e1bacec7d7d4acd834c6e02cabf1be376c0c8c8bc8a20f777c3215426ac",
+      "bytes": 5492416,
+      "used_statement": "Theorem 8, equation (22), printed page 20: balanced prime-field point-plane incidence bound.",
+      "visually_inspected_physical_pages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "role": "Sole non-elementary input to the centered invariant-set estimate."
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "url": "https://arxiv.org/pdf/1712.00410",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477",
+      "bytes": 313523,
+      "used_statement": "Corollary 7: T3(H) << n^4 log n; Theorem 3: E2(H) << n^(49/20) log^(1/5) n. Both for n=O(sqrt p).",
+      "visually_inspected_physical_pages": [
+        5,
+        8
+      ],
+      "role": "Previously verified E2 and E3 seed estimates; used only in the quartic-window power ledger."
+    }
+  ],
+  "ordinary_derivations": [
+    "Exact plane variance and energy encoding",
+    "Signed weighted lifting with origin retained",
+    "Centered convolution recurrence uniform in order",
+    "Closure of the stated exponent-bound rules",
+    "Prime-subfield obstruction to naive extension"
+  ],
+  "not_imported": "The Vinh abstract was located; no theorem from that abstract is assumed. The earlier qualified origin-free centered-function theorem is not assumed.",
+  "formal_verification": "No Lean verification or new hosted analytic proof verdict.",
+  "novelty_status": "No literature novelty or current-best claim.",
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41"
+}

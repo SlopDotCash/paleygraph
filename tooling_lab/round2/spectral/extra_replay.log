@@ -1,0 +1,26 @@
+{
+  "p": 65537,
+  "m": 16383,
+  "norm_squared": 343365276,
+  "sum_entries": 50,
+  "sum_absolute_entries": 1900290,
+  "signed_quadratic_form": -76160140876,
+  "ntt_modulus": 998244353,
+  "ntt_length": 262144,
+  "integer_recovery_margin": 994443773,
+  "direct_small_rows_checked": 0,
+  "autocorrelation_computed": true,
+  "max_abs_nonzero_translation_numerator": 12426901,
+  "max_translation_shift": 17303,
+  "count_translation_ge_3_5": 1,
+  "rayleigh_H_display": -0.8664192374884315,
+  "status": "exact finite outlier with no nonzero overlap >=3/5; no asymptotic claim",
+  "file": "witness_65537_negative_512.bin",
+  "sha256": "3e3f43cb6fe766609cf9af1234aa63b129721e35fb44ec44b8237edd281c9ac9",
+  "strict_directional_rayleigh_lower_bound": [
+    866400,
+    1000000
+  ],
+  "rational_bound_exceeds_sqrt3_over2_squared_margin": 2595840000,
+  "source_sha256": "6c07ef22856a2d17e44e4afbf7225f6f2d5f89aaa0f57ac76daf73dfcb897437"
+}

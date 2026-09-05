@@ -1,0 +1,237 @@
+{
+  "status": "Uniform algebraic obstruction and sufficient index estimate; uniform energy bound unproved.",
+  "integer_index_certificates": [
+    {
+      "parent_order": 4,
+      "degree": 1,
+      "ambient_polynomial": [
+        0,
+        1
+      ],
+      "alpha_remainder": [
+        -4
+      ],
+      "ambient_discriminant_hex": "0x1",
+      "primitive_discriminant_hex": "0x1",
+      "order_index_hex": "0x1",
+      "order_index_bits": 1,
+      "unreduced_derivative_norm_hex": "0x4"
+    },
+    {
+      "parent_order": 8,
+      "degree": 2,
+      "ambient_polynomial": [
+        -2,
+        0,
+        1
+      ],
+      "alpha_remainder": [
+        -68,
+        -48
+      ],
+      "ambient_discriminant_hex": "0x8",
+      "primitive_discriminant_hex": "0x4800",
+      "order_index_hex": "0x30",
+      "order_index_bits": 6,
+      "unreduced_derivative_norm_hex": "0x80"
+    },
+    {
+      "parent_order": 16,
+      "degree": 4,
+      "ambient_polynomial": [
+        2,
+        0,
+        -4,
+        0,
+        1
+      ],
+      "alpha_remainder": [
+        2908,
+        0,
+        -7888,
+        -3808
+      ],
+      "ambient_discriminant_hex": "0x800",
+      "primitive_discriminant_hex": "0x1e4283d942525056100800000000000000000",
+      "order_index_hex": "0x7c789384040000000",
+      "order_index_bits": 67,
+      "unreduced_derivative_norm_hex": "0x80000"
+    },
+    {
+      "parent_order": 32,
+      "degree": 8,
+      "ambient_polynomial": [
+        2,
+        0,
+        -16,
+        0,
+        20,
+        0,
+        -8,
+        0,
+        1
+      ],
+      "alpha_remainder": [
+        17488156,
+        5048320,
+        -140862016,
+        -48814336,
+        155879408,
+        43957504,
+        -63606048,
+        -24682944
+      ],
+      "ambient_discriminant_hex": "0x80000000",
+      "primitive_discriminant_hex": "0x7c0ee3064c201523805d1e9ae0ca31b023e83acc339e0456d575dd512a4ceb30d16b1c801b5b5603567de18ff6d1fbc57dc6cfb8f9f1c5b5d4e1988bede92372d66155ed67c39a5323075a9eb54b1ce0bd98e032e92c8ef5a520072dd2ad9630b31da4f1f1aa6620336514980ad80800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "order_index_hex": "0xfc06fee979a3b9098bd2270f57bc8dfb3f7ccacd2b44c68beaf1ddf9fb7e8f1fee522197a20d613c1a47cfa39e8f2b9c33260a43b963604000000000000000000000000000000000000000",
+      "order_index_bits": 600,
+      "unreduced_derivative_norm_hex": "0x800000000000"
+    },
+    {
+      "parent_order": 64,
+      "degree": 16,
+      "ambient_polynomial": [
+        2,
+        0,
+        -64,
+        0,
+        336,
+        0,
+        -672,
+        0,
+        660,
+        0,
+        -352,
+        0,
+        104,
+        0,
+        -16,
+        0,
+        1
+      ],
+      "alpha_remainder": [
+        798175152607004,
+        247209532243968,
+        -25470248632285440,
+        -7895994480453632,
+        131784574172950592,
+        40890533531244544,
+        -256305911816267392,
+        -79946503399205376,
+        239840973109980272,
+        74979276950315008,
+        -118595146166209664,
+        -37706222601489408,
+        30137221706881632,
+        9591026364501504,
+        -3553833091059264,
+        -1219851175420800
+      ],
+      "ambient_discriminant_hex": "0x80000000000000000000",
+      "primitive_discriminant_hex": "0xa8e20beb64922fe73e36af5a042d9f8751134e1af4af923f4f81c35a124e24ba5df9a7894be5901d4fb1ff3125cc3821f13d9aa900405741eb451d2ff7c8c538dc911a65fb23f80467e0a5ef5c7e92643a26fef70d237c200645f7965ab51f641dd4905a1fff6683dd58e2ecded7bce656e88259235fb03aa032167277b2ae8d87a17f8a29124b7bbe4f46fce79b4d6c542ff51256e611a676687614d38835aebd1812d264bdaa3dd0a6ceccf33a427cbcffc2d45c3defb1e89fbb5dd3d0858f67bece616d52e729bc08f1107b9b8cc318b97f812145288ff782560895553aa375f0f14e5e79793c624618156ee926f6e5e9a7d96761084a626e3adc6b543ba5d4c8558860b3a6d0cf10314022283ccc3775ab9c9d1efc9106d0a6d5c80d48ed3fa1fd6aa2c8a17496628b1b85e0556d7a866b64aa0b840a4bacc440850bfd6975baeb752ea4c12669127d3533f410672f5fb2d3b806267c207c5354251ebb5a9f11de5ee2c7dbc90782d67cea50ee91d07e34a98d9fcc97923c79add11f5303828f72d9c731ee23bdd6e75b7e9a85ee4715d35e8a7207d3b77222f1d716e5fe4f59160b0ad4d50011bef0bfcbbeb9b3667fccb0e37354c7d8222b7cc6f41fafc7fef6c125c6cd430d3ec3861aaff494015a339979da430cda31130b7102ced6a42de1b4ab704ae3a65d3340cb1af2542b8d072e523ba76e5b06dbcd70d11ee888ca131b7f6844593cd892263ac69209ee35835ab6abc6c41882ae34aa09ced78b4aae27973ce94b5540bd016ecd1d34ad6488f5500e8417477dd24c01564a4b0fb21bb81efa599901e599455de8234c8898bcd86e962b5f5ba8a8a5b6f4f90493b7916df6fde5685527f2ebd881fd1ea021c6e9f0f43fe45058a2dd61921977592b741744a0823c5cc0c3a9a3ef7b513321c02a46fe712fea14cc3298858eaa619031dbcdbc6e290b0cd57b5c5e246205b76299a943c84f001ad3ffc579c1de42029ea4fd110e9db97ca4a77193f583e2c97fd614224d2b3973ddd18a092ec03f5af97ec837bd54d07e6a09927a4f5e7d9a1a6ed9c03458a446321ffb04f269d30175307476b1857742bb2f13c1c367e2e34a4b3969d65ae1caf6dc1f911301425058360df8ae0ef5a0c8b79a52735ad3ff70981d9957fb2bc33d73ce296efd602d3a54407e257079646d082dcf2353983171d7e43e0f9355bb632bdf9c55a057bb4f54e9c2c73e09b3f050c81955aaeaba44bbc9dcff5f577db58235ccc7d93ff587e6e6db667f2ded4ddda8588d5b17ef8bf4b7dc88922261221a4caf10bc95c0c17d29c6d927abe7fc84c66dc9559f25c61d59d68c7a90627816607bf8e9cc3800a272f75988094c659bb58874f8a0a1cda8433615a3c63fbd7853ad02b2e9309b50ed2c3c20a7703a712f9726d3dfc5a5f7060c37624aba80f5eddf390d2310f1e36faf092b3ca6c8f4a7c47758829333dd6daa1a243736fa4e206b2f1df135580080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "order_index_hex": "0x49837e2871fc1af7cb8f1ec6d53eab29b1c92250948d80923e0902235b48102d7e365a45fcf544e33a89347862277948605c570a21b1bc6e8a2652437fc771d163baed777b1548c06e9d395020fd6120e6c2ba7cd19259aeab0e35ceb3ea33e51c6c894616741404918d298c5b04f457fdfc735a9cb92b4702da0bbda626ad748f9a30dbb77b164838b1710ed2f8db5e9b5e766d288f7a8b8ba5ee4366ac770d46c187e93749ffeb077b63d583d517383891e1b58b2b2885fdb0c4b61840b473a6c11231891611f9796cedc8326320efd2ea365eb6fc7fa43f79b9901963b8721136776310c539273f02cbbb8d290c25236bd091c117608e42630eeea48eb946f0ad00739af0a90910f6cbb779b048588c37ba4ea5fe6f9eddc5e8a401b5f45f5dde3014bef69ede62e3d52ea761f9e2fa4039e8a66317112ac0ffaa29d502899ab195e5716c9b149ab9ddd374ea27565fcb61fbcd0aed674b50c3caa46d19cb3d5fcef48461b63afe378eef170684bf89abd316aaed3b1f6b424e8b5c12401da64d0661419009ac04bfce3e621d56cccf5757013c1a905d4497330f48eab6676cddaf31d341543ea6d0aae43b78483daa87a38930b19c13ab5c36aceb82b363c3891fefd5e3c2f25c0ceaf594bbc559b72855feb98733dd0b1ece514daa80a5eb008274191b8fd2510a12a87aadeb9637ca6170c8002b96ffc2b16ec63f57f8721a70a2a5b3d53fd4a630898f728a85560040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "order_index_bits": 4967,
+      "unreduced_derivative_norm_hex": "0x8000000000000000000000000000"
+    }
+  ],
+  "modular_certificates": [
+    {
+      "p": 17,
+      "parent_order": 16,
+      "generator": 3,
+      "rank": 1,
+      "nullity": 3,
+      "ambient_discriminant_mod_p": 8,
+      "all_unreduced_derivatives_nonzero": true,
+      "fiber_histogram": {
+        "4": 1
+      },
+      "colliding_exponents": {
+        "1": [
+          1,
+          3,
+          5,
+          7
+        ]
+      },
+      "lifted_mod_p_squared_squarefree": true,
+      "exact_index_valuation": 6,
+      "balanced_energy_from_fibers": 256
+    },
+    {
+      "p": 67403009,
+      "parent_order": 128,
+      "generator": 64701253,
+      "rank": 30,
+      "nullity": 2,
+      "ambient_discriminant_mod_p": 19552351,
+      "all_unreduced_derivatives_nonzero": true,
+      "fiber_histogram": {
+        "1": 28,
+        "2": 2
+      },
+      "colliding_exponents": {
+        "12400204": [
+          13,
+          25
+        ],
+        "29566144": [
+          15,
+          53
+        ]
+      },
+      "lifted_mod_p_squared_squarefree": true,
+      "exact_index_valuation": 2,
+      "balanced_energy_from_fibers": 4608
+    },
+    {
+      "p": 17189277697,
+      "parent_order": 512,
+      "generator": 730170861,
+      "rank": 126,
+      "nullity": 2,
+      "ambient_discriminant_mod_p": 11578625899,
+      "all_unreduced_derivatives_nonzero": true,
+      "fiber_histogram": {
+        "1": 124,
+        "2": 2
+      },
+      "colliding_exponents": {
+        "11888794615": [
+          19,
+          167
+        ],
+        "2813558223": [
+          173,
+          191
+        ]
+      },
+      "lifted_mod_p_squared_squarefree": true,
+      "exact_index_valuation": 2,
+      "balanced_energy_from_fibers": 67584
+    }
+  ],
+  "galois_partition_counterexample": {
+    "p": 67403009,
+    "n": 128,
+    "g": 64701253,
+    "exponents": [
+      13,
+      25
+    ],
+    "multiplier": 3,
+    "before": [
+      12400204,
+      12400204
+    ],
+    "after": [
+      7533465,
+      29566144
+    ]
+  },
+  "source_sha256": {
+    "experiments/parallel3_subgroup_2026_09_04.py": "df34ad75a721ed2591ada0f48e0e9074e67d773f47c206d114e6abd402a3465e",
+    "results/parallel2_subgroup_2026_09_04.json": "e23ce009efd9f60ceffd6bb88950465de9fdad2168da74af6e84d3c89e17a4a1",
+    "research/parallel3-subgroup-2026-09-04.md": "d8bf6e1301a99f9dd8128a7a64b600ec6168057c46c1668d3808692f3585d28d"
+  }
+}

@@ -1,0 +1,855 @@
+{
+  "status": "finite evidence about candidate informativeness; empirical regression is not a certificate or uniform bound",
+  "cases": [
+    {
+      "p": 61,
+      "n": 6,
+      "random_count": 2048,
+      "planted_count": 128,
+      "critical_size": false,
+      "low_cost_fibers": {
+        "fibers": 653,
+        "singleton_records": 275,
+        "ambiguous_fibers": 25,
+        "witness": [
+          {
+            "C": [
+              0,
+              1,
+              9,
+              12,
+              13,
+              40
+            ],
+            "m2": 330,
+            "m4": 5142,
+            "m6": 109350,
+            "b2": 38,
+            "b4": 710,
+            "energy": 74,
+            "t4": 15,
+            "t6": -13,
+            "quartic_deck": [
+              13,
+              9,
+              9,
+              -15,
+              -7,
+              1,
+              1,
+              -3,
+              -3,
+              5,
+              5,
+              1,
+              5,
+              -11,
+              5
+            ],
+            "triangle": 18552,
+            "centered_triangle_numerator": 1436616,
+            "shuffled_triangle": [
+              -19368,
+              5880,
+              -1416
+            ],
+            "shuffled_centered": [
+              -5178168,
+              2183112,
+              -733752
+            ]
+          },
+          {
+            "C": [
+              0,
+              1,
+              13,
+              18,
+              25,
+              40
+            ],
+            "m2": 330,
+            "m4": 5142,
+            "m6": 132390,
+            "b2": 38,
+            "b4": 710,
+            "energy": 74,
+            "t4": 15,
+            "t6": 19,
+            "quartic_deck": [
+              5,
+              -7,
+              1,
+              -3,
+              9,
+              1,
+              -3,
+              13,
+              -7,
+              -7,
+              -3,
+              -7,
+              1,
+              13,
+              9
+            ],
+            "triangle": -21576,
+            "centered_triangle_numerator": -4798008,
+            "shuffled_triangle": [
+              -3240,
+              -1320,
+              4056
+            ],
+            "shuffled_centered": [
+              -1252152,
+              -906552,
+              -906552
+            ]
+          }
+        ]
+      },
+      "correlations": {
+        "target_raw_triangle": -0.13130126823567412,
+        "target_centered_triangle": -0.058432615790306536,
+        "target_shuffled_triangles": [
+          0.0018388637512405186,
+          0.01245712318122698,
+          -0.03846795122437626
+        ]
+      },
+      "local_fit": {
+        "baseline": {
+          "random_holdout": {
+            "mse": 0.8633006085249185,
+            "r2_against_cohort_mean": 0.002778124339715249,
+            "max_abs_error": 2.761815334603335
+          },
+          "three_anchor_holdout": {
+            "mse": 1.6254141136995766,
+            "r2_against_cohort_mean": -0.4115682177503628,
+            "max_abs_error": 3.5033616761654875
+          }
+        },
+        "actual": {
+          "random_holdout": {
+            "mse": 0.8428025507296555,
+            "r2_against_cohort_mean": 0.026455985145248384,
+            "max_abs_error": 2.78987647586157
+          },
+          "three_anchor_holdout": {
+            "mse": 1.530435150649693,
+            "r2_against_cohort_mean": -0.32908506194033427,
+            "max_abs_error": 3.353825194864485
+          }
+        },
+        "shuffled": {
+          "random_holdout": {
+            "mse": 0.871069230649941,
+            "r2_against_cohort_mean": -0.006195621132383922,
+            "max_abs_error": 2.7922866597492195
+          },
+          "three_anchor_holdout": {
+            "mse": 1.6113980057253,
+            "r2_against_cohort_mean": -0.39939612425966775,
+            "max_abs_error": 3.5802106634781325
+          }
+        }
+      },
+      "toy_model_transferred": {},
+      "target_range": [
+        -21,
+        19
+      ],
+      "maximum_m6_over_gaussian": 1.0651183970856102
+    },
+    {
+      "p": 1297,
+      "n": 6,
+      "random_count": 8192,
+      "planted_count": 128,
+      "critical_size": true,
+      "low_cost_fibers": {
+        "fibers": 1559,
+        "singleton_records": 710,
+        "ambiguous_fibers": 774,
+        "witness": [
+          {
+            "C": [
+              0,
+              1,
+              202,
+              857,
+              862,
+              873
+            ],
+            "m2": 7746,
+            "m4": 123366,
+            "m6": 2805246,
+            "b2": 46,
+            "b4": 790,
+            "energy": 66,
+            "t4": -1,
+            "t6": -113,
+            "quartic_deck": [
+              -51,
+              5,
+              33,
+              17,
+              21,
+              -47,
+              -51,
+              -27,
+              1,
+              -23,
+              -23,
+              49,
+              57,
+              1,
+              37
+            ],
+            "triangle": 217560,
+            "centered_triangle_numerator": -42010552,
+            "shuffled_triangle": [
+              173400,
+              -371400,
+              -476808
+            ],
+            "shuffled_centered": [
+              -32624056,
+              -25341112,
+              -2628280
+            ]
+          },
+          {
+            "C": [
+              0,
+              1,
+              53,
+              1000,
+              1084,
+              1173
+            ],
+            "m2": 7746,
+            "m4": 123366,
+            "m6": 2943486,
+            "b2": 46,
+            "b4": 790,
+            "energy": 66,
+            "t4": -1,
+            "t6": 79,
+            "quartic_deck": [
+              1,
+              -35,
+              17,
+              17,
+              61,
+              -47,
+              21,
+              -63,
+              17,
+              -7,
+              37,
+              1,
+              1,
+              -55,
+              33
+            ],
+            "triangle": -132840,
+            "centered_triangle_numerator": -25942456,
+            "shuffled_triangle": [
+              -1279272,
+              -421704,
+              153432
+            ],
+            "shuffled_centered": [
+              -197558200,
+              -86876344,
+              43638344
+            ]
+          }
+        ]
+      },
+      "correlations": {
+        "target_raw_triangle": -0.0018319707473517797,
+        "target_centered_triangle": 0.002512557278788828,
+        "target_shuffled_triangles": [
+          0.012756208412677954,
+          0.011145433471130997,
+          -0.005368790010932171
+        ]
+      },
+      "local_fit": {
+        "baseline": {
+          "random_holdout": {
+            "mse": 0.9777485552266962,
+            "r2_against_cohort_mean": -0.0014198159574974056,
+            "max_abs_error": 3.45281784553635
+          },
+          "three_anchor_holdout": {
+            "mse": 1.1079480994229711,
+            "r2_against_cohort_mean": -0.0035962399950020263,
+            "max_abs_error": 3.230981409562293
+          }
+        },
+        "actual": {
+          "random_holdout": {
+            "mse": 0.977973163949869,
+            "r2_against_cohort_mean": -0.0016498624505552062,
+            "max_abs_error": 3.4529898569377804
+          },
+          "three_anchor_holdout": {
+            "mse": 1.1148074784886273,
+            "r2_against_cohort_mean": -0.009809569881644054,
+            "max_abs_error": 3.2492349571406764
+          }
+        },
+        "shuffled": {
+          "random_holdout": {
+            "mse": 0.9778872558424542,
+            "r2_against_cohort_mean": -0.0015618745106531495,
+            "max_abs_error": 3.442145156896465
+          },
+          "three_anchor_holdout": {
+            "mse": 1.1088399278889498,
+            "r2_against_cohort_mean": -0.004404071783912444,
+            "max_abs_error": 3.2126966811583366
+          }
+        }
+      },
+      "toy_model_transferred": {
+        "baseline": {
+          "mse": 0.9798600270171504,
+          "r2_against_cohort_mean": -0.003582406411344552,
+          "max_abs_error": 3.4878998101674132
+        },
+        "actual": {
+          "mse": 0.9946039347368058,
+          "r2_against_cohort_mean": -0.018683263657498506,
+          "max_abs_error": 3.4924574811853994
+        },
+        "shuffled": {
+          "mse": 0.9899907267631044,
+          "r2_against_cohort_mean": -0.013958370068751114,
+          "max_abs_error": 3.5894014606555054
+        }
+      },
+      "target_range": [
+        -125,
+        123
+      ],
+      "maximum_m6_over_gaussian": 0.8330920357520203
+    },
+    {
+      "p": 2437,
+      "n": 7,
+      "random_count": 4096,
+      "planted_count": 128,
+      "critical_size": true,
+      "low_cost_fibers": {
+        "fibers": 1564,
+        "singleton_records": 829,
+        "ambiguous_fibers": 694,
+        "witness": [
+          {
+            "C": [
+              0,
+              1,
+              548,
+              946,
+              1380,
+              1953,
+              2316
+            ],
+            "m2": 17010,
+            "m4": 322542,
+            "m6": 8906670,
+            "b2": 36,
+            "b4": 336,
+            "energy": 91,
+            "t4": 3,
+            "t6": -371,
+            "quartic_deck": [
+              -59,
+              73,
+              -7,
+              -63,
+              -19,
+              33,
+              13,
+              5,
+              -19,
+              -11,
+              1,
+              37,
+              -23,
+              -7,
+              -59,
+              -3,
+              81,
+              5,
+              -19,
+              -63,
+              49,
+              65,
+              49,
+              -91,
+              57,
+              57,
+              17,
+              -63,
+              -27,
+              -27,
+              53,
+              17,
+              -43,
+              57,
+              -63
+            ],
+            "triangle": -16378806,
+            "centered_triangle_numerator": -498430626,
+            "shuffled_triangle": [
+              66424074,
+              42744330,
+              -32548854
+            ],
+            "shuffled_centered": [
+              4985362206,
+              -3295911522,
+              300608286
+            ]
+          },
+          {
+            "C": [
+              0,
+              1,
+              414,
+              496,
+              732,
+              825,
+              2235
+            ],
+            "m2": 17010,
+            "m4": 322542,
+            "m6": 9413550,
+            "b2": 36,
+            "b4": 336,
+            "energy": 91,
+            "t4": 3,
+            "t6": 333,
+            "quartic_deck": [
+              -83,
+              21,
+              -51,
+              -39,
+              -15,
+              -11,
+              41,
+              -11,
+              -23,
+              45,
+              53,
+              21,
+              -7,
+              -63,
+              57,
+              29,
+              -23,
+              -39,
+              -3,
+              5,
+              37,
+              -7,
+              45,
+              -35,
+              21,
+              -3,
+              49,
+              -31,
+              5,
+              61,
+              -63,
+              21,
+              37,
+              25,
+              -63
+            ],
+            "triangle": -986166,
+            "centered_triangle_numerator": -2967820962,
+            "shuffled_triangle": [
+              8504010,
+              -5534646,
+              -22958454
+            ],
+            "shuffled_centered": [
+              806434782,
+              5049531486,
+              -3740614242
+            ]
+          }
+        ]
+      },
+      "correlations": {
+        "target_raw_triangle": -0.004385452363126174,
+        "target_centered_triangle": -0.017312564325530584,
+        "target_shuffled_triangles": [
+          0.01219269542185072,
+          0.0028611685625550922,
+          0.023238172306363016
+        ]
+      },
+      "local_fit": {
+        "baseline": {
+          "random_holdout": {
+            "mse": 0.9650181086351399,
+            "r2_against_cohort_mean": -0.0003564121376826712,
+            "max_abs_error": 4.09003806242935
+          },
+          "three_anchor_holdout": {
+            "mse": 1.1658550401642471,
+            "r2_against_cohort_mean": -0.013035530850016519,
+            "max_abs_error": 2.9116834307787087
+          }
+        },
+        "actual": {
+          "random_holdout": {
+            "mse": 0.9659467331701757,
+            "r2_against_cohort_mean": -0.00131904226843238,
+            "max_abs_error": 4.0957157541675695
+          },
+          "three_anchor_holdout": {
+            "mse": 1.1659550228127866,
+            "r2_against_cohort_mean": -0.013122407838964234,
+            "max_abs_error": 2.9140558875747704
+          }
+        },
+        "shuffled": {
+          "random_holdout": {
+            "mse": 0.9689901786319877,
+            "r2_against_cohort_mean": -0.004473936622716668,
+            "max_abs_error": 4.135468715888882
+          },
+          "three_anchor_holdout": {
+            "mse": 1.1694364055893525,
+            "r2_against_cohort_mean": -0.016147453258550604,
+            "max_abs_error": 2.960872379633776
+          }
+        }
+      },
+      "toy_model_transferred": {
+        "baseline": {
+          "mse": 0.9645913079891497,
+          "r2_against_cohort_mean": 8.60176562251791e-05,
+          "max_abs_error": 4.058670344581189
+        },
+        "actual": {
+          "mse": 0.9938274935241417,
+          "r2_against_cohort_mean": -0.03022077700873771,
+          "max_abs_error": 4.084011004763734
+        },
+        "shuffled": {
+          "mse": 0.9893735649754789,
+          "r2_against_cohort_mean": -0.025603748641094493,
+          "max_abs_error": 4.167547379282879
+        }
+      },
+      "target_range": [
+        -539,
+        533
+      ],
+      "maximum_m6_over_gaussian": 0.8917071723466337
+    },
+    {
+      "p": 4129,
+      "n": 8,
+      "random_count": 2048,
+      "planted_count": 128,
+      "critical_size": true,
+      "low_cost_fibers": {
+        "fibers": 1733,
+        "singleton_records": 1479,
+        "ambiguous_fibers": 252,
+        "witness": [
+          {
+            "C": [
+              0,
+              1,
+              1346,
+              1910,
+              2696,
+              3495,
+              3558,
+              3935
+            ],
+            "m2": 32968,
+            "m4": 710872,
+            "m6": 22659088,
+            "b2": 32,
+            "b4": 248,
+            "energy": 120,
+            "t4": -558,
+            "t6": -660,
+            "quartic_deck": [
+              -95,
+              -99,
+              21,
+              -63,
+              9,
+              57,
+              -23,
+              109,
+              69,
+              -15,
+              -87,
+              89,
+              -35,
+              45,
+              -51,
+              25,
+              61,
+              109,
+              -11,
+              -119,
+              73,
+              97,
+              -55,
+              -115,
+              93,
+              -119,
+              -83,
+              61,
+              105,
+              -67,
+              105,
+              33,
+              -27,
+              25,
+              -7,
+              1,
+              61,
+              61,
+              -27,
+              -115,
+              -31,
+              -15,
+              -75,
+              97,
+              -11,
+              -27,
+              -115,
+              -59,
+              -123,
+              -63,
+              -15,
+              -71,
+              -51,
+              -23,
+              -39,
+              81,
+              -115,
+              13,
+              -99,
+              93,
+              -47,
+              29,
+              -83,
+              -63,
+              45,
+              -31,
+              81,
+              -35,
+              113,
+              -15
+            ],
+            "triangle": -2611278768,
+            "centered_triangle_numerator": 259835939328,
+            "shuffled_triangle": [
+              -1564483056,
+              -821539536,
+              -2378245296
+            ],
+            "shuffled_centered": [
+              648345463296,
+              301838977536,
+              -9689519616
+            ]
+          },
+          {
+            "C": [
+              0,
+              1,
+              833,
+              879,
+              975,
+              1768,
+              2770,
+              3664
+            ],
+            "m2": 32968,
+            "m4": 710872,
+            "m6": 23718928,
+            "b2": 32,
+            "b4": 248,
+            "energy": 120,
+            "t4": -558,
+            "t6": 812,
+            "quartic_deck": [
+              -107,
+              -31,
+              -3,
+              61,
+              -95,
+              29,
+              13,
+              -31,
+              5,
+              45,
+              -3,
+              -35,
+              -83,
+              29,
+              -55,
+              -83,
+              9,
+              49,
+              81,
+              -87,
+              -35,
+              109,
+              -39,
+              37,
+              -79,
+              -31,
+              -15,
+              -23,
+              -79,
+              1,
+              -115,
+              -63,
+              105,
+              -71,
+              49,
+              -71,
+              -63,
+              69,
+              85,
+              29,
+              1,
+              -35,
+              25,
+              89,
+              25,
+              -111,
+              45,
+              49,
+              93,
+              -7,
+              -67,
+              113,
+              9,
+              -3,
+              -43,
+              -39,
+              93,
+              -107,
+              -67,
+              -87,
+              33,
+              -7,
+              -59,
+              -43,
+              9,
+              93,
+              -83,
+              -95,
+              81,
+              29
+            ],
+            "triangle": -548388336,
+            "centered_triangle_numerator": 223710693888,
+            "shuffled_triangle": [
+              -1032039216,
+              -844601424,
+              -1174197840
+            ],
+            "shuffled_centered": [
+              245898496512,
+              148524845568,
+              325314415104
+            ]
+          }
+        ]
+      },
+      "correlations": {
+        "target_raw_triangle": -0.014868498012695927,
+        "target_centered_triangle": 0.005821313299547548,
+        "target_shuffled_triangles": [
+          -0.008658410330389358,
+          -0.018827107201120196,
+          -0.00026502330536801665
+        ]
+      },
+      "local_fit": {
+        "baseline": {
+          "random_holdout": {
+            "mse": 0.9773101688273014,
+            "r2_against_cohort_mean": -0.0010643424211898012,
+            "max_abs_error": 3.4170578022035665
+          },
+          "three_anchor_holdout": {
+            "mse": 1.093916298912835,
+            "r2_against_cohort_mean": -0.03907091816717445,
+            "max_abs_error": 3.5673011731686755
+          }
+        },
+        "actual": {
+          "random_holdout": {
+            "mse": 0.9861285276828998,
+            "r2_against_cohort_mean": -0.010097037353246519,
+            "max_abs_error": 3.468481359772662
+          },
+          "three_anchor_holdout": {
+            "mse": 1.092701243469112,
+            "r2_against_cohort_mean": -0.037916781624197426,
+            "max_abs_error": 3.5247957161041183
+          }
+        },
+        "shuffled": {
+          "random_holdout": {
+            "mse": 0.9853509478472526,
+            "r2_against_cohort_mean": -0.00930055792258,
+            "max_abs_error": 3.444585519806887
+          },
+          "three_anchor_holdout": {
+            "mse": 1.0658809902343127,
+            "r2_against_cohort_mean": -0.012441208052567765,
+            "max_abs_error": 3.5596859798713725
+          }
+        }
+      },
+      "toy_model_transferred": {
+        "baseline": {
+          "mse": 0.9792154787396818,
+          "r2_against_cohort_mean": -0.0030159621580789775,
+          "max_abs_error": 3.308998362721563
+        },
+        "actual": {
+          "mse": 1.1297326889467723,
+          "r2_against_cohort_mean": -0.15719159325770682,
+          "max_abs_error": 3.5651593252442133
+        },
+        "shuffled": {
+          "mse": 1.0454413695731368,
+          "r2_against_cohort_mean": -0.07085151731044248,
+          "max_abs_error": 3.2844452348666495
+        }
+      },
+      "target_range": [
+        -1156,
+        1268
+      ],
+      "maximum_m6_over_gaussian": 0.8800471260192136
+    }
+  ],
+  "source_sha256": "0d8bca6801395bed035f3addcabb59e5445168b06a9d2e7e48ea8e2180c10eae",
+  "elapsed_seconds": 54.51
+}

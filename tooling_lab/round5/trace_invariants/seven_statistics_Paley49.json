@@ -1,0 +1,16 @@
+{
+  "q": 49,
+  "statistics": {
+    "mono_theta1": 26,
+    "mono_theta2": 620,
+    "mono_theta3": 8168,
+    "mixed_theta3": 9504,
+    "mono_theta4": 115376,
+    "mixed_theta4": 135744,
+    "total_theta6": 35149760
+  },
+  "normalization_contract": "Requires independently verified normalized-pair transitivity under row/column permutations and complementation.",
+  "ordered_distinct_row_weight": 2352,
+  "normalized_parameter_count": 47,
+  "trust_boundary": "Exact sufficient statistics from a separately certified inventory; this object does not certify realizability."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/e65197892890b8fd9b0dc05b8980273cf1d595cc/ArkLib/Data/CodingTheory/InterleavedCode.lean",
+    "path": "sources/parallel26-prize-dependencies/InterleavedCode.lean",
+    "bytes": 42182,
+    "sha256": "1f1eec41f06988af6a11dbd157c682bc14b3dc06e94fd0f429f004c1981458e6",
+    "commit": "e65197892890b8fd9b0dc05b8980273cf1d595cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/e65197892890b8fd9b0dc05b8980273cf1d595cc/ArkLib/Data/CodingTheory/Basic/LinearCode.lean",
+    "path": "sources/parallel26-prize-dependencies/Basic_LinearCode.lean",
+    "bytes": 33732,
+    "sha256": "1debe07fe18ae2af3884d57ffc40f18a4f765a08466001f4960cbe2112e3f8ae",
+    "commit": "e65197892890b8fd9b0dc05b8980273cf1d595cc"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "scope": "independent finite consistency audit; general claims reviewed algebraically; large integer fixtures are not prime-field kernels",
+  "reviewed_proof_sha256": "b959300e5c9c886e2936c306a2b0846f01d47e77b795bf1c36b5325877ee926c",
+  "counts": {
+    "all_subset_correlations": 501,
+    "density_sign_sum_checks": 15444,
+    "exact_unsigned_formula_checks": 148,
+    "explicit_weighted_models": 9,
+    "explicit_weighted_rows": 37116,
+    "next_moment_growth_checks": 3,
+    "positivity_parameter_checks": 297,
+    "real_coefficient_integer_fixtures": 105,
+    "relation_label_threshold_checks": 630,
+    "size_ratio_checks": 84,
+    "zero_mass_checks": 57
+  },
+  "fixtures": [
+    {
+      "r": 3,
+      "k": 2,
+      "p_integer_parameter": 16,
+      "target_ratio": "209/64"
+    },
+    {
+      "r": 3,
+      "k": 3,
+      "p_integer_parameter": 81,
+      "target_ratio": "512/81"
+    },
+    {
+      "r": 3,
+      "k": 4,
+      "p_integer_parameter": 256,
+      "target_ratio": "35607/4096"
+    },
+    {
+      "r": 3,
+      "k": 5,
+      "p_integer_parameter": 625,
+      "target_ratio": "33784/3125"
+    },
+    {
+      "r": 3,
+      "k": 6,
+      "p_integer_parameter": 1296,
+      "target_ratio": "198095/15552"
+    },
+    {
+      "r": 3,
+      "k": 7,
+      "p_integer_parameter": 2401,
+      "target_ratio": "1707144/117649"
+    },
+    {
+      "r": 3,
+      "k": 8,
+      "p_integer_parameter": 4096,
+      "target_ratio": "4236323/262144"
+    },
+    {
+      "r": 4,
+      "k": 10,
+      "p_integer_parameter": 100000,
+      "target_ratio": "7655708097/100000000"
+    },
+    {
+      "r": 5,
+      "k": 12,
+      "p_integer_parameter": 2985984,
+      "target_ratio": "11022344052049/20639121408"
+    }
+  ]
+}

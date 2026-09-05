@@ -1,0 +1,28 @@
+{
+  "status": "all literal column expansions agree exactly",
+  "case_count": 156,
+  "degrees": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "populations": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8
+  ],
+  "coefficient_equalities": 681,
+  "independence": "column-by-column multiplication with seven possible nonempty row choices; no Newton identities or grouped cover coefficients",
+  "source_sha256": {
+    "../third_moment/union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+    "review_union_backend.py": "cd98283642eac52c9de15f808511f795d7d315c8a0a941115b168a01c7762b69"
+  },
+  "elapsed_seconds": 13.989419874997111
+}

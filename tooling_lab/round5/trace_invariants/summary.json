@@ -1,0 +1,23 @@
+{
+  "status": "all exact folded and seven-statistic replays pass",
+  "moment_cases_per_adapter": 14,
+  "normalized_inventories_losslessly_folded_and_unfolded": 9,
+  "generic_coefficient_evaluations": {
+    "original": 35,
+    "two_families": 19,
+    "quartic_remainders": 15
+  },
+  "measured_statistic_count": 7,
+  "raw_coefficient_rank_at_tested_orders": {
+    "49": 7,
+    "101": 7,
+    "1297": 7
+  },
+  "prime_parameters_checked": 1067013,
+  "unordered_matrix_triples_checked": 41468,
+  "literal_canonical_histograms_checked": 121432,
+  "maximum_prime": 1000033,
+  "malformed_record_rejections": 3,
+  "historical_originality_proved": false,
+  "prize_or_pointwise_bound": false
+}

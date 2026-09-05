@@ -1,0 +1,509 @@
+{
+  "status": "Passed final artifact audit. The complete aggregate is controlled in a fixed logarithmic depth range; the required longer-depth condition and full goal remain unproved.",
+  "audited_at_utc": "2026-09-05T05:29:58.471821+00:00",
+  "previous_turn_classification": "progress",
+  "input_hash_checks": [
+    "research/parallel11-full-energy-2026-09-05.md",
+    "experiments/parallel11_full_energy_2026_09_05.py",
+    "research/parallel10-word-aggregate-2026-09-05.md",
+    "research/parallel9-all-degrees-2026-09-05.md",
+    "research/parallel2-spectral-transfer-2026-09-04.md",
+    "experiments/parallel2_spectral_transfer_2026_09_04.py",
+    "sources/kunisky-2303.16475v1.html",
+    "sources/katz-rigid-local-systems.pdf",
+    "sources/bbd-faisceaux-pervers.pdf",
+    "sources/katz-gauss-kloosterman-monodromy.pdf"
+  ],
+  "syntax_checks": [
+    "experiments/parallel11_full_energy_2026_09_05.py",
+    "experiments/parallel2_spectral_transfer_2026_09_04.py"
+  ],
+  "local_link_checks": [
+    [
+      "research/parallel11-full-energy-2026-09-05.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/parallel11-full-energy-2026-09-05.md",
+      "parallel10-word-aggregate-2026-09-05.md"
+    ],
+    [
+      "research/parallel11-full-energy-2026-09-05.md",
+      "parallel9-all-degrees-2026-09-05.md"
+    ],
+    [
+      "research/parallel11-full-energy-2026-09-05.md",
+      "parallel10-word-aggregate-2026-09-05.md"
+    ],
+    [
+      "research/parallel11-full-energy-2026-09-05.md",
+      "../experiments/parallel11_full_energy_2026_09_05.py"
+    ],
+    [
+      "research/parallel11-full-energy-2026-09-05.md",
+      "../results/parallel11_full_energy_2026_09_05.json"
+    ],
+    [
+      "research/parallel11-pass-summary-2026-09-05.md",
+      "parallel11-full-energy-2026-09-05.md"
+    ],
+    [
+      "research/parallel11-pass-summary-2026-09-05.md",
+      "../experiments/parallel11_full_energy_2026_09_05.py"
+    ],
+    [
+      "research/parallel11-pass-summary-2026-09-05.md",
+      "../results/parallel11_full_energy_2026_09_05.json"
+    ],
+    [
+      "research/parallel11-pass-summary-2026-09-05.md",
+      "../results/parallel11_pass_audit_2026_09_05.json"
+    ],
+    [
+      "README.md",
+      "research/parallel11-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel10-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel9-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel8-pass-summary-2026-09-05.md"
+    ],
+    [
+      "README.md",
+      "research/parallel7-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel6-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel5-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel4-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel3-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel2-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/subgroup-target.md"
+    ],
+    [
+      "README.md",
+      "research/source-audit.md"
+    ],
+    [
+      "README.md",
+      "research/moments-and-obstructions.md"
+    ],
+    [
+      "README.md",
+      "research/MomentObstruction.lean"
+    ],
+    [
+      "README.md",
+      "experiments/paley_exact.py"
+    ],
+    [
+      "README.md",
+      "results/exact_checks.json"
+    ],
+    [
+      "README.md",
+      "research/frontier.md"
+    ],
+    [
+      "README.md",
+      "experiments/subgroup_moments.py"
+    ],
+    [
+      "README.md",
+      "research/SubgroupQuarticCounterexample.lean"
+    ],
+    [
+      "README.md",
+      "research/finite-spectral-obstruction.md"
+    ],
+    [
+      "README.md",
+      "research/geometric-lift-and-alias.md"
+    ],
+    [
+      "README.md",
+      "research/prize-reduction-audit.md"
+    ],
+    [
+      "README.md",
+      "research/coset-coherence.md"
+    ],
+    [
+      "README.md",
+      "research/period-polynomial-certificate.md"
+    ],
+    [
+      "README.md",
+      "research/jacobi-coefficient-route.md"
+    ],
+    [
+      "README.md",
+      "research/cyclotomic-prime-average.md"
+    ],
+    [
+      "README.md",
+      "research/official-profile-and-trace.md"
+    ],
+    [
+      "README.md",
+      "research/subset-sums-and-lists.md"
+    ],
+    [
+      "README.md",
+      "research/riesz-tail-route.md"
+    ],
+    [
+      "README.md",
+      "research/analytic-bounds-and-amplification.md"
+    ],
+    [
+      "README.md",
+      "research/mixed-periods-and-shifted-energy.md"
+    ],
+    [
+      "README.md",
+      "research/kernel-discriminant.md"
+    ],
+    [
+      "README.md",
+      "research/quadruple-orbits-and-cube.md"
+    ],
+    [
+      "README.md",
+      "research/dyadic-descent-and-mixed-energy.md"
+    ],
+    [
+      "README.md",
+      "research/positive-product-moments.md"
+    ],
+    [
+      "README.md",
+      "research/signed-quotient-operators.md"
+    ],
+    [
+      "README.md",
+      "research/list-to-winning-set.md"
+    ],
+    [
+      "README.md",
+      "research/localized-necklace-identities.md"
+    ],
+    [
+      "README.md",
+      "research/planar-necklace-reductions.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel11-pass-summary-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "subgroup-target.md"
+    ],
+    [
+      "research/frontier.md",
+      "geometric-lift-and-alias.md"
+    ],
+    [
+      "research/frontier.md",
+      "coset-coherence.md"
+    ],
+    [
+      "research/frontier.md",
+      "period-polynomial-certificate.md"
+    ],
+    [
+      "research/frontier.md",
+      "jacobi-coefficient-route.md"
+    ],
+    [
+      "research/frontier.md",
+      "cyclotomic-prime-average.md"
+    ],
+    [
+      "research/frontier.md",
+      "official-profile-and-trace.md"
+    ],
+    [
+      "research/frontier.md",
+      "subset-sums-and-lists.md"
+    ],
+    [
+      "research/frontier.md",
+      "riesz-tail-route.md"
+    ],
+    [
+      "research/frontier.md",
+      "analytic-bounds-and-amplification.md"
+    ],
+    [
+      "research/frontier.md",
+      "mixed-periods-and-shifted-energy.md"
+    ],
+    [
+      "research/frontier.md",
+      "kernel-discriminant.md"
+    ],
+    [
+      "research/frontier.md",
+      "quadruple-orbits-and-cube.md"
+    ],
+    [
+      "research/frontier.md",
+      "dyadic-descent-and-mixed-energy.md"
+    ],
+    [
+      "research/frontier.md",
+      "positive-product-moments.md"
+    ],
+    [
+      "research/frontier.md",
+      "signed-quotient-operators.md"
+    ],
+    [
+      "research/frontier.md",
+      "list-to-winning-set.md"
+    ],
+    [
+      "research/frontier.md",
+      "localized-necklace-identities.md"
+    ],
+    [
+      "research/frontier.md",
+      "planar-necklace-reductions.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-conic-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-kernel-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-anchor-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-seeded-kernels-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel6-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-multiplier-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel7-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel8-necklace-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel9-all-degrees-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel10-word-aggregate-2026-09-05.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel11-full-energy-2026-09-05.md"
+    ],
+    [
+      "research/source-audit.md",
+      "prize-reduction-audit.md"
+    ]
+  ],
+  "source_manifest_checks": [
+    {
+      "path": "sources/kunisky-2303.16475v1.html",
+      "sha256": "b16c8771a78741f54683e5a8e3acfe2fb9fee03e859ba55f49f9d5ee652a06da",
+      "bytes": 829825
+    },
+    {
+      "path": "sources/katz-rigid-local-systems.pdf",
+      "sha256": "ca6eb8d5d9e21076dda4e154e83dfa2821f586d6ccbe8c8f1b371b4352f753d1",
+      "bytes": 1115958
+    },
+    {
+      "path": "sources/bbd-faisceaux-pervers.pdf",
+      "sha256": "6e976a78e7607c3026d006d319eea06df44ef75f80f35d9e475b3a8fbc1288d9",
+      "bytes": 6284485
+    },
+    {
+      "path": "sources/katz-gauss-kloosterman-monodromy.pdf",
+      "sha256": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+      "bytes": 6307344
+    }
+  ],
+  "preserved_pass10_artifacts": [
+    "research/parallel10-word-aggregate-2026-09-05.md",
+    "research/parallel10-pass-summary-2026-09-05.md",
+    "experiments/parallel10_word_aggregate_2026_09_05.py",
+    "results/parallel10_word_aggregate_2026_09_05.json"
+  ],
+  "verification_counts": {
+    "recurrence_checks": 168,
+    "curvature_checks": 140,
+    "trace_bounds": 168,
+    "converse_bounds": 168,
+    "missing_direction_checks": 168,
+    "boundary_checks": 672,
+    "specific_word_sums": 30,
+    "pointwise_checks": 117120,
+    "case_count": 28,
+    "full_upper_bounds": 168,
+    "positive_biases": 22,
+    "negative_biases": 146
+  },
+  "additional_checks": {
+    "abstract_jordan_edge": 41,
+    "nonvacuous_large_first_step": true
+  },
+  "terminal_verifier": "Exit code 0 on final inputs.",
+  "proof_review": "Root checked the energy recurrence, curvature identity and converse, the specific all-one word coefficient, exact rank-sum recurrence, finite H^-1/H^0 stalk bound, all open and exceptional fibers, missing constant direction, full-power J/anchor perturbation, and the fixed-a logarithmic range. The long-depth energy condition is explicitly equivalent in strength to the missing trace condition up to controlled factors. Source-dependent without independent review or formal verification.",
+  "worker_status": "No new worker run; the existing workers remain terminal at the previously verified account usage limit.",
+  "artifact_sha256": {
+    "research/parallel11-full-energy-2026-09-05.md": "d0bd223ef44dde0875437ab32bfc46efb4ef2a59213b5e303418f8bad664197a",
+    "research/parallel11-pass-summary-2026-09-05.md": "e9a8207009f5a20e976b82b24de51be480026bdfd83e5055ad7b6106ab5d45a0",
+    "experiments/parallel11_full_energy_2026_09_05.py": "43d0d764cadbb4a75a54e918b26dc6a140d4746b67a587516f92fc6d5a595e79",
+    "results/parallel11_full_energy_2026_09_05.json": "4e6aa669e8d3089f46ada26f29177e6bfe3fdb5ee18f070a534a034812afa7b0"
+  },
+  "central_file_sha256": {
+    "README.md": "3832caebecc2a91b16b7d8db3399738e7072ef20ac39ef401d0fe0ba35d4fc09",
+    "research/frontier.md": "094eb2ae1d77ad987b1c3e8cc34528749ab790c1d3292f1c44c0c19b31653640",
+    "research/source-audit.md": "6c4ccf4c9ffa5ae607e5ef5bcaf04b80f7e3b3b73db34e6b61ec2c6e81d21e2f",
+    "research/checkpoint-2026-09-04.md": "fa36c55e7fdf3a00ea04a8edba1663261ca6a1fbd1bcbcaff7f368e8f5fe95a6",
+    "sources/manifest.json": "6db229e6b36a1deba4b98690f07d2b674bfc61b128155c2993af3caa40f973fe"
+  },
+  "goal_status": "active and unachieved",
+  "open_obligations": [
+    "Independent mathematical review of the source-dependent chain of arguments.",
+    "Uniform o(j) upper bound for the exact cumulative logarithmic row-energy bias at j/log(p) tending to infinity and the required growing anchor sizes.",
+    "Classical arbitrary-two-set Paley character-sum conjecture; the clique consequence alone is weaker.",
+    "Uniform subgroup square-root cancellation, exceptional primes and centered higher energy.",
+    "Exact quantitative bridge to the official Reed-Solomon prize."
+  ]
+}

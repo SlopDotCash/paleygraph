@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "signed": [
+    {
+      "p": 31,
+      "C": [
+        0,
+        2,
+        9
+      ],
+      "M6": 4524,
+      "sum_actual_plus": 23780,
+      "sum_actual_minus": 23780
+    },
+    {
+      "p": 41,
+      "C": [
+        1,
+        4,
+        13,
+        22
+      ],
+      "M6": 18268,
+      "sum_actual_plus": 97158,
+      "sum_actual_minus": 130546
+    }
+  ],
+  "subgroup": [
+    {
+      "p": 97,
+      "n": 8,
+      "quartic_window": false,
+      "r4_at_2": 56,
+      "E2": 168,
+      "counts": {
+        "E3": 5600,
+        "nu": 6720,
+        "repeated": 480,
+        "intrinsic": 5120,
+        "intrinsic_nu": 4800
+      }
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "quartic_window": true,
+      "r4_at_2": 100,
+      "E2": 720,
+      "counts": {
+        "E3": 51040,
+        "nu": 24000,
+        "repeated": 480,
+        "intrinsic": 50560,
+        "intrinsic_nu": 21120
+      }
+    },
+    {
+      "p": 37201,
+      "n": 16,
+      "quartic_window": true,
+      "r4_at_2": 100,
+      "E2": 720,
+      "counts": {
+        "E3": 51040,
+        "nu": 24000,
+        "repeated": 480,
+        "intrinsic": 50560,
+        "intrinsic_nu": 21120
+      }
+    }
+  ],
+  "spectral": [
+    {
+      "p": 13,
+      "m": 2,
+      "dimensions": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "outside_worker_range": false
+    },
+    {
+      "p": 17,
+      "m": 3,
+      "dimensions": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "outside_worker_range": false
+    },
+    {
+      "p": 61,
+      "m": 14,
+      "dimensions": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "outside_worker_range": false
+    },
+    {
+      "p": 269,
+      "m": 66,
+      "dimensions": [
+        11,
+        11,
+        22,
+        22
+      ],
+      "outside_worker_range": true
+    }
+  ],
+  "input_sha256": {
+    "research/parallel25-signed-inversion-2026-09-05.md": "e28771326da404a8ff86170ad8174d69633fdbb7f9331634d7f0f3b09217bfc5",
+    "research/parallel25-subgroup-growing-orders-2026-09-05.md": "c94e1eb1c427968c6413aada33e77261ff0ed1000376cb16f4a9b23226d80cf1",
+    "research/parallel25-spectral-full-operator-2026-09-05.md": "a76b4865fd4356ae30422a5d8e6ec1320e5edccfd84686a17c4faf7ddabf51d3",
+    "results/parallel25_signed_inversion_2026_09_05.json": "de2de73c6421bcac8c32e5e7c4bdeee33cd33b5e15473ef001889dfc90ae9658",
+    "results/parallel25_subgroup_growing_orders_2026_09_05.json": "000370af584720ee83e8bbabeed282024a0a630a625a129b274d0bd98fa2c35a",
+    "results/parallel25_spectral_full_operator_2026_09_05.json": "422a0eaedbb9d9817398884c9506a4d8e624fbc11e4e58bd9e52cef0af8ef0b3",
+    "sources/parallel25-mrss-1712.00410v1.html": "d97c080d3222fa4c19ff8d26b684a2d9fc05b0810dd20a7d6dad934a1211fdbf",
+    "experiments/parallel25_root_review_2026_09_05.py": "ce3c01985685b625824990a605fe577bdfad4dc64581eab64fd19287cbb74dee"
+  },
+  "counts": {
+    "independent_actual_half_moments": 130,
+    "independent_joint_half_identity": 65,
+    "independent_mixed_complete_identity": 2,
+    "independent_augmented_Mobius_moment": 6,
+    "independent_equal_pair_incidence": 3,
+    "independent_intrinsic_incidence": 3,
+    "independent_repeated_upper": 3,
+    "independent_four_sum_Cauchy": 3,
+    "independent_disjoint_sixth_partition": 3,
+    "independent_128_dim_Bareiss_norm": 1,
+    "independent_single_prime_norm_factor": 1,
+    "independent_spectral_integer_safety": 4,
+    "independent_full_square_kernel": 4,
+    "independent_direct_leakage_rational": 4,
+    "independent_direct_leakage_surd": 4,
+    "independent_full_sector_projection_sum": 4,
+    "independent_sector_invariance": 16,
+    "independent_sector_dimensions": 4
+  },
+  "scope": "Root review of worker deductions; no separate-agent review of the root-authored prize theorem, no human or formal verification."
+}

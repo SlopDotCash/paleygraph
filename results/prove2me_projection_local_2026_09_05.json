@@ -1,0 +1,17 @@
+{
+  "local_proof_exit_code": 0,
+  "local_proof_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sorryAx": false,
+  "target_signature_matches_solution": true,
+  "proof_sha256": "8b2d28ab36797c8e5c993c53b6496f2e6128060fb04b6914b8ab82c35be5fa4d",
+  "scope": "Finite incidence lemma only; full code projection theorem not formalized.",
+  "target_compilation_exit_code": 0,
+  "target_compilation_warning": "declaration uses sorry (statement placeholder only)",
+  "verified_at_utc": "2026-09-05T18:26:43.588594+00:00",
+  "source_sha256": "60cab60483be11290be087cbec51d182553e29d7dd1d1bc73b5f10d441b3b88b",
+  "payload_sha256": "0fece58cf4c94fbd6a7a66b938d575732237dc21d9fb0b926f98df27925498a4"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-05T19:05:34.513244+00:00",
+  "wall_seconds": 39.17435391699837,
+  "exit_code": 0,
+  "proof_sha256": "1716592aa08fc13134532efcdbf77f5d89c8b4f14ea470298ac98772b0e4c7be",
+  "log_sha256": "5ba51ba627df6617b9995ae8148a2eeaa5c6f62017a675d60fb8ce37f4f06083",
+  "checker_sha256": "4ed6814ec7716bdabdeb759cb3f75bbc1f3ac3e12dbbda84e603ce996d346c11",
+  "toolchain": "leanprover/lean4:v4.30.0",
+  "lean_version": "Lean (version 4.30.0, arm64-apple-darwin24.6.0, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)",
+  "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "axioms_by_theorem": {
+    "PaleyMCAProjection.projection_preserves_bad": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.rowsBad_iff_input_failure": [
+      "propext",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.scalarBad_iff_input_failure": [
+      "propext",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.uniform_bad_count_bound_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.code_projection_preserves_bad": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.code_uniform_bad_count_bound_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.codeRowsBad_iff_input_failure": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "scope": "Standalone code-agreement projection and uniform count-bound equivalence. Independent verification of a result already present in pinned ArkLib; no direct ArkLib import, new scalar bound, or full conjecture proof."
+}

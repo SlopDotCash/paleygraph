@@ -1,0 +1,221 @@
+{
+  "status": "Exact checks passed; the full prize bridge remains unproved.",
+  "coefficient_list_fixtures": [
+    {
+      "p": 13,
+      "n": 12,
+      "k": 2,
+      "a": 1,
+      "subsets": 220
+    },
+    {
+      "p": 13,
+      "n": 12,
+      "k": 2,
+      "a": 2,
+      "subsets": 495
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "k": 2,
+      "a": 1,
+      "subsets": 56
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "k": 2,
+      "a": 2,
+      "subsets": 70
+    }
+  ],
+  "extension_centers": [
+    {
+      "center": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "constant_codewords": []
+    },
+    {
+      "center": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "constant_codewords": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    }
+  ],
+  "general_remainder_fixtures": [
+    {
+      "p": 5,
+      "n": 4,
+      "k": 1,
+      "rows": 1,
+      "s": 2,
+      "word_fixtures": 3
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "k": 1,
+      "rows": 1,
+      "s": 3,
+      "word_fixtures": 3
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "k": 1,
+      "rows": 2,
+      "s": 2,
+      "word_fixtures": 3
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "k": 1,
+      "rows": 2,
+      "s": 3,
+      "word_fixtures": 3
+    },
+    {
+      "p": 7,
+      "n": 6,
+      "k": 2,
+      "rows": 1,
+      "s": 3,
+      "word_fixtures": 3
+    },
+    {
+      "p": 7,
+      "n": 6,
+      "k": 2,
+      "rows": 1,
+      "s": 4,
+      "word_fixtures": 3
+    },
+    {
+      "p": 7,
+      "n": 6,
+      "k": 2,
+      "rows": 2,
+      "s": 3,
+      "word_fixtures": 3
+    },
+    {
+      "p": 7,
+      "n": 6,
+      "k": 2,
+      "rows": 2,
+      "s": 4,
+      "word_fixtures": 3
+    }
+  ],
+  "actual_box_collision": {
+    "p": 17,
+    "D": [
+      1,
+      4,
+      13,
+      16
+    ],
+    "a": 3,
+    "R": 8,
+    "tested_vectors": 35,
+    "zero_constant_polynomial_coefficients": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "small_integer_evaluations": [
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "real_sum_lower_bound": "11/4"
+  },
+  "pinned_official_parameters": {
+    "p": 2130706433,
+    "q": 93571093019388561295270373781649880353786165192103559169,
+    "n": 262144,
+    "k": 131072,
+    "a": 26215,
+    "s": 157287,
+    "radius": [
+      104857,
+      262144
+    ],
+    "R": 8,
+    "real_phase_sum_strict_lower": 180224,
+    "combined_MCA_and_list_budget": 274980728111395087,
+    "contract_commit": "b34c0131cfa36b51111521541d7d3e35c8791082",
+    "current_status_claim": false
+  },
+  "input_sha256": {
+    "research/parallel23-prize-bridge-2026-09-05.md": "ab9ccb9ffca81ce34411d2ddc9b86e18a01c4be142787aa98185226e85a20b6b",
+    "experiments/parallel23_prize_bridge_2026_09_05.py": "3c2d820fdd87c6c9760848e4d65c43dd1f47f370c62a7bb3478ec1f65951e24a",
+    "research/official-profile-and-trace.md": "8027ef4c4313c3445e818fa90f869ebe636304290de612a1d2f51da8162f9f37",
+    "research/subgroup-target.md": "3de22df57c17eb0f736cf3dba03ca9cb9e20d4915480cf7cfb1850cc67b66c05",
+    "research/subset-sums-and-lists.md": "b44ecdb8d5a6ca58044001b4335aead8793bfc070ac5631a916d1c9d09db20ef",
+    "research/prize-reduction-audit.md": "fbcb9bba2c22878ee681baf4bff1c896366e5227accd58bdcf8eb2987fc75315",
+    "sources/official-prize-2026-09-04/manifest.json": "b1d02d649cd407ec248f661de628833839248c8c6a98f3611240e6096ebb792c"
+  },
+  "counts": {
+    "Newton_subset_identities": 841,
+    "monic_list_classifications": 10,
+    "false_linear_bound_fibre": 1,
+    "false_linear_bound_deviation": 1,
+    "finite_multivariate_count_bounds": 182,
+    "F25_extension_center_lists": 2,
+    "distinct_remainder_list_equalities": 24,
+    "nontrivial_remainder_MCA_equalities": 72,
+    "nonzero_actual_box_polynomial": 1,
+    "exact_phase_arc_bounds": 1,
+    "box_polynomial_evaluation_identity": 1,
+    "official_archived_source_hashes": 11,
+    "official_base_prime_and_domain_divisibility": 1,
+    "official_box_cardinality_certificate": 1,
+    "official_degree_and_radius": 1,
+    "official_real_phase_lower_fraction": 1,
+    "official_combined_integer_budget": 1,
+    "official_budget_floor": 1
+  },
+  "limitations": [
+    "No production-sized list or MCA maximum was evaluated.",
+    "The polynomial-phase obstruction does not contradict linear subgroup cancellation.",
+    "The obstruction does not prove a list or soundness lower bound.",
+    "No current prize status or formal verification is claimed."
+  ]
+}

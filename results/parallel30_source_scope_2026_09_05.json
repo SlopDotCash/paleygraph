@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-05T21:12:12.327023+00:00",
+  "new_external_mathematical_inputs": [],
+  "proof_kind": "Elementary counting and integer matrix-index proof; exact field and norm arithmetic.",
+  "local_input_sha256": {
+    "research/parallel27-six-distinct-2026-09-05.md": "20f3eb3b8d1201eb3bd3ff000e755c10aa1f7940096a2abeb4d2124525c17092",
+    "research/parallel25-subgroup-growing-orders-2026-09-05.md": "c94e1eb1c427968c6413aada33e77261ff0ed1000376cb16f4a9b23226d80cf1",
+    "experiments/parallel25_subgroup_growing_orders_2026_09_05.py": "5b5462ca986bbf08e2f581d898cef78525d220c9f2e1cad2a25163d4c795f83d",
+    "experiments/cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288",
+    "experiments/parallel27_direct_six.cpp": "7a0bcf565dd070bdf343ec9662eae4f546e5546ede8cd5edfbb2c0b97123c801",
+    "experiments/parallel27_six_distinct_2026_09_05.py": "5ecb145ba324fc80071c1e2e8a53185c53d113a37a86d04c70ee53d6f1ad2519",
+    "results/parallel28_complete_remainder_2026_09_05.json": "81832f29f51399917c81ae1184f318bc1ac18dbad81f3df4bd1d0215459ce063"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "search_scope": "Exploratory norm candidates; no completeness or factor-primality claim. The reported field prime is independently trial-divided.",
+  "novelty_status": "No literature novelty claim; no separate-author or Lean verification."
+}

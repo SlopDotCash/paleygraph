@@ -1,0 +1,5254 @@
+{
+  "scope": "exact global moments and finite information-limit examples; no pointwise or prize bound",
+  "scale_cases": [
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        -173,
+        33
+      ],
+      "third_moment_float": -5.242424242424242,
+      "all_equal_rows_contribution": [
+        -5,
+        33
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -30,
+        11
+      ],
+      "distinct_rows_contribution": [
+        -26,
+        11
+      ],
+      "normalized_parameter_count": 11,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -2,
+            6
+          ],
+          "row_triple_product_moments": [
+            [
+              1,
+              858
+            ],
+            [
+              -7,
+              858
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            -5,
+            858
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -6,
+            2
+          ],
+          "row_triple_product_moments": [
+            [
+              -7,
+              858
+            ],
+            [
+              1,
+              858
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            -5,
+            858
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -6,
+            2
+          ],
+          "row_triple_product_moments": [
+            [
+              -7,
+              858
+            ],
+            [
+              1,
+              858
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            -5,
+            858
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            2
+          ],
+          "row_triple_product_moments": [
+            [
+              1,
+              858
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            1,
+            429
+          ]
+        }
+      ],
+      "coefficient_evaluations": 10,
+      "backend_integer_products": 105152,
+      "maximum_intermediate_bits": 16,
+      "backend_elapsed_seconds": 0.39280937500006985,
+      "elapsed_seconds": 0.3948871250031516,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -5,
+        33
+      ],
+      "second_moment": [
+        67,
+        11
+      ],
+      "variance": [
+        6608,
+        1089
+      ],
+      "central_third_moment": [
+        -89152,
+        35937
+      ],
+      "standardized_third_squared": [
+        39601,
+        1437653
+      ],
+      "standardized_third_float": -0.16596864140630416,
+      "source_inventory": "round5/trace_backend/inventory_p13.json",
+      "source_inventory_sha256": "7dc5302a6f72555769ee220573c8bb3c2edcbf217ee8690a2cae8ea04a9793ab",
+      "direct_inventory_coefficient_evaluations": 10
+    },
+    {
+      "q": 17,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -1159744,
+        715
+      ],
+      "third_moment_float": -1622.0195804195805,
+      "all_equal_rows_contribution": [
+        -3416,
+        11
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -214584,
+        143
+      ],
+      "distinct_rows_contribution": [
+        135216,
+        715
+      ],
+      "normalized_parameter_count": 15,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -6,
+            2
+          ],
+          "row_triple_product_moments": [
+            [
+              2077,
+              12155
+            ],
+            [
+              -47,
+              935
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            2932,
+            12155
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -2,
+            6
+          ],
+          "row_triple_product_moments": [
+            [
+              -47,
+              935
+            ],
+            [
+              2077,
+              12155
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            2932,
+            12155
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -2,
+            6
+          ],
+          "row_triple_product_moments": [
+            [
+              -47,
+              935
+            ],
+            [
+              2077,
+              12155
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            2932,
+            12155
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -2
+          ],
+          "row_triple_product_moments": [
+            [
+              -23,
+              2431
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            -69,
+            2431
+          ]
+        }
+      ],
+      "coefficient_evaluations": 10,
+      "backend_integer_products": 412852,
+      "maximum_intermediate_bits": 23,
+      "backend_elapsed_seconds": 0.014683457993669435,
+      "elapsed_seconds": 0.015490208999835886,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -28,
+        13
+      ],
+      "second_moment": [
+        101936,
+        715
+      ],
+      "variance": [
+        1282048,
+        9295
+      ],
+      "central_third_moment": [
+        -87097344,
+        120835
+      ],
+      "standardized_third_squared": [
+        97143255,
+        490628752
+      ],
+      "standardized_third_float": -0.44496907411545755,
+      "source_inventory": "round5/trace_backend/inventory_p17.json",
+      "source_inventory_sha256": "71e06f865e60b2fb7a657a5e3bcb5668199fd10a34d04a7620146923efbce444",
+      "direct_inventory_coefficient_evaluations": 10
+    },
+    {
+      "q": 29,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        271,
+        117
+      ],
+      "third_moment_float": 2.3162393162393164,
+      "all_equal_rows_contribution": [
+        -1,
+        45
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -22,
+        15
+      ],
+      "distinct_rows_contribution": [
+        742,
+        195
+      ],
+      "normalized_parameter_count": 27,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22
+          ],
+          "row_triple_product_moments": [
+            [
+              253,
+              522
+            ],
+            [
+              517,
+              33930
+            ],
+            [
+              -19,
+              33930
+            ],
+            [
+              -11,
+              33930
+            ],
+            [
+              1,
+              1170
+            ],
+            [
+              -829,
+              237510
+            ],
+            [
+              4301,
+              33930
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            5,
+            2262
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              4301,
+              33930
+            ],
+            [
+              -829,
+              237510
+            ],
+            [
+              1,
+              1170
+            ],
+            [
+              -11,
+              33930
+            ],
+            [
+              -19,
+              33930
+            ],
+            [
+              517,
+              33930
+            ],
+            [
+              253,
+              522
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            5,
+            2262
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              4301,
+              33930
+            ],
+            [
+              -829,
+              237510
+            ],
+            [
+              1,
+              1170
+            ],
+            [
+              -11,
+              33930
+            ],
+            [
+              -19,
+              33930
+            ],
+            [
+              517,
+              33930
+            ],
+            [
+              253,
+              522
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            5,
+            2262
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "direct actual inventory",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            2
+          ],
+          "row_triple_product_moments": [
+            [
+              -11,
+              33930
+            ]
+          ],
+          "aggregate_interpolation_weights": [],
+          "extra_node_checked": false,
+          "normalized_class_sum": [
+            -11,
+            5655
+          ]
+        }
+      ],
+      "coefficient_evaluations": 25,
+      "backend_integer_products": 268280,
+      "maximum_intermediate_bits": 25,
+      "backend_elapsed_seconds": 0.01334479199431371,
+      "elapsed_seconds": 0.015139459006604739,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -1,
+        45
+      ],
+      "second_moment": [
+        1013,
+        45
+      ],
+      "variance": [
+        45584,
+        2025
+      ],
+      "central_third_moment": [
+        4521664,
+        1184625
+      ],
+      "standardized_third_squared": [
+        101868649,
+        79756846169
+      ],
+      "standardized_third_float": 0.03573849724810493,
+      "source_inventory": "round5/trace_backend/inventory_p29.json",
+      "source_inventory_sha256": "75d6ba163f4727b5ee63f32a8d499a9b8e589e88ccbcbc8ae10b506a17fcc2e4",
+      "direct_inventory_coefficient_evaluations": 13
+    },
+    {
+      "q": 101,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -57974988352,
+        20009451
+      ],
+      "third_moment_float": -2897.3802605578735,
+      "all_equal_rows_contribution": [
+        -6518120,
+        3201
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -124340120,
+        141911
+      ],
+      "distinct_rows_contribution": [
+        9143536,
+        606347
+      ],
+      "normalized_parameter_count": 99,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -6428068,
+              10104772755
+            ],
+            [
+              -4745012,
+              16841287925
+            ],
+            [
+              2267476,
+              16841287925
+            ],
+            [
+              -547196,
+              10104772755
+            ],
+            [
+              2404396,
+              50523863775
+            ],
+            [
+              583412,
+              10104772755
+            ],
+            [
+              -37224356,
+              50523863775
+            ],
+            [
+              22813436,
+              16841287925
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -742172,
+            10104772755
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              22813436,
+              16841287925
+            ],
+            [
+              -37224356,
+              50523863775
+            ],
+            [
+              583412,
+              10104772755
+            ],
+            [
+              2404396,
+              50523863775
+            ],
+            [
+              -547196,
+              10104772755
+            ],
+            [
+              2267476,
+              16841287925
+            ],
+            [
+              -4745012,
+              16841287925
+            ],
+            [
+              -6428068,
+              10104772755
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -742172,
+            10104772755
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              22813436,
+              16841287925
+            ],
+            [
+              -37224356,
+              50523863775
+            ],
+            [
+              583412,
+              10104772755
+            ],
+            [
+              2404396,
+              50523863775
+            ],
+            [
+              -547196,
+              10104772755
+            ],
+            [
+              2267476,
+              16841287925
+            ],
+            [
+              -4745012,
+              16841287925
+            ],
+            [
+              -6428068,
+              10104772755
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -742172,
+            10104772755
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              1145632,
+              918615705
+            ],
+            [
+              -7654216,
+              10104772755
+            ],
+            [
+              688,
+              11082225
+            ],
+            [
+              54392,
+              1074975825
+            ],
+            [
+              -2840384,
+              50523863775
+            ],
+            [
+              450568,
+              3368257585
+            ],
+            [
+              -2806928,
+              10104772755
+            ],
+            [
+              -332824,
+              520864575
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            28855584,
+            16841287925
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 1534383,
+      "maximum_intermediate_bits": 47,
+      "backend_elapsed_seconds": 1.0067522089957492,
+      "elapsed_seconds": 1.010371666008723,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -140,
+        3201
+      ],
+      "second_moment": [
+        15674913040,
+        6669817
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "central_third_moment": [
+        -530814013162698752,
+        205024858735851
+      ],
+      "standardized_third_squared": [
+        419927535552592435927280215937051,
+        813158567294120979775814990544839500
+      ],
+      "standardized_third_float": -0.02272477309877871,
+      "source_inventory": "round5/trace_backend/inventory_p101.json",
+      "source_inventory_sha256": "0a17251ae818b6c39f8bd6e1b5fcb5a3132065939786a5fc0fb399f7fdaf55b8",
+      "direct_inventory_coefficient_evaluations": 20
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        111595286003,
+        23328340049
+      ],
+      "third_moment_float": 4.78367881163425,
+      "all_equal_rows_contribution": [
+        -1,
+        111629
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -3870,
+        111629
+      ],
+      "distinct_rows_contribution": [
+        3037952742,
+        630495677
+      ],
+      "normalized_parameter_count": 1295,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              1042145,
+              242054856348424
+            ],
+            [
+              -606437,
+              6535481121407448
+            ],
+            [
+              -25516037,
+              6535481121407448
+            ],
+            [
+              -13737271,
+              2178493707135816
+            ],
+            [
+              -137815,
+              20233687682376
+            ],
+            [
+              -1830055,
+              343972690600392
+            ],
+            [
+              -376289,
+              176634624902904
+            ],
+            [
+              13694171,
+              6535481121407448
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              16408,
+              1
+            ],
+            [
+              -94200,
+              1
+            ],
+            [
+              236928,
+              1
+            ],
+            [
+              -329078,
+              1
+            ],
+            [
+              265442,
+              1
+            ],
+            [
+              -118000,
+              1
+            ],
+            [
+              22824,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            376016873,
+            544623426783954
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              13694171,
+              6535481121407448
+            ],
+            [
+              -376289,
+              176634624902904
+            ],
+            [
+              -1830055,
+              343972690600392
+            ],
+            [
+              -137815,
+              20233687682376
+            ],
+            [
+              -13737271,
+              2178493707135816
+            ],
+            [
+              -25516037,
+              6535481121407448
+            ],
+            [
+              -606437,
+              6535481121407448
+            ],
+            [
+              1042145,
+              242054856348424
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              16408,
+              1
+            ],
+            [
+              -92032,
+              1
+            ],
+            [
+              226568,
+              1
+            ],
+            [
+              -308838,
+              1
+            ],
+            [
+              245202,
+              1
+            ],
+            [
+              -107640,
+              1
+            ],
+            [
+              20656,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            376016873,
+            544623426783954
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              13694171,
+              6535481121407448
+            ],
+            [
+              -376289,
+              176634624902904
+            ],
+            [
+              -1830055,
+              343972690600392
+            ],
+            [
+              -137815,
+              20233687682376
+            ],
+            [
+              -13737271,
+              2178493707135816
+            ],
+            [
+              -25516037,
+              6535481121407448
+            ],
+            [
+              -606437,
+              6535481121407448
+            ],
+            [
+              1042145,
+              242054856348424
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              16408,
+              1
+            ],
+            [
+              -92032,
+              1
+            ],
+            [
+              226568,
+              1
+            ],
+            [
+              -308838,
+              1
+            ],
+            [
+              245202,
+              1
+            ],
+            [
+              -107640,
+              1
+            ],
+            [
+              20656,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            376016873,
+            544623426783954
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              13694171,
+              6535481121407448
+            ],
+            [
+              -376289,
+              176634624902904
+            ],
+            [
+              -1830055,
+              343972690600392
+            ],
+            [
+              -137815,
+              20233687682376
+            ],
+            [
+              -13737271,
+              2178493707135816
+            ],
+            [
+              -25516037,
+              6535481121407448
+            ],
+            [
+              -606437,
+              6535481121407448
+            ],
+            [
+              1042145,
+              242054856348424
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              14276,
+              1
+            ],
+            [
+              -79740,
+              1
+            ],
+            [
+              196308,
+              1
+            ],
+            [
+              -267909,
+              1
+            ],
+            [
+              213324,
+              1
+            ],
+            [
+              -94140,
+              1
+            ],
+            [
+              18204,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            5197434481,
+            6535481121407448
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 399562,
+      "maximum_intermediate_bits": 60,
+      "backend_elapsed_seconds": 0.0178217089996906,
+      "elapsed_seconds": 0.18342237499018665,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -1,
+        111629
+      ],
+      "second_moment": [
+        144111749,
+        111629
+      ],
+      "variance": [
+        16087050429120,
+        12461033641
+      ],
+      "central_third_moment": [
+        1400678276717583416064,
+        290695230139276588409
+      ],
+      "standardized_third_squared": [
+        3326245854472756586222931603898925329,
+        308262315042119945595511614185463465272479500
+      ],
+      "standardized_third_float": 0.00010387641561265114,
+      "source_inventory": "round5/trace_backend/inventory_p1297.json",
+      "source_inventory_sha256": "980ca8541473952efedf44ea417c30ca143215b9d81df31d860b2a04e48702ba",
+      "direct_inventory_coefficient_evaluations": 66
+    },
+    {
+      "q": 1297,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -2253412148797301312,
+        925018672242955
+      ],
+      "third_moment_float": -2436.072066884122,
+      "all_equal_rows_contribution": [
+        -51082471624,
+        20587577
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -1049202354744,
+        13320162319
+      ],
+      "distinct_rows_contribution": [
+        114631899255751728,
+        925018672242955
+      ],
+      "normalized_parameter_count": 1295,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              11185239967837,
+              97179686649828123435
+            ],
+            [
+              1781983279,
+              1905484051957414185
+            ],
+            [
+              -3192688769377,
+              32393228883276041145
+            ],
+            [
+              -15687414315043,
+              97179686649828123435
+            ],
+            [
+              -5658042386657,
+              32393228883276041145
+            ],
+            [
+              -13178969967523,
+              97179686649828123435
+            ],
+            [
+              -563670932683,
+              10797742961092013715
+            ],
+            [
+              1873943484319,
+              32393228883276041145
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              16408,
+              1
+            ],
+            [
+              -94200,
+              1
+            ],
+            [
+              236928,
+              1
+            ],
+            [
+              -329078,
+              1
+            ],
+            [
+              265442,
+              1
+            ],
+            [
+              -118000,
+              1
+            ],
+            [
+              22824,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            1722413298837172,
+            97179686649828123435
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              1873943484319,
+              32393228883276041145
+            ],
+            [
+              -563670932683,
+              10797742961092013715
+            ],
+            [
+              -13178969967523,
+              97179686649828123435
+            ],
+            [
+              -5658042386657,
+              32393228883276041145
+            ],
+            [
+              -15687414315043,
+              97179686649828123435
+            ],
+            [
+              -3192688769377,
+              32393228883276041145
+            ],
+            [
+              1781983279,
+              1905484051957414185
+            ],
+            [
+              11185239967837,
+              97179686649828123435
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              16408,
+              1
+            ],
+            [
+              -92032,
+              1
+            ],
+            [
+              226568,
+              1
+            ],
+            [
+              -308838,
+              1
+            ],
+            [
+              245202,
+              1
+            ],
+            [
+              -107640,
+              1
+            ],
+            [
+              20656,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            1722413298837172,
+            97179686649828123435
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              1873943484319,
+              32393228883276041145
+            ],
+            [
+              -563670932683,
+              10797742961092013715
+            ],
+            [
+              -13178969967523,
+              97179686649828123435
+            ],
+            [
+              -5658042386657,
+              32393228883276041145
+            ],
+            [
+              -15687414315043,
+              97179686649828123435
+            ],
+            [
+              -3192688769377,
+              32393228883276041145
+            ],
+            [
+              1781983279,
+              1905484051957414185
+            ],
+            [
+              11185239967837,
+              97179686649828123435
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              16408,
+              1
+            ],
+            [
+              -92032,
+              1
+            ],
+            [
+              226568,
+              1
+            ],
+            [
+              -308838,
+              1
+            ],
+            [
+              245202,
+              1
+            ],
+            [
+              -107640,
+              1
+            ],
+            [
+              20656,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            1722413298837172,
+            97179686649828123435
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              208227534071,
+              3599247653697337905
+            ],
+            [
+              -89005128523,
+              1704906783330317955
+            ],
+            [
+              -4393222267217,
+              32393228883276041145
+            ],
+            [
+              -125741441909,
+              719849530739467581
+            ],
+            [
+              -581053809929,
+              3599247653697337905
+            ],
+            [
+              -56017367321,
+              568302261110105985
+            ],
+            [
+              2006764897,
+              2159548592218402743
+            ],
+            [
+              3728382165103,
+              32393228883276041145
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              14276,
+              1
+            ],
+            [
+              -79740,
+              1
+            ],
+            [
+              196308,
+              1
+            ],
+            [
+              -267909,
+              1
+            ],
+            [
+              213324,
+              1
+            ],
+            [
+              -94140,
+              1
+            ],
+            [
+              18204,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            1999253060033,
+            97276963613441565
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 1539555,
+      "maximum_intermediate_bits": 77,
+      "backend_elapsed_seconds": 0.3117108750011539,
+      "elapsed_seconds": 0.32132812500640284,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -4,
+        15947
+      ],
+      "second_moment": [
+        102565241041332752,
+        2863834898585
+      ],
+      "variance": [
+        1635607898883260043264,
+        45669575127734995
+      ],
+      "central_third_moment": [
+        -566718436706399656166621184,
+        235238546803522758780595
+      ],
+      "standardized_third_squared": [
+        1492111560489580764001374933056027518599160122801595,
+        11809738239954886364533953452197289609932650775889897605584
+      ],
+      "standardized_third_float": -0.0003554516313332345,
+      "source_inventory": "round5/trace_backend/inventory_p1297.json",
+      "source_inventory_sha256": "980ca8541473952efedf44ea417c30ca143215b9d81df31d860b2a04e48702ba",
+      "direct_inventory_coefficient_evaluations": 66
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "degree": 6,
+      "third_moment": [
+        2875271714307434663912553814081123139559873449718792737119969409536,
+        2287078345969669310246603495021013697731619364726498615
+      ],
+      "third_moment_float": 1257181119035.2488,
+      "all_equal_rows_contribution": [
+        214527172906408377301716140542291174064,
+        170641403195032778473979103
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -16391226031769202455606738244835956662155888,
+        95273995699595442061377736149005821265
+      ],
+      "distinct_rows_contribution": [
+        268340699613063109193468256412577410993496048916812105754272,
+        6861235037909007930739810485063041093194858094179495845
+      ],
+      "normalized_parameter_count": 65535,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              -1110458970607895570172174385102477488728991158691886591,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -1132501191006841135609519756956768529242477611557354751,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -382605469798505881963772563045350681914912790487852117,
+              920913429871498552846120877587612721407408977752558836108830720
+            ],
+            [
+              -7430134507630669497047342119237533793511450171419,
+              17752091767051742660676111989171929166300798265475435223040
+            ],
+            [
+              -47126996191636599838446319947885996170941799543467,
+              112429914524661036850948709264755551386571722348011089745920
+            ],
+            [
+              -1152931529444054877831609482485944332452970849602310911,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -25355645846694638053554759579821713495379495817753435,
+              61394228658099903523074725172507514760493931850170589073922048
+            ],
+            [
+              -378266312357829929432011851318387197417891698804697,
+              931156147493931802675551949026908717297683496210878499604480
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              122083601632,
+              1
+            ],
+            [
+              -731856200896,
+              1
+            ],
+            [
+              1829464230944,
+              1
+            ],
+            [
+              -2440954562688,
+              1
+            ],
+            [
+              1833394714400,
+              1
+            ],
+            [
+              -735003228864,
+              1
+            ],
+            [
+              122871461856,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            3092862719843755509922638291454824471438818189155435784,
+            1348994282038327958270684879278729572374134244754724857581295
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -378266312357829929432011851318387197417891698804697,
+              931156147493931802675551949026908717297683496210878499604480
+            ],
+            [
+              -25355645846694638053554759579821713495379495817753435,
+              61394228658099903523074725172507514760493931850170589073922048
+            ],
+            [
+              -1152931529444054877831609482485944332452970849602310911,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -47126996191636599838446319947885996170941799543467,
+              112429914524661036850948709264755551386571722348011089745920
+            ],
+            [
+              -7430134507630669497047342119237533793511450171419,
+              17752091767051742660676111989171929166300798265475435223040
+            ],
+            [
+              -382605469798505881963772563045350681914912790487852117,
+              920913429871498552846120877587612721407408977752558836108830720
+            ],
+            [
+              -1132501191006841135609519756956768529242477611557354751,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -1110458970607895570172174385102477488728991158691886591,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              122083601632,
+              1
+            ],
+            [
+              -731713749568,
+              1
+            ],
+            [
+              1828752405408,
+              1
+            ],
+            [
+              -2439531342720,
+              1
+            ],
+            [
+              1831971494432,
+              1
+            ],
+            [
+              -734291403328,
+              1
+            ],
+            [
+              122729010528,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            3092862719843755509922638291454824471438818189155435784,
+            1348994282038327958270684879278729572374134244754724857581295
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -378266312357829929432011851318387197417891698804697,
+              931156147493931802675551949026908717297683496210878499604480
+            ],
+            [
+              -25355645846694638053554759579821713495379495817753435,
+              61394228658099903523074725172507514760493931850170589073922048
+            ],
+            [
+              -1152931529444054877831609482485944332452970849602310911,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -47126996191636599838446319947885996170941799543467,
+              112429914524661036850948709264755551386571722348011089745920
+            ],
+            [
+              -7430134507630669497047342119237533793511450171419,
+              17752091767051742660676111989171929166300798265475435223040
+            ],
+            [
+              -382605469798505881963772563045350681914912790487852117,
+              920913429871498552846120877587612721407408977752558836108830720
+            ],
+            [
+              -1132501191006841135609519756956768529242477611557354751,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ],
+            [
+              -1110458970607895570172174385102477488728991158691886591,
+              2762740289614495658538362632762838164222226933257676508326492160
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              122083601632,
+              1
+            ],
+            [
+              -731713749568,
+              1
+            ],
+            [
+              1828752405408,
+              1
+            ],
+            [
+              -2439531342720,
+              1
+            ],
+            [
+              1831971494432,
+              1
+            ],
+            [
+              -734291403328,
+              1
+            ],
+            [
+              122729010528,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            3092862719843755509922638291454824471438818189155435784,
+            1348994282038327958270684879278729572374134244754724857581295
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -48796359738958285904074483452625978208978947382235193,
+              120119143026717202545146201424471224531401171011203326448977920
+            ],
+            [
+              -126778243379817513159269557427535948785888901019427943,
+              306971143290499517615373625862537573802469659250852945369610240
+            ],
+            [
+              -384310552780504796333532455354081483550471047044238261,
+              920913429871498552846120877587612721407408977752558836108830720
+            ],
+            [
+              -77203453825713730986187282993253053294102667807383409,
+              184182685974299710569224175517522544281481795550511767221766144
+            ],
+            [
+              -141172571580614738138841639043976479419190253513441,
+              337289743573983110552846127794266654159715167044033269237760
+            ],
+            [
+              -382605513324196239234166116048865859574425363012835637,
+              920913429871498552846120877587612721407408977752558836108830720
+            ],
+            [
+              -125833480124508582786434792303760247581312270048791527,
+              306971143290499517615373625862537573802469659250852945369610240
+            ],
+            [
+              -370153033249281498383564670235218885431907787414741301,
+              920913429871498552846120877587612721407408977752558836108830720
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              122082807936,
+              1
+            ],
+            [
+              -731720149248,
+              1
+            ],
+            [
+              1828795385856,
+              1
+            ],
+            [
+              -2439622472193,
+              1
+            ],
+            [
+              1832062886016,
+              1
+            ],
+            [
+              -734335951104,
+              1
+            ],
+            [
+              122737509120,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            683821337556070292658106597331187858680017292420015273063,
+            306971143290499517615373625862537573802469659250852945369610240
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 5873879,
+      "maximum_intermediate_bits": 146,
+      "backend_elapsed_seconds": 3.3658063750044676,
+      "elapsed_seconds": 3.4584420419996604,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -616,
+        22024129
+      ],
+      "second_moment": [
+        1570654335279847818881404165180181999680,
+        2995762256359907166996407354457
+      ],
+      "variance": [
+        34592293694612619411798382792020250611649871872,
+        65979054387401665873953418111109692953
+      ],
+      "central_third_moment": [
+        4184057518528051086715796950598013766859574442934488009001351723544513740976160768,
+        3328126161588393924968933408054238784425924257877551299505022202596645
+      ],
+      "standardized_third_squared": [
+        69283868175131993006782178243005286033028737002603545228751083288257453433531669560350286281530740575001840846299908998634110510307346175295707390278888659011793,
+        6317659484592623222418248695262397349101298808479473672321930711817880886085284625966506214752020389187072772658673377190736416532013067064353579390931616084787200
+      ],
+      "standardized_third_float": 0.10472200685024276,
+      "source_inventory": "round5/trace_backend/inventory_p65537.json",
+      "source_inventory_sha256": "6ecb808c821f608e886a55e8734fa5dfb23b23c753c5784514e9535ca1be9b1d",
+      "direct_inventory_coefficient_evaluations": 451
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "degree": 6,
+      "third_moment": [
+        16819072063759998194298060051814276923015516570702033762565423141171060748777063371689801517875,
+        496730012136749810242164052857375112914346374066149578393011109898427991417289
+      ],
+      "third_moment_float": 3.3859584991473612e+16,
+      "all_equal_rows_contribution": [
+        23432378838850421899116739798796987043226352379472978155,
+        692045658733946655564895947345773256569
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -272600929624315085638873000947578865850047005704938035966880,
+        4544914891566427924088748061142936475946707562949243
+      ],
+      "distinct_rows_contribution": [
+        1823437408001919799440636283140322264630703378565575509295960813526901434570785653560,
+        496730012136749810242164052857375112914346374066149578393011109898427991417289
+      ],
+      "normalized_parameter_count": 1000031,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              -283678469686634436688967443108573953684798936222824241857067888136827954833,
+              25905418236967333739895577447670842830312574354297749746008584188756316295863114451484
+            ],
+            [
+              -226943264803010933523055994788455270252727158050187198100802207275454646414563,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -3634182531924304986975238088078912052110167666719203483638503271844515291,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -29086757118454065116469420857934299340056402547270590100067717237917,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -29089556219767398893248312590064381901951897319382866908443411107481,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -3635232130381088229952458524105392373556596048087055001211599490118241367,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -227052581032086854122979017277674203124840518918678915123367414020878682688023,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -226812100747885985072303574248794396283739003302712365594805334824497029382411,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              6622306239704364,
+              1
+            ],
+            [
+              -39732571263681236,
+              1
+            ],
+            [
+              99333350327268772,
+              1
+            ],
+            [
+              -132453811261512292,
+              1
+            ],
+            [
+              99352452816297672,
+              1
+            ],
+            [
+              -39747854276432736,
+              1
+            ],
+            [
+              6626127418605464,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            4751670899570052673234518435874055890230478862146111497130775844974100773811293966,
+            5174607292834224914544141595172250855354936727270975511765214691704074180098657111683929
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -226812100747885985072303574248794396283739003302712365594805334824497029382411,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -227052581032086854122979017277674203124840518918678915123367414020878682688023,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -3635232130381088229952458524105392373556596048087055001211599490118241367,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -29089556219767398893248312590064381901951897319382866908443411107481,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -29086757118454065116469420857934299340056402547270590100067717237917,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -3634182531924304986975238088078912052110167666719203483638503271844515291,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -226943264803010933523055994788455270252727158050187198100802207275454646414563,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -283678469686634436688967443108573953684798936222824241857067888136827954833,
+              25905418236967333739895577447670842830312574354297749746008584188756316295863114451484
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              6622306239704364,
+              1
+            ],
+            [
+              -39730016259325084,
+              1
+            ],
+            [
+              99320576757358908,
+              1
+            ],
+            [
+              -132428265573355068,
+              1
+            ],
+            [
+              99326907128140448,
+              1
+            ],
+            [
+              -39735080706522872,
+              1
+            ],
+            [
+              6623572414249312,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            4751670899570052673234518435874055890230478862146111497130775844974100773811293966,
+            5174607292834224914544141595172250855354936727270975511765214691704074180098657111683929
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -226812100747885985072303574248794396283739003302712365594805334824497029382411,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -227052581032086854122979017277674203124840518918678915123367414020878682688023,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -3635232130381088229952458524105392373556596048087055001211599490118241367,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -29089556219767398893248312590064381901951897319382866908443411107481,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -29086757118454065116469420857934299340056402547270590100067717237917,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -3634182531924304986975238088078912052110167666719203483638503271844515291,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -226943264803010933523055994788455270252727158050187198100802207275454646414563,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -283678469686634436688967443108573953684798936222824241857067888136827954833,
+              25905418236967333739895577447670842830312574354297749746008584188756316295863114451484
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              6622306239704364,
+              1
+            ],
+            [
+              -39730016259325084,
+              1
+            ],
+            [
+              99320576757358908,
+              1
+            ],
+            [
+              -132428265573355068,
+              1
+            ],
+            [
+              99326907128140448,
+              1
+            ],
+            [
+              -39735080706522872,
+              1
+            ],
+            [
+              6623572414249312,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            4751670899570052673234518435874055890230478862146111497130775844974100773811293966,
+            5174607292834224914544141595172250855354936727270975511765214691704074180098657111683929
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              -226812101020194834847885693333947648489378138613075130234821621541056305363065,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -11950135858146379374388689495072411415853385476009542462640129433505083550983,
+              1089391009017731560956661388457315969548407732057047476161097829832436669494454128775564
+            ],
+            [
+              -227205643653958221676566922510010521420257571447876521965066106791765972459521,
+              20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+            ],
+            [
+              -88689800012477998437143831454468932741952445342964420838926320625596417,
+              8077306537275657114628240633296795415729834921308147673368292943143659641111938676
+            ],
+            [
+              -29086757153451775459489883849184543443257186121570732918024266023135,
+              2649292961195346845273776357088778765669009797953921542747774138771789839328572
+            ],
+            [
+              -3634182536300807107367970452144974595054995296494475477945933191347120945,
+              331169568028301941699757865965168612044923231773634054608100010668890045285589485716
+            ],
+            [
+              -20631205916052889982146049505893408825980731609215368726917251974954301017747,
+              1881675379212445423470596943699000311038158809916718367914623524256026974581329858794156
+            ],
+            [
+              -4822533990492696975942984111173903165791608441374228598872270648259753546643,
+              440392110028444673578224816610404328115313764023061745682145931208857377029672945675228
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              6608128114370409,
+              1
+            ],
+            [
+              -39645343999484571,
+              1
+            ],
+            [
+              99109877948478189,
+              1
+            ],
+            [
+              -132148630837190757,
+              1
+            ],
+            [
+              99118145051956731,
+              1
+            ],
+            [
+              -39651958074407721,
+              1
+            ],
+            [
+              6609781796527727,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            18956507871906026231212290567024757010180227761145641588429057090598350488047207973,
+            20698429171336899658176566380689003421419746909083902047060858766816296720394628446735716
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 5920881,
+      "maximum_intermediate_bits": 181,
+      "backend_elapsed_seconds": 2.85782766599732,
+      "elapsed_seconds": 3.6507215409947094,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -118755,
+        10753333343
+      ],
+      "second_moment": [
+        358056916390196185986082062386825083020300791753775,
+        486364523477918688799555138175393799799
+      ],
+      "variance": [
+        3850305377710459845074927719481886483799243768728838978560000,
+        5230039847167409360511096910908434329534053398057
+      ],
+      "central_third_moment": [
+        1944859573975690701479666103623508273646976684260567017513484237403527738119829720369178186850226273578664181760000,
+        57438966634247706482684193934487433610539535027545828057673211409439584628664491478004338100215561
+      ],
+      "standardized_third_squared": [
+        1200481321729778580083418234916728200858393391547342063980240142416278034480294599464190763809964573230548986930131764055649323865430885687087726402689112000120873866849066110011804165121149102223835200976059584357,
+        417794462621091428783913318818837628664147553507666727401792258319508670181602523014575536019221824765390473016560995613276612961320507448462265669483019401769866832256049294220821598369589623963173153006223024140000
+      ],
+      "standardized_third_float": 0.05360389697559261,
+      "source_inventory": "round5/trace_backend/inventory_p1000033.json",
+      "source_inventory_sha256": "d00469d3c17c4a402a4549ea63eeca55b56b4c41aab93ccc70382dafe18f3f20",
+      "direct_inventory_coefficient_evaluations": 1753
+    }
+  ],
+  "direct_interpolation_comparisons": [
+    {
+      "q": 101,
+      "n": 8,
+      "exact_equality": true,
+      "direct_evaluations": 20,
+      "interpolation_evaluations": 35,
+      "direct_elapsed_seconds": 0.11844916599511635,
+      "interpolation_elapsed_seconds": 1.010371666008723
+    },
+    {
+      "q": 1297,
+      "n": 8,
+      "exact_equality": true,
+      "direct_evaluations": 66,
+      "interpolation_evaluations": 35,
+      "direct_elapsed_seconds": 0.40325433399993926,
+      "interpolation_elapsed_seconds": 0.32132812500640284
+    }
+  ],
+  "twins": [
+    {
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        44555,
+        35673
+      ],
+      "third_moment_float": 1.248983825302049,
+      "all_equal_rows_contribution": [
+        -1,
+        141
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -42,
+        47
+      ],
+      "distinct_rows_contribution": [
+        25562,
+        11891
+      ],
+      "normalized_parameter_count": 47,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              7891,
+              285384
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              4535,
+              665896
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            867,
+            1165318
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              4535,
+              665896
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              7891,
+              285384
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            867,
+            1165318
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              4535,
+              665896
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              7891,
+              285384
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            867,
+            1165318
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              4535,
+              665896
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              7891,
+              285384
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -2633,
+            1997688
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 399562,
+      "maximum_intermediate_bits": 30,
+      "backend_elapsed_seconds": 0.026392207990284078,
+      "elapsed_seconds": 0.029330959005164914,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -1,
+        141
+      ],
+      "second_moment": [
+        2007,
+        47
+      ],
+      "variance": [
+        848960,
+        19881
+      ],
+      "central_third_moment": [
+        1530158848,
+        709214913
+      ],
+      "standardized_third_squared": [
+        35726716615489,
+        597616798509846500
+      ],
+      "standardized_third_float": 0.0077318808755020875,
+      "graph": "Paley49",
+      "minimum": -29,
+      "maximum": 27,
+      "subset_count": 13983816,
+      "oracle_sha256": "e5dbc1cc80ef8f424ef994ff4b2c5b5f2736b23a72b06a89934d449f0b39be45"
+    },
+    {
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        6145,
+        3243
+      ],
+      "third_moment_float": 1.894850447116867,
+      "all_equal_rows_contribution": [
+        -1,
+        141
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -42,
+        47
+      ],
+      "distinct_rows_contribution": [
+        3022,
+        1081
+      ],
+      "normalized_parameter_count": 47,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              7891,
+              285384
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              4535,
+              665896
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            51,
+            1165318
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              4535,
+              665896
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              7891,
+              285384
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            51,
+            1165318
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              4535,
+              665896
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              7891,
+              285384
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            51,
+            1165318
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              4535,
+              665896
+            ],
+            [
+              -1531,
+              1997688
+            ],
+            [
+              17,
+              95128
+            ],
+            [
+              -17,
+              181608
+            ],
+            [
+              1411,
+              13983816
+            ],
+            [
+              -379,
+              1997688
+            ],
+            [
+              169,
+              1271256
+            ],
+            [
+              7891,
+              285384
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            14785,
+            13983816
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 399562,
+      "maximum_intermediate_bits": 30,
+      "backend_elapsed_seconds": 0.07346358400536701,
+      "elapsed_seconds": 0.07618862501112744,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -1,
+        141
+      ],
+      "second_moment": [
+        2007,
+        47
+      ],
+      "variance": [
+        848960,
+        19881
+      ],
+      "central_third_moment": [
+        180747008,
+        64474083
+      ],
+      "standardized_third_squared": [
+        498496717849,
+        4938981805866500
+      ],
+      "standardized_third_float": 0.010046445634808793,
+      "graph": "Peisert49",
+      "minimum": -29,
+      "maximum": 27,
+      "subset_count": 13983816,
+      "oracle_sha256": "e5dbc1cc80ef8f424ef994ff4b2c5b5f2736b23a72b06a89934d449f0b39be45"
+    },
+    {
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -99128449,
+        1533939
+      ],
+      "third_moment_float": -64.62346221068765,
+      "all_equal_rows_contribution": [
+        70259,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -3295824,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        -2713928,
+        511313
+      ],
+      "normalized_parameter_count": 47,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              3529033,
+              21475146
+            ],
+            [
+              79967,
+              7158382
+            ],
+            [
+              -24095,
+              21475146
+            ],
+            [
+              3989,
+              21475146
+            ],
+            [
+              -65,
+              3067878
+            ],
+            [
+              -23,
+              311234
+            ],
+            [
+              -79,
+              133386
+            ],
+            [
+              377495,
+              7158382
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            118,
+            325381
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              377495,
+              7158382
+            ],
+            [
+              -79,
+              133386
+            ],
+            [
+              -23,
+              311234
+            ],
+            [
+              -65,
+              3067878
+            ],
+            [
+              3989,
+              21475146
+            ],
+            [
+              -24095,
+              21475146
+            ],
+            [
+              79967,
+              7158382
+            ],
+            [
+              3529033,
+              21475146
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            118,
+            325381
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              377495,
+              7158382
+            ],
+            [
+              -79,
+              133386
+            ],
+            [
+              -23,
+              311234
+            ],
+            [
+              -65,
+              3067878
+            ],
+            [
+              3989,
+              21475146
+            ],
+            [
+              -24095,
+              21475146
+            ],
+            [
+              79967,
+              7158382
+            ],
+            [
+              3529033,
+              21475146
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            118,
+            325381
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              361241,
+              7158382
+            ],
+            [
+              -7459,
+              7158382
+            ],
+            [
+              -1069,
+              21475146
+            ],
+            [
+              -257,
+              21475146
+            ],
+            [
+              157,
+              933702
+            ],
+            [
+              -23257,
+              21475146
+            ],
+            [
+              79201,
+              7158382
+            ],
+            [
+              3504911,
+              21475146
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -10261,
+            3067878
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 867070,
+      "maximum_intermediate_bits": 34,
+      "backend_elapsed_seconds": 0.1782181249873247,
+      "elapsed_seconds": 0.18222820799564943,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -7,
+        141
+      ],
+      "second_moment": [
+        12174827,
+        46483
+      ],
+      "variance": [
+        5149903360,
+        19662309
+      ],
+      "central_third_moment": [
+        -781141286912,
+        30496241259
+      ],
+      "standardized_third_squared": [
+        183518355995791181,
+        5025816655485005322250
+      ],
+      "standardized_third_float": -0.0060427751476659596,
+      "graph": "Paley49",
+      "minimum": -59,
+      "maximum": 77,
+      "subset_count": 85900584,
+      "oracle_sha256": "224d516607c7aa2ecbccafe2846c390d5adca6d2a326f2472d42858fb4977137"
+    },
+    {
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -1672321,
+        1533939
+      ],
+      "third_moment_float": -1.0902134961038217,
+      "all_equal_rows_contribution": [
+        70259,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -3295824,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        29771448,
+        511313
+      ],
+      "normalized_parameter_count": 47,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              3529033,
+              21475146
+            ],
+            [
+              79967,
+              7158382
+            ],
+            [
+              -24095,
+              21475146
+            ],
+            [
+              3989,
+              21475146
+            ],
+            [
+              -65,
+              3067878
+            ],
+            [
+              -23,
+              311234
+            ],
+            [
+              -79,
+              133386
+            ],
+            [
+              377495,
+              7158382
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            3534,
+            3579191
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              377495,
+              7158382
+            ],
+            [
+              -79,
+              133386
+            ],
+            [
+              -23,
+              311234
+            ],
+            [
+              -65,
+              3067878
+            ],
+            [
+              3989,
+              21475146
+            ],
+            [
+              -24095,
+              21475146
+            ],
+            [
+              79967,
+              7158382
+            ],
+            [
+              3529033,
+              21475146
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            3534,
+            3579191
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              377495,
+              7158382
+            ],
+            [
+              -79,
+              133386
+            ],
+            [
+              -23,
+              311234
+            ],
+            [
+              -65,
+              3067878
+            ],
+            [
+              3989,
+              21475146
+            ],
+            [
+              -24095,
+              21475146
+            ],
+            [
+              79967,
+              7158382
+            ],
+            [
+              3529033,
+              21475146
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            3534,
+            3579191
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              361241,
+              7158382
+            ],
+            [
+              -7459,
+              7158382
+            ],
+            [
+              -1069,
+              21475146
+            ],
+            [
+              -257,
+              21475146
+            ],
+            [
+              157,
+              933702
+            ],
+            [
+              -23257,
+              21475146
+            ],
+            [
+              79201,
+              7158382
+            ],
+            [
+              3504911,
+              21475146
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            156007,
+            7158382
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 867070,
+      "maximum_intermediate_bits": 34,
+      "backend_elapsed_seconds": 0.030571583993150853,
+      "elapsed_seconds": 0.032823916990309954,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -7,
+        141
+      ],
+      "second_moment": [
+        12174827,
+        46483
+      ],
+      "variance": [
+        5149903360,
+        19662309
+      ],
+      "central_third_moment": [
+        1156383993856,
+        30496241259
+      ],
+      "standardized_third_squared": [
+        229819258498840283,
+        2871895231705717327000
+      ],
+      "standardized_third_float": 0.0089455884310708,
+      "graph": "Peisert49",
+      "minimum": -59,
+      "maximum": 61,
+      "subset_count": 85900584,
+      "oracle_sha256": "224d516607c7aa2ecbccafe2846c390d5adca6d2a326f2472d42858fb4977137"
+    },
+    {
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4737196096,
+        1533939
+      ],
+      "third_moment_float": -3088.255853720389,
+      "all_equal_rows_contribution": [
+        -9466744,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -69291096,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        -18501232,
+        511313
+      ],
+      "normalized_parameter_count": 47,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              127900981,
+              225489033
+            ],
+            [
+              5389415,
+              75163011
+            ],
+            [
+              -153,
+              582659
+            ],
+            [
+              -77899,
+              225489033
+            ],
+            [
+              35687,
+              75163011
+            ],
+            [
+              -387019,
+              225489033
+            ],
+            [
+              1015271,
+              75163011
+            ],
+            [
+              16467175,
+              75163011
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -62236,
+            9803871
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              16467175,
+              75163011
+            ],
+            [
+              1015271,
+              75163011
+            ],
+            [
+              -387019,
+              225489033
+            ],
+            [
+              35687,
+              75163011
+            ],
+            [
+              -77899,
+              225489033
+            ],
+            [
+              -153,
+              582659
+            ],
+            [
+              5389415,
+              75163011
+            ],
+            [
+              127900981,
+              225489033
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -62236,
+            9803871
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              16467175,
+              75163011
+            ],
+            [
+              1015271,
+              75163011
+            ],
+            [
+              -387019,
+              225489033
+            ],
+            [
+              35687,
+              75163011
+            ],
+            [
+              -77899,
+              225489033
+            ],
+            [
+              -153,
+              582659
+            ],
+            [
+              5389415,
+              75163011
+            ],
+            [
+              127900981,
+              225489033
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            -62236,
+            9803871
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              5165245,
+              25054337
+            ],
+            [
+              71237,
+              6833001
+            ],
+            [
+              -141769,
+              75163011
+            ],
+            [
+              5777,
+              10737573
+            ],
+            [
+              -27593,
+              75163011
+            ],
+            [
+              -489,
+              2277667
+            ],
+            [
+              5303351,
+              75163011
+            ],
+            [
+              42114551,
+              75163011
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            275101,
+            75163011
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 1539555,
+      "maximum_intermediate_bits": 37,
+      "backend_elapsed_seconds": 0.4620355000079144,
+      "elapsed_seconds": 0.46563691600749735,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -28,
+        141
+      ],
+      "second_moment": [
+        42954416,
+        46483
+      ],
+      "variance": [
+        18168942592,
+        19662309
+      ],
+      "central_third_moment": [
+        -77391853813760,
+        30496241259
+      ],
+      "standardized_third_squared": [
+        5516795951245691511725,
+        675887568285348578201152
+      ],
+      "standardized_third_float": -0.09034543874720541,
+      "graph": "Paley49",
+      "minimum": -132,
+      "maximum": 116,
+      "subset_count": 450978066,
+      "oracle_sha256": "a9ab1ff842dd8381759e489753d3791f03c4fd24871e0d45fc6adc0c9efed505"
+    },
+    {
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4199178304,
+        1533939
+      ],
+      "third_moment_float": -2737.5132283617536,
+      "all_equal_rows_contribution": [
+        -9466744,
+        6063
+      ],
+      "exactly_two_equal_rows_contribution": [
+        -69291096,
+        46483
+      ],
+      "distinct_rows_contribution": [
+        160838032,
+        511313
+      ],
+      "normalized_parameter_count": 47,
+      "normalization_contract": "supplied inventory requires verified automorphism/complement transitivity; current intended instances are prime Paley and checked GF49 twins",
+      "class_plans": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -30,
+            -22,
+            -14,
+            -6,
+            2,
+            10,
+            18,
+            26
+          ],
+          "row_triple_product_moments": [
+            [
+              127900981,
+              225489033
+            ],
+            [
+              5389415,
+              75163011
+            ],
+            [
+              -153,
+              582659
+            ],
+            [
+              -77899,
+              225489033
+            ],
+            [
+              35687,
+              75163011
+            ],
+            [
+              -387019,
+              225489033
+            ],
+            [
+              1015271,
+              75163011
+            ],
+            [
+              16467175,
+              75163011
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            8332,
+            10737573
+          ]
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              16467175,
+              75163011
+            ],
+            [
+              1015271,
+              75163011
+            ],
+            [
+              -387019,
+              225489033
+            ],
+            [
+              35687,
+              75163011
+            ],
+            [
+              -77899,
+              225489033
+            ],
+            [
+              -153,
+              582659
+            ],
+            [
+              5389415,
+              75163011
+            ],
+            [
+              127900981,
+              225489033
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            8332,
+            10737573
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              16467175,
+              75163011
+            ],
+            [
+              1015271,
+              75163011
+            ],
+            [
+              -387019,
+              225489033
+            ],
+            [
+              35687,
+              75163011
+            ],
+            [
+              -77899,
+              225489033
+            ],
+            [
+              -153,
+              582659
+            ],
+            [
+              5389415,
+              75163011
+            ],
+            [
+              127900981,
+              225489033
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            8332,
+            10737573
+          ]
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "method": "proved-degree interpolation",
+          "synthetic_nodes_claimed_realizable": false,
+          "nodes": [
+            -26,
+            -18,
+            -10,
+            -2,
+            6,
+            14,
+            22,
+            30
+          ],
+          "row_triple_product_moments": [
+            [
+              5165245,
+              25054337
+            ],
+            [
+              71237,
+              6833001
+            ],
+            [
+              -141769,
+              75163011
+            ],
+            [
+              5777,
+              10737573
+            ],
+            [
+              -27593,
+              75163011
+            ],
+            [
+              -489,
+              2277667
+            ],
+            [
+              5303351,
+              75163011
+            ],
+            [
+              42114551,
+              75163011
+            ]
+          ],
+          "aggregate_interpolation_weights": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "extra_node_checked": true,
+          "normalized_class_sum": [
+            9877405,
+            75163011
+          ]
+        }
+      ],
+      "coefficient_evaluations": 35,
+      "backend_integer_products": 1539555,
+      "maximum_intermediate_bits": 37,
+      "backend_elapsed_seconds": 0.2709896669985028,
+      "elapsed_seconds": 0.2737247920013033,
+      "source_sha256": {
+        "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+        "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+        "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498"
+      },
+      "mean": [
+        -28,
+        141
+      ],
+      "second_moment": [
+        42954416,
+        46483
+      ],
+      "variance": [
+        18168942592,
+        19662309
+      ],
+      "central_third_moment": [
+        -66695522091008,
+        30496241259
+      ],
+      "standardized_third_squared": [
+        1024306157523585167501,
+        168971892071337144550288
+      ],
+      "standardized_third_float": -0.07785879144704906,
+      "graph": "Peisert49",
+      "minimum": -124,
+      "maximum": 132,
+      "subset_count": 450978066,
+      "oracle_sha256": "a9ab1ff842dd8381759e489753d3791f03c4fd24871e0d45fc6adc0c9efed505"
+    }
+  ],
+  "finite_countercheck": "Larger raw third moment accompanies a smaller maximum at n7 and a larger maximum at n8 in these actual twins; no monotone upper-extremum ordering follows.",
+  "source_sha256": {
+    "third_moment.py": "f21114388e4a5b4e2b929b3db14ddd2987ecf22e70fc96051944422044bf207c",
+    "union_coefficients.cpp": "9f95bef6f2f4866de7014ae9d16bfeadfacc7db1a12e13ffb6b602783c4d0de6",
+    "union_coefficients": "cdc3a974c4d0d79157dfd4d6eb950c451b26e81a4900bf4226829b1f33d3e498",
+    "run_experiments.py": "9c8b4eb080ebabdbd36c8e42ca1509566393e8e1b1bf34d8062cc6a90f8b6522"
+  },
+  "previous_second_moment_compiler_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105"
+}

@@ -1,0 +1,412 @@
+{
+  "status": "passed; Paley and prize unproved",
+  "source_sha256": "962a7b4b09b078794bdee21a5037937f67d90051724de75e8b97ac47a992e007",
+  "amplification": {
+    "published_source_case": {
+      "power_n": "191/40",
+      "power_delta": "72",
+      "quartic_saving": "31/2880",
+      "amplitude_exponent": "2849/2880"
+    },
+    "ideal_source_case_saving": "1/24",
+    "abstract_ledger_best_saving": "1/16",
+    "attainers": [
+      [
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ]
+    ],
+    "r_and_s_at_least_two_best_saving": "3/64",
+    "restricted_attainers": [
+      [
+        2,
+        4,
+        1
+      ],
+      [
+        4,
+        2,
+        1
+      ]
+    ],
+    "all_reduced_cases": [
+      {
+        "r": 1,
+        "s": 1,
+        "ell": 1,
+        "saving": "-1/8"
+      },
+      {
+        "r": 1,
+        "s": 1,
+        "ell": 2,
+        "saving": "0"
+      },
+      {
+        "r": 1,
+        "s": 2,
+        "ell": 1,
+        "saving": "0"
+      },
+      {
+        "r": 1,
+        "s": 2,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 1,
+        "s": 3,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 1,
+        "s": 3,
+        "ell": 2,
+        "saving": "1/24"
+      },
+      {
+        "r": 1,
+        "s": 4,
+        "ell": 1,
+        "saving": "1/16"
+      },
+      {
+        "r": 1,
+        "s": 4,
+        "ell": 2,
+        "saving": "3/64"
+      },
+      {
+        "r": 2,
+        "s": 1,
+        "ell": 1,
+        "saving": "0"
+      },
+      {
+        "r": 2,
+        "s": 1,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 2,
+        "s": 2,
+        "ell": 1,
+        "saving": "1/32"
+      },
+      {
+        "r": 2,
+        "s": 2,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 2,
+        "s": 3,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 2,
+        "s": 3,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 2,
+        "s": 4,
+        "ell": 1,
+        "saving": "3/64"
+      },
+      {
+        "r": 2,
+        "s": 4,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 3,
+        "s": 1,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 3,
+        "s": 1,
+        "ell": 2,
+        "saving": "1/24"
+      },
+      {
+        "r": 3,
+        "s": 2,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 3,
+        "s": 2,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 3,
+        "s": 3,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 3,
+        "s": 3,
+        "ell": 2,
+        "saving": "1/36"
+      },
+      {
+        "r": 3,
+        "s": 4,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 3,
+        "s": 4,
+        "ell": 2,
+        "saving": "5/192"
+      },
+      {
+        "r": 4,
+        "s": 1,
+        "ell": 1,
+        "saving": "1/16"
+      },
+      {
+        "r": 4,
+        "s": 1,
+        "ell": 2,
+        "saving": "3/64"
+      },
+      {
+        "r": 4,
+        "s": 2,
+        "ell": 1,
+        "saving": "3/64"
+      },
+      {
+        "r": 4,
+        "s": 2,
+        "ell": 2,
+        "saving": "1/32"
+      },
+      {
+        "r": 4,
+        "s": 3,
+        "ell": 1,
+        "saving": "1/24"
+      },
+      {
+        "r": 4,
+        "s": 3,
+        "ell": 2,
+        "saving": "5/192"
+      },
+      {
+        "r": 4,
+        "s": 4,
+        "ell": 1,
+        "saving": "5/128"
+      },
+      {
+        "r": 4,
+        "s": 4,
+        "ell": 2,
+        "saving": "3/128"
+      }
+    ],
+    "clamp_sanity_checks": 343,
+    "scope": "Conditional exponent ledger only; not a general impossibility theorem."
+  },
+  "conditional_centered_formula": [
+    {
+      "energy_two_exponent": "49/20",
+      "best_saving": "11/1280",
+      "attaining_k": [
+        5
+      ],
+      "fixed_k_rows": [
+        {
+          "k": 1,
+          "r": 2,
+          "saving": "-29/80"
+        },
+        {
+          "k": 2,
+          "r": 4,
+          "saving": "-19/160"
+        },
+        {
+          "k": 3,
+          "r": 8,
+          "saving": "-9/320"
+        },
+        {
+          "k": 4,
+          "r": 16,
+          "saving": "1/640"
+        },
+        {
+          "k": 5,
+          "r": 32,
+          "saving": "11/1280"
+        },
+        {
+          "k": 6,
+          "r": 64,
+          "saving": "21/2560"
+        },
+        {
+          "k": 7,
+          "r": 128,
+          "saving": "31/5120"
+        },
+        {
+          "k": 8,
+          "r": 256,
+          "saving": "41/10240"
+        },
+        {
+          "k": 9,
+          "r": 512,
+          "saving": "51/20480"
+        },
+        {
+          "k": 10,
+          "r": 1024,
+          "saving": "61/40960"
+        },
+        {
+          "k": 11,
+          "r": 2048,
+          "saving": "71/81920"
+        }
+      ],
+      "scope": "Algebraic implication of a published formula; not its independent proof."
+    },
+    {
+      "energy_two_exponent": "2",
+      "best_saving": "1/64",
+      "attaining_k": [
+        4,
+        5
+      ],
+      "fixed_k_rows": [
+        {
+          "k": 1,
+          "r": 2,
+          "saving": "-1/4"
+        },
+        {
+          "k": 2,
+          "r": 4,
+          "saving": "-1/16"
+        },
+        {
+          "k": 3,
+          "r": 8,
+          "saving": "0"
+        },
+        {
+          "k": 4,
+          "r": 16,
+          "saving": "1/64"
+        },
+        {
+          "k": 5,
+          "r": 32,
+          "saving": "1/64"
+        },
+        {
+          "k": 6,
+          "r": 64,
+          "saving": "3/256"
+        },
+        {
+          "k": 7,
+          "r": 128,
+          "saving": "1/128"
+        },
+        {
+          "k": 8,
+          "r": 256,
+          "saving": "5/1024"
+        },
+        {
+          "k": 9,
+          "r": 512,
+          "saving": "3/1024"
+        },
+        {
+          "k": 10,
+          "r": 1024,
+          "saving": "7/4096"
+        },
+        {
+          "k": 11,
+          "r": 2048,
+          "saving": "1/1024"
+        }
+      ],
+      "scope": "Algebraic implication of a published formula; not its independent proof."
+    }
+  ],
+  "origin_mass_check": {
+    "examples": [
+      {
+        "p": 3,
+        "norm1": "4/3",
+        "all_positive_order_T_values": "2/3",
+        "norm_bound_rhs_in_equation_57": "8/9",
+        "equation_57_fails": false
+      },
+      {
+        "p": 5,
+        "norm1": "8/5",
+        "all_positive_order_T_values": "4/5",
+        "norm_bound_rhs_in_equation_57": "16/25",
+        "equation_57_fails": true
+      },
+      {
+        "p": 17,
+        "norm1": "32/17",
+        "all_positive_order_T_values": "16/17",
+        "norm_bound_rhs_in_equation_57": "64/289",
+        "equation_57_fails": true
+      },
+      {
+        "p": 97,
+        "norm1": "192/97",
+        "all_positive_order_T_values": "96/97",
+        "norm_bound_rhs_in_equation_57": "384/9409",
+        "equation_57_fails": true
+      }
+    ],
+    "k_two_required_inequality": "1 <= 65536*C*(log p)^4*(1-1/p)^4/sqrt(p-1)",
+    "right_side_limit_for_fixed_C": "0 as p tends to infinity",
+    "scope": "Unqualified arbitrary-function statement as rendered in v2 HTML; not subgroup Theorem 3."
+  },
+  "archive": {
+    "manifest_sha256": "1ca63c6c591fa3f05690a66e961fb2d18ec9f9919a2c39a1c90c95da822be72b",
+    "verified_files": [
+      "di-benedetto-et-al-2003.06165v1.html",
+      "shkredov-1802.09066v2.html",
+      "magsino-mixon-parshall-1907.05971v1.html",
+      "kowalski-untrau-2505.22059.html"
+    ]
+  }
+}

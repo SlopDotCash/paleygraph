@@ -1,0 +1,202 @@
+{
+  "status": "exact identities and quantitative losses verified; no exceptional-set upper bound proved",
+  "small_actual_fields": [
+    {
+      "p": 5,
+      "n": 2,
+      "complete_slice_sets": 10
+    },
+    {
+      "p": 5,
+      "n": 3,
+      "complete_slice_sets": 10
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "complete_slice_sets": 5
+    },
+    {
+      "p": 7,
+      "n": 2,
+      "complete_slice_sets": 21
+    },
+    {
+      "p": 7,
+      "n": 3,
+      "complete_slice_sets": 35
+    },
+    {
+      "p": 7,
+      "n": 4,
+      "complete_slice_sets": 35
+    },
+    {
+      "p": 11,
+      "n": 2,
+      "complete_slice_sets": 55
+    },
+    {
+      "p": 11,
+      "n": 3,
+      "complete_slice_sets": 165
+    },
+    {
+      "p": 11,
+      "n": 4,
+      "complete_slice_sets": 330
+    },
+    {
+      "p": 13,
+      "n": 2,
+      "complete_slice_sets": 78
+    },
+    {
+      "p": 13,
+      "n": 3,
+      "complete_slice_sets": 286
+    },
+    {
+      "p": 13,
+      "n": 4,
+      "complete_slice_sets": 715
+    }
+  ],
+  "thin_slice_certificates": [
+    {
+      "p": 1297,
+      "n": 6,
+      "necessary_retained_points": 5,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "72/1297",
+        "exponent": 5
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/18",
+        "exponent": 5
+      },
+      "exact_tail_fraction_numerator_bits": 13,
+      "exact_tail_fraction_denominator_bits": 53,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    },
+    {
+      "p": 4099,
+      "n": 8,
+      "necessary_retained_points": 7,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "128/4099",
+        "exponent": 7
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/32",
+        "exponent": 7
+      },
+      "exact_tail_fraction_numerator_bits": 11,
+      "exact_tail_fraction_denominator_bits": 77,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    },
+    {
+      "p": 65537,
+      "n": 16,
+      "necessary_retained_points": 12,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "512/65537",
+        "exponent": 12
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/128",
+        "exponent": 12
+      },
+      "exact_tail_fraction_numerator_bits": 67,
+      "exact_tail_fraction_denominator_bits": 208,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    },
+    {
+      "p": 1048583,
+      "n": 32,
+      "necessary_retained_points": 22,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "2048/1048583",
+        "exponent": 22
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/512",
+        "exponent": 22
+      },
+      "exact_tail_fraction_numerator_bits": 174,
+      "exact_tail_fraction_denominator_bits": 492,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    },
+    {
+      "p": 16777259,
+      "n": 64,
+      "necessary_retained_points": 39,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "8192/16777259",
+        "exponent": 39
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/2048",
+        "exponent": 39
+      },
+      "exact_tail_fraction_numerator_bits": 547,
+      "exact_tail_fraction_denominator_bits": 1212,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    },
+    {
+      "p": 268435459,
+      "n": 128,
+      "necessary_retained_points": 69,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "32768/268435459",
+        "exponent": 69
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/8192",
+        "exponent": 69
+      },
+      "exact_tail_fraction_numerator_bits": 1434,
+      "exact_tail_fraction_denominator_bits": 2792,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    },
+    {
+      "p": 4294967311,
+      "n": 256,
+      "necessary_retained_points": 122,
+      "p_dependent_global_tail_bound": {
+        "rational_base": "131072/4294967311",
+        "exponent": 122
+      },
+      "coarse_global_tail_bound": {
+        "rational_base": "1/32768",
+        "exponent": 122
+      },
+      "exact_tail_fraction_numerator_bits": 3640,
+      "exact_tail_fraction_denominator_bits": 6367,
+      "tail_below_n2_over_p": true,
+      "scope": "integer combinatorial certificate; no large-field character computation"
+    }
+  ],
+  "input_sha256": {
+    "research/parallel23-classical-upper-2026-09-05.md": "08a79fd9109396f1c31d0efdd70eba3bcb77968f9b9b02daf40ab2b6b674cc90",
+    "research/parallel23-classical-independent-review-2026-09-05.md": "ccb3f7ae051cbc1f7a7e506fdc47696998f23cfcee2c892794b23f3ea9de9e85",
+    "research/parallel20-inversion-moments-2026-09-05.md": "31ec520dcb38decced35eb111128d65383f4a4f6fb2eca545d8bc5406b55922f",
+    "experiments/parallel24_classical_exceptions_2026_09_05.py": "1c1468664e4486258fa7e172b5bf8dbbbe153fba748bde7cf5865ee24899b39b"
+  },
+  "counts": {
+    "row_drift_coefficients": 20839,
+    "complete_swap_drift_identities": 1745,
+    "exact_shell_mean_and_moment_checks": 86,
+    "local_full_transform_variance_checks": 24,
+    "unbalanced_pole_second_moment_checks": 24,
+    "actual_transported_sign_split_identities": 144,
+    "thin_slice_volume_and_drift_certificates": 7
+  },
+  "arithmetic": "Python integers, exact rational shell probabilities and radical comparisons; no floating acceptance"
+}

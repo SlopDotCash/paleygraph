@@ -1,0 +1,864 @@
+{
+  "status": "passed",
+  "scope": "Exact finite moment/norm identities and selection algebra. Analytic inputs are cited theorems; no prime scan or factorization.",
+  "sources_sha256": {
+    "experiments/parallel5_subgroup_2026_09_04.py": "8a7d2cbe8f556e184464ca2ad09eb7add1c406d1beda60e19a6d82cc7ae6d560",
+    "research/parallel5-subgroup-2026-09-04.md": "feac7ce978920e6ffcbd05e070ac2aa06d6a437de92f9f3a8cfdcd54433dc55e",
+    "research/parallel4-subgroup-2026-09-04.md": "e3f76ed5f91e08470244f69ab115af2933754c731648f41254f88eda17dc4fe0",
+    "research/cyclotomic-prime-average.md": "0082c26329418e5c6803504170275596ea9d1eacdbac3c0cacc0ae4ff7722fe1",
+    "research/analytic-bounds-and-amplification.md": "80906fd1c5351dc0752e6811d1bb55e5c538a749bcc226eb7126f9fb0c814f4b",
+    "sources/analytic-bounds-2026-09-04/di-benedetto-et-al-2003.06165v1.html": "1df3718ccfe5d44f2844cfe09e641fe48deec2c5a2f6b0f6978f98f8c37031f8"
+  },
+  "analytic_sources": [
+    "https://arxiv.org/html/2108.10878#S3.SS1",
+    "https://arxiv.org/html/2003.06165#S4",
+    "https://arxiv.org/html/1604.08469v4#S1.SS3"
+  ],
+  "fixed_moment_certificates": [
+    {
+      "p": 5,
+      "n": 4,
+      "generator": 2,
+      "depth": 4,
+      "in_quartic_window": false,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 4,
+          "intrinsic": 4,
+          "extra_relations": 0,
+          "principal_term": "16/5",
+          "centered_energy": "4/5",
+          "centered_numerator": 4,
+          "coset_moment_Q_r": 1,
+          "sum_support_size": 4
+        },
+        {
+          "r": 2,
+          "E_r": 52,
+          "intrinsic": 36,
+          "extra_relations": 16,
+          "principal_term": "256/5",
+          "centered_energy": "4/5",
+          "centered_numerator": 4,
+          "coset_moment_Q_r": 1,
+          "sum_support_size": 5
+        },
+        {
+          "r": 3,
+          "E_r": 820,
+          "intrinsic": 400,
+          "extra_relations": 420,
+          "principal_term": "4096/5",
+          "centered_energy": "4/5",
+          "centered_numerator": 4,
+          "coset_moment_Q_r": 1,
+          "sum_support_size": 5
+        },
+        {
+          "r": 4,
+          "E_r": 13108,
+          "intrinsic": 4900,
+          "extra_relations": 8208,
+          "principal_term": "65536/5",
+          "centered_energy": "4/5",
+          "centered_numerator": 4,
+          "coset_moment_Q_r": 1,
+          "sum_support_size": 5
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 13,
+      "n": 4,
+      "generator": 8,
+      "depth": 4,
+      "in_quartic_window": false,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 4,
+          "intrinsic": 4,
+          "extra_relations": 0,
+          "principal_term": "16/13",
+          "centered_energy": "36/13",
+          "centered_numerator": 36,
+          "coset_moment_Q_r": 9,
+          "sum_support_size": 4
+        },
+        {
+          "r": 2,
+          "E_r": 36,
+          "intrinsic": 36,
+          "extra_relations": 0,
+          "principal_term": "256/13",
+          "centered_energy": "212/13",
+          "centered_numerator": 212,
+          "coset_moment_Q_r": 53,
+          "sum_support_size": 9
+        },
+        {
+          "r": 3,
+          "E_r": 424,
+          "intrinsic": 400,
+          "extra_relations": 24,
+          "principal_term": "4096/13",
+          "centered_energy": "1416/13",
+          "centered_numerator": 1416,
+          "coset_moment_Q_r": 354,
+          "sum_support_size": 12
+        },
+        {
+          "r": 4,
+          "E_r": 5796,
+          "intrinsic": 4900,
+          "extra_relations": 896,
+          "principal_term": "65536/13",
+          "centered_energy": "9812/13",
+          "centered_numerator": 9812,
+          "coset_moment_Q_r": 2453,
+          "sum_support_size": 13
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 17,
+      "n": 4,
+      "generator": 13,
+      "depth": 4,
+      "in_quartic_window": false,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 4,
+          "intrinsic": 4,
+          "extra_relations": 0,
+          "principal_term": "16/17",
+          "centered_energy": "52/17",
+          "centered_numerator": 52,
+          "coset_moment_Q_r": 13,
+          "sum_support_size": 4
+        },
+        {
+          "r": 2,
+          "E_r": 36,
+          "intrinsic": 36,
+          "extra_relations": 0,
+          "principal_term": "256/17",
+          "centered_energy": "356/17",
+          "centered_numerator": 356,
+          "coset_moment_Q_r": 89,
+          "sum_support_size": 9
+        },
+        {
+          "r": 3,
+          "E_r": 400,
+          "intrinsic": 400,
+          "extra_relations": 0,
+          "principal_term": "4096/17",
+          "centered_energy": "2704/17",
+          "centered_numerator": 2704,
+          "coset_moment_Q_r": 676,
+          "sum_support_size": 16
+        },
+        {
+          "r": 4,
+          "E_r": 5124,
+          "intrinsic": 4900,
+          "extra_relations": 224,
+          "principal_term": "65536/17",
+          "centered_energy": "21572/17",
+          "centered_numerator": 21572,
+          "coset_moment_Q_r": 5393,
+          "sum_support_size": 17
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 9,
+      "depth": 4,
+      "in_quartic_window": false,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 8,
+          "intrinsic": 8,
+          "extra_relations": 0,
+          "principal_term": "64/17",
+          "centered_energy": "72/17",
+          "centered_numerator": 72,
+          "coset_moment_Q_r": 9,
+          "sum_support_size": 8
+        },
+        {
+          "r": 2,
+          "E_r": 264,
+          "intrinsic": 168,
+          "extra_relations": 96,
+          "principal_term": "4096/17",
+          "centered_energy": "392/17",
+          "centered_numerator": 392,
+          "coset_moment_Q_r": 49,
+          "sum_support_size": 17
+        },
+        {
+          "r": 3,
+          "E_r": 15560,
+          "intrinsic": 5120,
+          "extra_relations": 10440,
+          "principal_term": "262144/17",
+          "centered_energy": "2376/17",
+          "centered_numerator": 2376,
+          "coset_moment_Q_r": 297,
+          "sum_support_size": 17
+        },
+        {
+          "r": 4,
+          "E_r": 987784,
+          "intrinsic": 190120,
+          "extra_relations": 797664,
+          "principal_term": "16777216/17",
+          "centered_energy": "15112/17",
+          "centered_numerator": 15112,
+          "coset_moment_Q_r": 1889,
+          "sum_support_size": 17
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "generator": 38,
+      "depth": 4,
+      "in_quartic_window": false,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 8,
+          "intrinsic": 8,
+          "extra_relations": 0,
+          "principal_term": "64/41",
+          "centered_energy": "264/41",
+          "centered_numerator": 264,
+          "coset_moment_Q_r": 33,
+          "sum_support_size": 8
+        },
+        {
+          "r": 2,
+          "E_r": 200,
+          "intrinsic": 168,
+          "extra_relations": 32,
+          "principal_term": "4096/41",
+          "centered_energy": "4104/41",
+          "centered_numerator": 4104,
+          "coset_moment_Q_r": 513,
+          "sum_support_size": 25
+        },
+        {
+          "r": 3,
+          "E_r": 8240,
+          "intrinsic": 5120,
+          "extra_relations": 3120,
+          "principal_term": "262144/41",
+          "centered_energy": "75696/41",
+          "centered_numerator": 75696,
+          "coset_moment_Q_r": 9462,
+          "sum_support_size": 40
+        },
+        {
+          "r": 4,
+          "E_r": 445256,
+          "intrinsic": 190120,
+          "extra_relations": 255136,
+          "principal_term": "16777216/41",
+          "centered_energy": "1478280/41",
+          "centered_numerator": 1478280,
+          "coset_moment_Q_r": 184785,
+          "sum_support_size": 41
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 73,
+      "n": 4,
+      "generator": 27,
+      "depth": 4,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 4,
+          "intrinsic": 4,
+          "extra_relations": 0,
+          "principal_term": "16/73",
+          "centered_energy": "276/73",
+          "centered_numerator": 276,
+          "coset_moment_Q_r": 69,
+          "sum_support_size": 4
+        },
+        {
+          "r": 2,
+          "E_r": 36,
+          "intrinsic": 36,
+          "extra_relations": 0,
+          "principal_term": "256/73",
+          "centered_energy": "2372/73",
+          "centered_numerator": 2372,
+          "coset_moment_Q_r": 593,
+          "sum_support_size": 9
+        },
+        {
+          "r": 3,
+          "E_r": 400,
+          "intrinsic": 400,
+          "extra_relations": 0,
+          "principal_term": "4096/73",
+          "centered_energy": "25104/73",
+          "centered_numerator": 25104,
+          "coset_moment_Q_r": 6276,
+          "sum_support_size": 16
+        },
+        {
+          "r": 4,
+          "E_r": 4900,
+          "intrinsic": 4900,
+          "extra_relations": 0,
+          "principal_term": "65536/73",
+          "centered_energy": "292164/73",
+          "centered_numerator": 292164,
+          "coset_moment_Q_r": 73041,
+          "sum_support_size": 25
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "generator": 1030,
+      "depth": 4,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 8,
+          "intrinsic": 8,
+          "extra_relations": 0,
+          "principal_term": "64/1153",
+          "centered_energy": "9160/1153",
+          "centered_numerator": 9160,
+          "coset_moment_Q_r": 1145,
+          "sum_support_size": 8
+        },
+        {
+          "r": 2,
+          "E_r": 168,
+          "intrinsic": 168,
+          "extra_relations": 0,
+          "principal_term": "4096/1153",
+          "centered_energy": "189608/1153",
+          "centered_numerator": 189608,
+          "coset_moment_Q_r": 23701,
+          "sum_support_size": 33
+        },
+        {
+          "r": 3,
+          "E_r": 5120,
+          "intrinsic": 5120,
+          "extra_relations": 0,
+          "principal_term": "262144/1153",
+          "centered_energy": "5641216/1153",
+          "centered_numerator": 5641216,
+          "coset_moment_Q_r": 705152,
+          "sum_support_size": 96
+        },
+        {
+          "r": 4,
+          "E_r": 190120,
+          "intrinsic": 190120,
+          "extra_relations": 0,
+          "principal_term": "16777216/1153",
+          "centered_energy": "202431144/1153",
+          "centered_numerator": 202431144,
+          "coset_moment_Q_r": 25303893,
+          "sum_support_size": 225
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 2017,
+      "n": 8,
+      "generator": 1579,
+      "depth": 4,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 8,
+          "intrinsic": 8,
+          "extra_relations": 0,
+          "principal_term": "64/2017",
+          "centered_energy": "16072/2017",
+          "centered_numerator": 16072,
+          "coset_moment_Q_r": 2009,
+          "sum_support_size": 8
+        },
+        {
+          "r": 2,
+          "E_r": 168,
+          "intrinsic": 168,
+          "extra_relations": 0,
+          "principal_term": "4096/2017",
+          "centered_energy": "334760/2017",
+          "centered_numerator": 334760,
+          "coset_moment_Q_r": 41845,
+          "sum_support_size": 33
+        },
+        {
+          "r": 3,
+          "E_r": 5120,
+          "intrinsic": 5120,
+          "extra_relations": 0,
+          "principal_term": "262144/2017",
+          "centered_energy": "10064896/2017",
+          "centered_numerator": 10064896,
+          "coset_moment_Q_r": 1258112,
+          "sum_support_size": 96
+        },
+        {
+          "r": 4,
+          "E_r": 190120,
+          "intrinsic": 190120,
+          "extra_relations": 0,
+          "principal_term": "16777216/2017",
+          "centered_energy": "366694824/2017",
+          "centered_numerator": 366694824,
+          "coset_moment_Q_r": 45836853,
+          "sum_support_size": 225
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 18433,
+      "n": 16,
+      "generator": 17782,
+      "depth": 4,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 16,
+          "intrinsic": 16,
+          "extra_relations": 0,
+          "principal_term": "256/18433",
+          "centered_energy": "294672/18433",
+          "centered_numerator": 294672,
+          "coset_moment_Q_r": 18417,
+          "sum_support_size": 16
+        },
+        {
+          "r": 2,
+          "E_r": 720,
+          "intrinsic": 720,
+          "extra_relations": 0,
+          "principal_term": "65536/18433",
+          "centered_energy": "13206224/18433",
+          "centered_numerator": 13206224,
+          "coset_moment_Q_r": 825389,
+          "sum_support_size": 129
+        },
+        {
+          "r": 3,
+          "E_r": 50560,
+          "intrinsic": 50560,
+          "extra_relations": 0,
+          "principal_term": "16777216/18433",
+          "centered_energy": "915195264/18433",
+          "centered_numerator": 915195264,
+          "coset_moment_Q_r": 57199704,
+          "sum_support_size": 704
+        },
+        {
+          "r": 4,
+          "E_r": 4663120,
+          "intrinsic": 4649680,
+          "extra_relations": 13440,
+          "principal_term": "4294967296/18433",
+          "centered_energy": "81660323664/18433",
+          "centered_numerator": 81660323664,
+          "coset_moment_Q_r": 5103770229,
+          "sum_support_size": 2849
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 65521,
+      "n": 16,
+      "generator": 61640,
+      "depth": 4,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 16,
+          "intrinsic": 16,
+          "extra_relations": 0,
+          "principal_term": "256/65521",
+          "centered_energy": "1048080/65521",
+          "centered_numerator": 1048080,
+          "coset_moment_Q_r": 65505,
+          "sum_support_size": 16
+        },
+        {
+          "r": 2,
+          "E_r": 720,
+          "intrinsic": 720,
+          "extra_relations": 0,
+          "principal_term": "65536/65521",
+          "centered_energy": "47109584/65521",
+          "centered_numerator": 47109584,
+          "coset_moment_Q_r": 2944349,
+          "sum_support_size": 129
+        },
+        {
+          "r": 3,
+          "E_r": 50560,
+          "intrinsic": 50560,
+          "extra_relations": 0,
+          "principal_term": "16777216/65521",
+          "centered_energy": "3295964544/65521",
+          "centered_numerator": 3295964544,
+          "coset_moment_Q_r": 205997784,
+          "sum_support_size": 704
+        },
+        {
+          "r": 4,
+          "E_r": 4649680,
+          "intrinsic": 4649680,
+          "extra_relations": 0,
+          "principal_term": "4294967296/65521",
+          "centered_energy": "300356715984/65521",
+          "centered_numerator": 300356715984,
+          "coset_moment_Q_r": 18772294749,
+          "sum_support_size": 2945
+        }
+      ],
+      "nonintrinsic_six_word": null
+    },
+    {
+      "p": 262657,
+      "n": 32,
+      "generator": 247126,
+      "depth": 4,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 32,
+          "intrinsic": 32,
+          "extra_relations": 0,
+          "principal_term": "1024/262657",
+          "centered_energy": "8404000/262657",
+          "centered_numerator": 8404000,
+          "coset_moment_Q_r": 262625,
+          "sum_support_size": 32
+        },
+        {
+          "r": 2,
+          "E_r": 2976,
+          "intrinsic": 2976,
+          "extra_relations": 0,
+          "principal_term": "1048576/262657",
+          "centered_energy": "780618656/262657",
+          "centered_numerator": 780618656,
+          "coset_moment_Q_r": 24394333,
+          "sum_support_size": 513
+        },
+        {
+          "r": 3,
+          "E_r": 458240,
+          "intrinsic": 446720,
+          "extra_relations": 11520,
+          "principal_term": "1073741824/262657",
+          "centered_energy": "119286201856/262657",
+          "centered_numerator": 119286201856,
+          "coset_moment_Q_r": 3727693808,
+          "sum_support_size": 5280
+        },
+        {
+          "r": 4,
+          "E_r": 101211040,
+          "intrinsic": 90889120,
+          "extra_relations": 10321920,
+          "principal_term": "1099511627776/262657",
+          "centered_energy": "25484276505504/262657",
+          "centered_numerator": 25484276505504,
+          "coset_moment_Q_r": 796383640797,
+          "sum_support_size": 36609
+        }
+      ],
+      "nonintrinsic_six_word": {
+        "values": [
+          15531,
+          15531,
+          118090,
+          262656,
+          222204,
+          153959
+        ],
+        "exponents": [
+          17,
+          17,
+          8,
+          16,
+          15,
+          29
+        ],
+        "sum_mod_p": 0,
+        "has_opposite_pair": false,
+        "multiplicities": [
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "p": 6700417,
+      "n": 64,
+      "generator": 1688191,
+      "depth": 3,
+      "in_quartic_window": true,
+      "moments": [
+        {
+          "r": 1,
+          "E_r": 64,
+          "intrinsic": 64,
+          "extra_relations": 0,
+          "principal_term": "4096/6700417",
+          "centered_energy": "428822592/6700417",
+          "centered_numerator": 428822592,
+          "coset_moment_Q_r": 6700353,
+          "sum_support_size": 64
+        },
+        {
+          "r": 2,
+          "E_r": 12864,
+          "intrinsic": 12096,
+          "extra_relations": 768,
+          "principal_term": "16777216/6700417",
+          "centered_energy": "86177387072/6700417",
+          "centered_numerator": 86177387072,
+          "coset_moment_Q_r": 1346521673,
+          "sum_support_size": 1921
+        },
+        {
+          "r": 3,
+          "E_r": 4816960,
+          "intrinsic": 3750400,
+          "extra_relations": 1066560,
+          "principal_term": "68719476736/6700417",
+          "centered_energy": "32206921195584/6700417",
+          "centered_numerator": 32206921195584,
+          "coset_moment_Q_r": 503233143681,
+          "sum_support_size": 34177
+        }
+      ],
+      "nonintrinsic_six_word": null
+    }
+  ],
+  "norm_budget_certificates": [
+    {
+      "n": 4,
+      "word_order": 6,
+      "normalized_tuples": 1024,
+      "intrinsic_count": 400,
+      "nonintrinsic_normalized_tuples": 924,
+      "norm_product_bits": 2127,
+      "AM_GM_integer_comparison_passed": true,
+      "prime_nullity_and_divisibility_checks": [
+        5,
+        13,
+        17,
+        73
+      ]
+    },
+    {
+      "n": 8,
+      "word_order": 6,
+      "normalized_tuples": 32768,
+      "intrinsic_count": 5120,
+      "nonintrinsic_normalized_tuples": 32128,
+      "norm_product_bits": 125020,
+      "AM_GM_integer_comparison_passed": true,
+      "prime_nullity_and_divisibility_checks": [
+        17,
+        41,
+        1153,
+        2017
+      ]
+    },
+    {
+      "n": 4,
+      "word_order": 8,
+      "normalized_tuples": 16384,
+      "intrinsic_count": 4900,
+      "nonintrinsic_normalized_tuples": 15159,
+      "norm_product_bits": 39584,
+      "AM_GM_integer_comparison_passed": true,
+      "prime_nullity_and_divisibility_checks": [
+        5,
+        13,
+        17,
+        73
+      ]
+    }
+  ],
+  "rational_selection_certificates": [
+    {
+      "mean": "1/2",
+      "dyadic_level": "1",
+      "input_count": 2,
+      "selected_count": 1,
+      "interval_count_bound": 3
+    },
+    {
+      "mean": "1/2",
+      "dyadic_level": "1",
+      "input_count": 17,
+      "selected_count": 8,
+      "interval_count_bound": 3
+    },
+    {
+      "mean": "219902325555/4398046511104",
+      "dyadic_level": "1",
+      "input_count": 40,
+      "selected_count": 1,
+      "interval_count_bound": 7
+    },
+    {
+      "mean": "1/120892581961462917470617600",
+      "dyadic_level": "1/1208925819614629174706176",
+      "input_count": 100,
+      "selected_count": 1,
+      "interval_count_bound": 89
+    },
+    {
+      "mean": "89/240",
+      "dyadic_level": "1/2",
+      "input_count": 16,
+      "selected_count": 16,
+      "interval_count_bound": 4
+    }
+  ],
+  "exponent_ledger": {
+    "deletion_support_exponents": {
+      "X": "11/4",
+      "Y": "9/4",
+      "Z": "1/2"
+    },
+    "delta_power": 72,
+    "log_denominator_power": 5,
+    "amplitude_exponent": "23/24",
+    "amplitude_log_exponent": "7/72",
+    "higher_centered_moment_bounds": [
+      {
+        "r": 3,
+        "centered_exponent": "3",
+        "log_exponent": "1",
+        "raw_norm_average_exponent": 3
+      },
+      {
+        "r": 4,
+        "centered_exponent": "59/12",
+        "log_exponent": "43/36",
+        "raw_norm_average_exponent": 5
+      },
+      {
+        "r": 5,
+        "centered_exponent": "41/6",
+        "log_exponent": "25/18",
+        "raw_norm_average_exponent": 7
+      },
+      {
+        "r": 6,
+        "centered_exponent": "35/4",
+        "log_exponent": "19/12",
+        "raw_norm_average_exponent": 9
+      },
+      {
+        "r": 7,
+        "centered_exponent": "32/3",
+        "log_exponent": "16/9",
+        "raw_norm_average_exponent": 11
+      },
+      {
+        "r": 8,
+        "centered_exponent": "151/12",
+        "log_exponent": "71/36",
+        "raw_norm_average_exponent": 13
+      },
+      {
+        "r": 9,
+        "centered_exponent": "29/2",
+        "log_exponent": "13/6",
+        "raw_norm_average_exponent": 15
+      },
+      {
+        "r": 10,
+        "centered_exponent": "197/12",
+        "log_exponent": "85/36",
+        "raw_norm_average_exponent": 17
+      },
+      {
+        "r": 11,
+        "centered_exponent": "55/3",
+        "log_exponent": "23/9",
+        "raw_norm_average_exponent": 19
+      },
+      {
+        "r": 12,
+        "centered_exponent": "81/4",
+        "log_exponent": "11/4",
+        "raw_norm_average_exponent": 21
+      },
+      {
+        "r": 13,
+        "centered_exponent": "133/6",
+        "log_exponent": "53/18",
+        "raw_norm_average_exponent": 23
+      },
+      {
+        "r": 14,
+        "centered_exponent": "289/12",
+        "log_exponent": "113/36",
+        "raw_norm_average_exponent": 25
+      },
+      {
+        "r": 15,
+        "centered_exponent": "26",
+        "log_exponent": "10/3",
+        "raw_norm_average_exponent": 27
+      },
+      {
+        "r": 16,
+        "centered_exponent": "335/12",
+        "log_exponent": "127/36",
+        "raw_norm_average_exponent": 29
+      }
+    ],
+    "all_level_cube_sum_checked_through_m": 32
+  }
+}

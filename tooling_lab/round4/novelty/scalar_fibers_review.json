@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "date": "2026-09-05",
+  "complete_polynomial_scalar_comparisons": 1700,
+  "complete_nodes_compared": 4400,
+  "whole_field_cases": 904,
+  "entire_pencil_in_code_cases": 486,
+  "complete_static_checks": 108,
+  "strict_cap_rejections": 54,
+  "exhaustive_anchor_pencils": 729,
+  "independent_GF9_pencils": 40,
+  "mutations_rejected": [
+    "missing_nonanchor_fiber",
+    "false_scalar_domain",
+    "false_node_count",
+    "duplicated_partition_coordinate",
+    "false_support"
+  ],
+  "saved_certificate_readbacks": [
+    {
+      "q": 9,
+      "n": 8,
+      "all_symbolic_fibers_verified": true,
+      "complete_static_list_size": 2,
+      "symbolic_node_count": 17
+    },
+    {
+      "q": 65537,
+      "n": 48,
+      "all_symbolic_fibers_verified": true,
+      "complete_static_list_size": 0,
+      "symbolic_node_count": 1
+    },
+    {
+      "q": 65537,
+      "n": 48,
+      "all_symbolic_fibers_verified": true,
+      "complete_static_list_size": 0,
+      "symbolic_node_count": 1
+    },
+    {
+      "q": 65537,
+      "n": 128,
+      "all_symbolic_fibers_verified": true,
+      "complete_static_list_size": 0,
+      "symbolic_node_count": 1
+    },
+    {
+      "q": 65537,
+      "n": 1024,
+      "all_symbolic_fibers_verified": true,
+      "complete_static_list_size": 0,
+      "symbolic_node_count": 1
+    },
+    {
+      "q": 65537,
+      "n": 1024,
+      "all_symbolic_fibers_verified": true,
+      "complete_static_list_size": 2,
+      "symbolic_node_count": 131073
+    }
+  ],
+  "candidate_sha256": "42792a1315c9aafdd34de92bd52258fd62cad5495d3584b78bf2d2ac047a5353",
+  "results_sha256": "cb9256d03d5a394d168a0e2a8cb840e9c18bca6c61d7f3e2bfc7d80fddb82341",
+  "reviewer_sha256": "aaaba46424f992603cc0cfffee95a3a49a2e7a9ad87320730a36a6bfab6d3aba",
+  "independent_field_oracle_sha256": "26102694466e0268a67f27e40b5f017bfb075bab1dba5f4c732ae35128568607",
+  "scope": "New tiny oracles use independent field arithmetic and enumerate all polynomials/scalars. Large saved readbacks share candidate helpers and certify supplied pieces; no piece discovery claim."
+}

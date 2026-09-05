@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-09-05T20:27:38.364323+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 11090,
+      "sha256": "f70dd98e288a6c769bd1f5062533000f79a115bd7b9a43fd99347fa9fe5ce868"
+    },
+    {
+      "path": "all_n_validation.json",
+      "bytes": 14606,
+      "sha256": "820825c79c936dba263d6dab9cbc1cdb410eaea4da11a0f602ea293df9622443"
+    },
+    {
+      "path": "closed_coefficient.py",
+      "bytes": 785,
+      "sha256": "43eab04d8581a157a1cdcc38b4649eb621330cc052909de4555a688ab576bca0"
+    },
+    {
+      "path": "coefficient_polynomial.py",
+      "bytes": 2110,
+      "sha256": "2beade4cfb03cdae74c41a90c2a14246758763cc7c13eab4fce24ac0ca522ea9"
+    },
+    {
+      "path": "coefficient_sensitivity.png",
+      "bytes": 165040,
+      "sha256": "fb726ae0bdbc1c281d0b80dde6e5aa0da7fb6253139f3c05bc0a6ea4688a14ce"
+    },
+    {
+      "path": "coefficient_sensitivity.svg",
+      "bytes": 106870,
+      "sha256": "87c59bd478eee5c058bd89bb692edf16553e680669c5c0a5f420fbcd2a365e7b"
+    },
+    {
+      "path": "fixed_q_polynomials.json",
+      "bytes": 4753,
+      "sha256": "10cde61da3220981a074474fc66995971dd0ffb7c6e5b213e1d8f8df35e31ee5"
+    },
+    {
+      "path": "plot_metadata.json",
+      "bytes": 515,
+      "sha256": "ec10e92add9a25024669bcee0f679e4eb21ced8b17bdf04730bb0347a9e55701"
+    },
+    {
+      "path": "plot_sensitivity.py",
+      "bytes": 3121,
+      "sha256": "5db870e5931d471b61db93c5317f1b18b7457cfd564fea0a45110039562ca6d3"
+    },
+    {
+      "path": "sensitivity.json",
+      "bytes": 2230,
+      "sha256": "0c9305683009c3ad622fd9111b9cf654e89d920d8bba94a805451f50c7aa2f03"
+    },
+    {
+      "path": "sensitivity.py",
+      "bytes": 3781,
+      "sha256": "c693fefe2749d5f2a23cbce2298ca96ebdcd1eba5d57a48986cb8e06980be972"
+    },
+    {
+      "path": "symbolic_formula.json",
+      "bytes": 5865,
+      "sha256": "1b47ccbc6bbf049034571ab8fd55d8fbc3dcee42b510f2758961e23980e04750"
+    },
+    {
+      "path": "symbolic_formula.py",
+      "bytes": 4117,
+      "sha256": "177775bbebab00c14423be5808d99b10c424d1d7064c95b1721c2388a76e1b13"
+    },
+    {
+      "path": "verify_all_n.py",
+      "bytes": 3257,
+      "sha256": "9d5b8098024db19e5da3219efd6b0ce4dee648be742b961afc459c7a6c4244b5"
+    }
+  ],
+  "total_bytes": 328140
+}

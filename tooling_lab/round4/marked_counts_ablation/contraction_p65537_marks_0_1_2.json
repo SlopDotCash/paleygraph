@@ -1,0 +1,405 @@
+{
+  "p": 65537,
+  "marks": [
+    0,
+    1,
+    2
+  ],
+  "Q": 196626,
+  "cells": [
+    {
+      "pattern": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        -1,
+        -1,
+        1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        -1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        -1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        1,
+        0,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        -1
+      ],
+      "size": 8192
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        0
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        1
+      ],
+      "size": 8190
+    }
+  ],
+  "sampled_convolution_rows": [
+    {
+      "x": 0,
+      "value": -2
+    },
+    {
+      "x": 1,
+      "value": -2
+    },
+    {
+      "x": 2,
+      "value": -2
+    },
+    {
+      "x": 2570,
+      "value": -447
+    },
+    {
+      "x": 3472,
+      "value": -211
+    },
+    {
+      "x": 6800,
+      "value": 197
+    },
+    {
+      "x": 11685,
+      "value": -319
+    },
+    {
+      "x": 15690,
+      "value": 321
+    },
+    {
+      "x": 20132,
+      "value": -203
+    },
+    {
+      "x": 21134,
+      "value": 29
+    },
+    {
+      "x": 21435,
+      "value": -263
+    },
+    {
+      "x": 22732,
+      "value": -103
+    },
+    {
+      "x": 23393,
+      "value": 49
+    },
+    {
+      "x": 24198,
+      "value": -255
+    },
+    {
+      "x": 28393,
+      "value": 157
+    },
+    {
+      "x": 33530,
+      "value": 325
+    },
+    {
+      "x": 35715,
+      "value": 77
+    },
+    {
+      "x": 37234,
+      "value": -319
+    },
+    {
+      "x": 38500,
+      "value": -175
+    },
+    {
+      "x": 41506,
+      "value": -103
+    },
+    {
+      "x": 43154,
+      "value": -219
+    },
+    {
+      "x": 43547,
+      "value": 433
+    },
+    {
+      "x": 49782,
+      "value": 445
+    },
+    {
+      "x": 49916,
+      "value": -7
+    },
+    {
+      "x": 50890,
+      "value": 209
+    },
+    {
+      "x": 51534,
+      "value": -103
+    },
+    {
+      "x": 54192,
+      "value": 449
+    },
+    {
+      "x": 55310,
+      "value": 53
+    },
+    {
+      "x": 56519,
+      "value": -179
+    },
+    {
+      "x": 60128,
+      "value": -423
+    },
+    {
+      "x": 60754,
+      "value": -115
+    },
+    {
+      "x": 63410,
+      "value": 153
+    },
+    {
+      "x": 65536,
+      "value": 125
+    }
+  ],
+  "metadata": {
+    "ntt_modulus": 998244353,
+    "ntt_length": 262144,
+    "transforms": 3,
+    "h3_l1": 65534,
+    "h2_l1": 98298,
+    "integer_recovery_margin": 998113285,
+    "Q_absolute_bound": 6441861132,
+    "backend_seconds": 0.213415
+  },
+  "reduced_moments": [
+    {
+      "q": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 6,
+      "cell_only_term": [
+        59111550165618371,
+        902039499067
+      ],
+      "Q": 196626,
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "mean": [
+        -65531,
+        11726513487871
+      ],
+      "second_moment": [
+        59111550165618371,
+        902039499067
+      ],
+      "variance": [
+        9011241073979131928465108303872,
+        137511118581220485664112641
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 0,
+      "uneliminated_ordered_walsh_terms": 0
+    },
+    {
+      "q": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 7,
+      "degree": 6,
+      "cell_only_term": [
+        352464266179862785971773,
+        768450155373674501
+      ],
+      "Q": 196626,
+      "Q_coefficient": [
+        -3448,
+        40444745019667079
+      ],
+      "mean": [
+        -25228787887,
+        768450155373674501
+      ],
+      "second_moment": [
+        352464266179849904609261,
+        768450155373674501
+      ],
+      "variance": [
+        270851220109573825858171927506970966228992,
+        590515641293824481565627942697599001
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 24,
+      "uneliminated_ordered_walsh_terms": 6
+    },
+    {
+      "q": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "cell_only_term": [
+        9237917336810510972189223872,
+        5035653868163689005053
+      ],
+      "Q": 196626,
+      "Q_coefficient": [
+        -2145976568,
+        5035653868163689005053
+      ],
+      "mean": [
+        -13036093540,
+        109778593624810643
+      ],
+      "second_moment": [
+        9237917336810089017400564304,
+        5035653868163689005053
+      ],
+      "variance": [
+        1014125573257267751720350448974169163926863872,
+        552806999628347403957079986928195179079
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6
+    },
+    {
+      "q": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 31,
+      "degree": 6,
+      "cell_only_term": [
+        20065997448338005002436598031538322125127946807639871559,
+        416836040527380470073703761321784240573191567
+      ],
+      "Q": 196626,
+      "Q_coefficient": [
+        -23235217174886297803310363280389984,
+        13446323887980015163667863268444652921715857
+      ],
+      "mean": [
+        -52844783730302417,
+        20494818979031956197
+      ],
+      "second_moment": [
+        20065997448337863374354418926549374040319745338849058055,
+        416836040527380470073703761321784240573191567
+      ],
+      "variance": [
+        411248985337401590459484859242641690388639085683961156672868051596141920256,
+        8542979194545090921848278330557017661758988283537602395633790699
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6
+    }
+  ],
+  "validation": {
+    "Q_from_full_exact_relations": 196626,
+    "relation_Q_matched": true,
+    "direct_rows": 33,
+    "direct_integer_terms": 2162721,
+    "full_independent_direct_Q": false,
+    "all_character_values_checked_by_Euler_criterion": 65537
+  },
+  "provenance": {
+    "input_file": "marked_counts/counts_p65537_marks_0_1_2.json",
+    "input_sha256": "b50c4b9903944cdfa936b730c0fd98da64d6f7ea3a12f25c120d6c366e0e7dab",
+    "cpp_sha256": "73478bb4b272ff6826fd6e8b7213503fdf88e44b05428008c938e7c8841707d5",
+    "header_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "binary_sha256": "cf1ee8e6fdacc6b3accfb0352053b50632390c9489f283b8b556826c101e1090",
+    "verifier_sha256": "f3564cb52dcc1f40224564606b2b3869688e8357f167a7101b74f5c53680de37",
+    "reduction_source_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+    "conditional_compiler_source_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "wall_including_independent_validation_seconds": 2.521000708991778,
+    "runner_lifetime_max_child_rss_bytes": 38109184
+  }
+}

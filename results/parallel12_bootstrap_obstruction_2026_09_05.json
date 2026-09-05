@@ -1,0 +1,622 @@
+{
+  "status": "Exact finite checks passed; an elementary obstruction to a projection-only bootstrap, not a new asymptotic Paley upper bound.",
+  "arithmetic": "Integer, rational, and exact quadratic-field arithmetic. Numerical discovery is not an acceptance condition.",
+  "projection_countermodels": [
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        4,
+        10
+      ],
+      "endpoint": 0,
+      "planted_support": [
+        4,
+        10
+      ],
+      "q": [
+        "1",
+        "1/13"
+      ],
+      "rank": 6,
+      "projection_and_character_square_identities": true,
+      "anchor_column_checks": 26,
+      "alphabet_defect": {
+        "diagonal": [
+          "-1/2",
+          "-1/2"
+        ],
+        "off_diagonal": [
+          "-1/2",
+          "1/2"
+        ],
+        "difference": [
+          "0",
+          "-1"
+        ]
+      },
+      "depth": 6,
+      "power_trace_checks": 12,
+      "power_norm_checks": 6,
+      "energy_recurrences": 6,
+      "planted_power_checks": 6,
+      "word_trace_checks": 39,
+      "energies": [
+        {
+          "j": 1,
+          "energy": [
+            "29/3",
+            "0"
+          ],
+          "power_difference_norm_squared": [
+            "20/3",
+            "20/39"
+          ]
+        },
+        {
+          "j": 2,
+          "energy": [
+            "6503/507",
+            "256/1521"
+          ],
+          "power_difference_norm_squared": [
+            "640/39",
+            "0"
+          ]
+        },
+        {
+          "j": 3,
+          "energy": [
+            "7694255/257049",
+            "-120320/771147"
+          ],
+          "power_difference_norm_squared": [
+            "134612/4563",
+            "-12508/4563"
+          ]
+        },
+        {
+          "j": 4,
+          "energy": [
+            "10946590775/130323843",
+            "51241984/390971529"
+          ],
+          "power_difference_norm_squared": [
+            "4893184/59319",
+            "0"
+          ]
+        },
+        {
+          "j": 5,
+          "energy": [
+            "16259819185919/66074188401",
+            "14722092544/198222565203"
+          ],
+          "power_difference_norm_squared": [
+            "1700443796/6940323",
+            "4581236/533871"
+          ]
+        },
+        {
+          "j": 6,
+          "energy": [
+            "24501744152820743/33499613519307",
+            "-10862099760896/100498840557921"
+          ],
+          "power_difference_norm_squared": [
+            "63473796736/90224199",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        4,
+        10
+      ],
+      "endpoint": 1,
+      "planted_support": [
+        4,
+        10
+      ],
+      "q": [
+        "1",
+        "1/13"
+      ],
+      "rank": 6,
+      "projection_and_character_square_identities": true,
+      "anchor_column_checks": 26,
+      "alphabet_defect": {
+        "diagonal": [
+          "-1/2",
+          "1/2"
+        ],
+        "off_diagonal": [
+          "-1/2",
+          "-1/2"
+        ],
+        "difference": [
+          "0",
+          "1"
+        ]
+      },
+      "depth": 6,
+      "power_trace_checks": 12,
+      "power_norm_checks": 6,
+      "energy_recurrences": 6,
+      "planted_power_checks": 6,
+      "word_trace_checks": 39,
+      "energies": [
+        {
+          "j": 1,
+          "energy": [
+            "29/3",
+            "0"
+          ],
+          "power_difference_norm_squared": [
+            "20/3",
+            "-20/39"
+          ]
+        },
+        {
+          "j": 2,
+          "energy": [
+            "6503/507",
+            "256/1521"
+          ],
+          "power_difference_norm_squared": [
+            "640/39",
+            "0"
+          ]
+        },
+        {
+          "j": 3,
+          "energy": [
+            "7694255/257049",
+            "-120320/771147"
+          ],
+          "power_difference_norm_squared": [
+            "134612/4563",
+            "12508/4563"
+          ]
+        },
+        {
+          "j": 4,
+          "energy": [
+            "10946590775/130323843",
+            "51241984/390971529"
+          ],
+          "power_difference_norm_squared": [
+            "4893184/59319",
+            "0"
+          ]
+        },
+        {
+          "j": 5,
+          "energy": [
+            "16259819185919/66074188401",
+            "14722092544/198222565203"
+          ],
+          "power_difference_norm_squared": [
+            "1700443796/6940323",
+            "-4581236/533871"
+          ]
+        },
+        {
+          "j": 6,
+          "energy": [
+            "24501744152820743/33499613519307",
+            "-10862099760896/100498840557921"
+          ],
+          "power_difference_norm_squared": [
+            "63473796736/90224199",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        2,
+        9,
+        16
+      ],
+      "endpoint": 0,
+      "planted_support": [
+        2,
+        9
+      ],
+      "q": [
+        "1",
+        "1/17"
+      ],
+      "rank": 8,
+      "projection_and_character_square_identities": true,
+      "anchor_column_checks": 34,
+      "alphabet_defect": {
+        "diagonal": [
+          "-1/2",
+          "-1/2"
+        ],
+        "off_diagonal": [
+          "-1/2",
+          "1/2"
+        ],
+        "difference": [
+          "0",
+          "-1"
+        ]
+      },
+      "depth": 3,
+      "power_trace_checks": 6,
+      "power_norm_checks": 3,
+      "energy_recurrences": 3,
+      "planted_power_checks": 3,
+      "word_trace_checks": 0,
+      "energies": [
+        {
+          "j": 1,
+          "energy": [
+            "41/3",
+            "0"
+          ],
+          "power_difference_norm_squared": [
+            "20/3",
+            "20/51"
+          ]
+        },
+        {
+          "j": 2,
+          "energy": [
+            "43297/2601",
+            "256/867"
+          ],
+          "power_difference_norm_squared": [
+            "2560/153",
+            "0"
+          ]
+        },
+        {
+          "j": 3,
+          "energy": [
+            "75365081/2255067",
+            "186880/751689"
+          ],
+          "power_difference_norm_squared": [
+            "231476/7803",
+            "-17164/7803"
+          ]
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        2,
+        9,
+        16
+      ],
+      "endpoint": 1,
+      "planted_support": [
+        2,
+        9
+      ],
+      "q": [
+        "1",
+        "1/17"
+      ],
+      "rank": 8,
+      "projection_and_character_square_identities": true,
+      "anchor_column_checks": 34,
+      "alphabet_defect": {
+        "diagonal": [
+          "-1/2",
+          "1/2"
+        ],
+        "off_diagonal": [
+          "-1/2",
+          "-1/2"
+        ],
+        "difference": [
+          "0",
+          "1"
+        ]
+      },
+      "depth": 3,
+      "power_trace_checks": 6,
+      "power_norm_checks": 3,
+      "energy_recurrences": 3,
+      "planted_power_checks": 3,
+      "word_trace_checks": 0,
+      "energies": [
+        {
+          "j": 1,
+          "energy": [
+            "41/3",
+            "0"
+          ],
+          "power_difference_norm_squared": [
+            "20/3",
+            "-20/51"
+          ]
+        },
+        {
+          "j": 2,
+          "energy": [
+            "43297/2601",
+            "256/867"
+          ],
+          "power_difference_norm_squared": [
+            "2560/153",
+            "0"
+          ]
+        },
+        {
+          "j": 3,
+          "energy": [
+            "75365081/2255067",
+            "186880/751689"
+          ],
+          "power_difference_norm_squared": [
+            "231476/7803",
+            "17164/7803"
+          ]
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0,
+        1,
+        2
+      ],
+      "cell": [
+        10,
+        33
+      ],
+      "endpoint": 0,
+      "planted_support": [
+        10,
+        33
+      ],
+      "q": [
+        "1",
+        "-1/41"
+      ],
+      "rank": 20,
+      "projection_and_character_square_identities": true,
+      "anchor_column_checks": 123,
+      "alphabet_defect": {
+        "diagonal": [
+          "1/2",
+          "-1/2"
+        ],
+        "off_diagonal": [
+          "1/2",
+          "1/2"
+        ],
+        "difference": [
+          "0",
+          "-1"
+        ]
+      },
+      "depth": 2,
+      "power_trace_checks": 4,
+      "power_norm_checks": 2,
+      "energy_recurrences": 2,
+      "planted_power_checks": 2,
+      "word_trace_checks": 0,
+      "energies": [
+        {
+          "j": 1,
+          "energy": [
+            "137/7",
+            "0"
+          ],
+          "power_difference_norm_squared": [
+            "100/7",
+            "-100/287"
+          ]
+        },
+        {
+          "j": 2,
+          "energy": [
+            "4368377/82369",
+            "-9216/82369"
+          ],
+          "power_difference_norm_squared": [
+            "128000/2009",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0,
+        1,
+        2
+      ],
+      "cell": [
+        10,
+        33
+      ],
+      "endpoint": 1,
+      "planted_support": [
+        10,
+        33
+      ],
+      "q": [
+        "1",
+        "-1/41"
+      ],
+      "rank": 20,
+      "projection_and_character_square_identities": true,
+      "anchor_column_checks": 123,
+      "alphabet_defect": {
+        "diagonal": [
+          "1/2",
+          "1/2"
+        ],
+        "off_diagonal": [
+          "1/2",
+          "-1/2"
+        ],
+        "difference": [
+          "0",
+          "1"
+        ]
+      },
+      "depth": 2,
+      "power_trace_checks": 4,
+      "power_norm_checks": 2,
+      "energy_recurrences": 2,
+      "planted_power_checks": 2,
+      "word_trace_checks": 0,
+      "energies": [
+        {
+          "j": 1,
+          "energy": [
+            "137/7",
+            "0"
+          ],
+          "power_difference_norm_squared": [
+            "100/7",
+            "100/287"
+          ]
+        },
+        {
+          "j": 2,
+          "energy": [
+            "4368377/82369",
+            "-9216/82369"
+          ],
+          "power_difference_norm_squared": [
+            "128000/2009",
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "finite_paley_certificate": {
+    "p": 257,
+    "anchors": [
+      0,
+      1,
+      62
+    ],
+    "cell": [
+      2,
+      16,
+      18,
+      26,
+      30,
+      31,
+      32,
+      36,
+      58,
+      60,
+      61,
+      73,
+      114,
+      121,
+      122,
+      123,
+      124,
+      129,
+      134,
+      135,
+      141,
+      185,
+      190,
+      196,
+      197,
+      198,
+      199,
+      208,
+      227,
+      235,
+      240,
+      249
+    ],
+    "integer_vector": [
+      -1,
+      1,
+      -3,
+      3,
+      -3,
+      1,
+      3,
+      -1,
+      -1,
+      1,
+      -1,
+      -3,
+      -3,
+      -3,
+      3,
+      2,
+      -2,
+      2,
+      1,
+      1,
+      2,
+      -3,
+      -2,
+      1,
+      -1,
+      3,
+      -2,
+      2,
+      -1,
+      3,
+      -2,
+      3
+    ],
+    "squared_norm": 152,
+    "character_quadratic_form": -1624,
+    "coordinate_sum": 0,
+    "normalized_rayleigh_quotient": "-812/(19 sqrt(1799))",
+    "edge_square_margin": 9905,
+    "hyperbolic_threshold": "145/144 = (9/8 + 8/9)/2",
+    "growth_square_margin": 17702209,
+    "consequence": "The actual finite T has spectral radius >9/8, hence H_j>(81/64)^j for every j>=1.",
+    "scope": "One finite prime. This does not refute asymptotic spectral-edge convergence or the Paley conjecture."
+  },
+  "totals": {
+    "anchor_column_checks": 366,
+    "power_trace_checks": 44,
+    "power_norm_checks": 22,
+    "energy_recurrences": 22,
+    "planted_power_checks": 22,
+    "word_trace_checks": 78,
+    "projection_countermodels": 6
+  },
+  "input_sha256": {
+    "research/parallel12-bootstrap-obstruction-2026-09-05.md": "9322aa6282fafa25e142193f05a0be2ac824c58d6a2e8511da4eb87195ad410d",
+    "experiments/parallel12_bootstrap_obstruction_2026_09_05.py": "84afa3dec825febd81c0aaef235120f4af868ec07bc7b152755139f319ce0687",
+    "research/parallel11-full-energy-2026-09-05.md": "d0bd223ef44dde0875437ab32bfc46efb4ef2a59213b5e303418f8bad664197a",
+    "research/parallel2-spectral-transfer-2026-09-04.md": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3"
+  }
+}

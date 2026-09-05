@@ -1,0 +1,759 @@
+{
+  "status": "all exact symbolic and every-cardinality coefficient checks passed",
+  "cases": [
+    {
+      "q": 17,
+      "all_n_from": 6,
+      "all_n_through": 17,
+      "exact_compiler_comparisons": 12,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        17
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        14,
+        15,
+        16,
+        17
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 6,
+          "sign": 0
+        },
+        {
+          "from_n": 7,
+          "through_n": 7,
+          "sign": 1
+        },
+        {
+          "from_n": 8,
+          "through_n": 10,
+          "sign": -1
+        },
+        {
+          "from_n": 11,
+          "through_n": 13,
+          "sign": 1
+        },
+        {
+          "from_n": 14,
+          "through_n": 17,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              626376,
+              134699
+            ],
+            [
+              455435,
+              97939
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 7.650190424614179
+        },
+        {
+          "r_interval": [
+            [
+              1783462,
+              241041
+            ],
+            [
+              342803,
+              46331
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 10.398998510671595
+        }
+      ],
+      "quartic_degree": 4,
+      "c_degree_in_r": 12,
+      "seconds": 6.005674416999682
+    },
+    {
+      "q": 21,
+      "all_n_from": 6,
+      "all_n_through": 21,
+      "exact_compiler_comparisons": 16,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        10,
+        17,
+        18,
+        21
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 6,
+          "sign": 0
+        },
+        {
+          "from_n": 7,
+          "through_n": 8,
+          "sign": 1
+        },
+        {
+          "from_n": 9,
+          "through_n": 12,
+          "sign": -1
+        },
+        {
+          "from_n": 13,
+          "through_n": 17,
+          "sign": 1
+        },
+        {
+          "from_n": 18,
+          "through_n": 21,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 5.0
+        },
+        {
+          "r_interval": [
+            [
+              1393730,
+              234853
+            ],
+            [
+              271627,
+              45771
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 8.934478162982478
+        },
+        {
+          "r_interval": [
+            [
+              1137884,
+              115927
+            ],
+            [
+              1616587,
+              164697
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 12.815521837044312
+        }
+      ],
+      "quartic_degree": 3,
+      "c_degree_in_r": 11,
+      "seconds": 7.457635458005825
+    },
+    {
+      "q": 25,
+      "all_n_from": 6,
+      "all_n_through": 25,
+      "exact_compiler_comparisons": 20,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        12,
+        21,
+        22,
+        25
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        7,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 7,
+          "sign": 0
+        },
+        {
+          "from_n": 8,
+          "through_n": 10,
+          "sign": 1
+        },
+        {
+          "from_n": 11,
+          "through_n": 15,
+          "sign": -1
+        },
+        {
+          "from_n": 16,
+          "through_n": 21,
+          "sign": 1
+        },
+        {
+          "from_n": 22,
+          "through_n": 25,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              -9053191,
+              159627
+            ],
+            [
+              -5176347,
+              91270
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": -53.714659800625974
+        },
+        {
+          "r_interval": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 7.0
+        },
+        {
+          "r_interval": [
+            [
+              1479373,
+              194434
+            ],
+            [
+              638005,
+              83853
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 10.608612691226652
+        },
+        {
+          "r_interval": [
+            [
+              829010,
+              68479
+            ],
+            [
+              1902659,
+              157166
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 15.106047109379245
+        }
+      ],
+      "quartic_degree": 4,
+      "c_degree_in_r": 12,
+      "seconds": 6.61687458299275
+    },
+    {
+      "q": 29,
+      "all_n_from": 6,
+      "all_n_through": 29,
+      "exact_compiler_comparisons": 24,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        14,
+        25,
+        26,
+        29
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        26,
+        27,
+        28,
+        29
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 6,
+          "sign": 0
+        },
+        {
+          "from_n": 7,
+          "through_n": 7,
+          "sign": -1
+        },
+        {
+          "from_n": 8,
+          "through_n": 12,
+          "sign": 1
+        },
+        {
+          "from_n": 13,
+          "through_n": 17,
+          "sign": -1
+        },
+        {
+          "from_n": 18,
+          "through_n": 25,
+          "sign": 1
+        },
+        {
+          "from_n": 26,
+          "through_n": 29,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              -4440804,
+              132055
+            ],
+            [
+              -2783897,
+              82784
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": -30.62844269428617
+        },
+        {
+          "r_interval": [
+            [
+              998051,
+              204861
+            ],
+            [
+              935516,
+              192025
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 7.871844811860743
+        },
+        {
+          "r_interval": [
+            [
+              15512180,
+              1648833
+            ],
+            [
+              118437,
+              12589
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 12.407975216434725
+        },
+        {
+          "r_interval": [
+            [
+              776117,
+              54090
+            ],
+            [
+              2661196,
+              185467
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 17.348622665977
+        }
+      ],
+      "quartic_degree": 4,
+      "c_degree_in_r": 12,
+      "seconds": 7.534386250001262
+    },
+    {
+      "q": 49,
+      "all_n_from": 6,
+      "all_n_through": 49,
+      "exact_compiler_comparisons": 44,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        24,
+        45,
+        46,
+        49
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        46,
+        47,
+        48,
+        49
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 6,
+          "sign": 0
+        },
+        {
+          "from_n": 7,
+          "through_n": 10,
+          "sign": -1
+        },
+        {
+          "from_n": 11,
+          "through_n": 21,
+          "sign": 1
+        },
+        {
+          "from_n": 22,
+          "through_n": 28,
+          "sign": -1
+        },
+        {
+          "from_n": 29,
+          "through_n": 45,
+          "sign": 1
+        },
+        {
+          "from_n": 46,
+          "through_n": 49,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              -5411294,
+              267315
+            ],
+            [
+              -1172361,
+              57914
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": -17.24313637465674
+        },
+        {
+          "r_interval": [
+            [
+              761123,
+              103441
+            ],
+            [
+              1312483,
+              178374
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 10.358039848829797
+        },
+        {
+          "r_interval": [
+            [
+              1309920,
+              70363
+            ],
+            [
+              3973267,
+              213426
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 21.61660247576628
+        },
+        {
+          "r_interval": [
+            [
+              1539483,
+              60925
+            ],
+            [
+              6234445,
+              246728
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 28.268494050094812
+        }
+      ],
+      "quartic_degree": 4,
+      "c_degree_in_r": 12,
+      "seconds": 11.024287209002068
+    },
+    {
+      "q": 101,
+      "all_n_from": 6,
+      "all_n_through": 101,
+      "exact_compiler_comparisons": 96,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        50,
+        97,
+        98,
+        101
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        98,
+        99,
+        100,
+        101
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 6,
+          "sign": 0
+        },
+        {
+          "from_n": 7,
+          "through_n": 14,
+          "sign": -1
+        },
+        {
+          "from_n": 15,
+          "through_n": 46,
+          "sign": 1
+        },
+        {
+          "from_n": 47,
+          "through_n": 55,
+          "sign": -1
+        },
+        {
+          "from_n": 56,
+          "through_n": 97,
+          "sign": 1
+        },
+        {
+          "from_n": 98,
+          "through_n": 101,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              -1986287,
+              96484
+            ],
+            [
+              -3963907,
+              192547
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": -17.58669831264669
+        },
+        {
+          "r_interval": [
+            [
+              2431340,
+              210237
+            ],
+            [
+              2878873,
+              248935
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 14.564757868510341
+        },
+        {
+          "r_interval": [
+            [
+              5937205,
+              137833
+            ],
+            [
+              3783782,
+              87841
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 46.075352056515435
+        },
+        {
+          "r_interval": [
+            [
+              4131487,
+              78132
+            ],
+            [
+              18228682,
+              344729
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 55.87829570472342
+        }
+      ],
+      "quartic_degree": 4,
+      "c_degree_in_r": 12,
+      "seconds": 19.229219540997292
+    },
+    {
+      "q": 1297,
+      "all_n_from": 6,
+      "all_n_through": 1297,
+      "exact_compiler_comparisons": 1292,
+      "full_walsh_reconstructions": [
+        6,
+        7,
+        8,
+        648,
+        1293,
+        1294,
+        1297
+      ],
+      "integer_zeros_in_valid_domain": [
+        6,
+        1294,
+        1295,
+        1296,
+        1297
+      ],
+      "sign_intervals": [
+        {
+          "from_n": 6,
+          "through_n": 6,
+          "sign": 0
+        },
+        {
+          "from_n": 7,
+          "through_n": 50,
+          "sign": -1
+        },
+        {
+          "from_n": 51,
+          "through_n": 631,
+          "sign": 1
+        },
+        {
+          "from_n": 632,
+          "through_n": 666,
+          "sign": -1
+        },
+        {
+          "from_n": 667,
+          "through_n": 1293,
+          "sign": 1
+        },
+        {
+          "from_n": 1294,
+          "through_n": 1297,
+          "sign": 0
+        }
+      ],
+      "quartic_real_root_isolations": [
+        {
+          "r_interval": [
+            [
+              -18887240,
+              344049
+            ],
+            [
+              -19054511,
+              347096
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": -51.896947818475155
+        },
+        {
+          "r_interval": [
+            [
+              9391775,
+              196598
+            ],
+            [
+              12568912,
+              263105
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 50.771467664991
+        },
+        {
+          "r_interval": [
+            [
+              86907521,
+              138382
+            ],
+            [
+              60367762,
+              96123
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 631.0261956035121
+        },
+        {
+          "r_interval": [
+            [
+              101014508,
+              152137
+            ],
+            [
+              69917441,
+              105302
+            ]
+          ],
+          "multiplicity": 1,
+          "approx_n": 666.9706843174556
+        }
+      ],
+      "quartic_degree": 4,
+      "c_degree_in_r": 12,
+      "seconds": 87.45703508400766
+    }
+  ],
+  "total_exact_cardinality_checks": 1504,
+  "elapsed_seconds": 146.7365160420013,
+  "source_sha256": "9d5b8098024db19e5da3219efd6b0ce4dee648be742b961afc459c7a6c4244b5",
+  "closed_formula_sha256": "43eab04d8581a157a1cdcc38b4649eb621330cc052909de4555a688ab576bca0",
+  "compiler_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+  "reduction_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b"
+}

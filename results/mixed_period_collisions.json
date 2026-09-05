@@ -1,0 +1,1112 @@
+{
+  "status": "passed; no uniform Paley or prize bound proved",
+  "source_sha256": "9e3a9860feacf3625a4556902072ff36311f5293affdae61a63b55e0f3a02544",
+  "archive_manifest_sha256": "3e718fc9b9690b9c4a8d6047e677777374c5c72f6b475a609827517a3ab611bf",
+  "cases": [
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 2,
+      "quartic_window": false,
+      "shift_energy_without_zero": 169,
+      "trivial_shift_energy": 91,
+      "nontrivial_shift_energy": 78,
+      "row_zero_energy_excess": 12,
+      "row_zero_ordered_triples": 30,
+      "additive_energy": 264,
+      "intersection_cell_size_histogram_above_two": {
+        "3": 1,
+        "4": 3
+      },
+      "all_cells_above_two": [
+        {
+          "coset_power_labels": [
+            1,
+            1
+          ],
+          "size": 3,
+          "members": [
+            1,
+            8,
+            15
+          ]
+        },
+        {
+          "coset_power_labels": [
+            1,
+            16
+          ],
+          "size": 4,
+          "members": [
+            2,
+            4,
+            9,
+            13
+          ]
+        },
+        {
+          "coset_power_labels": [
+            16,
+            1
+          ],
+          "size": 4,
+          "members": [
+            3,
+            7,
+            12,
+            14
+          ]
+        },
+        {
+          "coset_power_labels": [
+            16,
+            16
+          ],
+          "size": 4,
+          "members": [
+            5,
+            6,
+            10,
+            11
+          ]
+        }
+      ],
+      "ordered_triple_sha256": "54616f5ca0ae6b98221dfcf1290afd6f3ba901c6c90e09ff11308500811fdb67",
+      "circularity_certified": false,
+      "independent_full_matrix_audit": {
+        "index": 2,
+        "primitive_root": 3,
+        "matrix_nonzero_cells": 4,
+        "total_entries": 15,
+        "total_ordered_double_collisions": 42,
+        "total_ordered_triple_collisions": 78,
+        "mixed_group_ring_identities_checked": 2,
+        "integer_multiplication_matrix_traces_orders_zero_to_eight": [
+          2,
+          -1,
+          9,
+          -13,
+          49,
+          -101,
+          297,
+          -701,
+          1889
+        ]
+      }
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "generator": 33,
+      "quartic_window": false,
+      "shift_energy_without_zero": 91,
+      "trivial_shift_energy": 91,
+      "nontrivial_shift_energy": 0,
+      "row_zero_energy_excess": 0,
+      "row_zero_ordered_triples": 0,
+      "additive_energy": 168,
+      "intersection_cell_size_histogram_above_two": {},
+      "all_cells_above_two": [],
+      "ordered_triple_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "circularity_certified": true,
+      "independent_full_matrix_audit": {
+        "index": 12,
+        "primitive_root": 5,
+        "matrix_nonzero_cells": 74,
+        "total_entries": 95,
+        "total_ordered_double_collisions": 42,
+        "total_ordered_triple_collisions": 0,
+        "mixed_group_ring_identities_checked": 12,
+        "integer_multiplication_matrix_traces_orders_zero_to_eight": [
+          12,
+          -1,
+          89,
+          -64,
+          1525,
+          -3126,
+          35132,
+          -116159,
+          919645
+        ]
+      }
+    },
+    {
+      "p": 1049,
+      "n": 8,
+      "generator": 223,
+      "quartic_window": true,
+      "shift_energy_without_zero": 91,
+      "trivial_shift_energy": 91,
+      "nontrivial_shift_energy": 0,
+      "row_zero_energy_excess": 0,
+      "row_zero_ordered_triples": 0,
+      "additive_energy": 168,
+      "intersection_cell_size_histogram_above_two": {},
+      "all_cells_above_two": [],
+      "ordered_triple_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "circularity_certified": true,
+      "independent_full_matrix_audit": {
+        "index": 131,
+        "primitive_root": 3,
+        "matrix_nonzero_cells": 1026,
+        "total_entries": 1047,
+        "total_ordered_double_collisions": 42,
+        "total_ordered_triple_collisions": 0,
+        "mixed_group_ring_identities_checked": 131,
+        "integer_multiplication_matrix_traces_orders_zero_to_eight": []
+      }
+    },
+    {
+      "p": 2017,
+      "n": 8,
+      "generator": 438,
+      "quartic_window": true,
+      "shift_energy_without_zero": 91,
+      "trivial_shift_energy": 91,
+      "nontrivial_shift_energy": 0,
+      "row_zero_energy_excess": 0,
+      "row_zero_ordered_triples": 0,
+      "additive_energy": 168,
+      "intersection_cell_size_histogram_above_two": {},
+      "all_cells_above_two": [],
+      "ordered_triple_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "circularity_certified": true,
+      "independent_full_matrix_audit": {
+        "index": 252,
+        "primitive_root": 5,
+        "matrix_nonzero_cells": 1994,
+        "total_entries": 2015,
+        "total_ordered_double_collisions": 42,
+        "total_ordered_triple_collisions": 0,
+        "mixed_group_ring_identities_checked": 252,
+        "integer_multiplication_matrix_traces_orders_zero_to_eight": []
+      }
+    },
+    {
+      "p": 17393,
+      "n": 16,
+      "generator": 2614,
+      "quartic_window": true,
+      "shift_energy_without_zero": 435,
+      "trivial_shift_energy": 435,
+      "nontrivial_shift_energy": 0,
+      "row_zero_energy_excess": 0,
+      "row_zero_ordered_triples": 0,
+      "additive_energy": 720,
+      "intersection_cell_size_histogram_above_two": {},
+      "all_cells_above_two": [],
+      "ordered_triple_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "circularity_certified": true,
+      "independent_full_matrix_audit": {
+        "index": 1087,
+        "primitive_root": 3,
+        "matrix_nonzero_cells": 17286,
+        "total_entries": 17391,
+        "total_ordered_double_collisions": 210,
+        "total_ordered_triple_collisions": 0,
+        "mixed_group_ring_identities_checked": 1087,
+        "integer_multiplication_matrix_traces_orders_zero_to_eight": []
+      }
+    },
+    {
+      "p": 6700417,
+      "n": 64,
+      "generator": 2,
+      "quartic_window": true,
+      "shift_energy_without_zero": 7989,
+      "trivial_shift_energy": 7875,
+      "nontrivial_shift_energy": 114,
+      "row_zero_energy_excess": 12,
+      "row_zero_ordered_triples": 30,
+      "additive_energy": 12864,
+      "intersection_cell_size_histogram_above_two": {
+        "3": 7,
+        "4": 3
+      },
+      "all_cells_above_two": [
+        {
+          "coset_power_labels": [
+            1,
+            1
+          ],
+          "size": 3,
+          "members": [
+            1,
+            3350208,
+            6700415
+          ]
+        },
+        {
+          "coset_power_labels": [
+            1,
+            1107199
+          ],
+          "size": 4,
+          "members": [
+            2,
+            1675104,
+            3350209,
+            6700413
+          ]
+        },
+        {
+          "coset_power_labels": [
+            1107199,
+            1
+          ],
+          "size": 4,
+          "members": [
+            3,
+            3350207,
+            5025312,
+            6700414
+          ]
+        },
+        {
+          "coset_power_labels": [
+            1107199,
+            6634739
+          ],
+          "size": 3,
+          "members": [
+            2512656,
+            3350210,
+            6700411
+          ]
+        },
+        {
+          "coset_power_labels": [
+            3509982,
+            3509982
+          ],
+          "size": 4,
+          "members": [
+            2233471,
+            2233472,
+            4466944,
+            4466945
+          ]
+        },
+        {
+          "coset_power_labels": [
+            3509982,
+            5949506
+          ],
+          "size": 3,
+          "members": [
+            1116736,
+            2233473,
+            4466942
+          ]
+        },
+        {
+          "coset_power_labels": [
+            4867234,
+            5334057
+          ],
+          "size": 3,
+          "members": [
+            1340083,
+            2680167,
+            5360332
+          ]
+        },
+        {
+          "coset_power_labels": [
+            5334057,
+            4867234
+          ],
+          "size": 3,
+          "members": [
+            1340084,
+            4020249,
+            5360333
+          ]
+        },
+        {
+          "coset_power_labels": [
+            5949506,
+            3509982
+          ],
+          "size": 3,
+          "members": [
+            2233474,
+            4466943,
+            5583680
+          ]
+        },
+        {
+          "coset_power_labels": [
+            6634739,
+            1107199
+          ],
+          "size": 3,
+          "members": [
+            5,
+            3350206,
+            4187760
+          ]
+        }
+      ],
+      "ordered_triple_sha256": "75862369c7ef7b50e76e995c979937765f90733d7d5ae4b04e3089cd845846cd",
+      "circularity_certified": false
+    },
+    {
+      "p": 67403009,
+      "n": 128,
+      "generator": 64701253,
+      "quartic_window": true,
+      "shift_energy_without_zero": 32851,
+      "trivial_shift_energy": 32131,
+      "nontrivial_shift_energy": 720,
+      "row_zero_energy_excess": 24,
+      "row_zero_ordered_triples": 72,
+      "additive_energy": 51840,
+      "intersection_cell_size_histogram_above_two": {
+        "3": 36,
+        "4": 21
+      },
+      "all_cells_above_two": [
+        {
+          "coset_power_labels": [
+            1,
+            12400204
+          ],
+          "size": 4,
+          "members": [
+            1074964,
+            27799191,
+            29661515,
+            36372224
+          ]
+        },
+        {
+          "coset_power_labels": [
+            1,
+            29566144
+          ],
+          "size": 4,
+          "members": [
+            1550267,
+            36495965,
+            46248914,
+            52474600
+          ]
+        },
+        {
+          "coset_power_labels": [
+            1,
+            48992547
+          ],
+          "size": 4,
+          "members": [
+            54532226,
+            58895588,
+            61937828,
+            64777777
+          ]
+        },
+        {
+          "coset_power_labels": [
+            760051,
+            6498432
+          ],
+          "size": 4,
+          "members": [
+            15493436,
+            19602843,
+            34881959,
+            41717780
+          ]
+        },
+        {
+          "coset_power_labels": [
+            2573291,
+            2573291
+          ],
+          "size": 4,
+          "members": [
+            4355785,
+            28315501,
+            39087507,
+            63047223
+          ]
+        },
+        {
+          "coset_power_labels": [
+            4396861,
+            55652243
+          ],
+          "size": 3,
+          "members": [
+            3122647,
+            48355719,
+            59081718
+          ]
+        },
+        {
+          "coset_power_labels": [
+            5372484,
+            8576845
+          ],
+          "size": 3,
+          "members": [
+            6114495,
+            8747499,
+            27708611
+          ]
+        },
+        {
+          "coset_power_labels": [
+            6068072,
+            11425592
+          ],
+          "size": 3,
+          "members": [
+            3381795,
+            11746236,
+            19968248
+          ]
+        },
+        {
+          "coset_power_labels": [
+            6068072,
+            63488755
+          ],
+          "size": 3,
+          "members": [
+            22471294,
+            32576164,
+            64021214
+          ]
+        },
+        {
+          "coset_power_labels": [
+            6498432,
+            760051
+          ],
+          "size": 4,
+          "members": [
+            25685228,
+            32521049,
+            47800165,
+            51909572
+          ]
+        },
+        {
+          "coset_power_labels": [
+            7457665,
+            39644623
+          ],
+          "size": 3,
+          "members": [
+            14211835,
+            17447300,
+            32671287
+          ]
+        },
+        {
+          "coset_power_labels": [
+            7457665,
+            55453246
+          ],
+          "size": 3,
+          "members": [
+            16742425,
+            20370716,
+            34731722
+          ]
+        },
+        {
+          "coset_power_labels": [
+            8558134,
+            50983508
+          ],
+          "size": 3,
+          "members": [
+            8776210,
+            16157864,
+            25600358
+          ]
+        },
+        {
+          "coset_power_labels": [
+            8576845,
+            5372484
+          ],
+          "size": 3,
+          "members": [
+            39694397,
+            58655509,
+            61288513
+          ]
+        },
+        {
+          "coset_power_labels": [
+            9362379,
+            18264825
+          ],
+          "size": 3,
+          "members": [
+            23959716,
+            26158871,
+            27514431
+          ]
+        },
+        {
+          "coset_power_labels": [
+            9362379,
+            22311331
+          ],
+          "size": 3,
+          "members": [
+            3439829,
+            11659145,
+            43443293
+          ]
+        },
+        {
+          "coset_power_labels": [
+            9482951,
+            14204762
+          ],
+          "size": 3,
+          "members": [
+            9283634,
+            18739571,
+            35009376
+          ]
+        },
+        {
+          "coset_power_labels": [
+            9482951,
+            23366728
+          ],
+          "size": 3,
+          "members": [
+            301365,
+            37907606,
+            48663438
+          ]
+        },
+        {
+          "coset_power_labels": [
+            11425592,
+            6068072
+          ],
+          "size": 3,
+          "members": [
+            47434760,
+            55656772,
+            64021213
+          ]
+        },
+        {
+          "coset_power_labels": [
+            12400204,
+            1
+          ],
+          "size": 4,
+          "members": [
+            31030784,
+            37741493,
+            39603817,
+            66328044
+          ]
+        },
+        {
+          "coset_power_labels": [
+            13370914,
+            21852155
+          ],
+          "size": 3,
+          "members": [
+            16865284,
+            27187680,
+            31448224
+          ]
+        },
+        {
+          "coset_power_labels": [
+            14204762,
+            9482951
+          ],
+          "size": 3,
+          "members": [
+            32393632,
+            48663437,
+            58119374
+          ]
+        },
+        {
+          "coset_power_labels": [
+            16692062,
+            39277183
+          ],
+          "size": 4,
+          "members": [
+            644236,
+            5438148,
+            38426082,
+            46004539
+          ]
+        },
+        {
+          "coset_power_labels": [
+            17102069,
+            28670940
+          ],
+          "size": 4,
+          "members": [
+            3456286,
+            30255951,
+            56646228,
+            63223556
+          ]
+        },
+        {
+          "coset_power_labels": [
+            18264825,
+            9362379
+          ],
+          "size": 3,
+          "members": [
+            39888577,
+            41244137,
+            43443292
+          ]
+        },
+        {
+          "coset_power_labels": [
+            19501960,
+            21852155
+          ],
+          "size": 3,
+          "members": [
+            1737253,
+            50537723,
+            55073924
+          ]
+        },
+        {
+          "coset_power_labels": [
+            20159508,
+            29568966
+          ],
+          "size": 4,
+          "members": [
+            19468351,
+            47919063,
+            53174716,
+            62870890
+          ]
+        },
+        {
+          "coset_power_labels": [
+            21852155,
+            13370914
+          ],
+          "size": 3,
+          "members": [
+            35954784,
+            40215328,
+            50537724
+          ]
+        },
+        {
+          "coset_power_labels": [
+            21852155,
+            19501960
+          ],
+          "size": 3,
+          "members": [
+            12329084,
+            16865285,
+            65665755
+          ]
+        },
+        {
+          "coset_power_labels": [
+            22311331,
+            9362379
+          ],
+          "size": 3,
+          "members": [
+            23959715,
+            55743863,
+            63963179
+          ]
+        },
+        {
+          "coset_power_labels": [
+            23366728,
+            9482951
+          ],
+          "size": 3,
+          "members": [
+            18739570,
+            29495402,
+            67101643
+          ]
+        },
+        {
+          "coset_power_labels": [
+            25864914,
+            47881931
+          ],
+          "size": 3,
+          "members": [
+            26147399,
+            30931543,
+            54909670
+          ]
+        },
+        {
+          "coset_power_labels": [
+            26189732,
+            26189732
+          ],
+          "size": 4,
+          "members": [
+            3123116,
+            15616454,
+            51786554,
+            64279892
+          ]
+        },
+        {
+          "coset_power_labels": [
+            27729061,
+            33862237
+          ],
+          "size": 3,
+          "members": [
+            257584,
+            1436228,
+            38853397
+          ]
+        },
+        {
+          "coset_power_labels": [
+            28670940,
+            17102069
+          ],
+          "size": 4,
+          "members": [
+            4179452,
+            10756780,
+            37147057,
+            63946722
+          ]
+        },
+        {
+          "coset_power_labels": [
+            29566144,
+            1
+          ],
+          "size": 4,
+          "members": [
+            14928408,
+            21154094,
+            30907043,
+            65852741
+          ]
+        },
+        {
+          "coset_power_labels": [
+            29568966,
+            20159508
+          ],
+          "size": 4,
+          "members": [
+            4532118,
+            14228292,
+            19483945,
+            47934657
+          ]
+        },
+        {
+          "coset_power_labels": [
+            32806438,
+            45462817
+          ],
+          "size": 4,
+          "members": [
+            220349,
+            6021409,
+            53259234,
+            58349523
+          ]
+        },
+        {
+          "coset_power_labels": [
+            33716762,
+            36862089
+          ],
+          "size": 4,
+          "members": [
+            7897541,
+            15299718,
+            30148690,
+            31012559
+          ]
+        },
+        {
+          "coset_power_labels": [
+            33862237,
+            27729061
+          ],
+          "size": 3,
+          "members": [
+            28549611,
+            65966780,
+            67145424
+          ]
+        },
+        {
+          "coset_power_labels": [
+            36862089,
+            33716762
+          ],
+          "size": 4,
+          "members": [
+            36390449,
+            37254318,
+            52103290,
+            59505467
+          ]
+        },
+        {
+          "coset_power_labels": [
+            37556940,
+            47881931
+          ],
+          "size": 3,
+          "members": [
+            12493337,
+            26886465,
+            35741635
+          ]
+        },
+        {
+          "coset_power_labels": [
+            39277183,
+            16692062
+          ],
+          "size": 4,
+          "members": [
+            21398469,
+            28976926,
+            61964860,
+            66758772
+          ]
+        },
+        {
+          "coset_power_labels": [
+            39644623,
+            7457665
+          ],
+          "size": 3,
+          "members": [
+            34731721,
+            49955708,
+            53191173
+          ]
+        },
+        {
+          "coset_power_labels": [
+            43531214,
+            59729156
+          ],
+          "size": 3,
+          "members": [
+            18816146,
+            40722549,
+            46062711
+          ]
+        },
+        {
+          "coset_power_labels": [
+            45462817,
+            32806438
+          ],
+          "size": 4,
+          "members": [
+            9053485,
+            14143774,
+            61381599,
+            67182659
+          ]
+        },
+        {
+          "coset_power_labels": [
+            47881931,
+            25864914
+          ],
+          "size": 3,
+          "members": [
+            12493338,
+            36471465,
+            41255609
+          ]
+        },
+        {
+          "coset_power_labels": [
+            47881931,
+            37556940
+          ],
+          "size": 3,
+          "members": [
+            31661373,
+            40516543,
+            54909671
+          ]
+        },
+        {
+          "coset_power_labels": [
+            48992547,
+            1
+          ],
+          "size": 4,
+          "members": [
+            2625231,
+            5465180,
+            8507420,
+            12870782
+          ]
+        },
+        {
+          "coset_power_labels": [
+            49891729,
+            49891729
+          ],
+          "size": 4,
+          "members": [
+            23577964,
+            26959759,
+            40443249,
+            43825044
+          ]
+        },
+        {
+          "coset_power_labels": [
+            50530209,
+            61336514
+          ],
+          "size": 3,
+          "members": [
+            7168037,
+            56049958,
+            63657086
+          ]
+        },
+        {
+          "coset_power_labels": [
+            50983508,
+            8558134
+          ],
+          "size": 3,
+          "members": [
+            41802650,
+            51245144,
+            58626798
+          ]
+        },
+        {
+          "coset_power_labels": [
+            55453246,
+            7457665
+          ],
+          "size": 3,
+          "members": [
+            32671286,
+            47032292,
+            50660583
+          ]
+        },
+        {
+          "coset_power_labels": [
+            55652243,
+            4396861
+          ],
+          "size": 3,
+          "members": [
+            8321290,
+            19047289,
+            64280361
+          ]
+        },
+        {
+          "coset_power_labels": [
+            59729156,
+            43531214
+          ],
+          "size": 3,
+          "members": [
+            21340297,
+            26680459,
+            48586862
+          ]
+        },
+        {
+          "coset_power_labels": [
+            61336514,
+            50530209
+          ],
+          "size": 3,
+          "members": [
+            3745922,
+            11353050,
+            60234971
+          ]
+        },
+        {
+          "coset_power_labels": [
+            63488755,
+            6068072
+          ],
+          "size": 3,
+          "members": [
+            3381794,
+            34826844,
+            44931714
+          ]
+        }
+      ],
+      "ordered_triple_sha256": "ae02ba7159494260ef64a6b70d9d3bfe1d76d59e27fc7165db7e726e35223ff4",
+      "circularity_certified": false
+    },
+    {
+      "p": 1073748737,
+      "n": 256,
+      "generator": 1064280392,
+      "quartic_window": true,
+      "shift_energy_without_zero": 129795,
+      "trivial_shift_energy": 129795,
+      "nontrivial_shift_energy": 0,
+      "row_zero_energy_excess": 0,
+      "row_zero_ordered_triples": 0,
+      "additive_energy": 195840,
+      "intersection_cell_size_histogram_above_two": {},
+      "all_cells_above_two": [],
+      "ordered_triple_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "circularity_certified": true
+    },
+    {
+      "p": 17179869697,
+      "n": 512,
+      "generator": 13395504394,
+      "quartic_window": true,
+      "shift_energy_without_zero": 521731,
+      "trivial_shift_energy": 521731,
+      "nontrivial_shift_energy": 0,
+      "row_zero_energy_excess": 0,
+      "row_zero_ordered_triples": 0,
+      "additive_energy": 784896,
+      "intersection_cell_size_histogram_above_two": {},
+      "all_cells_above_two": [],
+      "ordered_triple_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "circularity_certified": true
+    }
+  ]
+}

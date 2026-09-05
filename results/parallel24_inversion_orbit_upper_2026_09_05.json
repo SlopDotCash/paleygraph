@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "checks": {
+    "signed_int64_accumulation_safe": 573,
+    "second_moment": 573,
+    "two_row_upper": 1719,
+    "unsigned_inversion_coordinates": 3570540,
+    "unsigned_boundaries": 9024,
+    "signed_inversion_coordinates": 3570540,
+    "signed_boundary": 9024,
+    "unsigned_moment_identity": 27072,
+    "unsigned_column_upper": 27072,
+    "signed_moment_identity": 27072,
+    "signed_moment_dominates_original": 27072,
+    "bad_pole_count": 1146,
+    "good_pole_exists": 383,
+    "bounded_good_representative": 1149,
+    "good_pole_sum": 1149,
+    "positive_fraction_good_poles": 2298,
+    "square_tuple_bound": 756,
+    "ordered_tuple_expansion": 27,
+    "matching_tuple_count": 27,
+    "individual_Weil_bound": 1962,
+    "sample_primality": 5,
+    "sixth_moment_asymptotic_constant": 1,
+    "boundary_constants_sample": 9
+  },
+  "cases": 573,
+  "coverage": "All sets of sizes 1..3 for p=5,7,11; all sizes 1..2 for p=13,17; ten larger interval/random cases; exact integer arithmetic.",
+  "limitations": "Finite checks do not prove asymptotics. The theorem is unsigned existence per inversion family and does not bound the original moment or transported signs.",
+  "input_sha256": {
+    "research/parallel24-inversion-orbit-upper-2026-09-05.md": "e011ead2f6aa9c73b39458eefad7cfc839803c5b0e62eb77993a5da9567eb552",
+    "experiments/parallel24_inversion_orbit_upper_2026_09_05.py": "46a26f0b7f8217338e6d355425153fd619f0387a06d8b1fa215800c7b362e5a4",
+    "research/parallel20-inversion-moments-2026-09-05.md": "31ec520dcb38decced35eb111128d65383f4a4f6fb2eca545d8bc5406b55922f",
+    "research/sigma-sumproduct-2026-09-05.md": "1a2c947e55de80867fb76492b6a4aafe030185a611dc52443e025c8597176a4d",
+    "sources/mcdonald-sahay-wyman-2210.03789v2.html": "3ae1bc2ca60ef412b271e3a03056df70fe1465fda26a89727e1929cfe9e1f622"
+  },
+  "larger_cases": [
+    {
+      "p": 31,
+      "C": [
+        0,
+        1,
+        2
+      ],
+      "original_M6": 4524,
+      "certificates": []
+    },
+    {
+      "p": 31,
+      "C": [
+        2,
+        10,
+        25
+      ],
+      "original_M6": 4524,
+      "certificates": []
+    },
+    {
+      "p": 41,
+      "C": [
+        0,
+        1,
+        2
+      ],
+      "original_M6": 6054,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 33,
+          "good_poles": 36,
+          "best_M6": 6054,
+          "M6_bound": "714015/4"
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "C": [
+        5,
+        7,
+        28
+      ],
+      "original_M6": 6054,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 33,
+          "good_poles": 35,
+          "best_M6": 6054,
+          "M6_bound": "714015/4"
+        }
+      ]
+    },
+    {
+      "p": 101,
+      "C": [
+        0,
+        1,
+        2
+      ],
+      "original_M6": 17634,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 33,
+          "good_poles": 96,
+          "best_M6": 17034,
+          "M6_bound": "2986065/34"
+        }
+      ]
+    },
+    {
+      "p": 101,
+      "C": [
+        49,
+        71,
+        75
+      ],
+      "original_M6": 17634,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 33,
+          "good_poles": 95,
+          "best_M6": 17034,
+          "M6_bound": "2986065/34"
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "C": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "original_M6": 132532,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 94,
+          "good_poles": 244,
+          "best_M6": 132532,
+          "M6_bound": "89723840/163"
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "C": [
+        145,
+        191,
+        214,
+        255
+      ],
+      "original_M6": 128092,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 94,
+          "good_poles": 235,
+          "best_M6": 128092,
+          "M6_bound": "89723840/163"
+        }
+      ]
+    },
+    {
+      "p": 1297,
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "original_M6": 2635926,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 426,
+          "good_poles": 1204,
+          "best_M6": 2635926,
+          "M6_bound": "6963177960/871"
+        }
+      ]
+    },
+    {
+      "p": 1297,
+      "C": [
+        565,
+        658,
+        790,
+        816,
+        976,
+        1277
+      ],
+      "original_M6": 2862846,
+      "certificates": [
+        {
+          "h": 2,
+          "Q_h": 426,
+          "good_poles": 1194,
+          "best_M6": 2583246,
+          "M6_bound": "6963177960/871"
+        }
+      ]
+    }
+  ]
+}

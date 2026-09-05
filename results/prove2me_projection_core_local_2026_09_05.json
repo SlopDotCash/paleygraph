@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-09-05T18:40:21.556343+00:00",
+  "exit_code": 0,
+  "theorems": {
+    "paley_nonzero_functional_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "paley_common_nonzero_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "proof_sha256": "27e4a699b47d8265641c65d81744374aa36ffa120b7fd504ace7ee2d427036e1",
+  "scope": "Local formal algebraic core. Quotient witness construction and code maxima are not formalized; no server submission for this file."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "row_type_histograms": 22,
+  "single_coordinate_coefficient_checks": 550,
+  "all_distinct_row_pair_histograms": 448,
+  "exact_containment_probabilities": 324,
+  "ordered_input_pairs_enumerated": 35033,
+  "odd_degree_cases": [
+    {
+      "p": 13,
+      "n": 6,
+      "d": 3,
+      "level_two_energy": "448/99"
+    },
+    {
+      "p": 13,
+      "n": 6,
+      "d": 5,
+      "level_two_energy": "64/77"
+    },
+    {
+      "p": 17,
+      "n": 6,
+      "d": 3,
+      "level_two_energy": "3520/1183"
+    }
+  ],
+  "source_sha256": "0d31dd3e14602f1428c17c1d2a16f64a6dab9e58425cb1c001f6240a497d676a",
+  "review_sha256": "088be159aa6e67f997b90a321f9988859b6335ee40d0252d79e27a21b8aa5d79"
+}

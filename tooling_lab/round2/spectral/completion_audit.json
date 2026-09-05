@@ -1,0 +1,198 @@
+{
+  "status": "same-objective numerical subspace ablation; no asymptotic inference",
+  "cases": [
+    {
+      "p": 101,
+      "side": "positive",
+      "raw_rank": 4,
+      "completed_rank": 4,
+      "fixed_shifts": [
+        45,
+        25,
+        20,
+        29
+      ],
+      "fixed_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "raw_optimum": 0.24708692160653406,
+      "completed_optimum": 0.2470869216065344,
+      "gain": 3.3306690738754696e-16,
+      "raw_span_containment_error": 2.7381438266910492e-15,
+      "completed_witness_directional_rayleigh": 0.6048501254323876,
+      "completed_subspace_min_directional_rayleigh": 0.603576105236214
+    },
+    {
+      "p": 101,
+      "side": "negative",
+      "raw_rank": 4,
+      "completed_rank": 5,
+      "fixed_shifts": [
+        25,
+        11,
+        36,
+        17
+      ],
+      "fixed_signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "raw_optimum": 0.355280420089932,
+      "completed_optimum": 0.37006256826231687,
+      "gain": 0.014782148172384879,
+      "raw_span_containment_error": 1.3717539091632952e-15,
+      "completed_witness_directional_rayleigh": 0.7770964371144038,
+      "completed_subspace_min_directional_rayleigh": 0.6407455488265232
+    },
+    {
+      "p": 401,
+      "side": "positive",
+      "raw_rank": 4,
+      "completed_rank": 6,
+      "fixed_shifts": [
+        186,
+        151,
+        150,
+        33
+      ],
+      "fixed_signs": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "raw_optimum": 0.1806021756252772,
+      "completed_optimum": 0.20770499598161885,
+      "gain": 0.02710282035634165,
+      "raw_span_containment_error": 2.4796752765860565e-10,
+      "completed_witness_directional_rayleigh": 0.7995767819964189,
+      "completed_subspace_min_directional_rayleigh": 0.7400611589130152
+    },
+    {
+      "p": 401,
+      "side": "negative",
+      "raw_rank": 4,
+      "completed_rank": 5,
+      "fixed_shifts": [
+        64,
+        54,
+        122,
+        1
+      ],
+      "fixed_signs": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "raw_optimum": 0.25062928179126287,
+      "completed_optimum": 0.2515854696356936,
+      "gain": 0.0009561878444307448,
+      "raw_span_containment_error": 4.5048909181522536e-10,
+      "completed_witness_directional_rayleigh": 0.8790385242616183,
+      "completed_subspace_min_directional_rayleigh": 0.8313783590230992
+    },
+    {
+      "p": 1009,
+      "side": "positive",
+      "raw_rank": 4,
+      "completed_rank": 4,
+      "fixed_shifts": [
+        420,
+        65,
+        266,
+        238
+      ],
+      "fixed_signs": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "raw_optimum": 0.14179995832194597,
+      "completed_optimum": 0.14179995749010038,
+      "gain": -8.318455924083423e-10,
+      "raw_span_containment_error": 2.6331684138608682e-08,
+      "completed_witness_directional_rayleigh": 0.8194814364024307,
+      "completed_subspace_min_directional_rayleigh": 0.7929157782048825
+    },
+    {
+      "p": 1009,
+      "side": "negative",
+      "raw_rank": 4,
+      "completed_rank": 6,
+      "fixed_shifts": [
+        451,
+        298,
+        273,
+        260
+      ],
+      "fixed_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "raw_optimum": 0.15923960512813873,
+      "completed_optimum": 0.17284703113667016,
+      "gain": 0.013607426008531431,
+      "raw_span_containment_error": 2.2845245233516926e-09,
+      "completed_witness_directional_rayleigh": 0.859197555999273,
+      "completed_subspace_min_directional_rayleigh": 0.8346457022308752
+    },
+    {
+      "p": 4001,
+      "side": "positive",
+      "raw_rank": 4,
+      "completed_rank": 5,
+      "fixed_shifts": [
+        1,
+        554,
+        1938,
+        1848
+      ],
+      "fixed_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "raw_optimum": 0.19352011840262223,
+      "completed_optimum": 0.19386704786761977,
+      "gain": 0.0003469294649975363,
+      "raw_span_containment_error": 2.1072844540878506e-08,
+      "completed_witness_directional_rayleigh": 0.8737687797689675,
+      "completed_subspace_min_directional_rayleigh": 0.8544682145994388
+    },
+    {
+      "p": 4001,
+      "side": "negative",
+      "raw_rank": 4,
+      "completed_rank": 6,
+      "fixed_shifts": [
+        1123,
+        1013,
+        45,
+        978
+      ],
+      "fixed_signs": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "raw_optimum": 0.1126886458813,
+      "completed_optimum": 0.11269965160695343,
+      "gain": 1.1005725653434606e-05,
+      "raw_span_containment_error": 6.215683173531351e-09,
+      "completed_witness_directional_rayleigh": 0.8616349775960698,
+      "completed_subspace_min_directional_rayleigh": 0.842574236621278
+    }
+  ],
+  "source_sha256": "ff6971172fb65e199d9327d08ff38713cb2b7949b7e11776c555a70bc078f221"
+}

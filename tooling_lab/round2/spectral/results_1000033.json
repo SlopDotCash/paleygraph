@@ -1,0 +1,197 @@
+{
+  "p": 1000033,
+  "m": 250007,
+  "k_requested_per_side": 2,
+  "eigensolver_tolerance": 1e-06,
+  "dense_validation": null,
+  "sides": [
+    {
+      "side": "positive",
+      "solver_reported_convergence": true,
+      "ritz_eigenvalues": [
+        0.8675076727515397,
+        0.867462177826181
+      ],
+      "raw_lanczos_eigenvalues": [
+        0.8675076727513683,
+        0.8674621778260155
+      ],
+      "raw_joint": {
+        "train_shifts": [
+          1,
+          80222,
+          53085,
+          388783
+        ],
+        "fixed_alignment_signs": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "heldout_shifts": [
+          282996,
+          137684,
+          76819,
+          84946
+        ],
+        "seed_train_overlap": 0.009674824033849685,
+        "joint_train_overlap": 0.009828901854134165,
+        "seed_heldout_abs_overlap": 0.008841369235435345,
+        "joint_heldout_abs_overlap": 0.009205090367235474,
+        "joint_rayleigh_H": 0.8675068880993326,
+        "joint_vector_residual": 5.9250610015469085e-06,
+        "random_fixed_shifts_max_signed_average": 1.3706515065314258e-05,
+        "permuted_same_spectrum_joint_average": 0.004497325333816539,
+        "method": "fixed four shifts/signs selected from first Ritz vector; one optimizer for their average; four separate heldout shifts"
+      },
+      "symmetry_completed_rank": 2,
+      "residual_norms": [
+        6.98980960832189e-08,
+        6.99016113997181e-08
+      ],
+      "orthogonality_error": 6.188349576122941e-15,
+      "compressed_directional_floor": 0.867462177826181,
+      "compressed_directional_ceiling": 0.8675076727515397,
+      "matvec_calls": 1240,
+      "elapsed_seconds": 386.6550157919992,
+      "joint": {
+        "train_shifts": [
+          1,
+          80222,
+          53085,
+          388783
+        ],
+        "fixed_alignment_signs": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "heldout_shifts": [
+          282996,
+          137684,
+          76819,
+          84946
+        ],
+        "seed_train_overlap": 0.00967483217081609,
+        "joint_train_overlap": 0.009828909103263929,
+        "seed_heldout_abs_overlap": 0.00884137227380632,
+        "joint_heldout_abs_overlap": 0.009205092373030134,
+        "joint_rayleigh_H": 0.8675068881048271,
+        "joint_vector_residual": 5.92329188022488e-06,
+        "random_fixed_shifts_max_signed_average": 1.3706965227697849e-05,
+        "permuted_same_spectrum_joint_average": 0.004497321419438436,
+        "method": "fixed four shifts/signs selected from first Ritz vector; one optimizer for their average; four separate heldout shifts"
+      },
+      "witness": {
+        "file": "witness_1000033_positive.bin",
+        "sha256": "8f7fd52fea26eb710de45bb0a6fe0999993716dddd2ce57da2485a3c7575a532",
+        "format": "little-endian uint32 p,m then m pairs (int32 vertex,int32 coefficient)",
+        "norm_squared": 12502468115,
+        "sum_entries": 34961,
+        "sum_absolute_entries": 44643689,
+        "rounded_rayleigh_H_float": 0.8675054267091458,
+        "quantization_max_abs": 1024
+      }
+    },
+    {
+      "side": "negative",
+      "solver_reported_convergence": true,
+      "ritz_eigenvalues": [
+        -0.8656259037807791,
+        -0.8653371164627348,
+        -0.8653371164627114
+      ],
+      "raw_lanczos_eigenvalues": [
+        -0.8656259037807772,
+        -0.8653371163358684
+      ],
+      "raw_joint": {
+        "train_shifts": [
+          326569,
+          329074,
+          136395,
+          451940
+        ],
+        "fixed_alignment_signs": [
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "heldout_shifts": [
+          232628,
+          335984,
+          212264,
+          342404
+        ],
+        "seed_train_overlap": 0.00939351090358004,
+        "joint_train_overlap": 0.009393855543003444,
+        "seed_heldout_abs_overlap": 0.008925961229393795,
+        "joint_heldout_abs_overlap": 0.008925317526800947,
+        "joint_rayleigh_H": -0.8656258910405457,
+        "joint_vector_residual": 1.9180933948453345e-06,
+        "random_fixed_shifts_max_signed_average": 0.0024179605212471273,
+        "permuted_same_spectrum_joint_average": 0.004991404676827481,
+        "method": "fixed four shifts/signs selected from first Ritz vector; one optimizer for their average; four separate heldout shifts"
+      },
+      "symmetry_completed_rank": 3,
+      "residual_norms": [
+        2.592831639411583e-12,
+        1.2211232310378329e-06,
+        1.221123229898888e-06
+      ],
+      "orthogonality_error": 5.080452407345406e-15,
+      "compressed_directional_floor": 0.8653371164627114,
+      "compressed_directional_ceiling": 0.8656259037807791,
+      "matvec_calls": 1264,
+      "elapsed_seconds": 280.5576691250026,
+      "joint": {
+        "train_shifts": [
+          326569,
+          329074,
+          136395,
+          451940
+        ],
+        "fixed_alignment_signs": [
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "heldout_shifts": [
+          232628,
+          335984,
+          212264,
+          342404
+        ],
+        "seed_train_overlap": 0.009393510906249274,
+        "joint_train_overlap": 0.009522236983649322,
+        "seed_heldout_abs_overlap": 0.00892596123165504,
+        "joint_heldout_abs_overlap": 0.008752488378170928,
+        "joint_rayleigh_H": -0.8656216446318739,
+        "joint_vector_residual": 3.4811920774296574e-05,
+        "random_fixed_shifts_max_signed_average": 0.002518731457003329,
+        "permuted_same_spectrum_joint_average": 0.005034450900986959,
+        "method": "fixed four shifts/signs selected from first Ritz vector; one optimizer for their average; four separate heldout shifts"
+      },
+      "witness": {
+        "file": "witness_1000033_negative.bin",
+        "sha256": "0f4f584f456ab92b3e55f81a0fa0e6e27398833bc02b3d96f786e3c2b3cab3fb",
+        "format": "little-endian uint32 p,m then m pairs (int32 vertex,int32 coefficient)",
+        "norm_squared": 12890374680,
+        "sum_entries": 0,
+        "sum_absolute_entries": 45352304,
+        "rounded_rayleigh_H_float": -0.8656202409432585,
+        "quantization_max_abs": 1024
+      }
+    }
+  ],
+  "elapsed_seconds": 667.5021959590085,
+  "total_matvec_calls": 2506,
+  "matvec_seconds": 640.8795348659041,
+  "process_peak_rss_bytes": 449757184,
+  "dense_matrix_bytes_avoided": 500028000392,
+  "status": "lower witnesses and numerical Ritz estimates only; no spectral upper certificate"
+}

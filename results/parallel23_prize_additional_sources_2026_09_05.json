@@ -1,0 +1,29 @@
+{
+  "commit": "e65197892890b8fd9b0dc05b8980273cf1d595cc",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/e65197892890b8fd9b0dc05b8980273cf1d595cc/ArkLib/Data/CodingTheory/ProximityGap/Basic.lean",
+      "path": "sources/parallel23-prize-dependencies/ProximityGap_Basic.lean",
+      "bytes": 10138,
+      "sha256": "62c97fcdc5a0d6c039c11ddd2e98cb31b7a116c96c950fbd4c51ff3f18d394f6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/e65197892890b8fd9b0dc05b8980273cf1d595cc/ArkLib/Data/CodingTheory/ListDecodability.lean",
+      "path": "sources/parallel23-prize-dependencies/ListDecodability.lean",
+      "bytes": 25834,
+      "sha256": "d2b9f145b82056b26ee46c8c42c1463936379c33a3fa31802decd4eb85711912"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/e65197892890b8fd9b0dc05b8980273cf1d595cc/ArkLib/Data/CodingTheory/ProximityGap/Errors.lean",
+      "path": "sources/parallel23-prize-dependencies/ProximityGap_Errors.lean",
+      "bytes": 49307,
+      "sha256": "ed8534ee2a0d45f6402b3fe3bb00c7b196d0da54364bb9ac2d64029e62b0ee4e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Verified-zkEVM/ArkLib/e65197892890b8fd9b0dc05b8980273cf1d595cc/ArkLib/Data/CodingTheory/ProximityGap/ProximityGenerators.lean",
+      "path": "sources/parallel23-prize-dependencies/ProximityGap_ProximityGenerators.lean",
+      "bytes": 20442,
+      "sha256": "af2bcba4034bee9f33042f5378d0f0a0315a46cabd2de14a7d6357d4405187a7"
+    }
+  ]
+}

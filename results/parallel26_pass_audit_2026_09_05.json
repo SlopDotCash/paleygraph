@@ -1,0 +1,914 @@
+{
+  "status": "Passed formalization and source-attribution audit; full goal unproved.",
+  "audited_at_utc": "2026-09-05T19:08:43.363581+00:00",
+  "previous_turn_classification": "progress",
+  "current_turn_classification": "progress in verification and source accuracy",
+  "prior_input_checks": {
+    "research/parallel25-prize-projection-2026-09-05.md": "229553fcd14b2999bfcab47b5ada37339a27ed954905332c8b744d9e1449c331",
+    "research/prove2me-projection-core-2026-09-05.md": "f29b3b0eea4316c1435c1fdcb626c5013438b98ce29e78046034f44206c83384",
+    "prove2me/Check_paley_nonzero_functional_count.lean": "27e4a699b47d8265641c65d81744374aa36ffa120b7fd504ace7ee2d427036e1",
+    "results/prove2me_projection_core_local_2026_09_05.json": "9a9ff11a19ae71708c95e7d7aba3fcde2c28b6ed49ab322c2b062ac1acdf7958",
+    "results/parallel25_pass_audit_2026_09_05.json": "f0526bbf6b36014df610a73a02e0785912f252d956febf0942bd77c30f84e4a9",
+    "results/prove2me_setup_audit_2026_09_05.json": "03e2e3485d0e24ae64664828d04e184e4ad4bbaa53fe0012d7cb9357ad2a4e1c"
+  },
+  "prior_artifacts_preserved": {
+    "experiments/parallel25_final_audit_2026_09_05.py": "0b0f69c7fe9f15f7b6d673983d77bbb95a01c2eadaa8f9e579efe4e57ce1faac",
+    "experiments/parallel25_prize_projection_2026_09_05.py": "fa340a9b0f52de3e2aabf742e5d622c538bee9e7fe5a42f3074f4b8f9a72fc4e",
+    "experiments/parallel25_root_review_2026_09_05.py": "ce3c01985685b625824990a605fe577bdfad4dc64581eab64fd19287cbb74dee",
+    "experiments/parallel25_signed_inversion_2026_09_05.py": "470b900e1afef1c3baf5535a9cc10694b1e008bac9f0f0af5e4cac7b9849aacd",
+    "experiments/parallel25_spectral_full_operator_2026_09_05.py": "3d2f8affe293d376da410efcc4097673e404d6ef87d512b7dd7fcd7bac569104",
+    "experiments/parallel25_subgroup_growing_orders_2026_09_05.py": "5b5462ca986bbf08e2f581d898cef78525d220c9f2e1cad2a25163d4c795f83d",
+    "research/parallel25-pass-summary-2026-09-05.md": "55caf4487cc0aa6987b88a2e77fc24752b44e2f4b6bf857be663cadac6996a24",
+    "research/parallel25-prize-projection-2026-09-05.md": "229553fcd14b2999bfcab47b5ada37339a27ed954905332c8b744d9e1449c331",
+    "research/parallel25-root-review-2026-09-05.md": "f4d3a270e7471d3063f78f696161f3709f2d9c5ab8107530fab30ee9afa64b73",
+    "research/parallel25-signed-inversion-2026-09-05.md": "e28771326da404a8ff86170ad8174d69633fdbb7f9331634d7f0f3b09217bfc5",
+    "research/parallel25-spectral-full-operator-2026-09-05.md": "a76b4865fd4356ae30422a5d8e6ec1320e5edccfd84686a17c4faf7ddabf51d3",
+    "research/parallel25-subgroup-growing-orders-2026-09-05.md": "c94e1eb1c427968c6413aada33e77261ff0ed1000376cb16f4a9b23226d80cf1",
+    "results/parallel25_prior_state_2026_09_05.json": "9ab62e3cecb9164e012a757fb115dfa7871a08ded7b22d24f412f8471e2c6493",
+    "results/parallel25_prize_projection_2026_09_05.json": "04050ee35282d4408e059c057d61b47601bf27ca7f652711f3d0dac1b51ef009",
+    "results/parallel25_prize_projection_source_2026_09_05.json": "2903f1ab291254be67738ef156856958eb99c24593aa0e1940662745be586ded",
+    "results/parallel25_root_review_2026_09_05.json": "29db77200d1ba9f1affb1d0bce5873d020e741601526e583e28680aa71efe3a8",
+    "results/parallel25_signed_inversion_2026_09_05.json": "de2de73c6421bcac8c32e5e7c4bdeee33cd33b5e15473ef001889dfc90ae9658",
+    "results/parallel25_spectral_full_operator_2026_09_05.json": "422a0eaedbb9d9817398884c9506a4d8e624fbc11e4e58bd9e52cef0af8ef0b3",
+    "results/parallel25_subgroup_growing_orders_2026_09_05.json": "000370af584720ee83e8bbabeed282024a0a630a625a129b274d0bd98fa2c35a",
+    "results/parallel25_subgroup_source_2026_09_05.json": "6ed14524c130021e7ab2bb0a6c29c547f8a927c2c4777b78de744116b4c70c68",
+    "experiments/prove2me_setup_audit_2026_09_05.py": "d221047539d6e4cfcddd1a4a769def65ddfbe31b5f6f66e47675d848a824a1df",
+    "prove2me/Check_paley_functional_kernel_card.lean": "b4660da70bbc9d0d9166e00698518c97bf505a76ba2ff4bf4c7beac01adb7557",
+    "prove2me/Check_paley_nonzero_functional_count.lean": "27e4a699b47d8265641c65d81744374aa36ffa120b7fd504ace7ee2d427036e1",
+    "prove2me/Sol_paley_projection_survival_count.lean": "8b2d28ab36797c8e5c993c53b6496f2e6128060fb04b6914b8ab82c35be5fa4d",
+    "prove2me/Sol_paley_projection_survival_count.md": "d77c41220b0f0fca4ea69d15b088c0dcb8a7a1725ab133f7defb0cd3d85182cf",
+    "prove2me/projection-survival-problem.json": "0fece58cf4c94fbd6a7a66b938d575732237dc21d9fb0b926f98df27925498a4",
+    "prove2me/service-references/contribute.md": "0c21104fdec143aef4d1dacb208f528b4a1068050a77af642bc1e21cb1471ce1",
+    "prove2me/service-references/mission_solver.md": "3dbe446d8f9102a1a3897bbe3009566497559e9e110d269337997e2950cd8f0d",
+    "prove2me/service-references/prove.md": "615f3a7e7060e028fc2f87c1d7cbbf0ba7cddcb4c06ee9a585b1bab89d4050a1",
+    "prove2me/service-references/setup.md": "fc6ddb063462a594d43f6e78ca4e4abeef06adfc6b0eef6dbb0a4d29d6aafeba",
+    "prove2me/service-skill-current.md": "7b5b31e18758c0deb9670e809e1dbd53ecedfa904070d330cc1ff00db4608f69",
+    "research/prove2me-projection-core-2026-09-05.md": "f29b3b0eea4316c1435c1fdcb626c5013438b98ce29e78046034f44206c83384",
+    "research/prove2me-projection-count-2026-09-05.md": "60cab60483be11290be087cbec51d182553e29d7dd1d1bc73b5f10d441b3b88b",
+    "results/prove2me_connection_2026_09_05.json": "991602e34e5b75f10b8b5da849ef98d03c1be99243698b53ca694196d14e414f",
+    "results/prove2me_functional_counts_local_2026_09_05.json": "b6d10c853a677a19b9a98c3928ee56739895ca3b6c5b2c739cc7593dfa374038",
+    "results/prove2me_projection_core_local_2026_09_05.json": "9a9ff11a19ae71708c95e7d7aba3fcde2c28b6ed49ab322c2b062ac1acdf7958",
+    "results/prove2me_projection_local_2026_09_05.json": "54bab0f1f37f0c180641a8d274f81641989777a6f0267f79e0bc96a4f1f92373",
+    "scripts/prove2me.py": "52278d6f87fa5c0844110e6d4f530b97956d3bbd24da3b4c71836abc7ad2bfe7",
+    "scripts/prove2me_projection.py": "c6795e1d9a0812498a2b4924e4c3a9a85238b3780fb16b4feb5b6b814a9d3013"
+  },
+  "documented_mutable_updates": {
+    "PROVE2ME.md": {
+      "old_sha256": "c6f148feb9a870fadf4fcf4d3c76d89fe8048d62a6898025e75796d7d5d3a583",
+      "new_sha256": "568bc2e8ea0a96884a95c826b849c655e40b0c206fecbea1feeb68ebb10fa8df",
+      "reason": "Updated current formalization and attribution."
+    },
+    "results/prove2me_projection_server_2026_09_05.json": {
+      "old_sha256": "6fdc5da348b134bded2b4a2138a4381d667e1748b89a5379441dcf3653153a30",
+      "new_sha256": "63114513dbc3bfdba2a40c490b0e13e6ae94a9ea25bc89e100bfee90b1b704c6",
+      "reason": "Deliberately refreshed read-only status of the same private job."
+    }
+  },
+  "source_manifest_previous_entries_preserved": 34,
+  "source_manifest_total_entries": 36,
+  "source_hash_checks": [
+    {
+      "path": "sources/parallel26-prize-dependencies/InterleavedCode.lean",
+      "sha256": "1f1eec41f06988af6a11dbd157c682bc14b3dc06e94fd0f429f004c1981458e6",
+      "bytes": 42182
+    },
+    {
+      "path": "sources/parallel26-prize-dependencies/Basic_LinearCode.lean",
+      "sha256": "1debe07fe18ae2af3884d57ffc40f18a4f765a08466001f4960cbe2112e3f8ae",
+      "bytes": 33732
+    },
+    {
+      "path": "sources/parallel23-prize-dependencies/ProximityGap_Errors.lean",
+      "sha256": "ed8534ee2a0d45f6402b3fe3bb00c7b196d0da54364bb9ac2d64029e62b0ee4e",
+      "bytes": 49307
+    },
+    {
+      "path": "sources/parallel23-prize-dependencies/ProximityGap_ProximityGenerators.lean",
+      "sha256": "af2bcba4034bee9f33042f5378d0f0a0315a46cabd2de14a7d6357d4405187a7",
+      "bytes": 20442
+    },
+    {
+      "path": "sources/parallel23-prize-dependencies/ListDecodability.lean",
+      "sha256": "d2b9f145b82056b26ee46c8c42c1463936379c33a3fa31802decd4eb85711912",
+      "bytes": 25834
+    }
+  ],
+  "local_lean_principal_statements": {
+    "PaleyMCAProjection.projection_preserves_bad": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.rowsBad_iff_input_failure": [
+      "propext",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.scalarBad_iff_input_failure": [
+      "propext",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.uniform_bad_count_bound_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.code_projection_preserves_bad": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.code_uniform_bad_count_bound_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyMCAProjection.codeRowsBad_iff_input_failure": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "proof_sha256": "1716592aa08fc13134532efcdbf77f5d89c8b4f14ea470298ac98772b0e4c7be",
+  "novelty_correction": "MCA interleaving invariance already proved in pinned ArkLib; independent local verification, not a new mathematical bound.",
+  "hosted_incidence_job_status": "PENDING",
+  "hosted_incidence_job_observed_at_utc": "2026-09-05T19:08:37.337539+00:00",
+  "hosted_incidence_theorem_id": null,
+  "hosted_incidence_submission_id": null,
+  "hosted_incidence_proof_verdict": null,
+  "worker_status": "All three terminal usage-limit errors; root continued locally.",
+  "syntax_checks": [
+    "experiments/parallel26_final_audit_2026_09_05.py",
+    "experiments/parallel26_lean_check_2026_09_05.py"
+  ],
+  "local_link_checks": [
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/prove2me_connection_2026_09_05.json"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/parallel26-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/prove2me-projection-count-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/prove2me_projection_server_2026_09_05.json"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "prove2me/Check_paley_functional_kernel_card.lean"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/prove2me-projection-core-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/parallel26-mca-formalization-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/prove2me_setup_audit_2026_09_05.json"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/parallel26_pass_audit_2026_09_05.json"
+    },
+    {
+      "source": "README.md",
+      "target": "PROVE2ME.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/prove2me-projection-core-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel26-mca-formalization-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel26-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel25-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel24-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel23-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel22-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel21-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel20-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel19-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel18-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel17-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel16-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel15-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel14-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel13-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel12-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel11-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel10-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel9-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel8-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel7-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel6-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel5-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel4-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel3-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel2-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/subgroup-target.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/source-audit.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/moments-and-obstructions.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/MomentObstruction.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/paley_exact.py"
+    },
+    {
+      "source": "README.md",
+      "target": "results/exact_checks.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/frontier.md"
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/subgroup_moments.py"
+    },
+    {
+      "source": "README.md",
+      "target": "research/SubgroupQuarticCounterexample.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "research/finite-spectral-obstruction.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/geometric-lift-and-alias.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/prize-reduction-audit.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/coset-coherence.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/period-polynomial-certificate.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/jacobi-coefficient-route.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/cyclotomic-prime-average.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/official-profile-and-trace.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/subset-sums-and-lists.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/riesz-tail-route.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/analytic-bounds-and-amplification.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-periods-and-shifted-energy.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/kernel-discriminant.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/quadruple-orbits-and-cube.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/dyadic-descent-and-mixed-energy.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/positive-product-moments.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/signed-quotient-operators.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/list-to-winning-set.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/localized-necklace-identities.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/planar-necklace-reductions.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-barriers-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-sumproduct-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-structured-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-crux-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-referee-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-subgroup-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-lean-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-dual-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-tuple-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-si-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-stress-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-frobenius-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/sigma-p2m-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel26-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "sigma-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel25-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel24-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel23-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel22-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel21-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel20-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel19-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel18-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel17-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel16-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel15-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "subgroup-target.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "geometric-lift-and-alias.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "coset-coherence.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "period-polynomial-certificate.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "jacobi-coefficient-route.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "cyclotomic-prime-average.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "official-profile-and-trace.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "subset-sums-and-lists.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "riesz-tail-route.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "analytic-bounds-and-amplification.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "mixed-periods-and-shifted-energy.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "kernel-discriminant.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "quadruple-orbits-and-cube.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "dyadic-descent-and-mixed-energy.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "positive-product-moments.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "signed-quotient-operators.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "list-to-winning-set.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "localized-necklace-identities.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "planar-necklace-reductions.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-spectral-transfer-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-conic-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-kernel-aggregate-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-anchor-aggregate-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-seeded-kernels-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-multiplier-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel8-necklace-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel9-all-degrees-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel10-word-aggregate-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel11-full-energy-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel12-bootstrap-obstruction-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel13-principal-budget-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel14-elliptic-model-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel15-elliptic-correlations-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel16-square-field-barrier-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel17-prime-uncertainty-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel18-mobius-trace-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel19-relation-free-reduction-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel20-inversion-moments-2026-09-05.md"
+    },
+    {
+      "source": "research/parallel26-mca-formalization-2026-09-05.md",
+      "target": "../prove2me/Check_paley_mca_projection.lean"
+    },
+    {
+      "source": "research/parallel26-mca-formalization-2026-09-05.md",
+      "target": "../sources/parallel23-prize-dependencies/ProximityGap_Errors.lean"
+    },
+    {
+      "source": "research/parallel26-mca-formalization-2026-09-05.md",
+      "target": "../results/parallel26_primary_sources_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel26-mca-formalization-2026-09-05.md",
+      "target": "../results/parallel26_mca_projection_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel26-mca-formalization-2026-09-05.md",
+      "target": "../results/parallel26_mca_lean_2026_09_05.log"
+    },
+    {
+      "source": "research/parallel26-mca-formalization-2026-09-05.md",
+      "target": "../results/prove2me_projection_server_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "../prove2me/Check_paley_mca_projection.lean"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "../results/parallel26_mca_projection_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "parallel26-mca-formalization-2026-09-05.md"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "list-to-winning-set.md"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "../PROVE2ME.md"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "../results/prove2me_projection_server_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "../results/parallel26_prior_state_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel26-pass-summary-2026-09-05.md",
+      "target": "../results/parallel26_pass_audit_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel26-mca-formalization-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "prize-reduction-audit.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel21-independent-review-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel23-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "../results/parallel23_prize_additional_sources_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel24-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "../results/parallel24_pass_audit_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel25-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "../results/parallel25_prize_projection_source_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "../results/parallel25_subgroup_source_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel25-root-review-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "../results/parallel25_pass_audit_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "../results/parallel26_primary_sources_2026_09_05.json"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "parallel26-mca-formalization-2026-09-05.md"
+    }
+  ],
+  "mathematical_notation_excluded": [
+    {
+      "source": "research/source-audit.md",
+      "target": "u",
+      "reason": "Historical mathematical function notation."
+    }
+  ],
+  "artifact_sha256": {
+    "experiments/parallel26_final_audit_2026_09_05.py": "48c590c76999a27a1f188ee8fb4ec49544a4e6f72d972e8d13f8ed9da89031f3",
+    "experiments/parallel26_lean_check_2026_09_05.py": "4ed6814ec7716bdabdeb759cb3f75bbc1f3ac3e12dbbda84e603ce996d346c11",
+    "prove2me/Check_paley_mca_projection.lean": "1716592aa08fc13134532efcdbf77f5d89c8b4f14ea470298ac98772b0e4c7be",
+    "research/parallel26-mca-formalization-2026-09-05.md": "894a90cf7fe520523c3d698917940b8f06802b330f874a4d511cd4001432c887",
+    "research/parallel26-pass-summary-2026-09-05.md": "75918561f83555d21c1d3c4442a2102caa981da69bb59cd4af054e29ae94b31c",
+    "results/parallel26_mca_lean_2026_09_05.log": "5ba51ba627df6617b9995ae8148a2eeaa5c6f62017a675d60fb8ce37f4f06083",
+    "results/parallel26_mca_projection_2026_09_05.json": "588941c48ba7bcaa17f264453435ee887e049a41be803bfb76bd04e93694e025",
+    "results/parallel26_primary_sources_2026_09_05.json": "503498f03e068ad6b8cf5951c16a7be07b36853f8fa205e6f487fa27aa0f77d2",
+    "results/parallel26_prior_state_2026_09_05.json": "01bce15ca65449336dc8fc20daa1149dda7562f9c55ddbfe66861977aeb990d7"
+  },
+  "central_file_sha256": {
+    "README.md": "180241817cb25c79285f355d7a8981972a8d03e7e8ae23d9c4e56b7baf5ee4bb",
+    "PROVE2ME.md": "568bc2e8ea0a96884a95c826b849c655e40b0c206fecbea1feeb68ebb10fa8df",
+    "research/frontier.md": "15fdc3e1b0ee0c5a2a5d036c3615d201d3e3d810301d369efe53dac7ad976b33",
+    "research/source-audit.md": "235d08aabb3209625cedd85e01c34ee339ce3b586bb8fe56eca57f41ca5f2c5f",
+    "research/checkpoint-2026-09-04.md": "909c9c3e21d68f1a506b3410c6db87d6751a9a5596b3fa57748fe08e1dbc06ec",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41"
+  },
+  "goal_status": "active and unachieved",
+  "scope_limits": [
+    "No new uniform scalar MCA/list bound or cancellation exponent.",
+    "No full ArkLib dependency build or direct formal identification theorem.",
+    "List transfer remains author-reviewed and finitely checked, without Lean verification.",
+    "No new coefficient-pigeonhole threshold; already present in earlier project notes.",
+    "No Paley-to-prize equivalence or full proof."
+  ]
+}

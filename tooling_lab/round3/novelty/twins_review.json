@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "field": "F7[X]/(X^2+1)",
+  "primitive_element": 9,
+  "nonzero_inverses": 48,
+  "ordered_row_pairs_checked": 4802,
+  "matching_patterns_as_multiset": 3,
+  "removed_edges": 294,
+  "added_edges": 294,
+  "origin_subsets_enumerated": 1712304,
+  "full_subsets_certified_by_translation": 13983816,
+  "histogram_and_joint_bins_exactly_match": true,
+  "saved_single_witnesses_checked": 26,
+  "largest_pointwise_difference": {
+    "C": [
+      0,
+      1,
+      7,
+      41,
+      47,
+      48
+    ],
+    "values": [
+      19,
+      -21
+    ]
+  },
+  "nonisomorphism_certificate": "Different distributions of an isomorphism-invariant six-subset kernel",
+  "candidate_source_sha256": {
+    "build_and_census.py": "ab7fcd9550409d7294a1609c1e8bae6443ca6b1b1395f8bafc51630207a2c27b",
+    "census_six.cpp": "21f52ad798cf7c95cae3395ff9cc16ac7dc35db19b6a04ebbe3bfcb42385e679"
+  },
+  "review_sources_sha256": {
+    "review_twins.py": "e725e7ecc44d040c4a432f0fdca66d62718491f49325da718cdf86c8dbb7032a",
+    "twin_origin_census.cpp": "8f7c157871aa3190ee61587af2b55f5cefe3d20a5d03b86923e3c79955f9c055"
+  },
+  "results_sha256": "04e1f3c2912e6c98fab7b72845eb1886d8e29aa03a0b334a7ad03ce599ac010a"
+}

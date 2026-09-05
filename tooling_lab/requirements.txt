@@ -1,0 +1,5 @@
+numpy>=2.0
+scipy>=1.15
+sympy>=1.13
+# Optional: used only to regenerate overview.png and overview.pdf.
+matplotlib>=3.8

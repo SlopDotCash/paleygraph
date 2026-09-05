@@ -1,0 +1,63 @@
+{
+  "status": "sources inspected; ordinary mathematical dependency audit",
+  "checked_at_utc": "2026-09-05T20:04:14.321619+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel28-moment-recurrence/shkredov-published-2019.pdf",
+      "url": "https://msp.org/moscow/2019/8-1/moscow-v8-n1-p03-s.pdf",
+      "sha256": "85297e1bacec7d7d4acd834c6e02cabf1be376c0c8c8bc8a20f777c3215426ac",
+      "bytes": 5492416,
+      "used_statement": "Lemma 9 (23); recurrence (28), proof of Theorem 12; origin term (29).",
+      "visually_inspected_physical_pages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "path": "sources/parallel28-moment-recurrence/shkredov-1705.09703v1.pdf",
+      "url": "https://arxiv.org/pdf/1705.09703v1",
+      "sha256": "537e166aa404c6757f67941c22cdc0c22cbd081d41ccd880f4af0b44fa5de6a1",
+      "bytes": 309403,
+      "used_statement": "Preprint comparison: recurrence (25); the published version is authoritative.",
+      "visually_inspected_physical_pages": [
+        9
+      ]
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "url": "https://arxiv.org/pdf/1712.00410",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477",
+      "bytes": 313523,
+      "used_statement": "Corollary 7: T3(H) << n^4 log n; Theorem 3: E2(H) << n^(49/20) log^(1/5) n. Both for n=O(sqrt p).",
+      "visually_inspected_physical_pages": [
+        5,
+        8
+      ]
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/shkredov-1311.5726.pdf",
+      "url": "https://arxiv.org/pdf/1311.5726",
+      "sha256": "fa575a4bb3c9622838f5154c9b0e4c537415580697513f864c49c4a5f36838a9",
+      "bytes": 201274,
+      "used_statement": "Lemma 7 (15), mixed Konyagin inequality for all positive integer orders.",
+      "visually_inspected_physical_pages": [
+        5
+      ]
+    }
+  ],
+  "auxiliary_archive_sha256": {
+    "sources/parallel28-moment-recurrence/published.html": "3b7069f786145f9a1fcc2604ae03aad95800b832c9d9b6033d4a57120493c25f",
+    "sources/parallel28-moment-recurrence/shkredov-1705.09703v1.html": "8f2e81422b2180dc62c7d48e8f56f183a94761774dab8c2a00ea2536b4fb153e",
+    "sources/parallel28-moment-recurrence/shkredov-1705.09703v1.txt": "396d3bb71ef1a67e26c4441111748681dd7d91ad773f3c7661b1324e1b62e70d",
+    "sources/parallel28-moment-recurrence/shkredov-published-2019.txt": "86fdc29135cd1d0d59b822b82d9399613c65100d260d96aabaf1e627bc1b1496"
+  },
+  "scope": [
+    "The weighted lifting is a root-authored ordinary proof from the cited invariant-set bound.",
+    "The recurrence and mixed-moment calculation improve the previously recorded project baseline; no literature novelty or current-best claim.",
+    "No centered signed-function theorem imported; zero is separately controlled.",
+    "Limited searches for the resulting exponents found no additional source to import; this is not an exhaustive literature search."
+  ]
+}

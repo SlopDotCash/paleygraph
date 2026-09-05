@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "date": "2026-09-05",
+  "rational_rounding_checks": 424,
+  "saved_envelope_checks": 6,
+  "direct_matrix_envelope_checks": 3,
+  "cases": [
+    {
+      "q": 29,
+      "n": 7,
+      "marks": [
+        1,
+        4,
+        0
+      ],
+      "relative_radius_rational_upper": [
+        9786959683176201,
+        20000000000000000000
+      ]
+    },
+    {
+      "q": 29,
+      "n": 7,
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "relative_radius_rational_upper": [
+        9786959683176201,
+        20000000000000000000
+      ]
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "relative_radius_rational_upper": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 1297,
+      "n": 8,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "relative_radius_rational_upper": [
+        6082526604259,
+        50000000000000000000
+      ]
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "relative_radius_rational_upper": [
+        16845159,
+        5000000000000000000
+      ]
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "relative_radius_rational_upper": [
+        11553,
+        10000000000000000000
+      ]
+    }
+  ],
+  "source_sha256": {
+    "certified_envelope.py": "d451c3b471f9851d905080be3fa999e55a24f6aeedb4d9380b6d28f8c2f1e7ed",
+    "contraction_envelopes.json": "5e921b9fa89bbbee46874c75d4f26eea038768548af5ead075ca527117092fe3",
+    "review_envelope.py": "ccfa951432eeb4313b3a66775c7d33cf24f6bd56cb9a955fd1c94f15568d9d37"
+  },
+  "scope": "Bound only for the Q-dependent correction to a conditional second moment; not a pointwise target bound."
+}

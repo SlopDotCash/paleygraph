@@ -1,0 +1,1165 @@
+{
+  "scope": "Exact conditional finite averages; no worst-case or historical novelty claim",
+  "scale_cases": [
+    {
+      "q": 13,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 6,
+      "mean": [
+        -2,
+        15
+      ],
+      "second_moment": [
+        97,
+        15
+      ],
+      "variance": [
+        1451,
+        225
+      ],
+      "mean_float": -0.13333333333333333,
+      "second_moment_float": 6.466666666666667,
+      "variance_float": 6.448888888888889,
+      "cell_count": 9,
+      "relation_count": 113,
+      "canonical_relation_classes": 25,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        776
+      ],
+      "max_aggregate_integer_bits": 10,
+      "n_equals_degree_cell_only_shortcut_checked": true,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 28,
+        "cell_pairs_with_different_coefficients": 0,
+        "max_pair_coefficient_gap": [
+          0,
+          1
+        ]
+      },
+      "elapsed_seconds": 0.002980042001581751,
+      "global_second_moment": [
+        67,
+        11
+      ],
+      "relative_second_moment_change": [
+        62,
+        1005
+      ],
+      "relative_second_moment_change_float": 0.061691542288557215,
+      "source_counts": "round4/marked_counts/counts_p13_marks_0_1_2.json",
+      "source_counts_sha256": "2afc544af8cb78c7ceae7217330445a470ee9a7fb83615890b33541cded16d2a"
+    },
+    {
+      "q": 17,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -340,
+        143
+      ],
+      "second_moment": [
+        139792,
+        1001
+      ],
+      "variance": [
+        19181056,
+        143143
+      ],
+      "mean_float": -2.3776223776223775,
+      "second_moment_float": 139.65234765234766,
+      "variance_float": 133.99925948177696,
+      "cell_count": 10,
+      "relation_count": 149,
+      "canonical_relation_classes": 20,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        3692,
+        5837,
+        18154
+      ],
+      "max_aggregate_integer_bits": 15,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 42,
+        "cell_pairs_with_different_coefficients": 24,
+        "max_pair_coefficient_gap": [
+          48,
+          1001
+        ]
+      },
+      "elapsed_seconds": 0.00845770799787715,
+      "global_second_moment": [
+        101936,
+        715
+      ],
+      "relative_second_moment_change": [
+        -912,
+        44597
+      ],
+      "relative_second_moment_change_float": -0.020449806040765073,
+      "source_counts": "round4/marked_counts/counts_p17_marks_0_1_2.json",
+      "source_counts_sha256": "d5eb0e1ce33da833225d599c77ef327c16cff90635536b1208fd9d14cd750e52"
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 6,
+      "mean": [
+        -6,
+        4753
+      ],
+      "second_moment": [
+        64385,
+        679
+      ],
+      "variance": [
+        2142153299,
+        22591009
+      ],
+      "mean_float": -0.0012623606143488324,
+      "second_moment_float": 94.82326951399116,
+      "variance_float": 94.82326792043685,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14422240
+      ],
+      "max_aggregate_integer_bits": 24,
+      "n_equals_degree_cell_only_shortcut_checked": true,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 0,
+        "max_pair_coefficient_gap": [
+          0,
+          1
+        ]
+      },
+      "elapsed_seconds": 0.009358915995107964,
+      "global_second_moment": [
+        303625,
+        3201
+      ],
+      "relative_second_moment_change": [
+        -134,
+        425075
+      ],
+      "relative_second_moment_change_float": -0.000315238487325766,
+      "source_counts": "round4/marked_counts/counts_p101_marks_0_1_2.json",
+      "source_counts_sha256": "d7a2ef6ec5081e5c4c1dc313d51590a5ab9837182c85e0515ddebf8b84745d32"
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429389200,
+        606347
+      ],
+      "variance": [
+        18440536966352,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2357.37820093115,
+      "variance_float": 2357.3765259069164,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14422240,
+        890529304,
+        11986534224
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.1103627080010483,
+      "global_second_moment": [
+        15674913040,
+        6669817
+      ],
+      "relative_second_moment_change": [
+        604602,
+        195936413
+      ],
+      "relative_second_moment_change_float": 0.0030857051568051316,
+      "source_counts": "round4/marked_counts/counts_p101_marks_0_1_2.json",
+      "source_counts_sha256": "d7a2ef6ec5081e5c4c1dc313d51590a5ab9837182c85e0515ddebf8b84745d32"
+    },
+    {
+      "q": 1297,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 6,
+      "mean": [
+        -1291,
+        90070811
+      ],
+      "second_moment": [
+        116280168923,
+        90070811
+      ],
+      "variance": [
+        10473449118109939872,
+        8112750994197721
+      ],
+      "mean_float": -1.4333167267695635e-05,
+      "second_moment_float": 1290.98614336891,
+      "variance_float": 1290.9861433687047,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 23,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        465120675692
+      ],
+      "max_aggregate_integer_bits": 39,
+      "n_equals_degree_cell_only_shortcut_checked": true,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 0,
+        "max_pair_coefficient_gap": [
+          0,
+          1
+        ]
+      },
+      "elapsed_seconds": 0.009542334009893239,
+      "global_second_moment": [
+        144111749,
+        111629
+      ],
+      "relative_second_moment_change": [
+        -53666712,
+        30116617417769
+      ],
+      "relative_second_moment_change_float": -1.781963467395787e-06,
+      "source_counts": "round4/marked_counts/counts_p1297_marks_0_1_2.json",
+      "source_counts_sha256": "4bb806c158d0edb56dee6c8689a90e9a6d17cf0cec0974df1adb0440a1d4eae8"
+    },
+    {
+      "q": 1297,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -35387980,
+        116281417001
+      ],
+      "second_moment": [
+        178925908788360368,
+        5000100931043
+      ],
+      "variance": [
+        20805758212048373313945159168,
+        581418821409699428862043
+      ],
+      "mean_float": -0.0003043304847213521,
+      "second_moment_float": 35784.45940510988,
+      "variance_float": 35784.45940501727,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 23,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        465120675692,
+        444797282018061,
+        112463297881513578
+      ],
+      "max_aggregate_integer_bits": 57,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1569488,
+          5000100931043
+        ]
+      },
+      "elapsed_seconds": 0.057118459008052014,
+      "global_second_moment": [
+        102565241041332752,
+        2863834898585
+      ],
+      "relative_second_moment_change": [
+        -1704983156488176,
+        2070535803521904931
+      ],
+      "relative_second_moment_change_float": -0.0008234502168897841,
+      "source_counts": "round4/marked_counts/counts_p1297_marks_0_1_2.json",
+      "source_counts_sha256": "4bb806c158d0edb56dee6c8689a90e9a6d17cf0cec0974df1adb0440a1d4eae8"
+    },
+    {
+      "q": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 16,
+      "degree": 6,
+      "mean": [
+        -1756512087599896,
+        61484456937095868591
+      ],
+      "second_moment": [
+        175926340022841862436847159039159525328121368983928371392,
+        335553012624541278409331527864036313661419211435
+      ],
+      "variance": [
+        32450206431705917642576069569395611382199788865355414051104390338736958734336,
+        61893884264479183728790776504885592959443870114229929356366813614255
+      ],
+      "mean_float": -2.8568392323883838e-05,
+      "second_moment_float": 524287767.96496916,
+      "variance_float": 524287767.96496916,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 23,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        3073800608612155292,
+        151035038496886756169209,
+        1978679955886901344394559058,
+        7194151043083499768195507286165,
+        -43183368199960927321014019094432,
+        161996982200320562457250143532242,
+        -360106514427882478872059895100564,
+        432287438513839742660905705340602,
+        -97276849252670891319119551226080,
+        147568550699506248279682684653999372
+      ],
+      "max_aggregate_integer_bits": 117,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          121723712155908999186196514272950714656,
+          335553012624541278409331527864036313661419211435
+        ]
+      },
+      "elapsed_seconds": 0.5830939169973135,
+      "global_second_moment": [
+        1570654335279847818881404165180181999680,
+        2995762256359907166996407354457
+      ],
+      "relative_second_moment_change": [
+        -294275650894525043698305073829868433251082813655547904,
+        36029458942516336571289881328921703282115857071444111232825
+      ],
+      "relative_second_moment_change_float": -8.16764002379361e-06,
+      "source_counts": "round4/marked_counts/counts_p65537_marks_0_1_2.json",
+      "source_counts_sha256": "b50c4b9903944cdfa936b730c0fd98da64d6f7ea3a12f25c120d6c366e0e7dab"
+    },
+    {
+      "q": 1000033,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 31,
+      "degree": 6,
+      "mean": [
+        -40566196461225241935,
+        3663512848795656527359291
+      ],
+      "second_moment": [
+        75085644377020310247522705545626805610622574957875978403062205442482475,
+        101992164005182265317180108090425454369982782034459699935891
+      ],
+      "variance": [
+        275077222935315245608254332909473181670307006293396915679961371284900742233322590622782928896000,
+        373649603309459098601456718941148417395457144714361214782743137739964215760223213281
+      ],
+      "mean_float": -1.1073032396914065e-05,
+      "second_moment_float": 736190325103.8499,
+      "variance_float": 736190325103.8499,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 23,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        166685667477182429118844,
+        125015625775269105569371327281,
+        25003125161754517364927679471696354,
+        1388980554715051832218352944429549289853,
+        -8334116686041292179114880793510143739808,
+        31253687659002555906094835950618509795594,
+        -69454069973460320583177309825621693449220,
+        83346900406505883572897137527767875793970,
+        -18753206475758510809900170620872190780256,
+        434115111896137478458956636046198210122457788
+      ],
+      "max_aggregate_integer_bits": 149,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1500006737917068320460847687425656756941374341604,
+          509960820025911326585900540452127271849913910172298499679455
+        ]
+      },
+      "elapsed_seconds": 0.4751609590020962,
+      "global_second_moment": [
+        358056916390196185986082062386825083020300791753775,
+        486364523477918688799555138175393799799
+      ],
+      "relative_second_moment_change": [
+        -55672788977322602028100550366767126122362441972260639016228970762240,
+        333724375814993412332114822542766900285332807952218294742384351210531615381
+      ],
+      "relative_second_moment_change_float": -1.6682266268792393e-07,
+      "source_counts": "round4/marked_counts/counts_p1000033_marks_0_1_2.json",
+      "source_counts_sha256": "44bc0f9041098c0955f25a2ea263c621cbe1aa3947007185030a38c79eea6303"
+    }
+  ],
+  "affine_and_low_mark_controls": [
+    {
+      "q": 101,
+      "marks": [
+        0
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -140,
+        3201
+      ],
+      "second_moment": [
+        15674913040,
+        6669817
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "mean_float": -0.04373633239612621,
+      "second_moment_float": 2350.1264037678993,
+      "variance_float": 2350.124490901128,
+      "cell_count": 3,
+      "relation_count": 15,
+      "canonical_relation_classes": 6,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7141260000,
+        65681546000,
+        -439999928000
+      ],
+      "max_aggregate_integer_bits": 39,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 4,
+        "cell_pairs_with_different_coefficients": 2,
+        "max_pair_coefficient_gap": [
+          989,
+          71462325
+        ]
+      },
+      "elapsed_seconds": 0.11960879199614283
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -140,
+        3201
+      ],
+      "second_moment": [
+        15674913040,
+        6669817
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "mean_float": -0.04373633239612621,
+      "second_moment_float": 2350.1264037678993,
+      "variance_float": 2350.124490901128,
+      "cell_count": 6,
+      "relation_count": 56,
+      "canonical_relation_classes": 15,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        357063000,
+        10725089760,
+        30940658280
+      ],
+      "max_aggregate_integer_bits": 35,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 16,
+        "cell_pairs_with_different_coefficients": 10,
+        "max_pair_coefficient_gap": [
+          6665,
+          46688719
+        ]
+      },
+      "elapsed_seconds": 0.01923312500002794
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429389200,
+        606347
+      ],
+      "variance": [
+        18440536966352,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2357.37820093115,
+      "variance_float": 2357.3765259069164,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14422240,
+        890529304,
+        11986534224
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.0018010420026257634
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429425832,
+        606347
+      ],
+      "variance": [
+        18441009555784,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2357.4386151823956,
+      "variance_float": 2357.436940158162,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14423712,
+        890500824,
+        11986741648
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.0023547080054413527
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429802688,
+        606347
+      ],
+      "variance": [
+        18445871375040,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2358.060133883733,
+      "variance_float": 2358.0584588594998,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14436960,
+        890312600,
+        11987490256
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.0037014169938629493
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        2
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -140,
+        3201
+      ],
+      "second_moment": [
+        15674913040,
+        6669817
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "mean_float": -0.04373633239612621,
+      "second_moment_float": 2350.1264037678993,
+      "variance_float": 2350.124490901128,
+      "cell_count": 6,
+      "relation_count": 56,
+      "canonical_relation_classes": 15,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        357063000,
+        10725089760,
+        30940658280
+      ],
+      "max_aggregate_integer_bits": 35,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 16,
+        "cell_pairs_with_different_coefficients": 10,
+        "max_pair_coefficient_gap": [
+          6665,
+          46688719
+        ]
+      },
+      "elapsed_seconds": 0.0008210420055547729
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        2,
+        4
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429389200,
+        606347
+      ],
+      "variance": [
+        18440536966352,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2357.37820093115,
+      "variance_float": 2357.3765259069164,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14422240,
+        890529304,
+        11986534224
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.001817500000470318
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        4,
+        8
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429389200,
+        606347
+      ],
+      "variance": [
+        18440536966352,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2357.37820093115,
+      "variance_float": 2357.3765259069164,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14422240,
+        890529304,
+        11986534224
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.0022156670020194724
+    },
+    {
+      "q": 101,
+      "marks": [
+        1
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -140,
+        3201
+      ],
+      "second_moment": [
+        15674913040,
+        6669817
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "mean_float": -0.04373633239612621,
+      "second_moment_float": 2350.1264037678993,
+      "variance_float": 2350.124490901128,
+      "cell_count": 3,
+      "relation_count": 15,
+      "canonical_relation_classes": 6,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7141260000,
+        65681546000,
+        -439999928000
+      ],
+      "max_aggregate_integer_bits": 39,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 4,
+        "cell_pairs_with_different_coefficients": 2,
+        "max_pair_coefficient_gap": [
+          989,
+          71462325
+        ]
+      },
+      "elapsed_seconds": 0.0002445419959258288
+    },
+    {
+      "q": 101,
+      "marks": [
+        1,
+        2,
+        3
+      ],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429389200,
+        606347
+      ],
+      "variance": [
+        18440536966352,
+        7822482647
+      ],
+      "mean_float": -0.04092705991783583,
+      "second_moment_float": 2357.37820093115,
+      "variance_float": 2357.3765259069164,
+      "cell_count": 11,
+      "relation_count": 193,
+      "canonical_relation_classes": 29,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        14422240,
+        890529304,
+        11986534224
+      ],
+      "max_aggregate_integer_bits": 34,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 64,
+        "cell_pairs_with_different_coefficients": 44,
+        "max_pair_coefficient_gap": [
+          1548,
+          4244429
+        ]
+      },
+      "elapsed_seconds": 0.0018335409986320883
+    },
+    {
+      "q": 101,
+      "marks": [],
+      "n": 8,
+      "degree": 6,
+      "mean": [
+        -140,
+        3201
+      ],
+      "second_moment": [
+        15674913040,
+        6669817
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "mean_float": -0.04373633239612621,
+      "second_moment_float": 2350.1264037678993,
+      "variance_float": 2350.124490901128,
+      "cell_count": 1,
+      "relation_count": 3,
+      "canonical_relation_classes": 2,
+      "outside_union_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        120211210000,
+        -683746972000,
+        2479027830000
+      ],
+      "max_aggregate_integer_bits": 42,
+      "sign_dependence_audit": {
+        "cell_pairs_with_both_signs": 1,
+        "cell_pairs_with_different_coefficients": 0,
+        "max_pair_coefficient_gap": [
+          0,
+          1
+        ]
+      },
+      "elapsed_seconds": 0.0002366660046391189
+    }
+  ],
+  "direct_degree_and_boundary_checks": [
+    {
+      "degree": 0,
+      "n": 0,
+      "marks": [],
+      "sets": 1,
+      "mean": [
+        13,
+        1
+      ],
+      "second_moment": [
+        169,
+        1
+      ]
+    },
+    {
+      "degree": 1,
+      "n": 3,
+      "marks": [
+        0
+      ],
+      "sets": 66,
+      "mean": [
+        0,
+        1
+      ],
+      "second_moment": [
+        0,
+        1
+      ]
+    },
+    {
+      "degree": 2,
+      "n": 4,
+      "marks": [
+        0,
+        1
+      ],
+      "sets": 55,
+      "mean": [
+        -6,
+        1
+      ],
+      "second_moment": [
+        36,
+        1
+      ]
+    },
+    {
+      "degree": 3,
+      "n": 3,
+      "marks": [
+        0,
+        1
+      ],
+      "sets": 11,
+      "mean": [
+        2,
+        11
+      ],
+      "second_moment": [
+        140,
+        11
+      ]
+    },
+    {
+      "degree": 3,
+      "n": 5,
+      "marks": [
+        0,
+        1
+      ],
+      "sets": 165,
+      "mean": [
+        56,
+        165
+      ],
+      "second_moment": [
+        672,
+        11
+      ]
+    },
+    {
+      "degree": 4,
+      "n": 5,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "sets": 45,
+      "mean": [
+        19,
+        15
+      ],
+      "second_moment": [
+        173,
+        5
+      ]
+    },
+    {
+      "degree": 5,
+      "n": 6,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "sets": 120,
+      "mean": [
+        3,
+        5
+      ],
+      "second_moment": [
+        404,
+        15
+      ]
+    },
+    {
+      "degree": 6,
+      "n": 6,
+      "marks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sets": 1,
+      "mean": [
+        3,
+        1
+      ],
+      "second_moment": [
+        9,
+        1
+      ]
+    },
+    {
+      "degree": 6,
+      "n": 8,
+      "marks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "sets": 1,
+      "mean": [
+        4,
+        1
+      ],
+      "second_moment": [
+        16,
+        1
+      ]
+    },
+    {
+      "degree": 6,
+      "n": 13,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "sets": 1,
+      "mean": [
+        -260,
+        1
+      ],
+      "second_moment": [
+        67600,
+        1
+      ]
+    }
+  ],
+  "elapsed_seconds": 3.052008165992447,
+  "source_sha256": {
+    "conditional_moments.py": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "run_experiments.py": "c39d7881d565b67dad7a753ba69647f50dffd929daa5946a5f77536bb960611e"
+  }
+}

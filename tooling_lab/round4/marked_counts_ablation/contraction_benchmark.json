@@ -1,0 +1,92 @@
+{
+  "status": "interleaved finite runtime comparison; shared machine load not isolated",
+  "cases": [
+    {
+      "p": 65537,
+      "measurements": {
+        "full_relations": [
+          {
+            "trial": 0,
+            "wall_seconds": 1.6640518339991104,
+            "backend_seconds": 1.65342
+          },
+          {
+            "trial": 1,
+            "wall_seconds": 1.449149166001007,
+            "backend_seconds": 1.44459
+          },
+          {
+            "trial": 2,
+            "wall_seconds": 1.9427048329962417,
+            "backend_seconds": 1.938
+          }
+        ],
+        "single_Q": [
+          {
+            "trial": 0,
+            "wall_seconds": 0.06728916699648835,
+            "backend_seconds": 0.0626691
+          },
+          {
+            "trial": 1,
+            "wall_seconds": 0.07045758300228044,
+            "backend_seconds": 0.0592533
+          },
+          {
+            "trial": 2,
+            "wall_seconds": 0.04190458299126476,
+            "backend_seconds": 0.036806
+          }
+        ]
+      },
+      "median_full_wall_seconds": 1.6640518339991104,
+      "median_single_wall_seconds": 0.06728916699648835,
+      "median_wall_speedup": 24.729862298428408
+    },
+    {
+      "p": 1000033,
+      "measurements": {
+        "full_relations": [
+          {
+            "trial": 0,
+            "wall_seconds": 17.59436437500699,
+            "backend_seconds": 17.5773
+          },
+          {
+            "trial": 1,
+            "wall_seconds": 22.74299150001025,
+            "backend_seconds": 22.7285
+          },
+          {
+            "trial": 2,
+            "wall_seconds": 23.73617741599446,
+            "backend_seconds": 23.7218
+          }
+        ],
+        "single_Q": [
+          {
+            "trial": 0,
+            "wall_seconds": 3.9582899999950314,
+            "backend_seconds": 3.94545
+          },
+          {
+            "trial": 1,
+            "wall_seconds": 2.916836375006824,
+            "backend_seconds": 2.90213
+          },
+          {
+            "trial": 2,
+            "wall_seconds": 4.381602791996556,
+            "backend_seconds": 4.34915
+          }
+        ]
+      },
+      "median_full_wall_seconds": 22.74299150001025,
+      "median_single_wall_seconds": 3.9582899999950314,
+      "median_wall_speedup": 5.74566075250646
+    }
+  ],
+  "source_sha256": "079ed9be3207fc81089e9355dd77a97205a8e3cda771fb9382ed1ab39dfe8075",
+  "full_backend_sha256": "5ff7ae01559c1de1064cdeca422a151742330b652853c7c860ac0f6af408890f",
+  "single_backend_sha256": "cf1ee8e6fdacc6b3accfb0352053b50632390c9489f283b8b556826c101e1090"
+}

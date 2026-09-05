@@ -1,0 +1,1002 @@
+{
+  "status": "All finite exact checks passed; uniform theorem and weight assertions require the written source-dependent proof.",
+  "scope": "Individual necklaces at arbitrary fixed degree and length; no full spectral-aggregate or Paley conclusion.",
+  "arithmetic": "Integer Jordan-block multiplicities and original character sums; no floating-point acceptance.",
+  "limitations": "Small-field upper-bound checks with exponential constants can be vacuous. They are not evidence for the asymptotic theorem. Rank, zero-mask and normalization checks are the substantive finite checks.",
+  "rank_cases": [
+    {
+      "a": 1,
+      "depth": 40,
+      "levels": {
+        "1": {
+          "count": 1,
+          "min_rank": 2,
+          "max_rank": 2,
+          "min_jump": 1
+        },
+        "2": {
+          "count": 1,
+          "min_rank": 3,
+          "max_rank": 3,
+          "min_jump": 1
+        },
+        "3": {
+          "count": 1,
+          "min_rank": 4,
+          "max_rank": 4,
+          "min_jump": 1
+        },
+        "4": {
+          "count": 1,
+          "min_rank": 5,
+          "max_rank": 5,
+          "min_jump": 1
+        },
+        "5": {
+          "count": 1,
+          "min_rank": 6,
+          "max_rank": 6,
+          "min_jump": 1
+        },
+        "6": {
+          "count": 1,
+          "min_rank": 7,
+          "max_rank": 7,
+          "min_jump": 1
+        },
+        "7": {
+          "count": 1,
+          "min_rank": 8,
+          "max_rank": 8,
+          "min_jump": 1
+        },
+        "8": {
+          "count": 1,
+          "min_rank": 9,
+          "max_rank": 9,
+          "min_jump": 1
+        },
+        "9": {
+          "count": 1,
+          "min_rank": 10,
+          "max_rank": 10,
+          "min_jump": 1
+        },
+        "10": {
+          "count": 1,
+          "min_rank": 11,
+          "max_rank": 11,
+          "min_jump": 1
+        },
+        "11": {
+          "count": 1,
+          "min_rank": 12,
+          "max_rank": 12,
+          "min_jump": 1
+        },
+        "12": {
+          "count": 1,
+          "min_rank": 13,
+          "max_rank": 13,
+          "min_jump": 1
+        },
+        "13": {
+          "count": 1,
+          "min_rank": 14,
+          "max_rank": 14,
+          "min_jump": 1
+        },
+        "14": {
+          "count": 1,
+          "min_rank": 15,
+          "max_rank": 15,
+          "min_jump": 1
+        },
+        "15": {
+          "count": 1,
+          "min_rank": 16,
+          "max_rank": 16,
+          "min_jump": 1
+        },
+        "16": {
+          "count": 1,
+          "min_rank": 17,
+          "max_rank": 17,
+          "min_jump": 1
+        },
+        "17": {
+          "count": 1,
+          "min_rank": 18,
+          "max_rank": 18,
+          "min_jump": 1
+        },
+        "18": {
+          "count": 1,
+          "min_rank": 19,
+          "max_rank": 19,
+          "min_jump": 1
+        },
+        "19": {
+          "count": 1,
+          "min_rank": 20,
+          "max_rank": 20,
+          "min_jump": 1
+        },
+        "20": {
+          "count": 1,
+          "min_rank": 21,
+          "max_rank": 21,
+          "min_jump": 1
+        },
+        "21": {
+          "count": 1,
+          "min_rank": 22,
+          "max_rank": 22,
+          "min_jump": 1
+        },
+        "22": {
+          "count": 1,
+          "min_rank": 23,
+          "max_rank": 23,
+          "min_jump": 1
+        },
+        "23": {
+          "count": 1,
+          "min_rank": 24,
+          "max_rank": 24,
+          "min_jump": 1
+        },
+        "24": {
+          "count": 1,
+          "min_rank": 25,
+          "max_rank": 25,
+          "min_jump": 1
+        },
+        "25": {
+          "count": 1,
+          "min_rank": 26,
+          "max_rank": 26,
+          "min_jump": 1
+        },
+        "26": {
+          "count": 1,
+          "min_rank": 27,
+          "max_rank": 27,
+          "min_jump": 1
+        },
+        "27": {
+          "count": 1,
+          "min_rank": 28,
+          "max_rank": 28,
+          "min_jump": 1
+        },
+        "28": {
+          "count": 1,
+          "min_rank": 29,
+          "max_rank": 29,
+          "min_jump": 1
+        },
+        "29": {
+          "count": 1,
+          "min_rank": 30,
+          "max_rank": 30,
+          "min_jump": 1
+        },
+        "30": {
+          "count": 1,
+          "min_rank": 31,
+          "max_rank": 31,
+          "min_jump": 1
+        },
+        "31": {
+          "count": 1,
+          "min_rank": 32,
+          "max_rank": 32,
+          "min_jump": 1
+        },
+        "32": {
+          "count": 1,
+          "min_rank": 33,
+          "max_rank": 33,
+          "min_jump": 1
+        },
+        "33": {
+          "count": 1,
+          "min_rank": 34,
+          "max_rank": 34,
+          "min_jump": 1
+        },
+        "34": {
+          "count": 1,
+          "min_rank": 35,
+          "max_rank": 35,
+          "min_jump": 1
+        },
+        "35": {
+          "count": 1,
+          "min_rank": 36,
+          "max_rank": 36,
+          "min_jump": 1
+        },
+        "36": {
+          "count": 1,
+          "min_rank": 37,
+          "max_rank": 37,
+          "min_jump": 1
+        },
+        "37": {
+          "count": 1,
+          "min_rank": 38,
+          "max_rank": 38,
+          "min_jump": 1
+        },
+        "38": {
+          "count": 1,
+          "min_rank": 39,
+          "max_rank": 39,
+          "min_jump": 1
+        },
+        "39": {
+          "count": 1,
+          "min_rank": 40,
+          "max_rank": 40,
+          "min_jump": 1
+        },
+        "40": {
+          "count": 1,
+          "min_rank": 41,
+          "max_rank": 41,
+          "min_jump": 1
+        }
+      },
+      "counts": {
+        "transitions": 40,
+        "inverse_checks": 40,
+        "local_block_identities": 240,
+        "new_finite_invariant_dimensions": 0
+      },
+      "finite_boundary_witness": null
+    },
+    {
+      "a": 2,
+      "depth": 8,
+      "levels": {
+        "1": {
+          "count": 3,
+          "min_rank": 2,
+          "max_rank": 2,
+          "min_jump": 1
+        },
+        "2": {
+          "count": 9,
+          "min_rank": 3,
+          "max_rank": 4,
+          "min_jump": 1
+        },
+        "3": {
+          "count": 27,
+          "min_rank": 4,
+          "max_rank": 6,
+          "min_jump": 1
+        },
+        "4": {
+          "count": 81,
+          "min_rank": 5,
+          "max_rank": 11,
+          "min_jump": 1
+        },
+        "5": {
+          "count": 243,
+          "min_rank": 6,
+          "max_rank": 16,
+          "min_jump": 1
+        },
+        "6": {
+          "count": 729,
+          "min_rank": 7,
+          "max_rank": 28,
+          "min_jump": 1
+        },
+        "7": {
+          "count": 2187,
+          "min_rank": 8,
+          "max_rank": 40,
+          "min_jump": 1
+        },
+        "8": {
+          "count": 6561,
+          "min_rank": 9,
+          "max_rank": 69,
+          "min_jump": 1
+        }
+      },
+      "counts": {
+        "transitions": 9840,
+        "inverse_checks": 9840,
+        "local_block_identities": 88560,
+        "new_finite_invariant_dimensions": 21200
+      },
+      "finite_boundary_witness": {
+        "sequence": [
+          "A",
+          "B",
+          "A"
+        ],
+        "before": {
+          "0": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2,
+              2
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              3,
+              1
+            ]
+          ]
+        },
+        "twisted": {
+          "0": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              3
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2,
+              2
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ]
+        },
+        "after": {
+          "0": [
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "1": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              4,
+              1
+            ]
+          ]
+        },
+        "new_invariant_anchor": 0,
+        "new_invariant_dimension": 1,
+        "infinity_invariant_dimension": 0,
+        "output_rank": 6
+      }
+    },
+    {
+      "a": 3,
+      "depth": 5,
+      "levels": {
+        "1": {
+          "count": 7,
+          "min_rank": 2,
+          "max_rank": 4,
+          "min_jump": 1
+        },
+        "2": {
+          "count": 49,
+          "min_rank": 3,
+          "max_rank": 13,
+          "min_jump": 1
+        },
+        "3": {
+          "count": 343,
+          "min_rank": 4,
+          "max_rank": 40,
+          "min_jump": 1
+        },
+        "4": {
+          "count": 2401,
+          "min_rank": 5,
+          "max_rank": 121,
+          "min_jump": 1
+        },
+        "5": {
+          "count": 16807,
+          "min_rank": 6,
+          "max_rank": 364,
+          "min_jump": 1
+        }
+      },
+      "counts": {
+        "transitions": 19607,
+        "inverse_checks": 19607,
+        "local_block_identities": 235284,
+        "new_finite_invariant_dimensions": 29232
+      },
+      "finite_boundary_witness": null
+    },
+    {
+      "a": 4,
+      "depth": 4,
+      "levels": {
+        "1": {
+          "count": 15,
+          "min_rank": 2,
+          "max_rank": 4,
+          "min_jump": 1
+        },
+        "2": {
+          "count": 225,
+          "min_rank": 3,
+          "max_rank": 14,
+          "min_jump": 1
+        },
+        "3": {
+          "count": 3375,
+          "min_rank": 4,
+          "max_rank": 46,
+          "min_jump": 1
+        },
+        "4": {
+          "count": 50625,
+          "min_rank": 5,
+          "max_rank": 150,
+          "min_jump": 1
+        }
+      },
+      "counts": {
+        "transitions": 54240,
+        "inverse_checks": 54240,
+        "local_block_identities": 813600,
+        "new_finite_invariant_dimensions": 59136
+      },
+      "finite_boundary_witness": null
+    },
+    {
+      "a": 5,
+      "depth": 3,
+      "levels": {
+        "1": {
+          "count": 31,
+          "min_rank": 2,
+          "max_rank": 6,
+          "min_jump": 1
+        },
+        "2": {
+          "count": 961,
+          "min_rank": 3,
+          "max_rank": 31,
+          "min_jump": 1
+        },
+        "3": {
+          "count": 29791,
+          "min_rank": 4,
+          "max_rank": 156,
+          "min_jump": 1
+        }
+      },
+      "counts": {
+        "transitions": 30783,
+        "inverse_checks": 30783,
+        "local_block_identities": 554094,
+        "new_finite_invariant_dimensions": 19200
+      },
+      "finite_boundary_witness": null
+    }
+  ],
+  "field_cases": [
+    {
+      "p": 5,
+      "anchors": [
+        0,
+        1
+      ],
+      "endpoint_identities": 187,
+      "trace_sign_entries": 18675,
+      "literal_chain_entries": 60,
+      "zero_mask_rows": 969,
+      "orders_one_two": 12,
+      "original_literal_necklaces": 47,
+      "examples": [
+        {
+          "word": [
+            2,
+            2,
+            1
+          ],
+          "value": 6
+        },
+        {
+          "word": [
+            2,
+            3,
+            2
+          ],
+          "value": 6
+        },
+        {
+          "word": [
+            2,
+            2,
+            2
+          ],
+          "value": -24
+        },
+        {
+          "word": [
+            2,
+            3,
+            1
+          ],
+          "value": -3
+        },
+        {
+          "word": [
+            3,
+            1,
+            2
+          ],
+          "value": -3
+        },
+        {
+          "word": [
+            1,
+            1,
+            3
+          ],
+          "value": 6
+        },
+        {
+          "word": [
+            2,
+            3,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "word": [
+            3,
+            1,
+            2
+          ],
+          "value": -3
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "anchors": [
+        0,
+        1,
+        2
+      ],
+      "endpoint_identities": 503,
+      "trace_sign_entries": 26575,
+      "literal_chain_entries": 280,
+      "zero_mask_rows": 1832,
+      "orders_one_two": 56,
+      "original_literal_necklaces": 363,
+      "examples": [
+        {
+          "word": [
+            2,
+            5,
+            7
+          ],
+          "value": 2
+        },
+        {
+          "word": [
+            7,
+            7,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "word": [
+            3,
+            1,
+            4
+          ],
+          "value": 1
+        },
+        {
+          "word": [
+            2,
+            1,
+            4
+          ],
+          "value": -4
+        },
+        {
+          "word": [
+            1,
+            7,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "word": [
+            4,
+            5,
+            7
+          ],
+          "value": -4
+        },
+        {
+          "word": [
+            7,
+            1,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "word": [
+            4,
+            3,
+            6
+          ],
+          "value": -1
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        2,
+        5
+      ],
+      "endpoint_identities": 160,
+      "trace_sign_entries": 121680,
+      "literal_chain_entries": 0,
+      "zero_mask_rows": 1218,
+      "orders_one_two": 56,
+      "original_literal_necklaces": 0,
+      "examples": [
+        {
+          "word": [
+            7,
+            7,
+            1
+          ],
+          "value": 76
+        },
+        {
+          "word": [
+            1,
+            1,
+            3
+          ],
+          "value": 10
+        },
+        {
+          "word": [
+            7,
+            2,
+            6
+          ],
+          "value": -76
+        },
+        {
+          "word": [
+            7,
+            6,
+            7
+          ],
+          "value": 62
+        },
+        {
+          "word": [
+            3,
+            3,
+            5
+          ],
+          "value": 14
+        },
+        {
+          "word": [
+            2,
+            5,
+            1
+          ],
+          "value": 29
+        },
+        {
+          "word": [
+            5,
+            6,
+            2
+          ],
+          "value": 27
+        },
+        {
+          "word": [
+            4,
+            6,
+            4
+          ],
+          "value": -10
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        1,
+        3,
+        7,
+        10
+      ],
+      "endpoint_identities": 160,
+      "trace_sign_entries": 208080,
+      "literal_chain_entries": 0,
+      "zero_mask_rows": 1559,
+      "orders_one_two": 240,
+      "original_literal_necklaces": 0,
+      "examples": [
+        {
+          "word": [
+            4,
+            10,
+            9
+          ],
+          "value": -60
+        },
+        {
+          "word": [
+            3,
+            6,
+            15
+          ],
+          "value": -27
+        },
+        {
+          "word": [
+            10,
+            8,
+            11
+          ],
+          "value": -40
+        },
+        {
+          "word": [
+            10,
+            2,
+            10
+          ],
+          "value": 28
+        },
+        {
+          "word": [
+            1,
+            15,
+            14
+          ],
+          "value": -11
+        },
+        {
+          "word": [
+            8,
+            5,
+            9
+          ],
+          "value": -73
+        },
+        {
+          "word": [
+            4,
+            4,
+            12
+          ],
+          "value": -30
+        },
+        {
+          "word": [
+            8,
+            9,
+            14
+          ],
+          "value": -26
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        0,
+        1,
+        4
+      ],
+      "endpoint_identities": 160,
+      "trace_sign_entries": 605520,
+      "literal_chain_entries": 0,
+      "zero_mask_rows": 1243,
+      "orders_one_two": 56,
+      "original_literal_necklaces": 0,
+      "examples": [
+        {
+          "word": [
+            2,
+            3,
+            1
+          ],
+          "value": -227
+        },
+        {
+          "word": [
+            6,
+            4,
+            4
+          ],
+          "value": 42
+        },
+        {
+          "word": [
+            2,
+            1,
+            1
+          ],
+          "value": -42
+        },
+        {
+          "word": [
+            1,
+            4,
+            5
+          ],
+          "value": -227
+        },
+        {
+          "word": [
+            3,
+            7,
+            7
+          ],
+          "value": -126
+        },
+        {
+          "word": [
+            1,
+            2,
+            5
+          ],
+          "value": 123
+        },
+        {
+          "word": [
+            5,
+            3,
+            3
+          ],
+          "value": -142
+        },
+        {
+          "word": [
+            7,
+            2,
+            7
+          ],
+          "value": 356
+        }
+      ]
+    }
+  ],
+  "rank_totals": {
+    "transitions": 114510,
+    "inverse_checks": 114510,
+    "local_block_identities": 1691778,
+    "new_finite_invariant_dimensions": 128768
+  },
+  "field_totals": {
+    "endpoint_identities": 1170,
+    "trace_sign_entries": 980530,
+    "literal_chain_entries": 340,
+    "zero_mask_rows": 6821,
+    "orders_one_two": 420,
+    "original_literal_necklaces": 410
+  },
+  "input_sha256": {
+    "research/parallel9-all-degrees-2026-09-05.md": "1a040da60d18bb72e626a17b4ba2c57d7ae645bce5878f508cf5ababd689fb1c",
+    "experiments/parallel9_all_degrees_2026_09_05.py": "d3762e761172d843138c7c0cead41669d48a730fd8608de83676a352f79ccabd",
+    "sources/katz-rigid-local-systems.pdf": "ca6eb8d5d9e21076dda4e154e83dfa2821f586d6ccbe8c8f1b371b4352f753d1",
+    "sources/bbd-faisceaux-pervers.pdf": "6e976a78e7607c3026d006d319eea06df44ef75f80f35d9e475b3a8fbc1288d9",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+    "sources/kunisky-2303.16475v1.html": "b16c8771a78741f54683e5a8e3acfe2fb9fee03e859ba55f49f9d5ee652a06da"
+  }
+}

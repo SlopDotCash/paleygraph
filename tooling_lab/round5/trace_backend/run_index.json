@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "p": 13,
+      "file": "inventory_p13.json",
+      "bins": 7,
+      "third_moment": [
+        -173,
+        33
+      ],
+      "backend_seconds": 0.00132858,
+      "wall_seconds": 0.30970245800563134
+    },
+    {
+      "p": 17,
+      "file": "inventory_p17.json",
+      "bins": 7,
+      "third_moment": [
+        17,
+        91
+      ],
+      "backend_seconds": 0.00019475,
+      "wall_seconds": 0.01987812500738073
+    },
+    {
+      "p": 29,
+      "file": "inventory_p29.json",
+      "bins": 10,
+      "third_moment": [
+        271,
+        117
+      ],
+      "backend_seconds": 0.00121767,
+      "wall_seconds": 0.018082333001075312
+    },
+    {
+      "p": 101,
+      "file": "inventory_p101.json",
+      "bins": 17,
+      "third_moment": [
+        65705,
+        14259
+      ],
+      "backend_seconds": 0.000515292,
+      "wall_seconds": 0.011980417009908706
+    },
+    {
+      "p": 1297,
+      "file": "inventory_p1297.json",
+      "bins": 63,
+      "third_moment": [
+        111595286003,
+        23328340049
+      ],
+      "backend_seconds": 0.00222121,
+      "wall_seconds": 0.011281874991254881
+    },
+    {
+      "p": 65537,
+      "file": "inventory_p65537.json",
+      "bins": 448,
+      "third_moment": [
+        253618616559703373,
+        51233137428508399
+      ],
+      "backend_seconds": 0.399504,
+      "wall_seconds": 0.40851804199337494
+    },
+    {
+      "p": 1000033,
+      "file": "inventory_p1000033.json",
+      "bins": 1750,
+      "third_moment": [
+        41714776856822242424687,
+        8334316710159187856293
+      ],
+      "backend_seconds": 6.06258,
+      "wall_seconds": 6.078352750002523
+    }
+  ],
+  "runner_sha256": "d252c2ecbaef12498dc989ca328a277863a0c08bfaa67516519acc24af67b08c"
+}

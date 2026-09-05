@@ -1,0 +1,541 @@
+{
+  "source_sha256": "91deaef6a5b941d4839386616cc15070c5a87feeb1350129f1c458cd68bd5590",
+  "claim": "Obstruction to using only coset autocorrelations; not counterexamples to Paley.",
+  "exact_synthetic_examples": [
+    {
+      "p": 1049,
+      "n": 8,
+      "m": 131,
+      "quartic_window": true,
+      "a": "9/131",
+      "D": "985/131",
+      "spike": "1039/131",
+      "coordinate_formula": "v_0=n-a; v_j=-a+sqrt(D)*Legendre(j,m) for j!=0",
+      "nonprincipal_coordinate_squared_scale": "985/131",
+      "all_coordinates_bounded_by_n": true,
+      "sum": -1,
+      "autocorrelation_zero_shift": 1041,
+      "autocorrelation_other_shifts": -8,
+      "direct_character_autocorrelations_checked": 131,
+      "nonlinear_residual_at_zero": {
+        "rational_coefficient": "950486/17161",
+        "sqrt_D_coefficient": -1,
+        "squared_nonzero_check": "901209266561/294499921"
+      },
+      "actual_period_kernel": {
+        "p": 1049,
+        "n": 8,
+        "m": 131,
+        "primitive_root": 3,
+        "subgroup_generator": 461,
+        "kernel": [
+          [
+            36,
+            2
+          ],
+          [
+            72,
+            1
+          ],
+          [
+            76,
+            2
+          ],
+          [
+            91,
+            2
+          ]
+        ],
+        "kernel_at_zero": 0,
+        "kernel_square_sum": 13,
+        "nonzero_kernel_size": 4,
+        "kernel_multiplicity_histogram": {
+          "1": 1,
+          "2": 3
+        },
+        "energy2": 168,
+        "full_group_ring_identity_checked": true
+      }
+    },
+    {
+      "p": 17393,
+      "n": 16,
+      "m": 1087,
+      "quartic_window": true,
+      "a": "17/1087",
+      "D": "17137/1087",
+      "spike": "17375/1087",
+      "coordinate_formula": "v_0=n-a; v_j=-a+sqrt(D)*Legendre(j,m) for j!=0",
+      "nonprincipal_coordinate_squared_scale": "17137/1087",
+      "all_coordinates_bounded_by_n": true,
+      "sum": -1,
+      "autocorrelation_zero_shift": 17377,
+      "autocorrelation_other_shifts": -16,
+      "direct_character_autocorrelations_checked": 1087,
+      "nonlinear_residual_at_zero": {
+        "rational_coefficient": "283262706/1181569",
+        "sqrt_D_coefficient": 3,
+        "squared_nonzero_check": "80039669065818237/1396105301761"
+      },
+      "actual_period_kernel": {
+        "p": 17393,
+        "n": 16,
+        "m": 1087,
+        "primitive_root": 3,
+        "subgroup_generator": 4305,
+        "kernel": [
+          [
+            74,
+            2
+          ],
+          [
+            126,
+            2
+          ],
+          [
+            412,
+            2
+          ],
+          [
+            742,
+            2
+          ],
+          [
+            749,
+            2
+          ],
+          [
+            797,
+            1
+          ],
+          [
+            868,
+            2
+          ],
+          [
+            942,
+            2
+          ]
+        ],
+        "kernel_at_zero": 0,
+        "kernel_square_sum": 29,
+        "nonzero_kernel_size": 8,
+        "kernel_multiplicity_histogram": {
+          "1": 1,
+          "2": 7
+        },
+        "energy2": 720,
+        "full_group_ring_identity_checked": true
+      }
+    },
+    {
+      "p": 263009,
+      "n": 32,
+      "m": 8219,
+      "quartic_window": true,
+      "a": "33/8219",
+      "D": "261985/8219",
+      "spike": "262975/8219",
+      "coordinate_formula": "v_0=n-a; v_j=-a+sqrt(D)*Legendre(j,m) for j!=0",
+      "nonprincipal_coordinate_squared_scale": "261985/8219",
+      "all_coordinates_bounded_by_n": true,
+      "sum": -1,
+      "autocorrelation_zero_shift": 262977,
+      "autocorrelation_other_shifts": -32,
+      "direct_character_autocorrelations_checked": 0,
+      "nonlinear_residual_at_zero": {
+        "rational_coefficient": "67002595910/67551961",
+        "sqrt_D_coefficient": -11,
+        "squared_nonzero_check": "4471747612676528448185/4563267434945521"
+      },
+      "actual_period_kernel": {
+        "p": 263009,
+        "n": 32,
+        "m": 8219,
+        "primitive_root": 3,
+        "subgroup_generator": 236070,
+        "kernel": [
+          [
+            1730,
+            2
+          ],
+          [
+            1977,
+            2
+          ],
+          [
+            2216,
+            2
+          ],
+          [
+            2297,
+            2
+          ],
+          [
+            2838,
+            2
+          ],
+          [
+            3345,
+            2
+          ],
+          [
+            3570,
+            2
+          ],
+          [
+            4027,
+            2
+          ],
+          [
+            4432,
+            1
+          ],
+          [
+            4778,
+            2
+          ],
+          [
+            5322,
+            2
+          ],
+          [
+            5735,
+            2
+          ],
+          [
+            6642,
+            2
+          ],
+          [
+            7011,
+            2
+          ],
+          [
+            7312,
+            2
+          ],
+          [
+            7597,
+            2
+          ]
+        ],
+        "kernel_at_zero": 0,
+        "kernel_square_sum": 61,
+        "nonzero_kernel_size": 16,
+        "kernel_multiplicity_histogram": {
+          "1": 1,
+          "2": 15
+        },
+        "energy2": 2976,
+        "full_group_ring_identity_checked": true
+      }
+    },
+    {
+      "p": 4201409,
+      "n": 64,
+      "m": 65647,
+      "quartic_window": true,
+      "a": "65/65647",
+      "D": "4197313/65647",
+      "spike": "4201343/65647",
+      "coordinate_formula": "v_0=n-a; v_j=-a+sqrt(D)*Legendre(j,m) for j!=0",
+      "nonprincipal_coordinate_squared_scale": "4197313/65647",
+      "all_coordinates_bounded_by_n": true,
+      "sum": -1,
+      "autocorrelation_zero_shift": 4201345,
+      "autocorrelation_other_shifts": -64,
+      "direct_character_autocorrelations_checked": 0,
+      "nonlinear_residual_at_zero": {
+        "rational_coefficient": "17375741997138/4309528609",
+        "sqrt_D_coefficient": -19,
+        "squared_nonzero_check": "301487739833070489472066205/18572036831789474881"
+      },
+      "actual_period_kernel": {
+        "p": 4201409,
+        "n": 64,
+        "m": 65647,
+        "primitive_root": 3,
+        "subgroup_generator": 2629242,
+        "kernel": [
+          [
+            2142,
+            2
+          ],
+          [
+            3616,
+            2
+          ],
+          [
+            5317,
+            2
+          ],
+          [
+            6326,
+            2
+          ],
+          [
+            9503,
+            2
+          ],
+          [
+            12927,
+            2
+          ],
+          [
+            13990,
+            2
+          ],
+          [
+            14271,
+            2
+          ],
+          [
+            14820,
+            2
+          ],
+          [
+            17530,
+            2
+          ],
+          [
+            19004,
+            2
+          ],
+          [
+            26235,
+            2
+          ],
+          [
+            26589,
+            2
+          ],
+          [
+            26592,
+            2
+          ],
+          [
+            26734,
+            2
+          ],
+          [
+            28731,
+            2
+          ],
+          [
+            30208,
+            2
+          ],
+          [
+            32994,
+            2
+          ],
+          [
+            33153,
+            2
+          ],
+          [
+            33721,
+            2
+          ],
+          [
+            33770,
+            2
+          ],
+          [
+            35401,
+            1
+          ],
+          [
+            42993,
+            2
+          ],
+          [
+            44458,
+            2
+          ],
+          [
+            50524,
+            2
+          ],
+          [
+            55920,
+            2
+          ],
+          [
+            56942,
+            2
+          ],
+          [
+            58491,
+            2
+          ],
+          [
+            58611,
+            2
+          ],
+          [
+            58729,
+            2
+          ],
+          [
+            64817,
+            2
+          ],
+          [
+            65079,
+            2
+          ]
+        ],
+        "kernel_at_zero": 0,
+        "kernel_square_sum": 125,
+        "nonzero_kernel_size": 32,
+        "kernel_multiplicity_histogram": {
+          "1": 1,
+          "2": 31
+        },
+        "energy2": 12096,
+        "full_group_ring_identity_checked": true
+      }
+    }
+  ],
+  "original_resonant_example": {
+    "p": 6700417,
+    "n": 64,
+    "m": 104694,
+    "primitive_root": 5,
+    "subgroup_generator": 2,
+    "kernel": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5668,
+        2
+      ],
+      [
+        10312,
+        2
+      ],
+      [
+        17693,
+        2
+      ],
+      [
+        19134,
+        4
+      ],
+      [
+        19135,
+        2
+      ],
+      [
+        35287,
+        2
+      ],
+      [
+        36609,
+        2
+      ],
+      [
+        37578,
+        2
+      ],
+      [
+        38268,
+        2
+      ],
+      [
+        43739,
+        2
+      ],
+      [
+        46921,
+        2
+      ],
+      [
+        51745,
+        2
+      ],
+      [
+        52259,
+        2
+      ],
+      [
+        52347,
+        2
+      ],
+      [
+        54194,
+        2
+      ],
+      [
+        56589,
+        2
+      ],
+      [
+        58770,
+        2
+      ],
+      [
+        62874,
+        2
+      ],
+      [
+        66225,
+        2
+      ],
+      [
+        78588,
+        2
+      ],
+      [
+        84876,
+        2
+      ],
+      [
+        87002,
+        2
+      ],
+      [
+        90527,
+        2
+      ],
+      [
+        94167,
+        2
+      ],
+      [
+        96845,
+        2
+      ],
+      [
+        101512,
+        2
+      ],
+      [
+        102245,
+        2
+      ],
+      [
+        102513,
+        2
+      ]
+    ],
+    "kernel_at_zero": 3,
+    "kernel_square_sum": 137,
+    "nonzero_kernel_size": 30,
+    "kernel_multiplicity_histogram": {
+      "2": 28,
+      "3": 1,
+      "4": 1
+    },
+    "energy2": 12864,
+    "full_group_ring_identity_checked": true
+  }
+}

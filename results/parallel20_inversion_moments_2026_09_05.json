@@ -1,0 +1,2033 @@
+{
+  "status": "Exact inversion, relation removal, signed completion and moment transfer passed. Uniform SS-B* and Paley remain unproved.",
+  "arithmetic": "Integer finite-field, polynomial and moment calculations, rational threshold polynomials and exponent comparisons. No floating-point acceptance.",
+  "counts": {
+    "pointwise_inversion_rows": 112762,
+    "corrected_moment_identities": 20636,
+    "inversion_cases": 5159,
+    "complete_pole_candidates": 13168,
+    "complete_pole_sets": 1319,
+    "rational_polynomial_equivalences": 646347,
+    "nonzero_relation_polynomials": 56256,
+    "completion_extensions": 88,
+    "completion_minimal_energies": 80,
+    "signed_indicator_coordinates": 728,
+    "unsigned_completion_set_moments": 2196,
+    "signed_moment_transfer_checks": 408,
+    "signed_patterns": 102,
+    "complete_original_to_relation_free_transfers": 128,
+    "all_k_shifted_polynomial_certificates": 22,
+    "SS_B_star_exponent_checks": 4,
+    "admissible_relation_order_pairs": 240
+  },
+  "exhaustive_pole_families": [
+    {
+      "p": 5,
+      "h": 2,
+      "all_nonempty_sets_through_size": 3,
+      "count": 25
+    },
+    {
+      "p": 7,
+      "h": 2,
+      "all_nonempty_sets_through_size": 3,
+      "count": 63
+    },
+    {
+      "p": 13,
+      "h": 2,
+      "all_nonempty_sets_through_size": 3,
+      "count": 377
+    },
+    {
+      "p": 7,
+      "h": 3,
+      "all_nonempty_sets_through_size": 3,
+      "count": 63
+    },
+    {
+      "p": 13,
+      "h": 3,
+      "all_nonempty_sets_through_size": 3,
+      "count": 377
+    },
+    {
+      "p": 13,
+      "h": 4,
+      "all_nonempty_sets_through_size": 3,
+      "count": 377
+    }
+  ],
+  "all_poles_bad_without_size_condition": {
+    "p": 5,
+    "h": 2,
+    "C": [
+      0,
+      1,
+      2
+    ],
+    "bad_poles": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bound": 33
+  },
+  "transfer_examples": [
+    {
+      "p": 5,
+      "h": 2,
+      "k": 1,
+      "C": [
+        0
+      ],
+      "pole": 1,
+      "inverted_support": [
+        4
+      ],
+      "signs": [
+        1
+      ],
+      "filler": [
+        0
+      ],
+      "bad_pole_bound": 1,
+      "extension_bound": 3,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 2,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 3,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 4,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "h": 2,
+      "k": 1,
+      "C": [
+        0
+      ],
+      "pole": 1,
+      "inverted_support": [
+        4
+      ],
+      "signs": [
+        1
+      ],
+      "filler": [
+        0
+      ],
+      "bad_pole_bound": 1,
+      "extension_bound": 3,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 2,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 3,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 4,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "h": 2,
+      "k": 1,
+      "C": [
+        1
+      ],
+      "pole": 0,
+      "inverted_support": [
+        1
+      ],
+      "signs": [
+        1
+      ],
+      "filler": [
+        0
+      ],
+      "bad_pole_bound": 1,
+      "extension_bound": 3,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 2,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 3,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 4,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "h": 2,
+      "k": 1,
+      "C": [
+        1
+      ],
+      "pole": 0,
+      "inverted_support": [
+        1
+      ],
+      "signs": [
+        1
+      ],
+      "filler": [
+        0
+      ],
+      "bad_pole_bound": 1,
+      "extension_bound": 3,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 2,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 3,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        },
+        {
+          "r": 4,
+          "signed_moment": 4,
+          "maximum_unsigned_completion_moment": 4,
+          "original_unsigned_moment": 4
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "h": 2,
+      "k": 2,
+      "C": [
+        0,
+        1
+      ],
+      "pole": 2,
+      "inverted_support": [
+        20,
+        40
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "filler": [
+        1,
+        2
+      ],
+      "bad_pole_bound": 8,
+      "extension_bound": 39,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 78,
+          "maximum_unsigned_completion_moment": 78,
+          "original_unsigned_moment": 78
+        },
+        {
+          "r": 2,
+          "signed_moment": 306,
+          "maximum_unsigned_completion_moment": 306,
+          "original_unsigned_moment": 306
+        },
+        {
+          "r": 3,
+          "signed_moment": 1218,
+          "maximum_unsigned_completion_moment": 1218,
+          "original_unsigned_moment": 1218
+        },
+        {
+          "r": 4,
+          "signed_moment": 4866,
+          "maximum_unsigned_completion_moment": 4866,
+          "original_unsigned_moment": 4866
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "h": 2,
+      "k": 2,
+      "C": [
+        19,
+        40
+      ],
+      "pole": 0,
+      "inverted_support": [
+        13,
+        40
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        2
+      ],
+      "bad_pole_bound": 8,
+      "extension_bound": 39,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 82,
+          "maximum_unsigned_completion_moment": 78,
+          "original_unsigned_moment": 78
+        },
+        {
+          "r": 2,
+          "signed_moment": 322,
+          "maximum_unsigned_completion_moment": 306,
+          "original_unsigned_moment": 306
+        },
+        {
+          "r": 3,
+          "signed_moment": 1282,
+          "maximum_unsigned_completion_moment": 1218,
+          "original_unsigned_moment": 1218
+        },
+        {
+          "r": 4,
+          "signed_moment": 5122,
+          "maximum_unsigned_completion_moment": 4866,
+          "original_unsigned_moment": 4866
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "h": 2,
+      "k": 2,
+      "C": [
+        6,
+        25
+      ],
+      "pole": 0,
+      "inverted_support": [
+        7,
+        23
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 8,
+      "extension_bound": 39,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 82,
+          "maximum_unsigned_completion_moment": 78,
+          "original_unsigned_moment": 78
+        },
+        {
+          "r": 2,
+          "signed_moment": 322,
+          "maximum_unsigned_completion_moment": 306,
+          "original_unsigned_moment": 306
+        },
+        {
+          "r": 3,
+          "signed_moment": 1282,
+          "maximum_unsigned_completion_moment": 1218,
+          "original_unsigned_moment": 1218
+        },
+        {
+          "r": 4,
+          "signed_moment": 5122,
+          "maximum_unsigned_completion_moment": 4866,
+          "original_unsigned_moment": 4866
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "h": 2,
+      "k": 2,
+      "C": [
+        13,
+        18
+      ],
+      "pole": 0,
+      "inverted_support": [
+        19,
+        16
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 8,
+      "extension_bound": 39,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 82,
+          "maximum_unsigned_completion_moment": 78,
+          "original_unsigned_moment": 78
+        },
+        {
+          "r": 2,
+          "signed_moment": 322,
+          "maximum_unsigned_completion_moment": 306,
+          "original_unsigned_moment": 306
+        },
+        {
+          "r": 3,
+          "signed_moment": 1282,
+          "maximum_unsigned_completion_moment": 1218,
+          "original_unsigned_moment": 1218
+        },
+        {
+          "r": 4,
+          "signed_moment": 5122,
+          "maximum_unsigned_completion_moment": 4866,
+          "original_unsigned_moment": 4866
+        }
+      ]
+    },
+    {
+      "p": 157,
+      "h": 2,
+      "k": 3,
+      "C": [
+        0,
+        1,
+        2
+      ],
+      "pole": 3,
+      "inverted_support": [
+        52,
+        78,
+        156
+      ],
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "filler": [
+        1,
+        2,
+        6
+      ],
+      "bad_pole_bound": 33,
+      "extension_bound": 155,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 470,
+          "maximum_unsigned_completion_moment": 462,
+          "original_unsigned_moment": 462
+        },
+        {
+          "r": 2,
+          "signed_moment": 3290,
+          "maximum_unsigned_completion_moment": 3210,
+          "original_unsigned_moment": 3210
+        },
+        {
+          "r": 3,
+          "signed_moment": 28610,
+          "maximum_unsigned_completion_moment": 27882,
+          "original_unsigned_moment": 27882
+        },
+        {
+          "r": 4,
+          "signed_moment": 256250,
+          "maximum_unsigned_completion_moment": 249690,
+          "original_unsigned_moment": 249690
+        }
+      ]
+    },
+    {
+      "p": 157,
+      "h": 2,
+      "k": 3,
+      "C": [
+        36,
+        76,
+        93
+      ],
+      "pole": 0,
+      "inverted_support": [
+        48,
+        31,
+        130
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "filler": [
+        0,
+        1,
+        5
+      ],
+      "bad_pole_bound": 33,
+      "extension_bound": 155,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 462,
+          "maximum_unsigned_completion_moment": 462,
+          "original_unsigned_moment": 462
+        },
+        {
+          "r": 2,
+          "signed_moment": 3162,
+          "maximum_unsigned_completion_moment": 3210,
+          "original_unsigned_moment": 3162
+        },
+        {
+          "r": 3,
+          "signed_moment": 27282,
+          "maximum_unsigned_completion_moment": 27882,
+          "original_unsigned_moment": 27282
+        },
+        {
+          "r": 4,
+          "signed_moment": 243642,
+          "maximum_unsigned_completion_moment": 249690,
+          "original_unsigned_moment": 243642
+        }
+      ]
+    },
+    {
+      "p": 157,
+      "h": 2,
+      "k": 3,
+      "C": [
+        1,
+        25,
+        70
+      ],
+      "pole": 0,
+      "inverted_support": [
+        1,
+        44,
+        83
+      ],
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "filler": [
+        0,
+        3,
+        7
+      ],
+      "bad_pole_bound": 33,
+      "extension_bound": 155,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 470,
+          "maximum_unsigned_completion_moment": 462,
+          "original_unsigned_moment": 462
+        },
+        {
+          "r": 2,
+          "signed_moment": 3242,
+          "maximum_unsigned_completion_moment": 3210,
+          "original_unsigned_moment": 3162
+        },
+        {
+          "r": 3,
+          "signed_moment": 28010,
+          "maximum_unsigned_completion_moment": 27882,
+          "original_unsigned_moment": 27282
+        },
+        {
+          "r": 4,
+          "signed_moment": 250202,
+          "maximum_unsigned_completion_moment": 249690,
+          "original_unsigned_moment": 243642
+        }
+      ]
+    },
+    {
+      "p": 157,
+      "h": 2,
+      "k": 3,
+      "C": [
+        15,
+        95,
+        99
+      ],
+      "pole": 0,
+      "inverted_support": [
+        21,
+        119,
+        46
+      ],
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        1,
+        3
+      ],
+      "bad_pole_bound": 33,
+      "extension_bound": 155,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 470,
+          "maximum_unsigned_completion_moment": 462,
+          "original_unsigned_moment": 462
+        },
+        {
+          "r": 2,
+          "signed_moment": 3290,
+          "maximum_unsigned_completion_moment": 3210,
+          "original_unsigned_moment": 3210
+        },
+        {
+          "r": 3,
+          "signed_moment": 28610,
+          "maximum_unsigned_completion_moment": 27882,
+          "original_unsigned_moment": 27882
+        },
+        {
+          "r": 4,
+          "signed_moment": 256250,
+          "maximum_unsigned_completion_moment": 249690,
+          "original_unsigned_moment": 249690
+        }
+      ]
+    },
+    {
+      "p": 401,
+      "h": 2,
+      "k": 4,
+      "C": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "pole": 4,
+      "inverted_support": [
+        100,
+        267,
+        200,
+        400
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "filler": [
+        1,
+        2,
+        6,
+        12
+      ],
+      "bad_pole_bound": 94,
+      "extension_bound": 399,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 1600,
+          "maximum_unsigned_completion_moment": 1588,
+          "original_unsigned_moment": 1588
+        },
+        {
+          "r": 2,
+          "signed_moment": 16660,
+          "maximum_unsigned_completion_moment": 16516,
+          "original_unsigned_moment": 16420
+        },
+        {
+          "r": 3,
+          "signed_moment": 230260,
+          "maximum_unsigned_completion_moment": 228868,
+          "original_unsigned_moment": 226228
+        },
+        {
+          "r": 4,
+          "signed_moment": 3533380,
+          "maximum_unsigned_completion_moment": 3520516,
+          "original_unsigned_moment": 3468100
+        }
+      ]
+    },
+    {
+      "p": 401,
+      "h": 2,
+      "k": 4,
+      "C": [
+        144,
+        202,
+        236,
+        376
+      ],
+      "pole": 0,
+      "inverted_support": [
+        220,
+        268,
+        209,
+        16
+      ],
+      "signs": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "bad_pole_bound": 94,
+      "extension_bound": 399,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 1604,
+          "maximum_unsigned_completion_moment": 1588,
+          "original_unsigned_moment": 1588
+        },
+        {
+          "r": 2,
+          "signed_moment": 16580,
+          "maximum_unsigned_completion_moment": 16564,
+          "original_unsigned_moment": 16324
+        },
+        {
+          "r": 3,
+          "signed_moment": 229124,
+          "maximum_unsigned_completion_moment": 229468,
+          "original_unsigned_moment": 225028
+        },
+        {
+          "r": 4,
+          "signed_moment": 3521540,
+          "maximum_unsigned_completion_moment": 3526564,
+          "original_unsigned_moment": 3456004
+        }
+      ]
+    },
+    {
+      "p": 401,
+      "h": 2,
+      "k": 4,
+      "C": [
+        34,
+        50,
+        240,
+        295
+      ],
+      "pole": 0,
+      "inverted_support": [
+        59,
+        393,
+        132,
+        87
+      ],
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "filler": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "bad_pole_bound": 94,
+      "extension_bound": 399,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 1600,
+          "maximum_unsigned_completion_moment": 1588,
+          "original_unsigned_moment": 1588
+        },
+        {
+          "r": 2,
+          "signed_moment": 15700,
+          "maximum_unsigned_completion_moment": 16420,
+          "original_unsigned_moment": 15460
+        },
+        {
+          "r": 3,
+          "signed_moment": 211060,
+          "maximum_unsigned_completion_moment": 226228,
+          "original_unsigned_moment": 207028
+        },
+        {
+          "r": 4,
+          "signed_moment": 3210820,
+          "maximum_unsigned_completion_moment": 3468100,
+          "original_unsigned_moment": 3145540
+        }
+      ]
+    },
+    {
+      "p": 401,
+      "h": 2,
+      "k": 4,
+      "C": [
+        5,
+        108,
+        358,
+        374
+      ],
+      "pole": 0,
+      "inverted_support": [
+        321,
+        26,
+        373,
+        297
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "filler": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "bad_pole_bound": 94,
+      "extension_bound": 399,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 1604,
+          "maximum_unsigned_completion_moment": 1588,
+          "original_unsigned_moment": 1588
+        },
+        {
+          "r": 2,
+          "signed_moment": 16004,
+          "maximum_unsigned_completion_moment": 16180,
+          "original_unsigned_moment": 15748
+        },
+        {
+          "r": 3,
+          "signed_moment": 217604,
+          "maximum_unsigned_completion_moment": 221788,
+          "original_unsigned_moment": 213508
+        },
+        {
+          "r": 4,
+          "signed_moment": 3328004,
+          "maximum_unsigned_completion_moment": 3397540,
+          "original_unsigned_moment": 3262468
+        }
+      ]
+    },
+    {
+      "p": 821,
+      "h": 2,
+      "k": 5,
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pole": 5,
+      "inverted_support": [
+        164,
+        205,
+        547,
+        410,
+        820
+      ],
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "filler": [
+        1,
+        2,
+        6,
+        12,
+        20
+      ],
+      "bad_pole_bound": 215,
+      "extension_bound": 819,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4104,
+          "maximum_unsigned_completion_moment": 4080,
+          "original_unsigned_moment": 4080
+        },
+        {
+          "r": 2,
+          "signed_moment": 52512,
+          "maximum_unsigned_completion_moment": 55296,
+          "original_unsigned_moment": 51888
+        },
+        {
+          "r": 3,
+          "signed_moment": 958584,
+          "maximum_unsigned_completion_moment": 1063320,
+          "original_unsigned_moment": 942960
+        },
+        {
+          "r": 4,
+          "signed_moment": 20873232,
+          "maximum_unsigned_completion_moment": 23815056,
+          "original_unsigned_moment": 20482608
+        }
+      ]
+    },
+    {
+      "p": 821,
+      "h": 2,
+      "k": 5,
+      "C": [
+        71,
+        541,
+        560,
+        637,
+        769
+      ],
+      "pole": 0,
+      "inverted_support": [
+        636,
+        648,
+        497,
+        58,
+        521
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "filler": [
+        0,
+        1,
+        3,
+        7,
+        16
+      ],
+      "bad_pole_bound": 215,
+      "extension_bound": 819,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4104,
+          "maximum_unsigned_completion_moment": 4080,
+          "original_unsigned_moment": 4080
+        },
+        {
+          "r": 2,
+          "signed_moment": 53952,
+          "maximum_unsigned_completion_moment": 54480,
+          "original_unsigned_moment": 53328
+        },
+        {
+          "r": 3,
+          "signed_moment": 1011144,
+          "maximum_unsigned_completion_moment": 1035840,
+          "original_unsigned_moment": 995520
+        },
+        {
+          "r": 4,
+          "signed_moment": 22344912,
+          "maximum_unsigned_completion_moment": 23067120,
+          "original_unsigned_moment": 21954288
+        }
+      ]
+    },
+    {
+      "p": 821,
+      "h": 2,
+      "k": 5,
+      "C": [
+        15,
+        183,
+        284,
+        348,
+        731
+      ],
+      "pole": 0,
+      "inverted_support": [
+        219,
+        166,
+        159,
+        243,
+        374
+      ],
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "filler": [
+        0,
+        1,
+        3,
+        9,
+        13
+      ],
+      "bad_pole_bound": 215,
+      "extension_bound": 819,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4104,
+          "maximum_unsigned_completion_moment": 4080,
+          "original_unsigned_moment": 4080
+        },
+        {
+          "r": 2,
+          "signed_moment": 50352,
+          "maximum_unsigned_completion_moment": 55488,
+          "original_unsigned_moment": 49728
+        },
+        {
+          "r": 3,
+          "signed_moment": 882624,
+          "maximum_unsigned_completion_moment": 1068600,
+          "original_unsigned_moment": 867000
+        },
+        {
+          "r": 4,
+          "signed_moment": 18746352,
+          "maximum_unsigned_completion_moment": 23919888,
+          "original_unsigned_moment": 18355728
+        }
+      ]
+    },
+    {
+      "p": 821,
+      "h": 2,
+      "k": 5,
+      "C": [
+        2,
+        42,
+        102,
+        301,
+        623
+      ],
+      "pole": 0,
+      "inverted_support": [
+        411,
+        606,
+        491,
+        791,
+        170
+      ],
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "filler": [
+        0,
+        2,
+        3,
+        7,
+        13
+      ],
+      "bad_pole_bound": 215,
+      "extension_bound": 819,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 4104,
+          "maximum_unsigned_completion_moment": 4080,
+          "original_unsigned_moment": 4080
+        },
+        {
+          "r": 2,
+          "signed_moment": 56016,
+          "maximum_unsigned_completion_moment": 54240,
+          "original_unsigned_moment": 55392
+        },
+        {
+          "r": 3,
+          "signed_moment": 1081584,
+          "maximum_unsigned_completion_moment": 1025640,
+          "original_unsigned_moment": 1065960
+        },
+        {
+          "r": 4,
+          "signed_moment": 24258096,
+          "maximum_unsigned_completion_moment": 22754640,
+          "original_unsigned_moment": 23867472
+        }
+      ]
+    },
+    {
+      "p": 359,
+      "h": 3,
+      "k": 2,
+      "C": [
+        0,
+        1
+      ],
+      "pole": 2,
+      "inverted_support": [
+        179,
+        358
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "filler": [
+        1,
+        6
+      ],
+      "bad_pole_bound": 26,
+      "extension_bound": 354,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 714,
+          "maximum_unsigned_completion_moment": 714,
+          "original_unsigned_moment": 714
+        },
+        {
+          "r": 2,
+          "signed_moment": 2850,
+          "maximum_unsigned_completion_moment": 2850,
+          "original_unsigned_moment": 2850
+        },
+        {
+          "r": 3,
+          "signed_moment": 11394,
+          "maximum_unsigned_completion_moment": 11394,
+          "original_unsigned_moment": 11394
+        },
+        {
+          "r": 4,
+          "signed_moment": 45570,
+          "maximum_unsigned_completion_moment": 45570,
+          "original_unsigned_moment": 45570
+        }
+      ]
+    },
+    {
+      "p": 359,
+      "h": 3,
+      "k": 2,
+      "C": [
+        105,
+        108
+      ],
+      "pole": 0,
+      "inverted_support": [
+        106,
+        123
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 26,
+      "extension_bound": 354,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 718,
+          "maximum_unsigned_completion_moment": 714,
+          "original_unsigned_moment": 714
+        },
+        {
+          "r": 2,
+          "signed_moment": 2866,
+          "maximum_unsigned_completion_moment": 2850,
+          "original_unsigned_moment": 2850
+        },
+        {
+          "r": 3,
+          "signed_moment": 11458,
+          "maximum_unsigned_completion_moment": 11394,
+          "original_unsigned_moment": 11394
+        },
+        {
+          "r": 4,
+          "signed_moment": 45826,
+          "maximum_unsigned_completion_moment": 45570,
+          "original_unsigned_moment": 45570
+        }
+      ]
+    },
+    {
+      "p": 359,
+      "h": 3,
+      "k": 2,
+      "C": [
+        207,
+        316
+      ],
+      "pole": 0,
+      "inverted_support": [
+        111,
+        192
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 26,
+      "extension_bound": 354,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 714,
+          "maximum_unsigned_completion_moment": 714,
+          "original_unsigned_moment": 714
+        },
+        {
+          "r": 2,
+          "signed_moment": 2850,
+          "maximum_unsigned_completion_moment": 2850,
+          "original_unsigned_moment": 2850
+        },
+        {
+          "r": 3,
+          "signed_moment": 11394,
+          "maximum_unsigned_completion_moment": 11394,
+          "original_unsigned_moment": 11394
+        },
+        {
+          "r": 4,
+          "signed_moment": 45570,
+          "maximum_unsigned_completion_moment": 45570,
+          "original_unsigned_moment": 45570
+        }
+      ]
+    },
+    {
+      "p": 359,
+      "h": 3,
+      "k": 2,
+      "C": [
+        307,
+        352
+      ],
+      "pole": 0,
+      "inverted_support": [
+        214,
+        205
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 26,
+      "extension_bound": 354,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 714,
+          "maximum_unsigned_completion_moment": 714,
+          "original_unsigned_moment": 714
+        },
+        {
+          "r": 2,
+          "signed_moment": 2850,
+          "maximum_unsigned_completion_moment": 2850,
+          "original_unsigned_moment": 2850
+        },
+        {
+          "r": 3,
+          "signed_moment": 11394,
+          "maximum_unsigned_completion_moment": 11394,
+          "original_unsigned_moment": 11394
+        },
+        {
+          "r": 4,
+          "signed_moment": 45570,
+          "maximum_unsigned_completion_moment": 45570,
+          "original_unsigned_moment": 45570
+        }
+      ]
+    },
+    {
+      "p": 3881,
+      "h": 3,
+      "k": 3,
+      "C": [
+        0,
+        1,
+        2
+      ],
+      "pole": 3,
+      "inverted_support": [
+        2587,
+        1940,
+        3880
+      ],
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "filler": [
+        2,
+        6,
+        18
+      ],
+      "bad_pole_bound": 183,
+      "extension_bound": 3880,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 11642,
+          "maximum_unsigned_completion_moment": 11634,
+          "original_unsigned_moment": 11634
+        },
+        {
+          "r": 2,
+          "signed_moment": 81446,
+          "maximum_unsigned_completion_moment": 81414,
+          "original_unsigned_moment": 81366
+        },
+        {
+          "r": 3,
+          "signed_moment": 709502,
+          "maximum_unsigned_completion_moment": 709374,
+          "original_unsigned_moment": 708774
+        },
+        {
+          "r": 4,
+          "signed_moment": 6361286,
+          "maximum_unsigned_completion_moment": 6360774,
+          "original_unsigned_moment": 6354726
+        }
+      ]
+    },
+    {
+      "p": 3881,
+      "h": 3,
+      "k": 3,
+      "C": [
+        320,
+        2384,
+        3471
+      ],
+      "pole": 0,
+      "inverted_support": [
+        473,
+        2564,
+        1524
+      ],
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "filler": [
+        0,
+        1,
+        4
+      ],
+      "bad_pole_bound": 183,
+      "extension_bound": 3880,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 11642,
+          "maximum_unsigned_completion_moment": 11634,
+          "original_unsigned_moment": 11634
+        },
+        {
+          "r": 2,
+          "signed_moment": 81494,
+          "maximum_unsigned_completion_moment": 81414,
+          "original_unsigned_moment": 81414
+        },
+        {
+          "r": 3,
+          "signed_moment": 710102,
+          "maximum_unsigned_completion_moment": 709374,
+          "original_unsigned_moment": 709374
+        },
+        {
+          "r": 4,
+          "signed_moment": 6367334,
+          "maximum_unsigned_completion_moment": 6360774,
+          "original_unsigned_moment": 6360774
+        }
+      ]
+    },
+    {
+      "p": 3881,
+      "h": 3,
+      "k": 3,
+      "C": [
+        1158,
+        1473,
+        3234
+      ],
+      "pole": 0,
+      "inverted_support": [
+        3080,
+        1046,
+        3875
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "filler": [
+        0,
+        1,
+        10
+      ],
+      "bad_pole_bound": 183,
+      "extension_bound": 3880,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 11634,
+          "maximum_unsigned_completion_moment": 11634,
+          "original_unsigned_moment": 11634
+        },
+        {
+          "r": 2,
+          "signed_moment": 81414,
+          "maximum_unsigned_completion_moment": 81414,
+          "original_unsigned_moment": 81414
+        },
+        {
+          "r": 3,
+          "signed_moment": 709374,
+          "maximum_unsigned_completion_moment": 709374,
+          "original_unsigned_moment": 709374
+        },
+        {
+          "r": 4,
+          "signed_moment": 6360774,
+          "maximum_unsigned_completion_moment": 6360774,
+          "original_unsigned_moment": 6360774
+        }
+      ]
+    },
+    {
+      "p": 3881,
+      "h": 3,
+      "k": 3,
+      "C": [
+        204,
+        1813,
+        3318
+      ],
+      "pole": 0,
+      "inverted_support": [
+        3101,
+        1248,
+        3040
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "filler": [
+        0,
+        1,
+        4
+      ],
+      "bad_pole_bound": 183,
+      "extension_bound": 3880,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 11634,
+          "maximum_unsigned_completion_moment": 11634,
+          "original_unsigned_moment": 11634
+        },
+        {
+          "r": 2,
+          "signed_moment": 81366,
+          "maximum_unsigned_completion_moment": 81414,
+          "original_unsigned_moment": 81366
+        },
+        {
+          "r": 3,
+          "signed_moment": 708774,
+          "maximum_unsigned_completion_moment": 709374,
+          "original_unsigned_moment": 708774
+        },
+        {
+          "r": 4,
+          "signed_moment": 6354726,
+          "maximum_unsigned_completion_moment": 6360774,
+          "original_unsigned_moment": 6354726
+        }
+      ]
+    },
+    {
+      "p": 3251,
+      "h": 4,
+      "k": 2,
+      "C": [
+        0,
+        1
+      ],
+      "pole": 2,
+      "inverted_support": [
+        1625,
+        3250
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "filler": [
+        2,
+        9
+      ],
+      "bad_pole_bound": 62,
+      "extension_bound": 3243,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 6502,
+          "maximum_unsigned_completion_moment": 6498,
+          "original_unsigned_moment": 6498
+        },
+        {
+          "r": 2,
+          "signed_moment": 26002,
+          "maximum_unsigned_completion_moment": 25986,
+          "original_unsigned_moment": 25986
+        },
+        {
+          "r": 3,
+          "signed_moment": 104002,
+          "maximum_unsigned_completion_moment": 103938,
+          "original_unsigned_moment": 103938
+        },
+        {
+          "r": 4,
+          "signed_moment": 416002,
+          "maximum_unsigned_completion_moment": 415746,
+          "original_unsigned_moment": 415746
+        }
+      ]
+    },
+    {
+      "p": 3251,
+      "h": 4,
+      "k": 2,
+      "C": [
+        564,
+        2683
+      ],
+      "pole": 0,
+      "inverted_support": [
+        1320,
+        704
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 62,
+      "extension_bound": 3243,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 6502,
+          "maximum_unsigned_completion_moment": 6498,
+          "original_unsigned_moment": 6498
+        },
+        {
+          "r": 2,
+          "signed_moment": 26002,
+          "maximum_unsigned_completion_moment": 25986,
+          "original_unsigned_moment": 25986
+        },
+        {
+          "r": 3,
+          "signed_moment": 104002,
+          "maximum_unsigned_completion_moment": 103938,
+          "original_unsigned_moment": 103938
+        },
+        {
+          "r": 4,
+          "signed_moment": 416002,
+          "maximum_unsigned_completion_moment": 415746,
+          "original_unsigned_moment": 415746
+        }
+      ]
+    },
+    {
+      "p": 3251,
+      "h": 4,
+      "k": 2,
+      "C": [
+        1539,
+        2550
+      ],
+      "pole": 0,
+      "inverted_support": [
+        902,
+        2931
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "filler": [
+        0,
+        1
+      ],
+      "bad_pole_bound": 62,
+      "extension_bound": 3243,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 6502,
+          "maximum_unsigned_completion_moment": 6498,
+          "original_unsigned_moment": 6498
+        },
+        {
+          "r": 2,
+          "signed_moment": 26002,
+          "maximum_unsigned_completion_moment": 25986,
+          "original_unsigned_moment": 25986
+        },
+        {
+          "r": 3,
+          "signed_moment": 104002,
+          "maximum_unsigned_completion_moment": 103938,
+          "original_unsigned_moment": 103938
+        },
+        {
+          "r": 4,
+          "signed_moment": 416002,
+          "maximum_unsigned_completion_moment": 415746,
+          "original_unsigned_moment": 415746
+        }
+      ]
+    },
+    {
+      "p": 3251,
+      "h": 4,
+      "k": 2,
+      "C": [
+        1627,
+        2303
+      ],
+      "pole": 0,
+      "inverted_support": [
+        2168,
+        655
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "filler": [
+        0,
+        3
+      ],
+      "bad_pole_bound": 62,
+      "extension_bound": 3243,
+      "moments": [
+        {
+          "r": 1,
+          "signed_moment": 6498,
+          "maximum_unsigned_completion_moment": 6498,
+          "original_unsigned_moment": 6498
+        },
+        {
+          "r": 2,
+          "signed_moment": 25986,
+          "maximum_unsigned_completion_moment": 25986,
+          "original_unsigned_moment": 25986
+        },
+        {
+          "r": 3,
+          "signed_moment": 103938,
+          "maximum_unsigned_completion_moment": 103938,
+          "original_unsigned_moment": 103938
+        },
+        {
+          "r": 4,
+          "signed_moment": 415746,
+          "maximum_unsigned_completion_moment": 415746,
+          "original_unsigned_moment": 415746
+        }
+      ]
+    }
+  ],
+  "all_k_threshold_certificates": [
+    {
+      "h": 2,
+      "K": 25,
+      "critical_bad_pole_leading_coefficient": "1/4",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 4
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "h": 3,
+      "K": 129,
+      "critical_bad_pole_leading_coefficient": "1/18",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 6
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 6
+        }
+      ]
+    },
+    {
+      "h": 4,
+      "K": 641,
+      "critical_bad_pole_leading_coefficient": "1/192",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 8
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 8
+        }
+      ]
+    },
+    {
+      "h": 5,
+      "K": 3073,
+      "critical_bad_pole_leading_coefficient": "1/3600",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 10
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 10
+        }
+      ]
+    },
+    {
+      "h": 6,
+      "K": 14337,
+      "critical_bad_pole_leading_coefficient": "1/103680",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 12
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 12
+        }
+      ]
+    },
+    {
+      "h": 7,
+      "K": 65537,
+      "critical_bad_pole_leading_coefficient": "1/4233600",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 14
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 14
+        }
+      ]
+    },
+    {
+      "h": 8,
+      "K": 294913,
+      "critical_bad_pole_leading_coefficient": "1/232243200",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 16
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 16
+        }
+      ]
+    },
+    {
+      "h": 9,
+      "K": 1310721,
+      "critical_bad_pole_leading_coefficient": "1/16460236800",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 18
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 18
+        }
+      ]
+    },
+    {
+      "h": 10,
+      "K": 5767169,
+      "critical_bad_pole_leading_coefficient": "1/1463132160000",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 20
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 20
+        }
+      ]
+    },
+    {
+      "h": 11,
+      "K": 25165825,
+      "critical_bad_pole_leading_coefficient": "1/159335092224000",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 22
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 22
+        }
+      ]
+    },
+    {
+      "h": 12,
+      "K": 109051905,
+      "critical_bad_pole_leading_coefficient": "1/20858412072960000",
+      "certificates": [
+        {
+          "name": "bad_pole",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 24
+        },
+        {
+          "name": "completion",
+          "nonnegative_shifted_coefficients": true,
+          "strictly_positive_constant": true,
+          "degree": 24
+        }
+      ]
+    }
+  ],
+  "conditional_exponent_ledger": [
+    {
+      "epsilon": "1/2",
+      "r": 8,
+      "h": 4,
+      "beta": "1/8",
+      "theta": "1/9",
+      "saving_before_constants": "19/1152",
+      "eventual_saving": "1/128"
+    },
+    {
+      "epsilon": "1/3",
+      "r": 12,
+      "h": 6,
+      "beta": "1/12",
+      "theta": "1/13",
+      "saving_before_constants": "3/416",
+      "eventual_saving": "1/288"
+    },
+    {
+      "epsilon": "1/10",
+      "r": 40,
+      "h": 20,
+      "beta": "1/40",
+      "theta": "1/41",
+      "saving_before_constants": "83/131200",
+      "eventual_saving": "1/3200"
+    },
+    {
+      "epsilon": "1/50",
+      "r": 200,
+      "h": 100,
+      "beta": "1/200",
+      "theta": "1/201",
+      "saving_before_constants": "403/16080000",
+      "eventual_saving": "1/80000"
+    }
+  ],
+  "imported_new_proof_theorems": [],
+  "input_sha256": {
+    "research/parallel20-inversion-moments-2026-09-05.md": "31ec520dcb38decced35eb111128d65383f4a4f6fb2eca545d8bc5406b55922f",
+    "experiments/parallel20_inversion_moments_2026_09_05.py": "b2637754f6c57063c2631500c92f8e54eca93f08225cf48bef31791116496c15",
+    "experiments/parallel19_relation_free_2026_09_05.py": "fd1911ef1e975d9898f994745150ef8e61e5db0cb95b529baa0cf76b194d0f93",
+    "research/parallel19-relation-free-reduction-2026-09-05.md": "b2cc0897740cef28acd6533178e1e1b438d22a2546ac5e9f4e41744178d30552",
+    "research/parallel5-classical-2026-09-04.md": "91dda305c8d3cfa72ca4493e61deb7e816c821e146e96701ac7b8376cf4f9eb9"
+  }
+}

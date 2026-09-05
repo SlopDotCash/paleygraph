@@ -1,0 +1,2063 @@
+{
+  "status": "complete independent third-moment oracles",
+  "date": "2026-09-05",
+  "records": [
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "subset_count": 1716,
+      "power_sums": [
+        -260,
+        10452,
+        -8996
+      ],
+      "moments": [
+        [
+          -5,
+          33
+        ],
+        [
+          67,
+          11
+        ],
+        [
+          -173,
+          33
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.006868333002785221
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 7,
+      "degree": 6,
+      "subset_count": 1716,
+      "power_sums": [
+        -1820,
+        45396,
+        -192764
+      ],
+      "moments": [
+        [
+          -35,
+          33
+        ],
+        [
+          291,
+          11
+        ],
+        [
+          -337,
+          3
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0066502499976195395
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 8,
+      "degree": 6,
+      "subset_count": 1287,
+      "power_sums": [
+        -5460,
+        95472,
+        -1465152
+      ],
+      "moments": [
+        [
+          -140,
+          33
+        ],
+        [
+          816,
+          11
+        ],
+        [
+          -37568,
+          33
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.04798124999797437
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 6,
+      "degree": 6,
+      "subset_count": 12376,
+      "power_sums": [
+        -952,
+        126616,
+        2312
+      ],
+      "moments": [
+        [
+          -1,
+          13
+        ],
+        [
+          133,
+          13
+        ],
+        [
+          17,
+          91
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.46637679199920967
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 7,
+      "degree": 6,
+      "subset_count": 19448,
+      "power_sums": [
+        -10472,
+        932280,
+        -1391144
+      ],
+      "moments": [
+        [
+          -7,
+          13
+        ],
+        [
+          6855,
+          143
+        ],
+        [
+          -10229,
+          143
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.45403304100909736
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 8,
+      "degree": 6,
+      "subset_count": 24310,
+      "power_sums": [
+        -52360,
+        3465824,
+        -39431296
+      ],
+      "moments": [
+        [
+          -28,
+          13
+        ],
+        [
+          101936,
+          715
+        ],
+        [
+          -1159744,
+          715
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.45368975000747014
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 0,
+      "degree": 0,
+      "subset_count": 1,
+      "power_sums": [
+        9,
+        81,
+        729
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 1.983399852178991e-05
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 1,
+      "degree": 0,
+      "subset_count": 9,
+      "power_sums": [
+        81,
+        729,
+        6561
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 2.970799687318504e-05
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 1,
+      "degree": 1,
+      "subset_count": 9,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 3.195799945387989e-05
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 2,
+      "degree": 0,
+      "subset_count": 36,
+      "power_sums": [
+        324,
+        2916,
+        26244
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00012475000403355807
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 2,
+      "degree": 1,
+      "subset_count": 36,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00012679101200774312
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 2,
+      "degree": 2,
+      "subset_count": 36,
+      "power_sums": [
+        -36,
+        36,
+        -36
+      ],
+      "moments": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00012887500633951277
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 3,
+      "degree": 0,
+      "subset_count": 84,
+      "power_sums": [
+        756,
+        6804,
+        61236
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0003582089993869886
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 3,
+      "degree": 1,
+      "subset_count": 84,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0003602090000640601
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 3,
+      "degree": 2,
+      "subset_count": 84,
+      "power_sums": [
+        -252,
+        756,
+        -2268
+      ],
+      "moments": [
+        [
+          -3,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          -27,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0003622499934863299
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 3,
+      "degree": 3,
+      "subset_count": 84,
+      "power_sums": [
+        0,
+        720,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          60,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0003642919909907505
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 0,
+      "subset_count": 126,
+      "power_sums": [
+        1134,
+        10206,
+        91854
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0006537080043926835
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 1,
+      "subset_count": 126,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.000655666008242406
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 2,
+      "subset_count": 126,
+      "power_sums": [
+        -756,
+        4536,
+        -27216
+      ],
+      "moments": [
+        [
+          -6,
+          1
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          -216,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0006576660089194775
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 3,
+      "subset_count": 126,
+      "power_sums": [
+        0,
+        2304,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          128,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.000659666009596549
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 4,
+      "degree": 4,
+      "subset_count": 126,
+      "power_sums": [
+        54,
+        846,
+        1350
+      ],
+      "moments": [
+        [
+          3,
+          7
+        ],
+        [
+          47,
+          7
+        ],
+        [
+          75,
+          7
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0006617080071009696
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 0,
+      "subset_count": 126,
+      "power_sums": [
+        1134,
+        10206,
+        91854
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0008172079978976399
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 1,
+      "subset_count": 126,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0008191249944502488
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 2,
+      "subset_count": 126,
+      "power_sums": [
+        -1260,
+        12600,
+        -126000
+      ],
+      "moments": [
+        [
+          -10,
+          1
+        ],
+        [
+          100,
+          1
+        ],
+        [
+          -1000,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0008209579973481596
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 3,
+      "subset_count": 126,
+      "power_sums": [
+        0,
+        2592,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          144,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0008227919897763059
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 4,
+      "subset_count": 126,
+      "power_sums": [
+        270,
+        1566,
+        13230
+      ],
+      "moments": [
+        [
+          15,
+          7
+        ],
+        [
+          87,
+          7
+        ],
+        [
+          105,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0008245829958468676
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 5,
+      "degree": 5,
+      "subset_count": 126,
+      "power_sums": [
+        0,
+        288,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0008264170028269291
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 0,
+      "subset_count": 84,
+      "power_sums": [
+        756,
+        6804,
+        61236
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.000715583999408409
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 1,
+      "subset_count": 84,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0007177090010372922
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 2,
+      "subset_count": 84,
+      "power_sums": [
+        -1260,
+        18900,
+        -283500
+      ],
+      "moments": [
+        [
+          -15,
+          1
+        ],
+        [
+          225,
+          1
+        ],
+        [
+          -3375,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0007196669903350994
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 3,
+      "subset_count": 84,
+      "power_sums": [
+        0,
+        1152,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          96,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0007215419900603592
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 4,
+      "subset_count": 84,
+      "power_sums": [
+        540,
+        3636,
+        25020
+      ],
+      "moments": [
+        [
+          45,
+          7
+        ],
+        [
+          303,
+          7
+        ],
+        [
+          2085,
+          7
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0007234169897856191
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 5,
+      "subset_count": 84,
+      "power_sums": [
+        0,
+        1152,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          96,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0007252919895108789
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 6,
+      "degree": 6,
+      "subset_count": 84,
+      "power_sums": [
+        -36,
+        180,
+        252
+      ],
+      "moments": [
+        [
+          -3,
+          7
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0007271669892361388
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 0,
+      "subset_count": 36,
+      "power_sums": [
+        324,
+        2916,
+        26244
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004970000009052455
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 1,
+      "subset_count": 36,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004988750006305054
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 2,
+      "subset_count": 36,
+      "power_sums": [
+        -756,
+        15876,
+        -333396
+      ],
+      "moments": [
+        [
+          -21,
+          1
+        ],
+        [
+          441,
+          1
+        ],
+        [
+          -9261,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0005007090076105669
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 3,
+      "subset_count": 36,
+      "power_sums": [
+        0,
+        144,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0005025840073358268
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 4,
+      "subset_count": 36,
+      "power_sums": [
+        540,
+        8100,
+        121500
+      ],
+      "moments": [
+        [
+          15,
+          1
+        ],
+        [
+          225,
+          1
+        ],
+        [
+          3375,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0005044590070610866
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 5,
+      "subset_count": 36,
+      "power_sums": [
+        0,
+        576,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0005062920099589974
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 6,
+      "subset_count": 36,
+      "power_sums": [
+        -108,
+        324,
+        -972
+      ],
+      "moments": [
+        [
+          -3,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          -27,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0005081250128569081
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 7,
+      "degree": 7,
+      "subset_count": 36,
+      "power_sums": [
+        0,
+        144,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0005099590052850544
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 0,
+      "subset_count": 9,
+      "power_sums": [
+        81,
+        729,
+        6561
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00039516700780950487
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 1,
+      "subset_count": 9,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0003970840043621138
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 2,
+      "subset_count": 9,
+      "power_sums": [
+        -252,
+        7056,
+        -197568
+      ],
+      "moments": [
+        [
+          -28,
+          1
+        ],
+        [
+          784,
+          1
+        ],
+        [
+          -21952,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0003989999968325719
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 3,
+      "subset_count": 9,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004007920069852844
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 4,
+      "subset_count": 9,
+      "power_sums": [
+        270,
+        8100,
+        243000
+      ],
+      "moments": [
+        [
+          30,
+          1
+        ],
+        [
+          900,
+          1
+        ],
+        [
+          27000,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00040262499533127993
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 5,
+      "subset_count": 9,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004044170054839924
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 6,
+      "subset_count": 9,
+      "power_sums": [
+        -108,
+        1296,
+        -15552
+      ],
+      "moments": [
+        [
+          -12,
+          1
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          -1728,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00040658400394022465
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 7,
+      "subset_count": 9,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004084999964106828
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 8,
+      "degree": 8,
+      "subset_count": 9,
+      "power_sums": [
+        9,
+        9,
+        9
+      ],
+      "moments": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00041024999518413097
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 0,
+      "subset_count": 1,
+      "power_sums": [
+        9,
+        81,
+        729
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004717920091934502
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 1,
+      "subset_count": 1,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004737090057460591
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 2,
+      "subset_count": 1,
+      "power_sums": [
+        -36,
+        1296,
+        -46656
+      ],
+      "moments": [
+        [
+          -36,
+          1
+        ],
+        [
+          1296,
+          1
+        ],
+        [
+          -46656,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00047558400547131896
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 3,
+      "subset_count": 1,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.00047741700836922973
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 4,
+      "subset_count": 1,
+      "power_sums": [
+        54,
+        2916,
+        157464
+      ],
+      "moments": [
+        [
+          54,
+          1
+        ],
+        [
+          2916,
+          1
+        ],
+        [
+          157464,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004792499967152253
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 5,
+      "subset_count": 1,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004811670078197494
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 6,
+      "subset_count": 1,
+      "power_sums": [
+        -36,
+        1296,
+        -46656
+      ],
+      "moments": [
+        [
+          -36,
+          1
+        ],
+        [
+          1296,
+          1
+        ],
+        [
+          -46656,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004829170065931976
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 7,
+      "subset_count": 1,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004847090021939948
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 8,
+      "subset_count": 1,
+      "power_sums": [
+        9,
+        81,
+        729
+      ],
+      "moments": [
+        [
+          9,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          729,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004866250092163682
+    },
+    {
+      "graph": "Paley9",
+      "q": 9,
+      "n": 9,
+      "degree": 9,
+      "subset_count": 1,
+      "power_sums": [
+        0,
+        0,
+        0
+      ],
+      "moments": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "method": "all subsets directly enumerated",
+      "elapsed_seconds_shared": 0.0004884170048171654
+    }
+  ],
+  "normalized_joint_records": [
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "normalization": "first ordered pair maps to 0,1, up to common sign; semilinear maps for Peisert49 verified in frozen preflight",
+      "records": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 6,
+          "count": 1
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -6,
+          "count": 1
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -6,
+          "count": 1
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": 2,
+          "count": 2
+        }
+      ],
+      "literal_triple_type_checks": 297,
+      "normalized_parameter_count": 11
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "normalization": "first ordered pair maps to 0,1, up to common sign; semilinear maps for Peisert49 verified in frozen preflight",
+      "records": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -6,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 6,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 6,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -2,
+          "count": 3
+        }
+      ],
+      "literal_triple_type_checks": 695,
+      "normalized_parameter_count": 15
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "normalization": "first ordered pair maps to 0,1, up to common sign; semilinear maps for Peisert49 verified in frozen preflight",
+      "records": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -6,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 2,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 10,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -10,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -2,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 6,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -10,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -2,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 6,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -2,
+          "count": 8
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": 14,
+          "count": 3
+        }
+      ],
+      "literal_triple_type_checks": 18471,
+      "normalized_parameter_count": 47
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "normalization": "first ordered pair maps to 0,1, up to common sign; semilinear maps for Peisert49 verified in frozen preflight",
+      "records": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -6,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 2,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -2,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 6,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -2,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 6,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -10,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -2,
+          "count": 3
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": 22,
+          "count": 2
+        }
+      ],
+      "literal_triple_type_checks": 18471,
+      "normalized_parameter_count": 47
+    }
+  ],
+  "preflight_normalization_evidence_sha256": "4c1bc914183ddf97486a7740ea95cc63b3d74d877d3616fc6c68d743bf47c04f",
+  "source_sha256": {
+    "direct_third_oracle.py": "e455af0b8f45ebbd50ca242dfc061ed257d928262845f9bdb87c4e2e6f5b52e1"
+  },
+  "elapsed_seconds": 5.3105591669882415
+}

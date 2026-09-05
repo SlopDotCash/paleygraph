@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "source-bound readback sharing production mathematical helpers",
+  "counts": {
+    "discoveries": 13,
+    "marginal_algebra_ledgers": 26,
+    "complete_discoveries": 7,
+    "no_anchor_complete": 6,
+    "standalone_certificates": 1,
+    "symbolic_nodes": 131631,
+    "exceptional_scalar_records": 1307
+  },
+  "source_sha256": {
+    "pencil_tracks.py": "1d2b3ca8dfaaa164155faa55d3b3a83d4e5c99dbfa012daf4911d99d77cc60f1",
+    "run_experiments.py": "0e59e07a1556eedc6a8af1076ac9575cad5f821397adf8d1b1fd24a49a0cdbde",
+    "verify_results.py": "893db409c56c378a04a6dee631bcae5ffdd466e18d032fa6ef7ba7a3d31f77bd"
+  },
+  "dependency_sha256": {
+    "round5/piece_discovery/piece_discovery.py": "2c546e99c602906d9957b5d0c541b0d7ba15fd83359ac158f9d7bd703a1917a0",
+    "round4/scalar_fibers/scalar_fibers.py": "42792a1315c9aafdd34de92bd52258fd62cad5495d3584b78bf2d2ac047a5353",
+    "round2/proximity/compressed_support.py": "c92ad219679c17d704425d583a310729c3cc63f0ebfcc14418cd77c56fdda88d",
+    "proximity/extension_field_probe.py": "735f9cb2fe80018adc95e97777e5f4720366b03a1324a6efda3f19ab8301127f",
+    "proximity/deformation_microscope.py": "555cae6b3d85584b6a3a50c5dc1c03f9238ab585dd19b9ff1c3b891d5efd4bf7"
+  },
+  "results_sha256": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216"
+}

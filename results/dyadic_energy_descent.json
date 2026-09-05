@@ -1,0 +1,2802 @@
+{
+  "status": "passed; mixed energy bound and Paley conjectures unproved",
+  "source_sha256": {
+    "dyadic_energy_descent.py": "a49c4f640faf1bfbd8081c9793ecd81a0157d40582615156c7068d086b8c825e",
+    "quadruple_orbits.py": "049823e7c8d5e8010920331a8d506868253778506bca698944adda798138befc",
+    "kernel_discriminant.py": "bbced3a3416735e4be56268d214c1f0d10263c4a97af42a980a23530de471f93",
+    "cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288"
+  },
+  "prior_orbit_result_sha256": "bee44cb351ba8ec3a5219dbce78b83a476fa0bc8f19547d16f4d01d7de2db54f",
+  "prior_kernel_result_sha256": "17491d1cf4fc67bc1aa5c7a12ab481bde41743262bf332197fb394aa0ba0dcee",
+  "integer_factor_checks": [
+    {
+      "n": 8,
+      "primitive_U_ratio_hex": "0x1cb",
+      "primitive_V_ratio_hex": "0x1",
+      "balanced_U_factor_hex": "0x3",
+      "balanced_V_factor_hex": "0x1",
+      "unbalanced_U_factor_hex": "0x99",
+      "unbalanced_V_factor_hex": "0x1",
+      "complete_prime_support_checked": true,
+      "all_primitive_primes": [
+        {
+          "p": 3,
+          "new_U_valuation": 3,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 17,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "primitive_U_ratio_hex": "0x1226f7eeee17f6c1",
+      "primitive_V_ratio_hex": "0x3976bcd7",
+      "balanced_U_factor_hex": "0x7f91",
+      "balanced_V_factor_hex": "0x7e7",
+      "unbalanced_U_factor_hex": "0x246d86d8cc31",
+      "unbalanced_V_factor_hex": "0x74591",
+      "complete_prime_support_checked": true,
+      "all_primitive_primes": [
+        {
+          "p": 7,
+          "new_U_valuation": 2,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 17,
+          "new_U_valuation": 6,
+          "new_V_valuation": 5
+        },
+        {
+          "p": 97,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 113,
+          "new_U_valuation": 2,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 257,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 337,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "primitive_U_ratio_hex": "0x98cecdc6201c8e7ac1e073a072be711592116af559aa2091b2970c4abcbb968f969f293fb961",
+      "primitive_V_ratio_hex": "0x4f8d5d2cb320da6dc2f667ecec1c7d670c0d35e8aaf7bc4d678668b4252626e55de3105c27f16fec7e75e66ee0fd9fb0c9ebdaa42228f4a1",
+      "balanced_U_factor_hex": "0x535038619beeda17d72101",
+      "balanced_V_factor_hex": "0x37a8153bf11fea8e4a98355584c785c7c026d8f8b6e41",
+      "unbalanced_U_factor_hex": "0x1d589c6595e59060fa93194ae2911944b64017c8c0f9e2b0d843861",
+      "unbalanced_V_factor_hex": "0x16de9449d980e7493cd51b53033705964feea20b231f50bad6a0842cd9aee864ae61",
+      "complete_prime_support_checked": true,
+      "all_primitive_primes": [
+        {
+          "p": 47,
+          "new_U_valuation": 2,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 79,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 97,
+          "new_U_valuation": 4,
+          "new_V_valuation": 8
+        },
+        {
+          "p": 193,
+          "new_U_valuation": 1,
+          "new_V_valuation": 4
+        },
+        {
+          "p": 257,
+          "new_U_valuation": 3,
+          "new_V_valuation": 3
+        },
+        {
+          "p": 353,
+          "new_U_valuation": 0,
+          "new_V_valuation": 3
+        },
+        {
+          "p": 449,
+          "new_U_valuation": 1,
+          "new_V_valuation": 3
+        },
+        {
+          "p": 577,
+          "new_U_valuation": 1,
+          "new_V_valuation": 3
+        },
+        {
+          "p": 641,
+          "new_U_valuation": 1,
+          "new_V_valuation": 3
+        },
+        {
+          "p": 673,
+          "new_U_valuation": 0,
+          "new_V_valuation": 2
+        },
+        {
+          "p": 929,
+          "new_U_valuation": 0,
+          "new_V_valuation": 2
+        },
+        {
+          "p": 1153,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 1217,
+          "new_U_valuation": 0,
+          "new_V_valuation": 2
+        },
+        {
+          "p": 1249,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 1409,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 2017,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 2113,
+          "new_U_valuation": 1,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 2273,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 2593,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 2689,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 3137,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 3457,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 4001,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 4129,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 4993,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 5857,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 7937,
+          "new_U_valuation": 0,
+          "new_V_valuation": 1
+        },
+        {
+          "p": 10177,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 11329,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 26177,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 32993,
+          "new_U_valuation": 2,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 37217,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 50177,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 51137,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 65537,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 68449,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 156353,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        },
+        {
+          "p": 194977,
+          "new_U_valuation": 1,
+          "new_V_valuation": 0
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "primitive_U_ratio_hex": "0x2e552a12d5dae183bec8f38e0c9f67eb85682ffa5e094b997f336bb0dcdfa9aba8534fd9644a216308e4e053c8a51dd2d24e8da439a9e26f992ff478d92c9d872727d64b82b02195d6a5a00b6392a8008b1950c78125762a2c1a2bac259edae2b3ada2c75b3691e1a3570060c08ee7a9654630e709332ecbe93e797ae92a64ce6a1f6d50fe946668dfbd8bae1f016fd3f0d86bc054b5223de564fbe79e8533b952763fba4328fa6e70c1",
+      "primitive_V_ratio_hex": "0x432e69e1f13f8e923151ebd9941d69c13ac958411fb89e5a6d25c590b591694a9dce3c92393c0a1dfcd67bf08010233722beb0d6bf942d97f4f9d0e851e611860342a69924f776e1337ef81851352abd56f89df1d5ea0c879fd7705fcc41bfaebadf350dda31f282401d1c1fca0222879eda48663f0b16c691af09c9e9c3a2c3b796d2205142cf18d412964372096b224ab176f8b1a50b0ff5b81d10fbdf8801989c2d2387d335120f467257d9f2dc022051b7f222dae9454d8f91acc390354cfe495f4121f40208514e293a9a1a330d6e3208df623f342a11cdda6081d8ea91f3dbe6345ba504c0d47cc8cf47ef632fafb07dd0428d89200eb6287dd46efc11494959e60b9403ccd80e3551083cf3baac93eb85b9fe84b2488440fefb011b111253f2cb9cbc7834110cde6fe1f74c1415353c9158c5ebba61fb6ce4cddb839c7e77bd0b3a2e45260fbbbc0631ea14af2d5da753b8ae5e9c7c8e09c182fcc0cc1d4c28c615ba2b2cb2afce7c3cf68a73f1764fdc86af951db5b2fc6245ce01d7304288a0de19dd5c4568ac16ecb7181755a9cbfc9ee59fc384c0501c4b3e2fe7879a71742eaa967939d21fb09cf2f544deb9fa9d34183793f15f81d06306ea7c56fbf276062a103e69a53480d49f5d40757e4d5c6ae8ea192651df4ce3397db837885aca61f9e083e0db01b33d243b8ce61ca2c2d108a628bf3abb9dda3def98da56ef361cc8e32a947066884e4379a284c78e567bf67d52ac99491e68835e2a46228fef0ef8d8fb4775a8847f4910b1d0f3f5e801bb782902e00d0dec78553ed7f5c1",
+      "balanced_U_factor_hex": "0x2d394ff5c149c893c8bc4f64c3041af3a04d40af85d0e89d13e7473ba329abf110a5e1d9624e8f6f0408dc07dc7c004042010001",
+      "balanced_V_factor_hex": "0x28cc8e99fbf3f6dd8609a86a7af18b9525f550024e65a319aa8666580585109b8587f022f5f4e207fe8202a62279f643cf814e7384a590f091e29a44748e8847c21872754a44044e8cc9725c1866daba0259c0628fe227fb22b3ab9e84dca1649007b93fd916ccac8e405c4300e9588ce72295753c8b592551fb1468e48b08517830eed248064dc306e87380fdc6beb041d7011b4655c8844f49732e2fb5809deaeceb230b3cdc6176b3262c06190a6cc557be02a887c429afe230cc911144c0c3075670555aa90cbc016214373003b4c6a4ff8cb15aa58250fe06b64321c414ff918462eb061533cbae8456c422c01",
+      "unbalanced_U_factor_hex": "0x10646cf00a53227d8801c263ea3ec168f160f682dc2483f87740a1608cd48648bb166727ff815ca00261954629c61d55923cd765bea6c75ba0a8b93199b838d202b239f854a8c6a8441dc98d2614b54d0b7ee4aa3528f854f605f5890bc61aa76c02605dbaffa09f70f0c121c3064813d9429c7ad70c1",
+      "unbalanced_V_factor_hex": "0x1a58a2001b1663e09799d50d75fbba93e8ab74a577eecfaf389519d891d453ca207717394e2ffbd76c230b81984040e41da5b3e1f142a704420ca6a2fe3c754ba00b333fb75ef765aaeb559db0a127629f19d518f7752ead7981a0a004683d6f42eb75c092eb1b9e4c2b0a1b0792b10180b91e223396b829844c1c496bbae2eff10661d36d284e1a120f33d407df890fccc9189c147dfe7eaa827af58c179a7cd051e62979be5a896959a7be1b649c87168de12b83a7ab9cb5d5464f546bf18589397f7822efa65bcae9748ba44ecb1b110a8a8d172d2032801290f1925e079d2574868636d61c05a1e4e7dad6a36d2ba869053e45cc506b3e28057ed3657671c3351be6376177071b07aca8596a459823b901103e7ade07c65a6795b5aaf7d8eadbd04b6dcf1229823f8d6387c65052f88e612eb6455a6c99a92614ba396f87f20d8fd3786001ee625b9c2dbfa2140ccc68c9c1",
+      "complete_prime_support_checked": false
+    }
+  ],
+  "stable_valuation_checks": [
+    {
+      "n": 32,
+      "selected_stable_V_valuations": {
+        "3": 0,
+        "5": 0,
+        "7": 1,
+        "17": 5,
+        "47": 1,
+        "79": 1,
+        "97": 9
+      },
+      "remaining_factor_residue_mod_32": 1
+    },
+    {
+      "n": 64,
+      "selected_stable_V_valuations": {
+        "3": 0,
+        "5": 0,
+        "7": 1,
+        "17": 5,
+        "47": 1,
+        "79": 1,
+        "97": 9
+      },
+      "remaining_factor_residue_mod_32": 1
+    }
+  ],
+  "energy_and_descent_checks": [
+    {
+      "p": 17,
+      "precision": 1,
+      "n": 8,
+      "residue_field_size": 17,
+      "field_degree_doubles": false,
+      "energy_smaller": 36,
+      "energy_larger": 264,
+      "mixed_B": 16,
+      "mixed_T": 12,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 1,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 12,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              0,
+              2,
+              7
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 17,
+      "precision": 2,
+      "n": 8,
+      "residue_field_size": 17,
+      "field_degree_doubles": false,
+      "energy_smaller": 36,
+      "energy_larger": 168,
+      "mixed_B": 16,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 17,
+      "precision": 1,
+      "n": 16,
+      "residue_field_size": 17,
+      "field_degree_doubles": false,
+      "energy_smaller": 264,
+      "energy_larger": 3856,
+      "mixed_B": 256,
+      "mixed_T": 224,
+      "new_epsilon": 1,
+      "new_u_balanced": 2,
+      "new_u_unbalanced": 3,
+      "new_v_balanced": 2,
+      "new_v_unbalanced": 3,
+      "old_D": 12,
+      "new_D": 196,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              0,
+              0,
+              9
+            ]
+          ]
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              4,
+              14
+            ]
+          ],
+          "balanced": [
+            [
+              0,
+              0,
+              1,
+              13
+            ],
+            [
+              0,
+              0,
+              3,
+              5
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              0,
+              2,
+              15
+            ],
+            [
+              0,
+              0,
+              7,
+              12
+            ],
+            [
+              0,
+              0,
+              10,
+              11
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              1,
+              5,
+              10
+            ],
+            [
+              0,
+              1,
+              7,
+              14
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              1,
+              2,
+              12
+            ],
+            [
+              0,
+              2,
+              4,
+              7
+            ],
+            [
+              0,
+              3,
+              6,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 17,
+      "precision": 2,
+      "n": 16,
+      "residue_field_size": 17,
+      "field_degree_doubles": false,
+      "energy_smaller": 168,
+      "energy_larger": 912,
+      "mixed_B": 64,
+      "mixed_T": 24,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 1,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 12,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              0,
+              7,
+              12
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 97,
+      "precision": 1,
+      "n": 16,
+      "residue_field_size": 97,
+      "field_degree_doubles": false,
+      "energy_smaller": 168,
+      "energy_larger": 1104,
+      "mixed_B": 64,
+      "mixed_T": 48,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 1,
+      "old_D": 0,
+      "new_D": 24,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              1,
+              11,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 97,
+      "precision": 2,
+      "n": 16,
+      "residue_field_size": 97,
+      "field_degree_doubles": false,
+      "energy_smaller": 168,
+      "energy_larger": 720,
+      "mixed_B": 64,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 97,
+      "precision": 1,
+      "n": 32,
+      "residue_field_size": 97,
+      "field_degree_doubles": false,
+      "energy_smaller": 1104,
+      "energy_larger": 11424,
+      "mixed_B": 832,
+      "mixed_T": 528,
+      "new_epsilon": 0,
+      "new_u_balanced": 1,
+      "new_u_unbalanced": 3,
+      "new_v_balanced": 4,
+      "new_v_unbalanced": 4,
+      "old_D": 24,
+      "new_D": 264,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              0,
+              1,
+              19
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              0,
+              7,
+              26
+            ],
+            [
+              0,
+              0,
+              12,
+              15
+            ],
+            [
+              0,
+              0,
+              23,
+              24
+            ]
+          ]
+        },
+        "1": {
+          "old": [
+            [
+              0,
+              2,
+              22,
+              26
+            ]
+          ],
+          "balanced": [
+            [
+              0,
+              1,
+              5,
+              8
+            ],
+            [
+              0,
+              2,
+              5,
+              13
+            ],
+            [
+              0,
+              2,
+              17,
+              27
+            ],
+            [
+              0,
+              4,
+              11,
+              21
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              1,
+              12,
+              26
+            ],
+            [
+              0,
+              2,
+              20,
+              29
+            ],
+            [
+              0,
+              4,
+              14,
+              23
+            ],
+            [
+              0,
+              5,
+              11,
+              17
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 97,
+      "precision": 2,
+      "n": 32,
+      "residue_field_size": 97,
+      "field_degree_doubles": false,
+      "energy_smaller": 720,
+      "energy_larger": 2976,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 193,
+      "precision": 1,
+      "n": 32,
+      "residue_field_size": 193,
+      "field_degree_doubles": false,
+      "energy_smaller": 784,
+      "energy_larger": 6560,
+      "mixed_B": 576,
+      "mixed_T": 192,
+      "new_epsilon": 0,
+      "new_u_balanced": 1,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 2,
+      "new_v_unbalanced": 2,
+      "old_D": 4,
+      "new_D": 112,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [
+            [
+              0,
+              0,
+              0,
+              30
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              0,
+              3,
+              25
+            ]
+          ],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              2,
+              11,
+              21
+            ],
+            [
+              0,
+              4,
+              19,
+              27
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              1,
+              6,
+              20
+            ],
+            [
+              0,
+              6,
+              12,
+              21
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 193,
+      "precision": 2,
+      "n": 32,
+      "residue_field_size": 193,
+      "field_degree_doubles": false,
+      "energy_smaller": 720,
+      "energy_larger": 2976,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 193,
+      "precision": 1,
+      "n": 64,
+      "residue_field_size": 193,
+      "field_degree_doubles": false,
+      "energy_smaller": 6560,
+      "energy_larger": 89920,
+      "mixed_B": 6144,
+      "mixed_T": 4992,
+      "new_epsilon": 0,
+      "new_u_balanced": 4,
+      "new_u_unbalanced": 4,
+      "new_v_balanced": 18,
+      "new_v_unbalanced": 24,
+      "old_D": 112,
+      "new_D": 1216,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [
+            [
+              0,
+              0,
+              0,
+              60
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              6,
+              50
+            ]
+          ],
+          "balanced": [
+            [
+              0,
+              0,
+              3,
+              25
+            ],
+            [
+              0,
+              0,
+              5,
+              17
+            ],
+            [
+              0,
+              0,
+              13,
+              39
+            ],
+            [
+              0,
+              0,
+              15,
+              61
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              0,
+              9,
+              20
+            ],
+            [
+              0,
+              0,
+              18,
+              27
+            ],
+            [
+              0,
+              0,
+              26,
+              45
+            ],
+            [
+              0,
+              0,
+              29,
+              56
+            ]
+          ]
+        },
+        "1": {
+          "old": [
+            [
+              0,
+              2,
+              12,
+              40
+            ],
+            [
+              0,
+              4,
+              22,
+              42
+            ],
+            [
+              0,
+              8,
+              38,
+              54
+            ],
+            [
+              0,
+              12,
+              24,
+              42
+            ]
+          ],
+          "balanced": [
+            [
+              0,
+              1,
+              7,
+              24
+            ],
+            [
+              0,
+              1,
+              21,
+              52
+            ],
+            [
+              0,
+              1,
+              39,
+              44
+            ],
+            [
+              0,
+              2,
+              15,
+              23
+            ],
+            [
+              0,
+              2,
+              21,
+              37
+            ],
+            [
+              0,
+              3,
+              6,
+              57
+            ],
+            [
+              0,
+              3,
+              7,
+              42
+            ],
+            [
+              0,
+              3,
+              23,
+              46
+            ],
+            [
+              0,
+              3,
+              37,
+              58
+            ],
+            [
+              0,
+              4,
+              11,
+              49
+            ],
+            [
+              0,
+              4,
+              33,
+              51
+            ],
+            [
+              0,
+              4,
+              41,
+              53
+            ],
+            [
+              0,
+              5,
+              14,
+              45
+            ],
+            [
+              0,
+              7,
+              15,
+              36
+            ],
+            [
+              0,
+              7,
+              20,
+              49
+            ],
+            [
+              0,
+              7,
+              35,
+              48
+            ],
+            [
+              0,
+              9,
+              23,
+              34
+            ],
+            [
+              0,
+              10,
+              25,
+              39
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              1,
+              4,
+              28
+            ],
+            [
+              0,
+              1,
+              5,
+              55
+            ],
+            [
+              0,
+              1,
+              8,
+              62
+            ],
+            [
+              0,
+              1,
+              14,
+              48
+            ],
+            [
+              0,
+              1,
+              37,
+              43
+            ],
+            [
+              0,
+              2,
+              6,
+              19
+            ],
+            [
+              0,
+              2,
+              7,
+              50
+            ],
+            [
+              0,
+              2,
+              13,
+              38
+            ],
+            [
+              0,
+              2,
+              16,
+              31
+            ],
+            [
+              0,
+              2,
+              20,
+              55
+            ],
+            [
+              0,
+              2,
+              36,
+              59
+            ],
+            [
+              0,
+              2,
+              45,
+              48
+            ],
+            [
+              0,
+              3,
+              8,
+              24
+            ],
+            [
+              0,
+              4,
+              45,
+              56
+            ],
+            [
+              0,
+              5,
+              30,
+              36
+            ],
+            [
+              0,
+              6,
+              16,
+              47
+            ],
+            [
+              0,
+              7,
+              44,
+              52
+            ],
+            [
+              0,
+              8,
+              23,
+              36
+            ],
+            [
+              0,
+              8,
+              30,
+              55
+            ],
+            [
+              0,
+              8,
+              33,
+              48
+            ],
+            [
+              0,
+              9,
+              19,
+              31
+            ],
+            [
+              0,
+              9,
+              27,
+              53
+            ],
+            [
+              0,
+              11,
+              26,
+              48
+            ],
+            [
+              0,
+              11,
+              28,
+              40
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 193,
+      "precision": 2,
+      "n": 64,
+      "residue_field_size": 193,
+      "field_degree_doubles": false,
+      "energy_smaller": 2976,
+      "energy_larger": 12096,
+      "mixed_B": 1024,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 6700417,
+      "precision": 1,
+      "n": 64,
+      "residue_field_size": 6700417,
+      "field_degree_doubles": false,
+      "energy_smaller": 2976,
+      "energy_larger": 12864,
+      "mixed_B": 1024,
+      "mixed_T": 96,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 1,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 12,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              0,
+              39,
+              46
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 6700417,
+      "precision": 2,
+      "n": 64,
+      "residue_field_size": 6700417,
+      "field_degree_doubles": false,
+      "energy_smaller": 2976,
+      "energy_larger": 12096,
+      "mixed_B": 1024,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 6700417,
+      "precision": 1,
+      "n": 128,
+      "residue_field_size": 6700417,
+      "field_degree_doubles": false,
+      "energy_smaller": 12864,
+      "energy_larger": 64128,
+      "mixed_B": 4864,
+      "mixed_T": 1152,
+      "new_epsilon": 0,
+      "new_u_balanced": 1,
+      "new_u_unbalanced": 2,
+      "new_v_balanced": 1,
+      "new_v_unbalanced": 2,
+      "old_D": 12,
+      "new_D": 120,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              78,
+              92
+            ]
+          ],
+          "balanced": [
+            [
+              0,
+              0,
+              23,
+              55
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              0,
+              5,
+              110
+            ],
+            [
+              0,
+              0,
+              46,
+              101
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              5,
+              32,
+              119
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              9,
+              23,
+              105
+            ],
+            [
+              0,
+              14,
+              32,
+              87
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 6700417,
+      "precision": 2,
+      "n": 128,
+      "residue_field_size": 6700417,
+      "field_degree_doubles": false,
+      "energy_smaller": 12096,
+      "energy_larger": 48768,
+      "mixed_B": 4096,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 67403009,
+      "precision": 1,
+      "n": 128,
+      "residue_field_size": 67403009,
+      "field_degree_doubles": false,
+      "energy_smaller": 12096,
+      "energy_larger": 51840,
+      "mixed_B": 4608,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 1,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 24,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              13,
+              28,
+              53
+            ]
+          ],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 67403009,
+      "precision": 2,
+      "n": 128,
+      "residue_field_size": 67403009,
+      "field_degree_doubles": false,
+      "energy_smaller": 12096,
+      "energy_larger": 48768,
+      "mixed_B": 4096,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 67403009,
+      "precision": 1,
+      "n": 256,
+      "residue_field_size": 67403009,
+      "field_degree_doubles": false,
+      "energy_smaller": 51840,
+      "energy_larger": 201984,
+      "mixed_B": 16384,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 24,
+      "new_D": 24,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [
+            [
+              0,
+              26,
+              56,
+              106
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 67403009,
+      "precision": 2,
+      "n": 256,
+      "residue_field_size": 67403009,
+      "field_degree_doubles": false,
+      "energy_smaller": 48768,
+      "energy_larger": 195840,
+      "mixed_B": 16384,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 1073748737,
+      "precision": 1,
+      "n": 256,
+      "residue_field_size": 1073748737,
+      "field_degree_doubles": false,
+      "energy_smaller": 48768,
+      "energy_larger": 195840,
+      "mixed_B": 16384,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 1073748737,
+      "precision": 2,
+      "n": 256,
+      "residue_field_size": 1073748737,
+      "field_degree_doubles": false,
+      "energy_smaller": 48768,
+      "energy_larger": 195840,
+      "mixed_B": 16384,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 17179869697,
+      "precision": 1,
+      "n": 512,
+      "residue_field_size": 17179869697,
+      "field_degree_doubles": false,
+      "energy_smaller": 195840,
+      "energy_larger": 784896,
+      "mixed_B": 65536,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 17179869697,
+      "precision": 2,
+      "n": 512,
+      "residue_field_size": 17179869697,
+      "field_degree_doubles": false,
+      "energy_smaller": 195840,
+      "energy_larger": 784896,
+      "mixed_B": 65536,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 5,
+      "precision": 1,
+      "n": 8,
+      "residue_field_size": 25,
+      "field_degree_doubles": true,
+      "energy_smaller": 52,
+      "energy_larger": 200,
+      "mixed_B": 16,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 4,
+      "new_D": 4,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [
+            [
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 5,
+      "precision": 2,
+      "n": 8,
+      "residue_field_size": 25,
+      "field_degree_doubles": true,
+      "energy_smaller": 36,
+      "energy_larger": 168,
+      "mixed_B": 16,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 17,
+      "precision": 1,
+      "n": 32,
+      "residue_field_size": 289,
+      "field_degree_doubles": true,
+      "energy_smaller": 3856,
+      "energy_larger": 9248,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 196,
+      "new_D": 196,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [
+            [
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              4,
+              14
+            ],
+            [
+              0,
+              0,
+              6,
+              20
+            ],
+            [
+              0,
+              0,
+              8,
+              28
+            ],
+            [
+              0,
+              0,
+              10,
+              18
+            ],
+            [
+              0,
+              0,
+              22,
+              26
+            ],
+            [
+              0,
+              0,
+              24,
+              30
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [
+            [
+              0,
+              2,
+              4,
+              22
+            ],
+            [
+              0,
+              2,
+              6,
+              10
+            ],
+            [
+              0,
+              2,
+              8,
+              14
+            ],
+            [
+              0,
+              2,
+              12,
+              24
+            ],
+            [
+              0,
+              4,
+              18,
+              24
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 17,
+      "precision": 2,
+      "n": 32,
+      "residue_field_size": 289,
+      "field_degree_doubles": true,
+      "energy_smaller": 912,
+      "energy_larger": 3360,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 12,
+      "new_D": 12,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              24,
+              30
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 97,
+      "precision": 1,
+      "n": 64,
+      "residue_field_size": 9409,
+      "field_degree_doubles": true,
+      "energy_smaller": 11424,
+      "energy_larger": 28992,
+      "mixed_B": 1024,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 264,
+      "new_D": 264,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              6,
+              34
+            ],
+            [
+              0,
+              0,
+              14,
+              48
+            ],
+            [
+              0,
+              0,
+              24,
+              62
+            ],
+            [
+              0,
+              0,
+              46,
+              52
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [
+            [
+              0,
+              2,
+              4,
+              22
+            ],
+            [
+              0,
+              2,
+              42,
+              54
+            ],
+            [
+              0,
+              2,
+              46,
+              56
+            ],
+            [
+              0,
+              4,
+              26,
+              40
+            ],
+            [
+              0,
+              4,
+              42,
+              58
+            ],
+            [
+              0,
+              4,
+              44,
+              52
+            ],
+            [
+              0,
+              6,
+              20,
+              56
+            ],
+            [
+              0,
+              8,
+              30,
+              46
+            ],
+            [
+              0,
+              10,
+              28,
+              40
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 97,
+      "precision": 2,
+      "n": 64,
+      "residue_field_size": 9409,
+      "field_degree_doubles": true,
+      "energy_smaller": 2976,
+      "energy_larger": 12096,
+      "mixed_B": 1024,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 7,
+      "precision": 1,
+      "n": 8,
+      "residue_field_size": 49,
+      "field_degree_doubles": false,
+      "energy_smaller": 36,
+      "energy_larger": 168,
+      "mixed_B": 16,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 7,
+      "precision": 2,
+      "n": 8,
+      "residue_field_size": 49,
+      "field_degree_doubles": false,
+      "energy_smaller": 36,
+      "energy_larger": 168,
+      "mixed_B": 16,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 7,
+      "precision": 1,
+      "n": 16,
+      "residue_field_size": 49,
+      "field_degree_doubles": false,
+      "energy_smaller": 168,
+      "energy_larger": 1488,
+      "mixed_B": 128,
+      "mixed_T": 48,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 2,
+      "new_v_balanced": 1,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 48,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              0,
+              1,
+              6
+            ],
+            [
+              0,
+              0,
+              7,
+              10
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              1,
+              5,
+              14
+            ]
+          ],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 7,
+      "precision": 2,
+      "n": 16,
+      "residue_field_size": 49,
+      "field_degree_doubles": false,
+      "energy_smaller": 168,
+      "energy_larger": 720,
+      "mixed_B": 64,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 31,
+      "precision": 1,
+      "n": 32,
+      "residue_field_size": 961,
+      "field_degree_doubles": false,
+      "energy_smaller": 720,
+      "energy_larger": 2976,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 31,
+      "precision": 2,
+      "n": 32,
+      "residue_field_size": 961,
+      "field_degree_doubles": false,
+      "energy_smaller": 720,
+      "energy_larger": 2976,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 31,
+      "precision": 1,
+      "n": 64,
+      "residue_field_size": 961,
+      "field_degree_doubles": false,
+      "energy_smaller": 2976,
+      "energy_larger": 27456,
+      "mixed_B": 2048,
+      "mixed_T": 1152,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 4,
+      "new_v_unbalanced": 6,
+      "old_D": 0,
+      "new_D": 240,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              1,
+              6,
+              37
+            ],
+            [
+              0,
+              2,
+              41,
+              57
+            ],
+            [
+              0,
+              3,
+              15,
+              50
+            ],
+            [
+              0,
+              11,
+              30,
+              51
+            ]
+          ],
+          "unbalanced": [
+            [
+              0,
+              3,
+              55,
+              59
+            ],
+            [
+              0,
+              4,
+              27,
+              56
+            ],
+            [
+              0,
+              5,
+              11,
+              25
+            ],
+            [
+              0,
+              6,
+              43,
+              50
+            ],
+            [
+              0,
+              7,
+              26,
+              54
+            ],
+            [
+              0,
+              10,
+              25,
+              38
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 31,
+      "precision": 2,
+      "n": 64,
+      "residue_field_size": 961,
+      "field_degree_doubles": false,
+      "energy_smaller": 2976,
+      "energy_larger": 12096,
+      "mixed_B": 1024,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 47,
+      "precision": 1,
+      "n": 32,
+      "residue_field_size": 2209,
+      "field_degree_doubles": false,
+      "energy_smaller": 720,
+      "energy_larger": 4512,
+      "mixed_B": 384,
+      "mixed_T": 96,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 2,
+      "new_v_balanced": 1,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 48,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": [
+            [
+              0,
+              0,
+              10,
+              19
+            ],
+            [
+              0,
+              0,
+              22,
+              29
+            ]
+          ]
+        },
+        "1": {
+          "old": [],
+          "balanced": [
+            [
+              0,
+              3,
+              9,
+              28
+            ]
+          ],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 47,
+      "precision": 2,
+      "n": 32,
+      "residue_field_size": 2209,
+      "field_degree_doubles": false,
+      "energy_smaller": 720,
+      "energy_larger": 2976,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 3,
+      "precision": 1,
+      "n": 16,
+      "residue_field_size": 81,
+      "field_degree_doubles": true,
+      "energy_smaller": 456,
+      "energy_larger": 1296,
+      "mixed_B": 64,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 36,
+      "new_D": 36,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              2,
+              4
+            ],
+            [
+              0,
+              0,
+              6,
+              12
+            ],
+            [
+              0,
+              0,
+              10,
+              14
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 3,
+      "precision": 2,
+      "n": 16,
+      "residue_field_size": 81,
+      "field_degree_doubles": true,
+      "energy_smaller": 168,
+      "energy_larger": 720,
+      "mixed_B": 64,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 7,
+      "precision": 1,
+      "n": 32,
+      "residue_field_size": 2401,
+      "field_degree_doubles": true,
+      "energy_smaller": 1488,
+      "energy_larger": 4512,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 48,
+      "new_D": 48,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [
+            [
+              0,
+              0,
+              2,
+              12
+            ],
+            [
+              0,
+              0,
+              14,
+              20
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [
+            [
+              0,
+              2,
+              10,
+              28
+            ]
+          ],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    },
+    {
+      "p": 7,
+      "precision": 2,
+      "n": 32,
+      "residue_field_size": 2401,
+      "field_degree_doubles": true,
+      "energy_smaller": 720,
+      "energy_larger": 2976,
+      "mixed_B": 256,
+      "mixed_T": 0,
+      "new_epsilon": 0,
+      "new_u_balanced": 0,
+      "new_u_unbalanced": 0,
+      "new_v_balanced": 0,
+      "new_v_unbalanced": 0,
+      "old_D": 0,
+      "new_D": 0,
+      "new_orbit_representatives": {
+        "3": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "2": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        },
+        "1": {
+          "old": [],
+          "balanced": [],
+          "unbalanced": []
+        }
+      }
+    }
+  ]
+}

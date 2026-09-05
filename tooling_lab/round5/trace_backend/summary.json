@@ -1,0 +1,163 @@
+{
+  "status": "exact prime-Paley trace adapter and n6 third moment validated",
+  "cases": [
+    {
+      "p": 13,
+      "file": "inventory_p13.json",
+      "sha256": "7dc5302a6f72555769ee220573c8bb3c2edcbf217ee8690a2cae8ea04a9793ab",
+      "joint_bins": 7,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        -173,
+        33
+      ],
+      "n6_third_moment_display": -5.242424242424242,
+      "sixth_power_sum_bits": 18,
+      "global_third_moment_numerator_bits": 14,
+      "ntt_length": 32,
+      "transforms": 3,
+      "backend_seconds": 0.00132858,
+      "wall_seconds": 0.30970245800563134,
+      "maximum_child_rss_bytes": 1441792,
+      "full_array_independent_direct_verification": true,
+      "direct_rows": 13,
+      "complete_involution_parameters": 11
+    },
+    {
+      "p": 17,
+      "file": "inventory_p17.json",
+      "sha256": "71e06f865e60b2fb7a657a5e3bcb5668199fd10a34d04a7620146923efbce444",
+      "joint_bins": 7,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        17,
+        91
+      ],
+      "n6_third_moment_display": 0.18681318681318682,
+      "sixth_power_sum_bits": 19,
+      "global_third_moment_numerator_bits": 12,
+      "ntt_length": 64,
+      "transforms": 3,
+      "backend_seconds": 0.00019475,
+      "wall_seconds": 0.01987812500738073,
+      "maximum_child_rss_bytes": 1441792,
+      "full_array_independent_direct_verification": true,
+      "direct_rows": 17,
+      "complete_involution_parameters": 15
+    },
+    {
+      "p": 29,
+      "file": "inventory_p29.json",
+      "sha256": "75d6ba163f4727b5ee63f32a8d499a9b8e589e88ccbcbc8ae10b506a17fcc2e4",
+      "joint_bins": 10,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        271,
+        117
+      ],
+      "n6_third_moment_display": 2.3162393162393164,
+      "sixth_power_sum_bits": 22,
+      "global_third_moment_numerator_bits": 21,
+      "ntt_length": 64,
+      "transforms": 3,
+      "backend_seconds": 0.00121767,
+      "wall_seconds": 0.018082333001075312,
+      "maximum_child_rss_bytes": 1474560,
+      "full_array_independent_direct_verification": true,
+      "direct_rows": 29,
+      "complete_involution_parameters": 27
+    },
+    {
+      "p": 101,
+      "file": "inventory_p101.json",
+      "sha256": "0a17251ae818b6c39f8bd6e1b5fcb5a3132065939786a5fc0fb399f7fdaf55b8",
+      "joint_bins": 17,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        65705,
+        14259
+      ],
+      "n6_third_moment_display": 4.607966898099446,
+      "sixth_power_sum_bits": 29,
+      "global_third_moment_numerator_bits": 33,
+      "ntt_length": 256,
+      "transforms": 3,
+      "backend_seconds": 0.000515292,
+      "wall_seconds": 0.011980417009908706,
+      "maximum_child_rss_bytes": 1490944,
+      "full_array_independent_direct_verification": true,
+      "direct_rows": 101,
+      "complete_involution_parameters": 99
+    },
+    {
+      "p": 1297,
+      "file": "inventory_p1297.json",
+      "sha256": "980ca8541473952efedf44ea417c30ca143215b9d81df31d860b2a04e48702ba",
+      "joint_bins": 63,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        111595286003,
+        23328340049
+      ],
+      "n6_third_moment_display": 4.78367881163425,
+      "sixth_power_sum_bits": 44,
+      "global_third_moment_numerator_bits": 55,
+      "ntt_length": 4096,
+      "transforms": 3,
+      "backend_seconds": 0.00222121,
+      "wall_seconds": 0.011281874991254881,
+      "maximum_child_rss_bytes": 1605632,
+      "full_array_independent_direct_verification": true,
+      "direct_rows": 1297,
+      "complete_involution_parameters": 1295
+    },
+    {
+      "p": 65537,
+      "file": "inventory_p65537.json",
+      "sha256": "6ecb808c821f608e886a55e8734fa5dfb23b23c753c5784514e9535ca1be9b1d",
+      "joint_bins": 448,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        253618616559703373,
+        51233137428508399
+      ],
+      "n6_third_moment_display": 4.950284704184028,
+      "sixth_power_sum_bits": 67,
+      "global_third_moment_numerator_bits": 89,
+      "ntt_length": 262144,
+      "transforms": 3,
+      "backend_seconds": 0.399504,
+      "wall_seconds": 0.40851804199337494,
+      "maximum_child_rss_bytes": 6176768,
+      "full_array_independent_direct_verification": false,
+      "direct_rows": 33,
+      "complete_involution_parameters": 65535
+    },
+    {
+      "p": 1000033,
+      "file": "inventory_p1000033.json",
+      "sha256": "d00469d3c17c4a402a4549ea63eeca55b56b4c41aab93ccc70382dafe18f3f20",
+      "joint_bins": 1750,
+      "edge_classes": 4,
+      "n6_third_moment": [
+        41714776856822242424687,
+        8334316710159187856293
+      ],
+      "n6_third_moment_display": 5.0051825851510605,
+      "sixth_power_sum_bits": 83,
+      "global_third_moment_numerator_bits": 113,
+      "ntt_length": 2097152,
+      "transforms": 3,
+      "backend_seconds": 6.06258,
+      "wall_seconds": 6.078352750002523,
+      "maximum_child_rss_bytes": 40304640,
+      "full_array_independent_direct_verification": false,
+      "direct_rows": 33,
+      "complete_involution_parameters": 1000031
+    }
+  ],
+  "total_direct_tau_integer_terms": 36857519,
+  "low_moment_and_edge_class_count_controls": "all passed",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.0.123.102)",
+  "source_sha256": "a44655aace1cb5c61a111d4458f7c363d47f65dbc54605c0165f00f829d52edd"
+}

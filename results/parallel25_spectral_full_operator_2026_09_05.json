@@ -1,0 +1,371 @@
+{
+  "status": "PASS",
+  "arithmetic": "Python integers and exact Fraction; no floating point.",
+  "scope": "Full-sector algebra and exact elliptic reduction; no sector norm saving or full edge.",
+  "counts": {
+    "actual_S3_action": 24,
+    "actual_sign_matrix_equivariance": 24,
+    "complete_projection_sum": 24,
+    "rational_orthogonal_projection": 96,
+    "different_sector_orthogonality": 144,
+    "standard_intertwiner": 24,
+    "all_sector_dimensions": 24,
+    "actual_orbit_membership": 132,
+    "exceptional_orbit_counts": 24,
+    "exact_full_elliptic_square_identity": 24,
+    "elliptic_conjugacy_average_equivariance": 24,
+    "direct_elliptic_kernel": 338,
+    "inversion_boundary_minus_one": 338,
+    "exact_full_leakage_identity": 24,
+    "retained_rank_two_border_entries": 29651,
+    "complete_sector_power_traces": 66,
+    "uniform_seed_Krylov_in_trivial_sector": 66,
+    "nontrivial_sector_extremum_small_example": 2
+  },
+  "fields": [
+    {
+      "p": 13,
+      "m": 2,
+      "orbit_counts": {
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 1,
+        "sign": 1,
+        "standard_one_copy": 0
+      },
+      "uniform_seed_omitted_dimension_at_least": 1
+    },
+    {
+      "p": 17,
+      "m": 3,
+      "orbit_counts": {
+        "3": 1
+      },
+      "block_dimensions": {
+        "trivial": 1,
+        "sign": 0,
+        "standard_one_copy": 1
+      },
+      "uniform_seed_omitted_dimension_at_least": 2
+    },
+    {
+      "p": 29,
+      "m": 6,
+      "orbit_counts": {
+        "6": 1
+      },
+      "block_dimensions": {
+        "trivial": 1,
+        "sign": 1,
+        "standard_one_copy": 2
+      },
+      "uniform_seed_omitted_dimension_at_least": 5
+    },
+    {
+      "p": 37,
+      "m": 8,
+      "orbit_counts": {
+        "6": 1,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 2,
+        "sign": 2,
+        "standard_one_copy": 2
+      },
+      "uniform_seed_omitted_dimension_at_least": 6
+    },
+    {
+      "p": 41,
+      "m": 9,
+      "orbit_counts": {
+        "3": 1,
+        "6": 1
+      },
+      "block_dimensions": {
+        "trivial": 2,
+        "sign": 1,
+        "standard_one_copy": 3
+      },
+      "uniform_seed_omitted_dimension_at_least": 7
+    },
+    {
+      "p": 53,
+      "m": 12,
+      "orbit_counts": {
+        "6": 2
+      },
+      "block_dimensions": {
+        "trivial": 2,
+        "sign": 2,
+        "standard_one_copy": 4
+      },
+      "uniform_seed_omitted_dimension_at_least": 10
+    },
+    {
+      "p": 61,
+      "m": 14,
+      "orbit_counts": {
+        "6": 2,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 3,
+        "sign": 3,
+        "standard_one_copy": 4
+      },
+      "uniform_seed_omitted_dimension_at_least": 11
+    },
+    {
+      "p": 73,
+      "m": 17,
+      "orbit_counts": {
+        "3": 1,
+        "6": 2,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 4,
+        "sign": 3,
+        "standard_one_copy": 5
+      },
+      "uniform_seed_omitted_dimension_at_least": 13
+    },
+    {
+      "p": 89,
+      "m": 21,
+      "orbit_counts": {
+        "3": 1,
+        "6": 3
+      },
+      "block_dimensions": {
+        "trivial": 4,
+        "sign": 3,
+        "standard_one_copy": 7
+      },
+      "uniform_seed_omitted_dimension_at_least": 17
+    },
+    {
+      "p": 97,
+      "m": 23,
+      "orbit_counts": {
+        "3": 1,
+        "6": 3,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 5,
+        "sign": 4,
+        "standard_one_copy": 7
+      },
+      "uniform_seed_omitted_dimension_at_least": 18
+    },
+    {
+      "p": 101,
+      "m": 24,
+      "orbit_counts": {
+        "6": 4
+      },
+      "block_dimensions": {
+        "trivial": 4,
+        "sign": 4,
+        "standard_one_copy": 8
+      },
+      "uniform_seed_omitted_dimension_at_least": 20
+    },
+    {
+      "p": 109,
+      "m": 26,
+      "orbit_counts": {
+        "6": 4,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 5,
+        "sign": 5,
+        "standard_one_copy": 8
+      },
+      "uniform_seed_omitted_dimension_at_least": 21
+    },
+    {
+      "p": 113,
+      "m": 27,
+      "orbit_counts": {
+        "3": 1,
+        "6": 4
+      },
+      "block_dimensions": {
+        "trivial": 5,
+        "sign": 4,
+        "standard_one_copy": 9
+      },
+      "uniform_seed_omitted_dimension_at_least": 22
+    },
+    {
+      "p": 137,
+      "m": 33,
+      "orbit_counts": {
+        "3": 1,
+        "6": 5
+      },
+      "block_dimensions": {
+        "trivial": 6,
+        "sign": 5,
+        "standard_one_copy": 11
+      },
+      "uniform_seed_omitted_dimension_at_least": 27
+    },
+    {
+      "p": 149,
+      "m": 36,
+      "orbit_counts": {
+        "6": 6
+      },
+      "block_dimensions": {
+        "trivial": 6,
+        "sign": 6,
+        "standard_one_copy": 12
+      },
+      "uniform_seed_omitted_dimension_at_least": 30
+    },
+    {
+      "p": 157,
+      "m": 38,
+      "orbit_counts": {
+        "6": 6,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 7,
+        "sign": 7,
+        "standard_one_copy": 12
+      },
+      "uniform_seed_omitted_dimension_at_least": 31
+    },
+    {
+      "p": 173,
+      "m": 42,
+      "orbit_counts": {
+        "6": 7
+      },
+      "block_dimensions": {
+        "trivial": 7,
+        "sign": 7,
+        "standard_one_copy": 14
+      },
+      "uniform_seed_omitted_dimension_at_least": 35
+    },
+    {
+      "p": 181,
+      "m": 44,
+      "orbit_counts": {
+        "6": 7,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 8,
+        "sign": 8,
+        "standard_one_copy": 14
+      },
+      "uniform_seed_omitted_dimension_at_least": 36
+    },
+    {
+      "p": 193,
+      "m": 47,
+      "orbit_counts": {
+        "3": 1,
+        "6": 7,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 9,
+        "sign": 8,
+        "standard_one_copy": 15
+      },
+      "uniform_seed_omitted_dimension_at_least": 38
+    },
+    {
+      "p": 197,
+      "m": 48,
+      "orbit_counts": {
+        "6": 8
+      },
+      "block_dimensions": {
+        "trivial": 8,
+        "sign": 8,
+        "standard_one_copy": 16
+      },
+      "uniform_seed_omitted_dimension_at_least": 40
+    },
+    {
+      "p": 229,
+      "m": 56,
+      "orbit_counts": {
+        "6": 9,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 10,
+        "sign": 10,
+        "standard_one_copy": 18
+      },
+      "uniform_seed_omitted_dimension_at_least": 46
+    },
+    {
+      "p": 233,
+      "m": 57,
+      "orbit_counts": {
+        "3": 1,
+        "6": 9
+      },
+      "block_dimensions": {
+        "trivial": 10,
+        "sign": 9,
+        "standard_one_copy": 19
+      },
+      "uniform_seed_omitted_dimension_at_least": 47
+    },
+    {
+      "p": 241,
+      "m": 59,
+      "orbit_counts": {
+        "3": 1,
+        "6": 9,
+        "2": 1
+      },
+      "block_dimensions": {
+        "trivial": 11,
+        "sign": 10,
+        "standard_one_copy": 19
+      },
+      "uniform_seed_omitted_dimension_at_least": 48
+    },
+    {
+      "p": 257,
+      "m": 63,
+      "orbit_counts": {
+        "3": 1,
+        "6": 10
+      },
+      "block_dimensions": {
+        "trivial": 11,
+        "sign": 10,
+        "standard_one_copy": 21
+      },
+      "uniform_seed_omitted_dimension_at_least": 52
+    }
+  ],
+  "input_sha256": {
+    "research/parallel25-spectral-full-operator-2026-09-05.md": "a76b4865fd4356ae30422a5d8e6ec1320e5edccfd84686a17c4faf7ddabf51d3",
+    "experiments/parallel25_spectral_full_operator_2026_09_05.py": "3d2f8affe293d376da410efcc4097673e404d6ef87d512b7dd7fcd7bac569104",
+    "research/parallel24-spectral-operator-2026-09-05.md": "7abbf64aeaa1804d4cbad5e9daa1f1a4dd90945919d05d6d3f5e4fd8fbe1b857",
+    "research/parallel6-seeded-kernels-2026-09-04.md": "33333657fe78eae92a70b5a2ea43a2cdc39c45c63f29f434214efa9b7c3b50c6",
+    "research/parallel13-principal-budget-2026-09-05.md": "50b4934169a32581859712d60269e8f8e06d829e92bfe90bd042ad68fb8684a9",
+    "research/parallel2-spectral-transfer-2026-09-04.md": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3"
+  },
+  "limitations": [
+    "Finite identities do not supply the all-vector elliptic estimate A_sigma <= (2/3+o(1))p.",
+    "No growing-depth character correlation estimate is proved."
+  ]
+}

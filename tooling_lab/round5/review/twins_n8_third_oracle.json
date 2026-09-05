@@ -1,0 +1,81 @@
+{
+  "status": "complete direct finite subset oracle",
+  "records": [
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "subset_count": 450978066,
+      "origin_subset_count": 73629072,
+      "origin_power_sums": [
+        -14621376,
+        68039794944,
+        -227385412608
+      ],
+      "power_sums": [
+        -89555928,
+        416743744032,
+        -1392735652224
+      ],
+      "moments": [
+        [
+          -28,
+          141
+        ],
+        [
+          42954416,
+          46483
+        ],
+        [
+          -4737196096,
+          1533939
+        ]
+      ],
+      "minimum": -132,
+      "maximum": 116,
+      "method": "all origin-containing subsets directly evaluated, global translation double count49/n"
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "subset_count": 450978066,
+      "origin_subset_count": 73629072,
+      "origin_power_sums": [
+        -14621376,
+        68039794944,
+        -201560558592
+      ],
+      "power_sums": [
+        -89555928,
+        416743744032,
+        -1234558421376
+      ],
+      "moments": [
+        [
+          -28,
+          141
+        ],
+        [
+          42954416,
+          46483
+        ],
+        [
+          -4199178304,
+          1533939
+        ]
+      ],
+      "minimum": -124,
+      "maximum": 132,
+      "method": "all origin-containing subsets directly evaluated, global translation double count49/n"
+    }
+  ],
+  "cpp_elapsed_seconds": 24.8303,
+  "elapsed_seconds": 28.58237270799873,
+  "source_sha256": {
+    "direct_third_oracle.py": "e455af0b8f45ebbd50ca242dfc061ed257d928262845f9bdb87c4e2e6f5b52e1",
+    "origin_third_census.cpp": "1dae94ccc0fb4070dd9efa2572db26bb0e7061535962753d196b9f6127d5fbdb"
+  }
+}

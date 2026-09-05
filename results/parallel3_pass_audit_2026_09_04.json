@@ -1,0 +1,201 @@
+{
+  "status": "All recorded input hashes, script syntax, local links, source manifest entries and length-six coverage counts verified.",
+  "input_hash_checks": [
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "research/parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "experiments/parallel3_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "experiments/parallel2_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "experiments/parallel_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "research/parallel2-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "research/parallel-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel3_necklace_2026_09_04.json",
+      "sources/katz-g2-hypergeometric.pdf"
+    ],
+    [
+      "results/parallel3_conic_2026_09_04.json",
+      "research/parallel3-conic-2026-09-04.md"
+    ],
+    [
+      "results/parallel3_conic_2026_09_04.json",
+      "research/parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "results/parallel3_classical_2026_09_04.json",
+      "research/parallel3-classical-2026-09-04.md"
+    ],
+    [
+      "results/parallel3_classical_2026_09_04.json",
+      "experiments/parallel3_classical_2026_09_04.py"
+    ],
+    [
+      "results/parallel3_subgroup_2026_09_04.json",
+      "experiments/parallel3_subgroup_2026_09_04.py"
+    ],
+    [
+      "results/parallel3_subgroup_2026_09_04.json",
+      "results/parallel2_subgroup_2026_09_04.json"
+    ],
+    [
+      "results/parallel3_subgroup_2026_09_04.json",
+      "research/parallel3-subgroup-2026-09-04.md"
+    ]
+  ],
+  "script_syntax_checks": [
+    "experiments/parallel3_subgroup_2026_09_04.py",
+    "experiments/parallel3_necklace_2026_09_04.py",
+    "experiments/parallel3_classical_2026_09_04.py",
+    "experiments/parallel3_conic_2026_09_04.py"
+  ],
+  "local_link_checks": [
+    [
+      "research/parallel3-classical-2026-09-04.md",
+      "parallel2-classical-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-classical-2026-09-04.md",
+      "parallel2-classical-2026-09-04.md#the-required-prime-family-exists"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "parallel3-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "parallel3-classical-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "parallel3-conic-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../experiments/parallel3_necklace_2026_09_04.py"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../results/parallel3_necklace_2026_09_04.json"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../experiments/parallel3_subgroup_2026_09_04.py"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../results/parallel3_subgroup_2026_09_04.json"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../experiments/parallel3_classical_2026_09_04.py"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../results/parallel3_classical_2026_09_04.json"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../experiments/parallel3_conic_2026_09_04.py"
+    ],
+    [
+      "research/parallel3-pass-summary-2026-09-04.md",
+      "../results/parallel3_conic_2026_09_04.json"
+    ],
+    [
+      "research/parallel3-conic-2026-09-04.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-conic-2026-09-04.md",
+      "../experiments/parallel3_conic_2026_09_04.py"
+    ],
+    [
+      "research/parallel3-conic-2026-09-04.md",
+      "../results/parallel3_conic_2026_09_04.json"
+    ],
+    [
+      "research/parallel3-subgroup-2026-09-04.md",
+      "parallel2-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-necklace-2026-09-04.md",
+      "../sources/katz-g2-hypergeometric.pdf"
+    ],
+    [
+      "research/parallel3-necklace-2026-09-04.md",
+      "parallel2-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-necklace-2026-09-04.md",
+      "parallel2-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-necklace-2026-09-04.md",
+      "parallel-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel3-necklace-2026-09-04.md",
+      "../experiments/parallel3_necklace_2026_09_04.py"
+    ],
+    [
+      "research/parallel3-necklace-2026-09-04.md",
+      "../results/parallel3_necklace_2026_09_04.json"
+    ]
+  ],
+  "length_six_coverage": {
+    "total": 729,
+    "two_label": 189,
+    "arbitrary_gap_411": 90,
+    "union": 279
+  },
+  "artifact_sha256": {
+    "research/parallel3-classical-2026-09-04.md": "35817afc77576e4383488da17006ea79aa51f63672f43272547372f6ad8a450c",
+    "research/parallel3-pass-summary-2026-09-04.md": "0189e2c17dadb0e28efa57e3464ed81d1f9d38468875914888ab2c1094c8a04a",
+    "research/parallel3-conic-2026-09-04.md": "19327a47515a3476cc30b49c5b875a1d7443d82b1f665e88eeace41c1f2425c6",
+    "research/parallel3-subgroup-2026-09-04.md": "d8bf6e1301a99f9dd8128a7a64b600ec6168057c46c1668d3808692f3585d28d",
+    "research/parallel3-necklace-2026-09-04.md": "c9e85664ed95cf160c958975493b360acf79688955be8c2355ca43be00b9b407",
+    "results/parallel3_necklace_2026_09_04.json": "c09fd43797a9a730d52f413c8d2ceb32b011ea238d7f086bcc546a035d35b753",
+    "results/parallel3_conic_2026_09_04.json": "b9ce12ade3ee07f3621ccb468cfd13f5c64bb70c112470d45ca2833bb934017a",
+    "results/parallel3_classical_2026_09_04.json": "1db18cd0fcef5ac8a923e93d2b0881e527213fff099d4441543a365ad4c224c2",
+    "results/parallel3_subgroup_2026_09_04.json": "8f45abf082827b548ec9c26be0d7617d4b6a823cf71f374d30428708512684f6",
+    "experiments/parallel3_subgroup_2026_09_04.py": "df34ad75a721ed2591ada0f48e0e9074e67d773f47c206d114e6abd402a3465e",
+    "experiments/parallel3_necklace_2026_09_04.py": "693c35ff2919d4354299b1d0f3a0d3f6bcf479c62e1df739e996ca7bb883008c",
+    "experiments/parallel3_classical_2026_09_04.py": "eb650d046f1100d7a4ab5792cb0480be4fa941c3dbd92e9e08bd1dbfa9717fc4",
+    "experiments/parallel3_conic_2026_09_04.py": "94564f177448815650457eb1945470968f576f1208f339643e255124fb6c6cbd",
+    "sources/katz-g2-hypergeometric.pdf": "0bf485bcc9dde2afebc8268af679566bcff65aa6d6ed8c9f4b0387d7e9e954c1",
+    "sources/katz-g2-hypergeometric.txt": "b627860e16214478e5565effcf4affd4cebb0e1f58b6f51f34005ccbd2123a40",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+    "sources/katz-gauss-kloosterman-monodromy.txt": "8f78cbd117172142014520943769a319d5180c610e0f0bd24861efe6fa6716bc"
+  },
+  "central_sha256": {
+    "README.md": "69079a7e8df912d1515b9125532f92fd49c2831cca7ea61769e7dc937c6e1c0a",
+    "research/frontier.md": "70e71b4c26d85351085c98c0892d52e1edc8fabc36e73f4c6abf0b9d0dabba6e",
+    "research/checkpoint-2026-09-04.md": "028ca3a8c2a3c8a3b869dfd7bb11ff8955978e57893ab17c115bcdc3f3f56c3a",
+    "research/source-audit.md": "6ee5f75b649d71e23301dda04ee748900128a20b1da48b0346b307b5b90e658a",
+    "sources/manifest.json": "1a6295c1feacb952c05b421ad46fcf77f79b6c801bc3b8acfb5c45318560f9cb"
+  }
+}
