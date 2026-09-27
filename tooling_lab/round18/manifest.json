@@ -1,0 +1,85 @@
+{
+  "status": "verified",
+  "created_utc": "2026-09-06T08:54:10.243505+00:00",
+  "scope": "Exact specialized digit-language counts, all-scalar support review, minimum-support norms and supported orientation adapters. No general short-relation automaton or uniform arithmetic estimate.",
+  "previous_round17_artifacts_preserved": 22,
+  "previous_round16_artifacts_preserved": 48,
+  "source_and_input_bindings": 83,
+  "python_sources_compiled": 5,
+  "numpy_version": "2.4.5",
+  "sympy_version": "1.14.0",
+  "markdown_local_links_passed": true,
+  "previous_checkpoint_sha256": {
+    "../round17/checkpoint.json": "4db0c07ae2b72d447dc507cbfd106c8f4f040cf573779a4cd803000cdc056165"
+  },
+  "actual_scalars_checked": 6766228,
+  "scalar_coordinate_transitions_checked": 215464060,
+  "minimum_support_norms_checked": 512,
+  "orientation_records_checked": 451,
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "a8ca97520fde7a6e885311d8ac3f708f908eaf0d84f2fdbab3006c716c6d524e",
+      "bytes": 4845
+    },
+    "README.md": {
+      "sha256": "3a8dc52d860d07f1ccdaed238d96166c90e28d866559cc20b474c14b6ff81d2c",
+      "bytes": 5723
+    },
+    "digit_language.json": {
+      "sha256": "b6182268df0c7990605c522da04943ebee6143836123bada53a119885d47a062",
+      "bytes": 221819
+    },
+    "digit_language.log": {
+      "sha256": "a27fc6e76c34efebc0e66221d9900da800f804fb24c2c9b851915becd13a2886",
+      "bytes": 1252
+    },
+    "digit_language.py": {
+      "sha256": "4d439e88538d2e4955ec80de1b7786f0d64369389e763c039997774538f725d2",
+      "bytes": 8589
+    },
+    "language_review.json": {
+      "sha256": "fead3e612322609dc042c30ae2b84ae122e4e0c4c68e8f2747d7d3ce45de6ecd",
+      "bytes": 4631
+    },
+    "language_review.log": {
+      "sha256": "2682f57c3e809c1a34ef8c9ef77315cfd374560beeeee2bbfae52c7ad960c756",
+      "bytes": 1382
+    },
+    "language_review.py": {
+      "sha256": "93279c525fefc7eefdc6e0ac5d1ce6e94105a320bc5bb6f0bb29d6006af7885d",
+      "bytes": 9041
+    },
+    "orientation_adapter.json": {
+      "sha256": "4c9d31d56bb46ae0e2a260585607d34738b46a8a22c726d31a8f12f2d2850633",
+      "bytes": 90927
+    },
+    "orientation_adapter.log": {
+      "sha256": "4853b7735fbff7715293f9a15d50cd2cf628a273ee5921bffc9217600f77d4d0",
+      "bytes": 633
+    },
+    "orientation_adapter.py": {
+      "sha256": "dda73761586b8d8c301387d2db15b1a2efc313a96e46b7427821e1b5b57a6eb4",
+      "bytes": 3480
+    },
+    "orientation_review.json": {
+      "sha256": "a51e9ff7e77608adf09477f9089647afdfc282d8df70b43a96a30104d01735f2",
+      "bytes": 1237
+    },
+    "orientation_review.log": {
+      "sha256": "bc6570affba582109cb5c3418735f6195bd9d89bfd22bcc2e206a791ee0cb7b7",
+      "bytes": 389
+    },
+    "orientation_review.py": {
+      "sha256": "17be87e48322bee6dd2318d94dbb28418d7bb2974903bbe2858cf996091393fc",
+      "bytes": 3652
+    },
+    "prior_art.md": {
+      "sha256": "d19d7b2272429a7730c0685122ecc630fa75b557e4e6723b99a79dc0f80df9ce",
+      "bytes": 3259
+    },
+    "verify_round.py": {
+      "sha256": "db06147e0ed9c0070a11e545a736dc7da5b2b99f04f7ec2c1582c2e8d8821b06",
+      "bytes": 5053
+    }
+  }
+}

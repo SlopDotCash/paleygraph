@@ -1,0 +1,11 @@
+{
+  "source_sha256": "0c3258f9d0ac0837e70608a5bf5046b2e878eceb155558a3781544b77c2bc1df",
+  "input_sha256": {
+    "critical_third/scaling_results.json": "6559c71f7ca767d32d359197d4d195a2e396f5a25ba5ef76c71a0c2e60672249",
+    "critical_third/inventory_free_results.json": "d6f5581d8c8fb9370be05ffd0fac673481b14670865f704412998c95d6ae14f3",
+    "trace_envelopes/results.json": "10f8f77d25261422c9c0077a9cff4fe23843a8d08fe2b7688677ad3b3534689d",
+    "overlap_preflight/results.json": "3b9ee61ad88cb40656bc5786b7dec19d4f50cff149585adeed2847c54ee74439",
+    "pencil_tracks/results.json": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216"
+  },
+  "scope": "Saved exact results; plot uses rounded real display values and labeled enclosure midpoints."
+}

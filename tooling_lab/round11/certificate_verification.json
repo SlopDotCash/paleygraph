@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "scope": "Constructor-free all-pair determinant partition and integer dynamic-program optimum, including the full1024-coordinate certificate. Every804 actual small candidate planes independently replayed.",
+  "cases": [
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "minimum": 15,
+      "full_coordinate_pairs_checked": 120,
+      "witness_pairs_checked": 55,
+      "dynamic_program_transitions": 107,
+      "projective_classes": 6,
+      "zero_columns": 4
+    },
+    {
+      "p": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "minimum": 83836,
+      "full_coordinate_pairs_checked": 523776,
+      "witness_pairs_checked": 83845,
+      "dynamic_program_transitions": 670057,
+      "projective_classes": 1015,
+      "zero_columns": 0
+    }
+  ],
+  "small_rank_two_planes_reviewed": 804,
+  "small_dependent_triples": 12,
+  "corrupted_certificates_rejected": 7,
+  "source_sha256": {
+    "run_certificates.py": "56cd18b9902a12345930595cb190eef1f81e5a39868a133af9b6a4165f4bde10",
+    "polynomial_cluster.py": "e31be7e7bc62b595c3b67d31878e505cbd0ac36400666b3702dbe0f4ba2aad41",
+    "rank_two_pinning.py": "d7043842d3c0c8862e24693864a31d0cc101e9781945a96cff325d5bd33e6047",
+    "independent_verifier.py": "04fbcf3421e351e8b637967aa02f0e900445681203336748e82c54970b9ad423"
+  },
+  "input_sha256": {
+    "actual_results.json": "9cae3188c4b47c96cbd236a0341e2ed65dcc7813fb7b1c47d0d23360ed2526eb",
+    "../round6/overlap_preflight/coset_small_characteristic_sample3.certificate.json": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764",
+    "../round6/pencil_tracks/results.json": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216"
+  },
+  "certificate_sha256": {
+    "hard_f17.certificate.json": "94d1c39bd5f04037f031aed45ab3cd1e97c5d08c85323a71ae2c5b96968b69f3",
+    "large_f65537.certificate.json": "b2ee43f715b4f0f8d846433022267884251c3358c19ea94332b3b163aa2728c8"
+  }
+}

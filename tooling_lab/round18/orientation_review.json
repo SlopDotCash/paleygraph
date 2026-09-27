@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Separate polynomial substitution and remainder computations check every orientation and every mapped word, then recurrence inversion checks its actual scalar.",
+  "cases": [
+    {
+      "case": "small_complete",
+      "status": "compiled",
+      "vectors_checked": 256
+    },
+    {
+      "case": "medium_walk",
+      "status": "compiled",
+      "vectors_checked": 65
+    },
+    {
+      "case": "known_short_walk",
+      "status": "compiled",
+      "vectors_checked": 65
+    },
+    {
+      "case": "known_centering_walk",
+      "status": "compiled",
+      "vectors_checked": 65
+    },
+    {
+      "case": "quartic_window_walk",
+      "status": "generator_2_has_wrong_order",
+      "vectors_checked": 0
+    }
+  ],
+  "nonassociate_control_checked": true,
+  "source_sha256": {
+    "orientation_review.py": "17be87e48322bee6dd2318d94dbb28418d7bb2974903bbe2858cf996091393fc",
+    "language_review.py": "93279c525fefc7eefdc6e0ac5d1ce6e94105a320bc5bb6f0bb29d6006af7885d"
+  },
+  "input_sha256": {
+    "orientation_adapter.json": "4c9d31d56bb46ae0e2a260585607d34738b46a8a22c726d31a8f12f2d2850633",
+    "../round17/norm_compression.json": "dee00880cce3b58aae942755430b045757e8231dc529461940d3d68a59ea7f7c"
+  }
+}

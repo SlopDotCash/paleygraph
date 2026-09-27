@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "scope": "Exact prime/order and coordinate checks, a symbolic nonnegative dual identity covering every allowed non-axis normal, modular exclusion of all axis normals, and separate polynomial products/resultants. Ordinary certificate verification, not Lean formalization.",
+  "cases": [
+    {
+      "p": 17,
+      "N": 4,
+      "certified_all_relation_l1_budget": 5,
+      "other_coordinate_slack": 4,
+      "independent_resultants": 5,
+      "dual_identity_passed": true,
+      "axis_case_excluded": true
+    },
+    {
+      "p": 257,
+      "N": 8,
+      "certified_all_relation_l1_budget": 65,
+      "other_coordinate_slack": 64,
+      "independent_resultants": 5,
+      "dual_identity_passed": true,
+      "axis_case_excluded": true
+    },
+    {
+      "p": 65537,
+      "N": 16,
+      "certified_all_relation_l1_budget": 16385,
+      "other_coordinate_slack": 16384,
+      "independent_resultants": 5,
+      "dual_identity_passed": true,
+      "axis_case_excluded": true
+    },
+    {
+      "p": 6700417,
+      "N": 32,
+      "certified_all_relation_l1_budget": 26174,
+      "other_coordinate_slack": 26173,
+      "independent_resultants": 5,
+      "dual_identity_passed": true,
+      "axis_case_excluded": true
+    },
+    {
+      "p": 2013265921,
+      "N": 64,
+      "certified_all_relation_l1_budget": 11607941,
+      "other_coordinate_slack": 11607940,
+      "independent_resultants": 5,
+      "dual_identity_passed": true,
+      "axis_case_excluded": true
+    }
+  ],
+  "finite_portfolio_aliases_checked": 128,
+  "finite_portfolio_relations_checked": 16,
+  "finite_portfolio_survivors": [
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127
+  ],
+  "source_sha256": {
+    "barrier_review.py": "70e894cdf73d64ce1206b8e31699cf335c3cb3955db1acdb8f5c49cea91986ba",
+    "../round17/carry_review.py": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633"
+  },
+  "input_sha256": {
+    "relation_barrier.json": "e649891412a65ab225bd794d17cd8dc10762e27d58502e020d707bc84f5b024c"
+  }
+}

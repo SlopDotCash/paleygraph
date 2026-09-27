@@ -1,0 +1,6 @@
+{"name": "tiny", "p": 17, "N": 4, "other_coordinate_slack": 4, "universal_relation_l1_budget": 5, "relation_l1": 3, "digit_bound": 1, "centered_norm_defect": 1, "escaped_norm_defect": 2}
+{"name": "small_complete", "p": 257, "N": 8, "other_coordinate_slack": 64, "universal_relation_l1_budget": 65, "relation_l1": 3, "digit_bound": 1, "centered_norm_defect": 1, "escaped_norm_defect": 2}
+{"name": "medium_walk", "p": 65537, "N": 16, "other_coordinate_slack": 16384, "universal_relation_l1_budget": 16385, "relation_l1": 3, "digit_bound": 1, "centered_norm_defect": 1, "escaped_norm_defect": 2}
+{"name": "known_short_walk", "p": 6700417, "N": 32, "other_coordinate_slack": 26173, "universal_relation_l1_budget": 26174, "relation_l1": 3, "digit_bound": 1, "centered_norm_defect": 1217, "escaped_norm_defect": 386}
+{"name": "quartic_window_walk", "p": 2013265921, "N": 64, "other_coordinate_slack": 11607940, "universal_relation_l1_budget": 11607941, "relation_l1": 13, "digit_bound": 6, "centered_norm_defect": 3629429961278189763592, "escaped_norm_defect": 49583333144422276053377}
+{"portfolio_relations": 16, "aliases": 128, "survivors": 127, "survivors_by_stage": [127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127]}

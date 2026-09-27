@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-05T21:50:40.056279+00:00",
+  "previous_turn_classification": "progress: completed pass31 certificate audit and live Lean diagnosis",
+  "prior_sha256": {
+    "research/parallel31-short-multiples-2026-09-05.md": "0ef0f47aea857aea61da59c828dedfb3b472f5bcbe77d8d67be49ecd4f3bc328",
+    "research/parallel31-pass-summary-2026-09-05.md": "c6d402936f0c6c1f7ba5057f21be21b538732c83d73ade2da3aece7605684a4c",
+    "experiments/parallel31_short_multiples_2026_09_05.py": "43d2e43fc094ae8e93b51d8b6b22fff72e0934ef7be0d13cb1c1af6fe5cdb0cb",
+    "experiments/parallel31_check_certificate_2026_09_05.py": "0998891eec2b4e8e4d82f2a209049f708507a966826553b411d95db9c10d4856",
+    "experiments/parallel31_final_audit_2026_09_05.py": "ad6f67a091934c4725c62e3bdd6ddc3e6db97c66694eb946754f58cda08d81ce",
+    "results/parallel31_prior_state_2026_09_05.json": "35169bc0f626f515727ddc89e334cc20f99f5436c10c7b136ae4c6d63fd660f1",
+    "results/parallel31_short_multiples_2026_09_05.json": "dbda8295da9bd2804abfe703091cd405915fa8599c4e41ab46e8e67864ca594f",
+    "results/parallel31_certificate_check_2026_09_05.json": "29e9ad6c2c7c4a357333dead4190c58be08ab676b0d313a8a3b85fde52d18507",
+    "results/parallel31_source_scope_2026_09_05.json": "e5813f1e95935758b1d373fac388324759c7e4cab237dc8604b20923a3c72fa4",
+    "results/parallel31_pass_audit_2026_09_05.json": "4f20de34986613ee55e60249e2ac59b199d67e6b93be4f992d9a19f72cd4a85a",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

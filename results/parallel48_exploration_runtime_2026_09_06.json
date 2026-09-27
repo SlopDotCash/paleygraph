@@ -1,0 +1,48 @@
+{
+  "observed_at_utc": "2026-09-06T10:06:14.455922+00:00",
+  "records": [
+    {
+      "pid": 75033,
+      "already_terminal": true
+    },
+    {
+      "pid": 88779,
+      "observed_elapsed_cpu_rss": "05:37   0:12.86  16016",
+      "action": "SIGINT",
+      "scope": "Own exploratory Python job only; complete order128 data retained, larger or superseded computations stopped."
+    },
+    {
+      "pid": 88779,
+      "action": "SIGTERM",
+      "reason": "Own order256 exploration remained inside a compiled factorization after SIGINT; stop at the verified order128 scope."
+    }
+  ],
+  "no_lean_process_change": true,
+  "terminal_observations": [
+    {
+      "session_id": 30746,
+      "exit_code": 0,
+      "scope": "Standard-library exploration completed through order128."
+    },
+    {
+      "session_id": 24228,
+      "exit_code": 143,
+      "scope": "Own compiled order256 exploration terminated; complete data through128 had already been saved."
+    }
+  ],
+  "setup": {
+    "backend_directory": "/tmp/paley-flint-20260906",
+    "backend_version": "python-flint==0.9.0",
+    "interpreter": "/opt/miniconda3/bin/python3",
+    "python_version": "3.13.2",
+    "existing_system_python_left_unchanged": true,
+    "homebrew_pip_failure": "pyexpat dynamic-library symbol unavailable",
+    "homebrew_uv_failure": "interpreter platform.mac_ver returned empty",
+    "conda_uv_install": "successful"
+  },
+  "backend_restored_after_temporary_directory_disappeared": {
+    "directory": "/Users/shawwalters/Desktop/paleygraph/tmp/arithmetic/python-flint-0.9.0-cp313",
+    "same_metadata_hash": true,
+    "system_python_left_unchanged": true
+  }
+}

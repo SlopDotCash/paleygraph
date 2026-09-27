@@ -1,0 +1,142 @@
+{
+  "observed_at_utc": "2026-09-06T17:34:43.536129+00:00",
+  "classification": "progress: exact cross-level compatibility, a stronger lower baseline, and a quartic counterexample to the pointwise top-layer shortcut; uniform bounds unchanged",
+  "previous_goal_turn_classification": "No progress in the interrupted follow-up: prior files were read, but no new claim or artifact was completed. Pass50 itself was verified progress.",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "finite_checks": {
+    "tower_cases": 71,
+    "level_checks": 397,
+    "literal_pair_checks": 2731208,
+    "all_passed": true,
+    "checker_exit_code": 0,
+    "quartic_witness": {
+      "p": 2144280833,
+      "N": 256,
+      "generator": 231737012,
+      "E": 208128,
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0"
+    },
+    "witness_prime_certificate": {
+      "method": "trial division by all odd integers through floor(sqrt(p))",
+      "p": 2144280833,
+      "limit": 46306
+    }
+  },
+  "mathematical_scope": "At an actual quartic order256 endpoint, child triple mass3 disappears from the newest primitive layer but its normalized full-energy excess48 persists. The exact transported-label compatibility equation is necessary, with no uniform upper bound derived.",
+  "counterexample_scope": "Refutes the pointwise assertion Y_tot<=C Y_N for every eligible pair N,p. One finite witness does not exclude eventual large-N or additive-error variants, or any target energy bound with its baseline.",
+  "review_scope": "Root ordinary derivations and exact literal finite checks; no independent-agent, Lean, external review or novelty claim.",
+  "agent_scope": "Previously usage-limited lanes were not restarted; no fresh agent status claimed.",
+  "runtime_scope": "Own exploratory script and standard-library verifier finished successfully. No Lean process polled, started or changed.",
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel50_tower_mass.py": true,
+    "research/parallel50-tower-mass-2026-09-06.md": true,
+    "research/parallel50-pass-summary-2026-09-06.md": true,
+    "results/parallel50_prior_state_2026_09_06.json": true,
+    "results/parallel50_tower_mass_2026_09_06.json": true,
+    "results/parallel50_source_scope_2026_09_06.json": true
+  },
+  "local_links_checked": [
+    {
+      "source": "research/parallel51-collision-transport-2026-09-06.md",
+      "target": "research/parallel50-tower-mass-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel51-collision-transport-2026-09-06.md",
+      "target": "research/kernel-discriminant.md"
+    },
+    {
+      "source": "research/parallel51-collision-transport-2026-09-06.md",
+      "target": "experiments/parallel51_collision_transport.py"
+    },
+    {
+      "source": "research/parallel51-collision-transport-2026-09-06.md",
+      "target": "results/parallel51_collision_transport_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel51-pass-summary-2026-09-06.md",
+      "target": "research/parallel51-collision-transport-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel51-pass-summary-2026-09-06.md",
+      "target": "experiments/parallel51_collision_transport.py"
+    },
+    {
+      "source": "research/parallel51-pass-summary-2026-09-06.md",
+      "target": "results/parallel51_collision_transport_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel51-pass-summary-2026-09-06.md",
+      "target": "results/parallel51_pass_audit_2026_09_06.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel51-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "research/parallel51-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "research/parallel51-collision-transport-2026-09-06.md"
+    },
+    {
+      "source": "research/checkpoint-2026-09-04.md",
+      "target": "research/parallel51-pass-summary-2026-09-06.md"
+    }
+  ],
+  "source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "mathematical_and_checker_dependency_hashes": {
+    "research/parallel2-subgroup-2026-09-04.md": "d2d7a0e427a3eb9859d9c0045f048dc79a551325dcd1753722809705ef22f98b",
+    "research/kernel-discriminant.md": "7e1ad6608218b4ae29d9d8b9cd9ced2c8e3c6180093778b9da3d39a4e8f3abb0",
+    "research/dyadic-descent-and-mixed-energy.md": "8b31a1bad9fcd1c457e442ace22214fa094395b8e2958b03589ce3b14bd13924",
+    "research/parallel48-collision-eliminants-2026-09-06.md": "956846bd5f9592536730b22fb3e916c36f60b7a3d212ab3a7828b88b251a785a",
+    "research/parallel50-tower-mass-2026-09-06.md": "69e7cacb043a6497e4cd5bba979b9fbb3cd2fb9daba7cbe6687a0d17669a7f33",
+    "results/parallel48_collision_eliminants_2026_09_06.json": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d",
+    "results/parallel50_pass_audit_2026_09_06.json": "d8bb8c87ea7e06a9311245053f88c34f95209d1e893bec33ee42d53c28ee5720"
+  },
+  "artifacts_sha256": {
+    "experiments/parallel51_collision_transport.py": "b5bdff523f06de80293065a482f90fed5ea84b20513b3ddb7c50bbf6279d9df2",
+    "research/parallel51-collision-transport-2026-09-06.md": "95f1f78d4a2db23b323cc715a285bfafe8ba110271205aee1ebc55843985683a",
+    "research/parallel51-pass-summary-2026-09-06.md": "ca10dd517706b05645ee5871b7d6ec06d465319d8512ba38d3b8f316a9dae889",
+    "results/parallel51_prior_state_2026_09_06.json": "78e6eaa6c2052482034ec984efdf1cb01260fb26ca74d910556aa81f6325d398",
+    "results/parallel51_collision_transport_2026_09_06.json": "b22e8ba4f1cc2fbb535ada36b046bca483fd4f0c9b90810f88079ea990cd155c",
+    "results/parallel51_source_scope_2026_09_06.json": "ffb1bf9d30a5aadfe95e0d3f23a4c3c26d4fbe4ef6698a4df2683928ca7a0c2c"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "307eb2441cc47778bc888a50d18e6d38abe2647807a813515068439beca0786c",
+      "after": "061d1e26d5877380c1cbd5f24f8c1318b8914c9d2b6152caeb9cf362d3939d24"
+    },
+    "research/frontier.md": {
+      "before": "840fad619d1c35104e7aac98e09d53697a04ccb3303b63c3b34cac5199c0214f",
+      "after": "4e8468f080ff2ae45f6986d3244d9eaa46ebc16b577013810e1a1a214f26205e"
+    },
+    "research/source-audit.md": {
+      "before": "be924bfd3eee5a7cf940caf965716ad6df816c66a1452c35ff1696d801e720c6",
+      "after": "8e083921882d4d58f1cb238c8587e9e6c58b58d3bf90af50a73a614082771453"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "77f3b3274d91c56101ce47277093a2a85aec93f56a5da635e060a3b92dc420af",
+      "after": "60fdcbee83b89dfbf8c0f42a59802784aab6f77ff0ec8a2553a5c663d5113aab"
+    }
+  },
+  "central_git_diff_check_passed": true,
+  "next_action": "Obtain quantitative control of the actual upper-tower mass or its joint transported-label data. Do not replace the interval by the largest primitive layer using unproved monotonicity or domination."
+}

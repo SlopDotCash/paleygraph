@@ -1,0 +1,8 @@
+{
+  "source_sha256": "daf29e48eb79e3222a5cf91b0ad5cfd8288c549cb55bd0b8e1cf594efc1aae6d",
+  "input_sha256": {
+    "shared_insertions/contrast_results.json": "8ece2fcbec477631656d9c8f00119c4408e809468b3e108b68c4acd1359e0197",
+    "shared_insertions/reference_results.json": "3f0e4f2c400c81fcafbb705618b12da4940edb081149195a82fc321b417ba1b3"
+  },
+  "scope": "Saved exact fractions and finite selected-input comparisons; no fitted Paley asymptotic."
+}

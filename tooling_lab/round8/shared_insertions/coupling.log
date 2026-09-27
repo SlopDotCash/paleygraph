@@ -1,0 +1,1 @@
+{"status": "passed", "affine_cases": 8, "affine_covariance_entries_checked": 392, "literal_centered_covariance_entries": 196, "scope": "Both translation and nonsquare-affine controls; literal projection replay and simpler-feature ablations on four saved twin inputs."}

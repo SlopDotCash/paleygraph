@@ -1,0 +1,203 @@
+{
+  "status": "passed",
+  "scope": "Standalone polynomial certificates verified without constructor imports. Capacity optima checked by all-integer-occupancy search; full simple input checked with a separate pair grouping and row reduction. Mathematical originality and cluster discovery are not asserted.",
+  "cases": [
+    {
+      "name": "hard_rank3",
+      "certificate": "hard_rank3.certificate.json",
+      "input": "hard_rank3.input.json",
+      "compile_seconds": 0.0007842920022085309,
+      "review_seconds": 0.009316999989096075,
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "verified",
+      "method": "capacitated_corners",
+      "minimum_interval": [
+        50,
+        50
+      ],
+      "nonzero_classes": 11,
+      "all_nonzero_pairs_checked": 105,
+      "all_class_triples_checked": 165,
+      "integer_occupancy_states_checked": 2697,
+      "success_probability_lower": [
+        5,
+        56
+      ]
+    },
+    {
+      "name": "common_roots",
+      "certificate": "common_roots.certificate.json",
+      "input": "common_roots.input.json",
+      "compile_seconds": 0.004891458011115901,
+      "review_seconds": 0.01592966700263787,
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "verified",
+      "method": "capacitated_corners",
+      "minimum_interval": [
+        20,
+        20
+      ],
+      "nonzero_classes": 11,
+      "all_nonzero_pairs_checked": 55,
+      "all_class_triples_checked": 165,
+      "integer_occupancy_states_checked": 2501,
+      "success_probability_lower": [
+        1,
+        28
+      ]
+    },
+    {
+      "name": "parallel_conic",
+      "certificate": "parallel_conic.certificate.json",
+      "input": "parallel_conic.input.json",
+      "compile_seconds": 0.0072143750003306195,
+      "review_seconds": 0.007165874994825572,
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "verified",
+      "method": "capacitated_corners",
+      "minimum_interval": [
+        120,
+        120
+      ],
+      "nonzero_classes": 8,
+      "all_nonzero_pairs_checked": 120,
+      "all_class_triples_checked": 56,
+      "integer_occupancy_states_checked": 1470,
+      "success_probability_lower": [
+        3,
+        14
+      ]
+    },
+    {
+      "name": "simple_corner",
+      "certificate": "simple_corner.certificate.json",
+      "input": "simple_corner.input.json",
+      "compile_seconds": 0.014922083006240427,
+      "review_seconds": 1.290243499999633,
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "verified",
+      "method": "capacitated_corners",
+      "minimum_interval": [
+        147,
+        147
+      ],
+      "nonzero_classes": 16,
+      "all_nonzero_pairs_checked": 120,
+      "all_class_triples_checked": 560,
+      "integer_occupancy_states_checked": 16743,
+      "success_probability_lower": [
+        21,
+        80
+      ]
+    },
+    {
+      "name": "simple_pair",
+      "certificate": "simple_pair.certificate.json",
+      "input": "simple_pair.input.json",
+      "compile_seconds": 0.004297958992538042,
+      "review_seconds": 0.0006840419955551624,
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "verified",
+      "method": "simple_pair_degree",
+      "minimum_interval": [
+        138,
+        147
+      ],
+      "all_pairs_checked": 120,
+      "all_triple_dependencies_covered": 560,
+      "literal_triples_enumerated": false,
+      "nontrivial_lines": 15,
+      "success_probability_lower": [
+        69,
+        280
+      ]
+    },
+    {
+      "name": "full_length",
+      "certificate": "full_length.certificate.json",
+      "input": "full_length.input.json",
+      "compile_seconds": 34.163088750006864,
+      "review_seconds": 105.1737173750007,
+      "p": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "status": "verified",
+      "method": "simple_pair_degree",
+      "minimum_interval": [
+        11401439,
+        11402277
+      ],
+      "all_pairs_checked": 523776,
+      "all_triple_dependencies_covered": 178433024,
+      "literal_triples_enumerated": false,
+      "nontrivial_lines": 2785,
+      "success_probability_lower": [
+        1628777,
+        25490432
+      ]
+    }
+  ],
+  "hard_source_node_indices": [
+    4,
+    5,
+    7,
+    10
+  ],
+  "corrupted_certificates_rejected": [
+    "domain",
+    "origin_degree",
+    "basis_rank",
+    "class_missing_coordinate",
+    "class_direction",
+    "class_triples",
+    "occupancy",
+    "minimum",
+    "probability",
+    "line_missing",
+    "pair_degree",
+    "pair_interval"
+  ],
+  "verification_limit_is_not_success": true,
+  "source_sha256": {
+    "export_certificates.py": "cacbceed6c8e414ee0fc4b910454ad0e015f3eeb4ff0fc237099933f3738a765",
+    "polynomial_certificate.py": "df9531e3fb6c4d825b0432c3ea2f8ddeefde65224be57542fece89120417043b",
+    "certificate_verifier.py": "6a13a4e94905a5be28e5da072b205564a4d692d6ed46317f3045f39733245be4",
+    "capacitated_pinning.py": "f98680ec721ba454091759e5ad9b0e1e9ec32393d697fe1a2307e8daa7f6a225",
+    "pair_space_preflight.py": "792c447ba0163b7fe3613ef9873caa2d1a85de9ae05f3b5ab74da648cd3bb1a9"
+  },
+  "input_sha256": {
+    "actual_results.json": "5af1bf4f3d1a7ca9acf41a9ed73555f70a96a0bb81af4ab48da33f544e2918e7",
+    "../round6/overlap_preflight/coset_small_characteristic_sample3.certificate.json": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764",
+    "../round11/rank_three_actual.json": "759fa3fa8bc53e0d7142d4520b9651444bc59ab23146105494194d52921746dc"
+  },
+  "certificate_sha256": {
+    "hard_rank3.certificate.json": "74f9d94e15d0e38834f50f6e6513a4c8002c8263f554593f940921f0e1a83771",
+    "hard_rank3.input.json": "3e7027f53e37b89a652e4bc960c04c73717a573d52bd96d4f0007a544b11af99",
+    "common_roots.certificate.json": "b604f67d1e33ec48829d318964cb82dc9da866cc9adf00f1aa18c9706af40a04",
+    "common_roots.input.json": "0aea0d8a0374a8e32b682e8dda80694c50bf5c23de27bafc2cbcdef614592ec8",
+    "parallel_conic.certificate.json": "62bcb76e07fc7b6bdc76185417fb88039b36b5d3b876095a2c27e4df5ad20f25",
+    "parallel_conic.input.json": "f80b8d3e04492e329b65f2461bbf60586bc761638feadb06391867ce0133626c",
+    "simple_corner.certificate.json": "b0369745ff5b2ff60b5aa7dcfb4930830c35d6f70961d1b8e3d04364b6cade50",
+    "simple_corner.input.json": "0b7e3c02b4254bfa2bea7869194294e75bcc2c1edd23dbc5c2c6e383d8ce5ff4",
+    "simple_pair.certificate.json": "9a4dcd151b7ab54368a8f61a208bd1b383a3819e1a189faa558cc77e79c56776",
+    "simple_pair.input.json": "0b7e3c02b4254bfa2bea7869194294e75bcc2c1edd23dbc5c2c6e383d8ce5ff4",
+    "full_length.certificate.json": "3b3c935e23c0344933b2567b55d05e7b133aa727b322fef8c0c281f564e79476",
+    "full_length.input.json": "681200946fcaf1d8e3822882eb122ff54b149bd2b97dcb77ee17484b7c1a6b65"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "status": "passed",
+  "scope": "Declared polynomial subspaces; rescaling controls are abstract linear evaluation spaces only.",
+  "polynomial_controls": [
+    {
+      "case": "hard_f17",
+      "control": "swap",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "minimum": 15,
+      "full_coordinate_pairs_checked": 120,
+      "witness_pairs_checked": 55,
+      "dynamic_program_transitions": 107,
+      "projective_classes": 6,
+      "zero_columns": 4
+    },
+    {
+      "case": "hard_f17",
+      "control": "shear",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "minimum": 15,
+      "full_coordinate_pairs_checked": 120,
+      "witness_pairs_checked": 55,
+      "dynamic_program_transitions": 107,
+      "projective_classes": 6,
+      "zero_columns": 4
+    },
+    {
+      "case": "hard_f17",
+      "control": "mix",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "minimum": 15,
+      "full_coordinate_pairs_checked": 120,
+      "witness_pairs_checked": 55,
+      "dynamic_program_transitions": 107,
+      "projective_classes": 6,
+      "zero_columns": 4
+    },
+    {
+      "case": "hard_f17",
+      "control": "coordinate_permutation",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "minimum": 15,
+      "full_coordinate_pairs_checked": 120,
+      "witness_pairs_checked": 55,
+      "dynamic_program_transitions": 101,
+      "projective_classes": 6,
+      "zero_columns": 4
+    },
+    {
+      "case": "large_f65537",
+      "control": "swap",
+      "p": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "minimum": 83836,
+      "full_coordinate_pairs_checked": 523776,
+      "witness_pairs_checked": 83845,
+      "dynamic_program_transitions": 670057,
+      "projective_classes": 1015,
+      "zero_columns": 0
+    },
+    {
+      "case": "large_f65537",
+      "control": "shear",
+      "p": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "minimum": 83836,
+      "full_coordinate_pairs_checked": 523776,
+      "witness_pairs_checked": 83845,
+      "dynamic_program_transitions": 670057,
+      "projective_classes": 1015,
+      "zero_columns": 0
+    },
+    {
+      "case": "large_f65537",
+      "control": "mix",
+      "p": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "minimum": 83836,
+      "full_coordinate_pairs_checked": 523776,
+      "witness_pairs_checked": 83845,
+      "dynamic_program_transitions": 670057,
+      "projective_classes": 1015,
+      "zero_columns": 0
+    },
+    {
+      "case": "large_f65537",
+      "control": "coordinate_permutation",
+      "p": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "minimum": 83836,
+      "full_coordinate_pairs_checked": 523776,
+      "witness_pairs_checked": 83845,
+      "dynamic_program_transitions": 670142,
+      "projective_classes": 1015,
+      "zero_columns": 0
+    }
+  ],
+  "abstract_scaling_controls": [
+    {
+      "case": "hard_f17",
+      "minimum": 15,
+      "pairs_checked": 120,
+      "dynamic_program_transitions": 107
+    },
+    {
+      "case": "large_f65537",
+      "minimum": 83836,
+      "pairs_checked": 523776,
+      "dynamic_program_transitions": 670057
+    }
+  ],
+  "common_root_extremal_cases": [
+    {
+      "p": 5,
+      "n": 5,
+      "k": 2,
+      "s": 2,
+      "minimum": 1
+    },
+    {
+      "p": 5,
+      "n": 5,
+      "k": 2,
+      "s": 3,
+      "minimum": 3
+    },
+    {
+      "p": 5,
+      "n": 5,
+      "k": 2,
+      "s": 4,
+      "minimum": 6
+    },
+    {
+      "p": 5,
+      "n": 5,
+      "k": 2,
+      "s": 5,
+      "minimum": 10
+    },
+    {
+      "p": 7,
+      "n": 7,
+      "k": 4,
+      "s": 4,
+      "minimum": 1
+    },
+    {
+      "p": 7,
+      "n": 7,
+      "k": 4,
+      "s": 5,
+      "minimum": 3
+    },
+    {
+      "p": 7,
+      "n": 7,
+      "k": 4,
+      "s": 6,
+      "minimum": 6
+    },
+    {
+      "p": 7,
+      "n": 7,
+      "k": 4,
+      "s": 7,
+      "minimum": 10
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 8,
+      "minimum": 1
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 9,
+      "minimum": 3
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 10,
+      "minimum": 6
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "minimum": 10
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 12,
+      "minimum": 15
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 13,
+      "minimum": 21
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 14,
+      "minimum": 28
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 15,
+      "minimum": 36
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 16,
+      "minimum": 45
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 12,
+      "minimum": 1
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 13,
+      "minimum": 3
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 14,
+      "minimum": 6
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 15,
+      "minimum": 10
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 16,
+      "minimum": 15
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 17,
+      "minimum": 21
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 18,
+      "minimum": 28
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 19,
+      "minimum": 36
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 20,
+      "minimum": 45
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 21,
+      "minimum": 55
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 22,
+      "minimum": 66
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 23,
+      "minimum": 78
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 24,
+      "minimum": 91
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 25,
+      "minimum": 105
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 26,
+      "minimum": 120
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 27,
+      "minimum": 136
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 28,
+      "minimum": 153
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 29,
+      "minimum": 171
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 30,
+      "minimum": 190
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 31,
+      "minimum": 210
+    },
+    {
+      "p": 37,
+      "n": 32,
+      "k": 12,
+      "s": 32,
+      "minimum": 231
+    }
+  ],
+  "invalid_inputs_rejected": [
+    "composite",
+    "duplicate_domain",
+    "noncanonical_domain",
+    "large_degree",
+    "dependent_basis",
+    "threshold",
+    "bool_threshold",
+    "noncanonical_coefficient"
+  ],
+  "source_sha256": {
+    "rank_two_controls.py": "ed7216fda47298fa27aef3389b1bcbc53bc1a32bcb2b49a63cdeb885a33ed17f",
+    "polynomial_cluster.py": "e31be7e7bc62b595c3b67d31878e505cbd0ac36400666b3702dbe0f4ba2aad41",
+    "rank_two_pinning.py": "d7043842d3c0c8862e24693864a31d0cc101e9781945a96cff325d5bd33e6047",
+    "independent_verifier.py": "04fbcf3421e351e8b637967aa02f0e900445681203336748e82c54970b9ad423"
+  },
+  "input_sha256": {
+    "hard_f17.input.json": "8275935558d82d5d2dc4a4f54b7c6fbb7f2f5ddd12008fa840aff52450d0155b",
+    "large_f65537.input.json": "4027f7427d157d42abf8fc80f6ea8f1b6011d00bd7b7fc58c3e09975f5ed1664"
+  }
+}

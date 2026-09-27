@@ -1,0 +1,147 @@
+{
+  "created_utc": "2026-09-05T22:51:08.415100+00:00",
+  "status": "passed",
+  "scope": "Integration of completed exact arithmetic and stated partial large-matrix readbacks; no human review, prize theorem, or historical originality certification.",
+  "source_and_input_bindings": 70,
+  "previous_round7_artifacts_preserved": 35,
+  "python_sources_compiled": 11,
+  "markdown_local_links_passed": true,
+  "artifacts": {
+    "README.md": {
+      "sha256": "7e84220ffa015f18d7badc9c2f8e8e8f9a6d753104614e096e2b079455e6ff56",
+      "bytes": 3419
+    },
+    "overview.pdf": {
+      "sha256": "a15790affc24477a63e14bdec3ba6d340c1f6088373e5b62656de72ae3073217",
+      "bytes": 34877
+    },
+    "overview.png": {
+      "sha256": "b01b9ef60e52237d6d36a91ce76318387d6e6c1fe7a23752ca429f61518653ea",
+      "bytes": 230655
+    },
+    "plot_metadata.json": {
+      "sha256": "ab5bcb6e8bdf5c526dbca3d24918cfb1e7a7747624c8d259fbcd664f7752d002",
+      "bytes": 448
+    },
+    "plot_results.py": {
+      "sha256": "daf29e48eb79e3222a5cf91b0ad5cfd8288c549cb55bd0b8e1cf594efc1aae6d",
+      "bytes": 3532
+    },
+    "shared_insertions/README.md": {
+      "sha256": "b6262015222f04b8d62744e3dce0b50e24fe2a4bf285270d6cb371694022819f",
+      "bytes": 8805
+    },
+    "shared_insertions/boundary.log": {
+      "sha256": "ba4bee275cb8fe2b5da3c8325e477c1a248d45779ffc15f8461981be9d81da2f",
+      "bytes": 80
+    },
+    "shared_insertions/boundary_review.py": {
+      "sha256": "cb1f0e28a73a9713fe6edc8e2446226c6c1cd876491a10b80a77531b1a5e49eb",
+      "bytes": 3021
+    },
+    "shared_insertions/boundary_verification.json": {
+      "sha256": "fb84b8a913cedaac1634c6c16c084e68e0bbcafab22ee0d41b4de44f3c7ea68c",
+      "bytes": 5245
+    },
+    "shared_insertions/contrast.log": {
+      "sha256": "0f686c81b2607ac49b36af4d6548bb574537015009237be68ae5c3eb474a073d",
+      "bytes": 1822
+    },
+    "shared_insertions/contrast_analysis.py": {
+      "sha256": "8ddb5325ad8f6cbb572db94d33f1c21e081dc82346c16d3592f86ab0265d1111",
+      "bytes": 1950
+    },
+    "shared_insertions/contrast_results.json": {
+      "sha256": "8ece2fcbec477631656d9c8f00119c4408e809468b3e108b68c4acd1359e0197",
+      "bytes": 314861
+    },
+    "shared_insertions/coupling.log": {
+      "sha256": "1ca4052da32804bcdd30c02729c717c0dfa3913927c680b9b9ce625cca4e7f49",
+      "bytes": 269
+    },
+    "shared_insertions/coupling_controls.py": {
+      "sha256": "fd9c1f00e799b15daf30e3b61097af4fb133a439ad8e67d372ae88a45b594cc0",
+      "bytes": 3531
+    },
+    "shared_insertions/coupling_verification.json": {
+      "sha256": "3d5cf69053a797d17f80f6d280e0b25956f0aac0546604822c0d81c68c0e3d0a",
+      "bytes": 892
+    },
+    "shared_insertions/covariance.py": {
+      "sha256": "b8425128784e844c53fbe81993546d6da9a34033b083e8e814f5e0f4386a26c5",
+      "bytes": 2886
+    },
+    "shared_insertions/covariance_backend": {
+      "sha256": "df0d4f80569a4b05100d999c1525bd245828f9d186264104db8c078bbe77119d",
+      "bytes": 38176
+    },
+    "shared_insertions/covariance_backend.cpp": {
+      "sha256": "de5446b8efa1510f05480cdfee5fb125d67347c8faba4449758f1584c921e6cb",
+      "bytes": 4769
+    },
+    "shared_insertions/example_query.json": {
+      "sha256": "4affe5f93b4cdc414098cd8f1da3e6de51d9dc4e611d398e3d583d6e8854c6d9",
+      "bytes": 1130
+    },
+    "shared_insertions/preflight.py": {
+      "sha256": "ef2e1105842210f633071a26463825e13a664adafa3c7edbb383e793d4d9f7d4",
+      "bytes": 3634
+    },
+    "shared_insertions/prior_art.md": {
+      "sha256": "38e38439a7ef58ab64642ea1297feb1bc0250ef1b3c3cdb90f1857b4f7efb232",
+      "bytes": 2907
+    },
+    "shared_insertions/query_covariance.py": {
+      "sha256": "4944586846acaae1bae979d216db8bf4febd472f8e97da4fd454b32e62bd0b2b",
+      "bytes": 1514
+    },
+    "shared_insertions/reference.log": {
+      "sha256": "fa0be7ac21d54c9928a3446b1ba528fc95c259c49ef88ad6bbaf092f0ccf0966",
+      "bytes": 853
+    },
+    "shared_insertions/reference_model.py": {
+      "sha256": "435989b4df338d71450b58aab6efd62da4e67365b4b9f34c234a072eb67b2e9d",
+      "bytes": 2558
+    },
+    "shared_insertions/reference_results.json": {
+      "sha256": "3f0e4f2c400c81fcafbb705618b12da4940edb081149195a82fc321b417ba1b3",
+      "bytes": 4908
+    },
+    "shared_insertions/results.json": {
+      "sha256": "c316c6e0795ff99ee9a844e6fd12ec4a5a59f073e17b2a6ddc8faff190405e2a",
+      "bytes": 51585
+    },
+    "shared_insertions/run.log": {
+      "sha256": "680dbfe671ff5bc2813aa22ca9b18362cdde54d9094aae6da54d2be95294c85e",
+      "bytes": 339
+    },
+    "shared_insertions/run_scale.py": {
+      "sha256": "c8f68259d7636f949e55482cfd892802661b08b1de60ecf3951c918b728bc51c",
+      "bytes": 2717
+    },
+    "shared_insertions/scale.log": {
+      "sha256": "42437cdbadf89dfc34730235d8eec482e3c6da167b785ea713796c26562279f8",
+      "bytes": 1144
+    },
+    "shared_insertions/scale_results.json": {
+      "sha256": "cb8af8a49fe46354cf4b866f66ea72dbb3e910dcfd32fe7bfd552093d1c2a21d",
+      "bytes": 900510
+    },
+    "shared_insertions/stream_review.py": {
+      "sha256": "77b82007703be47ff2e757df6419e2e2718ac45f6817e9723b0afe85262ab0e2",
+      "bytes": 4692
+    },
+    "shared_insertions/verification.json": {
+      "sha256": "f0360b4b5c1621ac82bc216473caebaa9526281a9769d648701d9a95052cf147",
+      "bytes": 6140
+    },
+    "shared_insertions/verification.log": {
+      "sha256": "23a5d89aea2af58be03d09948c9873bc92e1d3f1299186c9e7fabe7f9051db2f",
+      "bytes": 2977
+    },
+    "verify_round.py": {
+      "sha256": "c25e37b3e8fc7494f95f62ceaada3560994346b61a7c7a5d4f148e8608388067",
+      "bytes": 4248
+    }
+  }
+}

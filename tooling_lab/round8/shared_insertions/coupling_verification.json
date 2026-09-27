@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "affine_cases": 8,
+  "affine_covariance_entries_checked": 392,
+  "literal_centered_covariance_entries": 196,
+  "scope": "Both translation and nonsquare-affine controls; literal projection replay and simpler-feature ablations on four saved twin inputs.",
+  "source_sha256": {
+    "coupling_controls.py": "fd9c1f00e799b15daf30e3b61097af4fb133a439ad8e67d372ae88a45b594cc0",
+    "covariance.py": "b8425128784e844c53fbe81993546d6da9a34033b083e8e814f5e0f4386a26c5",
+    "covariance_backend.cpp": "de5446b8efa1510f05480cdfee5fb125d67347c8faba4449758f1584c921e6cb",
+    "covariance_backend": "df0d4f80569a4b05100d999c1525bd245828f9d186264104db8c078bbe77119d"
+  },
+  "input_sha256": {
+    "results.json": "c316c6e0795ff99ee9a844e6fd12ec4a5a59f073e17b2a6ddc8faff190405e2a",
+    "contrast_results.json": "8ece2fcbec477631656d9c8f00119c4408e809468b3e108b68c4acd1359e0197"
+  }
+}

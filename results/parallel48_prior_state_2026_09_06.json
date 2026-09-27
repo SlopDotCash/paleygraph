@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-09-06T09:51:44.224689+00:00",
+  "previous_goal_turn_classification": "progress: anchored exclusions, exact arithmetic recognition and finite candidate rejection; uniform bounds unchanged",
+  "files": {
+    "experiments/parallel47_anchored_arithmetic.py": "20523cbe1ffebb82f75222a2477f983626152c1fe473a75194ee8799d71c7518",
+    "research/parallel47-anchored-arithmetic-2026-09-06.md": "dab9ed758e407cd2590f566fb1ffa5a90c18d8e7fd49d19482c1f30905badb2a",
+    "research/parallel47-pass-summary-2026-09-06.md": "ac1e298323e9fb4bcec8227642c1ce33764628d0d85fb84bbdf604fe3d2c2b82",
+    "results/parallel47_prior_state_2026_09_06.json": "75e2b436ebaf6542d63f95d7a1706c51c35a58aae642ce9a165cf4f766891b1a",
+    "results/parallel47_anchored_arithmetic_2026_09_06.json": "b439f0878c8e8bf7304e6917ed1570e42b63951dac7d87e5c14ca17fa930ed12",
+    "README.md": "abe7331733bda4ac02d5c0f43033540fdad57590048026ce876e6e04a0b35728",
+    "research/frontier.md": "bdc8403ea5051e5dc05cf6a32327a02649a317f0e310dcbba6766c9b26a46b7e",
+    "research/source-audit.md": "8394ca01e847e583bc7afda0c9e33192c0709cb1e153ff6d66a24d972a9f096d",
+    "research/checkpoint-2026-09-04.md": "edc31e369dbf0198c112e8ab717ca1134832f7caac49eed9ad07f35e4939bd0e"
+  }
+}

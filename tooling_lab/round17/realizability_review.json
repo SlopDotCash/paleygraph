@@ -1,0 +1,601 @@
+{
+  "status": "passed",
+  "scope": "Rational polynomial Euclidean inverses and integer multiplication matrices, without importing the realizability producer. Every small digit norm independently checked by resultant; accepted set equals the full direct scalar census. Root-run separate implementation, not a human or Lean review.",
+  "cases": [
+    {
+      "case": "small_complete",
+      "positive_vectors_checked": 256,
+      "probes_checked": 90,
+      "probe_status_counts": {
+        "digit_height": 1,
+        "nonzero": 4,
+        "outside_centered": 84,
+        "zero": 1
+      }
+    },
+    {
+      "case": "medium_walk",
+      "positive_vectors_checked": 65,
+      "probes_checked": 90,
+      "probe_status_counts": {
+        "digit_height": 1,
+        "outside_centered": 88,
+        "zero": 1
+      }
+    },
+    {
+      "case": "known_short_walk",
+      "positive_vectors_checked": 65,
+      "probes_checked": 90,
+      "probe_status_counts": {
+        "digit_height": 1,
+        "nonintegral_inverse": 87,
+        "outside_centered": 1,
+        "zero": 1
+      }
+    },
+    {
+      "case": "known_centering_walk",
+      "positive_vectors_checked": 65,
+      "probes_checked": 90,
+      "probe_status_counts": {
+        "digit_height": 1,
+        "nonintegral_inverse": 88,
+        "zero": 1
+      }
+    },
+    {
+      "case": "quartic_window_walk",
+      "positive_vectors_checked": 33,
+      "probes_checked": 90,
+      "probe_status_counts": {
+        "digit_height": 1,
+        "nonintegral_inverse": 88,
+        "zero": 1
+      }
+    }
+  ],
+  "census_words_checked": 6561,
+  "census_resultants": 6561,
+  "actual_scalar_words_checked": 257,
+  "small_summary": {
+    "cube_words": 6561,
+    "actual_words_including_zero": 257,
+    "status_counts": {
+      "nonzero": 256,
+      "outside_centered": 6304,
+      "zero": 1
+    },
+    "actual_norm_values": [
+      0,
+      1,
+      17
+    ],
+    "norm_divisible_by_k_accepts": 6561,
+    "oracle_actual_norm_set_accepts": 945,
+    "oracle_actual_norm_energy_pair_set_accepts": 945,
+    "by_norm": [
+      {
+        "norm": 0,
+        "realized": 1
+      },
+      {
+        "norm": 1,
+        "nonrealized": 176,
+        "realized": 128
+      },
+      {
+        "norm": 2,
+        "nonrealized": 256
+      },
+      {
+        "norm": 4,
+        "nonrealized": 96
+      },
+      {
+        "norm": 8,
+        "nonrealized": 128
+      },
+      {
+        "norm": 16,
+        "nonrealized": 80
+      },
+      {
+        "norm": 17,
+        "nonrealized": 512,
+        "realized": 128
+      },
+      {
+        "norm": 32,
+        "nonrealized": 64
+      },
+      {
+        "norm": 34,
+        "nonrealized": 384
+      },
+      {
+        "norm": 49,
+        "nonrealized": 128
+      },
+      {
+        "norm": 64,
+        "nonrealized": 32
+      },
+      {
+        "norm": 68,
+        "nonrealized": 384
+      },
+      {
+        "norm": 81,
+        "nonrealized": 32
+      },
+      {
+        "norm": 97,
+        "nonrealized": 128
+      },
+      {
+        "norm": 98,
+        "nonrealized": 128
+      },
+      {
+        "norm": 113,
+        "nonrealized": 384
+      },
+      {
+        "norm": 128,
+        "nonrealized": 128
+      },
+      {
+        "norm": 136,
+        "nonrealized": 128
+      },
+      {
+        "norm": 162,
+        "nonrealized": 128
+      },
+      {
+        "norm": 193,
+        "nonrealized": 128
+      },
+      {
+        "norm": 194,
+        "nonrealized": 128
+      },
+      {
+        "norm": 196,
+        "nonrealized": 64
+      },
+      {
+        "norm": 226,
+        "nonrealized": 128
+      },
+      {
+        "norm": 241,
+        "nonrealized": 128
+      },
+      {
+        "norm": 272,
+        "nonrealized": 128
+      },
+      {
+        "norm": 289,
+        "nonrealized": 448
+      },
+      {
+        "norm": 337,
+        "nonrealized": 128
+      },
+      {
+        "norm": 353,
+        "nonrealized": 128
+      },
+      {
+        "norm": 388,
+        "nonrealized": 128
+      },
+      {
+        "norm": 401,
+        "nonrealized": 128
+      },
+      {
+        "norm": 433,
+        "nonrealized": 128
+      },
+      {
+        "norm": 529,
+        "nonrealized": 64
+      },
+      {
+        "norm": 578,
+        "nonrealized": 192
+      },
+      {
+        "norm": 706,
+        "nonrealized": 128
+      },
+      {
+        "norm": 772,
+        "nonrealized": 128
+      },
+      {
+        "norm": 784,
+        "nonrealized": 64
+      },
+      {
+        "norm": 881,
+        "nonrealized": 128
+      },
+      {
+        "norm": 961,
+        "nonrealized": 64
+      },
+      {
+        "norm": 1154,
+        "nonrealized": 128
+      },
+      {
+        "norm": 1649,
+        "nonrealized": 128
+      },
+      {
+        "norm": 2176,
+        "nonrealized": 128
+      },
+      {
+        "norm": 2401,
+        "nonrealized": 64
+      }
+    ],
+    "by_norm_energy": [
+      {
+        "norm": 0,
+        "energy": 0,
+        "realized": 1
+      },
+      {
+        "norm": 1,
+        "energy": 1,
+        "realized": 16
+      },
+      {
+        "norm": 1,
+        "energy": 3,
+        "realized": 48,
+        "nonrealized": 48
+      },
+      {
+        "norm": 1,
+        "energy": 5,
+        "nonrealized": 80,
+        "realized": 48
+      },
+      {
+        "norm": 1,
+        "energy": 7,
+        "nonrealized": 48,
+        "realized": 16
+      },
+      {
+        "norm": 2,
+        "energy": 2,
+        "nonrealized": 64
+      },
+      {
+        "norm": 2,
+        "energy": 6,
+        "nonrealized": 192
+      },
+      {
+        "norm": 4,
+        "energy": 2,
+        "nonrealized": 32
+      },
+      {
+        "norm": 4,
+        "energy": 4,
+        "nonrealized": 64
+      },
+      {
+        "norm": 8,
+        "energy": 4,
+        "nonrealized": 128
+      },
+      {
+        "norm": 16,
+        "energy": 2,
+        "nonrealized": 16
+      },
+      {
+        "norm": 16,
+        "energy": 6,
+        "nonrealized": 64
+      },
+      {
+        "norm": 17,
+        "energy": 3,
+        "nonrealized": 192,
+        "realized": 64
+      },
+      {
+        "norm": 17,
+        "energy": 5,
+        "nonrealized": 320,
+        "realized": 64
+      },
+      {
+        "norm": 32,
+        "energy": 4,
+        "nonrealized": 64
+      },
+      {
+        "norm": 34,
+        "energy": 4,
+        "nonrealized": 384
+      },
+      {
+        "norm": 49,
+        "energy": 3,
+        "nonrealized": 64
+      },
+      {
+        "norm": 49,
+        "energy": 5,
+        "nonrealized": 64
+      },
+      {
+        "norm": 64,
+        "energy": 4,
+        "nonrealized": 32
+      },
+      {
+        "norm": 68,
+        "energy": 4,
+        "nonrealized": 128
+      },
+      {
+        "norm": 68,
+        "energy": 6,
+        "nonrealized": 256
+      },
+      {
+        "norm": 81,
+        "energy": 3,
+        "nonrealized": 32
+      },
+      {
+        "norm": 97,
+        "energy": 5,
+        "nonrealized": 128
+      },
+      {
+        "norm": 98,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 113,
+        "energy": 5,
+        "nonrealized": 256
+      },
+      {
+        "norm": 113,
+        "energy": 7,
+        "nonrealized": 128
+      },
+      {
+        "norm": 128,
+        "energy": 8,
+        "nonrealized": 128
+      },
+      {
+        "norm": 136,
+        "energy": 4,
+        "nonrealized": 128
+      },
+      {
+        "norm": 162,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 193,
+        "energy": 5,
+        "nonrealized": 128
+      },
+      {
+        "norm": 194,
+        "energy": 4,
+        "nonrealized": 128
+      },
+      {
+        "norm": 196,
+        "energy": 4,
+        "nonrealized": 64
+      },
+      {
+        "norm": 226,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 241,
+        "energy": 5,
+        "nonrealized": 128
+      },
+      {
+        "norm": 272,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 289,
+        "energy": 5,
+        "nonrealized": 256
+      },
+      {
+        "norm": 289,
+        "energy": 7,
+        "nonrealized": 192
+      },
+      {
+        "norm": 337,
+        "energy": 7,
+        "nonrealized": 128
+      },
+      {
+        "norm": 353,
+        "energy": 7,
+        "nonrealized": 128
+      },
+      {
+        "norm": 388,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 401,
+        "energy": 5,
+        "nonrealized": 128
+      },
+      {
+        "norm": 433,
+        "energy": 5,
+        "nonrealized": 128
+      },
+      {
+        "norm": 529,
+        "energy": 5,
+        "nonrealized": 64
+      },
+      {
+        "norm": 578,
+        "energy": 6,
+        "nonrealized": 192
+      },
+      {
+        "norm": 706,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 772,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 784,
+        "energy": 6,
+        "nonrealized": 64
+      },
+      {
+        "norm": 881,
+        "energy": 7,
+        "nonrealized": 128
+      },
+      {
+        "norm": 961,
+        "energy": 7,
+        "nonrealized": 64
+      },
+      {
+        "norm": 1154,
+        "energy": 6,
+        "nonrealized": 128
+      },
+      {
+        "norm": 1649,
+        "energy": 7,
+        "nonrealized": 128
+      },
+      {
+        "norm": 2176,
+        "energy": 8,
+        "nonrealized": 128
+      },
+      {
+        "norm": 2401,
+        "energy": 7,
+        "nonrealized": 64
+      }
+    ],
+    "same_norm_and_energy_witness": {
+      "realized": {
+        "digits": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "a": 207,
+        "F": [
+          -50,
+          -114,
+          -116,
+          -100,
+          29,
+          25,
+          57,
+          58
+        ],
+        "scalar_congruences": true,
+        "centered": true,
+        "status": "nonzero",
+        "digit_norm": 1,
+        "digit_energy": 3
+      },
+      "nonrealized": {
+        "digits": [
+          -1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        "a": 28,
+        "F": [
+          28,
+          -224,
+          -7,
+          56,
+          -191,
+          -14,
+          112,
+          -125
+        ],
+        "scalar_congruences": true,
+        "centered": false,
+        "status": "outside_centered",
+        "digit_norm": 1,
+        "digit_energy": 3
+      }
+    }
+  },
+  "p_divides_cofactor_controls_checked": 3,
+  "corrupt_artifacts_rejected": [
+    "certificate_norm_f",
+    "certificate_k",
+    "certificate_adj",
+    "certificate_f",
+    "certificate_bound",
+    "output_a",
+    "output_F",
+    "output_status",
+    "output_centered",
+    "output_scalar_congruences"
+  ],
+  "source_sha256": {
+    "realizability_review.py": "31fc2120c3bcdd5ccf4a8a862e34935c36021dbc6c056899f3b0c2ee842edaf8",
+    "carry_review.py": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633"
+  },
+  "input_sha256": {
+    "realizability.json": "b0373d4e39a7106bff04c36f9ebbc7fdb33e3f61a2f009a88d345cf76505bb31",
+    "norm_compression.json": "dee00880cce3b58aae942755430b045757e8231dc529461940d3d68a59ea7f7c"
+  }
+}

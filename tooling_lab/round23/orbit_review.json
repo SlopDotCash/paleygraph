@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "small_cases": [
+    {
+      "p": 17,
+      "queries_checked": 352,
+      "direct_scalar_pair_checks": 5984
+    },
+    {
+      "p": 41,
+      "queries_checked": 880,
+      "direct_scalar_pair_checks": 36080
+    },
+    {
+      "p": 97,
+      "queries_checked": 2112,
+      "direct_scalar_pair_checks": 204864
+    }
+  ],
+  "large_seed_candidates_checked": 27904523,
+  "large_count": 0,
+  "large_scalar_difference": 345549834,
+  "fixed_coordinates": 37,
+  "free_integer_carry_coordinates": 27,
+  "scope": "Complete actual pair count for this one visible difference target, with independent scalar-pair arithmetic. This does not cover all remaining40-erasure differences.",
+  "input_sha256": {
+    "orbit_summary.json": "798e967ee2322c6443363afddc4d390ce7312078eab2c6614d65167c367b62bd",
+    "orbit_small_p17.json": "2620dc3a26ca7a6cc1fc2b564ba289357c872a0d8e3044a3961822dbebc937be",
+    "orbit_small_p41.json": "d234080717bc3137bec6896720ee7ecd7183dfdbd99206df3248898578ae4cb7",
+    "orbit_small_p97.json": "0dc974c1bb2bf4e1353b375cdc6f36d204a20aa898aa4f37ed3190a208b55e09",
+    "orbit_large.json": "769132782430fd09fea7f0626af6f945fcab82847a0747ef4f406dcc0cba790a",
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028",
+    "cover40.json": "b4a985b5296578ba5599dda8b842b11180e64244b7b7244f06c70298a28c12a1",
+    "lattice_information.json": "9dfb39737b84a3ef8b5778f40f54fece7e2e7f8f9f6eb60ab4627cf171ca9fa5"
+  },
+  "source_sha256": {
+    "orbit_review.py": "c6f992d3e9e3152b7a3d85117c12fac40c5060a9d499d1a5d73d7c9ccfb40be9",
+    "../round22/conditioned_review.py": "541554d050c916cbbac05acf6347dd88377e3822926e64806da5987a1aed2ec6",
+    "../round22/coupled_review.py": "78d246f92ff8e3a32753fe658c2ea5841ae1fc8a68d20b4c97ac67e776eb09b5"
+  }
+}

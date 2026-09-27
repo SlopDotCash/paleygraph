@@ -1,10 +1,214 @@
 # Checkpoint: main goal active and unproved
 
-Primary target: square-root additive-character cancellation for thin dyadic
-multiplicative subgroups, recovered from the existing prize repository.
-See `subgroup-target.md` for the precise working statement and its limits.
-The classical quadratic-character Paley formulation is a separate secondary
-line; it must not be substituted for the prize-linked target.
+Latest pass53 (2026-09-06): the [ambient spectral obstruction](parallel53-pass-summary-2026-09-06.md)
+proves that the full quadratic-residue elliptic kernel has inversion-odd
+eigenvalues approaching p, using exact Jacobi diagonalization and a
+checked primary discrepancy theorem. Its norm cannot supply the needed
+2p/3 saving, even asymptotically. The actual common-neighbor compression
+and S_3 average remain to be controlled. The exact p89 eigenvector and
+all4,096 coefficient and3,198 restricted-identity checks pass. No uniform
+target exponent or full proof is obtained. No Lean process or Prove2Me
+submission was changed; the goal remains active and unproved.
+
+Pass52 (2026-09-06): the [cubic increment budget](parallel52-pass-summary-2026-09-06.md)
+charges primitive collision mass to new triples created when four fine
+incidence cells merge. Exact bounds Delta_s>=36Y_s and
+Y_s^2<=sDelta_s/24 give a sufficient upper-interval increment input,
+still unproved. The known shifted-energy estimate only recovers5/2,
+weaker than49/20. The existing quartic endpoint has X128=X256=1260,
+so cubic excess need not grow at every step. All368 distinct step cases,
+71 towers and397 cutoffs pass. Uniform exponents and full goals remain
+unchanged. No Lean process or Prove2Me submission was changed.
+
+Pass51 (2026-09-06): the [cross-level collision comparison](parallel51-pass-summary-2026-09-06.md)
+gives an exact compatibility equation for primitive labels and their
+endpoint images. The sharper lower bound retains3N^2-3N. An actual
+order256 quartic case has Y128=3,Y256=0 and unchanged normalized
+energy excess48, ruling out a pointwise largest-layer shortcut for
+every tower. All71 towers,397 levels and2,731,208 literal pairs pass.
+The needed uniform upper-tower estimate remains unproved; no uniform
+exponent improves. No Lean process or Prove2Me submission was changed.
+The full goal remains active and unproved.
+
+Pass50 (2026-09-06): the [tower mass recovery](parallel50-pass-summary-2026-09-06.md)
+compares endpoint energy with total actual triple mass in both
+directions, up to a logarithmic gap. An explicit radical estimate also
+works from any intermediate subgroup. The existing49/20 theorem
+handles the lower tower through M nearN^(80/87)/(1+log N)^(4/29).
+The upper-level square-root mass estimate remains unproved. All70
+prime-field towers,390 levels and460 cutoffs pass exact checks; no
+uniform exponent improves. Root completed ordinary proofs and checks,
+with no separate-agent or Lean review claimed. No Lean process or
+Prove2Me submission was changed. The full goal remains active and unproved.
+
+Pass49 (2026-09-06): the [critical content and norm argument](parallel49-pass-summary-2026-09-06.md)
+give an exact derivative-minimum valuation formula and prove that its
+odd prime divisors must split at the subgroup order. The target primes
+remain eligible. Higher-precision triple masses and a reciprocal-sum
+cancellation correction are separated; generic polynomial examples
+rule out two unjustified simplifications. All82 resultant evaluations,
+70 p-adic cases and21 nonsplitting field cases pass. Through order128
+the refined content equals the preceding gcd, so no numerical or
+uniform estimate improves. Root completed ordinary proofs and checks;
+no independent-agent or Lean review is claimed. No Lean process or
+Prove2Me submission was changed. The full goal remains active and
+unproved.
+
+Pass48 (2026-09-06): the [collision eliminant certificate](parallel48-pass-summary-2026-09-06.md)
+classifies primitive triple fibers at fixed orders through128. Exactly
+three quartic primes at order128 have maximum fiber3, refuting the
+proposed uniform bound2. Their balanced energies5120 remain below8192,
+so the fixed-order quadratic energy conclusion survives. A weighted
+tower aggregate V_N of triple-fiber mass gives E_N<=44N^2+22N^2 V_N;
+the sufficient uniform estimate V_N<<N^(1/3) is unproved. Exact
+resultants, all factor primalities,70 splitting-prime cases and literal
+counts pass. Root completed ordinary derivations; no separate-agent or
+Lean review is claimed. The arithmetic backend is isolated; an own
+order256 exploration was terminated after preserving order128 data.
+No Lean process or Prove2Me submission was changed. Uniform exponents
+and full goals remain unchanged; the goal is active.
+
+Pass47 (2026-09-06): [anchored rows and arithmetic recognition](parallel47-pass-summary-2026-09-06.md)
+exclude both uncentered interval models, construct a centered formal
+repair, and characterize an actual difference profile by its first n-1
+field power sums. All2,048 tested repairs at one certified quartic prime
+fail the first moment; all53 small-field moments and three full Newton
+reconstructions pass. These are candidate restrictions and exact
+recognition, with no new uniform coefficient, energy or excess estimate.
+Root completed ordinary derivations and checks; separate-agent and Lean
+review are not claimed. No Lean process was polled, started or changed,
+and no Prove2Me submission was made. All uniform exponents and full
+goals remain unchanged; the goal is active.
+
+Pass46 (2026-09-06): the [row-capacity inequality](parallel46-pass-summary-2026-09-06.md)
+links repeated incidence mass inside and outside a row subset. It excludes
+the previous Sidon-filled interval family at sufficiently large size,
+but a long-interval filler retains the same scalar correlation scale and
+satisfies every total-X consequence. Local X_D allocations and the full
+off-diagonal multiplication law remain unimposed on that abstract model.
+Exact checks passed; root completed the ordinary derivations. Live agent
+status remains usage-limited. Uniform exponents and full goals are
+unchanged. No Lean job or Prove2Me submission was started in this pass.
+
+Pass45 (2026-09-06): the [weighted matrix extension](parallel45-pass-summary-2026-09-06.md)
+proves the exact product law, rank-two commutator, cubic/quartic traces,
+and a centered projection identity for arbitrary real weights. It retains
+constraints missing from generic quotient functions, but the direct norm
+bound is weaker than the current triangle estimate. Checked shifted-product
+and complex-group results do not close the concentration gap. Finite checks
+cover23,000 matrix entries,40 traces,20 projections, and20 direct field
+convolutions. Root completed the ordinary derivations and checks; uniform
+exponents and full targets remain unchanged. No Lean process was launched
+or polled in this mathematical pass. The preceding performance turn's
+diagnostic candidates remain unvalidated. The full goal stays active.
+
+Pass44 (2026-09-06): the [structured pointwise case](parallel44-pass-summary-2026-09-06.md)
+uses a different-subgroup intersection bound to constrain actual mass
+on quotient subgroup cosets and to prove the triangle power17/3 under
+a nested-coset partition hypothesis for the large levels. The hypothesis
+remains unproved. A weighted interval family obeys the new caps while
+retaining the old functional power, so those caps alone are insufficient.
+Exact nonlinear and shifted-inner-product identities for actual incidence
+matrices give additional constraints for the next step. Root reviewed
+the proofs and finite checks, including21,364 matrix-square entries.
+The uniform exponents and full goals remain unchanged; no Lean build,
+process change or Prove2Me submission was made. The goal stays active.
+
+Pass43 (2026-09-06): the [energy-based prime bound](parallel43-pass-summary-2026-09-06.md)
+improves possible exceptions to W<<n^(17/3) in the quartic range to
+O_c(n^(5/3)/log n), with individual primes still uncontrolled. An actual
+p278177,n32 subgroup has minimum additive energy2976 and X_dist=X72
+with zero diagonal rich mass, so no constant-factor diagonal domination
+holds even in that range. Product-hashing lifts establish and verify
+v_p(mathcal_P_n)=sum_r X_r; all21 small-order norm valuations agree,
+and three larger quartic cases are certified. Root checked the ordinary
+proofs and the published single-coset incidence hypothesis. Parallel lanes
+remain unavailable after the usage-limit failure. The uniform estimates
+and full goal remain open. No Lean build, process change or Prove2Me
+submission was performed.
+
+Pass42 (2026-09-06): the [weighted norm budget](parallel42-pass-summary-2026-09-06.md)
+controls collision excess summed over split primes at each fixed dyadic
+order, giving O_c(n^(63/31)/log n) possible exceptions to the sufficient
+triangle criterion in a quartic interval. It leaves individual exceptions
+possible. Complete norm factorizations at n4,8,16, 446 determinant checks,
+and 101 additional split-prime checks passed. The actual p353,n16 subgroup
+has off-diagonal excess72 with zero diagonal rich mass, ruling out all
+constant-factor diagonal domination in the general sparse range, but
+not specifically the quartic range. Reflection smoothing retains an
+exact recovery certificate no better than direct sixth-moment Holder;
+2,266 center-tuple checks passed. The three parallel lanes hit the usage
+limit after returning their main findings. Root completed the notes and
+scoped review. No new Lean build, process change or Prove2Me submission
+was made. Uniform energy49/20, period71/72 and full targets are unchanged;
+the original goal is active.
+
+Pass41 (2026-09-06): the [reviewed result](parallel41-pass-summary-2026-09-06.md)
+improves the full weighted-triangle bound to n^(86/15)L^(8/15), still
+above the route's target power by1/15. An exact diagonal relation sharpens
+the sufficient missing input to nontrivial shifted energy X<<n^(61/31)
+up to logarithms; no such uniform estimate is proved. Real-subfield
+recovery removes the scalar reciprocal exponent in the known example,
+while centering and unit-distortion checks retain the shell gap. A positive
+smoothed sixth moment also retains its original-moment recovery gap.
+Root independently checked the ordinary proofs and finite certificates.
+Energy49/20, period71/72, full Paley and prize conclusions are unchanged.
+No Lean build or Prove2Me submission was launched; the full goal is active.
+
+Pass40 (2026-09-06): the [three-lane result](parallel40-pass-summary-2026-09-06.md)
+includes an actual V<1/nonprincipal-kernel counterexample, an integral
+reciprocal converse with a quantified cofactor loss, and a quartic
+actual-level incidence collision with three distinct edge cosets.
+The latter changes52736 incidences to51968 when multiplicity is dropped;
+an exact multiplicative-intersection correction remains to be bounded.
+The classical Sidon route retains explicit translation/container costs,
+while standard input-norm almost-periodicity remains possible. Root
+independently checked all three lanes. No new Lean build or submission,
+uniform exponent improvement, or full proof is claimed. The goal is active.
+
+Pass39 (2026-09-06): the [principal-shell and edge-coset results](parallel39-pass-summary-2026-09-06.md)
+include an exact finite C=2 amplitude obstruction and the implication
+Norm(f)=kp => some V<=k^2 when p does not divide k. Existing sublinear
+cancellation forces k of order at least sqrt(n), so near-prime norm
+templates cannot scale in the quartic window. A separate estimate
+controls coincident edge cosets; the distinct-edge part is still open.
+Independent agents reviewed the new constructions and prior moment/shell
+comparisons. The intended nonzero subgroup domain in pass36 is explicit.
+Energy49/20, period71/72 and the full-goal status are unchanged.
+The user's Lean question received a fresh read-only process diagnosis:
+active kernel checking plus severe machine contention, without a reliable
+ETA. No new Lean build or Prove2Me submission was launched for this pass.
+
+Pass38 (2026-09-06): the [published-source and incidence audit](parallel38-pass-summary-2026-09-06.md)
+resolves the older22/9 energy claim. The published paper states32/13
+and adds a ratio-image cardinality condition absent from the preprint.
+The old proof's dyadic sets can fail that condition: exact p1153,n8
+enumeration gives image1600 rather than1728. Retaining coset multiplicity
+also corrects a48-versus16 counting example over F97. The49/20 imported
+bound remains unchanged. Root and two parallel reviewers inspected the
+source; finite counts were independently reproduced. No full target or
+uniform exponent improves and no Lean job was launched in this pass.
+
+Pass36 (2026-09-05): the [lattice-distance argument](parallel36-shell-inversion-2026-09-05.md)
+gives a constant-preserving comparison with centered subgroup periods,
+including normalized l^r bounds. Its uniform thin-annulus estimate remains
+open; the elementary cyclotomic norm bound V>=p^(-2/N) is too weak.
+An exact rational truncated-inverse certificate recovers the already-known
+order64 maximizing coset without high moments and bounds all other cosets
+below39.838. It does not improve the existing 1e-18 enclosure of M.
+The C++ integer certificate took about0.63seconds; full same-author exact
+checks took about25.4seconds. No new Lean or hosted job was launched.
+The preceding live diagnostic confirmed the long QueryPhase build had
+terminated with errors; this is separate from the mathematical proof status.
+The full conjectures, uniform period estimate, and independent/Lean review
+of the new argument remain open. See the [pass summary](parallel36-pass-summary-2026-09-05.md).
+
+The working subgroup line seeks square-root additive-character cancellation
+for thin dyadic multiplicative subgroups, recovered from the prize repository.
+See `subgroup-target.md` for the precise statement and its limits. The
+classical two-set Paley formulation and official prize conclusion also
+remain open. No equivalence of all these targets has been established;
+a narrower subgroup result must not be substituted for the full user goal.
 
 Completed in this run:
 
@@ -3053,3 +3257,172 @@ inside the previous envelope. No exhaustive impossibility claim is made
 for other higher-energy arguments. The next input must count short
 outputs of the larger cancellation networks or control the spectral
 quantity by other means. All full targets remain unproved; goal active.
+
+
+## Pass 32: a uniform linear triangle-length bound
+
+The previous goal turn was progress: pass31's finite certificates were
+audited and live Lean process evidence distinguished contention from
+recorded build failures. This pass proves a uniform bound for one
+triangle orbit, without launching another Lean or hosted proof job.
+
+For a dyadic triangle conductor m, the inverse of 1+X+X^2 has periodic
+coefficients 0,+1,-1 and squared coefficient norm (m-epsilon)/3.
+At unit complex arguments the absolute value of 1+u+v is at least
+one-third that of 1+u+u^2. Parseval and Cauchy give inverse coefficient
+norm at most sqrt(3m(m-epsilon)/2), hence at most 4m/3. Galois signed
+permutations and smaller-conductor embeddings preserve this bound.
+An integral quotient for an r-entry target therefore has length at
+most (4/3)rm. Uniqueness and coefficient counting prove minimality.
+
+A generated primitive six-set lies in one coset of the triangle's
+smaller subgroup. Its minimum derivation has at most 8m vertices and
+cycle rank at most 4m-2. If the smaller-ring determinant is p and the
+ambient-to-smaller order ratio is c, the chosen ideal has index p^c;
+inside the evaluation kernel its index is p^(c-1). Thus field vanishing
+alone need not imply generation when c>1. No six-term missing relation
+is asserted by that index argument.
+
+The exact verifier checks all 252 normalized trinomials through
+order128, five conductor lifts, and all119 prior orbit certificates.
+Its2352 checks finish in about1.50seconds. The prior fixed-field inverse
+has coefficient norm2878824541/215535361, giving upper length80 for
+six-term targets; the prior complete census retains maximum44.
+These finite checks support the implementation, not the universal
+Fourier proof. Separate-author review and Lean verification are open.
+
+The three existing agents were inspected and still have terminal usage-
+limit errors. Root can continue, so the full goal remains active.
+There is still no count of six-term outputs strong enough for the
+cubic remainder target, no improved period exponent, and no full Paley
+or prize proof. Direct bounded-length quotient enumeration is too
+large. The next input must count sparse products rather than simply
+bound the length of each derivation.
+
+
+## Pass 33: centered distinct-coordinate moments
+
+Previous turn: progress through a uniform bound on one-orbit triangle
+derivation length. Current pass: progress through a centered reduction
+valid at growing moment depth and a stronger repeated-word estimate.
+
+For a proper symmetric n-element set in F_p, r=2s<p, write T_s for
+the nonprincipal even Fourier moment and Q_s for the distinct zero-sum
+count minus (n)_r/p. With alpha=n(p-n)/(p-1), the ordinary proof gives
+|Q_s-T_s| <= [product_(j=1)^(r-1)(1+j/sqrt(alpha))-1] T_s.
+It centers every set-partition count W_pi by n^(number of blocks)/p
+before Holder. Nonzero block coefficients permute nonzero frequencies;
+Jensen and the unsigned Stirling cycle polynomial give the explicit
+error. In the quartic window alpha>=n-1, so the relative error is
+O(s^2/sqrt(n)) for s=o(n^(1/4)), including logarithmic depth.
+
+This gives an equivalent centered distinct-coordinate moment target
+at that depth. The required Gaussian upper bound is still unproved.
+Distinct tuples retain opposite pairs and must not be identified with
+the narrower D6 remainder. No classical Paley or prize transfer is
+asserted. Coefficients divisible by the characteristic are excluded.
+
+For a symmetric multiplicative subgroup, averaging a marked repeated
+pair gives R_(2s)<=binomial(2s,2) E_(s-1/2), and hence relative bound
+binomial(2s,2)/sqrt(n). At six terms, interpolation gives
+R6<=15 sqrt(E2 E3). The existing MRSS seeds improve the recorded
+repeated-component exponent69/20 to129/40, with log power3/5.
+The full E3 and period exponents do not improve.
+
+The verifier passes740 exact checks in33 set/order cases. An independent
+subset dynamic program agrees with partition inversion, all principal
+terms use exact rationals, and a p3 partition(3,3) witness demonstrates
+why the characteristic restriction matters. The logarithmic-depth
+parameter ledger retains exact rational error bounds and shows that
+the conservative constants can exceed one at modest orders.
+
+The recent published higher-energy definition was visually checked at
+printed115. Its dense relative uniformity cannot hold for the original
+quartic subgroup, because the k=l=2 diagonal already exceeds its
+normalization. A separate recent Fourier/Bohr alternative meets the
+size condition but leaves an unproved intersection estimate. Neither
+is imported as a new upper bound. The two new arguments remain
+ordinary proofs without separate-author or Lean verification. No new
+Lean or hosted job was launched; full goal active and unachieved.
+
+
+## Pass 34: exact opposite-pair transforms and the degree-ten principal term
+
+The intervening performance turn was a verified wait on a live Lean
+process. This mathematical pass is progress: it completes a second
+centered counting reduction and proves a raw lower bound that changes
+which upper estimate can plausibly be targeted.
+
+For A=-A subset F_p^*, n=2N, and 2s<=N, let Q_s be the distinct
+zero-word count minus (n)_(2s)/p, and B_s the distinct opposite-free
+count minus 2^(2s)(N)_(2s)/p. Unique removal of all opposite pairs gives
+Q_s=sum_t [(2s)!/(2t)!] binomial(N-2t,s-t) B_t. Its inverse has sign
+(-1)^(s-t) and replaces the binomial with the number of (s-t)-element
+independent sets in a cycle of size N-2t. Both coefficient magnitudes
+are bounded by binomial(s,t) G_s/G_t, G_s=(2s-1)!!n^s. Thus Gaussian
+hierarchy bounds transfer in both directions up to absolute constants.
+The forward implication needs only one-sided B_t upper bounds.
+
+With pass33, the reduction applies at logarithmic depth in the quartic
+window. The upper bound B_t<=K^t G_t remains unproved; the transforms
+do not supply it. The previously recorded period exponent71/72 and
+every full Paley/prize obligation remain unchanged.
+
+A separate Fourier union bound works for every symmetric nonzero set:
+O_(2s)>=[1-binomial(2s,2)(n^(-1/2)+p^(1/s)/n)]E_s. The repeated-pair
+Fourier sum needs no multiplicative closure, extending that part of
+pass33. At n>=2^35 and p<=n^4 this forces O_10>=n^6/2. No existence
+of large quartic subgroups is asserted by the threshold statement.
+The consequence is that a raw Gaussian-scale count cannot substitute
+for the centered target in sufficiently large eligible cases.
+
+The exact verifier passes9852 checks across9 sets and52 even-order
+cases, including an actual quartic p33713,n16 example, independent
+selection dynamic programs, cycle enumeration, and inverse matrices.
+It runs in about0.23seconds. Uniform arguments remain ordinary proofs
+with same-author finite checks, without separate-author or Lean review.
+The three prior agents were inspected and remain in terminal usage-
+limit error states. No new Lean or hosted proof job was launched.
+The complete requested goal remains active and unachieved.
+
+
+## Pass 35: a single-degree positive aggregate criterion
+
+Previous turn: progress through opposite-pair inversion and forced
+degree-ten principal mass. Current pass: progress through unconditional
+control of the negative aggregate and a same-degree moment comparison.
+
+For every symmetric A subset F_p^*, n=2N, and s>=1, put
+B_s=O_(2s)-2^(2s)(N)_(2s)/p and let T_s be the nonprincipal even
+Fourier moment. The ordinary argument gives B_s>=-(256sn)^s,
+|B_s|<=4^s[T_s+(64sn)^s], and T_s<=16^s B_s+2(4096sn)^s.
+Thus B_s<=(Ksn)^s at one degree implies T_s<=[(16K+8192)sn]^s.
+The positive upper estimate remains unproved. No hierarchy of earlier
+degrees, small-epsilon condition, or quartic hypothesis is needed for
+these comparisons. The subgroup consequence at s=O(log n) remains
+conditional; all full targets and the period exponent71/72 are unchanged.
+
+For a bounded real row y_i in[-2,2], center by its mean and express
+r!e_r(y) as a scaled product in the row sum, where r=2s. Ravichandran's
+Theorem4.4 bounds the shifted derivative roots by8sqrt(sn), while the
+leading scale lies between2^(-r) and1 when r<=N/2. Even degree gives
+the Gaussian lower bound; outside twice the root radius, the product
+controls the row moment from below. When r>N/2, n<8s and the trivial
+size bound supplies all three inequalities. Averaging over nonprincipal
+frequencies preserves the exact principal subtraction.
+
+The primary theorem was read in HTML and visually checked on PDFpage12;
+both source archives are pinned in a separate pass35 source ledger.
+The lower estimate sharpens the degree-ten possible relative shortfall
+to O(1/n), with a large constant. No corresponding upper estimate or
+prime/subgroup existence theorem follows. The actual p1153,n8 subgroup
+has averaged polynomial1153-(1+2w)^4, with two nonreal roots. Root bounds
+must be applied before averaging. The Newton recurrence is exact but
+still retains an unestimated correlation at the full degree.
+
+The verifier passes1053 exact checks in about1.71seconds across114
+bounded rational rows,78 Sturm enclosures,43 finite-field cases, and
+four group-algebra examples. Same-author finite checks do not formally
+verify the uniform theorem or supply separate-author review. The three
+existing agents remain in terminal usage-limit error states. No new Lean
+or hosted proof job was launched; goal active and unachieved.

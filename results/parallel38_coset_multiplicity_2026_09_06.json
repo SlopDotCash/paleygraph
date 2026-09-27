@@ -1,0 +1,190 @@
+{
+  "scope": "exact finite counting; missing-hypothesis witness only",
+  "full_conjecture_proved": false,
+  "asymptotic_22_over_9_refuted": false,
+  "examples": [
+    {
+      "p": 1153,
+      "h": [
+        1,
+        75,
+        123,
+        140,
+        1013,
+        1030,
+        1078,
+        1152
+      ],
+      "s": [
+        2,
+        150,
+        246,
+        280,
+        873,
+        907,
+        1003,
+        1151
+      ],
+      "t": 8,
+      "coset_representatives": [
+        2
+      ],
+      "image_cardinality": 64,
+      "required_image_cardinality": 64,
+      "published_extra_hypothesis_holds": true,
+      "raw_fiber_histogram": {
+        "8": 64
+      },
+      "quotient_multiplicity_histogram": {
+        "1": 1
+      },
+      "quotient_layer_sizes": [
+        1
+      ],
+      "direct_incidence": 0,
+      "weighted_incidence": 0,
+      "unweighted_incidence": 0,
+      "case": "old_proof_dyadic_level",
+      "level": 3,
+      "difference_multiplicities": [
+        1
+      ],
+      "energy": 168,
+      "cutoff": "21/128"
+    },
+    {
+      "p": 1153,
+      "h": [
+        1,
+        75,
+        123,
+        140,
+        1013,
+        1030,
+        1078,
+        1152
+      ],
+      "s": [
+        17,
+        48,
+        65,
+        74,
+        76,
+        122,
+        124,
+        139,
+        141,
+        198,
+        215,
+        263,
+        890,
+        938,
+        955,
+        1012,
+        1014,
+        1029,
+        1031,
+        1077,
+        1079,
+        1088,
+        1105,
+        1136
+      ],
+      "t": 8,
+      "coset_representatives": [
+        17,
+        48,
+        65
+      ],
+      "image_cardinality": 1600,
+      "required_image_cardinality": 1728,
+      "published_extra_hypothesis_holds": false,
+      "raw_fiber_histogram": {
+        "8": 1536,
+        "24": 64
+      },
+      "quotient_multiplicity_histogram": {
+        "1": 24,
+        "3": 1
+      },
+      "quotient_layer_sizes": [
+        25,
+        1,
+        1
+      ],
+      "direct_incidence": 192,
+      "weighted_incidence": 192,
+      "unweighted_incidence": 192,
+      "case": "old_proof_dyadic_level",
+      "level": 4,
+      "difference_multiplicities": [
+        2
+      ],
+      "energy": 168,
+      "cutoff": "21/128"
+    },
+    {
+      "p": 97,
+      "h": [
+        1,
+        22,
+        33,
+        47,
+        50,
+        64,
+        75,
+        96
+      ],
+      "s": [
+        1,
+        4,
+        6,
+        9,
+        16,
+        22,
+        24,
+        33,
+        35,
+        36,
+        43,
+        47,
+        50,
+        54,
+        61,
+        62,
+        64,
+        73,
+        75,
+        81,
+        88,
+        91,
+        93,
+        96
+      ],
+      "t": 8,
+      "coset_representatives": [
+        1,
+        4,
+        16
+      ],
+      "image_cardinality": 576,
+      "required_image_cardinality": 1728,
+      "published_extra_hypothesis_holds": false,
+      "raw_fiber_histogram": {
+        "24": 576
+      },
+      "quotient_multiplicity_histogram": {
+        "3": 9
+      },
+      "quotient_layer_sizes": [
+        9,
+        9,
+        9
+      ],
+      "direct_incidence": 48,
+      "weighted_incidence": 48,
+      "unweighted_incidence": 16,
+      "case": "nested_subgroups"
+    }
+  ]
+}

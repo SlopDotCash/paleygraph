@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "controls": [
+    {
+      "name": "cyclic20_recovery",
+      "status": "complete",
+      "count": 1
+    },
+    {
+      "name": "half_recovery",
+      "status": "complete",
+      "candidate_box_size": 162
+    },
+    {
+      "name": "explicit_budget_failure",
+      "status": "budget_exceeded",
+      "candidate_box_size": 31765230000
+    },
+    {
+      "name": "multiple_completions",
+      "status": "complete",
+      "count": 17
+    },
+    {
+      "name": "wrong_dimension",
+      "status": "rejected"
+    },
+    {
+      "name": "boolean_digit",
+      "status": "rejected"
+    },
+    {
+      "name": "wrong_erasure_mask",
+      "status": "rejected"
+    },
+    {
+      "name": "invalid_budget",
+      "status": "rejected"
+    },
+    {
+      "name": "corrupt_certificate",
+      "status": "rejected"
+    }
+  ],
+  "expected_example_scalar": 1234567,
+  "source_sha256": {
+    "query_review.py": "221e83d98a7bacbd67b8762e91e962655198833490078bf1926a13bd0adfe226",
+    "erasure_query.py": "1efe2cdbf8e4ceb5cbb8bd98cd899ca12700c58830c37e6b54df546e3c1f03f1",
+    "lattice_erasure.py": "522c7486d34c44c68ca9810b21886041e54f5ac86508d1454d2ba7228a3bd603",
+    "pullback_review.py": "79e76ef05393e978ddca89f79b9758257529fb05f01b179f6392f669a18049b4",
+    "erasure_review.py": "35c4948476839f7cdeb07eac8b2327dfcbe7a891176020d27cfac04ab59c2510"
+  },
+  "input_sha256": {
+    "pullback_erase20.json": "7d8ef54c1cdd18bc11af3e54063bad5dd3e58dfada331b8bb02276793d521c22",
+    "pullback_erase32.json": "9cacad8779faad4cc4813ec469b8552c1453148978a58b5e58e9679e5bfe46dd",
+    "p2013265921_erase32.json": "3b7726b405171124601efe5baa6604124e396c7c34ab072625558efc4a80e817",
+    "p17_basic_erase4.json": "1748c7a2d322e89befad99a243d90115684b4c445c480b6956511cb07cd58a56",
+    "erasure_input.json": "aefdb7451cc2b305cf7e11e695394afa65ab7ff3e5773e5650e71aded77dba08",
+    "erasure_output.json": "c7ea1db00d7f7a1022042ea0cd7db10089c876bccd94f54b0397fb07aca7e230"
+  }
+}

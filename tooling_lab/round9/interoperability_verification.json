@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "scope": "Older marked moment compiler with explicit exclusion of deleted points, plus affine controls in all degrees.",
+  "cases": [
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 2,
+      "older_marked_queries": 4,
+      "final_sets": 21
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "older_marked_queries": 4,
+      "final_sets": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 2,
+      "older_marked_queries": 4,
+      "final_sets": 45
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 6,
+      "older_marked_queries": 4,
+      "final_sets": 45
+    }
+  ],
+  "affine_controls": 21,
+  "source_sha256": {
+    "interoperability_review.py": "49c827343e5fd0327a028c0db42c6a63f630da01edef6f8b76833f759994fe21",
+    "two_insertions.py": "3b1fcb88958c979b3c1db5d95ce2dc0b86ad0ccf5c2541996c55619a030eb9a6",
+    "preflight.py": "caf761c25dae05d743c981d2bea387be7ba097e15360bf74f4b45f5b7f97b325"
+  },
+  "input_sha256": {
+    "../round4/marked_moments/conditional_moments.py": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "../round7/local_edits/review_results.py": "f9a437253d191eeee44b8f244bb7df4f76f10c4468a7e46a187b3b46d40c2fcd"
+  }
+}

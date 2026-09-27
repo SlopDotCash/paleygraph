@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "scope": "Independent Rademacher deletion-derivative Gram benchmark; not a realized conference sign matrix or a claimed Paley asymptotic.",
+  "identity": "E[r_a r_b] = binom(n-2,5) + 1_(a=b) binom(n-2,4)",
+  "contrast_fraction": "25 / (25 + (n-1)*(n-5)^2)",
+  "reference_asymptotic": "n^3 times this independent-sign fraction tends to25; no transfer to Paley inputs is asserted.",
+  "literal_reference_checks": [
+    {
+      "n": 6,
+      "sign_vectors": 64,
+      "gram_entries_checked": 36
+    },
+    {
+      "n": 7,
+      "sign_vectors": 128,
+      "gram_entries_checked": 49
+    },
+    {
+      "n": 8,
+      "sign_vectors": 256,
+      "gram_entries_checked": 64
+    }
+  ],
+  "comparisons": [
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "arithmetic_progression",
+      "actual_contrast_fraction": [
+        11434888695103897,
+        13630530092718051
+      ],
+      "independent_sign_reference_fraction": [
+        5,
+        6
+      ],
+      "actual_over_reference": [
+        22869777390207794,
+        22717550154530085
+      ],
+      "actual_over_reference_float": 1.0067008649542852
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "seeded_uniform",
+      "actual_contrast_fraction": [
+        50946317272196563,
+        61014335663299608
+      ],
+      "independent_sign_reference_fraction": [
+        5,
+        6
+      ],
+      "actual_over_reference": [
+        50946317272196563,
+        50845279719416340
+      ],
+      "actual_over_reference_float": 1.0019871569856196
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "arithmetic_progression",
+      "actual_contrast_fraction": [
+        1652732165422684949623228845580,
+        194609224362883646917760037715769
+      ],
+      "independent_sign_reference_fraction": [
+        5,
+        368
+      ],
+      "actual_over_reference": [
+        121641087375109612292269643034688,
+        194609224362883646917760037715769
+      ],
+      "actual_over_reference_float": 0.6250530403856298
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "seeded_uniform",
+      "actual_contrast_fraction": [
+        78601811584933472196647151565279,
+        5176884571054834466430303971916952
+      ],
+      "independent_sign_reference_fraction": [
+        5,
+        368
+      ],
+      "actual_over_reference": [
+        3615683332906939721045768972002834,
+        3235552856909271541518939982448095
+      ],
+      "actual_over_reference_float": 1.1174854786210429
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "arithmetic_progression",
+      "actual_contrast_fraction": [
+        1221074290812604622974412564787788166700067,
+        1421632539065850639443216392236790283136973211
+      ],
+      "independent_sign_reference_fraction": [
+        5,
+        4061
+      ],
+      "actual_over_reference": [
+        159960732096451205609648045987200249837708777,
+        229295570817072683781163934231740368247898905
+      ],
+      "actual_over_reference_float": 0.6976180635606983
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "seeded_uniform",
+      "actual_contrast_fraction": [
+        481176211583164081495702115306109821934769697,
+        383979344930065413632301473520667241538001400015
+      ],
+      "independent_sign_reference_fraction": [
+        5,
+        4061
+      ],
+      "actual_over_reference": [
+        63034083717394494675936977105100386673454830307,
+        61932152408075066714887334438817297022258290325
+      ],
+      "actual_over_reference_float": 1.0177925563132173
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "arithmetic_progression",
+      "actual_contrast_fraction": [
+        47985834152316974221044302758881121438189213719365,
+        154958569279085614102609493664690627011411758943132297
+      ],
+      "independent_sign_reference_fraction": [
+        1,
+        3970
+      ],
+      "actual_over_reference": [
+        479858341523169742210443027588811214381892137193650,
+        390323852088376861719419379508036843857460349982701
+      ],
+      "actual_over_reference_float": 1.2293851348200995
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "seeded_uniform",
+      "actual_contrast_fraction": [
+        111554874635572782656138770168008125137362088277453,
+        442093880332880754824997805819466929668631236073634837
+      ],
+      "independent_sign_reference_fraction": [
+        1,
+        3970
+      ],
+      "actual_over_reference": [
+        442872852303223947144870917566992256795327490461488410,
+        442093880332880754824997805819466929668631236073634837
+      ],
+      "actual_over_reference_float": 1.0017620057752363
+    }
+  ],
+  "source_sha256": {
+    "reference_model.py": "435989b4df338d71450b58aab6efd62da4e67365b4b9f34c234a072eb67b2e9d"
+  },
+  "input_sha256": {
+    "contrast_results.json": "8ece2fcbec477631656d9c8f00119c4408e809468b3e108b68c4acd1359e0197"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-09-06T05:36:28.695861+00:00",
+  "previous_turn_classification": "progress: completed live Lean diagnosis and verified literal older source claim, changing next action to published-version/incidence audit",
+  "prior_sha256": {
+    "research/parallel36-shell-inversion-2026-09-05.md": "986655882b1790acfd1a34e27edc982675ac59d74b51dc3a58f9bae151297d9b",
+    "research/parallel36-pass-summary-2026-09-05.md": "f2229d11bd94caa48079f127d26770cefafaed1493428cc73dc39a2705eaf366",
+    "experiments/parallel36_shell_certificate.cpp": "f3ffa8d85428f2235051c300debe5225c58fc06fb09e515a9c0baa707c627816",
+    "experiments/parallel36_verify_2026_09_05.py": "0b454165c4916586952e7f73fddcbf7acf0b2e5dc0b1c13002cc5e7028bbcf03",
+    "experiments/parallel36_final_audit_2026_09_05.py": "a9734481ae6c1efde73f56a234122c256dc209d44cce3fc62199c79ee1259a11",
+    "results/parallel36_prior_state_2026_09_05.json": "23c087f0647f96675e7bcf70a196220939fc36047e6116077e04b37a54d20b90",
+    "results/parallel36_resume_state_2026_09_05.json": "05f49794e63dfb0c5197e6022d4f1b4ea8d8b68747b9c34e162a5895a4fe8b5c",
+    "results/parallel36_source_scope_2026_09_05.json": "150b76afaaf0361a7a32236e5362575db4f0f1af634e768742f75fb2e85fba2b",
+    "results/parallel36_verification_2026_09_05.json": "13dd873de51d59825a8e807b90b1921988cdfcac047a282d7c1d80950116b04d",
+    "results/parallel36_shell_6700417_64_256_2026_09_05.json": "5fc5dbe551d68bf1b5ed479e9c9a40c9a151a14bbd5eab93bed6cbe370638631",
+    "results/parallel36_shell_6700417_64_4096_2026_09_05.json": "f14e17c61291d948c7e0e729168357709b5b48632e672102745e53545951629c",
+    "sources/parallel36-shell/nist-equations.md": "810bee75308854eee6f32d2a0b2a2e623bd76d92f1a2f51d9298bf562631bdeb",
+    "README.md": "bd46bb370dcbf3803d406b17edf8e7852afaae735e43c1a35a90f1ae7f7a5f9a",
+    "research/frontier.md": "bc878e39bb4ce28ed8241b56389c5bc97afded2363144ffd78a82249d528012f",
+    "research/source-audit.md": "19abbc01dac7ec6331f824ffd28d34bf83ba2db71289d679793f8653942a773c",
+    "research/checkpoint-2026-09-04.md": "5090e6b26fdb3f9cc8bb9bc377f4b9452dc0e2a716eea7ecd4105ec8f488f1b9",
+    "results/parallel36_pass_audit_2026_09_05.json": "f6d4fd3fbd53b23e4f64aa034ec557d31e908712e3f82e56918f5863cd130ef9",
+    "results/parallel37_source_state_2026_09_06.json": "5221b0218a25812b56b782a970e82711ffca5f06749413c53e39ae7a6d1ceb23",
+    "research/parallel37-energy-source-audit-2026-09-06.md": "20359c8779adc0ab087c32ddedebc879dacdbb606d06bc7914f63de8fc00de04",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41"
+  },
+  "goal_status": "active; full objective unproved",
+  "this_turn_action": "resolve published source discrepancy, verify normalization multiplicities, preserve current uniform bounds"
+}

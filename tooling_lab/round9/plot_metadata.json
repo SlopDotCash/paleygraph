@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "plot_results.py": "4e0ae970f9ba44f4d61493d3a804dbfc2d3e70e1179a1e9e7240afcbc9397405"
+  },
+  "input_sha256": {
+    "twin_analysis.json": "2c5381d21d3abb23cff7398cb7b1ae4715915d89275791eca058fb8769cb4158",
+    "scale_results.json": "7b1a8838f1cc2dc61584078ed52a6f4144a97b15aabb2569695a505344e996a6",
+    "coding_block_results.json": "47aa2bcd4ab26436a10841a3afe71c41052fd3d461b3353a7e1554aac8d743da"
+  },
+  "scope": "Plot only: exact rational results converted to floating point for display."
+}

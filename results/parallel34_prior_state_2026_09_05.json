@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-09-05T22:34:47.522160+00:00",
+  "previous_turn_classification": "progress: centered distinct-coordinate reduction and improved repeated-word bound",
+  "prior_sha256": {
+    "research/parallel33-centered-distinct-moments-2026-09-05.md": "bd9d9d2bcc7fc2f76e84af908af083109750b99ea63b60591e12a23c6ae6fb2c",
+    "research/parallel33-source-check-2026-09-05.md": "2f22c06b4eb4783f959a0e5b725fbcad4d3937ff50e8c7ffd201e5eb65d5a8db",
+    "research/parallel33-pass-summary-2026-09-05.md": "c83327bf4878d77c13bbff96ff7e7e0de99dffa7d7524ecf7a7bd2175b95539f",
+    "experiments/parallel33_verify_2026_09_05.py": "73f2f0b16da5f441fdfd9772db45b1d45c0aff133ed6ec6de77c62d3c8fd383f",
+    "experiments/parallel33_final_audit_2026_09_05.py": "1df6462753792b86838884a7dc3ed8a94272085ffc98f13b19498b0e2887f47d",
+    "results/parallel33_prior_state_2026_09_05.json": "f1a6729e491758de69728304317fe9b7e50903084cec81ef3c47c723f36b7fd9",
+    "results/parallel33_verification_2026_09_05.json": "74cd13608875f4ad02dcc30349ff73edfdf2dfb4572dd2dc5bba062861fe053a",
+    "results/parallel33_source_scope_2026_09_05.json": "bca3f2219c730be5bca27493a5744e969afd948112536abe19e4514d00260fd7",
+    "sources/parallel33-centered-collisions/higher-energies-published-2026.pdf": "857db31934c24d07123bd804a67a6dec8b9ed1a56c09795b08d518ac099f72c4",
+    "sources/parallel33-centered-collisions/higher-energies-2303.16348v2.html": "e10821ec41c285d5c21bebed783fc92a1bc0f1b3363edd5a698c3d4d0d8d2d92",
+    "sources/parallel33-centered-collisions/fourier-small-doubling-2412.11368v1.html": "696670b60837e52079e26f146c540c7a827c197dd8e638d7071b05e800f441e0",
+    "results/parallel33_pass_audit_2026_09_05.json": "7c66cd2ee0de6bdbb7fae11b46827400afaea9057b527dc008b6cc9825e5c594",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

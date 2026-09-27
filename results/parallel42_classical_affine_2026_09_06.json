@@ -1,0 +1,156 @@
+{
+  "scope": "Finite reflection-projection identities and a specific recovery-certificate comparison; no original Paley bound.",
+  "cases": [
+    {
+      "p": 13,
+      "n": 3,
+      "V": [
+        0,
+        1,
+        3
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "reflections": 1,
+      "averaging_size": 2,
+      "center_tuples": 13,
+      "initial_pairing": 3,
+      "initial_third_moment": 6,
+      "expected_sixth": "51975/208",
+      "direct_sixth_certificate": "34/81",
+      "reflection_recovery_certificate": "1540/507",
+      "all_passed": true
+    },
+    {
+      "p": 13,
+      "n": 3,
+      "V": [
+        0,
+        1,
+        3
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "reflections": 2,
+      "averaging_size": 4,
+      "center_tuples": 169,
+      "initial_pairing": 3,
+      "initial_third_moment": 6,
+      "expected_sixth": "3697605/86528",
+      "direct_sixth_certificate": "34/81",
+      "reflection_recovery_certificate": "4601464/177957",
+      "all_passed": true
+    },
+    {
+      "p": 17,
+      "n": 2,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "reflections": 1,
+      "averaging_size": 2,
+      "center_tuples": 17,
+      "initial_pairing": 4,
+      "initial_third_moment": -6,
+      "expected_sixth": "29655/272",
+      "direct_sixth_certificate": "45/32",
+      "reflection_recovery_certificate": "65241/4624",
+      "all_passed": true
+    },
+    {
+      "p": 17,
+      "n": 2,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "reflections": 2,
+      "averaging_size": 4,
+      "center_tuples": 289,
+      "initial_pairing": 4,
+      "initial_third_moment": -6,
+      "expected_sixth": "3143085/147968",
+      "direct_sixth_certificate": "45/32",
+      "reflection_recovery_certificate": "628617/4913",
+      "all_passed": true
+    },
+    {
+      "p": 41,
+      "n": 2,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "reflections": 2,
+      "averaging_size": 4,
+      "center_tuples": 1681,
+      "initial_pairing": 3,
+      "initial_third_moment": -6,
+      "expected_sixth": "48226989/860672",
+      "direct_sixth_certificate": "203/64",
+      "reflection_recovery_certificate": "948464117/4410944",
+      "all_passed": true
+    },
+    {
+      "p": 97,
+      "n": 3,
+      "V": [
+        0,
+        1,
+        3
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "reflections": 1,
+      "averaging_size": 2,
+      "center_tuples": 97,
+      "initial_pairing": 8,
+      "initial_third_moment": 66,
+      "expected_sixth": "4835157/1552",
+      "direct_sixth_certificate": "2717/729",
+      "reflection_recovery_certificate": "166007057/6859161",
+      "all_passed": true
+    }
+  ],
+  "center_tuples": 2266,
+  "all_passed": true
+}

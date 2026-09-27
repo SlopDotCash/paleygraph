@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "zero_coordinates": [
+    9
+  ],
+  "naive_profile": {
+    "status": "profile_found",
+    "n": 16,
+    "s": 11,
+    "dimension": 3,
+    "max_block": 64,
+    "queried_block_counts_considered": 5,
+    "queried_blocks": 5,
+    "unqueried_coordinates": 0,
+    "sizes": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "queries": 8,
+    "no_query_capacity": 10,
+    "scope": "Minimum query count within partitions into complete d-uniform arc blocks and unqueried coordinates, subject to max_block. Feasibility in an actual evaluation matroid is not implied; global query-family optimality is not claimed."
+  },
+  "naive_profile_infeasibility": "All blocks in the8-query profile have size at least3. Every coordinate then lies in a required independent triple, impossible for the actual zero column.",
+  "reduced_profile": {
+    "status": "profile_found",
+    "n": 15,
+    "s": 10,
+    "dimension": 3,
+    "max_block": 64,
+    "queried_block_counts_considered": 4,
+    "queried_blocks": 4,
+    "unqueried_coordinates": 1,
+    "sizes": [
+      3,
+      3,
+      4,
+      4,
+      1
+    ],
+    "queries": 10,
+    "no_query_capacity": 9,
+    "scope": "Minimum query count within partitions into complete d-uniform arc blocks and unqueried coordinates, subject to max_block. Feasibility in an actual evaluation matroid is not implied; global query-family optimality is not claimed."
+  },
+  "search_attempts": 13,
+  "input": {
+    "p": 17,
+    "n": 16,
+    "k": 8,
+    "s": 11,
+    "domain": [
+      1,
+      3,
+      9,
+      10,
+      13,
+      5,
+      15,
+      11,
+      16,
+      14,
+      8,
+      7,
+      4,
+      12,
+      2,
+      6
+    ],
+    "origin": [
+      2,
+      1,
+      0,
+      0,
+      11,
+      5,
+      6,
+      9
+    ],
+    "basis": [
+      [
+        14,
+        0,
+        4,
+        4,
+        2,
+        9,
+        6,
+        12
+      ],
+      [
+        11,
+        9,
+        7,
+        6,
+        1,
+        9,
+        11,
+        14
+      ],
+      [
+        16,
+        1,
+        16,
+        7,
+        3,
+        16,
+        1,
+        4
+      ]
+    ],
+    "dimension": 3
+  },
+  "blocks": [
+    [
+      4,
+      7,
+      8
+    ],
+    [
+      5,
+      6,
+      11
+    ],
+    [
+      0,
+      1,
+      2,
+      15
+    ],
+    [
+      3,
+      12,
+      13,
+      14
+    ],
+    [
+      10
+    ],
+    [
+      9
+    ]
+  ],
+  "review": {
+    "status": "verified_preflight",
+    "dimension": 3,
+    "queries_rank_checked": 10,
+    "maximum_query_avoiding_set": 10,
+    "minimum_guaranteed_agreement": 11,
+    "scope": "Complete arc-block coverage for this declared polynomial space, independently rechecked by integer determinants. General public input validation and generic decoding remain pending."
+  },
+  "scope": "A structural obstruction to the chosen unconstrained arc profile, repaired by reserving zero coordinates. No global minimum over arbitrary query hypergraphs is claimed.",
+  "source_sha256": {
+    "zero_preflight.py": "c3f1b79839593d53af098e72cdea10ec09d462a2981a762515c4bf12ff0ebf8f",
+    "arc_profile.py": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f",
+    "dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a"
+  },
+  "input_sha256": {
+    "../round12/hard_rank3.certificate.json": "74f9d94e15d0e38834f50f6e6513a4c8002c8263f554593f940921f0e1a83771"
+  }
+}

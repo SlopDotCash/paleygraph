@@ -1,0 +1,6 @@
+{"covered": 500, "not_found": 0, "seconds": 0.49094562500249594}
+{"covered": 1000, "not_found": 0, "seconds": 0.9774991669983137}
+{"covered": 1500, "not_found": 0, "seconds": 1.3429064590018243}
+{"covered": 2000, "not_found": 0, "seconds": 1.4833419589995174}
+{"covered": 2500, "not_found": 0, "seconds": 1.7407004999986384}
+{"status": "passed", "scope": "Bounded partition searches on all preceding actual rank-three candidate spaces. Every found cover is independently validated and checked against all11-subsets. Failure to find a partition, if any, is not an impossibility result. Source nodes can have different received scalars; no cluster-cover theorem is implied.", "spaces_attempted": 2894, "spaces_covered": 2894, "spaces_not_found": 0, "query_count_histogram": [[10, 26], [11, 378], [12, 689], [13, 643], [14, 616], [15, 335], [16, 207]], "queries_rank_checked": 38006, "literal_local_subsets_checked": 185216, "literal_agreement_sets_checked": 12640992, "seconds": 1.9444442500098376}

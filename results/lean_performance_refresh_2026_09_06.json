@@ -1,0 +1,82 @@
+{
+  "time_utc": "2026-09-06T05:56:32.176752+00:00",
+  "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                              474712.\nPages active:                           3147100.\nPages inactive:                         3103645.\nPages speculative:                        76194.\nPages throttled:                              0.\nPages wired down:                        651504.\nPages purgeable:                          26182.\n\"Translation faults\":               16787662747.\nPages copy-on-write:                  344284448.\nPages zero filled:                   8452290446.\nPages reactivated:                    760266115.\nPages purged:                          13500922.\nFile-backed pages:                      1689467.\nAnonymous pages:                        4637472.\nPages stored in compressor:             2959692.\nPages occupied by compressor:            855631.\nDecompressions:                       494179708.\nCompressions:                         663755451.\nPageins:                              284774966.\nPageouts:                                324484.\nSwapins:                                6876538.\nSwapouts:                               8640817.\n",
+  "swap": "vm.swapusage: total = 15360.00M  used = 13730.19M  free = 1629.81M  (encrypted)\n",
+  "load": "vm.loadavg: { 48.42 63.31 59.65 }\n",
+  "hardware": "hw.memsize: 137438953472\nhw.logicalcpu: 16\n",
+  "process": "  PID  PPID ELAPSED      TIME  %CPU %MEM    RSS STAT COMMAND\n13687 13631   40:04  16:11.74  11.8 15.3 20509392 R+   lean -DautoImplicit=false /tmp/queryphase-preservation-v19.lean\n",
+  "/tmp/queryphase-preservation-v19.log": {
+    "size": 3780,
+    "mtime_utc": "2026-09-06T05:17:10.311423+00:00",
+    "tail": [
+      "  simp only [OracleQuery.cont_query, i\u0335d\u0335_\u0335e\u0335q\u0335,\u0335 \u0335h_ans, Array.getElem_finRange, Fin.cast_mk,",
+      "  \u0335  \u0335 \u0335 \u0335Fin.eta] at h_res",
+      "",
+      "Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "/tmp/queryphase-preservation-v19.lean:460:13: warning: This simp argument is unused:",
+      "  Fin.val_last",
+      "",
+      "Hint: Omit it from the simp argument list.",
+      "  simp only [F\u0335i\u0335n\u0335.\u0335v\u0335a\u0335l\u0335_\u0335l\u0335a\u0335s\u0335t\u0335,\u0335 \u0335exists_and_right, Subtype.exists] at h_relIn",
+      "",
+      "Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "/tmp/queryphase-preservation-v19.lean:966:45: warning: try 'simp' instead of 'simpa'",
+      "",
+      "Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`"
+    ]
+  },
+  "/tmp/queryphase-preservation-v19.exit": {
+    "exists": false
+  },
+  "/tmp/queryphase-preservation-v18.log": {
+    "size": 8053,
+    "mtime_utc": "2026-09-06T00:27:31.579070+00:00",
+    "tail": [
+      "",
+      "Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "/tmp/queryphase-preservation-v18.lean:954:29: warning: This simp argument is unused:",
+      "  Nat.add_mul",
+      "",
+      "Hint: Omit it from the simp argument list.",
+      "  simp [destIdx, k_zero,\u0335 \u0335N\u0335a\u0335t\u0335.\u0335a\u0335d\u0335d\u0335_\u0335m\u0335u\u0335l\u0335]",
+      "",
+      "Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "/tmp/queryphase-preservation-v18.lean:973:0: warning: The default value of the `longFile` linter is 1500.",
+      "This file is 973 lines long which does not exceed the allowed bound.",
+      "Please, remove the `set_option linter.style.longFile 3100`.",
+      "",
+      "Note: This linter can be disabled with `set_option linter.style.longFile 0`"
+    ]
+  },
+  "/private/tmp/append-adapters-final.log": {
+    "size": 1759704,
+    "mtime_utc": "2026-09-05T23:01:58.540891+00:00",
+    "tail": [
+      "Hint: Omit it from the simp argument list.",
+      "  simp only [Fin.isValue, Challenge,  \u0335M\u0335a\u0335t\u0335r\u0335i\u0335x\u0335.\u0335c\u0335o\u0335n\u0335s\u0335_\u0335v\u0335a\u0335l\u0335_\u0335z\u0335e\u0335r\u0335o\u0335,\u0335 \u0335ChallengeIdx,",
+      "  \u0335  \u0335 \u0335 \u0335QueryImpl.addLift_def, QueryImpl.liftTarget_self,",
+      "  \u0332   \u0332 \u0332bind_pure_comp,",
+      "  \u0335  \u0335 \u0335 \u0335liftComp_eq_liftM, simulateQ_bind, simulateQ_map, StateT.run'_eq,",
+      "      StateT.run_bind, StateT.run_map, map_bind, Functor.map_map]",
+      "",
+      "Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "error: Lean exited with code 1",
+      "Some required targets logged failures:",
+      "- ArkLib.ProofSystem.Binius.BinaryBasefold.Steps.Relay",
+      "- ArkLib.ProofSystem.Binius.BinaryBasefold.Steps.Commit",
+      "- ArkLib.ProofSystem.Binius.BinaryBasefold.QueryPhase",
+      "error: build failed"
+    ]
+  },
+  "followup": {
+    "time_utc": "2026-09-06T05:56:58.531027+00:00",
+    "process": "  PID  PPID ELAPSED      TIME  %CPU %MEM    RSS STAT COMMAND\n13687 13631   40:30  16:14.73   8.3 15.3 20559840 R+   lean -DautoImplicit=false /tmp/queryphase-preservation-v19.lean\n",
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                              127466.\nPages active:                           3297308.\nPages inactive:                         3220778.\nPages speculative:                        74675.\nPages throttled:                              0.\nPages wired down:                        734567.\nPages purgeable:                          31647.\n\"Translation faults\":               16793756693.\nPages copy-on-write:                  344377711.\nPages zero filled:                   8455704596.\nPages reactivated:                    760266319.\nPages purged:                          13500922.\nFile-backed pages:                      1703891.\nAnonymous pages:                        4888870.\nPages stored in compressor:             2957400.\nPages occupied by compressor:            854373.\nDecompressions:                       494180642.\nCompressions:                         663755451.\nPageins:                              284812231.\nPageouts:                                324484.\nSwapins:                                6876554.\nSwapouts:                               8640817.\n",
+    "load": "vm.loadavg: { 51.25 62.72 59.54 }\n",
+    "top_cpu": "  PID  PPID  %CPU    RSS STAT COMM\n11540 90977  88.4 923280 R    /Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lean\n11535 90977  87.4 916240 R    /Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lean\n98934 98932  84.8 3839376 RN   python3\n45767     1  84.0 716912 RN   python3\n74575     1  83.6 2370480 RN   python3\n12481 95206  60.6 182064 S    /Users/shawwalters/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell\n11677 90977  57.8 826384 R    /Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lean\n12462 10289  55.4 244320 R    /Users/shawwalters/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell\n 4403     1  52.1  44560 Rs   /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService\n  400     1  48.2 191712 Ss   /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer\n11584 11583  46.4 3198112 R    /private/tmp/lalalune-pr-review-20260904/mobile/node_modules/.bun/@typescript+typescript-darwin-arm64@7.0.2/node_modules/@typescript/typescript-darwin-arm64/lib/tsc\n10289 10199  41.6 152832 Rs   /Users/shawwalters/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell\n95206 95155  33.9 169712 Ss   /Users/shawwalters/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell\n12426 12424  31.6 377968 R    /Users/shawwalters/.nvm/versions/node/v24.15.0/bin/node\n91281 90888  29.8 1536832 S    /Applications/ChatGPT.app/Contents/Resources/codex\n83220 81220  29.3 621920 S    /Applications/Discord.app/Contents/Frameworks/Discord Helper (Renderer).app/Contents/MacOS/Discord Helper (Renderer)"
+  },
+  "final_snapshot": {
+    "time_utc": "2026-09-06T06:02:54.027352+00:00",
+    "process": "  PID ELAPSED      TIME  %CPU    RSS STAT COMMAND\n13687   46:26  17:09.01  12.1 15148288 R+   lean -DautoImplicit=false /tmp/queryphase-preservation-v19.lean\n"
+  }
+}

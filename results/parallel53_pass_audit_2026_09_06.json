@@ -1,0 +1,130 @@
+{
+  "observed_at_utc": "2026-09-06T18:04:13.274936+00:00",
+  "classification": "progress: sourced asymptotic obstruction to ambient norm saving and exact inversion-odd witness; next work returned to the actual compressed spectral operator",
+  "previous_goal_turn_classification": "progress: exact cubic increment budgets, equality criterion, and independent cell/product evidence; no improved uniform bound",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "finite_checks": {
+    "prime_cases": 16,
+    "convolution_coefficients": 2048,
+    "autocorrelation_coefficients": 2048,
+    "restricted_identity_entries": 3198,
+    "checker_exit_code": 0,
+    "exact_odd_witness": {
+      "eigenvalue": 73,
+      "norm_squared": 22,
+      "quadratic_form": 1606,
+      "ratio_to_p": "73/89",
+      "inversion_odd": true,
+      "supported_on_common_neighbors": false
+    },
+    "witness_prime": 89
+  },
+  "asymptotic_scope": "The ambient maximum on inversion-odd vectors is at least p-32pi^2sqrt(p), exceeds2p/3 for all prime p=1mod4 above2^20, and divided by p tends to1. This follows from the identified source theorem and an ordinary proof, not finite numerical extrapolation.",
+  "operator_scope": "K_Q is on all nonzero quadratic residues. The required operator is first compressed to C, then S_3-averaged, with a retained trivial-sector border. The ambient obstruction does not refute its conjectured edge.",
+  "full_goal_scope": "Even the two-anchor edge is intermediate. No full two-set Paley theorem, thin-subgroup square-root theorem or quantitative prize reduction has been established.",
+  "review_scope": "Root ordinary derivations using a primary discrepancy theorem, plus exact checks; no independent-agent, Lean, external review or novelty claim.",
+  "agent_scope": "Previously usage-limited lanes were not restarted; no fresh agent status claimed.",
+  "runtime_scope": "Own standard-library checker finished successfully. No Lean process polled, started or changed.",
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel52_cubic_increments.py": true,
+    "research/parallel52-cubic-increments-2026-09-06.md": true,
+    "research/parallel52-pass-summary-2026-09-06.md": true,
+    "results/parallel52_prior_state_2026_09_06.json": true,
+    "results/parallel52_cubic_increments_2026_09_06.json": true,
+    "results/parallel52_source_scope_2026_09_06.json": true
+  },
+  "local_links_checked": [
+    {
+      "source": "research/parallel53-ambient-elliptic-2026-09-06.md",
+      "target": "research/parallel25-spectral-full-operator-2026-09-05.md"
+    },
+    {
+      "source": "research/parallel53-ambient-elliptic-2026-09-06.md",
+      "target": "experiments/parallel53_ambient_elliptic.py"
+    },
+    {
+      "source": "research/parallel53-ambient-elliptic-2026-09-06.md",
+      "target": "results/parallel53_ambient_elliptic_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel53-pass-summary-2026-09-06.md",
+      "target": "research/parallel53-ambient-elliptic-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel53-pass-summary-2026-09-06.md",
+      "target": "experiments/parallel53_ambient_elliptic.py"
+    },
+    {
+      "source": "research/parallel53-pass-summary-2026-09-06.md",
+      "target": "results/parallel53_ambient_elliptic_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel53-pass-summary-2026-09-06.md",
+      "target": "results/parallel53_pass_audit_2026_09_06.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel53-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "research/parallel53-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "research/parallel53-ambient-elliptic-2026-09-06.md"
+    },
+    {
+      "source": "research/checkpoint-2026-09-04.md",
+      "target": "research/parallel53-pass-summary-2026-09-06.md"
+    }
+  ],
+  "source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477",
+    "sources/lu-zheng-zheng-1305.3405v3.html": "36cb40ed597d53c673c6dbe7bb1d96d6ddf4ec29ad90c918bc7b8850d9167337"
+  },
+  "mathematical_and_checker_dependency_hashes": {
+    "research/parallel25-spectral-full-operator-2026-09-05.md": "a76b4865fd4356ae30422a5d8e6ec1320e5edccfd84686a17c4faf7ddabf51d3",
+    "research/parallel24-spectral-operator-2026-09-05.md": "7abbf64aeaa1804d4cbad5e9daa1f1a4dd90945919d05d6d3f5e4fd8fbe1b857",
+    "research/parallel3-conic-2026-09-04.md": "19327a47515a3476cc30b49c5b875a1d7443d82b1f665e88eeace41c1f2425c6",
+    "research/parallel21-spectral-next-input-2026-09-05.md": "2bc5a06bebfd1cdb2cd7f0d61d9f95c8448fe7bd64ace017f37edbaa7093df98",
+    "results/parallel52_pass_audit_2026_09_06.json": "6c2cd4cd488a6a0a914ebd91ce58dfe85b0bbda819c85314aea7de7d5d83d590"
+  },
+  "artifacts_sha256": {
+    "experiments/parallel53_ambient_elliptic.py": "1e1fb3d6dd2cefb845940dd1a1f30ab00eba600b16c6fd300e3521e2ced7f9b0",
+    "research/parallel53-ambient-elliptic-2026-09-06.md": "0d0be491284c84f00023983e832a754b8d58fa300c89c2613aca96b4b036836e",
+    "research/parallel53-pass-summary-2026-09-06.md": "44150d2028fe10734261bd1c5943e6ff9e1d90fc30c09958ebffe806c537745c",
+    "results/parallel53_prior_state_2026_09_06.json": "175bd5731a071d136e15a15eb8b4699c26cfa395f7aff62bc334ae18bf9db81e",
+    "results/parallel53_ambient_elliptic_2026_09_06.json": "84ca168c29e098121fcbd3cd5890bc7af16cf07d48c2c0178791c1687b503ef4",
+    "results/parallel53_source_scope_2026_09_06.json": "5a703df538af206c2ba1176a3be1baacfdc81911055fad7de49deb10a98f04ad"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "4097bf462328d0aa680f1e68b272c40ab0d97ab8c4d28b7f049fe554e5372900",
+      "after": "124a7097775ce9aea794bb249a5e3f455330dfd5ac4a748a72ae7dd19da864c3"
+    },
+    "research/frontier.md": {
+      "before": "5542f9526547f7402774bbe93618b60250a5722d7dd1ed44dab1eaf8b65fd23a",
+      "after": "2e7026c4c4a25cb2c2ddcdcd06ed49ae8bdb86b7258ee7f5747de67abe85de75"
+    },
+    "research/source-audit.md": {
+      "before": "f6c2554c27d23c49ed186049bd1923bdaf5de3ce8c649e9a792e24410ce90e8f",
+      "after": "b3ec6d77e5e74ec05ac5759a349c02e3cbd902d84015e4895e7439cf2434408b"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "5202522adc11ed4db775f7363ee49541235de3e7ed51f3bbb2044a1e49e2dfc1",
+      "after": "c7d4ccf883c620650da3943dc75c1a85b09fb71d4524d6359b37a25557c83c49"
+    }
+  },
+  "central_git_diff_check_passed": true,
+  "next_action": "Control the joint C-support restriction and S_3 average on the actual elliptic operator. Unweighted full-character phase equidistribution cannot be used as a bound on the weights selected by an arbitrary supported vector."
+}

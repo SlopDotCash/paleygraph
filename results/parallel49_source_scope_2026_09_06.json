@@ -1,0 +1,39 @@
+{
+  "observed_at_utc": "2026-09-06T17:01:53.125994+00:00",
+  "mathematical_scope": "Root-derived Gauss-content valuation, explicit reciprocal-difference correction and finite-field norm restriction on triple-root primes. Existing primitive polynomial and tower criterion reused. No new external quantitative estimate imported.",
+  "source_search_scope": "A search located a Gauss-valuation reference; the elementary product-valuation and norm arguments are fully proved in the local note and require no imported quantitative result.",
+  "dependency_hashes": {
+    "research/parallel2-subgroup-2026-09-04.md": "d2d7a0e427a3eb9859d9c0045f048dc79a551325dcd1753722809705ef22f98b",
+    "research/dyadic-descent-and-mixed-energy.md": "8b31a1bad9fcd1c457e442ace22214fa094395b8e2958b03589ce3b14bd13924",
+    "research/parallel48-collision-eliminants-2026-09-06.md": "956846bd5f9592536730b22fb3e916c36f60b7a3d212ab3a7828b88b251a785a",
+    "experiments/parallel2_subgroup_2026_09_04.py": "71704c284dce4efa63b153075472a02e8e9b41d9dffca0ba4e436a80b5c61793",
+    "experiments/quadruple_orbits.py": "049823e7c8d5e8010920331a8d506868253778506bca698944adda798138befc",
+    "experiments/dyadic_energy_descent.py": "a49c4f640faf1bfbd8081c9793ecd81a0157d40582615156c7068d086b8c825e",
+    "experiments/parallel48_collision_eliminants.py": "b59ab2fba26d8a6d57560d6e7da42e1953de27666646199e1889113a944034de",
+    "experiments/requirements-exact-arithmetic.txt": "cfffc8d72603fc5d719a37f043b12db24ee8f0441a5923e2ecd585ce811775da",
+    "results/parallel48_collision_eliminants_2026_09_06.json": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d"
+  },
+  "primary_source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "compiled_backend": {
+    "package": "python-flint",
+    "version": "0.9.0",
+    "interpreter": "/opt/miniconda3/bin/python3",
+    "python_version": "3.13.2",
+    "installation": "project-ignored tmp/arithmetic/python-flint-0.9.0-cp313",
+    "metadata_sha256": "11a4b12677ac9762cb5741d077c22312cf901fb5f3a67cd167a8ffe265f7ef87",
+    "wheel_sha256": "aecca08cac3fb4a01947f41c1e448f1b957e72081164a44c60113084ca418e95",
+    "wheel_tag": "cp313-cp313-macosx_11_0_arm64",
+    "official_api_reference": "https://python-flint.readthedocs.io/en/latest/fmpz_poly.html",
+    "official_package_reference": "https://pypi.org/project/python-flint/",
+    "role": "Exact integer polynomial arithmetic only; no numerical root approximation or library-only primality verdict is used.",
+    "metadata_reverified_this_pass": true,
+    "wheel_sha256_scope": "Retained from pass48 installation record; wheel file not rehashed in pass49."
+  },
+  "no_uniform_improvement_claimed": true,
+  "main_source_manifest_unchanged": true
+}

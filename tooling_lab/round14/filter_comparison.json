@@ -1,0 +1,261 @@
+{
+  "status": "passed",
+  "scope": "Every decision, coordinate-test trace and output matches the reference filter on all actual runs plus boundary and stress controls. Timings are observations from separate runs on a shared machine; they are not a controlled speed comparison or a bound on total decoding cost.",
+  "cases": [
+    {
+      "case": "small",
+      "scalar": 0,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 0.00014091699267737567,
+      "earlier_reference_filter_seconds": 5.224999040365219e-05
+    },
+    {
+      "case": "small",
+      "scalar": 1,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 8.129198977258056e-05,
+      "earlier_reference_filter_seconds": 4.187499871477485e-05
+    },
+    {
+      "case": "small",
+      "scalar": 2,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 4.679198900703341e-05,
+      "earlier_reference_filter_seconds": 3.687500429805368e-05
+    },
+    {
+      "case": "small",
+      "scalar": 3,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 5.729100666940212e-05,
+      "earlier_reference_filter_seconds": 4.3374995584599674e-05
+    },
+    {
+      "case": "small",
+      "scalar": 4,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 0.00023750000400468707,
+      "earlier_reference_filter_seconds": 3.6958997952751815e-05
+    },
+    {
+      "case": "small",
+      "scalar": 5,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 0.00013329199282452464,
+      "earlier_reference_filter_seconds": 0.00022383300529327244
+    },
+    {
+      "case": "small",
+      "scalar": 6,
+      "decisions_matched": 7,
+      "observed_shared_order_filter_seconds": 0.00012112499098293483,
+      "earlier_reference_filter_seconds": 4.7874986194074154e-05
+    },
+    {
+      "case": "small",
+      "scalar": 7,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 5.5665994295850396e-05,
+      "earlier_reference_filter_seconds": 0.00011120799172203988
+    },
+    {
+      "case": "small",
+      "scalar": 8,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 4.704200546257198e-05,
+      "earlier_reference_filter_seconds": 3.9040998672135174e-05
+    },
+    {
+      "case": "small",
+      "scalar": 9,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 0.00011904099665116519,
+      "earlier_reference_filter_seconds": 3.329099854454398e-05
+    },
+    {
+      "case": "small",
+      "scalar": 10,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 8.908400195650756e-05,
+      "earlier_reference_filter_seconds": 5.5791999329812825e-05
+    },
+    {
+      "case": "small",
+      "scalar": 11,
+      "decisions_matched": 9,
+      "observed_shared_order_filter_seconds": 6.424999446608126e-05,
+      "earlier_reference_filter_seconds": 4.370800161268562e-05
+    },
+    {
+      "case": "small",
+      "scalar": 12,
+      "decisions_matched": 9,
+      "observed_shared_order_filter_seconds": 4.266700125299394e-05,
+      "earlier_reference_filter_seconds": 3.2791998819448054e-05
+    },
+    {
+      "case": "small",
+      "scalar": 13,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 4.233299114275724e-05,
+      "earlier_reference_filter_seconds": 5.587500345427543e-05
+    },
+    {
+      "case": "small",
+      "scalar": 14,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 3.8291997043415904e-05,
+      "earlier_reference_filter_seconds": 4.037498729303479e-05
+    },
+    {
+      "case": "small",
+      "scalar": 15,
+      "decisions_matched": 10,
+      "observed_shared_order_filter_seconds": 9.425000462215394e-05,
+      "earlier_reference_filter_seconds": 3.700000524986535e-05
+    },
+    {
+      "case": "small",
+      "scalar": 16,
+      "decisions_matched": 7,
+      "observed_shared_order_filter_seconds": 9.566701191943139e-05,
+      "earlier_reference_filter_seconds": 3.991700941696763e-05
+    },
+    {
+      "case": "d3_s410",
+      "scalar": 0,
+      "decisions_matched": 1556,
+      "observed_shared_order_filter_seconds": 0.0056431249977322295,
+      "earlier_reference_filter_seconds": 0.07525608300056774
+    },
+    {
+      "case": "d3_s410",
+      "scalar": 1,
+      "decisions_matched": 1556,
+      "observed_shared_order_filter_seconds": 0.03387279101298191,
+      "earlier_reference_filter_seconds": 0.044293124999967404
+    },
+    {
+      "case": "d4_s410",
+      "scalar": 0,
+      "decisions_matched": 6492,
+      "observed_shared_order_filter_seconds": 0.06447145900165197,
+      "earlier_reference_filter_seconds": 0.10564408400387038
+    },
+    {
+      "case": "d4_s410",
+      "scalar": 1,
+      "decisions_matched": 6492,
+      "observed_shared_order_filter_seconds": 0.0249779169971589,
+      "earlier_reference_filter_seconds": 1.2627843329973985
+    },
+    {
+      "case": "d5_s410",
+      "scalar": 0,
+      "decisions_matched": 24791,
+      "observed_shared_order_filter_seconds": 0.3864826670032926,
+      "earlier_reference_filter_seconds": 2.9579364160017576
+    },
+    {
+      "case": "d5_s410",
+      "scalar": 1,
+      "decisions_matched": 24791,
+      "observed_shared_order_filter_seconds": 0.46446458299760707,
+      "earlier_reference_filter_seconds": 1.5160335000109626
+    },
+    {
+      "case": "d3_s192",
+      "scalar": 0,
+      "decisions_matched": 11065,
+      "observed_shared_order_filter_seconds": 0.16551274999801535,
+      "earlier_reference_filter_seconds": 0.7902750840003137
+    },
+    {
+      "case": "d3_s192",
+      "scalar": 1,
+      "decisions_matched": 11065,
+      "observed_shared_order_filter_seconds": 0.34462266699119937,
+      "earlier_reference_filter_seconds": 0.9361662499868544
+    },
+    {
+      "case": "d4_s192",
+      "scalar": 0,
+      "decisions_matched": 105802,
+      "observed_shared_order_filter_seconds": 3.149199999999837,
+      "earlier_reference_filter_seconds": 7.972577749998891
+    },
+    {
+      "case": "d4_s192",
+      "scalar": 1,
+      "decisions_matched": 105782,
+      "observed_shared_order_filter_seconds": 3.713213499999256,
+      "earlier_reference_filter_seconds": 9.265429874998517
+    },
+    {
+      "case": "d3_s128",
+      "scalar": 0,
+      "decisions_matched": 27544,
+      "observed_shared_order_filter_seconds": 0.398123332997784,
+      "earlier_reference_filter_seconds": 3.6430962500016904
+    },
+    {
+      "case": "d3_s128",
+      "scalar": 1,
+      "decisions_matched": 27547,
+      "observed_shared_order_filter_seconds": 0.8927314590109745,
+      "earlier_reference_filter_seconds": 3.8174707919970388
+    }
+  ],
+  "actual_decisions_matched": 354645,
+  "boundary_and_stress_runs_matched": 4,
+  "source_sha256": {
+    "compare_filter.py": "2eba7b7f9bcc3eb9317c7238d919ce843c83dff74c229901e19f22af9ae63e64",
+    "arc_filter_fast.py": "c2d1b1c51036571f268984926ae72a4fbe8dc841c57be0306ed05a437f379f94",
+    "arc_pruning.py": "f17ec68596ea342675d1a28b02d5f0ace859c2e04e8bcd3d15b5d1e5be9fbf4e",
+    "arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  },
+  "input_sha256": {
+    "actual_arc_results.json": "ac6f1725cad718cc77015e4a505f9458829208c7688ec12a3baf1d1cdcb75536",
+    "small.certificate.json": "c4abbd91eb307c35fa4ecb3433ddaf886ee03c581d19857e908d01fc31ea9065",
+    "small_scalar0.run.json": "1446bc4cdba51f426209a3f6ad4d7cd85982aef98290bf1079b0084c561f8fc4",
+    "small_scalar1.run.json": "f11d75a1da7dab75f38dc4983029b8e3274d5069b8835a4fbf56d46909fccccc",
+    "small_scalar2.run.json": "a26ba3b442932f400ecdfb593c9dfefdb2b37ef54dcdad909e22248be5db9a3d",
+    "small_scalar3.run.json": "1c8dd080ee8c6bb035fc157c83c3fe5d0b0be577fb810e8311cf6ab729267d74",
+    "small_scalar4.run.json": "11141f49f2cb1adac0d6fbc1fde5ed540cab530dd9c2d76a6f28ea9f55e8115b",
+    "small_scalar5.run.json": "565fda44d769a6e49ff58915ee08ba6bc1fc6b95aa0f32f0bfa6cbfd5312b4bb",
+    "small_scalar6.run.json": "f7352a7ac14bfea0cb4b1aa1d35dc19d08abd768c9c299fd89b508bbcf317d75",
+    "small_scalar7.run.json": "c99a20f6524e056a1cf10a924533cdb3a65b8c078fa010b6265fef574e683344",
+    "small_scalar8.run.json": "bd5baf1de83683829e88c2f4763498ccc3596eeb7ff18e888f6fdc2067f43661",
+    "small_scalar9.run.json": "e9da2824b37109c50452661d7b18451632b171d1ccc8f2b2ba116011fba9391b",
+    "small_scalar10.run.json": "c389e0f213b74b974425c6565e119f80bd4e5b6c38280906c013e0fa14e0c2b1",
+    "small_scalar11.run.json": "300af97e30ddb2ab7486248192b67f81ef1f40a9a126fd02c6a88c8c17e059d8",
+    "small_scalar12.run.json": "dad194cd1e9512c15c7cf931028d6281c59580142b1689b50dd2d09d6b9956f4",
+    "small_scalar13.run.json": "852a3bd30bc111c1d5cdeb2b9894e4a53c8234e80142456a6ff4f8d94c126991",
+    "small_scalar14.run.json": "51382940af4a630c20db55cb16ae12f87dff62908e00906c9a9e3e19af459c9f",
+    "small_scalar15.run.json": "92abdc2197d65d983046ab8a2448604506252827bc5df6aaddaafbf76e3fb3a6",
+    "small_scalar16.run.json": "1e941620c0c897b483eac66ab87edd536efb25fe7c5dc1dd2ac87624bcf02a08",
+    "d3_s410.certificate.json": "7a18c9b7180cd05b062f98e23db28bc5a6e173814b35eba050fecbb0999636d3",
+    "d3_s410_scalar0.run.json": "be456cba9c8a59c004931c90a833c0304cd0497456407295112561507f4df663",
+    "d3_s410_scalar1.run.json": "8935d33df0ac02de27cc72cf79018d68ab690e67169bd3015b57266eceb4b933",
+    "d4_s410.certificate.json": "041cb8f6c7f40e458a6b3e1eb0c0f546612e6753a741ea6be2c531081e0b8921",
+    "d4_s410_scalar0.run.json": "32f3bd80fdd9089a1c2a73cbb773bc6aadc3bdae5b85bb702828684523b4ba61",
+    "d4_s410_scalar1.run.json": "c895624fd383e70bfad2eb85d512560a000beb08b3f8c52fc4ee812d8208a72b",
+    "d5_s410.certificate.json": "c703609e09bd1efd96e8ba18397b78f1f773b986da11b9e9320e983373aec55c",
+    "d5_s410_scalar0.run.json": "06414c408b4cf975a4ef0b5b1341b755e23525545c7eac7301b49053240fe7e3",
+    "d5_s410_scalar1.run.json": "1bea6a7afd301fe3471195480b3bbb5baa0e6226c84a853e3aaff5e608c73b34",
+    "d3_s192.certificate.json": "c497e9f7cf274d3530fc50a54a12727511a177d6ab4e696b07f85eac1dfd2c70",
+    "d3_s192_scalar0.run.json": "7c75ec638a4502ab8487f8d6bcbbc8261f410cfca0e44152f7fe291140192a93",
+    "d3_s192_scalar1.run.json": "3cf5842061f997104123dcee37f4bee3d76e88decc4090c638ab56a7005e0035",
+    "d4_s192.certificate.json": "f2de4f0e9a9cd059f6117b36c105f5d369a538bb3736f9c55c0540713e49781e",
+    "d4_s192_scalar0.run.json": "230ea3c465982f4a73864759d56e4d04538e981be0df2de6242e51a2948a42e2",
+    "d4_s192_scalar1.run.json": "5e421cc1c7aa023d632ac5d3b09b670a9315d802edbbf8008029edddc1978c8d",
+    "d3_s128.certificate.json": "3db4590edc635a52758e589e792028d8229d2af843cb3c2d32fc2a3325e1ec0f",
+    "d3_s128_scalar0.run.json": "a493a66edddcb723681674769ea6581c174be1be8b4e004a85a8dee7aaf7dcfd",
+    "d3_s128_scalar1.run.json": "081b189d11a76c15be0ad801fa23c6794be3f31a9bad55420082e18a3a16cb8a",
+    "arc_controls.json": "f25e9377905967fd9817550f9d26b059907ede182ece74846e48e9b01f5f4094",
+    "stress_boundary_true.run.json": "7fe5f8cae75e0b00ad53685e2725574cae4a38853c113d35cc15032a2596c269",
+    "stress_late_near_miss.run.json": "c2634925fc5dfba5e698b342d26191b4d4da7df61e05a8fc3e215164f832d96b",
+    "stress_true_guard_mismatch.run.json": "f383a4d21f76210eca6b598df6f4dc8011a4a7c453205a406f47c6cbad5429a5",
+    "stress_results.json": "11aa52d27777b22227cfd101312b562a84bc02d6167bcecf0d65df3686f5dba4"
+  }
+}

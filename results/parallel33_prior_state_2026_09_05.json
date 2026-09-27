@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-09-05T22:13:13.486073+00:00",
+  "previous_turn_classification": "progress: uniform one-orbit triangle derivation length",
+  "prior_sha256": {
+    "research/parallel32-linear-triangle-length-2026-09-05.md": "2db5b4abcc20ebc263402c7d339fe4cc85768069b2d4e7a76836344395b91b00",
+    "research/parallel32-pass-summary-2026-09-05.md": "bf88e8a1d426a8490d2132502daf4ec120e87ad9bee4ea223c47489bf6accfbf",
+    "experiments/parallel32_verify_2026_09_05.py": "cfd7944fff1d935c87e44902f8e4e9b253d0f6106ee7d654121990a3c0d256e5",
+    "experiments/parallel32_final_audit_2026_09_05.py": "c077d93266cda4dfa9da4f09ad0cb474ce3ba9e5d49cfe73ceb17197a6232bfe",
+    "results/parallel32_prior_state_2026_09_05.json": "2e21056c85bd062f45e05ed8b06c0e4a7c2380d81dbb01e5ecf532e0a17b3445",
+    "results/parallel32_verification_2026_09_05.json": "8e9e4dbaecb2636087beae302956525fbdd0c7a6233a9860e091453ab18fcd48",
+    "results/parallel32_source_scope_2026_09_05.json": "978c930647f91ac4a5634d16bff0cda54ba68e22640e59514bb6209936e1fe0d",
+    "results/parallel32_pass_audit_2026_09_05.json": "37667a337cc40ca5a4f675fab06a355d61078807e534ffaf7dea87284b7d5b2e",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

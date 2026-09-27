@@ -1,0 +1,1727 @@
+{
+  "scope": "Eight fixed examples; actual f_H dyadic levels; all edges in distinct H cosets. No field scan.",
+  "full_goal_proved": false,
+  "rows": [
+    {
+      "p": 97,
+      "generator": 64,
+      "n": 8,
+      "H": [
+        1,
+        22,
+        33,
+        47,
+        50,
+        64,
+        75,
+        96
+      ],
+      "E": 168,
+      "d": "21/128",
+      "f_histogram_on_cosets": {
+        "1": 1,
+        "2": 3
+      },
+      "levels": {
+        "3": {
+          "representatives": [
+            2
+          ],
+          "f_values": [
+            1
+          ]
+        },
+        "4": {
+          "representatives": [
+            11,
+            14,
+            28
+          ],
+          "f_values": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 240,
+      "discard_m_incidence_over_all_level_triples": 240,
+      "W_distinct_from_weighted_normalization": 8448,
+      "first_positive_repeated_fiber": null,
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [],
+      "independent_collision_identity_checks": [],
+      "level_triple_stats": [
+        {
+          "levels": [
+            3,
+            4,
+            4
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 48,
+          "discard_m_incidence": 48,
+          "max_m": 1,
+          "weighted_triangle_sum": 768
+        },
+        {
+          "levels": [
+            4,
+            3,
+            4
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 48,
+          "discard_m_incidence": 48,
+          "max_m": 1,
+          "weighted_triangle_sum": 768
+        },
+        {
+          "levels": [
+            4,
+            4,
+            3
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 48,
+          "discard_m_incidence": 48,
+          "max_m": 1,
+          "weighted_triangle_sum": 768
+        },
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 96,
+          "discard_m_incidence": 96,
+          "max_m": 1,
+          "weighted_triangle_sum": 6144
+        }
+      ]
+    },
+    {
+      "p": 1153,
+      "generator": 75,
+      "n": 8,
+      "H": [
+        1,
+        75,
+        123,
+        140,
+        1013,
+        1030,
+        1078,
+        1152
+      ],
+      "E": 168,
+      "d": "21/128",
+      "f_histogram_on_cosets": {
+        "1": 1,
+        "2": 3
+      },
+      "levels": {
+        "3": {
+          "representatives": [
+            2
+          ],
+          "f_values": [
+            1
+          ]
+        },
+        "4": {
+          "representatives": [
+            17,
+            48,
+            65
+          ],
+          "f_values": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 192,
+      "discard_m_incidence_over_all_level_triples": 192,
+      "W_distinct_from_weighted_normalization": 7680,
+      "first_positive_repeated_fiber": null,
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [],
+      "independent_collision_identity_checks": [],
+      "level_triple_stats": [
+        {
+          "levels": [
+            3,
+            4,
+            4
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 32,
+          "discard_m_incidence": 32,
+          "max_m": 1,
+          "weighted_triangle_sum": 512
+        },
+        {
+          "levels": [
+            4,
+            3,
+            4
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 32,
+          "discard_m_incidence": 32,
+          "max_m": 1,
+          "weighted_triangle_sum": 512
+        },
+        {
+          "levels": [
+            4,
+            4,
+            3
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 32,
+          "discard_m_incidence": 32,
+          "max_m": 1,
+          "weighted_triangle_sum": 512
+        },
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 6,
+          "normalized_mass": 6,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 96,
+          "discard_m_incidence": 96,
+          "max_m": 1,
+          "weighted_triangle_sum": 6144
+        }
+      ]
+    },
+    {
+      "p": 6700417,
+      "generator": 2,
+      "n": 64,
+      "H": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384,
+        32768,
+        52347,
+        65536,
+        104694,
+        131072,
+        209388,
+        262144,
+        418776,
+        524288,
+        837552,
+        1048576,
+        1675104,
+        1688191,
+        2097152,
+        2506113,
+        3324035,
+        3350208,
+        3350209,
+        3376382,
+        4194304,
+        4603265,
+        5012226,
+        5025313,
+        5651841,
+        5862865,
+        6176129,
+        6281641,
+        6438273,
+        6491029,
+        6569345,
+        6595723,
+        6634881,
+        6648070,
+        6667649,
+        6684033,
+        6692225,
+        6696321,
+        6698369,
+        6699393,
+        6699905,
+        6700161,
+        6700289,
+        6700353,
+        6700385,
+        6700401,
+        6700409,
+        6700413,
+        6700415,
+        6700416
+      ],
+      "E": 12864,
+      "d": "201/1024",
+      "f_histogram_on_cosets": {
+        "2": 28,
+        "3": 1,
+        "4": 1
+      },
+      "levels": {
+        "4": {
+          "representatives": [
+            1,
+            5,
+            7,
+            9,
+            15,
+            17,
+            31,
+            33,
+            63,
+            65,
+            127,
+            129,
+            255,
+            257,
+            511,
+            513,
+            1023,
+            1025,
+            2047,
+            2049,
+            4095,
+            4097,
+            8191,
+            8193,
+            16383,
+            16385,
+            32767,
+            32769,
+            51835
+          ],
+          "f_values": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "5": {
+          "representatives": [
+            3
+          ],
+          "f_values": [
+            4
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 247296,
+      "discard_m_incidence_over_all_level_triples": 247296,
+      "W_distinct_from_weighted_normalization": 27187200,
+      "first_positive_repeated_fiber": null,
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [],
+      "independent_collision_identity_checks": [],
+      "level_triple_stats": [
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 21924,
+          "normalized_mass": 21924,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 204288,
+          "discard_m_incidence": 204288,
+          "max_m": 1,
+          "weighted_triangle_sum": 15562752
+        },
+        {
+          "levels": [
+            4,
+            4,
+            5
+          ],
+          "normalized_support": 812,
+          "normalized_mass": 812,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 14336,
+          "discard_m_incidence": 14336,
+          "max_m": 1,
+          "weighted_triangle_sum": 3874816
+        },
+        {
+          "levels": [
+            4,
+            5,
+            4
+          ],
+          "normalized_support": 812,
+          "normalized_mass": 812,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 14336,
+          "discard_m_incidence": 14336,
+          "max_m": 1,
+          "weighted_triangle_sum": 3874816
+        },
+        {
+          "levels": [
+            5,
+            4,
+            4
+          ],
+          "normalized_support": 812,
+          "normalized_mass": 812,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 14336,
+          "discard_m_incidence": 14336,
+          "max_m": 1,
+          "weighted_triangle_sum": 3874816
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "generator": 64,
+      "n": 16,
+      "H": [
+        1,
+        3,
+        9,
+        27,
+        43,
+        50,
+        64,
+        81,
+        112,
+        129,
+        143,
+        150,
+        166,
+        184,
+        190,
+        192
+      ],
+      "E": 784,
+      "d": "49/256",
+      "f_histogram_on_cosets": {
+        "2": 6,
+        "3": 1
+      },
+      "levels": {
+        "4": {
+          "representatives": [
+            2,
+            4,
+            8,
+            10,
+            16,
+            17,
+            34
+          ],
+          "f_values": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 4992,
+      "discard_m_incidence_over_all_level_triples": 2304,
+      "W_distinct_from_weighted_normalization": 496128,
+      "first_positive_repeated_fiber": {
+        "levels": [
+          4,
+          4,
+          4
+        ],
+        "u": 2,
+        "v": 4,
+        "multiplicity": 2,
+        "rho": 2,
+        "coset_triples": [
+          [
+            8,
+            16,
+            4
+          ],
+          [
+            4,
+            8,
+            2
+          ]
+        ],
+        "f_values": [
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "normalized_solutions": [
+          [
+            6,
+            7
+          ],
+          [
+            107,
+            108
+          ]
+        ]
+      },
+      "first_positive_repeated_same_level_fiber": {
+        "levels": [
+          4,
+          4,
+          4
+        ],
+        "u": 2,
+        "v": 4,
+        "multiplicity": 2,
+        "rho": 2,
+        "coset_triples": [
+          [
+            8,
+            16,
+            4
+          ],
+          [
+            4,
+            8,
+            2
+          ]
+        ],
+        "f_values": [
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "normalized_solutions": [
+          [
+            6,
+            7
+          ],
+          [
+            107,
+            108
+          ]
+        ]
+      },
+      "independent_direct_checks": [
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "direct_incidence": 4992,
+          "direct_weighted_triangle_sum": 496128,
+          "normalized_support": 108,
+          "normalized_mass": 210,
+          "ordered_normalization_collisions": 264,
+          "discard_m_incidence": 2304,
+          "max_m": 3,
+          "weighted_triangle_sum": 496128
+        }
+      ],
+      "independent_collision_identity_checks": [
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "ordered_collisions": 264,
+          "nonzero_quotient_intersection_terms": [
+            {
+              "q": 2,
+              "intersection_counts": {
+                "4": 4
+              },
+              "term": 24
+            },
+            {
+              "q": 4,
+              "intersection_counts": {
+                "4": 3
+              },
+              "term": 6
+            },
+            {
+              "q": 5,
+              "intersection_counts": {
+                "4": 5
+              },
+              "term": 60
+            },
+            {
+              "q": 8,
+              "intersection_counts": {
+                "4": 4
+              },
+              "term": 24
+            },
+            {
+              "q": 10,
+              "intersection_counts": {
+                "4": 5
+              },
+              "term": 60
+            },
+            {
+              "q": 11,
+              "intersection_counts": {
+                "4": 4
+              },
+              "term": 24
+            },
+            {
+              "q": 13,
+              "intersection_counts": {
+                "4": 4
+              },
+              "term": 24
+            },
+            {
+              "q": 16,
+              "intersection_counts": {
+                "4": 3
+              },
+              "term": 6
+            },
+            {
+              "q": 17,
+              "intersection_counts": {
+                "4": 3
+              },
+              "term": 6
+            },
+            {
+              "q": 25,
+              "intersection_counts": {
+                "4": 4
+              },
+              "term": 24
+            },
+            {
+              "q": 34,
+              "intersection_counts": {
+                "4": 3
+              },
+              "term": 6
+            }
+          ]
+        }
+      ],
+      "level_triple_stats": [
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 108,
+          "normalized_mass": 210,
+          "ordered_normalization_collisions": 264,
+          "direct_incidence": 4992,
+          "discard_m_incidence": 2304,
+          "max_m": 3,
+          "weighted_triangle_sum": 496128
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "generator": 249,
+      "n": 16,
+      "H": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        129,
+        193,
+        225,
+        241,
+        249,
+        253,
+        255,
+        256
+      ],
+      "E": 912,
+      "d": "57/256",
+      "f_histogram_on_cosets": {
+        "2": 4,
+        "3": 1,
+        "4": 1
+      },
+      "levels": {
+        "4": {
+          "representatives": [
+            1,
+            5,
+            7,
+            9,
+            15
+          ],
+          "f_values": [
+            3,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "5": {
+          "representatives": [
+            3
+          ],
+          "f_values": [
+            4
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 2688,
+      "discard_m_incidence_over_all_level_triples": 2688,
+      "W_distinct_from_weighted_normalization": 689664,
+      "first_positive_repeated_fiber": null,
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [],
+      "independent_collision_identity_checks": [],
+      "level_triple_stats": [
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 60,
+          "normalized_mass": 60,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 1152,
+          "discard_m_incidence": 1152,
+          "max_m": 1,
+          "weighted_triangle_sum": 142848
+        },
+        {
+          "levels": [
+            4,
+            4,
+            5
+          ],
+          "normalized_support": 20,
+          "normalized_mass": 20,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 512,
+          "discard_m_incidence": 512,
+          "max_m": 1,
+          "weighted_triangle_sum": 182272
+        },
+        {
+          "levels": [
+            4,
+            5,
+            4
+          ],
+          "normalized_support": 20,
+          "normalized_mass": 20,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 512,
+          "discard_m_incidence": 512,
+          "max_m": 1,
+          "weighted_triangle_sum": 182272
+        },
+        {
+          "levels": [
+            5,
+            4,
+            4
+          ],
+          "normalized_support": 20,
+          "normalized_mass": 20,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 512,
+          "discard_m_incidence": 512,
+          "max_m": 1,
+          "weighted_triangle_sum": 182272
+        }
+      ]
+    },
+    {
+      "p": 769,
+      "generator": 712,
+      "n": 16,
+      "H": [
+        1,
+        27,
+        40,
+        57,
+        62,
+        136,
+        173,
+        311,
+        458,
+        596,
+        633,
+        707,
+        712,
+        729,
+        742,
+        768
+      ],
+      "E": 720,
+      "d": "45/256",
+      "f_histogram_on_cosets": {
+        "1": 1,
+        "2": 7
+      },
+      "levels": {
+        "3": {
+          "representatives": [
+            2
+          ],
+          "f_values": [
+            1
+          ]
+        },
+        "4": {
+          "representatives": [
+            5,
+            13,
+            22,
+            26,
+            30,
+            35,
+            61
+          ],
+          "f_values": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 3744,
+      "discard_m_incidence_over_all_level_triples": 3744,
+      "W_distinct_from_weighted_normalization": 179712,
+      "first_positive_repeated_fiber": null,
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [],
+      "independent_collision_identity_checks": [],
+      "level_triple_stats": [
+        {
+          "levels": [
+            3,
+            4,
+            4
+          ],
+          "normalized_support": 42,
+          "normalized_mass": 42,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 416,
+          "discard_m_incidence": 416,
+          "max_m": 1,
+          "weighted_triangle_sum": 6656
+        },
+        {
+          "levels": [
+            4,
+            3,
+            4
+          ],
+          "normalized_support": 42,
+          "normalized_mass": 42,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 416,
+          "discard_m_incidence": 416,
+          "max_m": 1,
+          "weighted_triangle_sum": 6656
+        },
+        {
+          "levels": [
+            4,
+            4,
+            3
+          ],
+          "normalized_support": 42,
+          "normalized_mass": 42,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 416,
+          "discard_m_incidence": 416,
+          "max_m": 1,
+          "weighted_triangle_sum": 6656
+        },
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 210,
+          "normalized_mass": 210,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 2496,
+          "discard_m_incidence": 2496,
+          "max_m": 1,
+          "weighted_triangle_sum": 159744
+        }
+      ]
+    },
+    {
+      "p": 65537,
+      "generator": 64,
+      "n": 16,
+      "H": [
+        1,
+        4,
+        16,
+        64,
+        256,
+        1024,
+        4096,
+        16384,
+        49153,
+        61441,
+        64513,
+        65281,
+        65473,
+        65521,
+        65533,
+        65536
+      ],
+      "E": 720,
+      "d": "45/256",
+      "f_histogram_on_cosets": {
+        "1": 1,
+        "2": 7
+      },
+      "levels": {
+        "3": {
+          "representatives": [
+            2
+          ],
+          "f_values": [
+            1
+          ]
+        },
+        "4": {
+          "representatives": [
+            3,
+            5,
+            15,
+            17,
+            63,
+            65,
+            255
+          ],
+          "f_values": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 2688,
+      "discard_m_incidence_over_all_level_triples": 2688,
+      "W_distinct_from_weighted_normalization": 144384,
+      "first_positive_repeated_fiber": null,
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [],
+      "independent_collision_identity_checks": [],
+      "level_triple_stats": [
+        {
+          "levels": [
+            3,
+            4,
+            4
+          ],
+          "normalized_support": 42,
+          "normalized_mass": 42,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 192,
+          "discard_m_incidence": 192,
+          "max_m": 1,
+          "weighted_triangle_sum": 3072
+        },
+        {
+          "levels": [
+            4,
+            3,
+            4
+          ],
+          "normalized_support": 42,
+          "normalized_mass": 42,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 192,
+          "discard_m_incidence": 192,
+          "max_m": 1,
+          "weighted_triangle_sum": 3072
+        },
+        {
+          "levels": [
+            4,
+            4,
+            3
+          ],
+          "normalized_support": 42,
+          "normalized_mass": 42,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 192,
+          "discard_m_incidence": 192,
+          "max_m": 1,
+          "weighted_triangle_sum": 3072
+        },
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 210,
+          "normalized_mass": 210,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 2112,
+          "discard_m_incidence": 2112,
+          "max_m": 1,
+          "weighted_triangle_sum": 135168
+        }
+      ]
+    },
+    {
+      "p": 215535361,
+      "generator": 25525303,
+      "n": 128,
+      "H": [
+        1,
+        2921261,
+        3739056,
+        3739057,
+        6273978,
+        8035776,
+        8324866,
+        11288099,
+        13293036,
+        14200362,
+        19278026,
+        24033079,
+        24850873,
+        25525303,
+        25525304,
+        27772134,
+        29264359,
+        29974381,
+        36059035,
+        37273536,
+        38270285,
+        41976682,
+        45353363,
+        45598402,
+        49558383,
+        49558384,
+        51426251,
+        51627341,
+        51868401,
+        53297441,
+        54115232,
+        57854288,
+        59462027,
+        61593345,
+        64585540,
+        64631389,
+        68253109,
+        70750126,
+        72980219,
+        74282048,
+        75793707,
+        75901480,
+        76577975,
+        77393705,
+        80199695,
+        81887366,
+        83351994,
+        87531135,
+        87575084,
+        87828668,
+        89625972,
+        90686741,
+        93358984,
+        95566911,
+        97732312,
+        99276631,
+        100644575,
+        100690424,
+        101928889,
+        102919008,
+        103673614,
+        105281606,
+        105768088,
+        107332494,
+        108202867,
+        109767273,
+        110253755,
+        111861747,
+        112616353,
+        113606472,
+        114844937,
+        114890786,
+        116258730,
+        117803049,
+        119968450,
+        122176377,
+        124848620,
+        125909389,
+        127706693,
+        127960277,
+        128004226,
+        132183367,
+        133647995,
+        135335666,
+        138141656,
+        138957386,
+        139633881,
+        139741654,
+        141253313,
+        142555142,
+        144785235,
+        147282252,
+        150903972,
+        150949821,
+        153942016,
+        156073334,
+        157681073,
+        161420129,
+        162237920,
+        163666960,
+        163908020,
+        164109110,
+        165976977,
+        165976978,
+        169936959,
+        170181998,
+        173558679,
+        177265076,
+        178261825,
+        179476326,
+        185560980,
+        186271002,
+        187763227,
+        190010057,
+        190010058,
+        190684488,
+        191502282,
+        196257335,
+        201334999,
+        202242325,
+        204247262,
+        207210495,
+        207499585,
+        209261383,
+        211796304,
+        211796305,
+        212614100,
+        215535360
+      ],
+      "E": 61056,
+      "d": "477/2048",
+      "f_histogram_on_cosets": {
+        "1": 1,
+        "2": 48,
+        "4": 3,
+        "6": 3
+      },
+      "levels": {
+        "3": {
+          "representatives": [
+            2
+          ],
+          "f_values": [
+            1
+          ]
+        },
+        "4": {
+          "representatives": [
+            43949,
+            107773,
+            201090,
+            241060,
+            245039,
+            253584,
+            289090,
+            297533,
+            442150,
+            486482,
+            674430,
+            674431,
+            676495,
+            710022,
+            784268,
+            817791,
+            817794,
+            817795,
+            817796,
+            907326,
+            990119,
+            1238465,
+            1367944,
+            1413793,
+            1429040,
+            1511659,
+            1544319,
+            1599998,
+            1607739,
+            1607992,
+            1670100,
+            1687671,
+            1744725,
+            1761798,
+            1797304,
+            1867868,
+            2068957,
+            2202247,
+            2207927,
+            2230093,
+            2688981,
+            2813488,
+            4205020,
+            4529253,
+            4637031,
+            5151354,
+            7328117,
+            9069946
+          ],
+          "f_values": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "5": {
+          "representatives": [
+            1,
+            45849,
+            1492225,
+            2246831,
+            3111657,
+            5077664
+          ],
+          "f_values": [
+            6,
+            4,
+            6,
+            4,
+            4,
+            6
+          ]
+        }
+      },
+      "three_distinct_incidence_over_all_level_triples": 2424576,
+      "discard_m_incidence_over_all_level_triples": 2422272,
+      "W_distinct_from_weighted_normalization": 1316818944,
+      "first_positive_repeated_fiber": {
+        "levels": [
+          4,
+          5,
+          5
+        ],
+        "u": 674430,
+        "v": 2246831,
+        "multiplicity": 2,
+        "rho": 3,
+        "coset_triples": [
+          [
+            817794,
+            1,
+            1492225
+          ],
+          [
+            674430,
+            2246831,
+            1
+          ]
+        ],
+        "f_values": [
+          [
+            2,
+            6,
+            6
+          ],
+          [
+            2,
+            4,
+            6
+          ]
+        ],
+        "normalized_solutions": [
+          [
+            19584002,
+            19584003
+          ],
+          [
+            108122689,
+            108122690
+          ],
+          [
+            162237922,
+            162237923
+          ]
+        ]
+      },
+      "first_positive_repeated_same_level_fiber": null,
+      "independent_direct_checks": [
+        {
+          "levels": [
+            4,
+            5,
+            5
+          ],
+          "direct_incidence": 52736,
+          "direct_weighted_triangle_sum": 144850944,
+          "normalized_support": 1438,
+          "normalized_mass": 1440,
+          "ordered_normalization_collisions": 4,
+          "discard_m_incidence": 51968,
+          "max_m": 2,
+          "weighted_triangle_sum": 144850944
+        }
+      ],
+      "independent_collision_identity_checks": [
+        {
+          "levels": [
+            4,
+            5,
+            5
+          ],
+          "ordered_collisions": 4,
+          "nonzero_quotient_intersection_terms": [
+            {
+              "q": 1492225,
+              "intersection_counts": {
+                "4": 1,
+                "5": 2
+              },
+              "term": 2
+            },
+            {
+              "q": 2246831,
+              "intersection_counts": {
+                "4": 1,
+                "5": 2
+              },
+              "term": 2
+            }
+          ]
+        }
+      ],
+      "level_triple_stats": [
+        {
+          "levels": [
+            3,
+            4,
+            4
+          ],
+          "normalized_support": 2256,
+          "normalized_mass": 2256,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 21504,
+          "discard_m_incidence": 21504,
+          "max_m": 1,
+          "weighted_triangle_sum": 344064
+        },
+        {
+          "levels": [
+            3,
+            4,
+            5
+          ],
+          "normalized_support": 288,
+          "normalized_mass": 288,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 5504,
+          "discard_m_incidence": 5504,
+          "max_m": 1,
+          "weighted_triangle_sum": 587776
+        },
+        {
+          "levels": [
+            3,
+            5,
+            4
+          ],
+          "normalized_support": 288,
+          "normalized_mass": 288,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 5504,
+          "discard_m_incidence": 5504,
+          "max_m": 1,
+          "weighted_triangle_sum": 587776
+        },
+        {
+          "levels": [
+            3,
+            5,
+            5
+          ],
+          "normalized_support": 30,
+          "normalized_mass": 30,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 2816,
+          "discard_m_incidence": 2816,
+          "max_m": 1,
+          "weighted_triangle_sum": 2277376
+        },
+        {
+          "levels": [
+            4,
+            3,
+            4
+          ],
+          "normalized_support": 2256,
+          "normalized_mass": 2256,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 21504,
+          "discard_m_incidence": 21504,
+          "max_m": 1,
+          "weighted_triangle_sum": 344064
+        },
+        {
+          "levels": [
+            4,
+            3,
+            5
+          ],
+          "normalized_support": 288,
+          "normalized_mass": 288,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 5504,
+          "discard_m_incidence": 5504,
+          "max_m": 1,
+          "weighted_triangle_sum": 587776
+        },
+        {
+          "levels": [
+            4,
+            4,
+            3
+          ],
+          "normalized_support": 2256,
+          "normalized_mass": 2256,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 21504,
+          "discard_m_incidence": 21504,
+          "max_m": 1,
+          "weighted_triangle_sum": 344064
+        },
+        {
+          "levels": [
+            4,
+            4,
+            4
+          ],
+          "normalized_support": 103776,
+          "normalized_mass": 103776,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 1085184,
+          "discard_m_incidence": 1085184,
+          "max_m": 1,
+          "weighted_triangle_sum": 69451776
+        },
+        {
+          "levels": [
+            4,
+            4,
+            5
+          ],
+          "normalized_support": 13534,
+          "normalized_mass": 13536,
+          "ordered_normalization_collisions": 4,
+          "direct_incidence": 351488,
+          "discard_m_incidence": 351488,
+          "max_m": 2,
+          "weighted_triangle_sum": 156254208
+        },
+        {
+          "levels": [
+            4,
+            5,
+            3
+          ],
+          "normalized_support": 288,
+          "normalized_mass": 288,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 5504,
+          "discard_m_incidence": 5504,
+          "max_m": 1,
+          "weighted_triangle_sum": 587776
+        },
+        {
+          "levels": [
+            4,
+            5,
+            4
+          ],
+          "normalized_support": 13534,
+          "normalized_mass": 13536,
+          "ordered_normalization_collisions": 4,
+          "direct_incidence": 351488,
+          "discard_m_incidence": 351488,
+          "max_m": 2,
+          "weighted_triangle_sum": 156254208
+        },
+        {
+          "levels": [
+            4,
+            5,
+            5
+          ],
+          "normalized_support": 1438,
+          "normalized_mass": 1440,
+          "ordered_normalization_collisions": 4,
+          "direct_incidence": 52736,
+          "discard_m_incidence": 51968,
+          "max_m": 2,
+          "weighted_triangle_sum": 144850944
+        },
+        {
+          "levels": [
+            5,
+            3,
+            4
+          ],
+          "normalized_support": 288,
+          "normalized_mass": 288,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 5504,
+          "discard_m_incidence": 5504,
+          "max_m": 1,
+          "weighted_triangle_sum": 587776
+        },
+        {
+          "levels": [
+            5,
+            3,
+            5
+          ],
+          "normalized_support": 30,
+          "normalized_mass": 30,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 2816,
+          "discard_m_incidence": 2816,
+          "max_m": 1,
+          "weighted_triangle_sum": 2277376
+        },
+        {
+          "levels": [
+            5,
+            4,
+            3
+          ],
+          "normalized_support": 288,
+          "normalized_mass": 288,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 5504,
+          "discard_m_incidence": 5504,
+          "max_m": 1,
+          "weighted_triangle_sum": 587776
+        },
+        {
+          "levels": [
+            5,
+            4,
+            4
+          ],
+          "normalized_support": 13534,
+          "normalized_mass": 13536,
+          "ordered_normalization_collisions": 4,
+          "direct_incidence": 351488,
+          "discard_m_incidence": 351488,
+          "max_m": 2,
+          "weighted_triangle_sum": 156254208
+        },
+        {
+          "levels": [
+            5,
+            4,
+            5
+          ],
+          "normalized_support": 1438,
+          "normalized_mass": 1440,
+          "ordered_normalization_collisions": 4,
+          "direct_incidence": 52736,
+          "discard_m_incidence": 51968,
+          "max_m": 2,
+          "weighted_triangle_sum": 144850944
+        },
+        {
+          "levels": [
+            5,
+            5,
+            3
+          ],
+          "normalized_support": 30,
+          "normalized_mass": 30,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 2816,
+          "discard_m_incidence": 2816,
+          "max_m": 1,
+          "weighted_triangle_sum": 2277376
+        },
+        {
+          "levels": [
+            5,
+            5,
+            4
+          ],
+          "normalized_support": 1438,
+          "normalized_mass": 1440,
+          "ordered_normalization_collisions": 4,
+          "direct_incidence": 52736,
+          "discard_m_incidence": 51968,
+          "max_m": 2,
+          "weighted_triangle_sum": 144850944
+        },
+        {
+          "levels": [
+            5,
+            5,
+            5
+          ],
+          "normalized_support": 120,
+          "normalized_mass": 120,
+          "ordered_normalization_collisions": 0,
+          "direct_incidence": 20736,
+          "discard_m_incidence": 20736,
+          "max_m": 1,
+          "weighted_triangle_sum": 332660736
+        }
+      ]
+    }
+  ]
+}

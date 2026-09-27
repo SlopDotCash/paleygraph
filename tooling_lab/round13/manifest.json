@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "created_utc": "2026-09-06T06:21:51.046731+00:00",
+  "scope": "Deterministic coverage and actual pruning in declared polynomial spaces. Bounded construction and finite controls; no universal cluster discovery, optimum-cover theorem, prize proof or historical novelty certification.",
+  "previous_round12_artifacts_preserved": 42,
+  "source_and_input_bindings": 78,
+  "standalone_and_common_root_certificates_rechecked": 3,
+  "actual_family_certificates_rechecked": 2894,
+  "execution_review": "Completed Gaussian query replay and complete output oracles are bound to exact sources and inputs; the unchanged execution census is not rerun during integration.",
+  "python_sources_compiled": 9,
+  "markdown_local_links_passed": true,
+  "plot_visually_inspected": true,
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "48efa8e64431be7783aef6445f0514de146765a9eca0f4eeb6de1e2946b3cbc3",
+      "bytes": 3308
+    },
+    "README.md": {
+      "sha256": "83066def3acba6ef09d58f5732ea771451b4e16178895143ba5015d6106e6f46",
+      "bytes": 5336
+    },
+    "actual.log": {
+      "sha256": "f5adbb8d92f2ff1da257b92be67c09ac08455e6d25c9beb55641c4e26dd4e79c",
+      "bytes": 899
+    },
+    "actual_results.json": {
+      "sha256": "7a1681ff070a527a94dd8008c32da32c1cece9077cdaaa74cf8cd2c0bc6ba904",
+      "bytes": 58862
+    },
+    "controls.json": {
+      "sha256": "3debfa305d0a9e4d91f4382a6dfb3dd3d2111cf1d0e261185f3ebe675209ee10",
+      "bytes": 9148
+    },
+    "controls.log": {
+      "sha256": "d1d5b803e2b96428d90f9c41bf407459e09a6230bced55c958017640cd8fcc23",
+      "bytes": 196
+    },
+    "controls.py": {
+      "sha256": "c2d69e6d274400ca4ffe1f3722fdb56e445558f8e7bfe3a95509bcad5aee8dbf",
+      "bytes": 7672
+    },
+    "cover_verifier.py": {
+      "sha256": "0ec1396fe0ce7ec7138403a03bee6d4524b570671558d0725ea0de694f162a13",
+      "bytes": 3985
+    },
+    "deterministic_pruning.py": {
+      "sha256": "a3d4dbd2d1ac4ed427c054e981ad8a204a64c1024125d4a1fce6df3673214793",
+      "bytes": 2785
+    },
+    "family.log": {
+      "sha256": "d58f73af884210dafac33a6296daa9b088eb7ea8665b439093e8fdfdf8d4277e",
+      "bytes": 997
+    },
+    "family_preflight.py": {
+      "sha256": "3c880f83b524caf6206595e00a678c852d74fca163e45b36f49e3b211a280ccf",
+      "bytes": 4110
+    },
+    "family_results.json": {
+      "sha256": "7985a6ce064e01aea86f304df2ad62b2750cbda82d2991c508c2feafd75f4e55",
+      "bytes": 4942438
+    },
+    "full_length.certificate.json": {
+      "sha256": "d69b8739d6082eb9646f296035fa32b04155223c536cba16d72956dba44347ac",
+      "bytes": 65593
+    },
+    "overview.pdf": {
+      "sha256": "9b002cd60399fe2aef80eb11dd0a6c0ea95009c355e468a4b7f51c2b03161a28",
+      "bytes": 19034
+    },
+    "overview.png": {
+      "sha256": "5ec7a713765de63f8badf6b152402bfa341f02fb094705fee1c7f29858e13152",
+      "bytes": 82488
+    },
+    "plot_metadata.json": {
+      "sha256": "d37debeed43ee0cd422248d7bdf31ccee983aeefe8af7042aee7caccdc50c518",
+      "bytes": 798
+    },
+    "plot_results.py": {
+      "sha256": "92bde3da3a386fcafcd59abf930174a11231d6e5bf1bb0df855bfc63e5ec7618",
+      "bytes": 2670
+    },
+    "prior_art.md": {
+      "sha256": "4bc5b35f0383d59b9faf29495964fac1c3f723bfe9400fd67c8b43f2537b0e61",
+      "bytes": 2656
+    },
+    "pruning_review.json": {
+      "sha256": "4af9f86ac583d70822d179b3594b9672f0d1423ec64f451dea3a3b36943e1a29",
+      "bytes": 5900
+    },
+    "pruning_review.log": {
+      "sha256": "b4eac916b39ded5a137fca027057fc4597c442aacaa439322ef038d11845087c",
+      "bytes": 102
+    },
+    "pruning_review.py": {
+      "sha256": "bcecc958fb66006dbf2808ad635cc939bee60e407e7a83f2f86442d7dc6d8d39",
+      "bytes": 6628
+    },
+    "query_cover.py": {
+      "sha256": "741ed1ae6e16bf75b02396ceda643fa58943e83eb3beb4e30995619a8bbddfb8",
+      "bytes": 5091
+    },
+    "run_actual.py": {
+      "sha256": "b4f30bbc5213ae79460270fbfe37486dac146246ba042d21ef8487215d8f90ea",
+      "bytes": 3255
+    },
+    "small.certificate.json": {
+      "sha256": "26d1a5d6be80f46f47ed42c18f2cb8b3f2f1d30e2ef4a3360687cf8311ec4fed",
+      "bytes": 1182
+    },
+    "verify_round.py": {
+      "sha256": "63b14fe62b065abfc79d6455a367472b854ac10632a70ebf9a007156cc56b91d",
+      "bytes": 4775
+    }
+  }
+}

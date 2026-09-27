@@ -1,0 +1,100 @@
+{
+  "observed_at_utc": "2026-09-06T06:25:20.929615+00:00",
+  "classification": "progress: short-shell converse quantified, two actual quartic shortcut counterexamples, and classical structural/error-normalization audit",
+  "goal_achieved": false,
+  "uniform_estimates_improved": false,
+  "energy_exponent": "49/20 unchanged",
+  "period_exponent": "71/72 unchanged",
+  "review_lanes": [
+    "energy_incidence_audit",
+    "shell_uniform_input",
+    "energy_published_source"
+  ],
+  "independent_root_verifier_exit": 0,
+  "independent_review": "research/parallel40-independent-review-2026-09-06.md",
+  "independent_verifier_scope": {
+    "shell": {
+      "p": 6700417,
+      "n": 64,
+      "V": "6120237/6700417",
+      "norm_F": 49482013672830957344502359241278764639832904317518004559068535393764204079780838145299499672995089358636564948868256339141203415543368136832477874311509333146189611768509832734470038013889614045721539363878201956161,
+      "norm_method": "32-by-32 Bareiss determinant",
+      "auxiliary_contradiction_margin": "97/98",
+      "scope": "Finite arithmetic; nonprincipality follows from the companion ordinary proof."
+    },
+    "distinct": {
+      "p": 215535361,
+      "n": 128,
+      "E": 61056,
+      "d": "477/2048",
+      "direct_incidence": 52736,
+      "normalized_weighted": 52736,
+      "discarded_multiplicity": 51968,
+      "missing_incidence": 768,
+      "witness_multiplicity": 2,
+      "witness_rho": 3,
+      "normalized_image_size": 1438,
+      "normalized_mass": 1440,
+      "direct_weighted_block": 144850944,
+      "collision_sum": 4,
+      "intersection_sum": 4,
+      "scope": "Actual dyadic levels and three distinct edge cosets; not an asymptotic energy counterexample."
+    },
+    "sidon": {
+      "sidon_sets": 538,
+      "nonzero_translations": 5916,
+      "set_pair_and_smoothing_checks": 42628,
+      "scope": "Exact identities and relative accuracy only; larger Croot-Sisask tolerance is not refuted."
+    }
+  },
+  "scope_corrections": [
+    "Relative convolution L2 obstruction does not invalidate standard input-norm almost-periodicity",
+    "Minimal reciprocal cofactor applies only to scalar family, not all kernel elements",
+    "Finite size comparisons do not specify implicit source constants or refute published full-hypothesis incidence theorem"
+  ],
+  "no_lean_build": true,
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": 19,
+  "central_changes": {
+    "README.md": {
+      "before": "ff79cd01fd1c4f36f6e86bacf756bcefb95bba0fb362ed7b9c2b42bf42c4e179",
+      "after": "0c0c5def9f38efce68e5aec5894f1a255d38e26f3673213766bed240bf69f158"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "247541ef516407f2ae9b29518c7c7ca0a94624820cc15ffe8a7a6bbdbce624c0",
+      "after": "39f6b324b62b500b1119a2abcfc5a6890d0eef046d2e270bf6dd8304a1b10619"
+    },
+    "research/frontier.md": {
+      "before": "8dd9462358a5cd2ea2a26e962785b1be8118730fdf06b6d8cc1353f20b53d532",
+      "after": "cf300ab0d03ecc2afdb7d631782df7c4de8f2132e697e4d1af58bbe8cb8bd7ee"
+    },
+    "research/source-audit.md": {
+      "before": "7e2559bb0104a39a307e391f8a819345ddd00089f682632b46d2dba5895709a7",
+      "after": "488df842bcbf0b5ef395afcad9c97cc15a06dd0232be064912e7876b4276f205"
+    }
+  },
+  "local_links_checked": 22,
+  "artifacts_sha256": {
+    "experiments/parallel40_distinct_levels.py": "8f6ae1d37dbf119d420aa5f5e32dc971a82e052115384b2c13ede1bd2b60d986",
+    "experiments/parallel40_independent_verify.py": "468a00e7e626cf509d3616135251ff5d624b565e2f4e9fe241db70091c6719a4",
+    "experiments/parallel40_shell_converse.py": "ce6d5b88fd6658c06c3de0113bb56c61935a7dab0d8b64b9a222a8e916de7272",
+    "research/parallel40-classical-structure-2026-09-06.md": "99cb94bfef91adefbd8a1471a3448c677396c5ea52564b7ac8a2adc85e3c5d1d",
+    "research/parallel40-distinct-edge-input-2026-09-06.md": "57042ffa49cbbb739db804d8f44de6c23563f812965e7588d382cc8d9f755c35",
+    "research/parallel40-independent-review-2026-09-06.md": "31758f001f784c313e3163bf450130b2532fc0d0d98abd96aa11b506dccd05a3",
+    "research/parallel40-pass-summary-2026-09-06.md": "afc90efd9e9398fa61fe517aaf9263ddaa25c7df315d52440c5529c5c13f6604",
+    "research/parallel40-shell-converse-2026-09-06.md": "5bd6d0796cf6dcf955759fc07134df64915cf41c3e00bd8768c1ec8ed37261d0",
+    "results/parallel40_distinct_levels_2026_09_06.json": "cccb89d41853b11cf729a3577c35534c484a14c262f26b4a6b4683b62f36d3cb",
+    "results/parallel40_distinct_quartic_2026_09_06.json": "0c66abd1d6677ae8bcd4d40e676f3bf7a937da7e2c85dc49ec45123d0b52ac5e",
+    "results/parallel40_independent_verification_2026_09_06.json": "bf52ef7ae17988c8db9768165a069b860333c9707f134c8ac83839c1c55c273c",
+    "results/parallel40_prior_state_2026_09_06.json": "b236fe2eb88689a69bddcd3aa71dd4e78cfd04cfa0ac8eee903b54768eb3fdbf",
+    "results/parallel40_shell_converse_2026_09_06.json": "85d5df47e26594cc8e935145511dd9c942af00b2a85128f1ba6ab3496c7352c0"
+  },
+  "central_sha256": {
+    "README.md": "0c0c5def9f38efce68e5aec5894f1a255d38e26f3673213766bed240bf69f158",
+    "research/frontier.md": "cf300ab0d03ecc2afdb7d631782df7c4de8f2132e697e4d1af58bbe8cb8bd7ee",
+    "research/source-audit.md": "488df842bcbf0b5ef395afcad9c97cc15a06dd0232be064912e7876b4276f205",
+    "research/checkpoint-2026-09-04.md": "39f6b324b62b500b1119a2abcfc5a6890d0eef046d2e270bf6dd8304a1b10619"
+  },
+  "source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "next_action": "Bound weighted actual-level collision corrections, quantify arithmetic shell losses, or prove the classical Sidon moment input; retain full unproved goal."
+}

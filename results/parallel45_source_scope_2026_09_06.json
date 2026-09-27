@@ -1,0 +1,22 @@
+{
+  "retrieved_at_utc": "2026-09-06T08:56:47.319306+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel45-weighted-algebra/warren-published-2019.pdf",
+      "url": "https://msp.org/cnt/2019/8-3/moscow-v8-n3-p04-p.pdf",
+      "sha256": "937004a8a88296897674f468b8b6a843a0fe8167edd572697e0af5265115898b",
+      "bytes": 794893,
+      "role": "Warren published Corollary4: valid size range and exponent11/9; insufficient at tested level parameters."
+    },
+    {
+      "path": "sources/parallel45-weighted-algebra/complex-groups-2603.06483v1.html",
+      "url": "https://arxiv.org/html/2603.06483v1",
+      "sha256": "de02c12728b6af2169ff2a7eeb22a01781c77fc9d266da821d236602f643f9c8",
+      "bytes": 832729,
+      "role": "Harrison-Mudgal-Schmidt Theorem1.5: complex algebraic groups, not a proved prime-field input."
+    }
+  ],
+  "matrix_input": "Previously derived actual coset-convolution algebra and shifted Gram identity; full weighted extension derived by root.",
+  "no_new_imported_uniform_bound": true,
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41"
+}

@@ -1,0 +1,24 @@
+{
+  "observed_at_utc": "2026-09-06T08:41:47.544582+00:00",
+  "process": "  PID  PPID  ELAPSED      TIME  %CPU %MEM    RSS STAT COMMAND\n13687 13631 03:25:19  50:44.54  17.0  2.9 3830112 R+   lean -DautoImplicit=false /tmp/queryphase-preservation-v19.lean\n",
+  "load": "4:41  up 1 day, 11:47, 6 users, load averages: 115.31 86.60 87.13",
+  "source_sha256": "138b2b0eb454e2b0010b59fe92462ef41f21496a93d68c624a493182cf740abb",
+  "log_bytes": 3780,
+  "log_mtime_utc": "2026-09-06T05:17:10.311423+00:00",
+  "running_job_changed": false,
+  "new_lean_build_started": false,
+  "fresh_stack_sample": {
+    "path": "/tmp/paley-lean-sample-20260906-0842.txt",
+    "sha256": "116d07ded9489e198cdedd23cb5f29fd91215c7bc24e8a4ad6e6ccf84cdbcabd",
+    "duration_seconds": 3,
+    "kernel_definitional_equality_present": true,
+    "footprint_lines": [
+      "Physical footprint:         42.3G",
+      "Physical footprint (peak):  42.3G"
+    ]
+  },
+  "memory_observed_at_utc": "2026-09-06T08:46:15.703625+00:00",
+  "memory_snapshot": "vm.swapusage: total = 34816.00M  used = 34049.56M  free = 766.44M  (encrypted)\nhw.logicalcpu: 16\nhw.memsize: 137438953472\n",
+  "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                4129.\nPages active:                           1525359.\nPages inactive:                         1510559.\nPages speculative:                        12448.\nPages throttled:                              0.\nPages wired down:                        685706.\nPages purgeable:                              2.\n\"Translation faults\":               18727725068.\nPages copy-on-write:                  386533247.\nPages zero filled:                   9219906289.\nPages reactivated:                   1132963006.\nPages purged:                          27137734.\nFile-backed pages:                      1065334.\nAnonymous pages:                        1983032.\nPages stored in compressor:            11183908.\nPages occupied by compressor:           4570706.\nDecompressions:                       800872459.\nCompressions:                        1032597135.\nPageins:                              330304216.\nPageouts:                                512423.\nSwapins:                                8466303.\nSwapouts:                              11781240.\n",
+  "interpretation": "CPU-active kernel checking with severe machine memory pressure; no terminal verdict or defensible completion ETA. Diagnostic source split prepared but not Lean validated or benchmarked."
+}

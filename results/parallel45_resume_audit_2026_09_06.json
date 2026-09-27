@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-09-06T08:53:47.029959+00:00",
+  "previous_goal_turn_classification": "progress and verified wait: fresh live PID13687 stack/memory evidence and pinned unvalidated branch-split candidates; no mathematical advance",
+  "pass44_files_revalidated": {
+    "experiments/parallel44_structured_levels.py": true,
+    "research/parallel44-interval-and-matrix-review-2026-09-06.md": true,
+    "research/parallel44-pass-summary-2026-09-06.md": true,
+    "research/parallel44-structured-levels-2026-09-06.md": true,
+    "results/parallel44_prior_state_2026_09_06.json": true,
+    "results/parallel44_source_scope_2026_09_06.json": true,
+    "results/parallel44_structured_levels_2026_09_06.json": true,
+    "README.md": true,
+    "research/frontier.md": true,
+    "research/source-audit.md": true,
+    "research/checkpoint-2026-09-04.md": true
+  },
+  "full_goal_status": "unproved; active"
+}

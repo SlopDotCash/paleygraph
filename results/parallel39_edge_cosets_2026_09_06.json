@@ -1,0 +1,181 @@
+{
+  "scope": "exact finite verification of identities and inequalities; no uniform off-region bound",
+  "full_goal_proved": false,
+  "rows": [
+    {
+      "p": 5,
+      "generator": 4,
+      "n": 2,
+      "difference_support_size": 2,
+      "nonzero_difference_moments": {
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2
+      },
+      "kappa": 0,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "one_equal_edge_pair_weight": 0,
+      "repeated_edge_coset_weight": 0,
+      "full_triangle_weight": 0,
+      "full_triangle_weight_Young_upper": 4,
+      "pair_bound_numerator": 4,
+      "pair_bound_denominator": 2
+    },
+    {
+      "p": 13,
+      "generator": 8,
+      "n": 4,
+      "difference_support_size": 8,
+      "nonzero_difference_moments": {
+        "2": 20,
+        "3": 36,
+        "4": 68,
+        "5": 132,
+        "6": 260
+      },
+      "kappa": 0,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 0,
+        "2": 432,
+        "3": 0
+      },
+      "one_equal_edge_pair_weight": 144,
+      "repeated_edge_coset_weight": 432,
+      "full_triangle_weight": 432,
+      "full_triangle_weight_Young_upper": 1296,
+      "pair_bound_numerator": 2448,
+      "pair_bound_denominator": 4
+    },
+    {
+      "p": 17,
+      "generator": 2,
+      "n": 8,
+      "difference_support_size": 16,
+      "nonzero_difference_moments": {
+        "2": 200,
+        "3": 728,
+        "4": 2696,
+        "5": 10136,
+        "6": 38600
+      },
+      "kappa": 3,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 115800,
+        "2": 345600,
+        "3": 0
+      },
+      "one_equal_edge_pair_weight": 231000,
+      "repeated_edge_coset_weight": 461400,
+      "full_triangle_weight": 461400,
+      "full_triangle_weight_Young_upper": 529984,
+      "pair_bound_numerator": 1962688,
+      "pair_bound_denominator": 8
+    },
+    {
+      "p": 97,
+      "generator": 64,
+      "n": 8,
+      "difference_support_size": 32,
+      "nonzero_difference_moments": {
+        "2": 104,
+        "3": 200,
+        "4": 392,
+        "5": 776,
+        "6": 1544
+      },
+      "kappa": 0,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 0,
+        "2": 8640,
+        "3": 8448
+      },
+      "one_equal_edge_pair_weight": 2880,
+      "repeated_edge_coset_weight": 8640,
+      "full_triangle_weight": 17088,
+      "full_triangle_weight_Young_upper": 40000,
+      "pair_bound_numerator": 78400,
+      "pair_bound_denominator": 8
+    },
+    {
+      "p": 97,
+      "generator": 43,
+      "n": 24,
+      "difference_support_size": 96,
+      "nonzero_difference_moments": {
+        "2": 3672,
+        "3": 25896,
+        "4": 187416,
+        "5": 1377192,
+        "6": 10236312
+      },
+      "kappa": 2,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 20472624,
+        "2": 391468896,
+        "3": 102032640
+      },
+      "one_equal_edge_pair_weight": 150962256,
+      "repeated_edge_coset_weight": 411941520,
+      "full_triangle_weight": 513974160,
+      "full_triangle_weight_Young_upper": 670602816,
+      "pair_bound_numerator": 4853324736,
+      "pair_bound_denominator": 24
+    },
+    {
+      "p": 1153,
+      "generator": 75,
+      "n": 8,
+      "difference_support_size": 32,
+      "nonzero_difference_moments": {
+        "2": 104,
+        "3": 200,
+        "4": 392,
+        "5": 776,
+        "6": 1544
+      },
+      "kappa": 0,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 0,
+        "2": 6912,
+        "3": 7680
+      },
+      "one_equal_edge_pair_weight": 2304,
+      "repeated_edge_coset_weight": 6912,
+      "full_triangle_weight": 14592,
+      "full_triangle_weight_Young_upper": 40000,
+      "pair_bound_numerator": 78400,
+      "pair_bound_denominator": 8
+    },
+    {
+      "p": 6700417,
+      "generator": 2,
+      "n": 64,
+      "difference_support_size": 1920,
+      "nonzero_difference_moments": {
+        "2": 8768,
+        "3": 20160,
+        "4": 50240,
+        "5": 138432,
+        "6": 423488
+      },
+      "kappa": 3,
+      "triangle_weight_by_number_of_distinct_edge_cosets": {
+        "1": 1270464,
+        "2": 6402048,
+        "3": 27187200
+      },
+      "one_equal_edge_pair_weight": 3404480,
+      "repeated_edge_coset_weight": 7672512,
+      "full_triangle_weight": 34859712,
+      "full_triangle_weight_Young_upper": 406425600,
+      "pair_bound_numerator": 1012838400,
+      "pair_bound_denominator": 64
+    }
+  ]
+}

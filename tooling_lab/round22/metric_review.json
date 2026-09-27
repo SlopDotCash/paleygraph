@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "metric_consecutive32",
+      "unimodular_basis_change_verified": true,
+      "cuts_verified": 32,
+      "optimality_certificates": 32,
+      "queries_replayed": 32,
+      "scalar_candidates_checked": 129
+    },
+    {
+      "name": "metric_alternating32",
+      "unimodular_basis_change_verified": true,
+      "cuts_verified": 32,
+      "optimality_certificates": 31,
+      "queries_replayed": 32,
+      "scalar_candidates_checked": 0
+    },
+    {
+      "name": "metric_random32",
+      "unimodular_basis_change_verified": true,
+      "cuts_verified": 32,
+      "optimality_certificates": 32,
+      "queries_replayed": 32,
+      "scalar_candidates_checked": 0
+    }
+  ],
+  "corrupt_transformations_rejected": [
+    "non_unimodular",
+    "wrong_original_basis"
+  ],
+  "input_sha256": {
+    "metric_summary.json": "6b3e3cfb4b92a69d5f9f1541b4ffc9c63228ce13c82b02e8f6d8ac0e03e9181a",
+    "metric_consecutive32.json": "484959f7befe4bf9fbcd9bd1fb3a08b9dcbd0e783d5e8ad1422c3aedaa679ebb",
+    "../round21/heldout_consecutive32.json": "3a4036dde538ce79a60de9aa4a03f8d6c0875257f64337c0f020cb19f076c237",
+    "metric_alternating32.json": "909e3dc5262f37fc037292feee9b29489100dcd9e5d03626ac6c16a8684ee2bc",
+    "../round21/heldout_alternating32.json": "7d44b837b6178c079ea07869dcdb1cbc936be3ffb43b8dd3ad7abe2fd049ca49",
+    "metric_random32.json": "21cdf4a1893be9e3c49b50a01bea6490e9fb5ade57d07baf065ecb96490ddd8b",
+    "../round21/heldout_random32.json": "6d25467d46eb39bf41fa38963a0b1949563b3134d47d382281728b0c26d7338a"
+  },
+  "source_sha256": {
+    "metric_review.py": "8fe9a63d5398e4dd9fa06131a5c8a3793e98e5edf925a7735ad83a5872db247e",
+    "conditioned_review.py": "541554d050c916cbbac05acf6347dd88377e3822926e64806da5987a1aed2ec6"
+  }
+}

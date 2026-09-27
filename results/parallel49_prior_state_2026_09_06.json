@@ -1,0 +1,19 @@
+{
+  "observed_at_utc": "2026-09-06T16:28:22.151543+00:00",
+  "previous_goal_turn_classification": "progress: complete triple-fiber certificates, actual quartic counterexamples and an aggregate criterion; uniform bounds unchanged",
+  "files": {
+    "experiments/parallel48_collision_eliminants.py": "b59ab2fba26d8a6d57560d6e7da42e1953de27666646199e1889113a944034de",
+    "experiments/requirements-exact-arithmetic.txt": "cfffc8d72603fc5d719a37f043b12db24ee8f0441a5923e2ecd585ce811775da",
+    "research/parallel48-collision-eliminants-2026-09-06.md": "956846bd5f9592536730b22fb3e916c36f60b7a3d212ab3a7828b88b251a785a",
+    "research/parallel48-pass-summary-2026-09-06.md": "11df4cfa18018b3a387f24fa18163e95e52d240d819659938e5292e86d29d3d0",
+    "results/parallel48_prior_state_2026_09_06.json": "7ebafc27a2586eb056000f7b39ab81d9abd0c1c442d089788b9a2073b899d196",
+    "results/parallel48_factorization_candidates_2026_09_06.json": "505275c28611398f4a2ae3d9bd942e0d5e3899edec14d5fbf72eb17914a8535f",
+    "results/parallel48_exploration_runtime_2026_09_06.json": "0ae75955cb7afaa9f3f06e6728c66794050abe24ab162d58c36b233da47cb2f4",
+    "results/parallel48_collision_eliminants_2026_09_06.json": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d",
+    "results/parallel48_source_scope_2026_09_06.json": "4e81aa17d38344ec9c0061e0e88f123106e45c9ac299beaadf7d9bfc48dd842e",
+    "README.md": "d375435bd6e9a8ee340a0f17478621dc6506e67843ffc7295770a59350337a5a",
+    "research/frontier.md": "ab44c729b4c04959168cd1758ac1dd2ed04566607d001d8bcef801cfd9a9be6b",
+    "research/source-audit.md": "dfa84b6b003aa8180d20e6d1df40c510e2e77f361947c085e1942406596ecb5f",
+    "research/checkpoint-2026-09-04.md": "e54e71c4d7e900336ce2f3c3da3ad90c9149c1ae18ea139de7c4bc9fb0a43ab8"
+  }
+}

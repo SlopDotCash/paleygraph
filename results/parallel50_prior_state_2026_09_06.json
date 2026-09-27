@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-09-06T17:05:21.641561+00:00",
+  "previous_goal_turn_classification": "progress: exact content valuation, prime-support restriction, and general algebraic counterexamples; no improved uniform bound",
+  "files": {
+    "experiments/parallel49_critical_content.py": "728e5041ca869d23d019e3efb7e9fad6420a4ed7f829a8a2bc6638deb9827be8",
+    "research/parallel49-critical-content-2026-09-06.md": "1a32594bd7c7d857994652029702ba8cdc9430d3eb4f15ab101748f5446a0522",
+    "research/parallel49-pass-summary-2026-09-06.md": "615665435bebf08c7ff7b5254b97d0a33ea200f640788840de45190d79e0b33e",
+    "results/parallel49_prior_state_2026_09_06.json": "2a24ccf872c9ff7654ab71569192220716db470ee645056ca51c3042915cd9be",
+    "results/parallel49_critical_content_2026_09_06.json": "fcf706437029ca3aa981ed3f3f07f84d174a34ae8771df3408b09bebf801e865",
+    "results/parallel49_source_scope_2026_09_06.json": "0e3da3648901f1db82a8ee57463f59821264d3ab844dab0f461aae7122c90686",
+    "README.md": "5dc81270f68048f62aa37f924d08aeee8ffd6e11f4f5bf5b866ed0fea1ee5b59",
+    "research/frontier.md": "8715223909d55077885178a1f759ccab7ac06953bcbe99131d38266d30aa677f",
+    "research/source-audit.md": "105529a88b81bf3341f936501bf4d87e24de47c9625a4dfdffef17364f581f93",
+    "research/checkpoint-2026-09-04.md": "da6c998f905230fd102f6a65e44940d08e256a92d5cf237e64237ea1e1d9801d"
+  }
+}

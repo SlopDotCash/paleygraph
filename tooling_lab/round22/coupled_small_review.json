@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "p17_basic_erase2",
+      "all_actual_shared_known_pairs_checked": 16,
+      "distinct_actual_difference_classes": 6,
+      "targets_checked": 12,
+      "actual_ambiguity_targets_preserved": 6,
+      "separators_checked": 4,
+      "continuous_witnesses_checked": 8
+    },
+    {
+      "name": "p17_basic_erase4",
+      "all_actual_shared_known_pairs_checked": 136,
+      "distinct_actual_difference_classes": 48,
+      "targets_checked": 12,
+      "actual_ambiguity_targets_preserved": 6,
+      "separators_checked": 4,
+      "continuous_witnesses_checked": 8
+    },
+    {
+      "name": "p41_general_erase2",
+      "all_actual_shared_known_pairs_checked": 87,
+      "distinct_actual_difference_classes": 9,
+      "targets_checked": 12,
+      "actual_ambiguity_targets_preserved": 6,
+      "separators_checked": 4,
+      "continuous_witnesses_checked": 8
+    },
+    {
+      "name": "p97_general_erase2",
+      "all_actual_shared_known_pairs_checked": 295,
+      "distinct_actual_difference_classes": 18,
+      "targets_checked": 12,
+      "actual_ambiguity_targets_preserved": 6,
+      "separators_checked": 5,
+      "continuous_witnesses_checked": 7
+    },
+    {
+      "name": "p97_general_erase4",
+      "all_actual_shared_known_pairs_checked": 4656,
+      "distinct_actual_difference_classes": 532,
+      "targets_checked": 12,
+      "actual_ambiguity_targets_preserved": 6,
+      "separators_checked": 5,
+      "continuous_witnesses_checked": 7
+    },
+    {
+      "name": "squared_relation_erase3",
+      "all_actual_shared_known_pairs_checked": 16,
+      "distinct_actual_difference_classes": 6,
+      "targets_checked": 12,
+      "actual_ambiguity_targets_preserved": 6,
+      "separators_checked": 6,
+      "continuous_witnesses_checked": 6
+    },
+    {
+      "name": "scalar_p_squared_erase1",
+      "all_actual_shared_known_pairs_checked": 0,
+      "distinct_actual_difference_classes": 0,
+      "targets_checked": 6,
+      "actual_ambiguity_targets_preserved": 0,
+      "separators_checked": 0,
+      "continuous_witnesses_checked": 6
+    },
+    {
+      "name": "scalar_p_squared_erase3",
+      "all_actual_shared_known_pairs_checked": 0,
+      "distinct_actual_difference_classes": 0,
+      "targets_checked": 0,
+      "actual_ambiguity_targets_preserved": 0,
+      "separators_checked": 0,
+      "continuous_witnesses_checked": 0
+    }
+  ],
+  "input_sha256": {
+    "coupled_small.json": "1b4253b140b74c549213a40531ff618c478fcf1cebd78e0e7dafd1ed9e583a6d",
+    "small_p17_basic_erase2.json": "0c0b398b7a927932b871c1c51c819ac4561b3c7c3d9afc4011f58dfd129a9893",
+    "small_p17_basic_erase4.json": "752894101c56094a31d7ccdc40983f16a0b560e7673069323e47ef10da4e3efc",
+    "small_p41_general_erase2.json": "cca7265d77177d491231bcc48405b16ca6250494ace09d03af60da10d4f20352",
+    "small_p97_general_erase2.json": "5066b9688ee2d1ccb19ab189377da2aecf203f20feb319108803870d300bff51",
+    "small_p97_general_erase4.json": "118259320a5999795f9060275b0ea9956e65fcc4692b5752abeacb0ca9e7f3e8",
+    "small_squared_relation_erase3.json": "3b0dd51976acd7d1576bc9d9ef67935821dde298b56a5ad0cc687871575178ef",
+    "small_scalar_p_squared_erase1.json": "df1c594e9be4acefac793774675e5b3ce850b6235acbe5bc22f72d1fa42355f8",
+    "small_scalar_p_squared_erase3.json": "379dd43d4a83551f1e16d75d032cc3caff423a72118fa1babfa14585144e0b37"
+  },
+  "source_sha256": {
+    "coupled_small_review.py": "90108793cd63dbc38ba0e0509ef7a664759765c7b41be22aff5ac12a7ec37209",
+    "coupled_review.py": "78d246f92ff8e3a32753fe658c2ea5841ae1fc8a68d20b4c97ac67e776eb09b5",
+    "conditioned_review.py": "541554d050c916cbbac05acf6347dd88377e3822926e64806da5987a1aed2ec6"
+  }
+}

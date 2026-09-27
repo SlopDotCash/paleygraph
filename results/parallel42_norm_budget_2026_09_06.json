@@ -1,0 +1,342 @@
+{
+  "scope": "Complete norm-product factorizations for three fixed conductors; no all-conductor or all-prime proof.",
+  "formula": "sum_(p=1 mod n) X(H_p) log p <= [(n-1)^4-2(n-1)^2+(n-1)] log 6",
+  "sharper_formula": "sum X log p <= (M/2) log([8n\u00b2(n\u22121)\u00b2\u22122n\u2074]/M)",
+  "cases": [
+    {
+      "n": 4,
+      "degree": 2,
+      "tuple_count": 66,
+      "unordered_product_count": 6,
+      "product_pair_count": 15,
+      "independent_determinants": 15,
+      "distinct_norms": 4,
+      "max_individual_norm": 20,
+      "tuple_second_moment": 640,
+      "sharp_budget_log_argument": [
+        640,
+        66
+      ],
+      "P_absolute_prime_factorization": {
+        "2": 84,
+        "5": 6
+      },
+      "all_split_exceptional_primes": [
+        {
+          "p": 5,
+          "generator": 2,
+          "X": 6,
+          "valuation_P": 6,
+          "strict_valuation_loss": 0
+        }
+      ],
+      "extra_split_primes_checked": 3,
+      "all_checks_passed": true
+    },
+    {
+      "n": 8,
+      "degree": 4,
+      "tuple_count": 2310,
+      "unordered_product_count": 28,
+      "product_pair_count": 378,
+      "independent_determinants": 378,
+      "distinct_norms": 15,
+      "max_individual_norm": 400,
+      "tuple_second_moment": 16896,
+      "sharp_budget_log_argument": [
+        16896,
+        2310
+      ],
+      "P_absolute_prime_factorization": {
+        "2": 1740,
+        "3": 222,
+        "5": 54,
+        "17": 78,
+        "41": 18
+      },
+      "all_split_exceptional_primes": [
+        {
+          "p": 17,
+          "generator": 9,
+          "X": 78,
+          "valuation_P": 78,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 41,
+          "generator": 38,
+          "X": 18,
+          "valuation_P": 18,
+          "strict_valuation_loss": 0
+        }
+      ],
+      "extra_split_primes_checked": 17,
+      "all_checks_passed": true
+    },
+    {
+      "n": 16,
+      "degree": 8,
+      "tuple_count": 50190,
+      "unordered_product_count": 120,
+      "product_pair_count": 7140,
+      "independent_determinants": 53,
+      "distinct_norms": 65,
+      "max_individual_norm": 160000,
+      "tuple_second_moment": 329728,
+      "sharp_budget_log_argument": [
+        329728,
+        50190
+      ],
+      "P_absolute_prime_factorization": {
+        "2": 21108,
+        "3": 510,
+        "5": 54,
+        "7": 792,
+        "17": 2856,
+        "23": 84,
+        "41": 66,
+        "97": 336,
+        "113": 324,
+        "193": 126,
+        "241": 72,
+        "257": 114,
+        "337": 126,
+        "353": 72,
+        "401": 36,
+        "433": 36,
+        "449": 36,
+        "577": 36,
+        "593": 36,
+        "641": 36,
+        "881": 36,
+        "1217": 36,
+        "2113": 36,
+        "2129": 36
+      },
+      "all_split_exceptional_primes": [
+        {
+          "p": 17,
+          "generator": 3,
+          "X": 2730,
+          "valuation_P": 2856,
+          "strict_valuation_loss": 126
+        },
+        {
+          "p": 97,
+          "generator": 8,
+          "X": 336,
+          "valuation_P": 336,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 113,
+          "generator": 40,
+          "X": 324,
+          "valuation_P": 324,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 193,
+          "generator": 64,
+          "X": 126,
+          "valuation_P": 126,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 241,
+          "generator": 111,
+          "X": 72,
+          "valuation_P": 72,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 257,
+          "generator": 249,
+          "X": 114,
+          "valuation_P": 114,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 337,
+          "generator": 191,
+          "X": 126,
+          "valuation_P": 126,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 353,
+          "generator": 304,
+          "X": 72,
+          "valuation_P": 72,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 401,
+          "generator": 268,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 433,
+          "generator": 238,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 449,
+          "generator": 349,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 577,
+          "generator": 171,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 593,
+          "generator": 384,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 641,
+          "generator": 601,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 881,
+          "generator": 767,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 1217,
+          "generator": 737,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 2113,
+          "generator": 1099,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        },
+        {
+          "p": 2129,
+          "generator": 1541,
+          "X": 36,
+          "valuation_P": 36,
+          "strict_valuation_loss": 0
+        }
+      ],
+      "extra_split_primes_checked": 81,
+      "all_checks_passed": true
+    }
+  ],
+  "zero_diagonal_witness": {
+    "p": 353,
+    "n": 16,
+    "W": 364800,
+    "low": 281856,
+    "high": 82944,
+    "B": 507,
+    "X": 72,
+    "X_dist": 72,
+    "K": 2801,
+    "level_blocks": 8,
+    "identities_passed": true,
+    "generator": 304,
+    "positive_a_histogram": {
+      "1": 1,
+      "2": 7
+    },
+    "rich_cells": [
+      {
+        "u": 16,
+        "v": 122,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 58,
+        "v": 136,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 58,
+        "v": 166,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 122,
+        "v": 16,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 136,
+        "v": 58,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 140,
+        "v": 295,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 140,
+        "v": 331,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 166,
+        "v": 58,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 168,
+        "v": 213,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 213,
+        "v": 168,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 295,
+        "v": 140,
+        "rho": 3,
+        "T_b": 144
+      },
+      {
+        "u": 331,
+        "v": 140,
+        "rho": 3,
+        "T_b": 144
+      }
+    ],
+    "quartic_window_n4_over4_to_n4": false
+  },
+  "all_passed": true
+}

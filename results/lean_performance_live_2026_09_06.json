@@ -1,0 +1,72 @@
+{
+  "observed_at_utc": "2026-09-06T05:22:26.351084+00:00",
+  "process": {
+    "exit_code": 0,
+    "stdout": "PID  PPID ELAPSED      TIME  %CPU    RSS STAT COMM\n13687 13631   05:58   6:04.87  98.7 11867712 R+   lean",
+    "stderr": ""
+  },
+  "machine": {
+    "uptime": {
+      "exit_code": 0,
+      "stdout": "1:22  up 1 day,  8:27, 6 users, load averages: 9.68 9.13 7.17",
+      "stderr": ""
+    },
+    "hardware_swap": {
+      "exit_code": 0,
+      "stdout": "hw.ncpu: 16\nhw.memsize: 137438953472\nvm.swapusage: total = 15360.00M  used = 13818.19M  free = 1541.81M  (encrypted)",
+      "stderr": ""
+    },
+    "vm_stat": {
+      "exit_code": 0,
+      "stdout": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                             3056436.\nPages active:                           2175003.\nPages inactive:                         2272795.\nPages speculative:                        68198.\nPages throttled:                              0.\nPages wired down:                        343333.\nPages purgeable:                          87348.\n\"Translation faults\":               16562219865.\nPages copy-on-write:                  337584521.\nPages zero filled:                   8370207701.\nPages reactivated:                    757339432.\nPages purged:                          13350203.\nFile-backed pages:                      1073952.\nAnonymous pages:                        3442044.\nPages stored in compressor:             2216559.\nPages occupied by compressor:            392455.\nDecompressions:                       493409426.\nCompressions:                         662019756.\nPageins:                              277284908.\nPageouts:                                319628.\nSwapins:                                6869085.\nSwapouts:                               8640817.",
+      "stderr": ""
+    }
+  },
+  "current_proof": {
+    "path": "/tmp/queryphase-preservation-v19.lean",
+    "bytes": 54086,
+    "sha256": "138b2b0eb454e2b0010b59fe92462ef41f21496a93d68c624a493182cf740abb",
+    "mtime_utc": "2026-09-06T05:16:23.976158+00:00"
+  },
+  "current_log": {
+    "path": "/tmp/queryphase-preservation-v19.log",
+    "bytes": 3780,
+    "sha256": "e823d83b3486cd2b42145fee691972615e9d8bd8b0efebbe0c56d7cb8e7e4546",
+    "mtime_utc": "2026-09-06T05:17:10.311423+00:00"
+  },
+  "log_error_headers": [],
+  "sample": {
+    "path": "results/lean_kernel_sample_2026_09_06.txt",
+    "bytes": 8430596,
+    "sha256": "9de51080e470d46f299e56be479289da981fcbf21c01287459a3da1cdbb47e6d",
+    "mtime_utc": "2026-09-06T05:22:26.351029+00:00"
+  },
+  "previous_attempt": {
+    "log": {
+      "path": "/tmp/queryphase-preservation-v18.log",
+      "bytes": 8053,
+      "sha256": "cdb394e867858ab22d77783524a945e1bda7f0f91538de10dcd8bf64f35252af",
+      "mtime_utc": "2026-09-06T00:27:31.579070+00:00"
+    },
+    "exact_error": "/tmp/queryphase-preservation-v18.lean:502:6: error: (kernel) deterministic timeout",
+    "elapsed_status": "exact process runtime unavailable; source modification to last log write was about 28.6 minutes, not a benchmark"
+  },
+  "original_build": {
+    "log": {
+      "path": "/private/tmp/append-adapters-final.log",
+      "bytes": 1759704,
+      "sha256": "11bffcb6d0c0b98468d1209c99d5e3ab7aaa6675df474a2769da072cd88028fd",
+      "mtime_utc": "2026-09-05T23:01:58.540891+00:00"
+    },
+    "status": "failed, Lean exit 1",
+    "QueryPhase_seconds": 5478,
+    "QueryPhaseFirstOracle_seconds": 5042
+  },
+  "observations": {
+    "cpu": "about one full core, cumulative CPU increasing",
+    "kernel": "sample active worker is in kernel definitional equality and reduction routines",
+    "swap": "between first and third observations swapouts unchanged at 8640817; swapins 6869062 to 6869085; no evidence of current heavy swapping",
+    "eta": "not identifiable from CPU or last diagnostic line; current attempt has no completed benchmark"
+  },
+  "actions": "read-only process/log inspection and 3-second sample; no builds, cancellations, cache edits, proof source edits, or scheduling changes"
+}

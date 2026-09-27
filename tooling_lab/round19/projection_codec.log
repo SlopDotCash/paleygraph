@@ -1,0 +1,6 @@
+{"case": "small_complete", "mode": "field_projection", "support": 2, "positive_records": 256, "probes": 90}
+{"case": "medium_walk", "mode": "field_projection", "support": 2, "positive_records": 65, "probes": 90}
+{"case": "known_short_walk", "mode": "field_projection", "support": 2, "positive_records": 65, "probes": 90}
+{"case": "known_centering_walk", "mode": "field_projection", "support": 2, "positive_records": 65, "probes": 90}
+{"case": "quartic_window_walk", "mode": "field_projection", "support": 9, "positive_records": 33, "probes": 90}
+{"prior_records": 934, "small_cube_words": 6561, "barrier_pairs": 5, "degeneracy_records": 204}

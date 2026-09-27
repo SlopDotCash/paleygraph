@@ -1,0 +1,10952 @@
+{
+  "status": "initial_actual_inputs_passed",
+  "scope": "Declared affine clusters from saved actual polynomial candidates; no discovery of all required clusters. Large minimum uses the proved rank-two occupancy formula and a fully checked attaining witness, not enumeration of all agreement sets.",
+  "small": {
+    "p": 17,
+    "n": 16,
+    "k": 8,
+    "s": 11,
+    "candidate_triples": 816,
+    "rank_two_triples": 804,
+    "dependent_triples": 12,
+    "worst_triple_node_indices": [
+      12,
+      13,
+      14
+    ],
+    "directions": [
+      [
+        5,
+        4,
+        11,
+        0,
+        2,
+        5,
+        0,
+        8
+      ],
+      [
+        10,
+        16,
+        5,
+        16,
+        0,
+        15,
+        5,
+        15
+      ]
+    ],
+    "result": {
+      "p": 17,
+      "n": 16,
+      "agreement_size": 11,
+      "zero_coordinates": [
+        1,
+        2,
+        12,
+        13
+      ],
+      "projective_classes": [
+        {
+          "direction": [
+            0,
+            1
+          ],
+          "coordinates": [
+            5,
+            7,
+            11
+          ]
+        },
+        {
+          "direction": [
+            1,
+            0
+          ],
+          "coordinates": [
+            4,
+            6,
+            15
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1
+          ],
+          "coordinates": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7
+          ],
+          "coordinates": [
+            14
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9
+          ],
+          "coordinates": [
+            8
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14
+          ],
+          "coordinates": [
+            0
+          ]
+        }
+      ],
+      "class_counts_in_witness": [
+        3,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "worst_agreement_set": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        15
+      ],
+      "minimum_injective_pairs": 15,
+      "uniform_pair_success_probability": [
+        1,
+        8
+      ]
+    },
+    "complete_agreement_sets_checked": 4368
+  },
+  "large": {
+    "p": 65537,
+    "n": 1024,
+    "k": 64,
+    "s": 410,
+    "origin": [
+      27499,
+      30375,
+      20382,
+      55490,
+      3071,
+      34018,
+      60979,
+      17754,
+      44921,
+      199,
+      30114,
+      65364,
+      42461,
+      20165,
+      32456,
+      2837,
+      43102,
+      16915,
+      33380,
+      17390,
+      16773,
+      6419,
+      10122,
+      36545,
+      35553,
+      54186,
+      47197,
+      33760,
+      20039,
+      59586,
+      60443,
+      36401,
+      23435,
+      39571,
+      42466,
+      55683,
+      64112,
+      50050,
+      1073,
+      47974,
+      17828,
+      30490,
+      10901,
+      59053,
+      59301,
+      4387,
+      25428,
+      46075,
+      18468,
+      4730,
+      52926,
+      59080,
+      53883,
+      11000,
+      7019,
+      30022,
+      38782,
+      33333,
+      10426,
+      20100,
+      18744,
+      57616,
+      61125,
+      16997
+    ],
+    "directions": [
+      [
+        21122,
+        21992,
+        4971,
+        15555,
+        45763,
+        54987,
+        8668,
+        60143,
+        7487,
+        46505,
+        922,
+        7270,
+        34951,
+        30701,
+        53088,
+        33558,
+        25514,
+        55202,
+        60712,
+        21982,
+        9134,
+        51430,
+        32285,
+        9232,
+        56867,
+        22251,
+        17557,
+        41684,
+        23294,
+        27834,
+        63938,
+        65467,
+        25103,
+        52909,
+        21150,
+        23544,
+        61344,
+        17839,
+        4862,
+        2691,
+        33356,
+        43347,
+        31445,
+        5429,
+        49896,
+        52675,
+        21984,
+        60064,
+        29753,
+        27081,
+        64948,
+        33091,
+        3697,
+        11558,
+        33447,
+        57757,
+        38154,
+        26767,
+        54965,
+        13427,
+        50240,
+        32179,
+        33779,
+        43453
+      ],
+      [
+        37796,
+        1,
+        41633,
+        58997,
+        65323,
+        64617,
+        35892,
+        52069,
+        15053,
+        55200,
+        50702,
+        34487,
+        696,
+        13321,
+        40711,
+        711,
+        64219,
+        58614,
+        17335,
+        582,
+        35023,
+        2883,
+        53045,
+        61850,
+        39523,
+        63004,
+        56782,
+        64986,
+        38810,
+        12531,
+        35691,
+        17488,
+        6678,
+        36063,
+        33677,
+        35897,
+        42936,
+        41719,
+        45490,
+        8166,
+        34728,
+        54545,
+        5993,
+        65012,
+        9382,
+        45132,
+        57708,
+        46773,
+        9202,
+        23483,
+        51116,
+        28430,
+        16704,
+        22993,
+        36213,
+        47213,
+        52669,
+        14030,
+        36870,
+        11456,
+        53908,
+        13589,
+        1931,
+        10961
+      ]
+    ],
+    "source_node_scalars": [
+      0,
+      1,
+      0
+    ],
+    "source_node_agreement_counts": [
+      512,
+      512,
+      512
+    ],
+    "result": {
+      "p": 65537,
+      "n": 1024,
+      "agreement_size": 410,
+      "zero_coordinates": [],
+      "projective_classes": [
+        {
+          "direction": [
+            1,
+            8926
+          ],
+          "coordinates": [
+            275,
+            397
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23556
+          ],
+          "coordinates": [
+            2,
+            977
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27591
+          ],
+          "coordinates": [
+            727,
+            936
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33518
+          ],
+          "coordinates": [
+            568,
+            607
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35848
+          ],
+          "coordinates": [
+            124,
+            286
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43080
+          ],
+          "coordinates": [
+            588,
+            959
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45076
+          ],
+          "coordinates": [
+            460,
+            620
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48997
+          ],
+          "coordinates": [
+            385,
+            529
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51241
+          ],
+          "coordinates": [
+            89,
+            824
+          ]
+        },
+        {
+          "direction": [
+            1,
+            151
+          ],
+          "coordinates": [
+            430
+          ]
+        },
+        {
+          "direction": [
+            1,
+            246
+          ],
+          "coordinates": [
+            233
+          ]
+        },
+        {
+          "direction": [
+            1,
+            252
+          ],
+          "coordinates": [
+            245
+          ]
+        },
+        {
+          "direction": [
+            1,
+            281
+          ],
+          "coordinates": [
+            457
+          ]
+        },
+        {
+          "direction": [
+            1,
+            295
+          ],
+          "coordinates": [
+            684
+          ]
+        },
+        {
+          "direction": [
+            1,
+            454
+          ],
+          "coordinates": [
+            190
+          ]
+        },
+        {
+          "direction": [
+            1,
+            667
+          ],
+          "coordinates": [
+            803
+          ]
+        },
+        {
+          "direction": [
+            1,
+            685
+          ],
+          "coordinates": [
+            206
+          ]
+        },
+        {
+          "direction": [
+            1,
+            692
+          ],
+          "coordinates": [
+            805
+          ]
+        },
+        {
+          "direction": [
+            1,
+            746
+          ],
+          "coordinates": [
+            447
+          ]
+        },
+        {
+          "direction": [
+            1,
+            794
+          ],
+          "coordinates": [
+            49
+          ]
+        },
+        {
+          "direction": [
+            1,
+            831
+          ],
+          "coordinates": [
+            846
+          ]
+        },
+        {
+          "direction": [
+            1,
+            837
+          ],
+          "coordinates": [
+            317
+          ]
+        },
+        {
+          "direction": [
+            1,
+            867
+          ],
+          "coordinates": [
+            401
+          ]
+        },
+        {
+          "direction": [
+            1,
+            897
+          ],
+          "coordinates": [
+            647
+          ]
+        },
+        {
+          "direction": [
+            1,
+            964
+          ],
+          "coordinates": [
+            51
+          ]
+        },
+        {
+          "direction": [
+            1,
+            986
+          ],
+          "coordinates": [
+            13
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1035
+          ],
+          "coordinates": [
+            907
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1036
+          ],
+          "coordinates": [
+            239
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1040
+          ],
+          "coordinates": [
+            475
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1086
+          ],
+          "coordinates": [
+            420
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1111
+          ],
+          "coordinates": [
+            731
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1208
+          ],
+          "coordinates": [
+            560
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1229
+          ],
+          "coordinates": [
+            506
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1285
+          ],
+          "coordinates": [
+            353
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1311
+          ],
+          "coordinates": [
+            524
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1313
+          ],
+          "coordinates": [
+            954
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1385
+          ],
+          "coordinates": [
+            1013
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1517
+          ],
+          "coordinates": [
+            171
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1777
+          ],
+          "coordinates": [
+            855
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1823
+          ],
+          "coordinates": [
+            917
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1828
+          ],
+          "coordinates": [
+            185
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1869
+          ],
+          "coordinates": [
+            472
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1885
+          ],
+          "coordinates": [
+            526
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1909
+          ],
+          "coordinates": [
+            997
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1956
+          ],
+          "coordinates": [
+            645
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1958
+          ],
+          "coordinates": [
+            362
+          ]
+        },
+        {
+          "direction": [
+            1,
+            1994
+          ],
+          "coordinates": [
+            278
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2123
+          ],
+          "coordinates": [
+            166
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2127
+          ],
+          "coordinates": [
+            821
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2243
+          ],
+          "coordinates": [
+            908
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2279
+          ],
+          "coordinates": [
+            829
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2297
+          ],
+          "coordinates": [
+            903
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2300
+          ],
+          "coordinates": [
+            31
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2380
+          ],
+          "coordinates": [
+            50
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2481
+          ],
+          "coordinates": [
+            246
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2494
+          ],
+          "coordinates": [
+            169
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2495
+          ],
+          "coordinates": [
+            129
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2512
+          ],
+          "coordinates": [
+            964
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2531
+          ],
+          "coordinates": [
+            273
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2546
+          ],
+          "coordinates": [
+            672
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2610
+          ],
+          "coordinates": [
+            305
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2640
+          ],
+          "coordinates": [
+            678
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2654
+          ],
+          "coordinates": [
+            318
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2695
+          ],
+          "coordinates": [
+            899
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2743
+          ],
+          "coordinates": [
+            950
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2767
+          ],
+          "coordinates": [
+            348
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2801
+          ],
+          "coordinates": [
+            592
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2840
+          ],
+          "coordinates": [
+            284
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2842
+          ],
+          "coordinates": [
+            782
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2922
+          ],
+          "coordinates": [
+            971
+          ]
+        },
+        {
+          "direction": [
+            1,
+            2983
+          ],
+          "coordinates": [
+            636
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3059
+          ],
+          "coordinates": [
+            891
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3134
+          ],
+          "coordinates": [
+            37
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3230
+          ],
+          "coordinates": [
+            126
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3287
+          ],
+          "coordinates": [
+            79
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3631
+          ],
+          "coordinates": [
+            634
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3694
+          ],
+          "coordinates": [
+            299
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3722
+          ],
+          "coordinates": [
+            441
+          ]
+        },
+        {
+          "direction": [
+            1,
+            3921
+          ],
+          "coordinates": [
+            845
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4032
+          ],
+          "coordinates": [
+            538
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4124
+          ],
+          "coordinates": [
+            280
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4134
+          ],
+          "coordinates": [
+            42
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4179
+          ],
+          "coordinates": [
+            752
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4280
+          ],
+          "coordinates": [
+            635
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4361
+          ],
+          "coordinates": [
+            643
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4406
+          ],
+          "coordinates": [
+            700
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4565
+          ],
+          "coordinates": [
+            659
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4729
+          ],
+          "coordinates": [
+            452
+          ]
+        },
+        {
+          "direction": [
+            1,
+            4862
+          ],
+          "coordinates": [
+            224
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5027
+          ],
+          "coordinates": [
+            827
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5164
+          ],
+          "coordinates": [
+            641
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5173
+          ],
+          "coordinates": [
+            883
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5187
+          ],
+          "coordinates": [
+            730
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5202
+          ],
+          "coordinates": [
+            315
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5245
+          ],
+          "coordinates": [
+            974
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5333
+          ],
+          "coordinates": [
+            544
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5377
+          ],
+          "coordinates": [
+            147
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5399
+          ],
+          "coordinates": [
+            751
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5513
+          ],
+          "coordinates": [
+            425
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5588
+          ],
+          "coordinates": [
+            1010
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5596
+          ],
+          "coordinates": [
+            304
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5597
+          ],
+          "coordinates": [
+            9
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5700
+          ],
+          "coordinates": [
+            514
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5821
+          ],
+          "coordinates": [
+            1011
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5839
+          ],
+          "coordinates": [
+            298
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5844
+          ],
+          "coordinates": [
+            301
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5856
+          ],
+          "coordinates": [
+            600
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5915
+          ],
+          "coordinates": [
+            252
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5994
+          ],
+          "coordinates": [
+            144
+          ]
+        },
+        {
+          "direction": [
+            1,
+            5996
+          ],
+          "coordinates": [
+            927
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6079
+          ],
+          "coordinates": [
+            778
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6107
+          ],
+          "coordinates": [
+            694
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6128
+          ],
+          "coordinates": [
+            862
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6226
+          ],
+          "coordinates": [
+            733
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6302
+          ],
+          "coordinates": [
+            714
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6403
+          ],
+          "coordinates": [
+            675
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6571
+          ],
+          "coordinates": [
+            870
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6629
+          ],
+          "coordinates": [
+            163
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6657
+          ],
+          "coordinates": [
+            281
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6725
+          ],
+          "coordinates": [
+            257
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6758
+          ],
+          "coordinates": [
+            303
+          ]
+        },
+        {
+          "direction": [
+            1,
+            6791
+          ],
+          "coordinates": [
+            60
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7079
+          ],
+          "coordinates": [
+            394
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7117
+          ],
+          "coordinates": [
+            497
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7222
+          ],
+          "coordinates": [
+            478
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7232
+          ],
+          "coordinates": [
+            914
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7266
+          ],
+          "coordinates": [
+            698
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7441
+          ],
+          "coordinates": [
+            113
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7495
+          ],
+          "coordinates": [
+            402
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7581
+          ],
+          "coordinates": [
+            453
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7658
+          ],
+          "coordinates": [
+            695
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7771
+          ],
+          "coordinates": [
+            582
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7786
+          ],
+          "coordinates": [
+            134
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7787
+          ],
+          "coordinates": [
+            16
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7808
+          ],
+          "coordinates": [
+            160
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7847
+          ],
+          "coordinates": [
+            718
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7873
+          ],
+          "coordinates": [
+            266
+          ]
+        },
+        {
+          "direction": [
+            1,
+            7881
+          ],
+          "coordinates": [
+            380
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8033
+          ],
+          "coordinates": [
+            565
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8097
+          ],
+          "coordinates": [
+            717
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8113
+          ],
+          "coordinates": [
+            253
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8244
+          ],
+          "coordinates": [
+            127
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8394
+          ],
+          "coordinates": [
+            43
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8454
+          ],
+          "coordinates": [
+            450
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8535
+          ],
+          "coordinates": [
+            585
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8592
+          ],
+          "coordinates": [
+            297
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8614
+          ],
+          "coordinates": [
+            8
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8665
+          ],
+          "coordinates": [
+            920
+          ]
+        },
+        {
+          "direction": [
+            1,
+            8799
+          ],
+          "coordinates": [
+            141
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9019
+          ],
+          "coordinates": [
+            708
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9119
+          ],
+          "coordinates": [
+            948
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9163
+          ],
+          "coordinates": [
+            74
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9184
+          ],
+          "coordinates": [
+            149
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9304
+          ],
+          "coordinates": [
+            720
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9439
+          ],
+          "coordinates": [
+            104
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9509
+          ],
+          "coordinates": [
+            364
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9510
+          ],
+          "coordinates": [
+            355
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9742
+          ],
+          "coordinates": [
+            679
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9752
+          ],
+          "coordinates": [
+            407
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9779
+          ],
+          "coordinates": [
+            680
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9887
+          ],
+          "coordinates": [
+            1008
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9891
+          ],
+          "coordinates": [
+            302
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9944
+          ],
+          "coordinates": [
+            906
+          ]
+        },
+        {
+          "direction": [
+            1,
+            9994
+          ],
+          "coordinates": [
+            162
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10115
+          ],
+          "coordinates": [
+            262
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10162
+          ],
+          "coordinates": [
+            723
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10209
+          ],
+          "coordinates": [
+            393
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10393
+          ],
+          "coordinates": [
+            876
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10488
+          ],
+          "coordinates": [
+            551
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10535
+          ],
+          "coordinates": [
+            512
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10576
+          ],
+          "coordinates": [
+            564
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10753
+          ],
+          "coordinates": [
+            515
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10963
+          ],
+          "coordinates": [
+            689
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10965
+          ],
+          "coordinates": [
+            879
+          ]
+        },
+        {
+          "direction": [
+            1,
+            10977
+          ],
+          "coordinates": [
+            24
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11046
+          ],
+          "coordinates": [
+            123
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11073
+          ],
+          "coordinates": [
+            632
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11113
+          ],
+          "coordinates": [
+            389
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11153
+          ],
+          "coordinates": [
+            295
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11155
+          ],
+          "coordinates": [
+            772
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11182
+          ],
+          "coordinates": [
+            864
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11246
+          ],
+          "coordinates": [
+            518
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11287
+          ],
+          "coordinates": [
+            788
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11317
+          ],
+          "coordinates": [
+            599
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11476
+          ],
+          "coordinates": [
+            216
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11484
+          ],
+          "coordinates": [
+            525
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11514
+          ],
+          "coordinates": [
+            606
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11552
+          ],
+          "coordinates": [
+            878
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11667
+          ],
+          "coordinates": [
+            333
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11856
+          ],
+          "coordinates": [
+            75
+          ]
+        },
+        {
+          "direction": [
+            1,
+            11960
+          ],
+          "coordinates": [
+            532
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12080
+          ],
+          "coordinates": [
+            656
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12110
+          ],
+          "coordinates": [
+            776
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12310
+          ],
+          "coordinates": [
+            658
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12391
+          ],
+          "coordinates": [
+            902
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12492
+          ],
+          "coordinates": [
+            331
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12508
+          ],
+          "coordinates": [
+            101
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12526
+          ],
+          "coordinates": [
+            300
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12544
+          ],
+          "coordinates": [
+            820
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12577
+          ],
+          "coordinates": [
+            898
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12617
+          ],
+          "coordinates": [
+            809
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12651
+          ],
+          "coordinates": [
+            605
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12656
+          ],
+          "coordinates": [
+            930
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12709
+          ],
+          "coordinates": [
+            319
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12746
+          ],
+          "coordinates": [
+            655
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12771
+          ],
+          "coordinates": [
+            38
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12845
+          ],
+          "coordinates": [
+            296
+          ]
+        },
+        {
+          "direction": [
+            1,
+            12943
+          ],
+          "coordinates": [
+            929
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13018
+          ],
+          "coordinates": [
+            539
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13030
+          ],
+          "coordinates": [
+            494
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13054
+          ],
+          "coordinates": [
+            955
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13063
+          ],
+          "coordinates": [
+            916
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13064
+          ],
+          "coordinates": [
+            7
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13070
+          ],
+          "coordinates": [
+            81
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13079
+          ],
+          "coordinates": [
+            631
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13115
+          ],
+          "coordinates": [
+            621
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13126
+          ],
+          "coordinates": [
+            982
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13202
+          ],
+          "coordinates": [
+            507
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13224
+          ],
+          "coordinates": [
+            768
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13322
+          ],
+          "coordinates": [
+            617
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13337
+          ],
+          "coordinates": [
+            880
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13343
+          ],
+          "coordinates": [
+            78
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13382
+          ],
+          "coordinates": [
+            455
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13441
+          ],
+          "coordinates": [
+            919
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13453
+          ],
+          "coordinates": [
+            439
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13477
+          ],
+          "coordinates": [
+            654
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13525
+          ],
+          "coordinates": [
+            405
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13537
+          ],
+          "coordinates": [
+            176
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13647
+          ],
+          "coordinates": [
+            980
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13689
+          ],
+          "coordinates": [
+            165
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13769
+          ],
+          "coordinates": [
+            358
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13911
+          ],
+          "coordinates": [
+            279
+          ]
+        },
+        {
+          "direction": [
+            1,
+            13964
+          ],
+          "coordinates": [
+            732
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14068
+          ],
+          "coordinates": [
+            806
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14106
+          ],
+          "coordinates": [
+            228
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14111
+          ],
+          "coordinates": [
+            357
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14180
+          ],
+          "coordinates": [
+            409
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14616
+          ],
+          "coordinates": [
+            598
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14740
+          ],
+          "coordinates": [
+            86
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14869
+          ],
+          "coordinates": [
+            746
+          ]
+        },
+        {
+          "direction": [
+            1,
+            14905
+          ],
+          "coordinates": [
+            610
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15008
+          ],
+          "coordinates": [
+            359
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15024
+          ],
+          "coordinates": [
+            775
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15137
+          ],
+          "coordinates": [
+            202
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15209
+          ],
+          "coordinates": [
+            440
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15264
+          ],
+          "coordinates": [
+            960
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15367
+          ],
+          "coordinates": [
+            819
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15458
+          ],
+          "coordinates": [
+            996
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15501
+          ],
+          "coordinates": [
+            985
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15502
+          ],
+          "coordinates": [
+            987
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15536
+          ],
+          "coordinates": [
+            240
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15602
+          ],
+          "coordinates": [
+            692
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15638
+          ],
+          "coordinates": [
+            1023
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15649
+          ],
+          "coordinates": [
+            998
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15728
+          ],
+          "coordinates": [
+            250
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15873
+          ],
+          "coordinates": [
+            498
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15874
+          ],
+          "coordinates": [
+            837
+          ]
+        },
+        {
+          "direction": [
+            1,
+            15917
+          ],
+          "coordinates": [
+            874
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16054
+          ],
+          "coordinates": [
+            952
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16071
+          ],
+          "coordinates": [
+            602
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16078
+          ],
+          "coordinates": [
+            615
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16136
+          ],
+          "coordinates": [
+            815
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16138
+          ],
+          "coordinates": [
+            182
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16164
+          ],
+          "coordinates": [
+            481
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16264
+          ],
+          "coordinates": [
+            172
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16333
+          ],
+          "coordinates": [
+            911
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16433
+          ],
+          "coordinates": [
+            652
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16464
+          ],
+          "coordinates": [
+            579
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16525
+          ],
+          "coordinates": [
+            222
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16552
+          ],
+          "coordinates": [
+            719
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16650
+          ],
+          "coordinates": [
+            422
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16652
+          ],
+          "coordinates": [
+            277
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16666
+          ],
+          "coordinates": [
+            884
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16723
+          ],
+          "coordinates": [
+            724
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16780
+          ],
+          "coordinates": [
+            995
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16835
+          ],
+          "coordinates": [
+            247
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16844
+          ],
+          "coordinates": [
+            379
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16858
+          ],
+          "coordinates": [
+            327
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16867
+          ],
+          "coordinates": [
+            728
+          ]
+        },
+        {
+          "direction": [
+            1,
+            16894
+          ],
+          "coordinates": [
+            139
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17014
+          ],
+          "coordinates": [
+            857
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17037
+          ],
+          "coordinates": [
+            895
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17144
+          ],
+          "coordinates": [
+            458
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17148
+          ],
+          "coordinates": [
+            105
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17162
+          ],
+          "coordinates": [
+            87
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17200
+          ],
+          "coordinates": [
+            492
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17243
+          ],
+          "coordinates": [
+            690
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17262
+          ],
+          "coordinates": [
+            704
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17298
+          ],
+          "coordinates": [
+            30
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17489
+          ],
+          "coordinates": [
+            400
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17693
+          ],
+          "coordinates": [
+            152
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17698
+          ],
+          "coordinates": [
+            323
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17723
+          ],
+          "coordinates": [
+            549
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17742
+          ],
+          "coordinates": [
+            583
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17855
+          ],
+          "coordinates": [
+            901
+          ]
+        },
+        {
+          "direction": [
+            1,
+            17874
+          ],
+          "coordinates": [
+            44
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18106
+          ],
+          "coordinates": [
+            261
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18211
+          ],
+          "coordinates": [
+            1019
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18322
+          ],
+          "coordinates": [
+            839
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18337
+          ],
+          "coordinates": [
+            432
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18350
+          ],
+          "coordinates": [
+            779
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18429
+          ],
+          "coordinates": [
+            374
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18505
+          ],
+          "coordinates": [
+            784
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18517
+          ],
+          "coordinates": [
+            1003
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18689
+          ],
+          "coordinates": [
+            410
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18768
+          ],
+          "coordinates": [
+            1005
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18901
+          ],
+          "coordinates": [
+            196
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18925
+          ],
+          "coordinates": [
+            1009
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18940
+          ],
+          "coordinates": [
+            5
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18953
+          ],
+          "coordinates": [
+            398
+          ]
+        },
+        {
+          "direction": [
+            1,
+            18974
+          ],
+          "coordinates": [
+            184
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19100
+          ],
+          "coordinates": [
+            939
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19122
+          ],
+          "coordinates": [
+            757
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19125
+          ],
+          "coordinates": [
+            378
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19456
+          ],
+          "coordinates": [
+            444
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19574
+          ],
+          "coordinates": [
+            306
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19603
+          ],
+          "coordinates": [
+            646
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19619
+          ],
+          "coordinates": [
+            92
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19736
+          ],
+          "coordinates": [
+            1014
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19738
+          ],
+          "coordinates": [
+            989
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19776
+          ],
+          "coordinates": [
+            941
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19811
+          ],
+          "coordinates": [
+            859
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19828
+          ],
+          "coordinates": [
+            563
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19834
+          ],
+          "coordinates": [
+            601
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19864
+          ],
+          "coordinates": [
+            983
+          ]
+        },
+        {
+          "direction": [
+            1,
+            19910
+          ],
+          "coordinates": [
+            57
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20027
+          ],
+          "coordinates": [
+            496
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20111
+          ],
+          "coordinates": [
+            536
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20463
+          ],
+          "coordinates": [
+            227
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20513
+          ],
+          "coordinates": [
+            741
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20578
+          ],
+          "coordinates": [
+            14
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20599
+          ],
+          "coordinates": [
+            324
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20650
+          ],
+          "coordinates": [
+            887
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20668
+          ],
+          "coordinates": [
+            567
+          ]
+        },
+        {
+          "direction": [
+            1,
+            20919
+          ],
+          "coordinates": [
+            810
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21139
+          ],
+          "coordinates": [
+            761
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21170
+          ],
+          "coordinates": [
+            786
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21186
+          ],
+          "coordinates": [
+            938
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21229
+          ],
+          "coordinates": [
+            774
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21243
+          ],
+          "coordinates": [
+            464
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21314
+          ],
+          "coordinates": [
+            41
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21420
+          ],
+          "coordinates": [
+            1016
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21430
+          ],
+          "coordinates": [
+            709
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21444
+          ],
+          "coordinates": [
+            466
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21653
+          ],
+          "coordinates": [
+            808
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21701
+          ],
+          "coordinates": [
+            438
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21710
+          ],
+          "coordinates": [
+            764
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21723
+          ],
+          "coordinates": [
+            1004
+          ]
+        },
+        {
+          "direction": [
+            1,
+            21977
+          ],
+          "coordinates": [
+            619
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22040
+          ],
+          "coordinates": [
+            762
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22141
+          ],
+          "coordinates": [
+            156
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22196
+          ],
+          "coordinates": [
+            624
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22279
+          ],
+          "coordinates": [
+            345
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22305
+          ],
+          "coordinates": [
+            813
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22384
+          ],
+          "coordinates": [
+            344
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22532
+          ],
+          "coordinates": [
+            666
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22685
+          ],
+          "coordinates": [
+            910
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22710
+          ],
+          "coordinates": [
+            773
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22785
+          ],
+          "coordinates": [
+            238
+          ]
+        },
+        {
+          "direction": [
+            1,
+            22925
+          ],
+          "coordinates": [
+            722
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23012
+          ],
+          "coordinates": [
+            276
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23025
+          ],
+          "coordinates": [
+            287
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23040
+          ],
+          "coordinates": [
+            361
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23090
+          ],
+          "coordinates": [
+            687
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23101
+          ],
+          "coordinates": [
+            436
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23182
+          ],
+          "coordinates": [
+            994
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23185
+          ],
+          "coordinates": [
+            128
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23270
+          ],
+          "coordinates": [
+            840
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23310
+          ],
+          "coordinates": [
+            249
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23345
+          ],
+          "coordinates": [
+            6
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23414
+          ],
+          "coordinates": [
+            207
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23466
+          ],
+          "coordinates": [
+            949
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23483
+          ],
+          "coordinates": [
+            816
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23505
+          ],
+          "coordinates": [
+            572
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23554
+          ],
+          "coordinates": [
+            1007
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23639
+          ],
+          "coordinates": [
+            146
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23745
+          ],
+          "coordinates": [
+            516
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23843
+          ],
+          "coordinates": [
+            766
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23935
+          ],
+          "coordinates": [
+            972
+          ]
+        },
+        {
+          "direction": [
+            1,
+            23994
+          ],
+          "coordinates": [
+            885
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24041
+          ],
+          "coordinates": [
+            137
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24079
+          ],
+          "coordinates": [
+            370
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24161
+          ],
+          "coordinates": [
+            19
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24391
+          ],
+          "coordinates": [
+            445
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24443
+          ],
+          "coordinates": [
+            412
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24515
+          ],
+          "coordinates": [
+            148
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24534
+          ],
+          "coordinates": [
+            715
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24543
+          ],
+          "coordinates": [
+            669
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24552
+          ],
+          "coordinates": [
+            763
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24578
+          ],
+          "coordinates": [
+            956
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24591
+          ],
+          "coordinates": [
+            208
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24604
+          ],
+          "coordinates": [
+            854
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24755
+          ],
+          "coordinates": [
+            569
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24791
+          ],
+          "coordinates": [
+            861
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24835
+          ],
+          "coordinates": [
+            142
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24942
+          ],
+          "coordinates": [
+            707
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24980
+          ],
+          "coordinates": [
+            921
+          ]
+        },
+        {
+          "direction": [
+            1,
+            24999
+          ],
+          "coordinates": [
+            443
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25019
+          ],
+          "coordinates": [
+            584
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25113
+          ],
+          "coordinates": [
+            946
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25123
+          ],
+          "coordinates": [
+            872
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25133
+          ],
+          "coordinates": [
+            562
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25200
+          ],
+          "coordinates": [
+            255
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25205
+          ],
+          "coordinates": [
+            897
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25281
+          ],
+          "coordinates": [
+            372
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25310
+          ],
+          "coordinates": [
+            510
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25412
+          ],
+          "coordinates": [
+            923
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25471
+          ],
+          "coordinates": [
+            96
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25581
+          ],
+          "coordinates": [
+            88
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25786
+          ],
+          "coordinates": [
+            833
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25827
+          ],
+          "coordinates": [
+            403
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25919
+          ],
+          "coordinates": [
+            417
+          ]
+        },
+        {
+          "direction": [
+            1,
+            25952
+          ],
+          "coordinates": [
+            673
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26078
+          ],
+          "coordinates": [
+            875
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26175
+          ],
+          "coordinates": [
+            555
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26334
+          ],
+          "coordinates": [
+            528
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26464
+          ],
+          "coordinates": [
+            1001
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26543
+          ],
+          "coordinates": [
+            931
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26558
+          ],
+          "coordinates": [
+            268
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26611
+          ],
+          "coordinates": [
+            349
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26642
+          ],
+          "coordinates": [
+            521
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26677
+          ],
+          "coordinates": [
+            82
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26753
+          ],
+          "coordinates": [
+            363
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26801
+          ],
+          "coordinates": [
+            586
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26846
+          ],
+          "coordinates": [
+            754
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26864
+          ],
+          "coordinates": [
+            462
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26878
+          ],
+          "coordinates": [
+            541
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26917
+          ],
+          "coordinates": [
+            426
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26934
+          ],
+          "coordinates": [
+            264
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26937
+          ],
+          "coordinates": [
+            143
+          ]
+        },
+        {
+          "direction": [
+            1,
+            26977
+          ],
+          "coordinates": [
+            932
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27058
+          ],
+          "coordinates": [
+            881
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27079
+          ],
+          "coordinates": [
+            282
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27252
+          ],
+          "coordinates": [
+            657
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27392
+          ],
+          "coordinates": [
+            508
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27409
+          ],
+          "coordinates": [
+            736
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27603
+          ],
+          "coordinates": [
+            711
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27709
+          ],
+          "coordinates": [
+            77
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27753
+          ],
+          "coordinates": [
+            121
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27766
+          ],
+          "coordinates": [
+            618
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27783
+          ],
+          "coordinates": [
+            944
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27793
+          ],
+          "coordinates": [
+            571
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27882
+          ],
+          "coordinates": [
+            47
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27892
+          ],
+          "coordinates": [
+            218
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27898
+          ],
+          "coordinates": [
+            1021
+          ]
+        },
+        {
+          "direction": [
+            1,
+            27950
+          ],
+          "coordinates": [
+            291
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28123
+          ],
+          "coordinates": [
+            573
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28128
+          ],
+          "coordinates": [
+            574
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28156
+          ],
+          "coordinates": [
+            320
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28197
+          ],
+          "coordinates": [
+            650
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28214
+          ],
+          "coordinates": [
+            194
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28229
+          ],
+          "coordinates": [
+            177
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28236
+          ],
+          "coordinates": [
+            509
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28268
+          ],
+          "coordinates": [
+            71
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28353
+          ],
+          "coordinates": [
+            665
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28408
+          ],
+          "coordinates": [
+            755
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28536
+          ],
+          "coordinates": [
+            189
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28546
+          ],
+          "coordinates": [
+            95
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28587
+          ],
+          "coordinates": [
+            699
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28736
+          ],
+          "coordinates": [
+            648
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28741
+          ],
+          "coordinates": [
+            98
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28761
+          ],
+          "coordinates": [
+            596
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28765
+          ],
+          "coordinates": [
+            542
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28829
+          ],
+          "coordinates": [
+            375
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28857
+          ],
+          "coordinates": [
+            326
+          ]
+        },
+        {
+          "direction": [
+            1,
+            28922
+          ],
+          "coordinates": [
+            743
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29059
+          ],
+          "coordinates": [
+            633
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29095
+          ],
+          "coordinates": [
+            1006
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29140
+          ],
+          "coordinates": [
+            406
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29215
+          ],
+          "coordinates": [
+            745
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29376
+          ],
+          "coordinates": [
+            716
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29475
+          ],
+          "coordinates": [
+            686
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29531
+          ],
+          "coordinates": [
+            491
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29757
+          ],
+          "coordinates": [
+            616
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29789
+          ],
+          "coordinates": [
+            753
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29899
+          ],
+          "coordinates": [
+            91
+          ]
+        },
+        {
+          "direction": [
+            1,
+            29975
+          ],
+          "coordinates": [
+            283
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30162
+          ],
+          "coordinates": [
+            947
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30343
+          ],
+          "coordinates": [
+            965
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30463
+          ],
+          "coordinates": [
+            968
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30495
+          ],
+          "coordinates": [
+            490
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30498
+          ],
+          "coordinates": [
+            254
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30533
+          ],
+          "coordinates": [
+            814
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30545
+          ],
+          "coordinates": [
+            489
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30561
+          ],
+          "coordinates": [
+            991
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30562
+          ],
+          "coordinates": [
+            682
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30611
+          ],
+          "coordinates": [
+            116
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30659
+          ],
+          "coordinates": [
+            65
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30727
+          ],
+          "coordinates": [
+            351
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30755
+          ],
+          "coordinates": [
+            593
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30770
+          ],
+          "coordinates": [
+            967
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30809
+          ],
+          "coordinates": [
+            83
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30832
+          ],
+          "coordinates": [
+            469
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30852
+          ],
+          "coordinates": [
+            321
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30947
+          ],
+          "coordinates": [
+            58
+          ]
+        },
+        {
+          "direction": [
+            1,
+            30958
+          ],
+          "coordinates": [
+            456
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31064
+          ],
+          "coordinates": [
+            710
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31094
+          ],
+          "coordinates": [
+            758
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31107
+          ],
+          "coordinates": [
+            877
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31139
+          ],
+          "coordinates": [
+            667
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31310
+          ],
+          "coordinates": [
+            421
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31361
+          ],
+          "coordinates": [
+            493
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31363
+          ],
+          "coordinates": [
+            783
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31411
+          ],
+          "coordinates": [
+            737
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31505
+          ],
+          "coordinates": [
+            404
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31507
+          ],
+          "coordinates": [
+            477
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31626
+          ],
+          "coordinates": [
+            747
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31656
+          ],
+          "coordinates": [
+            411
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31674
+          ],
+          "coordinates": [
+            981
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31786
+          ],
+          "coordinates": [
+            18
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31815
+          ],
+          "coordinates": [
+            244
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31912
+          ],
+          "coordinates": [
+            381
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31947
+          ],
+          "coordinates": [
+            117
+          ]
+        },
+        {
+          "direction": [
+            1,
+            31951
+          ],
+          "coordinates": [
+            594
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32057
+          ],
+          "coordinates": [
+            832
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32087
+          ],
+          "coordinates": [
+            869
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32167
+          ],
+          "coordinates": [
+            734
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32190
+          ],
+          "coordinates": [
+            863
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32212
+          ],
+          "coordinates": [
+            205
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32299
+          ],
+          "coordinates": [
+            258
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32321
+          ],
+          "coordinates": [
+            188
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32343
+          ],
+          "coordinates": [
+            685
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32351
+          ],
+          "coordinates": [
+            642
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32417
+          ],
+          "coordinates": [
+            589
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32437
+          ],
+          "coordinates": [
+            976
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32513
+          ],
+          "coordinates": [
+            448
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32647
+          ],
+          "coordinates": [
+            770
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32737
+          ],
+          "coordinates": [
+            543
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32753
+          ],
+          "coordinates": [
+            499
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32851
+          ],
+          "coordinates": [
+            842
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32864
+          ],
+          "coordinates": [
+            527
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32868
+          ],
+          "coordinates": [
+            535
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32881
+          ],
+          "coordinates": [
+            230
+          ]
+        },
+        {
+          "direction": [
+            1,
+            32950
+          ],
+          "coordinates": [
+            804
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33030
+          ],
+          "coordinates": [
+            644
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33071
+          ],
+          "coordinates": [
+            744
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33119
+          ],
+          "coordinates": [
+            552
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33168
+          ],
+          "coordinates": [
+            292
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33228
+          ],
+          "coordinates": [
+            505
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33255
+          ],
+          "coordinates": [
+            309
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33668
+          ],
+          "coordinates": [
+            199
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33770
+          ],
+          "coordinates": [
+            226
+          ]
+        },
+        {
+          "direction": [
+            1,
+            33835
+          ],
+          "coordinates": [
+            613
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34228
+          ],
+          "coordinates": [
+            847
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34257
+          ],
+          "coordinates": [
+            232
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34273
+          ],
+          "coordinates": [
+            1017
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34282
+          ],
+          "coordinates": [
+            347
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34292
+          ],
+          "coordinates": [
+            140
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34302
+          ],
+          "coordinates": [
+            39
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34366
+          ],
+          "coordinates": [
+            335
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34404
+          ],
+          "coordinates": [
+            893
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34470
+          ],
+          "coordinates": [
+            109
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34516
+          ],
+          "coordinates": [
+            66
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34729
+          ],
+          "coordinates": [
+            470
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34852
+          ],
+          "coordinates": [
+            790
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34939
+          ],
+          "coordinates": [
+            26
+          ]
+        },
+        {
+          "direction": [
+            1,
+            34983
+          ],
+          "coordinates": [
+            951
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35078
+          ],
+          "coordinates": [
+            151
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35137
+          ],
+          "coordinates": [
+            223
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35138
+          ],
+          "coordinates": [
+            575
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35179
+          ],
+          "coordinates": [
+            576
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35198
+          ],
+          "coordinates": [
+            750
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35231
+          ],
+          "coordinates": [
+            662
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35235
+          ],
+          "coordinates": [
+            48
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35289
+          ],
+          "coordinates": [
+            94
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35326
+          ],
+          "coordinates": [
+            973
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35504
+          ],
+          "coordinates": [
+            807
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35579
+          ],
+          "coordinates": [
+            21
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35604
+          ],
+          "coordinates": [
+            212
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35704
+          ],
+          "coordinates": [
+            153
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35792
+          ],
+          "coordinates": [
+            231
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35882
+          ],
+          "coordinates": [
+            93
+          ]
+        },
+        {
+          "direction": [
+            1,
+            35899
+          ],
+          "coordinates": [
+            978
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36037
+          ],
+          "coordinates": [
+            849
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36047
+          ],
+          "coordinates": [
+            590
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36108
+          ],
+          "coordinates": [
+            912
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36110
+          ],
+          "coordinates": [
+            765
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36115
+          ],
+          "coordinates": [
+            905
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36377
+          ],
+          "coordinates": [
+            522
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36398
+          ],
+          "coordinates": [
+            154
+          ]
+        },
+        {
+          "direction": [
+            1,
+            36683
+          ],
+          "coordinates": [
+            756
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37102
+          ],
+          "coordinates": [
+            133
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37114
+          ],
+          "coordinates": [
+            473
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37170
+          ],
+          "coordinates": [
+            132
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37182
+          ],
+          "coordinates": [
+            796
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37192
+          ],
+          "coordinates": [
+            429
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37354
+          ],
+          "coordinates": [
+            504
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37466
+          ],
+          "coordinates": [
+            578
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37491
+          ],
+          "coordinates": [
+            354
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37547
+          ],
+          "coordinates": [
+            760
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37562
+          ],
+          "coordinates": [
+            476
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37563
+          ],
+          "coordinates": [
+            934
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37633
+          ],
+          "coordinates": [
+            639
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37726
+          ],
+          "coordinates": [
+            46
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37744
+          ],
+          "coordinates": [
+            924
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37775
+          ],
+          "coordinates": [
+            848
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37788
+          ],
+          "coordinates": [
+            892
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37810
+          ],
+          "coordinates": [
+            119
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37847
+          ],
+          "coordinates": [
+            56
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37894
+          ],
+          "coordinates": [
+            474
+          ]
+        },
+        {
+          "direction": [
+            1,
+            37971
+          ],
+          "coordinates": [
+            161
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38008
+          ],
+          "coordinates": [
+            55
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38078
+          ],
+          "coordinates": [
+            935
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38163
+          ],
+          "coordinates": [
+            688
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38175
+          ],
+          "coordinates": [
+            802
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38225
+          ],
+          "coordinates": [
+            451
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38283
+          ],
+          "coordinates": [
+            629
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38325
+          ],
+          "coordinates": [
+            500
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38333
+          ],
+          "coordinates": [
+            838
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38382
+          ],
+          "coordinates": [
+            651
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38437
+          ],
+          "coordinates": [
+            868
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38578
+          ],
+          "coordinates": [
+            310
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38699
+          ],
+          "coordinates": [
+            468
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38850
+          ],
+          "coordinates": [
+            313
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38851
+          ],
+          "coordinates": [
+            726
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38860
+          ],
+          "coordinates": [
+            316
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38880
+          ],
+          "coordinates": [
+            214
+          ]
+        },
+        {
+          "direction": [
+            1,
+            38887
+          ],
+          "coordinates": [
+            52
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39225
+          ],
+          "coordinates": [
+            553
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39318
+          ],
+          "coordinates": [
+            970
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39332
+          ],
+          "coordinates": [
+            396
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39350
+          ],
+          "coordinates": [
+            540
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39380
+          ],
+          "coordinates": [
+            725
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39474
+          ],
+          "coordinates": [
+            517
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39507
+          ],
+          "coordinates": [
+            958
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39590
+          ],
+          "coordinates": [
+            85
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39629
+          ],
+          "coordinates": [
+            992
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39678
+          ],
+          "coordinates": [
+            122
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39712
+          ],
+          "coordinates": [
+            558
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39734
+          ],
+          "coordinates": [
+            488
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39747
+          ],
+          "coordinates": [
+            817
+          ]
+        },
+        {
+          "direction": [
+            1,
+            39815
+          ],
+          "coordinates": [
+            159
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40032
+          ],
+          "coordinates": [
+            54
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40063
+          ],
+          "coordinates": [
+            513
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40091
+          ],
+          "coordinates": [
+            826
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40189
+          ],
+          "coordinates": [
+            988
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40206
+          ],
+          "coordinates": [
+            294
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40238
+          ],
+          "coordinates": [
+            259
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40304
+          ],
+          "coordinates": [
+            649
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40314
+          ],
+          "coordinates": [
+            479
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40346
+          ],
+          "coordinates": [
+            386
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40372
+          ],
+          "coordinates": [
+            969
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40434
+          ],
+          "coordinates": [
+            483
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40476
+          ],
+          "coordinates": [
+            559
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40509
+          ],
+          "coordinates": [
+            626
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40570
+          ],
+          "coordinates": [
+            274
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40981
+          ],
+          "coordinates": [
+            886
+          ]
+        },
+        {
+          "direction": [
+            1,
+            40996
+          ],
+          "coordinates": [
+            179
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41001
+          ],
+          "coordinates": [
+            368
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41056
+          ],
+          "coordinates": [
+            953
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41058
+          ],
+          "coordinates": [
+            581
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41093
+          ],
+          "coordinates": [
+            611
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41107
+          ],
+          "coordinates": [
+            975
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41180
+          ],
+          "coordinates": [
+            520
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41257
+          ],
+          "coordinates": [
+            480
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41279
+          ],
+          "coordinates": [
+            735
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41388
+          ],
+          "coordinates": [
+            595
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41541
+          ],
+          "coordinates": [
+            181
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41548
+          ],
+          "coordinates": [
+            112
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41554
+          ],
+          "coordinates": [
+            523
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41608
+          ],
+          "coordinates": [
+            90
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41651
+          ],
+          "coordinates": [
+            471
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41761
+          ],
+          "coordinates": [
+            858
+          ]
+        },
+        {
+          "direction": [
+            1,
+            41827
+          ],
+          "coordinates": [
+            68
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42228
+          ],
+          "coordinates": [
+            107
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42254
+          ],
+          "coordinates": [
+            999
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42261
+          ],
+          "coordinates": [
+            888
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42298
+          ],
+          "coordinates": [
+            289
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42416
+          ],
+          "coordinates": [
+            691
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42503
+          ],
+          "coordinates": [
+            423
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42561
+          ],
+          "coordinates": [
+            20
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42573
+          ],
+          "coordinates": [
+            986
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42601
+          ],
+          "coordinates": [
+            789
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42636
+          ],
+          "coordinates": [
+            23
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42736
+          ],
+          "coordinates": [
+            942
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42846
+          ],
+          "coordinates": [
+            957
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42864
+          ],
+          "coordinates": [
+            210
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42878
+          ],
+          "coordinates": [
+            36
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42890
+          ],
+          "coordinates": [
+            984
+          ]
+        },
+        {
+          "direction": [
+            1,
+            42957
+          ],
+          "coordinates": [
+            395
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43020
+          ],
+          "coordinates": [
+            390
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43029
+          ],
+          "coordinates": [
+            603
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43122
+          ],
+          "coordinates": [
+            285
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43180
+          ],
+          "coordinates": [
+            767
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43247
+          ],
+          "coordinates": [
+            628
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43265
+          ],
+          "coordinates": [
+            12
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43322
+          ],
+          "coordinates": [
+            622
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43343
+          ],
+          "coordinates": [
+            580
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43407
+          ],
+          "coordinates": [
+            993
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43573
+          ],
+          "coordinates": [
+            597
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43574
+          ],
+          "coordinates": [
+            501
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43601
+          ],
+          "coordinates": [
+            638
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43647
+          ],
+          "coordinates": [
+            865
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43707
+          ],
+          "coordinates": [
+            856
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43773
+          ],
+          "coordinates": [
+            928
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43918
+          ],
+          "coordinates": [
+            269
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43922
+          ],
+          "coordinates": [
+            33
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43928
+          ],
+          "coordinates": [
+            242
+          ]
+        },
+        {
+          "direction": [
+            1,
+            43952
+          ],
+          "coordinates": [
+            217
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44008
+          ],
+          "coordinates": [
+            72
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44256
+          ],
+          "coordinates": [
+            237
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44334
+          ],
+          "coordinates": [
+            769
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44381
+          ],
+          "coordinates": [
+            851
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44417
+          ],
+          "coordinates": [
+            366
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44477
+          ],
+          "coordinates": [
+            408
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44620
+          ],
+          "coordinates": [
+            99
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44672
+          ],
+          "coordinates": [
+            653
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44693
+          ],
+          "coordinates": [
+            943
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44814
+          ],
+          "coordinates": [
+            683
+          ]
+        },
+        {
+          "direction": [
+            1,
+            44842
+          ],
+          "coordinates": [
+            461
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45084
+          ],
+          "coordinates": [
+            243
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45155
+          ],
+          "coordinates": [
+            120
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45215
+          ],
+          "coordinates": [
+            256
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45294
+          ],
+          "coordinates": [
+            4
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45508
+          ],
+          "coordinates": [
+            399
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45601
+          ],
+          "coordinates": [
+            640
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45709
+          ],
+          "coordinates": [
+            482
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45743
+          ],
+          "coordinates": [
+            623
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45800
+          ],
+          "coordinates": [
+            342
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45849
+          ],
+          "coordinates": [
+            418
+          ]
+        },
+        {
+          "direction": [
+            1,
+            45944
+          ],
+          "coordinates": [
+            263
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46057
+          ],
+          "coordinates": [
+            260
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46063
+          ],
+          "coordinates": [
+            338
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46151
+          ],
+          "coordinates": [
+            219
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46154
+          ],
+          "coordinates": [
+            677
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46307
+          ],
+          "coordinates": [
+            904
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46319
+          ],
+          "coordinates": [
+            940
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46406
+          ],
+          "coordinates": [
+            376
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46427
+          ],
+          "coordinates": [
+            545
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46464
+          ],
+          "coordinates": [
+            713
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46614
+          ],
+          "coordinates": [
+            502
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46622
+          ],
+          "coordinates": [
+            312
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46627
+          ],
+          "coordinates": [
+            328
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46779
+          ],
+          "coordinates": [
+            729
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46931
+          ],
+          "coordinates": [
+            702
+          ]
+        },
+        {
+          "direction": [
+            1,
+            46953
+          ],
+          "coordinates": [
+            229
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47023
+          ],
+          "coordinates": [
+            738
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47045
+          ],
+          "coordinates": [
+            1022
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47105
+          ],
+          "coordinates": [
+            661
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47131
+          ],
+          "coordinates": [
+            325
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47142
+          ],
+          "coordinates": [
+            332
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47176
+          ],
+          "coordinates": [
+            1
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47226
+          ],
+          "coordinates": [
+            836
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47248
+          ],
+          "coordinates": [
+            3
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47367
+          ],
+          "coordinates": [
+            115
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47450
+          ],
+          "coordinates": [
+            570
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47485
+          ],
+          "coordinates": [
+            557
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47509
+          ],
+          "coordinates": [
+            486
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47545
+          ],
+          "coordinates": [
+            777
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47702
+          ],
+          "coordinates": [
+            73
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47787
+          ],
+          "coordinates": [
+            382
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47798
+          ],
+          "coordinates": [
+            59
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47807
+          ],
+          "coordinates": [
+            818
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47810
+          ],
+          "coordinates": [
+            913
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47853
+          ],
+          "coordinates": [
+            209
+          ]
+        },
+        {
+          "direction": [
+            1,
+            47965
+          ],
+          "coordinates": [
+            867
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48085
+          ],
+          "coordinates": [
+            918
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48194
+          ],
+          "coordinates": [
+            191
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48283
+          ],
+          "coordinates": [
+            106
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48347
+          ],
+          "coordinates": [
+            110
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48381
+          ],
+          "coordinates": [
+            356
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48411
+          ],
+          "coordinates": [
+            1020
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48483
+          ],
+          "coordinates": [
+            67
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48540
+          ],
+          "coordinates": [
+            311
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48792
+          ],
+          "coordinates": [
+            413
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48837
+          ],
+          "coordinates": [
+            28
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48849
+          ],
+          "coordinates": [
+            614
+          ]
+        },
+        {
+          "direction": [
+            1,
+            48867
+          ],
+          "coordinates": [
+            427
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49009
+          ],
+          "coordinates": [
+            780
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49057
+          ],
+          "coordinates": [
+            748
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49127
+          ],
+          "coordinates": [
+            118
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49138
+          ],
+          "coordinates": [
+            29
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49180
+          ],
+          "coordinates": [
+            178
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49235
+          ],
+          "coordinates": [
+            495
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49253
+          ],
+          "coordinates": [
+            795
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49302
+          ],
+          "coordinates": [
+            125
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49318
+          ],
+          "coordinates": [
+            334
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49341
+          ],
+          "coordinates": [
+            183
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49375
+          ],
+          "coordinates": [
+            487
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49439
+          ],
+          "coordinates": [
+            609
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49471
+          ],
+          "coordinates": [
+            108
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49522
+          ],
+          "coordinates": [
+            360
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49532
+          ],
+          "coordinates": [
+            693
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49536
+          ],
+          "coordinates": [
+            676
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49563
+          ],
+          "coordinates": [
+            198
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49771
+          ],
+          "coordinates": [
+            697
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49840
+          ],
+          "coordinates": [
+            428
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49887
+          ],
+          "coordinates": [
+            882
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49936
+          ],
+          "coordinates": [
+            174
+          ]
+        },
+        {
+          "direction": [
+            1,
+            49969
+          ],
+          "coordinates": [
+            721
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50019
+          ],
+          "coordinates": [
+            431
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50106
+          ],
+          "coordinates": [
+            531
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50141
+          ],
+          "coordinates": [
+            962
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50204
+          ],
+          "coordinates": [
+            625
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50274
+          ],
+          "coordinates": [
+            785
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50278
+          ],
+          "coordinates": [
+            825
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50280
+          ],
+          "coordinates": [
+            889
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50353
+          ],
+          "coordinates": [
+            873
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50441
+          ],
+          "coordinates": [
+            186
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50617
+          ],
+          "coordinates": [
+            963
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50640
+          ],
+          "coordinates": [
+            503
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50734
+          ],
+          "coordinates": [
+            215
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50930
+          ],
+          "coordinates": [
+            170
+          ]
+        },
+        {
+          "direction": [
+            1,
+            50982
+          ],
+          "coordinates": [
+            860
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51117
+          ],
+          "coordinates": [
+            465
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51239
+          ],
+          "coordinates": [
+            674
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51264
+          ],
+          "coordinates": [
+            145
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51365
+          ],
+          "coordinates": [
+            45
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51416
+          ],
+          "coordinates": [
+            131
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51425
+          ],
+          "coordinates": [
+            235
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51471
+          ],
+          "coordinates": [
+            800
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51499
+          ],
+          "coordinates": [
+            62
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51553
+          ],
+          "coordinates": [
+            103
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51638
+          ],
+          "coordinates": [
+            933
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51678
+          ],
+          "coordinates": [
+            830
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51757
+          ],
+          "coordinates": [
+            701
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51789
+          ],
+          "coordinates": [
+            157
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51791
+          ],
+          "coordinates": [
+            290
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51797
+          ],
+          "coordinates": [
+            339
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51820
+          ],
+          "coordinates": [
+            32
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51951
+          ],
+          "coordinates": [
+            271
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51995
+          ],
+          "coordinates": [
+            577
+          ]
+        },
+        {
+          "direction": [
+            1,
+            51997
+          ],
+          "coordinates": [
+            979
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52125
+          ],
+          "coordinates": [
+            336
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52131
+          ],
+          "coordinates": [
+            663
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52160
+          ],
+          "coordinates": [
+            834
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52190
+          ],
+          "coordinates": [
+            852
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52354
+          ],
+          "coordinates": [
+            554
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52377
+          ],
+          "coordinates": [
+            288
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52417
+          ],
+          "coordinates": [
+            604
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52533
+          ],
+          "coordinates": [
+            591
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52616
+          ],
+          "coordinates": [
+            896
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52768
+          ],
+          "coordinates": [
+            823
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52851
+          ],
+          "coordinates": [
+            533
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52890
+          ],
+          "coordinates": [
+            670
+          ]
+        },
+        {
+          "direction": [
+            1,
+            52923
+          ],
+          "coordinates": [
+            343
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53120
+          ],
+          "coordinates": [
+            267
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53161
+          ],
+          "coordinates": [
+            548
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53167
+          ],
+          "coordinates": [
+            265
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53215
+          ],
+          "coordinates": [
+            550
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53223
+          ],
+          "coordinates": [
+            322
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53260
+          ],
+          "coordinates": [
+            102
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53310
+          ],
+          "coordinates": [
+            64
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53457
+          ],
+          "coordinates": [
+            433
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53685
+          ],
+          "coordinates": [
+            537
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53693
+          ],
+          "coordinates": [
+            0
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53708
+          ],
+          "coordinates": [
+            114
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53781
+          ],
+          "coordinates": [
+            771
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53783
+          ],
+          "coordinates": [
+            330
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53798
+          ],
+          "coordinates": [
+            70
+          ]
+        },
+        {
+          "direction": [
+            1,
+            53920
+          ],
+          "coordinates": [
+            812
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54081
+          ],
+          "coordinates": [
+            871
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54092
+          ],
+          "coordinates": [
+            519
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54191
+          ],
+          "coordinates": [
+            791
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54326
+          ],
+          "coordinates": [
+            211
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54428
+          ],
+          "coordinates": [
+            234
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54432
+          ],
+          "coordinates": [
+            547
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54491
+          ],
+          "coordinates": [
+            391
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54519
+          ],
+          "coordinates": [
+            150
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54549
+          ],
+          "coordinates": [
+            1012
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54598
+          ],
+          "coordinates": [
+            175
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54607
+          ],
+          "coordinates": [
+            251
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54679
+          ],
+          "coordinates": [
+            630
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54690
+          ],
+          "coordinates": [
+            158
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54774
+          ],
+          "coordinates": [
+            419
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54826
+          ],
+          "coordinates": [
+            664
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54873
+          ],
+          "coordinates": [
+            703
+          ]
+        },
+        {
+          "direction": [
+            1,
+            54928
+          ],
+          "coordinates": [
+            40
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55084
+          ],
+          "coordinates": [
+            637
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55094
+          ],
+          "coordinates": [
+            681
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55103
+          ],
+          "coordinates": [
+            742
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55113
+          ],
+          "coordinates": [
+            221
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55178
+          ],
+          "coordinates": [
+            463
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55186
+          ],
+          "coordinates": [
+            272
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55187
+          ],
+          "coordinates": [
+            434
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55204
+          ],
+          "coordinates": [
+            566
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55211
+          ],
+          "coordinates": [
+            449
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55268
+          ],
+          "coordinates": [
+            1002
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55415
+          ],
+          "coordinates": [
+            225
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55441
+          ],
+          "coordinates": [
+            168
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55502
+          ],
+          "coordinates": [
+            27
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55583
+          ],
+          "coordinates": [
+            925
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55592
+          ],
+          "coordinates": [
+            442
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55647
+          ],
+          "coordinates": [
+            915
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55875
+          ],
+          "coordinates": [
+            844
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55897
+          ],
+          "coordinates": [
+            424
+          ]
+        },
+        {
+          "direction": [
+            1,
+            55966
+          ],
+          "coordinates": [
+            352
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56090
+          ],
+          "coordinates": [
+            388
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56174
+          ],
+          "coordinates": [
+            1015
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56197
+          ],
+          "coordinates": [
+            712
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56280
+          ],
+          "coordinates": [
+            80
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56331
+          ],
+          "coordinates": [
+            894
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56563
+          ],
+          "coordinates": [
+            739
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56649
+          ],
+          "coordinates": [
+            866
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56706
+          ],
+          "coordinates": [
+            937
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56826
+          ],
+          "coordinates": [
+            671
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56830
+          ],
+          "coordinates": [
+            696
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56882
+          ],
+          "coordinates": [
+            138
+          ]
+        },
+        {
+          "direction": [
+            1,
+            56956
+          ],
+          "coordinates": [
+            435
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57098
+          ],
+          "coordinates": [
+            511
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57112
+          ],
+          "coordinates": [
+            369
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57250
+          ],
+          "coordinates": [
+            155
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57255
+          ],
+          "coordinates": [
+            706
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57475
+          ],
+          "coordinates": [
+            241
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57619
+          ],
+          "coordinates": [
+            446
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57794
+          ],
+          "coordinates": [
+            801
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57851
+          ],
+          "coordinates": [
+            793
+          ]
+        },
+        {
+          "direction": [
+            1,
+            57927
+          ],
+          "coordinates": [
+            841
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58027
+          ],
+          "coordinates": [
+            200
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58077
+          ],
+          "coordinates": [
+            63
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58210
+          ],
+          "coordinates": [
+            135
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58252
+          ],
+          "coordinates": [
+            668
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58280
+          ],
+          "coordinates": [
+            890
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58348
+          ],
+          "coordinates": [
+            180
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58373
+          ],
+          "coordinates": [
+            799
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58417
+          ],
+          "coordinates": [
+            990
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58442
+          ],
+          "coordinates": [
+            831
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58457
+          ],
+          "coordinates": [
+            346
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58539
+          ],
+          "coordinates": [
+            136
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58596
+          ],
+          "coordinates": [
+            822
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58693
+          ],
+          "coordinates": [
+            329
+          ]
+        },
+        {
+          "direction": [
+            1,
+            58958
+          ],
+          "coordinates": [
+            414
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59294
+          ],
+          "coordinates": [
+            749
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59636
+          ],
+          "coordinates": [
+            1018
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59742
+          ],
+          "coordinates": [
+            415
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59764
+          ],
+          "coordinates": [
+            307
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59893
+          ],
+          "coordinates": [
+            236
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59950
+          ],
+          "coordinates": [
+            308
+          ]
+        },
+        {
+          "direction": [
+            1,
+            59985
+          ],
+          "coordinates": [
+            111
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60020
+          ],
+          "coordinates": [
+            270
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60058
+          ],
+          "coordinates": [
+            377
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60088
+          ],
+          "coordinates": [
+            556
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60091
+          ],
+          "coordinates": [
+            53
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60223
+          ],
+          "coordinates": [
+            248
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60497
+          ],
+          "coordinates": [
+            15
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60588
+          ],
+          "coordinates": [
+            546
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60603
+          ],
+          "coordinates": [
+            100
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60666
+          ],
+          "coordinates": [
+            197
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60688
+          ],
+          "coordinates": [
+            853
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60776
+          ],
+          "coordinates": [
+            781
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60900
+          ],
+          "coordinates": [
+            387
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60926
+          ],
+          "coordinates": [
+            945
+          ]
+        },
+        {
+          "direction": [
+            1,
+            60964
+          ],
+          "coordinates": [
+            187
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61029
+          ],
+          "coordinates": [
+            25
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61046
+          ],
+          "coordinates": [
+            164
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61135
+          ],
+          "coordinates": [
+            437
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61157
+          ],
+          "coordinates": [
+            608
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61168
+          ],
+          "coordinates": [
+            173
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61178
+          ],
+          "coordinates": [
+            203
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61226
+          ],
+          "coordinates": [
+            220
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61325
+          ],
+          "coordinates": [
+            371
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61338
+          ],
+          "coordinates": [
+            76
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61341
+          ],
+          "coordinates": [
+            459
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61372
+          ],
+          "coordinates": [
+            961
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61566
+          ],
+          "coordinates": [
+            922
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61591
+          ],
+          "coordinates": [
+            337
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61800
+          ],
+          "coordinates": [
+            660
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61846
+          ],
+          "coordinates": [
+            909
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61856
+          ],
+          "coordinates": [
+            213
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61876
+          ],
+          "coordinates": [
+            828
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61907
+          ],
+          "coordinates": [
+            84
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61943
+          ],
+          "coordinates": [
+            367
+          ]
+        },
+        {
+          "direction": [
+            1,
+            61956
+          ],
+          "coordinates": [
+            17
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62086
+          ],
+          "coordinates": [
+            1000
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62136
+          ],
+          "coordinates": [
+            966
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62228
+          ],
+          "coordinates": [
+            167
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62238
+          ],
+          "coordinates": [
+            705
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62461
+          ],
+          "coordinates": [
+            416
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62543
+          ],
+          "coordinates": [
+            392
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62565
+          ],
+          "coordinates": [
+            530
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62686
+          ],
+          "coordinates": [
+            383
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62771
+          ],
+          "coordinates": [
+            900
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62862
+          ],
+          "coordinates": [
+            759
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62910
+          ],
+          "coordinates": [
+            35
+          ]
+        },
+        {
+          "direction": [
+            1,
+            62913
+          ],
+          "coordinates": [
+            293
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63008
+          ],
+          "coordinates": [
+            22
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63102
+          ],
+          "coordinates": [
+            201
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63272
+          ],
+          "coordinates": [
+            797
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63322
+          ],
+          "coordinates": [
+            11
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63325
+          ],
+          "coordinates": [
+            195
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63426
+          ],
+          "coordinates": [
+            204
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63444
+          ],
+          "coordinates": [
+            627
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63548
+          ],
+          "coordinates": [
+            340
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63549
+          ],
+          "coordinates": [
+            61
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63569
+          ],
+          "coordinates": [
+            192
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63608
+          ],
+          "coordinates": [
+            534
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63823
+          ],
+          "coordinates": [
+            843
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63879
+          ],
+          "coordinates": [
+            850
+          ]
+        },
+        {
+          "direction": [
+            1,
+            63899
+          ],
+          "coordinates": [
+            787
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64048
+          ],
+          "coordinates": [
+            97
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64106
+          ],
+          "coordinates": [
+            798
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64132
+          ],
+          "coordinates": [
+            561
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64144
+          ],
+          "coordinates": [
+            341
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64191
+          ],
+          "coordinates": [
+            34
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64265
+          ],
+          "coordinates": [
+            193
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64278
+          ],
+          "coordinates": [
+            587
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64291
+          ],
+          "coordinates": [
+            792
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64312
+          ],
+          "coordinates": [
+            314
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64391
+          ],
+          "coordinates": [
+            10
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64481
+          ],
+          "coordinates": [
+            69
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64683
+          ],
+          "coordinates": [
+            485
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64789
+          ],
+          "coordinates": [
+            926
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64816
+          ],
+          "coordinates": [
+            365
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64824
+          ],
+          "coordinates": [
+            612
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64906
+          ],
+          "coordinates": [
+            350
+          ]
+        },
+        {
+          "direction": [
+            1,
+            64969
+          ],
+          "coordinates": [
+            794
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65139
+          ],
+          "coordinates": [
+            740
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65153
+          ],
+          "coordinates": [
+            467
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65154
+          ],
+          "coordinates": [
+            454
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65181
+          ],
+          "coordinates": [
+            373
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65185
+          ],
+          "coordinates": [
+            130
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65217
+          ],
+          "coordinates": [
+            484
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65357
+          ],
+          "coordinates": [
+            384
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65493
+          ],
+          "coordinates": [
+            835
+          ]
+        },
+        {
+          "direction": [
+            1,
+            65512
+          ],
+          "coordinates": [
+            811
+          ]
+        }
+      ],
+      "class_counts_in_witness": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "worst_agreement_set": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        16,
+        19,
+        24,
+        30,
+        31,
+        37,
+        38,
+        41,
+        42,
+        43,
+        44,
+        49,
+        50,
+        51,
+        57,
+        60,
+        74,
+        75,
+        78,
+        79,
+        81,
+        86,
+        87,
+        89,
+        92,
+        101,
+        104,
+        105,
+        113,
+        123,
+        124,
+        126,
+        127,
+        128,
+        129,
+        134,
+        137,
+        139,
+        141,
+        142,
+        144,
+        146,
+        147,
+        148,
+        149,
+        152,
+        156,
+        160,
+        162,
+        163,
+        165,
+        166,
+        169,
+        171,
+        172,
+        176,
+        182,
+        184,
+        185,
+        190,
+        196,
+        202,
+        206,
+        207,
+        208,
+        216,
+        222,
+        224,
+        227,
+        228,
+        233,
+        238,
+        239,
+        240,
+        245,
+        246,
+        247,
+        249,
+        250,
+        252,
+        253,
+        257,
+        261,
+        262,
+        266,
+        273,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        284,
+        286,
+        287,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        315,
+        317,
+        318,
+        319,
+        323,
+        324,
+        327,
+        331,
+        333,
+        344,
+        345,
+        348,
+        353,
+        355,
+        357,
+        358,
+        359,
+        361,
+        362,
+        364,
+        370,
+        374,
+        378,
+        379,
+        380,
+        385,
+        389,
+        393,
+        394,
+        397,
+        398,
+        400,
+        401,
+        402,
+        405,
+        407,
+        409,
+        410,
+        412,
+        420,
+        422,
+        425,
+        430,
+        432,
+        436,
+        438,
+        439,
+        440,
+        441,
+        443,
+        444,
+        445,
+        447,
+        450,
+        452,
+        453,
+        455,
+        457,
+        458,
+        460,
+        464,
+        466,
+        472,
+        475,
+        478,
+        481,
+        492,
+        494,
+        496,
+        497,
+        498,
+        506,
+        507,
+        512,
+        514,
+        515,
+        516,
+        518,
+        524,
+        525,
+        526,
+        529,
+        532,
+        536,
+        538,
+        539,
+        544,
+        549,
+        551,
+        560,
+        563,
+        564,
+        565,
+        567,
+        568,
+        569,
+        572,
+        579,
+        582,
+        583,
+        584,
+        585,
+        588,
+        592,
+        598,
+        599,
+        600,
+        601,
+        602,
+        605,
+        606,
+        607,
+        610,
+        615,
+        617,
+        619,
+        620,
+        621,
+        624,
+        631,
+        632,
+        634,
+        635,
+        636,
+        641,
+        643,
+        645,
+        646,
+        647,
+        652,
+        654,
+        655,
+        656,
+        658,
+        659,
+        666,
+        669,
+        672,
+        675,
+        678,
+        679,
+        680,
+        684,
+        687,
+        689,
+        690,
+        692,
+        694,
+        695,
+        698,
+        700,
+        704,
+        707,
+        708,
+        709,
+        714,
+        715,
+        717,
+        718,
+        719,
+        720,
+        722,
+        723,
+        724,
+        727,
+        728,
+        730,
+        731,
+        732,
+        733,
+        741,
+        746,
+        751,
+        752,
+        757,
+        761,
+        762,
+        763,
+        764,
+        766,
+        768,
+        772,
+        773,
+        774,
+        775,
+        776,
+        778,
+        779,
+        782,
+        784,
+        786,
+        788,
+        803,
+        805,
+        806,
+        808,
+        809,
+        810,
+        813,
+        815,
+        816,
+        819,
+        820,
+        821,
+        824,
+        827,
+        829,
+        837,
+        839,
+        840,
+        845,
+        846,
+        854,
+        855,
+        857,
+        859,
+        861,
+        862,
+        864,
+        870,
+        872,
+        874,
+        876,
+        878,
+        879,
+        880,
+        883,
+        884,
+        885,
+        887,
+        891,
+        895,
+        898,
+        899,
+        901,
+        902,
+        903,
+        906,
+        907,
+        908,
+        910,
+        911,
+        914,
+        916,
+        917,
+        919,
+        920,
+        921,
+        927,
+        929,
+        930,
+        936,
+        938,
+        939,
+        941,
+        946,
+        948,
+        949,
+        950,
+        952,
+        954,
+        955,
+        956,
+        959,
+        960,
+        964,
+        971,
+        972,
+        974,
+        977,
+        980,
+        982,
+        983,
+        985,
+        987,
+        989,
+        994,
+        995,
+        996,
+        997,
+        998,
+        1003,
+        1004,
+        1005,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1013,
+        1014,
+        1016,
+        1019,
+        1023
+      ],
+      "minimum_injective_pairs": 83836,
+      "uniform_pair_success_probability": [
+        20959,
+        130944
+      ]
+    },
+    "attaining_witness_pairs_checked": 83845,
+    "universal_RS_rank_two_lower_bound": 60378
+  },
+  "source_sha256": {
+    "actual_clusters.py": "d72dea84406525b81e6b5e41d103e4bb5715fb57e3724b5014d636bce599e718",
+    "rank_two_pinning.py": "d7043842d3c0c8862e24693864a31d0cc101e9781945a96cff325d5bd33e6047"
+  },
+  "input_sha256": {
+    "../round6/overlap_preflight/coset_small_characteristic_sample3.certificate.json": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764",
+    "../round6/pencil_tracks/results.json": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216"
+  }
+}

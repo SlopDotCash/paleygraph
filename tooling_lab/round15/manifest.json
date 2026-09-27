@@ -1,0 +1,152 @@
+{
+  "status": "verified",
+  "created_utc": "2026-09-06T07:48:19.892512+00:00",
+  "scope": "Projective capacity obstruction and finite complete-block optimum, checked local exchange repair, complete supplied-space boundary decoding, and controls. Known mathematical ingredients; no historical novelty or prize proof claim.",
+  "previous_round14_artifacts_preserved": 80,
+  "source_and_input_bindings": 123,
+  "python_sources_compiled": 10,
+  "markdown_local_links_passed": true,
+  "boundary_review_totals": {
+    "queries_independently_replayed": 408465,
+    "candidate_words_fully_evaluated": 408351,
+    "full_word_coordinate_values_checked": 418151424
+  },
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "2c0baf027149b31602c1270c299f5937582efceabb191c251693730176d8691c",
+      "bytes": 5996
+    },
+    "README.md": {
+      "sha256": "9fafdd6c70fa351e2b7fae942069c40416cec30cfc04e5598e4bb6f96d3ae109",
+      "bytes": 5958
+    },
+    "boundary.run.json": {
+      "sha256": "225b2161f9bb2be7e68f90c3f910ac31cb16180a906702ac3396ce0dfbbfc9e9",
+      "bytes": 40497177
+    },
+    "boundary_results.json": {
+      "sha256": "849c29042381496b9a649a551c1911a4cc61bc1f0727001550b8a24aee96b1b0",
+      "bytes": 7744
+    },
+    "boundary_runs.log": {
+      "sha256": "b1f3680f355bbcd2f2214cea22b582cbeb9832b68bbf4dac249a2012361b0269",
+      "bytes": 2307
+    },
+    "boundary_runs.py": {
+      "sha256": "ba23ff7b1364da8f7adcb2610d93ee8aa37bf36df800aa6c475d8c7c008f15f9",
+      "bytes": 4216
+    },
+    "capacity_review.json": {
+      "sha256": "120aa8bef11a4d1d711fd52103a8f57d716946db249f6c0706b26582b6870bc2",
+      "bytes": 1441
+    },
+    "capacity_review.log": {
+      "sha256": "f7483c1f8a16c6993513671e3aa731056a4dbe90ab43dd03657a8d719331e5ff",
+      "bytes": 661
+    },
+    "capacity_review.py": {
+      "sha256": "d3a18d2d681a5785c9857128159dedc955bd7ff91df4b081e4d6e3933ed5344e",
+      "bytes": 7308
+    },
+    "capacity_search.json": {
+      "sha256": "1d878ff453c412ec95618fcb2c9f399ec3244b402767a833f479b596d5b06426",
+      "bytes": 123039
+    },
+    "capacity_search.log": {
+      "sha256": "a6c13a705799cb8160cda80289c1766980479c9b91f76594dd074a6f206684ca",
+      "bytes": 215
+    },
+    "capacity_search.py": {
+      "sha256": "7d788d29b073a22a418361145cf5a250d46fae1dffe212a46809a1b3f3ced514",
+      "bytes": 4543
+    },
+    "checkpoint.json": {
+      "sha256": "cd0986554173d12a266c9f85b7bec151430f3312f4dd1694ca7accb9c437584a",
+      "bytes": 1737
+    },
+    "checkpoint.log": {
+      "sha256": "4af517aa6cf42394787e4a8518c755c7a025ce678078be605475c1e4beec9749",
+      "bytes": 92
+    },
+    "checkpoint.py": {
+      "sha256": "e31c9f0d55b96eb9f0c2a1690e83fdb013726394fb46cb9867d8871cceb22e37",
+      "bytes": 3429
+    },
+    "exchange_repair.json": {
+      "sha256": "7a6b65adac9ef93e87e2d2c46daedff86e1c26815cc6416e74bd8be380fc5bcb",
+      "bytes": 17242
+    },
+    "exchange_repair.log": {
+      "sha256": "ab30f0b75075adfeffccd73e3ca8605166c47c7d8c20c3c3e05bfaa2f1e658d5",
+      "bytes": 168
+    },
+    "exchange_repair.py": {
+      "sha256": "2874becc0eaf9a25cb175936aef6d26448ea943ee1e8a3555f04bcc52664755e",
+      "bytes": 4806
+    },
+    "late_near_miss.run.json": {
+      "sha256": "47937eb8eeb18b672ea3b2ee925ae0d54d6a3ef0d042fd2507b46cd6d6672ea3",
+      "bytes": 40505009
+    },
+    "parallel_controls.json": {
+      "sha256": "95fd22788f3f364cea7d8d21e6326e62687d009b4b972bfea95939cfe017b4d5",
+      "bytes": 578
+    },
+    "parallel_controls.log": {
+      "sha256": "d6e4cecd8156e6ba83d4bba9b1aa96608f34fac182addfc59c1e221d225eb24d",
+      "bytes": 552
+    },
+    "parallel_controls.py": {
+      "sha256": "1ee49fe011275d9c68c8913f4d5af5e328bfa21663de37e1584869a9651f931c",
+      "bytes": 2935
+    },
+    "prior_art.md": {
+      "sha256": "921f740cd6624bce985f661dbc334d746a92f57bc97ce433b128101bc4575fa3",
+      "bytes": 2533
+    },
+    "projective_profile.py": {
+      "sha256": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+      "bytes": 2522
+    },
+    "repaired.certificate.json": {
+      "sha256": "cfe2ea1450c961862dd8a70e6e179f7e2aa0a9c56d34bcfdb3b59caa1a1a90d1",
+      "bytes": 11243
+    },
+    "root_class.certificate.json": {
+      "sha256": "35d7a1c380589155195b46408eae3c72efc5cfcbcdd6a29cac0d2e7ddbffde14",
+      "bytes": 11243
+    },
+    "root_class.log": {
+      "sha256": "89ce9c75f506a620b1950001c48272653e5b22a8cc8161e7adef441f1356c929",
+      "bytes": 236
+    },
+    "root_class_preflight.py": {
+      "sha256": "82711ff5857dc0db1a3418151ab192e98a86a52fe9e68519c8bcb21c232ee592",
+      "bytes": 3783
+    },
+    "root_class_results.json": {
+      "sha256": "d8e89d07f48a8c46092ec65e3a7b005962528026e26dc094a288880b0fb129ab",
+      "bytes": 30356
+    },
+    "search_controls.json": {
+      "sha256": "2d4526017c0d3af6eb2302fa3a813c072a43cde4196b942780bc811027dc90c1",
+      "bytes": 22382
+    },
+    "search_controls.log": {
+      "sha256": "35ecf7dce84a090a7ad17a48999c34b6e299eaf7361b2dba90814a741fce6b9a",
+      "bytes": 234
+    },
+    "search_controls.py": {
+      "sha256": "08ce1906c7874160ac28177728d1820f6d0ba1e5ecd362de4721049f0defd510",
+      "bytes": 6341
+    },
+    "true_guard_mismatch.run.json": {
+      "sha256": "124a2fe1920b627046e5cbb67c4885921c2086aa0cbac338f7756a8835185d26",
+      "bytes": 34647713
+    },
+    "verify_round.py": {
+      "sha256": "e0d3186f4ff769aaf6001cb365750a7f0056591677603d062f4968430188b602",
+      "bytes": 4332
+    }
+  }
+}

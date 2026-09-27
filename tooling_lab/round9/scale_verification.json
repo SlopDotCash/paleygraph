@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "scope": "Independent full Q reconstruction, full selected vectors and row scalars, full K through65537 and12 off-diagonal K entries per larger input.",
+  "cases": [
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "arithmetic_progression",
+      "Q_reconstructed": 0,
+      "Q_bound": 0,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          0,
+          0,
+          0
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 0,
+        "max_abs_h": 1
+      },
+      "full_K_upper_entries_checked": 21,
+      "sampled_K_off_diagonal_entries_checked": 0,
+      "all_selected_fields_checked": 30,
+      "row_scalar_totals_checked": 5,
+      "seconds": 0.02175041699956637
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "seeded_uniform",
+      "Q_reconstructed": 0,
+      "Q_bound": 0,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          0,
+          0,
+          0
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 0,
+        "max_abs_h": 1
+      },
+      "full_K_upper_entries_checked": 21,
+      "sampled_K_off_diagonal_entries_checked": 0,
+      "all_selected_fields_checked": 30,
+      "row_scalar_totals_checked": 5,
+      "seconds": 0.00990583299426362
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "arithmetic_progression",
+      "Q_reconstructed": 308399308,
+      "Q_bound": 8607254385393664,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          308399308,
+          308399308,
+          308399308
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 2002,
+        "max_abs_h": 1001
+      },
+      "full_K_upper_entries_checked": 136,
+      "sampled_K_off_diagonal_entries_checked": 0,
+      "all_selected_fields_checked": 80,
+      "row_scalar_totals_checked": 5,
+      "seconds": 0.19042891600111034
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "seeded_uniform",
+      "Q_reconstructed": 8069272,
+      "Q_bound": 8607254385393664,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          8069272,
+          8069272,
+          8069272
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 2002,
+        "max_abs_h": 1001
+      },
+      "full_K_upper_entries_checked": 136,
+      "sampled_K_off_diagonal_entries_checked": 0,
+      "all_selected_fields_checked": 80,
+      "row_scalar_totals_checked": 5,
+      "seconds": 0.22156866700970568
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "arithmetic_progression",
+      "Q_reconstructed": 1620267711592,
+      "Q_bound": 585174339477728938080,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          1601911108,
+          393951466,
+          58404591
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 48555,
+        "max_abs_h": 12051
+      },
+      "full_K_upper_entries_checked": 0,
+      "sampled_K_off_diagonal_entries_checked": 12,
+      "all_selected_fields_checked": 155,
+      "row_scalar_totals_checked": 5,
+      "seconds": 6.837299749997328
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "seeded_uniform",
+      "Q_reconstructed": 10096108804,
+      "Q_bound": 585174339477728938080,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          29779199,
+          1036412159,
+          231105775
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 48555,
+        "max_abs_h": 12051
+      },
+      "full_K_upper_entries_checked": 0,
+      "sampled_K_off_diagonal_entries_checked": 12,
+      "all_selected_fields_checked": 155,
+      "row_scalar_totals_checked": 5,
+      "seconds": 7.230615958003909
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "arithmetic_progression",
+      "Q_reconstructed": -17465658934224,
+      "Q_bound": 113063424437719969408512,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          1436196372,
+          1436197336,
+          94047596
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 107046,
+        "max_abs_h": 23526
+      },
+      "full_K_upper_entries_checked": 0,
+      "sampled_K_off_diagonal_entries_checked": 12,
+      "all_selected_fields_checked": 250,
+      "row_scalar_totals_checked": 5,
+      "seconds": 49.78999112499878
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "seeded_uniform",
+      "Q_reconstructed": 81629066288,
+      "Q_bound": 452047885451800451258880,
+      "CRT_modulus": 1713652354748588808931901441,
+      "Q_modular_review": {
+        "residues": [
+          1098429448,
+          91796483,
+          360231811
+        ],
+        "primes": [
+          2013265921,
+          1811939329,
+          469762049
+        ],
+        "max_abs_g": 237082,
+        "max_abs_h": 42470
+      },
+      "full_K_upper_entries_checked": 0,
+      "sampled_K_off_diagonal_entries_checked": 12,
+      "all_selected_fields_checked": 250,
+      "row_scalar_totals_checked": 5,
+      "seconds": 62.884630708998884
+    }
+  ],
+  "source_sha256": {
+    "review_scale.py": "4e0803795e899f0b885c2e4d41dda62eb458ebe80aa1d39be595da2d8c671a95",
+    "review_contraction.cpp": "b158b53971a0dce1e8063909a5e0121426d46a6692df9ced54078c37586078a0",
+    "review_contraction": "dd09be6c98eb0550f0dd4bf7949a23b997de34b899c1385308b27e4f98a48ce5"
+  },
+  "input_sha256": {
+    "scale_results.json": "7b1a8838f1cc2dc61584078ed52a6f4144a97b15aabb2569695a505344e996a6"
+  }
+}

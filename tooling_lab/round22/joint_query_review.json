@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "controls": [
+    "cyclic32_joint_cli",
+    "missing_target_certificate_rejected"
+  ],
+  "input_sha256": {
+    "metric_consecutive32.json": "484959f7befe4bf9fbcd9bd1fb3a08b9dcbd0e783d5e8ad1422c3aedaa679ebb",
+    "coupled_summary.json": "d36a6d9a7e3cf71dc41e86f6996612ef40a9feb1f6c6ec5e25a159618bfeb05a",
+    "erasure_input.json": "1cc7e890dd1edf7a4fecf2c7fddcfde1096fe15f1d573536d7eb59c6f37db4f8",
+    "erasure_output.json": "0dc335837161fd5e6a8a9bfd5a49ed0fbab6ef3866a1b1e1bf20bd066d78c500"
+  },
+  "source_sha256": {
+    "joint_query_review.py": "9e328ac00ccde5d8882b4840ac42b871fb50a84e8c68a3ee62a6785ed6b899fe",
+    "joint_query.py": "781302838f8fc334c14bec6fd094fadaf2da5d1beb1efb689a50adfee45f3883",
+    "coupled_review.py": "78d246f92ff8e3a32753fe658c2ea5841ae1fc8a68d20b4c97ac67e776eb09b5",
+    "erasure_query.py": "34a19e30d0795acc0cdd311ac9c035c32de9867ebfdc2242740d6e098a0d4285"
+  }
+}

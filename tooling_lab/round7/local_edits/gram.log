@@ -1,0 +1,9 @@
+{"q": 1297, "n": 6, "family": "arithmetic_progression", "seconds": 0.18267137500515673}
+{"q": 1297, "n": 6, "family": "seeded_uniform", "seconds": 0.00611712499812711}
+{"q": 65537, "n": 16, "family": "arithmetic_progression", "seconds": 0.01879791700048372}
+{"q": 65537, "n": 16, "family": "seeded_uniform", "seconds": 0.018704332993365824}
+{"q": 1000033, "n": 31, "family": "arithmetic_progression", "seconds": 2.468575040998985}
+{"q": 1000033, "n": 31, "family": "seeded_uniform", "seconds": 2.4262363750021905}
+{"q": 6700417, "n": 50, "family": "arithmetic_progression", "seconds": 43.093788875004975}
+{"q": 6700417, "n": 50, "family": "seeded_uniform", "seconds": 36.78958304200205}
+Completed independent Gram backend.

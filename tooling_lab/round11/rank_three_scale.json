@@ -1,0 +1,307 @@
+{
+  "status": "passed",
+  "scope": "Exact or explicitly bounded worst agreement-set pinning for declared polynomial subspaces. Search trees and all evaluation triples separately checked.",
+  "rows": [
+    {
+      "name": "rank3_p17_n16_quartic",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "exact",
+      "interval": [
+        148,
+        148
+      ],
+      "all_triples_checked": 560,
+      "nontrivial_lines": 15,
+      "tree_nodes_replayed": 175,
+      "branch_nodes": 87,
+      "bound_leaves": 88,
+      "exact_leaves": 0,
+      "unresolved_leaves": 0,
+      "compile_seconds": 0.0032893339957809076,
+      "review_seconds": 0.00859699999273289,
+      "literal_review": {
+        "agreement_sets": 4368,
+        "minimum": 148,
+        "dependent_triples": 36
+      },
+      "universal_degree_bound": 20,
+      "certificate": "rank3_p17_n16_quartic.certificate.json"
+    },
+    {
+      "name": "rank3_p17_n16_sextic",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "status": "exact",
+      "interval": [
+        147,
+        147
+      ],
+      "all_triples_checked": 560,
+      "nontrivial_lines": 15,
+      "tree_nodes_replayed": 103,
+      "branch_nodes": 51,
+      "bound_leaves": 52,
+      "exact_leaves": 0,
+      "unresolved_leaves": 0,
+      "compile_seconds": 0.0030104999896138906,
+      "review_seconds": 0.007000750003498979,
+      "literal_review": {
+        "agreement_sets": 4368,
+        "minimum": 147,
+        "dependent_triples": 36
+      },
+      "universal_degree_bound": 20,
+      "certificate": "rank3_p17_n16_sextic.certificate.json"
+    },
+    {
+      "name": "rank3_p29_n24_quartic",
+      "p": 29,
+      "n": 24,
+      "k": 8,
+      "s": 16,
+      "status": "exact",
+      "interval": [
+        523,
+        523
+      ],
+      "all_triples_checked": 2024,
+      "nontrivial_lines": 30,
+      "tree_nodes_replayed": 461,
+      "branch_nodes": 230,
+      "bound_leaves": 231,
+      "exact_leaves": 0,
+      "unresolved_leaves": 0,
+      "compile_seconds": 0.017979374999413267,
+      "review_seconds": 0.026745583993033506,
+      "literal_review": {
+        "agreement_sets": 735471,
+        "minimum": 523,
+        "dependent_triples": 66
+      },
+      "universal_degree_bound": 165,
+      "certificate": "rank3_p29_n24_quartic.certificate.json"
+    },
+    {
+      "name": "rank3_p29_n24_sextic",
+      "p": 29,
+      "n": 24,
+      "k": 8,
+      "s": 16,
+      "status": "exact",
+      "interval": [
+        523,
+        523
+      ],
+      "all_triples_checked": 2024,
+      "nontrivial_lines": 36,
+      "tree_nodes_replayed": 575,
+      "branch_nodes": 287,
+      "bound_leaves": 287,
+      "exact_leaves": 1,
+      "unresolved_leaves": 0,
+      "compile_seconds": 0.02100862500083167,
+      "review_seconds": 0.041148584001348354,
+      "literal_review": {
+        "agreement_sets": 735471,
+        "minimum": 523,
+        "dependent_triples": 72
+      },
+      "universal_degree_bound": 165,
+      "certificate": "rank3_p29_n24_sextic.certificate.json"
+    },
+    {
+      "name": "rank3_p37_n32_quartic",
+      "p": 37,
+      "n": 32,
+      "k": 8,
+      "s": 22,
+      "status": "bounded",
+      "interval": [
+        1452,
+        1479
+      ],
+      "all_triples_checked": 4960,
+      "nontrivial_lines": 51,
+      "tree_nodes_replayed": 20013,
+      "branch_nodes": 10006,
+      "bound_leaves": 9995,
+      "exact_leaves": 0,
+      "unresolved_leaves": 12,
+      "compile_seconds": 0.9252669590059668,
+      "review_seconds": 0.8327179589978186,
+      "literal_review": null,
+      "universal_degree_bound": 680,
+      "certificate": "rank3_p37_n32_quartic.certificate.json"
+    },
+    {
+      "name": "rank3_p37_n32_sextic",
+      "p": 37,
+      "n": 32,
+      "k": 8,
+      "s": 22,
+      "status": "bounded",
+      "interval": [
+        1455,
+        1483
+      ],
+      "all_triples_checked": 4960,
+      "nontrivial_lines": 90,
+      "tree_nodes_replayed": 20005,
+      "branch_nodes": 10002,
+      "bound_leaves": 9997,
+      "exact_leaves": 1,
+      "unresolved_leaves": 5,
+      "compile_seconds": 1.415451374996337,
+      "review_seconds": 1.1357352909981273,
+      "literal_review": null,
+      "universal_degree_bound": 680,
+      "certificate": "rank3_p37_n32_sextic.certificate.json"
+    },
+    {
+      "name": "rank3_p67_n48_quartic",
+      "p": 67,
+      "n": 48,
+      "k": 8,
+      "s": 33,
+      "status": "bounded",
+      "interval": [
+        5274,
+        5330
+      ],
+      "all_triples_checked": 17296,
+      "nontrivial_lines": 125,
+      "tree_nodes_replayed": 20021,
+      "branch_nodes": 10010,
+      "bound_leaves": 9988,
+      "exact_leaves": 2,
+      "unresolved_leaves": 21,
+      "compile_seconds": 1.7566339170007268,
+      "review_seconds": 3.1272482500062324,
+      "literal_review": null,
+      "universal_degree_bound": 3276,
+      "certificate": "rank3_p67_n48_quartic.certificate.json"
+    },
+    {
+      "name": "rank3_p67_n48_sextic",
+      "p": 67,
+      "n": 48,
+      "k": 8,
+      "s": 33,
+      "status": "bounded",
+      "interval": [
+        5280,
+        5335
+      ],
+      "all_triples_checked": 17296,
+      "nontrivial_lines": 153,
+      "tree_nodes_replayed": 20029,
+      "branch_nodes": 10014,
+      "bound_leaves": 9985,
+      "exact_leaves": 1,
+      "unresolved_leaves": 29,
+      "compile_seconds": 4.72567933400569,
+      "review_seconds": 6.152438541001175,
+      "literal_review": null,
+      "universal_degree_bound": 3276,
+      "certificate": "rank3_p67_n48_sextic.certificate.json"
+    },
+    {
+      "name": "rank3_p67_n64_quartic",
+      "p": 67,
+      "n": 64,
+      "k": 8,
+      "s": 44,
+      "status": "bounded",
+      "interval": [
+        12825,
+        12987
+      ],
+      "all_triples_checked": 41664,
+      "nontrivial_lines": 192,
+      "tree_nodes_replayed": 20041,
+      "branch_nodes": 10020,
+      "bound_leaves": 9978,
+      "exact_leaves": 3,
+      "unresolved_leaves": 40,
+      "compile_seconds": 9.501369833000354,
+      "review_seconds": 7.267212457998539,
+      "literal_review": null,
+      "universal_degree_bound": 9139,
+      "certificate": "rank3_p67_n64_quartic.certificate.json"
+    },
+    {
+      "name": "rank3_p67_n64_sextic",
+      "p": 67,
+      "n": 64,
+      "k": 8,
+      "s": 44,
+      "status": "bounded",
+      "interval": [
+        12821,
+        12965
+      ],
+      "all_triples_checked": 41664,
+      "nontrivial_lines": 302,
+      "tree_nodes_replayed": 20037,
+      "branch_nodes": 10018,
+      "bound_leaves": 9981,
+      "exact_leaves": 0,
+      "unresolved_leaves": 38,
+      "compile_seconds": 5.5615085839963285,
+      "review_seconds": 4.197985500009963,
+      "literal_review": null,
+      "universal_degree_bound": 9139,
+      "certificate": "rank3_p67_n64_sextic.certificate.json"
+    }
+  ],
+  "frontier_control": {
+    "p": 17,
+    "n": 16,
+    "k": 8,
+    "s": 11,
+    "status": "bounded",
+    "interval": [
+      138,
+      148
+    ],
+    "all_triples_checked": 560,
+    "nontrivial_lines": 15,
+    "tree_nodes_replayed": 1,
+    "branch_nodes": 0,
+    "bound_leaves": 0,
+    "exact_leaves": 0,
+    "unresolved_leaves": 1
+  },
+  "corrupted_certificates_rejected": [
+    "missing_line",
+    "added_coordinate",
+    "inflated_minimum",
+    "missing_tree_leaf",
+    "invalid_branch",
+    "bad_witness",
+    "false_exact"
+  ],
+  "source_sha256": {
+    "run_rank_three.py": "4b08be54075f5da888f163451296695b15dbaea3c8f66887eeabadb89666d73c",
+    "rank_three_pinning.py": "b0fdc020dd4a6f29f43684e75ca47a252dbd3a01787162b32f3cba6874e70de2",
+    "rank_three_verifier.py": "d50cfdda1a9177fa9181fde45ebe5848aac77bd74a438b5c2b389e8404f88bd6"
+  },
+  "certificate_sha256": {
+    "rank3_p17_n16_quartic.certificate.json": "a05f54f92ba2c5bf9e17805d1847e22425eb78910dde077d0a84af3aae8a5575",
+    "rank3_p17_n16_sextic.certificate.json": "90511989d94a388b49c50303a4541c0652d8ea3a72ca6d67b084d0c74f769b94",
+    "rank3_p29_n24_quartic.certificate.json": "78f3baa52bafa4bcdbc14ecd5fa9731b381216001672ac587e0f7b03b23a42b6",
+    "rank3_p29_n24_sextic.certificate.json": "dc8c84e23176dbdb8ee9e5cbcf9e970cfac1602a1545ba12e254330862b7299d",
+    "rank3_p37_n32_quartic.certificate.json": "179ede84b95d42c30d43e0fe67b0ee4f533845f679f5493438dfbf04ab22b755",
+    "rank3_p37_n32_sextic.certificate.json": "3fbd622de905377fe027cd53463683abb64fe962857e2bb3b00174a790022736",
+    "rank3_p67_n48_quartic.certificate.json": "d3e90e91a8f45daf7c3691124f62ac774bf6c1686df46d4565d83361c5ce311e",
+    "rank3_p67_n48_sextic.certificate.json": "caa35b260f3c84d7d5d9b84b36a2b9b43e200c6e9d458ba3502a0382aff9e548",
+    "rank3_p67_n64_quartic.certificate.json": "396ec0dcb504d27ca50ca9f091a2b3cd3a7498294df8be354a10d0bbe1b42292",
+    "rank3_p67_n64_sextic.certificate.json": "12fc6e40cb0faa77ecd35543386654466e1eda6516e6274aceb0f48271bbbeac",
+    "rank3_frontier_control.certificate.json": "2a9d3078b2ac5dc730ab1087d79f137fea90fbecf561295dce9c0766b5038430"
+  }
+}

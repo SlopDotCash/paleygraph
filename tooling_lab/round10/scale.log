@@ -1,0 +1,8 @@
+{"q": 1297, "n": 6, "family": "arithmetic_progression", "pair_means": 15, "seconds": 0.00937366699508857}
+{"q": 1297, "n": 6, "family": "seeded_uniform", "pair_means": 15, "seconds": 0.003540958001394756}
+{"q": 65537, "n": 16, "family": "arithmetic_progression", "pair_means": 120, "seconds": 0.017466749995946884}
+{"q": 65537, "n": 16, "family": "seeded_uniform", "pair_means": 120, "seconds": 0.05986170899996068}
+{"q": 1000033, "n": 31, "family": "arithmetic_progression", "pair_means": 465, "seconds": 5.576343958004145}
+{"q": 1000033, "n": 31, "family": "seeded_uniform", "pair_means": 465, "seconds": 5.073666875003255}
+{"q": 6700417, "n": 50, "family": "arithmetic_progression", "pair_means": 1225, "seconds": 32.35061662500084}
+{"q": 6700417, "n": 50, "family": "seeded_uniform", "pair_means": 1225, "seconds": 17.62823595800728}

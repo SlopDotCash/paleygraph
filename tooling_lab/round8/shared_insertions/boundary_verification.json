@@ -1,0 +1,216 @@
+{
+  "status": "passed",
+  "scope": "Separate literal deletion DP and all outside insertion transforms; includes all degrees0..6 and an actual all-positive64-point row. No production Gram formula reuse in the oracle.",
+  "cases": [
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 0,
+      "derivative_gram_entries": 4,
+      "covariance_entries": 4,
+      "outside_insertion_transforms": 6
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 1,
+      "derivative_gram_entries": 4,
+      "covariance_entries": 4,
+      "outside_insertion_transforms": 6
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 2,
+      "derivative_gram_entries": 4,
+      "covariance_entries": 4,
+      "outside_insertion_transforms": 6
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 0,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 1,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 2,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 3,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 4,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 5,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "derivative_gram_entries": 36,
+      "covariance_entries": 36,
+      "outside_insertion_transforms": 42
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 0,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 1,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 2,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 3,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 4,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 5,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 6,
+      "derivative_gram_entries": 64,
+      "covariance_entries": 64,
+      "outside_insertion_transforms": 168
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 0,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 1,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 2,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 3,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 4,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 5,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 6,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 2368
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 6,
+      "derivative_gram_entries": 4096,
+      "covariance_entries": 4096,
+      "outside_insertion_transforms": 12352
+    }
+  ],
+  "invalid_queries_rejected": 6,
+  "source_sha256": {
+    "round8/shared_insertions/boundary_review.py": "cb1f0e28a73a9713fe6edc8e2446226c6c1cd876491a10b80a77531b1a5e49eb",
+    "round8/shared_insertions/covariance.py": "b8425128784e844c53fbe81993546d6da9a34033b083e8e814f5e0f4386a26c5",
+    "round8/shared_insertions/covariance_backend.cpp": "de5446b8efa1510f05480cdfee5fb125d67347c8faba4449758f1584c921e6cb",
+    "round8/shared_insertions/covariance_backend": "df0d4f80569a4b05100d999c1525bd245828f9d186264104db8c078bbe77119d"
+  },
+  "dependency_sha256": {
+    "round7/local_edits/review_results.py": "f9a437253d191eeee44b8f244bb7df4f76f10c4468a7e46a187b3b46d40c2fcd"
+  }
+}

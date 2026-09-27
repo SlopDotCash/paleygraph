@@ -1,0 +1,653 @@
+{
+  "p": 215535361,
+  "generator": 25525303,
+  "n": 128,
+  "H": [
+    1,
+    2921261,
+    3739056,
+    3739057,
+    6273978,
+    8035776,
+    8324866,
+    11288099,
+    13293036,
+    14200362,
+    19278026,
+    24033079,
+    24850873,
+    25525303,
+    25525304,
+    27772134,
+    29264359,
+    29974381,
+    36059035,
+    37273536,
+    38270285,
+    41976682,
+    45353363,
+    45598402,
+    49558383,
+    49558384,
+    51426251,
+    51627341,
+    51868401,
+    53297441,
+    54115232,
+    57854288,
+    59462027,
+    61593345,
+    64585540,
+    64631389,
+    68253109,
+    70750126,
+    72980219,
+    74282048,
+    75793707,
+    75901480,
+    76577975,
+    77393705,
+    80199695,
+    81887366,
+    83351994,
+    87531135,
+    87575084,
+    87828668,
+    89625972,
+    90686741,
+    93358984,
+    95566911,
+    97732312,
+    99276631,
+    100644575,
+    100690424,
+    101928889,
+    102919008,
+    103673614,
+    105281606,
+    105768088,
+    107332494,
+    108202867,
+    109767273,
+    110253755,
+    111861747,
+    112616353,
+    113606472,
+    114844937,
+    114890786,
+    116258730,
+    117803049,
+    119968450,
+    122176377,
+    124848620,
+    125909389,
+    127706693,
+    127960277,
+    128004226,
+    132183367,
+    133647995,
+    135335666,
+    138141656,
+    138957386,
+    139633881,
+    139741654,
+    141253313,
+    142555142,
+    144785235,
+    147282252,
+    150903972,
+    150949821,
+    153942016,
+    156073334,
+    157681073,
+    161420129,
+    162237920,
+    163666960,
+    163908020,
+    164109110,
+    165976977,
+    165976978,
+    169936959,
+    170181998,
+    173558679,
+    177265076,
+    178261825,
+    179476326,
+    185560980,
+    186271002,
+    187763227,
+    190010057,
+    190010058,
+    190684488,
+    191502282,
+    196257335,
+    201334999,
+    202242325,
+    204247262,
+    207210495,
+    207499585,
+    209261383,
+    211796304,
+    211796305,
+    212614100,
+    215535360
+  ],
+  "E": 61056,
+  "d": "477/2048",
+  "f_histogram_on_cosets": {
+    "1": 1,
+    "2": 48,
+    "4": 3,
+    "6": 3
+  },
+  "levels": {
+    "3": {
+      "representatives": [
+        2
+      ],
+      "f_values": [
+        1
+      ]
+    },
+    "4": {
+      "representatives": [
+        43949,
+        107773,
+        201090,
+        241060,
+        245039,
+        253584,
+        289090,
+        297533,
+        442150,
+        486482,
+        674430,
+        674431,
+        676495,
+        710022,
+        784268,
+        817791,
+        817794,
+        817795,
+        817796,
+        907326,
+        990119,
+        1238465,
+        1367944,
+        1413793,
+        1429040,
+        1511659,
+        1544319,
+        1599998,
+        1607739,
+        1607992,
+        1670100,
+        1687671,
+        1744725,
+        1761798,
+        1797304,
+        1867868,
+        2068957,
+        2202247,
+        2207927,
+        2230093,
+        2688981,
+        2813488,
+        4205020,
+        4529253,
+        4637031,
+        5151354,
+        7328117,
+        9069946
+      ],
+      "f_values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "5": {
+      "representatives": [
+        1,
+        45849,
+        1492225,
+        2246831,
+        3111657,
+        5077664
+      ],
+      "f_values": [
+        6,
+        4,
+        6,
+        4,
+        4,
+        6
+      ]
+    }
+  },
+  "three_distinct_incidence_over_all_level_triples": 2424576,
+  "discard_m_incidence_over_all_level_triples": 2422272,
+  "W_distinct_from_weighted_normalization": 1316818944,
+  "first_positive_repeated_fiber": {
+    "levels": [
+      4,
+      5,
+      5
+    ],
+    "u": 674430,
+    "v": 2246831,
+    "multiplicity": 2,
+    "rho": 3,
+    "coset_triples": [
+      [
+        817794,
+        1,
+        1492225
+      ],
+      [
+        674430,
+        2246831,
+        1
+      ]
+    ],
+    "f_values": [
+      [
+        2,
+        6,
+        6
+      ],
+      [
+        2,
+        4,
+        6
+      ]
+    ],
+    "normalized_solutions": [
+      [
+        19584002,
+        19584003
+      ],
+      [
+        108122689,
+        108122690
+      ],
+      [
+        162237922,
+        162237923
+      ]
+    ]
+  },
+  "first_positive_repeated_same_level_fiber": null,
+  "independent_direct_checks": [
+    {
+      "levels": [
+        4,
+        5,
+        5
+      ],
+      "direct_incidence": 52736,
+      "direct_weighted_triangle_sum": 144850944,
+      "normalized_support": 1438,
+      "normalized_mass": 1440,
+      "ordered_normalization_collisions": 4,
+      "discard_m_incidence": 51968,
+      "max_m": 2,
+      "weighted_triangle_sum": 144850944
+    }
+  ],
+  "independent_collision_identity_checks": [
+    {
+      "levels": [
+        4,
+        5,
+        5
+      ],
+      "ordered_collisions": 4,
+      "nonzero_quotient_intersection_terms": [
+        {
+          "q": 1492225,
+          "intersection_counts": {
+            "4": 1,
+            "5": 2
+          },
+          "term": 2
+        },
+        {
+          "q": 2246831,
+          "intersection_counts": {
+            "4": 1,
+            "5": 2
+          },
+          "term": 2
+        }
+      ]
+    }
+  ],
+  "level_triple_stats": [
+    {
+      "levels": [
+        3,
+        4,
+        4
+      ],
+      "normalized_support": 2256,
+      "normalized_mass": 2256,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 21504,
+      "discard_m_incidence": 21504,
+      "max_m": 1,
+      "weighted_triangle_sum": 344064
+    },
+    {
+      "levels": [
+        3,
+        4,
+        5
+      ],
+      "normalized_support": 288,
+      "normalized_mass": 288,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 5504,
+      "discard_m_incidence": 5504,
+      "max_m": 1,
+      "weighted_triangle_sum": 587776
+    },
+    {
+      "levels": [
+        3,
+        5,
+        4
+      ],
+      "normalized_support": 288,
+      "normalized_mass": 288,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 5504,
+      "discard_m_incidence": 5504,
+      "max_m": 1,
+      "weighted_triangle_sum": 587776
+    },
+    {
+      "levels": [
+        3,
+        5,
+        5
+      ],
+      "normalized_support": 30,
+      "normalized_mass": 30,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 2816,
+      "discard_m_incidence": 2816,
+      "max_m": 1,
+      "weighted_triangle_sum": 2277376
+    },
+    {
+      "levels": [
+        4,
+        3,
+        4
+      ],
+      "normalized_support": 2256,
+      "normalized_mass": 2256,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 21504,
+      "discard_m_incidence": 21504,
+      "max_m": 1,
+      "weighted_triangle_sum": 344064
+    },
+    {
+      "levels": [
+        4,
+        3,
+        5
+      ],
+      "normalized_support": 288,
+      "normalized_mass": 288,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 5504,
+      "discard_m_incidence": 5504,
+      "max_m": 1,
+      "weighted_triangle_sum": 587776
+    },
+    {
+      "levels": [
+        4,
+        4,
+        3
+      ],
+      "normalized_support": 2256,
+      "normalized_mass": 2256,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 21504,
+      "discard_m_incidence": 21504,
+      "max_m": 1,
+      "weighted_triangle_sum": 344064
+    },
+    {
+      "levels": [
+        4,
+        4,
+        4
+      ],
+      "normalized_support": 103776,
+      "normalized_mass": 103776,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 1085184,
+      "discard_m_incidence": 1085184,
+      "max_m": 1,
+      "weighted_triangle_sum": 69451776
+    },
+    {
+      "levels": [
+        4,
+        4,
+        5
+      ],
+      "normalized_support": 13534,
+      "normalized_mass": 13536,
+      "ordered_normalization_collisions": 4,
+      "direct_incidence": 351488,
+      "discard_m_incidence": 351488,
+      "max_m": 2,
+      "weighted_triangle_sum": 156254208
+    },
+    {
+      "levels": [
+        4,
+        5,
+        3
+      ],
+      "normalized_support": 288,
+      "normalized_mass": 288,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 5504,
+      "discard_m_incidence": 5504,
+      "max_m": 1,
+      "weighted_triangle_sum": 587776
+    },
+    {
+      "levels": [
+        4,
+        5,
+        4
+      ],
+      "normalized_support": 13534,
+      "normalized_mass": 13536,
+      "ordered_normalization_collisions": 4,
+      "direct_incidence": 351488,
+      "discard_m_incidence": 351488,
+      "max_m": 2,
+      "weighted_triangle_sum": 156254208
+    },
+    {
+      "levels": [
+        4,
+        5,
+        5
+      ],
+      "normalized_support": 1438,
+      "normalized_mass": 1440,
+      "ordered_normalization_collisions": 4,
+      "direct_incidence": 52736,
+      "discard_m_incidence": 51968,
+      "max_m": 2,
+      "weighted_triangle_sum": 144850944
+    },
+    {
+      "levels": [
+        5,
+        3,
+        4
+      ],
+      "normalized_support": 288,
+      "normalized_mass": 288,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 5504,
+      "discard_m_incidence": 5504,
+      "max_m": 1,
+      "weighted_triangle_sum": 587776
+    },
+    {
+      "levels": [
+        5,
+        3,
+        5
+      ],
+      "normalized_support": 30,
+      "normalized_mass": 30,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 2816,
+      "discard_m_incidence": 2816,
+      "max_m": 1,
+      "weighted_triangle_sum": 2277376
+    },
+    {
+      "levels": [
+        5,
+        4,
+        3
+      ],
+      "normalized_support": 288,
+      "normalized_mass": 288,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 5504,
+      "discard_m_incidence": 5504,
+      "max_m": 1,
+      "weighted_triangle_sum": 587776
+    },
+    {
+      "levels": [
+        5,
+        4,
+        4
+      ],
+      "normalized_support": 13534,
+      "normalized_mass": 13536,
+      "ordered_normalization_collisions": 4,
+      "direct_incidence": 351488,
+      "discard_m_incidence": 351488,
+      "max_m": 2,
+      "weighted_triangle_sum": 156254208
+    },
+    {
+      "levels": [
+        5,
+        4,
+        5
+      ],
+      "normalized_support": 1438,
+      "normalized_mass": 1440,
+      "ordered_normalization_collisions": 4,
+      "direct_incidence": 52736,
+      "discard_m_incidence": 51968,
+      "max_m": 2,
+      "weighted_triangle_sum": 144850944
+    },
+    {
+      "levels": [
+        5,
+        5,
+        3
+      ],
+      "normalized_support": 30,
+      "normalized_mass": 30,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 2816,
+      "discard_m_incidence": 2816,
+      "max_m": 1,
+      "weighted_triangle_sum": 2277376
+    },
+    {
+      "levels": [
+        5,
+        5,
+        4
+      ],
+      "normalized_support": 1438,
+      "normalized_mass": 1440,
+      "ordered_normalization_collisions": 4,
+      "direct_incidence": 52736,
+      "discard_m_incidence": 51968,
+      "max_m": 2,
+      "weighted_triangle_sum": 144850944
+    },
+    {
+      "levels": [
+        5,
+        5,
+        5
+      ],
+      "normalized_support": 120,
+      "normalized_mass": 120,
+      "ordered_normalization_collisions": 0,
+      "direct_incidence": 20736,
+      "discard_m_incidence": 20736,
+      "max_m": 1,
+      "weighted_triangle_sum": 332660736
+    }
+  ]
+}

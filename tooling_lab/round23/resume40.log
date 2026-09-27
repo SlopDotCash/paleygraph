@@ -1,0 +1,1 @@
+{"name": "cover40_refined", "old_nodes": 2021, "old_cuts": 64, "old_unresolved_leaves": [65, 818, 1296, 1999, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015], "added_cuts": 0, "added_nodes": 0, "node_kinds": {"split": 1004, "excluded": 998, "unresolved": 19}, "unresolved_leaves": 19, "unique_completion": false}

@@ -1,0 +1,33 @@
+{
+  "observed_at_utc": "2026-09-06T08:33:22.265584+00:00",
+  "sources": [
+    {
+      "path": "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html",
+      "sha256": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+      "url": "https://arxiv.org/html/1504.04522v1#Thmsatz2",
+      "use": "Mitkin lemma quoted as Lemma2, equation5: singleton intersections of two different multiplicative subgroups. Both explicit size conditions retained.",
+      "extract_path": "sources/parallel44-structure/mitkin-lemma2-extract.json",
+      "extract_sha256": "f163bd7345d02ae9762e20248d90bf20b8bc37e776db4ebaca13b03c68562863"
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477",
+      "url": "https://arxiv.org/pdf/1712.00410",
+      "use": "Previously checked Corollary12 equation32, energy49/20 under n<=sqrt(p), used only for the small-edge contribution."
+    }
+  ],
+  "local_dependencies_sha256": {
+    "research/mixed-periods-and-shifted-energy.md": "de7d7202e55253955b62f73c973d2bdee42b48123eb344c875d5f0527a21f4aa",
+    "research/parallel41-correlation-optimization-2026-09-06.md": "408204d7bbfb76dfc5d90b8788575261921fa450c012dd31caaced188b93d069",
+    "research/parallel41-independent-review-2026-09-06.md": "712e6688e067a53f30038bb88d631f2f178af9d4e1ac06aa21c3e5688505d146",
+    "experiments/mixed_period_collisions.py": "9e3a9860feacf3625a4556902072ff36311f5293affdae61a63b55e0f3a02544"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "ordinary_review": "Root: subgroup mass transfer, nested normalization, interval family, and exact incidence-matrix identities.",
+  "no_separate_agent_lean_or_external_review": true,
+  "unproved_inputs": [
+    "Nested-coset partition of all large actual difference levels",
+    "Control of more general actual level concentration",
+    "Full arbitrary-set Paley and official prize conclusion"
+  ]
+}

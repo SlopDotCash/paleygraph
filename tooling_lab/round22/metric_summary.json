@@ -1,0 +1,63 @@
+{
+  "status": "produced",
+  "cases": [
+    {
+      "name": "metric_consecutive32",
+      "artifact": "metric_consecutive32.json",
+      "universal_cap": 512,
+      "unconditioned_cap": 27648,
+      "visible_directions": 13,
+      "unique_completion": false,
+      "optimality_certificates": 32,
+      "statuses": {
+        "complete": 32
+      },
+      "complete_counts": {
+        "1": 16,
+        "0": 16
+      },
+      "maximum_observed_box": 64,
+      "scalar_candidates_checked": 129
+    },
+    {
+      "name": "metric_alternating32",
+      "artifact": "metric_alternating32.json",
+      "universal_cap": 22184338959788544000000000000,
+      "unconditioned_cap": 1012635086985870851125027012608000000000,
+      "visible_directions": 32,
+      "unique_completion": false,
+      "optimality_certificates": 31,
+      "statuses": {
+        "budget_exceeded": 32
+      },
+      "complete_counts": {},
+      "maximum_observed_box": 4557375312233103360000000000,
+      "scalar_candidates_checked": 0
+    },
+    {
+      "name": "metric_random32",
+      "artifact": "metric_random32.json",
+      "universal_cap": 8576263766045525760000000000,
+      "unconditioned_cap": 4781774441161277020224168791113728000,
+      "visible_directions": 31,
+      "unique_completion": false,
+      "optimality_certificates": 32,
+      "statuses": {
+        "budget_exceeded": 32
+      },
+      "complete_counts": {},
+      "maximum_observed_box": 1642613283537408000000000000,
+      "scalar_candidates_checked": 0
+    }
+  ],
+  "input_sha256": {
+    "../round21/heldout_consecutive32.json": "3a4036dde538ce79a60de9aa4a03f8d6c0875257f64337c0f020cb19f076c237",
+    "../round21/heldout_alternating32.json": "7d44b837b6178c079ea07869dcdb1cbc936be3ffb43b8dd3ad7abe2fd049ca49",
+    "../round21/heldout_random32.json": "6d25467d46eb39bf41fa38963a0b1949563b3134d47d382281728b0c26d7338a"
+  },
+  "source_sha256": {
+    "metric_experiments.py": "b56e45fcd384315a3e2448a27853699b8ec47721c46f41160403a41c94d00d88",
+    "metric_erasure.py": "f142c4964a345c9256fccb878a4992c603bedc92db570783a973ed6fa545be52",
+    "conditioned_erasure.py": "3c5c6546156d51f1100d90ec29dc1b169691e1fb5e92194c885bc8570d3b89b4"
+  }
+}

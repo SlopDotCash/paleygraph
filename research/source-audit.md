@@ -1,5 +1,281 @@
 # Source audit, 2026-09-04
 
+Pass-53 update (2026-09-06): the
+[ambient elliptic proof](parallel53-ambient-elliptic-2026-09-06.md)
+uses Lu–Zheng–Zheng arXiv1305.3405v3 Theorem1.4 equation1.7, checked
+on the primary page and archived HTML. Its parameters are m=1,k=1,
+A_1={chi}; the delta term vanishes and the discrepancy is at most
+2p^(-1/4). The varying character runs through the full nontrivial
+family, with product-trivial cases excluded. No estimate for a proper
+character subset or a weighted family is inferred. Root derives the
+ambient Jacobi spectrum and the large odd eigenvalue from this imported
+discrepancy bound; exact finite tests do not stand in for that theorem.
+The existing restricted-operator identity retains all boundary terms.
+Sources and dependencies are pinned in the pass audit, with the main
+manifest unchanged. No uniform target improvement, independent-agent,
+Lean, external review or novelty claim is made.
+
+Pass-52 update (2026-09-06): the
+[cubic increment proof](parallel52-cubic-increments-2026-09-06.md)
+derives its four-cell formula and primitive-fiber cost from the existing
+incidence bijection, inversion symmetry and dyadic energy recurrence.
+The archived Shkredov2015 Theorem6 was reread with its product-size
+condition; it gives only the existing X_N<<N^2 log N estimate here.
+Its source also explicitly records the energy5/2 consequence recovered
+by the current substitution. No new quantitative source theorem is
+imported. Repeated cells and shifted products are counted independently;
+the quartic prime and generators come from prior certificates. Source
+and dependency hashes are preserved in the audit. No uniform improvement,
+independent-agent, Lean, external review or novelty claim is made.
+
+Pass-51 update (2026-09-06): the
+[collision transport proof](parallel51-collision-transport-2026-09-06.md)
+reuses the primitive/kernel factorization and exact energy recurrence.
+Root derives their compatibility equation and retains the quadratic
+baseline in the lower bound. The witness prime already appears in the
+order128 certificate; a separate trial-division check and literal
+order256 enumeration verify the new quartic endpoint comparison. No
+new complete factorization or prime classification is asserted. A
+bounded primary-source search supplied no new quantitative input.
+All proof ingredients used here are derived in the local notes; source
+hashes are preserved in the pass audit. No uniform improvement,
+independent-agent review, Lean, external review or novelty claim is made.
+
+Pass-50 update (2026-09-06): the
+[tower recovery proof](parallel50-tower-mass-2026-09-06.md)
+subtracts the two-representation baseline before Cauchy, then uses an
+explicit Lipschitz recursion to compare endpoint energy with actual
+first-precision triple mass. These are root derivations from the
+existing primitive-fiber and energy identities. The archived MRSS
+Corollary12, equation32, was reread with its M<=sqrt(p) hypothesis;
+its existing49/20 energy bound yields the80/87 cutoff with the4/29
+logarithmic divisor. No new external quantitative theorem is imported.
+Every radical test uses rational bounds, and abstract mass profiles
+are distinguished from compatible field towers. Source and dependency
+hashes are recorded in the pass audit. No new uniform bound, independent
+review, Lean, novelty or full-proof claim is made.
+
+Pass-49 update (2026-09-06): the
+[critical-content proof](parallel49-critical-content-2026-09-06.md)
+reuses the primitive polynomial and field-degree formulas already in
+the repository. The Gauss-valuation product rule is proved by reduction
+of primitive polynomials; the quadratic norm argument and exact
+cancellation correction are root derivations. No new external
+quantitative estimate is imported. Coefficients and lifted derivative
+values are checked exactly, and nonsplitting examples include small
+characteristic and field degrees four and eight. Auxiliary polynomial
+examples are explicitly separated from actual subgroup data. The pinned
+arithmetic backend is reused. Source and dependency hashes appear in
+the pass audit. No uniform improvement, Lean, separate-agent, external
+review, novelty or full-proof claim is made.
+
+Pass-48 update (2026-09-06): the
+[collision eliminant note](parallel48-collision-eliminants-2026-09-06.md)
+explicitly reuses the existing primitive polynomial and balanced-energy
+identity. The resultant gcd, derivative valuation bound and weighted
+tower estimate are root derivations. Complete fixed-order conclusions
+use exact resultants, a second matrix-determinant algorithm, separate
+trial-division certificates and checks at every eligible factor. No
+unverified factor, finite-prefix completeness claim or uniform
+maximum-fiber-two assumption is used. The
+[source and tool scope](../results/parallel48_source_scope_2026_09_06.json)
+records the pinned python-flint backend and official API references;
+no new external mathematical estimate is imported. The main manifest
+and existing primary-source hashes are preserved. No Lean, separate
+agent, external review, novelty or full-proof claim is made.
+
+Pass-47 update (2026-09-06): the
+[anchored and arithmetic note](parallel47-anchored-arithmetic-2026-09-06.md)
+uses the established incidence symmetries, the derivative of X^n-1,
+subgroup power sums, and Newton's recurrence. Root gives the ordinary
+proofs. Both earlier uncentered models fail the stronger anchored-row
+condition; a centered repair satisfies the compared coarse constraints.
+Its finite rejection uses certified prime arithmetic, not a probabilistic
+primality assumption. No unverified shifted-character bound, new external
+theorem, uniform improvement, Lean, separate-agent review or novelty
+claim is imported. Recognition by n-1 moments is explicitly separated
+from bounding the profile. Existing primary-source and manifest hashes
+are preserved in the pass audit.
+
+Pass-46 update (2026-09-06): the
+[row inequality](parallel46-row-capacity-2026-09-06.md) is a root
+derivation from symmetry, nonnegative integer entries, row mass, and
+Holder. The exact autocorrelation identification uses the previously
+derived matrix-square identity. The Sidon-filled family exclusion uses
+only the already scoped Shkredov2015 Theorem6 consequence X<<n^2 log n
+under n^2<p. The modified abstract family satisfies the total-X row
+conditions; no local X_D allocation or prime-field realization is claimed.
+No new external theorem, uniform exponent, Lean, or external review is
+asserted. The primary-source and main-manifest hashes are rechecked in
+the pass audit.
+
+Pass-45 update (2026-09-06): root checked Warren's published2019
+Corollary4 against the surviving high-level parameters. Its exponent11/9
+and |A|<p^(1/4) condition yield a valid but insufficient consequence there.
+Harrison–Mudgal–Schmidt arXiv2603.06483v1 Theorem1.5 is explicitly over C;
+no uniform finite-field transfer is supplied. The
+[source comparison](parallel45-shifted-product-scope-2026-09-06.md)
+distinguishes these checked inputs from the proposed, unproved cubic
+product inequality. The full weighted matrix law and trace/projection
+identities are root derivations from the existing coset-convolution
+algebra. Primary sources and roles are
+[pinned](../results/parallel45_source_scope_2026_09_06.json).
+No novelty, new uniform exponent, separate-agent, Lean, or external review
+is claimed; the main source manifest is unchanged.
+
+Pass-44 update (2026-09-06): root read Mit'kin's lemma as quoted in
+Shkredov arXiv1504.04522v1, Lemma2, equation5. A singleton pair of coset
+representatives gives O((|Gamma||Pi|)^(1/3)) intersection under the
+explicit product-size and33^3 conditions. Using different subgroup
+sizes is essential to the new coset-mass bound. The quartic nested-coset
+application verifies the field-size condition; bounded small n is
+absorbed by a trivial estimate. The earlier MRSS49/20 input is reused
+only to handle small edges. Root-derived interval and matrix arguments
+are distinguished from imported results in the
+[pass summary](parallel44-pass-summary-2026-09-06.md).
+The [pinned scope](../results/parallel44_source_scope_2026_09_06.json)
+includes the primary HTML hash and an exact mathematical-text extract.
+No claim of a proved structural partition, novelty, separate-agent,
+Lean, external peer review or full proof is made. The main source
+manifest remains unchanged.
+
+Pass-43 update (2026-09-06): root visually reread published Shkredov2013
+Lemma2, equation18, printed page197. For Q=H,Q1=uH,Q2=vH, the required
+ratio image is exactly Q1 x Q2 and has size n^2. This valid single-coset
+application yields R_max<<n^(2/3), with all incidence counts retained.
+The [energy argument](parallel43-energy-prime-exceptions-2026-09-06.md)
+then combines an exact positive triangle bound with the existing local
+fourth-energy prime-average proof, improving the absolute prime-exception
+exponent to5/3. It uses no union-of-cosets injectivity shortcut or eligible
+prime-density assumption. The quartic witness and valuation identity are
+exact local arithmetic, with 21 independent norm-valuation comparisons.
+The [pinned scope](../results/parallel43_source_scope_2026_09_06.json)
+records source and dependency hashes. Root review and finite checks were
+completed; separate-agent, Lean, external peer review, novelty and full
+proof claims are not made. The main source manifest is unchanged.
+
+Pass-42 update (2026-09-06): the [primary-source review](parallel42-excess-source-audit-2026-09-06.md)
+checks Ke–Kiechle2023 Proposition3.4 and Corollary3.7 for primitive
+cyclotomic norms and finite circularity exceptions. Norm divisibility
+implies existence of a vanishing primitive root, not a fixed-root
+converse. The weighted product over every compatible tuple avoids this
+quantifier issue; root derives its sharper AGM constant locally.
+DoDuc–Leung–Schmidt2020 Theorems1.2–1.3 have exponential size conditions
+or a prime subgroup-order restriction that do not cover growing dyadic
+orders in the quartic range. Ke–Kiechle arXiv2307.05586v2 assumes
+circularity in the relevant results; its tables are not a growing-order
+density theorem. Macourt–Shkredov–Shparlinski arXiv1701.06192v2
+Corollary4.1 retains quadratic shifted energy in the small-group range.
+None of these checked statements supplies the missing uniform X saving.
+The reflection proof uses the previously scoped individual Weil bound.
+The [source hashes and roles](../results/parallel42_source_scope_2026_09_06.json)
+are pinned; the prior main manifest is unchanged. Separate-agent review
+covers the coarse norm mechanism; root completed the sharper constant
+and final checks after the subagents reached their usage limit. No
+novelty, external review, Lean verification or full proof is claimed.
+
+Pass-41 update (2026-09-06): the [final triangle proof](parallel41-independent-review-2026-09-06.md)
+uses the published Shkredov2013 Theorem4,d=2 tail and Shkredov2015
+Theorem6 shifted multiplicative energy, under n<sqrt(p). Root visually
+checked the former and read the latter's primary statement. The invalid
+general incidence application from pass38 is not reused. Mixed-level
+correlations and geometric summation prove W<<n^(86/15)L^(8/15).
+The conditional X<<n^(61/31) criterion instead follows from exact
+diagonal counts and the functional correlation lemma; it is not an
+imported or proved upper estimate for X. MRSS49/20 is retained as the
+energy comparison baseline, not required to prove this W bound.
+The shell and unit arguments use explicit cyclotomic arithmetic; the
+classical smoothing uses the individual Weil bound, checked in Volostnov
+Theorem5, plus exact independent-shift moments. The ordinary arguments
+and finite certificates received independent review within this task.
+No novelty, external peer review, Lean proof or full-goal completion is
+claimed. Sources and their roles are [pinned](../results/parallel41_source_scope_2026_09_06.json).
+
+Pass-40 update (2026-09-06): the [shell converse](parallel40-shell-converse-2026-09-06.md)
+uses the previous norm implication, integer adjugates, and an explicitly
+derived elementary Gauss-sum bound at641. The counterexample requires no
+class-group computation. The optional flat-Gram discussion separately
+uses cyclotomic prime-ideal factorization and retains its unit-norm
+condition. The [incidence correction](parallel40-distinct-edge-input-2026-09-06.md)
+is an exact count on actual levels; it imports no new incidence bound.
+The [classical applicability review](parallel40-classical-structure-2026-09-06.md)
+checks versioned Schoen-Shkredov and Volostnov primary statements and
+keeps their size/doubling hypotheses. Its relative L2 obstruction does
+not apply to standard Croot-Sisask input-norm tolerance. Root reviewed
+these distinctions and reproduced the finite arithmetic with independent
+checks. The existing source manifest and all prior pass files are retained.
+No uniform estimate, novelty claim, external peer review or Lean proof is
+added by this pass.
+
+Pass-39 update (2026-09-06): the [principal-shell construction](parallel39-shell-structural-input-2026-09-06.md)
+uses elementary cyclotomic algebra and the norm-prime trinomial already
+recorded in passes30-32. Its C=2 finite obstruction is checked with exact
+integer/rational arithmetic; a separate agent recomputed the determinant.
+The cofactor lower bound is conditional on any valid period upper bound;
+using the existing sublinear input imports that input's original scope.
+The [edge-coset estimate](parallel39-edge-coset-reduction-2026-09-06.md)
+uses Holder and the published nonzero difference moments on PDF page10
+of the pass38 source. Those moments differ from equal-sum energies.
+Separate agents reviewed pass35's comparison and pass36 sections1-4;
+pass36 now explicitly restricts the norm argument to A=H,a!=0.
+No new uniform bound, Lean proof, external peer review or novelty claim
+is made. The prior main source manifest is unchanged.
+
+Pass-36 update (2026-09-05): the [lattice-distance comparison](parallel36-shell-inversion-2026-09-05.md)
+uses NIST DLMF24.8.1 for the Bernoulli Fourier series and25.6.1 for
+zeta(2),zeta(4). The primary pages were inspected. The TeX download
+returned403, so the [pinned record](../results/parallel36_source_scope_2026_09_05.json)
+contains equation transcriptions, explicitly not raw page archives.
+The inverse, exact centering, finite truncation error and rank-one norm
+argument are derived locally. The prior moment-polynomial result already
+identified the same finite maximum more precisely; pass36's alternative
+certificate must not be called a better enclosure. The initial comparison
+only with sqrt(1970) is corrected. No uniform annulus estimate, novelty,
+separate-author review, Lean proof or full-goal completion is claimed.
+
+Pass-35 update (2026-09-05): the [single-degree comparison](parallel35-single-degree-comparison-2026-09-05.md)
+imports Ravichandran, arXiv1609.04187v2, Theorem4.4: a bound on roots
+of sufficiently high derivatives of a real-rooted, mean-zero polynomial
+with roots in [-1,1]. Its exact statement was read in HTML and visually
+on PDF page12. Each centered cosine row is scaled into those hypotheses;
+the coefficient normalization and small-size branch are kept explicitly.
+Both archives are [pinned separately](../results/parallel35_source_scope_2026_09_05.json),
+while the prior main manifest is preserved. Averaged real-rootedness is
+not assumed and is refuted by an actual subgroup example. No positive
+aggregate upper bound, novelty claim, independent review, Lean proof,
+new period exponent, or full conjecture proof is claimed.
+
+Pass-34 update (2026-09-05): the [opposite-pair transform](parallel34-opposite-pair-transform-2026-09-05.md)
+uses direct counting, formal power-series inversion, cycle independent
+sets, and the existing pass33 centered-collision estimate. Its raw
+degree-ten lower bound uses Fourier inversion, Holder, Lyapunov, and
+Jensen; multiplicative closure is unnecessary for that lower bound.
+The MRSS Lemma6 proof was re-read as an alternative route, without
+importing a new upper estimate. The [source-scope record](../results/parallel34_source_scope_2026_09_05.json)
+pins this distinction. No literature novelty, separate-author review,
+Lean verification, new period exponent, or full proof is claimed.
+
+Pass-33 update (2026-09-05): the [centered collision argument](parallel33-centered-distinct-moments-2026-09-05.md)
+uses elementary partition inversion, Holder, Jensen, and the Stirling
+cycle polynomial. The improved repeated-word exponent reuses the
+existing MRSS energy seeds. The [recent-source audit](parallel33-source-check-2026-09-05.md)
+checks the published 2026 dense uniformity normalization visually;
+its diagonal terms prevent direct application to the original sparse
+subgroup. The Fourier/Bohr alternative meets its size hypothesis but
+does not supply the desired upper estimate. Sources and their distinct
+roles are [pinned](../results/parallel33_source_scope_2026_09_05.json).
+No literature novelty, separate-author review, Lean verification, or
+full proof is claimed.
+
+Pass-32 update (2026-09-05): the [uniform triangle-length proof](parallel32-linear-triangle-length-2026-09-05.md)
+uses an explicit periodic inverse, a pointwise complex triangle
+inequality, finite Fourier orthogonality, and coefficient norm bounds.
+No non-elementary external estimate is imported. Exact finite checks
+support the algebraic implementation; they do not replace the uniform
+argument. A current primary-source inventory was consulted but supplies
+no premise to this proof. No literature novelty, separate-author review,
+Lean verification, cubic output count, or full proof is claimed.
+
 Pass-31 update (2026-09-05): the [minimum triangle derivation proof](parallel31-short-multiples-2026-09-05.md)
 uses the pass30 principal ideal and exact integer identities. No new
 non-elementary theorem is needed for the finite classification. A
@@ -1331,3 +1607,29 @@ argument; it does not establish literature exhaustiveness or optimality.
 The unique-split and exact unmarking arguments are self-contained project
 derivations, without a literature novelty claim. Only their displayed
 algebraic core is checked in Lean; the full counting formula is not.
+
+## Thirty-eighth pass: published energy theorem and missing hypothesis
+
+The [publisher-version audit](parallel38-published-energy-2026-09-06.md)
+resolves the discrepancy left in pass37. Shkredov's published paper,
+Moscow Journal of Combinatorics and Number Theory3(2013),issues3-4,
+pp189-239, has Theorem8 on printed216 (PDF29), with the small-subgroup
+energy term n^(32/13)log^(41/65)n. The older arXiv1208.2344v3 Theorem34
+instead advertises22/9. The published32/13 result is compatible with
+MRSS49/20; the old statement is not imported into this project's bounds.
+
+Published Lemma2 on printed197 (PDF10) adds an equality for the size of
+the normalized pair image. The [independent audit](parallel38-independent-incidence-2026-09-06.md)
+proves that it requires injectivity of the corresponding coset-triple
+map. This is absent from the preprint's Lemma7 and fails for diagonal
+multi-coset triples in its proof. Exact examples and a conditional
+weighted repair are recorded in the [pass summary](parallel38-pass-summary-2026-09-06.md).
+The audit does not claim the numerical22/9 bound itself has been refuted.
+
+Raw publisher bytes, provenance HTML, and the two inspected page images
+are in the separate [source manifest](../sources/parallel38-energy-source/manifest.json).
+The publisher PDF SHA256 is
+79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206.
+Root and both parallel reviewers inspected the decisive pages. The main
+36-entry source manifest remains unchanged. No full published proof,
+Lean formalization, uniform period improvement, or full target is claimed.

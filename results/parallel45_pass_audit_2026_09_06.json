@@ -1,0 +1,61 @@
+{
+  "observed_at_utc": "2026-09-06T09:01:32.685686+00:00",
+  "classification": "progress: exact weighted multiplication, commutator, trace and projection identities with direct field checks; scoped source comparison changes next attempted bound",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "review_scope": "Root ordinary derivations; independent matrix multiplication, rational orthogonal projection and direct field convolution checks. No separate-agent, Lean or external review.",
+  "finite_checks": {
+    "matrix_entries": 23000,
+    "trace_identities": 40,
+    "exact_projections": 20,
+    "direct_field_convolutions": 20
+  },
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel44_structured_levels.py": true,
+    "research/parallel44-interval-and-matrix-review-2026-09-06.md": true,
+    "research/parallel44-pass-summary-2026-09-06.md": true,
+    "research/parallel44-structured-levels-2026-09-06.md": true,
+    "results/parallel44_prior_state_2026_09_06.json": true,
+    "results/parallel44_source_scope_2026_09_06.json": true,
+    "results/parallel44_structured_levels_2026_09_06.json": true
+  },
+  "local_links_checked": 8,
+  "artifacts_sha256": {
+    "experiments/parallel45_weighted_matrix_algebra.py": "1e1b8f97b050ee84495f68d0fdf2d6bf90a9308a98439f07504e9d576271f994",
+    "research/parallel45-pass-summary-2026-09-06.md": "d8d76581a069ca1e676fc8b3c63b3e0af85df2902f1bb51ecd9976a8ca3778db",
+    "research/parallel45-shifted-product-scope-2026-09-06.md": "4398177c4f7a1ba73d2e61d00b4c2c4f35aafb2682769b4785ae088a34ac0977",
+    "research/parallel45-weighted-matrix-algebra-2026-09-06.md": "f378f555b3082d0b7661256d128e9d3d9a2a51549c03c3af92ce8c1134e153b9",
+    "results/parallel45_prior_state_2026_09_06.json": "751f6497b8cd2112a1c498f069f3491305060a2a6e539bf0391351e03cc84c0f",
+    "results/parallel45_resume_audit_2026_09_06.json": "470af60b371edc4edc63e9e7c329cb82578e8b4d39abcad2bd6baecdb927cfab",
+    "results/parallel45_source_scope_2026_09_06.json": "09f2ab00be4820fb408b0a65c8183614934daefa58efbb62645694e14625df23",
+    "results/parallel45_weighted_matrix_algebra_2026_09_06.json": "264c9ad03c44f4af3b4cf483d2b14bf0e817b1a6269897518bd0b5a2f96ffe33"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "becdebb037b06ed72a1e0036ab311cdb93259669623f2c50acb9c5a494a0d4b3",
+      "after": "7c9b5b1e9b8a2e9760948c7fac17e0b3b378da2d8018a1e0341f8efe083780a6"
+    },
+    "research/frontier.md": {
+      "before": "5649a70caf68b749ae4c3620c4022e53928447934981d3a141df4420568f135b",
+      "after": "a3c48604bae0e395a1d0f87f3b185bf5fc22142c1a880264bf2e4cbbdda835b6"
+    },
+    "research/source-audit.md": {
+      "before": "656a0f45a96783fd06d446b7c37c04a5478f5b19b1d0b5cd1ef776a056c307b2",
+      "after": "94f3d0768118ee12886ba88d8144bc97402a3df0c850af1ec7032625933f4500"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "c613457cf49aa3b633e7b95263ed7feeb742b40d5b6f394e6fd1760a70ccf8b0",
+      "after": "054177c0c3168a765b63d62f402d34d99ccb95dddb7654a39b4280e12ec434e7"
+    }
+  },
+  "main_source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "new_lean_build": false,
+  "process_changes": false,
+  "lean_polled_this_math_turn": false,
+  "prove2me_submission": false,
+  "next_action": "Exploit actual weighted multiplication constraints for high-level incidence concentration, or prove an appropriate shifted-product bound for H intersect (Q+1); do not substitute the insufficient scalar Frobenius estimate."
+}

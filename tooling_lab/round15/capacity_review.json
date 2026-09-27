@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Independent exhaustive t,u lower-bound enumeration, every reported failed-restart dependency, full initial/affected-block repair replay, and both final arc certificates. Nonzero tests in failed restart attempts are not independently replayed.",
+  "feasible_t_u_profiles_checked": 173,
+  "minimum_complete_arc_partition_queries": 136155,
+  "failed_restart_witnesses_checked": 46,
+  "restart_search_queries_reported": 3131565,
+  "repair_review": {
+    "initial_queries_fully_checked": 136155,
+    "affected_block_queries_fully_checked": 17110,
+    "accepted_swaps": 2,
+    "producer_local_queries_checked": 1682,
+    "final_certificate_queries_checked": 136155
+  },
+  "source_sha256": {
+    "capacity_review.py": "d3a18d2d681a5785c9857128159dedc955bd7ff91df4b081e4d6e3933ed5344e",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  },
+  "input_sha256": {
+    "root_class_results.json": "d8e89d07f48a8c46092ec65e3a7b005962528026e26dc094a288880b0fb129ab",
+    "capacity_search.json": "1d878ff453c412ec95618fcb2c9f399ec3244b402767a833f479b596d5b06426",
+    "exchange_repair.json": "7a6b65adac9ef93e87e2d2c46daedff86e1c26815cc6416e74bd8be380fc5bcb",
+    "root_class.certificate.json": "35d7a1c380589155195b46408eae3c72efc5cfcbcdd6a29cac0d2e7ddbffde14",
+    "repaired.certificate.json": "cfe2ea1450c961862dd8a70e6e179f7e2aa0a9c56d34bcfdb3b59caa1a1a90d1"
+  }
+}

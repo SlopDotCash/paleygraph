@@ -1,0 +1,6 @@
+{"q": 17, "n": 6, "normalized_inputs": 1365, "all_set_targets_cached": 12376, "direct_neighbour_targets": 90090}
+[{"model": "histogram", "fibres": 70, "nontrivial_fibres": 70, "ambiguous_variance_fibres": 12}, {"model": "histogram_and_quartic_deck", "fibres": 84, "nontrivial_fibres": 84, "ambiguous_variance_fibres": 0}, {"model": "histogram_and_deletion_summaries", "fibres": 98, "nontrivial_fibres": 98, "ambiguous_variance_fibres": 0}]
+{"q": 17, "n": 7, "normalized_inputs": 3003, "all_set_targets_cached": 19448, "direct_neighbour_targets": 210210}
+[{"model": "histogram", "fibres": 96, "nontrivial_fibres": 96, "ambiguous_variance_fibres": 30}, {"model": "histogram_and_quartic_deck", "fibres": 142, "nontrivial_fibres": 142, "ambiguous_variance_fibres": 6}, {"model": "histogram_and_deletion_summaries", "fibres": 148, "nontrivial_fibres": 148, "ambiguous_variance_fibres": 0}]
+{"q": 17, "n": 8, "normalized_inputs": 5005, "all_set_targets_cached": 24310, "direct_neighbour_targets": 360360}
+[{"model": "histogram", "fibres": 111, "nontrivial_fibres": 111, "ambiguous_variance_fibres": 47}, {"model": "histogram_and_quartic_deck", "fibres": 181, "nontrivial_fibres": 181, "ambiguous_variance_fibres": 6}, {"model": "histogram_and_deletion_summaries", "fibres": 190, "nontrivial_fibres": 190, "ambiguous_variance_fibres": 0}]

@@ -1,0 +1,8754 @@
+{
+  "scope": "Cross-level compatibility and a quartic counterexample to using only the top primitive triple mass; no uniform estimate.",
+  "towers": [
+    {
+      "p": 17,
+      "N": 16,
+      "generator": 3,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "2": 1
+          },
+          "E": 264,
+          "T": 12,
+          "D": "12"
+        },
+        {
+          "s": 16,
+          "Y": 8,
+          "pair_collision_mass": 12,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "4": 1
+          },
+          "transported_histogram": {
+            "4": 1
+          },
+          "E": 3856,
+          "T": 224,
+          "D": "196"
+        }
+      ],
+      "total_triple_mass": 8,
+      "intrinsic_pair_mass": 12,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 14,
+      "anchor_mass": 7,
+      "scaled_unbalanced_sum": "31/2",
+      "E": 3856,
+      "compatibility_left": "37",
+      "compatibility_right": "37",
+      "literal_pair_checks": 760,
+      "all_passed": true
+    },
+    {
+      "p": 97,
+      "N": 32,
+      "generator": 28,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 1104,
+          "T": 48,
+          "D": "24"
+        },
+        {
+          "s": 32,
+          "Y": 11,
+          "pair_collision_mass": 18,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          },
+          "E": 11424,
+          "T": 528,
+          "D": "264"
+        }
+      ],
+      "total_triple_mass": 11,
+      "intrinsic_pair_mass": 18,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 21,
+      "anchor_mass": 4,
+      "scaled_unbalanced_sum": "39/2",
+      "E": 11424,
+      "compatibility_left": "48",
+      "compatibility_right": "48",
+      "literal_pair_checks": 3064,
+      "all_passed": true
+    },
+    {
+      "p": 193,
+      "N": 32,
+      "generator": 185,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 784,
+          "T": 8,
+          "D": "4"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 10,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          },
+          "E": 6560,
+          "T": 192,
+          "D": "112"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 10,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 7,
+      "anchor_mass": 2,
+      "scaled_unbalanced_sum": "13/2",
+      "E": 6560,
+      "compatibility_left": "18",
+      "compatibility_right": "18",
+      "literal_pair_checks": 3064,
+      "all_passed": true
+    },
+    {
+      "p": 641,
+      "N": 32,
+      "generator": 160,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "E": 5664,
+          "T": 144,
+          "D": "84"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 5,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "9/2",
+      "E": 5664,
+      "compatibility_left": "13",
+      "compatibility_right": "13",
+      "literal_pair_checks": 3064,
+      "all_passed": true
+    },
+    {
+      "p": 1217,
+      "N": 32,
+      "generator": 540,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "E": 4512,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 4512,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 3064,
+      "all_passed": true
+    },
+    {
+      "p": 2113,
+      "N": 32,
+      "generator": 2005,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 5,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 5,
+            "3": 1
+          },
+          "E": 4128,
+          "T": 0,
+          "D": "36"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 6,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 0,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "0",
+      "E": 4128,
+      "compatibility_left": "3",
+      "compatibility_right": "3",
+      "literal_pair_checks": 3064,
+      "all_passed": true
+    },
+    {
+      "p": 193,
+      "N": 64,
+      "generator": 125,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 6,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 1,
+            "3": 1
+          },
+          "E": 784,
+          "T": 8,
+          "D": "4"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 10,
+          "alias_ordered_mass": 8,
+          "multiplicity_histogram": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          },
+          "E": 6560,
+          "T": 192,
+          "D": "112"
+        },
+        {
+          "s": 64,
+          "Y": 64,
+          "pair_collision_mass": 80,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "4": 2,
+            "8": 1
+          },
+          "transported_histogram": {
+            "4": 2,
+            "8": 1
+          },
+          "E": 89920,
+          "T": 4992,
+          "D": "1216"
+        }
+      ],
+      "total_triple_mass": 67,
+      "intrinsic_pair_mass": 90,
+      "alias_ordered_mass": 14,
+      "cross_level_product": 95,
+      "anchor_mass": 10,
+      "scaled_unbalanced_sum": "169/2",
+      "E": 89920,
+      "compatibility_left": "214",
+      "compatibility_right": "214",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 257,
+      "N": 64,
+      "generator": 81,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 912,
+          "T": 24,
+          "D": "12"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 8,
+          "multiplicity_histogram": {
+            "1": 2,
+            "2": 3
+          },
+          "transported_histogram": {
+            "2": 1,
+            "3": 2
+          },
+          "E": 6816,
+          "T": 288,
+          "D": "120"
+        },
+        {
+          "s": 64,
+          "Y": 38,
+          "pair_collision_mass": 54,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "2": 1,
+            "4": 1,
+            "5": 2
+          },
+          "transported_histogram": {
+            "2": 1,
+            "4": 1,
+            "5": 2
+          },
+          "E": 69696,
+          "T": 3648,
+          "D": "900"
+        }
+      ],
+      "total_triple_mass": 38,
+      "intrinsic_pair_mass": 60,
+      "alias_ordered_mass": 10,
+      "cross_level_product": 74,
+      "anchor_mass": 7,
+      "scaled_unbalanced_sum": "135/2",
+      "E": 69696,
+      "compatibility_left": "165",
+      "compatibility_right": "165",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 449,
+      "N": 64,
+      "generator": 391,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 4,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 4,
+            "2": 2
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "E": 5664,
+          "T": 240,
+          "D": "84"
+        },
+        {
+          "s": 64,
+          "Y": 12,
+          "pair_collision_mass": 28,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "2": 2,
+            "3": 4
+          },
+          "transported_histogram": {
+            "2": 2,
+            "3": 4
+          },
+          "E": 45888,
+          "T": 2208,
+          "D": "528"
+        }
+      ],
+      "total_triple_mass": 12,
+      "intrinsic_pair_mass": 32,
+      "alias_ordered_mass": 6,
+      "cross_level_product": 45,
+      "anchor_mass": 4,
+      "scaled_unbalanced_sum": "42",
+      "E": 45888,
+      "compatibility_left": "100",
+      "compatibility_right": "100",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 577,
+      "N": 64,
+      "generator": 557,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "2": 1
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 2,
+            "2": 3
+          },
+          "transported_histogram": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          },
+          "E": 5664,
+          "T": 192,
+          "D": "84"
+        },
+        {
+          "s": 64,
+          "Y": 11,
+          "pair_collision_mass": 24,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "E": 39744,
+          "T": 1632,
+          "D": "432"
+        }
+      ],
+      "total_triple_mass": 11,
+      "intrinsic_pair_mass": 30,
+      "alias_ordered_mass": 6,
+      "cross_level_product": 34,
+      "anchor_mass": 4,
+      "scaled_unbalanced_sum": "63/2",
+      "E": 39744,
+      "compatibility_left": "78",
+      "compatibility_right": "78",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 641,
+      "N": 64,
+      "generator": 77,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 2,
+            "3": 2
+          },
+          "E": 5664,
+          "T": 144,
+          "D": "84"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 5,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 5,
+            "3": 1
+          },
+          "E": 38208,
+          "T": 1824,
+          "D": "408"
+        }
+      ],
+      "total_triple_mass": 6,
+      "intrinsic_pair_mass": 24,
+      "alias_ordered_mass": 6,
+      "cross_level_product": 34,
+      "anchor_mass": 4,
+      "scaled_unbalanced_sum": "33",
+      "E": 38208,
+      "compatibility_left": "78",
+      "compatibility_right": "78",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 769,
+      "N": 64,
+      "generator": 64,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 11,
+          "pair_collision_mass": 24,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "E": 30528,
+          "T": 1152,
+          "D": "288"
+        }
+      ],
+      "total_triple_mass": 11,
+      "intrinsic_pair_mass": 24,
+      "alias_ordered_mass": 4,
+      "cross_level_product": 20,
+      "anchor_mass": 4,
+      "scaled_unbalanced_sum": "18",
+      "E": 30528,
+      "compatibility_left": "48",
+      "compatibility_right": "48",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 4673,
+      "N": 64,
+      "generator": 2204,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 13,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 13,
+            "3": 1
+          },
+          "E": 15936,
+          "T": 192,
+          "D": "60"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 6,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 3,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "3",
+      "E": 15936,
+      "compatibility_left": "9",
+      "compatibility_right": "9",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 7873,
+      "N": 64,
+      "generator": 2000,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 13,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 13,
+            "3": 1
+          },
+          "E": 14400,
+          "T": 0,
+          "D": "36"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 6,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 0,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "0",
+      "E": 14400,
+      "compatibility_left": "3",
+      "compatibility_right": "3",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 7937,
+      "N": 64,
+      "generator": 1707,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 3744,
+          "T": 96,
+          "D": "24"
+        },
+        {
+          "s": 64,
+          "Y": 8,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8,
+            "2": 2,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 8,
+            "2": 2,
+            "4": 1
+          },
+          "E": 25920,
+          "T": 768,
+          "D": "216"
+        }
+      ],
+      "total_triple_mass": 8,
+      "intrinsic_pair_mass": 16,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 17,
+      "anchor_mass": 2,
+      "scaled_unbalanced_sum": "15",
+      "E": 25920,
+      "compatibility_left": "38",
+      "compatibility_right": "38",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 23041,
+      "N": 64,
+      "generator": 12817,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 15168,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 15168,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 48449,
+      "N": 64,
+      "generator": 39570,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 18240,
+          "T": 384,
+          "D": "96"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 7,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "6",
+      "E": 18240,
+      "compatibility_left": "16",
+      "compatibility_right": "16",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 142529,
+      "N": 64,
+      "generator": 85830,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 16704,
+          "T": 192,
+          "D": "72"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 4,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "3",
+      "E": 16704,
+      "compatibility_left": "10",
+      "compatibility_right": "10",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 176321,
+      "N": 64,
+      "generator": 79123,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 15168,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 15168,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 177473,
+      "N": 64,
+      "generator": 82878,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 15168,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 15168,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 240641,
+      "N": 64,
+      "generator": 185002,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 15168,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 15168,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 259201,
+      "N": 64,
+      "generator": 166900,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 15168,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 15168,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 697601,
+      "N": 64,
+      "generator": 540784,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 17472,
+          "T": 288,
+          "D": "84"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 5,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "9/2",
+      "E": 17472,
+      "compatibility_left": "13",
+      "compatibility_right": "13",
+      "literal_pair_checks": 12280,
+      "all_passed": true
+    },
+    {
+      "p": 257,
+      "N": 128,
+      "generator": 9,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "2": 1
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "2": 2
+          },
+          "E": 912,
+          "T": 24,
+          "D": "12"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 26,
+          "multiplicity_histogram": {
+            "1": 2,
+            "2": 3
+          },
+          "transported_histogram": {
+            "2": 1,
+            "6": 1
+          },
+          "E": 6816,
+          "T": 288,
+          "D": "120"
+        },
+        {
+          "s": 64,
+          "Y": 38,
+          "pair_collision_mass": 54,
+          "alias_ordered_mass": 66,
+          "multiplicity_histogram": {
+            "2": 1,
+            "4": 1,
+            "5": 2
+          },
+          "transported_histogram": {
+            "6": 1,
+            "10": 1
+          },
+          "E": 69696,
+          "T": 3648,
+          "D": "900"
+        },
+        {
+          "s": 128,
+          "Y": 448,
+          "pair_collision_mass": 480,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "16": 2
+          },
+          "transported_histogram": {
+            "16": 2
+          },
+          "E": 1048704,
+          "T": 64512,
+          "D": "7812"
+        }
+      ],
+      "total_triple_mass": 486,
+      "intrinsic_pair_mass": 540,
+      "alias_ordered_mass": 98,
+      "cross_level_product": 642,
+      "anchor_mass": 31,
+      "scaled_unbalanced_sum": "1143/2",
+      "E": 1048704,
+      "compatibility_left": "1413",
+      "compatibility_right": "1413",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 641,
+      "N": 128,
+      "generator": 243,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 6,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 1,
+            "3": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 10,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          },
+          "E": 5664,
+          "T": 144,
+          "D": "84"
+        },
+        {
+          "s": 64,
+          "Y": 3,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 26,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 5,
+            "3": 1
+          },
+          "transported_histogram": {
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 1
+          },
+          "E": 38208,
+          "T": 1824,
+          "D": "408"
+        },
+        {
+          "s": 128,
+          "Y": 142,
+          "pair_collision_mass": 174,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "6": 3,
+            "7": 2
+          },
+          "transported_histogram": {
+            "6": 3,
+            "7": 2
+          },
+          "E": 440448,
+          "T": 25728,
+          "D": "3060"
+        }
+      ],
+      "total_triple_mass": 148,
+      "intrinsic_pair_mass": 198,
+      "alias_ordered_mass": 42,
+      "cross_level_product": 256,
+      "anchor_mass": 13,
+      "scaled_unbalanced_sum": "234",
+      "E": 440448,
+      "compatibility_left": "567",
+      "compatibility_right": "567",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 769,
+      "N": 128,
+      "generator": 761,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 6,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 5,
+            "3": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 11,
+          "pair_collision_mass": 24,
+          "alias_ordered_mass": 14,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 1,
+            "2": 3,
+            "4": 1,
+            "5": 1
+          },
+          "E": 30528,
+          "T": 1152,
+          "D": "288"
+        },
+        {
+          "s": 128,
+          "Y": 122,
+          "pair_collision_mass": 154,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "8": 1
+          },
+          "transported_histogram": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "8": 1
+          },
+          "E": 368256,
+          "T": 20544,
+          "D": "2496"
+        }
+      ],
+      "total_triple_mass": 133,
+      "intrinsic_pair_mass": 178,
+      "alias_ordered_mass": 22,
+      "cross_level_product": 207,
+      "anchor_mass": 10,
+      "scaled_unbalanced_sum": "357/2",
+      "E": 368256,
+      "compatibility_left": "446",
+      "compatibility_right": "446",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 1153,
+      "N": 128,
+      "generator": 1096,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 4,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 4,
+            "2": 2
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "E": 3744,
+          "T": 0,
+          "D": "24"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 12,
+          "alias_ordered_mass": 16,
+          "multiplicity_histogram": {
+            "1": 4,
+            "2": 6
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 2,
+            "3": 2,
+            "4": 1
+          },
+          "E": 24384,
+          "T": 768,
+          "D": "192"
+        },
+        {
+          "s": 128,
+          "Y": 66,
+          "pair_collision_mass": 98,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "2": 3,
+            "3": 1,
+            "4": 3,
+            "5": 1,
+            "6": 1
+          },
+          "transported_histogram": {
+            "2": 3,
+            "3": 1,
+            "4": 3,
+            "5": 1,
+            "6": 1
+          },
+          "E": 271488,
+          "T": 15360,
+          "D": "1740"
+        }
+      ],
+      "total_triple_mass": 66,
+      "intrinsic_pair_mass": 114,
+      "alias_ordered_mass": 20,
+      "cross_level_product": 148,
+      "anchor_mass": 5,
+      "scaled_unbalanced_sum": "132",
+      "E": 271488,
+      "compatibility_left": "321",
+      "compatibility_right": "321",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 1409,
+      "N": 128,
+      "generator": 1022,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "2": 1
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 4,
+            "2": 2
+          },
+          "E": 3744,
+          "T": 96,
+          "D": "24"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 2,
+          "alias_ordered_mass": 14,
+          "multiplicity_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "transported_histogram": {
+            "1": 3,
+            "2": 5,
+            "3": 1
+          },
+          "E": 20544,
+          "T": 768,
+          "D": "132"
+        },
+        {
+          "s": 128,
+          "Y": 59,
+          "pair_collision_mass": 90,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1,
+            "2": 3,
+            "3": 1,
+            "4": 4,
+            "6": 1
+          },
+          "transported_histogram": {
+            "1": 1,
+            "2": 3,
+            "3": 1,
+            "4": 4,
+            "6": 1
+          },
+          "E": 242304,
+          "T": 13440,
+          "D": "1512"
+        }
+      ],
+      "total_triple_mass": 59,
+      "intrinsic_pair_mass": 92,
+      "alias_ordered_mass": 20,
+      "cross_level_product": 129,
+      "anchor_mass": 8,
+      "scaled_unbalanced_sum": "120",
+      "E": 242304,
+      "compatibility_left": "286",
+      "compatibility_right": "286",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 2689,
+      "N": 128,
+      "generator": 491,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 3744,
+          "T": 96,
+          "D": "24"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 4,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 12,
+            "2": 2
+          },
+          "transported_histogram": {
+            "1": 8,
+            "2": 4
+          },
+          "E": 18240,
+          "T": 384,
+          "D": "96"
+        },
+        {
+          "s": 128,
+          "Y": 22,
+          "pair_collision_mass": 46,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8,
+            "2": 5,
+            "3": 2,
+            "4": 2
+          },
+          "transported_histogram": {
+            "1": 8,
+            "2": 5,
+            "3": 2,
+            "4": 2
+          },
+          "E": 144000,
+          "T": 5952,
+          "D": "744"
+        }
+      ],
+      "total_triple_mass": 22,
+      "intrinsic_pair_mass": 50,
+      "alias_ordered_mass": 4,
+      "cross_level_product": 64,
+      "anchor_mass": 4,
+      "scaled_unbalanced_sum": "111/2",
+      "E": 144000,
+      "compatibility_left": "136",
+      "compatibility_right": "136",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 3329,
+      "N": 128,
+      "generator": 1915,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 4,
+            "2": 2
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 4,
+          "alias_ordered_mass": 6,
+          "multiplicity_histogram": {
+            "1": 12,
+            "2": 2
+          },
+          "transported_histogram": {
+            "1": 9,
+            "2": 2,
+            "3": 1
+          },
+          "E": 16704,
+          "T": 384,
+          "D": "72"
+        },
+        {
+          "s": 128,
+          "Y": 14,
+          "pair_collision_mass": 42,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4,
+            "2": 9,
+            "3": 2,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 4,
+            "2": 9,
+            "3": 2,
+            "4": 1
+          },
+          "E": 120960,
+          "T": 3840,
+          "D": "564"
+        }
+      ],
+      "total_triple_mass": 14,
+      "intrinsic_pair_mass": 46,
+      "alias_ordered_mass": 12,
+      "cross_level_product": 40,
+      "anchor_mass": 3,
+      "scaled_unbalanced_sum": "36",
+      "E": 120960,
+      "compatibility_left": "95",
+      "compatibility_right": "95",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 4481,
+      "N": 128,
+      "generator": 1937,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 16
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 6,
+          "pair_collision_mass": 24,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 14,
+            "2": 6,
+            "3": 2
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 6,
+            "3": 2
+          },
+          "E": 93312,
+          "T": 3264,
+          "D": "348"
+        }
+      ],
+      "total_triple_mass": 6,
+      "intrinsic_pair_mass": 24,
+      "alias_ordered_mass": 0,
+      "cross_level_product": 30,
+      "anchor_mass": 3,
+      "scaled_unbalanced_sum": "51/2",
+      "E": 93312,
+      "compatibility_left": "63",
+      "compatibility_right": "63",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 4993,
+      "N": 128,
+      "generator": 2201,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 3744,
+          "T": 96,
+          "D": "24"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 12,
+            "2": 2
+          },
+          "E": 13632,
+          "T": 0,
+          "D": "24"
+        },
+        {
+          "s": 128,
+          "Y": 9,
+          "pair_collision_mass": 28,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 13,
+            "2": 5,
+            "3": 3
+          },
+          "transported_histogram": {
+            "1": 13,
+            "2": 5,
+            "3": 3
+          },
+          "E": 96384,
+          "T": 2880,
+          "D": "372"
+        }
+      ],
+      "total_triple_mass": 9,
+      "intrinsic_pair_mass": 28,
+      "alias_ordered_mass": 6,
+      "cross_level_product": 28,
+      "anchor_mass": 3,
+      "scaled_unbalanced_sum": "51/2",
+      "E": 96384,
+      "compatibility_left": "65",
+      "compatibility_right": "65",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 6529,
+      "N": 128,
+      "generator": 2338,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 16
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "E": 90240,
+          "T": 3648,
+          "D": "324"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 16,
+      "alias_ordered_mass": 0,
+      "cross_level_product": 32,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "57/2",
+      "E": 90240,
+      "compatibility_left": "65",
+      "compatibility_right": "65",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 7297,
+      "N": 128,
+      "generator": 383,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 6,
+            "2": 1
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 4,
+          "alias_ordered_mass": 4,
+          "multiplicity_histogram": {
+            "1": 12,
+            "2": 2
+          },
+          "transported_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "E": 13632,
+          "T": 0,
+          "D": "24"
+        },
+        {
+          "s": 128,
+          "Y": 14,
+          "pair_collision_mass": 24,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 22,
+            "3": 2,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 22,
+            "3": 2,
+            "4": 1
+          },
+          "E": 88704,
+          "T": 2304,
+          "D": "312"
+        }
+      ],
+      "total_triple_mass": 14,
+      "intrinsic_pair_mass": 28,
+      "alias_ordered_mass": 6,
+      "cross_level_product": 22,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "18",
+      "E": 88704,
+      "compatibility_left": "50",
+      "compatibility_right": "50",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 9857,
+      "N": 128,
+      "generator": 3864,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 2,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "transported_histogram": {
+            "1": 12,
+            "2": 2
+          },
+          "E": 12864,
+          "T": 0,
+          "D": "12"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "E": 71808,
+          "T": 1152,
+          "D": "180"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 18,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 12,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "9",
+      "E": 71808,
+      "compatibility_left": "27",
+      "compatibility_right": "27",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 10753,
+      "N": 128,
+      "generator": 7391,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 16
+          },
+          "E": 13632,
+          "T": 192,
+          "D": "24"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "E": 64128,
+          "T": 0,
+          "D": "120"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 16,
+      "alias_ordered_mass": 0,
+      "cross_level_product": 7,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "3",
+      "E": 64128,
+      "compatibility_left": "14",
+      "compatibility_right": "14",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 14593,
+      "N": 128,
+      "generator": 8285,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 8,
+          "pair_collision_mass": 20,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 20,
+            "2": 4,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 20,
+            "2": 4,
+            "4": 1
+          },
+          "E": 70272,
+          "T": 768,
+          "D": "168"
+        }
+      ],
+      "total_triple_mass": 8,
+      "intrinsic_pair_mass": 20,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 10,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "6",
+      "E": 70272,
+      "compatibility_left": "22",
+      "compatibility_right": "22",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 30977,
+      "N": 128,
+      "generator": 4247,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 31873,
+      "N": 128,
+      "generator": 14967,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 12,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 23,
+            "2": 3,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 23,
+            "2": 3,
+            "3": 1
+          },
+          "E": 67200,
+          "T": 1152,
+          "D": "144"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 12,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 11,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "9",
+      "E": 67200,
+      "compatibility_left": "24",
+      "compatibility_right": "24",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 40193,
+      "N": 128,
+      "generator": 5334,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 158209,
+      "N": 128,
+      "generator": 62619,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 57984,
+          "T": 384,
+          "D": "72"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 4,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "3",
+      "E": 57984,
+      "compatibility_left": "10",
+      "compatibility_right": "10",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 528001,
+      "N": 128,
+      "generator": 497705,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 932609,
+      "N": 128,
+      "generator": 431323,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 944897,
+      "N": 128,
+      "generator": 348636,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 1518337,
+      "N": 128,
+      "generator": 1161347,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 29,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 29,
+            "3": 1
+          },
+          "E": 53376,
+          "T": 0,
+          "D": "36"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 6,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 0,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "0",
+      "E": 53376,
+      "compatibility_left": "3",
+      "compatibility_right": "3",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 6166273,
+      "N": 128,
+      "generator": 1966956,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 6529153,
+      "N": 128,
+      "generator": 677143,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 6725249,
+      "N": 128,
+      "generator": 2511079,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 24645377,
+      "N": 128,
+      "generator": 16801460,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 26949761,
+      "N": 128,
+      "generator": 13788393,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 27744257,
+      "N": 128,
+      "generator": 5927705,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 6,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 29,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 29,
+            "3": 1
+          },
+          "E": 53376,
+          "T": 0,
+          "D": "36"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 6,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 0,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "0",
+      "E": 53376,
+      "compatibility_left": "3",
+      "compatibility_right": "3",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 30858241,
+      "N": 128,
+      "generator": 7665925,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 53044993,
+      "N": 128,
+      "generator": 49928432,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 65456257,
+      "N": 128,
+      "generator": 30667130,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 13632,
+          "T": 192,
+          "D": "24"
+        },
+        {
+          "s": 128,
+          "Y": 8,
+          "pair_collision_mass": 16,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 24,
+            "2": 2,
+            "4": 1
+          },
+          "transported_histogram": {
+            "1": 24,
+            "2": 2,
+            "4": 1
+          },
+          "E": 76416,
+          "T": 1536,
+          "D": "216"
+        }
+      ],
+      "total_triple_mass": 8,
+      "intrinsic_pair_mass": 16,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 17,
+      "anchor_mass": 2,
+      "scaled_unbalanced_sum": "15",
+      "E": 76416,
+      "compatibility_left": "38",
+      "compatibility_right": "38",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 77796353,
+      "N": 128,
+      "generator": 7906121,
+      "quartic_window": true,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 118593281,
+      "N": 128,
+      "generator": 46738379,
+      "quartic_window": true,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 57984,
+          "T": 384,
+          "D": "72"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 4,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "3",
+      "E": 57984,
+      "compatibility_left": "10",
+      "compatibility_right": "10",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 181312129,
+      "N": 128,
+      "generator": 173500955,
+      "quartic_window": true,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 323909633,
+      "N": 128,
+      "generator": 100768314,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 886538753,
+      "N": 128,
+      "generator": 20962072,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 2144280833,
+      "N": 128,
+      "generator": 244854582,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 15064776193,
+      "N": 128,
+      "generator": 11995951248,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 25692456577,
+      "N": 128,
+      "generator": 13742829189,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 25971027073,
+      "N": 128,
+      "generator": 15901716431,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 36207211393,
+      "N": 128,
+      "generator": 22195135210,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 36819670273,
+      "N": 128,
+      "generator": 12676287184,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 40605716353,
+      "N": 128,
+      "generator": 1132149188,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 47463490433,
+      "N": 128,
+      "generator": 14178466170,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 209821185281,
+      "N": 128,
+      "generator": 63164160477,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 251169086977,
+      "N": 128,
+      "generator": 241233700843,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 54912,
+          "T": 0,
+          "D": "48"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 1,
+      "anchor_mass": 0,
+      "scaled_unbalanced_sum": "0",
+      "E": 54912,
+      "compatibility_left": "4",
+      "compatibility_right": "4",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    },
+    {
+      "p": 973021549697,
+      "N": 128,
+      "generator": 884763739182,
+      "quartic_window": false,
+      "levels": [
+        {
+          "s": 4,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 1
+          },
+          "transported_histogram": {
+            "1": 1
+          },
+          "E": 36,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 8,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 2
+          },
+          "transported_histogram": {
+            "1": 2
+          },
+          "E": 168,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 16,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 4
+          },
+          "transported_histogram": {
+            "1": 4
+          },
+          "E": 720,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 32,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 8
+          },
+          "transported_histogram": {
+            "1": 8
+          },
+          "E": 2976,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 64,
+          "Y": 0,
+          "pair_collision_mass": 0,
+          "alias_ordered_mass": 2,
+          "multiplicity_histogram": {
+            "1": 16
+          },
+          "transported_histogram": {
+            "1": 14,
+            "2": 1
+          },
+          "E": 12096,
+          "T": 0,
+          "D": "0"
+        },
+        {
+          "s": 128,
+          "Y": 3,
+          "pair_collision_mass": 8,
+          "alias_ordered_mass": 0,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "transported_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "E": 59520,
+          "T": 576,
+          "D": "84"
+        }
+      ],
+      "total_triple_mass": 3,
+      "intrinsic_pair_mass": 8,
+      "alias_ordered_mass": 2,
+      "cross_level_product": 5,
+      "anchor_mass": 1,
+      "scaled_unbalanced_sum": "9/2",
+      "E": 59520,
+      "compatibility_left": "13",
+      "compatibility_right": "13",
+      "literal_pair_checks": 49144,
+      "all_passed": true
+    }
+  ],
+  "witness": {
+    "p": 2144280833,
+    "N": 256,
+    "generator": 231737012,
+    "quartic_window": true,
+    "levels": [
+      {
+        "s": 4,
+        "Y": 0,
+        "pair_collision_mass": 0,
+        "alias_ordered_mass": 0,
+        "multiplicity_histogram": {
+          "1": 1
+        },
+        "transported_histogram": {
+          "1": 1
+        },
+        "E": 36,
+        "T": 0,
+        "D": "0",
+        "root_labels_and_multiplicities": [
+          [
+            2144280829,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            1539223108,
+            1
+          ]
+        ]
+      },
+      {
+        "s": 8,
+        "Y": 0,
+        "pair_collision_mass": 0,
+        "alias_ordered_mass": 0,
+        "multiplicity_histogram": {
+          "1": 2
+        },
+        "transported_histogram": {
+          "1": 2
+        },
+        "E": 168,
+        "T": 0,
+        "D": "0",
+        "root_labels_and_multiplicities": [
+          [
+            562978214,
+            1
+          ],
+          [
+            1581302483,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            140337156,
+            1
+          ],
+          [
+            1256884523,
+            1
+          ]
+        ]
+      },
+      {
+        "s": 16,
+        "Y": 0,
+        "pair_collision_mass": 0,
+        "alias_ordered_mass": 0,
+        "multiplicity_histogram": {
+          "1": 4
+        },
+        "transported_histogram": {
+          "1": 4
+        },
+        "E": 720,
+        "T": 0,
+        "D": "0",
+        "root_labels_and_multiplicities": [
+          [
+            305728303,
+            1
+          ],
+          [
+            1050569035,
+            1
+          ],
+          [
+            1184402627,
+            1
+          ],
+          [
+            1747810229,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            39394936,
+            1
+          ],
+          [
+            113554849,
+            1
+          ],
+          [
+            142013922,
+            1
+          ],
+          [
+            1157034347,
+            1
+          ]
+        ]
+      },
+      {
+        "s": 32,
+        "Y": 0,
+        "pair_collision_mass": 0,
+        "alias_ordered_mass": 0,
+        "multiplicity_histogram": {
+          "1": 8
+        },
+        "transported_histogram": {
+          "1": 8
+        },
+        "E": 2976,
+        "T": 0,
+        "D": "0",
+        "root_labels_and_multiplicities": [
+          [
+            34591031,
+            1
+          ],
+          [
+            264809616,
+            1
+          ],
+          [
+            337896751,
+            1
+          ],
+          [
+            525454953,
+            1
+          ],
+          [
+            555093523,
+            1
+          ],
+          [
+            1123480391,
+            1
+          ],
+          [
+            1492261650,
+            1
+          ],
+          [
+            1579173146,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            111098952,
+            1
+          ],
+          [
+            113554849,
+            1
+          ],
+          [
+            117660720,
+            1
+          ],
+          [
+            826794855,
+            1
+          ],
+          [
+            1505590223,
+            1
+          ],
+          [
+            1830781943,
+            1
+          ],
+          [
+            1959492293,
+            1
+          ],
+          [
+            2056588167,
+            1
+          ]
+        ]
+      },
+      {
+        "s": 64,
+        "Y": 0,
+        "pair_collision_mass": 0,
+        "alias_ordered_mass": 2,
+        "multiplicity_histogram": {
+          "1": 16
+        },
+        "transported_histogram": {
+          "1": 14,
+          "2": 1
+        },
+        "E": 12096,
+        "T": 0,
+        "D": "0",
+        "root_labels_and_multiplicities": [
+          [
+            309362912,
+            1
+          ],
+          [
+            425411832,
+            1
+          ],
+          [
+            514223551,
+            1
+          ],
+          [
+            651513832,
+            1
+          ],
+          [
+            694646066,
+            1
+          ],
+          [
+            710154749,
+            1
+          ],
+          [
+            763901713,
+            1
+          ],
+          [
+            1142806954,
+            1
+          ],
+          [
+            1323021280,
+            1
+          ],
+          [
+            1434126084,
+            1
+          ],
+          [
+            1436374638,
+            1
+          ],
+          [
+            1451727009,
+            1
+          ],
+          [
+            1769890611,
+            1
+          ],
+          [
+            1770033268,
+            1
+          ],
+          [
+            1924593313,
+            1
+          ],
+          [
+            2135665041,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            29673879,
+            1
+          ],
+          [
+            52254038,
+            1
+          ],
+          [
+            763620436,
+            1
+          ],
+          [
+            939434213,
+            1
+          ],
+          [
+            1028312000,
+            1
+          ],
+          [
+            1097999220,
+            1
+          ],
+          [
+            1112833838,
+            1
+          ],
+          [
+            1239811250,
+            2
+          ],
+          [
+            1336110951,
+            1
+          ],
+          [
+            1353782594,
+            1
+          ],
+          [
+            1496384572,
+            1
+          ],
+          [
+            1663915623,
+            1
+          ],
+          [
+            1754599744,
+            1
+          ],
+          [
+            1958850138,
+            1
+          ],
+          [
+            1995139505,
+            1
+          ]
+        ]
+      },
+      {
+        "s": 128,
+        "Y": 3,
+        "pair_collision_mass": 8,
+        "alias_ordered_mass": 0,
+        "multiplicity_histogram": {
+          "1": 27,
+          "2": 1,
+          "3": 1
+        },
+        "transported_histogram": {
+          "1": 27,
+          "2": 1,
+          "3": 1
+        },
+        "E": 54912,
+        "T": 0,
+        "D": "48",
+        "root_labels_and_multiplicities": [
+          [
+            683551,
+            1
+          ],
+          [
+            71811823,
+            1
+          ],
+          [
+            207782986,
+            1
+          ],
+          [
+            219687520,
+            3
+          ],
+          [
+            219825336,
+            1
+          ],
+          [
+            274715879,
+            1
+          ],
+          [
+            363590737,
+            1
+          ],
+          [
+            578198687,
+            1
+          ],
+          [
+            595248101,
+            1
+          ],
+          [
+            597979666,
+            1
+          ],
+          [
+            858925600,
+            1
+          ],
+          [
+            875275890,
+            1
+          ],
+          [
+            932640001,
+            1
+          ],
+          [
+            969172488,
+            2
+          ],
+          [
+            986276313,
+            1
+          ],
+          [
+            1038627156,
+            1
+          ],
+          [
+            1050365957,
+            1
+          ],
+          [
+            1247527594,
+            1
+          ],
+          [
+            1492673345,
+            1
+          ],
+          [
+            1514283076,
+            1
+          ],
+          [
+            1593774316,
+            1
+          ],
+          [
+            1661417259,
+            1
+          ],
+          [
+            1723352544,
+            1
+          ],
+          [
+            1744500029,
+            1
+          ],
+          [
+            1813885136,
+            1
+          ],
+          [
+            1844936338,
+            1
+          ],
+          [
+            1972707614,
+            1
+          ],
+          [
+            2008658126,
+            1
+          ],
+          [
+            2022838032,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            2834844,
+            1
+          ],
+          [
+            106055490,
+            1
+          ],
+          [
+            245719413,
+            1
+          ],
+          [
+            321293067,
+            1
+          ],
+          [
+            326900636,
+            1
+          ],
+          [
+            414800820,
+            1
+          ],
+          [
+            439277911,
+            1
+          ],
+          [
+            440012590,
+            1
+          ],
+          [
+            647069819,
+            1
+          ],
+          [
+            828143152,
+            1
+          ],
+          [
+            885271446,
+            1
+          ],
+          [
+            1005727255,
+            1
+          ],
+          [
+            1025152361,
+            1
+          ],
+          [
+            1059901464,
+            1
+          ],
+          [
+            1066755766,
+            1
+          ],
+          [
+            1122097773,
+            1
+          ],
+          [
+            1280122964,
+            1
+          ],
+          [
+            1322908784,
+            1
+          ],
+          [
+            1473304070,
+            2
+          ],
+          [
+            1542739598,
+            1
+          ],
+          [
+            1626244431,
+            1
+          ],
+          [
+            1686432813,
+            1
+          ],
+          [
+            1888323765,
+            3
+          ],
+          [
+            1910044131,
+            1
+          ],
+          [
+            1933028840,
+            1
+          ],
+          [
+            2008456823,
+            1
+          ],
+          [
+            2036822163,
+            1
+          ],
+          [
+            2052427850,
+            1
+          ],
+          [
+            2058928517,
+            1
+          ]
+        ],
+        "witness": {
+          "x": 5438615,
+          "representations": [
+            [
+              1994579121,
+              155140327
+            ],
+            [
+              1765701062,
+              384018386
+            ],
+            [
+              559077563,
+              1590641885
+            ]
+          ]
+        }
+      },
+      {
+        "s": 256,
+        "Y": 0,
+        "pair_collision_mass": 0,
+        "alias_ordered_mass": 0,
+        "multiplicity_histogram": {
+          "1": 64
+        },
+        "transported_histogram": {
+          "1": 64
+        },
+        "E": 208128,
+        "T": 0,
+        "D": "48",
+        "root_labels_and_multiplicities": [
+          [
+            25128570,
+            1
+          ],
+          [
+            43480574,
+            1
+          ],
+          [
+            99575144,
+            1
+          ],
+          [
+            131126945,
+            1
+          ],
+          [
+            159764697,
+            1
+          ],
+          [
+            162141121,
+            1
+          ],
+          [
+            205643410,
+            1
+          ],
+          [
+            244277083,
+            1
+          ],
+          [
+            282623958,
+            1
+          ],
+          [
+            353884123,
+            1
+          ],
+          [
+            355681546,
+            1
+          ],
+          [
+            373884626,
+            1
+          ],
+          [
+            378732359,
+            1
+          ],
+          [
+            435660918,
+            1
+          ],
+          [
+            504869343,
+            1
+          ],
+          [
+            588075914,
+            1
+          ],
+          [
+            615024080,
+            1
+          ],
+          [
+            647545767,
+            1
+          ],
+          [
+            664177878,
+            1
+          ],
+          [
+            689438110,
+            1
+          ],
+          [
+            770567243,
+            1
+          ],
+          [
+            775544739,
+            1
+          ],
+          [
+            777669341,
+            1
+          ],
+          [
+            826774414,
+            1
+          ],
+          [
+            830286339,
+            1
+          ],
+          [
+            852881584,
+            1
+          ],
+          [
+            936469733,
+            1
+          ],
+          [
+            980086615,
+            1
+          ],
+          [
+            993004561,
+            1
+          ],
+          [
+            993698832,
+            1
+          ],
+          [
+            1049921254,
+            1
+          ],
+          [
+            1103717214,
+            1
+          ],
+          [
+            1121616834,
+            1
+          ],
+          [
+            1137120703,
+            1
+          ],
+          [
+            1151627827,
+            1
+          ],
+          [
+            1160053794,
+            1
+          ],
+          [
+            1172847291,
+            1
+          ],
+          [
+            1177647751,
+            1
+          ],
+          [
+            1226792783,
+            1
+          ],
+          [
+            1231287038,
+            1
+          ],
+          [
+            1244585769,
+            1
+          ],
+          [
+            1281350220,
+            1
+          ],
+          [
+            1305203305,
+            1
+          ],
+          [
+            1365322286,
+            1
+          ],
+          [
+            1370973177,
+            1
+          ],
+          [
+            1471080587,
+            1
+          ],
+          [
+            1481705245,
+            1
+          ],
+          [
+            1491487374,
+            1
+          ],
+          [
+            1527774470,
+            1
+          ],
+          [
+            1549967530,
+            1
+          ],
+          [
+            1560325554,
+            1
+          ],
+          [
+            1571929546,
+            1
+          ],
+          [
+            1575086737,
+            1
+          ],
+          [
+            1590251073,
+            1
+          ],
+          [
+            1639044468,
+            1
+          ],
+          [
+            1655560961,
+            1
+          ],
+          [
+            1730584636,
+            1
+          ],
+          [
+            1765983113,
+            1
+          ],
+          [
+            1825226395,
+            1
+          ],
+          [
+            1931856116,
+            1
+          ],
+          [
+            1941784782,
+            1
+          ],
+          [
+            1989157262,
+            1
+          ],
+          [
+            2034536465,
+            1
+          ],
+          [
+            2090199490,
+            1
+          ]
+        ],
+        "endpoint_labels_and_multiplicities": [
+          [
+            25128570,
+            1
+          ],
+          [
+            43480574,
+            1
+          ],
+          [
+            99575144,
+            1
+          ],
+          [
+            131126945,
+            1
+          ],
+          [
+            159764697,
+            1
+          ],
+          [
+            162141121,
+            1
+          ],
+          [
+            205643410,
+            1
+          ],
+          [
+            244277083,
+            1
+          ],
+          [
+            282623958,
+            1
+          ],
+          [
+            353884123,
+            1
+          ],
+          [
+            355681546,
+            1
+          ],
+          [
+            373884626,
+            1
+          ],
+          [
+            378732359,
+            1
+          ],
+          [
+            435660918,
+            1
+          ],
+          [
+            504869343,
+            1
+          ],
+          [
+            588075914,
+            1
+          ],
+          [
+            615024080,
+            1
+          ],
+          [
+            647545767,
+            1
+          ],
+          [
+            664177878,
+            1
+          ],
+          [
+            689438110,
+            1
+          ],
+          [
+            770567243,
+            1
+          ],
+          [
+            775544739,
+            1
+          ],
+          [
+            777669341,
+            1
+          ],
+          [
+            826774414,
+            1
+          ],
+          [
+            830286339,
+            1
+          ],
+          [
+            852881584,
+            1
+          ],
+          [
+            936469733,
+            1
+          ],
+          [
+            980086615,
+            1
+          ],
+          [
+            993004561,
+            1
+          ],
+          [
+            993698832,
+            1
+          ],
+          [
+            1049921254,
+            1
+          ],
+          [
+            1103717214,
+            1
+          ],
+          [
+            1121616834,
+            1
+          ],
+          [
+            1137120703,
+            1
+          ],
+          [
+            1151627827,
+            1
+          ],
+          [
+            1160053794,
+            1
+          ],
+          [
+            1172847291,
+            1
+          ],
+          [
+            1177647751,
+            1
+          ],
+          [
+            1226792783,
+            1
+          ],
+          [
+            1231287038,
+            1
+          ],
+          [
+            1244585769,
+            1
+          ],
+          [
+            1281350220,
+            1
+          ],
+          [
+            1305203305,
+            1
+          ],
+          [
+            1365322286,
+            1
+          ],
+          [
+            1370973177,
+            1
+          ],
+          [
+            1471080587,
+            1
+          ],
+          [
+            1481705245,
+            1
+          ],
+          [
+            1491487374,
+            1
+          ],
+          [
+            1527774470,
+            1
+          ],
+          [
+            1549967530,
+            1
+          ],
+          [
+            1560325554,
+            1
+          ],
+          [
+            1571929546,
+            1
+          ],
+          [
+            1575086737,
+            1
+          ],
+          [
+            1590251073,
+            1
+          ],
+          [
+            1639044468,
+            1
+          ],
+          [
+            1655560961,
+            1
+          ],
+          [
+            1730584636,
+            1
+          ],
+          [
+            1765983113,
+            1
+          ],
+          [
+            1825226395,
+            1
+          ],
+          [
+            1931856116,
+            1
+          ],
+          [
+            1941784782,
+            1
+          ],
+          [
+            1989157262,
+            1
+          ],
+          [
+            2034536465,
+            1
+          ],
+          [
+            2090199490,
+            1
+          ]
+        ]
+      }
+    ],
+    "total_triple_mass": 3,
+    "intrinsic_pair_mass": 8,
+    "alias_ordered_mass": 2,
+    "cross_level_product": 1,
+    "anchor_mass": 0,
+    "scaled_unbalanced_sum": "0",
+    "E": 208128,
+    "compatibility_left": "4",
+    "compatibility_right": "4",
+    "literal_pair_checks": 196600,
+    "all_passed": true
+  },
+  "witness_prime_certificate": {
+    "method": "trial division by all odd integers through floor(sqrt(p))",
+    "p": 2144280833,
+    "limit": 46306
+  },
+  "witness_child_in_prior_certificate": true,
+  "tower_cases": 71,
+  "level_checks": 397,
+  "literal_pair_checks": 2731208,
+  "prior_certificate_sha256": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d",
+  "all_passed": true
+}

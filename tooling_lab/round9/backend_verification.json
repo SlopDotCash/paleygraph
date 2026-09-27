@@ -1,0 +1,271 @@
+{
+  "status": "passed",
+  "scope": "Complete dense direct arithmetic comparison of selected statistics, Q and final moments, with coefficient counts distinct from C++ DP.",
+  "cases": [
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 3,
+      "convolution_skipped": true
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 3,
+      "convolution_skipped": false
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 4,
+      "convolution_skipped": false
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 5,
+      "convolution_skipped": false
+    },
+    {
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "convolution_skipped": true
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 3,
+      "convolution_skipped": false
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 4,
+      "convolution_skipped": false
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 5,
+      "convolution_skipped": false
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 6,
+      "convolution_skipped": false
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 3,
+      "convolution_skipped": false
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 4,
+      "convolution_skipped": false
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 5,
+      "convolution_skipped": false
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 6,
+      "convolution_skipped": false
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 3,
+      "convolution_skipped": false
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 4,
+      "convolution_skipped": false
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 5,
+      "convolution_skipped": false
+    },
+    {
+      "q": 101,
+      "n": 12,
+      "degree": 6,
+      "convolution_skipped": false
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 0,
+      "convolution_skipped": true
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 1,
+      "convolution_skipped": true
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 2,
+      "convolution_skipped": true
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 3,
+      "convolution_skipped": false
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 4,
+      "convolution_skipped": false
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 5,
+      "convolution_skipped": false
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 6,
+      "convolution_skipped": false
+    }
+  ],
+  "scalar_statistics_compared": 34508,
+  "invalid_queries_rejected": 7,
+  "invalid_matrices_rejected": 3,
+  "source_sha256": {
+    "backend_review.py": "9738cd2c3ecf9e6464b3c8767a58721693547f1a7b4d238d40c36e9929e895eb",
+    "two_insertions.py": "3b1fcb88958c979b3c1db5d95ce2dc0b86ad0ccf5c2541996c55619a030eb9a6",
+    "two_insertions_backend.cpp": "8262ddc0f2517ecb41556f264a353b43fd643cb531ef2904f8c62f64142112cc",
+    "two_insertions_backend": "55b4c1a9f55257b7fa1ee274b4755be9017854acd8957e054e1e198b11ba7513",
+    "preflight.py": "caf761c25dae05d743c981d2bea387be7ba097e15360bf74f4b45f5b7f97b325"
+  },
+  "input_sha256": {
+    "../round7/local_edits/review_results.py": "f9a437253d191eeee44b8f244bb7df4f76f10c4468a7e46a187b3b46d40c2fcd"
+  }
+}

@@ -1,0 +1,1107 @@
+{
+  "status": "passed",
+  "scope": "Every nonzero relation in the stated four-dimensional coefficient box vanishing at the selected inverse root; every word in that relation-specific digit cube checked against a complete direct scalar codebook. p97 has no relation in[-2,2]^4, so its nonempty family uses[-3,3]^4.",
+  "cases": [
+    {
+      "p": 17,
+      "N": 4,
+      "g": 9,
+      "relation_coefficient_interval": [
+        -2,
+        2
+      ],
+      "radius_two_nonzero_relations": 32,
+      "relation_vectors_examined": 625,
+      "relations_checked": 32,
+      "modes": {
+        "field_projection": 32
+      },
+      "digit_words_checked": 11296,
+      "records": [
+        {
+          "relation": [
+            -2,
+            -1,
+            -1,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            -2,
+            -1,
+            1,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            -2,
+            1,
+            -2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            -2,
+            1,
+            0,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            -2,
+            1,
+            2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            -1,
+            -2,
+            -1,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            -1,
+            -2,
+            1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            -1,
+            -1,
+            1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            -1,
+            0,
+            -2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            -1,
+            0,
+            0,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            -1,
+            1,
+            0,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            -1,
+            1,
+            2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            -1,
+            2,
+            -1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            0,
+            -2,
+            -1,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            0,
+            -2,
+            1,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            0,
+            0,
+            -2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            0,
+            0,
+            2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            0,
+            2,
+            -1,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            0,
+            2,
+            1,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            1,
+            -2,
+            1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            1,
+            -1,
+            -2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            1,
+            -1,
+            0,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            1,
+            1,
+            -1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            1,
+            2,
+            -1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        },
+        {
+          "relation": [
+            2,
+            -1,
+            -2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            2,
+            -1,
+            0,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "f4c8ba2d6a240c8f04c66e7a7395b5f1bded46b79d8fdebe61757114292c02cf"
+        },
+        {
+          "relation": [
+            2,
+            -1,
+            2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "a8767c37c2ad197b88842b5407e64d6b8ebcf2480c0415383be2984cca0d6ffc"
+        },
+        {
+          "relation": [
+            2,
+            1,
+            -1,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 1,
+          "cube_words_checked": 81,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "e7989156ac254da592533026913c710d6e1c75ce1889757248212d156bfa078b"
+        },
+        {
+          "relation": [
+            2,
+            1,
+            1,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 17,
+          "verdict_stream_digest": "bd83fcef2629612dabd0da20c840697a22a73845a8fb9af9fb9e65cf47a08781"
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "N": 4,
+      "g": 27,
+      "relation_coefficient_interval": [
+        -2,
+        2
+      ],
+      "radius_two_nonzero_relations": 16,
+      "relation_vectors_examined": 625,
+      "relations_checked": 16,
+      "modes": {
+        "field_projection": 16
+      },
+      "digit_words_checked": 24208,
+      "records": [
+        {
+          "relation": [
+            -2,
+            -2,
+            -2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            -2,
+            -2,
+            1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            -2,
+            1,
+            -1,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            -1,
+            -2,
+            1,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            -1,
+            1,
+            -1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            -1,
+            1,
+            2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            1,
+            -1,
+            -2,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            1,
+            -1,
+            1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            1,
+            2,
+            -1,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            2,
+            -1,
+            -2,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            2,
+            -1,
+            1,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "6417ca205d7d2f12d0a7f2f2e961ee6236a61fdf516b71cd1c3bc5508bb9106f"
+        },
+        {
+          "relation": [
+            2,
+            2,
+            -1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        },
+        {
+          "relation": [
+            2,
+            2,
+            2,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 41,
+          "verdict_stream_digest": "8fa4ba7a1ddc498e29dd44d13d44f99648c487c557558b941edb440f1375e6c6"
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "N": 4,
+      "g": 64,
+      "relation_coefficient_interval": [
+        -3,
+        3
+      ],
+      "radius_two_nonzero_relations": 0,
+      "relation_vectors_examined": 2401,
+      "relations_checked": 32,
+      "modes": {
+        "field_projection": 32
+      },
+      "digit_words_checked": 81696,
+      "records": [
+        {
+          "relation": [
+            -3,
+            -2,
+            -3,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            -3,
+            -2,
+            0,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            -3,
+            -2,
+            3,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            -3,
+            1,
+            -1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            -3,
+            1,
+            2,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            -2,
+            -3,
+            -2,
+            3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            -2,
+            0,
+            -3,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            -2,
+            0,
+            0,
+            3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            -2,
+            3,
+            -1,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            -2,
+            3,
+            2,
+            3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            -1,
+            -2,
+            0,
+            -3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            -1,
+            -2,
+            3,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            -1,
+            1,
+            2,
+            -3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            0,
+            -3,
+            -2,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            0,
+            -3,
+            1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            0,
+            0,
+            -3,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            0,
+            3,
+            -1,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            0,
+            3,
+            2,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            1,
+            -1,
+            -2,
+            3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            1,
+            2,
+            -3,
+            1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            2,
+            -3,
+            -2,
+            -3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            2,
+            -3,
+            1,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            2,
+            0,
+            0,
+            -3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            2,
+            0,
+            3,
+            -1
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            2,
+            3,
+            2,
+            -3
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            3,
+            -1,
+            -2,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "ea9d71b096945302d908935673c7efa66b9710f6169ac8e726e83a80adbeb106"
+        },
+        {
+          "relation": [
+            3,
+            -1,
+            1,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 3,
+          "cube_words_checked": 2401,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "0a8df98a8904bfa93771266328fc5d82dda0e1fcda838a02077abd2d06d987ef"
+        },
+        {
+          "relation": [
+            3,
+            2,
+            -3,
+            -2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        },
+        {
+          "relation": [
+            3,
+            2,
+            0,
+            0
+          ],
+          "mode": "field_projection",
+          "digit_bound": 2,
+          "cube_words_checked": 625,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "f898037bdfadcf23993589cbf67cd110d3960e236960b697cd4bfef8d91e37b7"
+        },
+        {
+          "relation": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "mode": "field_projection",
+          "digit_bound": 4,
+          "cube_words_checked": 6561,
+          "actual_scalars": 97,
+          "verdict_stream_digest": "e900316f43bb4fd66ca88a9fcf400548c3dfd4875d27b88838875b8603827360"
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "codec_family_controls.py": "66ed723246209bc8e95adf4fb197ee00eae7e4c1de70d713ecb58799aed2f81e",
+    "projection_codec.py": "c250b5b9d6563ae4c76f9d2c6906b8e73c625c6900d4fe2704fb6e1946682723",
+    "../round17/realizability.py": "6b53d3bafb89cacf82210b6fdead586d39b88bc40b657ad98f5c8b57c9a17110",
+    "../round17/norm_carry.py": "8673aba54c88695408c18705355e32b2c8c59b2ae5641eba2dd4c4a3d7a29788",
+    "../round17/carry_review.py": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633"
+  }
+}

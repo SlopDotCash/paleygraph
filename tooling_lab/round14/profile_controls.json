@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "literal_integer_partitions": 7334,
+  "profile_queries_checked": 2966,
+  "exhaustive_ternary_three_by_three_matrices": 19683,
+  "finite_field_rank_comparisons": 59049,
+  "higher_dimensional_leibniz_controls": [
+    {
+      "dimension": 4,
+      "matrices": 32
+    },
+    {
+      "dimension": 5,
+      "matrices": 32
+    },
+    {
+      "dimension": 6,
+      "matrices": 16
+    },
+    {
+      "dimension": 7,
+      "matrices": 4
+    },
+    {
+      "dimension": 8,
+      "matrices": 1
+    }
+  ],
+  "source_sha256": {
+    "profile_controls.py": "0f8803b9021ce47d923e9e809d3f769c47f0a0fe52a9f42bf66428cc08bf8874",
+    "arc_profile.py": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f",
+    "dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a"
+  }
+}

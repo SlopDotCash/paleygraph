@@ -1,0 +1,2 @@
+{"phase": "small_complete", "received_words": 17, "ambient_space_members": 4913, "trials_per_word": 432, "outputs": [0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+{"status": "passed", "small_received_words": 17, "large_received_words": 2, "large_trials": 945, "large_baseline_trials": 1554, "large_output_counts": [2, 2]}

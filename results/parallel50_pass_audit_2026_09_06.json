@@ -1,0 +1,133 @@
+{
+  "observed_at_utc": "2026-09-06T17:16:03.807008+00:00",
+  "classification": "progress: two-sided energy recovery and a higher intermediate cutoff reduce the unresolved tower interval; uniform bounds unchanged",
+  "previous_goal_turn_classification": "progress: exact content valuation, prime-support restriction, and general algebraic counterexamples; no improved uniform bound",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "finite_checks": {
+    "tower_cases": 70,
+    "level_checks": 390,
+    "cutoff_checks": 460,
+    "literal_pair_checks": 1689552,
+    "all_passed": true,
+    "checker_exit_code": 0,
+    "exact_radical_scope": "Rational lower bounds certify the energy upper bounds; rational upper bounds check the weighted comparison.",
+    "new_prime_classification": false,
+    "abstract_profiles_are_field_towers": false
+  },
+  "mathematical_scope": "The total actual triple mass is necessary and sufficient up to a logarithm for the corresponding energy power. A square-root mass estimate on dyadic levels above N^(80/87)/(1+log N)^(4/29) would suffice for the intermediate target; it remains unproved.",
+  "unresolved_mass_power": "Known29/40 versus required2/3, gap7/120 before logarithms.",
+  "review_scope": "Root ordinary proofs and exact literal finite checks; no separate-agent, Lean, external review or novelty claim.",
+  "agent_scope": "Previously usage-limited lanes were not restarted; no fresh agent status claimed.",
+  "runtime_scope": "Own standard-library checker finished successfully. No Lean process was polled, started or changed.",
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel49_critical_content.py": true,
+    "research/parallel49-critical-content-2026-09-06.md": true,
+    "research/parallel49-pass-summary-2026-09-06.md": true,
+    "results/parallel49_prior_state_2026_09_06.json": true,
+    "results/parallel49_critical_content_2026_09_06.json": true,
+    "results/parallel49_source_scope_2026_09_06.json": true
+  },
+  "local_links_checked": [
+    {
+      "source": "research/parallel50-tower-mass-2026-09-06.md",
+      "target": "research/parallel48-collision-eliminants-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel50-tower-mass-2026-09-06.md",
+      "target": "research/parallel43-energy-prime-exceptions-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel50-tower-mass-2026-09-06.md",
+      "target": "research/parallel49-critical-content-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel50-tower-mass-2026-09-06.md",
+      "target": "experiments/parallel50_tower_mass.py"
+    },
+    {
+      "source": "research/parallel50-tower-mass-2026-09-06.md",
+      "target": "results/parallel50_tower_mass_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel50-pass-summary-2026-09-06.md",
+      "target": "research/parallel50-tower-mass-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel50-pass-summary-2026-09-06.md",
+      "target": "experiments/parallel50_tower_mass.py"
+    },
+    {
+      "source": "research/parallel50-pass-summary-2026-09-06.md",
+      "target": "results/parallel50_tower_mass_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel50-pass-summary-2026-09-06.md",
+      "target": "results/parallel50_pass_audit_2026_09_06.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel50-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "research/parallel50-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "research/parallel50-tower-mass-2026-09-06.md"
+    },
+    {
+      "source": "research/checkpoint-2026-09-04.md",
+      "target": "research/parallel50-pass-summary-2026-09-06.md"
+    }
+  ],
+  "source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "mathematical_and_checker_dependency_hashes": {
+    "research/parallel48-collision-eliminants-2026-09-06.md": "956846bd5f9592536730b22fb3e916c36f60b7a3d212ab3a7828b88b251a785a",
+    "research/parallel49-critical-content-2026-09-06.md": "1a32594bd7c7d857994652029702ba8cdc9430d3eb4f15ab101748f5446a0522",
+    "research/dyadic-descent-and-mixed-energy.md": "8b31a1bad9fcd1c457e442ace22214fa094395b8e2958b03589ce3b14bd13924",
+    "research/parallel43-energy-prime-exceptions-2026-09-06.md": "f865b3247e18b0e1478d6b3efee8e1aa786e12f4b1a7dc76adf4ac814342ce59",
+    "results/parallel48_collision_eliminants_2026_09_06.json": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d",
+    "results/parallel49_pass_audit_2026_09_06.json": "eac1cfb5b03a216594e3e39a2c6ad85d5616cdaa43cb641d692d1903932e4efc",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.txt": "b58780e7733f9a82373ab98a92d6b60e3c8ed6445dfc79b5291b8ab188acff1c"
+  },
+  "artifacts_sha256": {
+    "experiments/parallel50_tower_mass.py": "cb9ab8e827d10418f08ae3326bc98e7c63b048e193f9a3b50b0a701d579455d5",
+    "research/parallel50-tower-mass-2026-09-06.md": "69e7cacb043a6497e4cd5bba979b9fbb3cd2fb9daba7cbe6687a0d17669a7f33",
+    "research/parallel50-pass-summary-2026-09-06.md": "a0ae03a1894c51969febdd5dda57b46f7d77e82eb076aaf0d977439d257dab93",
+    "results/parallel50_prior_state_2026_09_06.json": "34c3d6b728e6e9f71b8f5dfa2bfeaade118f2f70f1fba0116e97f43434ce8611",
+    "results/parallel50_tower_mass_2026_09_06.json": "49bd71de11eee480930c651a25244442de260f42b29c7420ad904cada7e62659",
+    "results/parallel50_source_scope_2026_09_06.json": "67781dbce1bd587fcaeb4ed0e9e896072d0b813172dc41f01c426572b489f88f"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "5dc81270f68048f62aa37f924d08aeee8ffd6e11f4f5bf5b866ed0fea1ee5b59",
+      "after": "307eb2441cc47778bc888a50d18e6d38abe2647807a813515068439beca0786c"
+    },
+    "research/frontier.md": {
+      "before": "8715223909d55077885178a1f759ccab7ac06953bcbe99131d38266d30aa677f",
+      "after": "840fad619d1c35104e7aac98e09d53697a04ccb3303b63c3b34cac5199c0214f"
+    },
+    "research/source-audit.md": {
+      "before": "105529a88b81bf3341f936501bf4d87e24de47c9625a4dfdffef17364f581f93",
+      "after": "be924bfd3eee5a7cf940caf965716ad6df816c66a1452c35ff1696d801e720c6"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "da6c998f905230fd102f6a65e44940d08e256a92d5cf237e64237ea1e1d9801d",
+      "after": "77f3b3274d91c56101ce47277093a2a85aec93f56a5da635e060a3b92dc420af"
+    }
+  },
+  "central_git_diff_check_passed": true,
+  "next_action": "Bound actual first-precision triple mass in the upper splitting-prime tower interval, or a sufficient arithmetic substitute. Substituting the existing energy theorem at those upper levels only reproduces49/20."
+}

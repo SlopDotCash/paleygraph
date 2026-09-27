@@ -1,0 +1,34 @@
+{
+  "created_at_utc": "2026-09-05T23:17:30.084058+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel35-single-degree/ravichandran-1609.04187v2.html",
+      "sha256": "92e9d9909a9383246f095f2884859a5bb63814435cda01fc404ece580af76b64",
+      "url": "https://arxiv.org/html/1609.04187v2",
+      "use": "Theorem4.4 on roots of high derivatives of a real-rooted polynomial, mean zero and roots in [-1,1]; exact primary statement checked."
+    },
+    {
+      "path": "sources/parallel35-single-degree/ravichandran-1609.04187v2.pdf",
+      "sha256": "01389932e3b45075eea3155d035b3d6caea254ed043aa1f23ea907fc6c450f27",
+      "url": "https://arxiv.org/pdf/1609.04187v2",
+      "use": "Theorem4.4 on roots of high derivatives of a real-rooted polynomial, mean zero and roots in [-1,1]; exact primary statement checked."
+    }
+  ],
+  "visual_check": {
+    "pdf_page_zero_based": 11,
+    "printed_page": 12,
+    "image_path": "/private/tmp/paley-pass35-theorem44.png",
+    "image_sha256": "1507fd6790fa95bd1b4f01cfed795b7d517b1333573fd62a071cecfd28873060",
+    "statement_seen": "Derivative proportion at least1/2; mean-zero roots in[-1,1]; radius2sqrt(c-c^2)."
+  },
+  "local_input_sha256": {
+    "research/parallel21-squarefree-moments-2026-09-05.md": "42bfee31ccd53abaa9081128a3dfa250c5316570c407740c439b7175759f0210",
+    "research/parallel34-opposite-pair-transform-2026-09-05.md": "2e0e63e38fc4559a5578a1ad763edd7b93db522d142ab177ee92a6633e3b0955",
+    "results/parallel34_verification_2026_09_05.json": "89a3b8bef904874f36157334c1d45b418df541221c492a65797862a32147be54",
+    "research/parallel35-single-degree-comparison-2026-09-05.md": "d04ff1e5687614edf9237dca34fb2ff1a2ef2cc9ba0e5f1dbb88e7ab7d723af9"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "main_manifest_policy": "Prior manifest preserved; these two newly inspected archives are pinned by this pass-specific source ledger.",
+  "new_argument": "Apply derivative-root control separately to bounded real Fourier rows. Keep falling-factorial scale, even-degree signs, small-size branch, and nonprincipal averaging.",
+  "scope": "Unconditional Gaussian-scale lower bound and same-degree conditional upper comparison, not the missing positive upper estimate. No novelty, separate-author review, formal verification, new period exponent, or full goal completion."
+}

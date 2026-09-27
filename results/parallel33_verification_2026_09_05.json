@@ -1,0 +1,7349 @@
+{
+  "status": "exact centered collision identities and finite bounds passed; full goal unproved",
+  "check_counts": {
+    "field_primality": 11,
+    "proper_symmetric_set": 11,
+    "multiplicative_closure": 9,
+    "positive_nonprincipal_even_moment": 33,
+    "nonprincipal_jensen_lower_bound": 33,
+    "centered_mixed_partition_moment_bound": 418,
+    "mobius_matches_independent_subset_dp": 33,
+    "exact_falling_principal_term": 33,
+    "unsigned_stirling_cycle_identity": 33,
+    "rational_centered_distinct_coordinate_bound": 33,
+    "normalized_equal_pair_count": 27,
+    "repeated_coordinate_union_bound": 27,
+    "uncentered_relative_collision_bound": 27,
+    "sharper_six_word_collision_bound": 9,
+    "zero_block_coefficient_counterexample_outside_hypotheses": 1,
+    "improved_repetition_exponent": 1,
+    "improved_repetition_log_exponent": 1
+  },
+  "cases": [
+    {
+      "p": 17,
+      "n": 4,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        4,
+        13,
+        16
+      ],
+      "alpha": {
+        "numerator": 13,
+        "denominator": 4
+      },
+      "energy": 36,
+      "distinct_zero_count": 24,
+      "centered_energy": {
+        "numerator": 356,
+        "denominator": 17
+      },
+      "centered_distinct_count": {
+        "numerator": 384,
+        "denominator": 17
+      },
+      "relative_error": {
+        "numerator": 7,
+        "denominator": 89
+      },
+      "rational_epsilon_upper": {
+        "numerator": 23,
+        "denominator": 1
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 36,
+          "centered": {
+            "numerator": 356,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 4,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 52,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4,
+            "denominator": 17
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "n": 4,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        4,
+        13,
+        16
+      ],
+      "alpha": {
+        "numerator": 13,
+        "denominator": 4
+      },
+      "energy": 400,
+      "distinct_zero_count": 0,
+      "centered_energy": {
+        "numerator": 2704,
+        "denominator": 17
+      },
+      "centered_distinct_count": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "relative_error": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "rational_epsilon_upper": {
+        "numerator": 719,
+        "denominator": 1
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 400,
+          "centered": {
+            "numerator": 2704,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 4,
+          "centered": {
+            "numerator": -188,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 4,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 52,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4,
+            "denominator": 17
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "n": 4,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        4,
+        13,
+        16
+      ],
+      "alpha": {
+        "numerator": 13,
+        "denominator": 4
+      },
+      "energy": 5124,
+      "distinct_zero_count": 0,
+      "centered_energy": {
+        "numerator": 21572,
+        "denominator": 17
+      },
+      "centered_distinct_count": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "relative_error": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "rational_epsilon_upper": {
+        "numerator": 40319,
+        "denominator": 1
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 5124,
+          "centered": {
+            "numerator": 21572,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 1004,
+          "centered": {
+            "numerator": 684,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 144,
+          "centered": {
+            "numerator": -1648,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 244,
+          "centered": {
+            "numerator": 52,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 20,
+          "centered": {
+            "numerator": -684,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 56,
+          "centered": {
+            "numerator": -72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 4,
+          "centered": {
+            "numerator": -188,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 60,
+          "centered": {
+            "numerator": -4,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 12,
+          "centered": {
+            "numerator": -52,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 24,
+          "centered": {
+            "numerator": 152,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 4,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 36,
+          "centered": {
+            "numerator": 356,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 4,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 52,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 52,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4,
+            "denominator": 17
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        13,
+        15,
+        16
+      ],
+      "alpha": {
+        "numerator": 9,
+        "denominator": 2
+      },
+      "energy": 264,
+      "distinct_zero_count": 144,
+      "centered_energy": {
+        "numerator": 392,
+        "denominator": 17
+      },
+      "centered_distinct_count": {
+        "numerator": 768,
+        "denominator": 17
+      },
+      "relative_error": {
+        "numerator": 47,
+        "denominator": 49
+      },
+      "rational_epsilon_upper": {
+        "numerator": 13,
+        "denominator": 2
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 264,
+          "centered": {
+            "numerator": 392,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 24,
+          "centered": {
+            "numerator": -104,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 17
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        13,
+        15,
+        16
+      ],
+      "alpha": {
+        "numerator": 9,
+        "denominator": 2
+      },
+      "energy": 15560,
+      "distinct_zero_count": 2880,
+      "centered_energy": {
+        "numerator": 2376,
+        "denominator": 17
+      },
+      "centered_distinct_count": {
+        "numerator": 28800,
+        "denominator": 17
+      },
+      "relative_error": {
+        "numerator": 367,
+        "denominator": 33
+      },
+      "rational_epsilon_upper": {
+        "numerator": 311,
+        "denominator": 4
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 15560,
+          "centered": {
+            "numerator": 2376,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 1880,
+          "centered": {
+            "numerator": -808,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 224,
+          "centered": {
+            "numerator": -288,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 264,
+          "centered": {
+            "numerator": 392,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 24,
+          "centered": {
+            "numerator": -104,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 32,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 24,
+          "centered": {
+            "numerator": -104,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 17
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        13,
+        15,
+        16
+      ],
+      "alpha": {
+        "numerator": 9,
+        "denominator": 2
+      },
+      "energy": 987784,
+      "distinct_zero_count": 40320,
+      "centered_energy": {
+        "numerator": 15112,
+        "denominator": 17
+      },
+      "centered_distinct_count": {
+        "numerator": 645120,
+        "denominator": 17
+      },
+      "relative_error": {
+        "numerator": 78751,
+        "denominator": 1889
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2833,
+        "denominator": 2
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 987784,
+          "centered": {
+            "numerator": 15112,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 123032,
+          "centered": {
+            "numerator": -5608,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 15328,
+          "centered": {
+            "numerator": -1568,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 15560,
+          "centered": {
+            "numerator": 2376,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 1880,
+          "centered": {
+            "numerator": -808,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 1952,
+          "centered": {
+            "numerator": 416,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 224,
+          "centered": {
+            "numerator": -288,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 1880,
+          "centered": {
+            "numerator": -808,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 264,
+          "centered": {
+            "numerator": 392,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 256,
+          "centered": {
+            "numerator": 256,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 32,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 224,
+          "centered": {
+            "numerator": -288,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 32,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 32,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 264,
+          "centered": {
+            "numerator": 392,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 24,
+          "centered": {
+            "numerator": -104,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 32,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 17
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 17
+          }
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        3,
+        9,
+        14,
+        27,
+        32,
+        38,
+        40
+      ],
+      "alpha": {
+        "numerator": 33,
+        "denominator": 5
+      },
+      "energy": 200,
+      "distinct_zero_count": 144,
+      "centered_energy": {
+        "numerator": 4104,
+        "denominator": 41
+      },
+      "centered_distinct_count": {
+        "numerator": 4224,
+        "denominator": 41
+      },
+      "relative_error": {
+        "numerator": 5,
+        "denominator": 171
+      },
+      "rational_epsilon_upper": {
+        "numerator": 13,
+        "denominator": 2
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 200,
+          "centered": {
+            "numerator": 4104,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 24,
+          "centered": {
+            "numerator": 472,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 264,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 264,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 41
+          }
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        3,
+        9,
+        14,
+        27,
+        32,
+        38,
+        40
+      ],
+      "alpha": {
+        "numerator": 33,
+        "denominator": 5
+      },
+      "energy": 8240,
+      "distinct_zero_count": 2880,
+      "centered_energy": {
+        "numerator": 75696,
+        "denominator": 41
+      },
+      "centered_distinct_count": {
+        "numerator": 97920,
+        "denominator": 41
+      },
+      "relative_error": {
+        "numerator": 463,
+        "denominator": 1577
+      },
+      "rational_epsilon_upper": {
+        "numerator": 311,
+        "denominator": 4
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 8240,
+          "centered": {
+            "numerator": 75696,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 1056,
+          "centered": {
+            "numerator": 10528,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 200,
+          "centered": {
+            "numerator": 4104,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 144,
+          "centered": {
+            "numerator": 1808,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 144,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 24,
+          "centered": {
+            "numerator": 472,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -512,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 264,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 41
+          }
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        3,
+        9,
+        14,
+        27,
+        32,
+        38,
+        40
+      ],
+      "alpha": {
+        "numerator": 33,
+        "denominator": 5
+      },
+      "energy": 445256,
+      "distinct_zero_count": 40320,
+      "centered_energy": {
+        "numerator": 1478280,
+        "denominator": 41
+      },
+      "centered_distinct_count": {
+        "numerator": 1612800,
+        "denominator": 41
+      },
+      "relative_error": {
+        "numerator": 1121,
+        "denominator": 12319
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2833,
+        "denominator": 2
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 445256,
+          "centered": {
+            "numerator": 1478280,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 56376,
+          "centered": {
+            "numerator": 214264,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 8240,
+          "centered": {
+            "numerator": 75696,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 7176,
+          "centered": {
+            "numerator": 32072,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 856,
+          "centered": {
+            "numerator": 2328,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 1056,
+          "centered": {
+            "numerator": 10528,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 96,
+          "centered": {
+            "numerator": -160,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 888,
+          "centered": {
+            "numerator": 3640,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 104,
+          "centered": {
+            "numerator": 168,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 200,
+          "centered": {
+            "numerator": 4104,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 24,
+          "centered": {
+            "numerator": 472,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 144,
+          "centered": {
+            "numerator": 1808,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 144,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 144,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 200,
+          "centered": {
+            "numerator": 4104,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 24,
+          "centered": {
+            "numerator": 472,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 24,
+          "centered": {
+            "numerator": 472,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 264,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 264,
+            "denominator": 41
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 41
+          }
+        }
+      ]
+    },
+    {
+      "p": 73,
+      "n": 8,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        10,
+        22,
+        27,
+        46,
+        51,
+        63,
+        72
+      ],
+      "alpha": {
+        "numerator": 65,
+        "denominator": 9
+      },
+      "energy": 168,
+      "distinct_zero_count": 144,
+      "centered_energy": {
+        "numerator": 8168,
+        "denominator": 73
+      },
+      "centered_distinct_count": {
+        "numerator": 8832,
+        "denominator": 73
+      },
+      "relative_error": {
+        "numerator": 83,
+        "denominator": 1021
+      },
+      "rational_epsilon_upper": {
+        "numerator": 13,
+        "denominator": 2
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 168,
+          "centered": {
+            "numerator": 8168,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 520,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 73
+          }
+        }
+      ]
+    },
+    {
+      "p": 73,
+      "n": 8,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        10,
+        22,
+        27,
+        46,
+        51,
+        63,
+        72
+      ],
+      "alpha": {
+        "numerator": 65,
+        "denominator": 9
+      },
+      "energy": 5600,
+      "distinct_zero_count": 2880,
+      "centered_energy": {
+        "numerator": 146656,
+        "denominator": 73
+      },
+      "centered_distinct_count": {
+        "numerator": 190080,
+        "denominator": 73
+      },
+      "relative_error": {
+        "numerator": 1357,
+        "denominator": 4583
+      },
+      "rational_epsilon_upper": {
+        "numerator": 311,
+        "denominator": 4
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 5600,
+          "centered": {
+            "numerator": 146656,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 448,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 32,
+          "centered": {
+            "numerator": -1760,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 96,
+          "centered": {
+            "numerator": 2912,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -512,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 656,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -512,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 520,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 73
+          }
+        }
+      ]
+    },
+    {
+      "p": 73,
+      "n": 8,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        10,
+        22,
+        27,
+        46,
+        51,
+        63,
+        72
+      ],
+      "alpha": {
+        "numerator": 65,
+        "denominator": 9
+      },
+      "energy": 268968,
+      "distinct_zero_count": 40320,
+      "centered_energy": {
+        "numerator": 2857448,
+        "denominator": 73
+      },
+      "centered_distinct_count": {
+        "numerator": 2903040,
+        "denominator": 73
+      },
+      "relative_error": {
+        "numerator": 5699,
+        "denominator": 357181
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2833,
+        "denominator": 2
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 268968,
+          "centered": {
+            "numerator": 2857448,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 28680,
+          "centered": {
+            "numerator": -3512,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 3240,
+          "centered": {
+            "numerator": -25624,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 4072,
+          "centered": {
+            "numerator": 35112,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 392,
+          "centered": {
+            "numerator": -4152,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 552,
+          "centered": {
+            "numerator": 7528,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 48,
+          "centered": {
+            "numerator": -592,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 456,
+          "centered": {
+            "numerator": 520,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 40,
+          "centered": {
+            "numerator": -1176,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 96,
+          "centered": {
+            "numerator": 2912,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -512,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 40,
+          "centered": {
+            "numerator": -1176,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -512,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 168,
+          "centered": {
+            "numerator": 8168,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 72,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -512,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -64,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 8,
+          "centered": {
+            "numerator": 520,
+            "denominator": 73
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -8,
+            "denominator": 73
+          }
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        8,
+        12,
+        18,
+        22,
+        27,
+        33,
+        47,
+        50,
+        64,
+        70,
+        75,
+        79,
+        85,
+        89,
+        96
+      ],
+      "alpha": {
+        "numerator": 27,
+        "denominator": 2
+      },
+      "energy": 1104,
+      "distinct_zero_count": 1056,
+      "centered_energy": {
+        "numerator": 41552,
+        "denominator": 97
+      },
+      "centered_distinct_count": {
+        "numerator": 58752,
+        "denominator": 97
+      },
+      "relative_error": {
+        "numerator": 1075,
+        "denominator": 2597
+      },
+      "rational_epsilon_upper": {
+        "numerator": 31,
+        "denominator": 9
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 1104,
+          "centered": {
+            "numerator": 41552,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 16,
+          "centered": {
+            "numerator": -2544,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 1296,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 97
+          }
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        8,
+        12,
+        18,
+        22,
+        27,
+        33,
+        47,
+        50,
+        64,
+        70,
+        75,
+        79,
+        85,
+        89,
+        96
+      ],
+      "alpha": {
+        "numerator": 27,
+        "denominator": 2
+      },
+      "energy": 191680,
+      "distinct_zero_count": 97920,
+      "centered_energy": {
+        "numerator": 1815744,
+        "denominator": 97
+      },
+      "centered_distinct_count": {
+        "numerator": 3732480,
+        "denominator": 97
+      },
+      "relative_error": {
+        "numerator": 9983,
+        "denominator": 9457
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2159,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 191680,
+          "centered": {
+            "numerator": 1815744,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 9856,
+          "centered": {
+            "numerator": -92544,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 736,
+          "centered": {
+            "numerator": 5856,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 832,
+          "centered": {
+            "numerator": 15168,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 2112,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 2112,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4096,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 1296,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 97
+          }
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        8,
+        12,
+        18,
+        22,
+        27,
+        33,
+        47,
+        50,
+        64,
+        70,
+        75,
+        79,
+        85,
+        89,
+        96
+      ],
+      "alpha": {
+        "numerator": 27,
+        "denominator": 2
+      },
+      "energy": 45157840,
+      "distinct_zero_count": 7983360,
+      "centered_energy": {
+        "numerator": 85343184,
+        "denominator": 97
+      },
+      "centered_distinct_count": {
+        "numerator": 255467520,
+        "denominator": 97
+      },
+      "relative_error": {
+        "numerator": 1181419,
+        "denominator": 592661
+      },
+      "rational_epsilon_upper": {
+        "numerator": 22319,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 45157840,
+          "centered": {
+            "numerator": 85343184,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 2727216,
+          "centered": {
+            "numerator": -3895504,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 177760,
+          "centered": {
+            "numerator": 465504,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 176016,
+          "centered": {
+            "numerator": 296336,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 12112,
+          "centered": {
+            "numerator": 126288,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 10944,
+          "centered": {
+            "numerator": 12992,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 720,
+          "centered": {
+            "numerator": 4304,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 10096,
+          "centered": {
+            "numerator": -69264,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 624,
+          "centered": {
+            "numerator": -5008,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 832,
+          "centered": {
+            "numerator": 15168,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 2112,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 480,
+          "centered": {
+            "numerator": -18976,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 16,
+          "centered": {
+            "numerator": -2544,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 2112,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 1104,
+          "centered": {
+            "numerator": 41552,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 16,
+          "centered": {
+            "numerator": -2544,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4096,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 1296,
+            "denominator": 97
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 97
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        3,
+        9,
+        27,
+        43,
+        50,
+        64,
+        81,
+        112,
+        129,
+        143,
+        150,
+        166,
+        184,
+        190,
+        192
+      ],
+      "alpha": {
+        "numerator": 59,
+        "denominator": 4
+      },
+      "energy": 784,
+      "distinct_zero_count": 672,
+      "centered_energy": {
+        "numerator": 85776,
+        "denominator": 193
+      },
+      "centered_distinct_count": {
+        "numerator": 86016,
+        "denominator": 193
+      },
+      "relative_error": {
+        "numerator": 5,
+        "denominator": 1787
+      },
+      "rational_epsilon_upper": {
+        "numerator": 31,
+        "denominator": 9
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 784,
+          "centered": {
+            "numerator": 85776,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 5168,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 2832,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 2832,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 193
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        3,
+        9,
+        27,
+        43,
+        50,
+        64,
+        81,
+        112,
+        129,
+        143,
+        150,
+        166,
+        184,
+        190,
+        192
+      ],
+      "alpha": {
+        "numerator": 59,
+        "denominator": 4
+      },
+      "energy": 104800,
+      "distinct_zero_count": 51840,
+      "centered_energy": {
+        "numerator": 3449184,
+        "denominator": 193
+      },
+      "centered_distinct_count": {
+        "numerator": 4239360,
+        "denominator": 193
+      },
+      "relative_error": {
+        "numerator": 8231,
+        "denominator": 35929
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2159,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 104800,
+          "centered": {
+            "numerator": 3449184,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 6720,
+          "centered": {
+            "numerator": 248384,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 784,
+          "centered": {
+            "numerator": 85776,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 544,
+          "centered": {
+            "numerator": 39456,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 2080,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 5168,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4096,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 2832,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 193
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        3,
+        9,
+        27,
+        43,
+        50,
+        64,
+        81,
+        112,
+        129,
+        143,
+        150,
+        166,
+        184,
+        190,
+        192
+      ],
+      "alpha": {
+        "numerator": 59,
+        "denominator": 4
+      },
+      "energy": 23106832,
+      "distinct_zero_count": 4112640,
+      "centered_energy": {
+        "numerator": 164651280,
+        "denominator": 193
+      },
+      "centered_distinct_count": {
+        "numerator": 274821120,
+        "denominator": 193
+      },
+      "relative_error": {
+        "numerator": 459041,
+        "denominator": 686047
+      },
+      "rational_epsilon_upper": {
+        "numerator": 22319,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 23106832,
+          "centered": {
+            "numerator": 164651280,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 1458288,
+          "centered": {
+            "numerator": 13014128,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 104800,
+          "centered": {
+            "numerator": 3449184,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 94480,
+          "centered": {
+            "numerator": 1457424,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 5936,
+          "centered": {
+            "numerator": 97072,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 6720,
+          "centered": {
+            "numerator": 248384,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 432,
+          "centered": {
+            "numerator": 17840,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 6000,
+          "centered": {
+            "numerator": 109424,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 336,
+          "centered": {
+            "numerator": -688,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 784,
+          "centered": {
+            "numerator": 85776,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 5168,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 544,
+          "centered": {
+            "numerator": 39456,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 5168,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 2080,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 784,
+          "centered": {
+            "numerator": 85776,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 5168,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 5168,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 2832,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 2832,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 193
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        3,
+        8,
+        9,
+        14,
+        23,
+        24,
+        27,
+        42,
+        43,
+        50,
+        64,
+        67,
+        69,
+        72,
+        81,
+        112,
+        121,
+        124,
+        126,
+        129,
+        143,
+        150,
+        151,
+        166,
+        169,
+        170,
+        179,
+        184,
+        185,
+        190,
+        192
+      ],
+      "alpha": {
+        "numerator": 161,
+        "denominator": 6
+      },
+      "energy": 6560,
+      "distinct_zero_count": 5952,
+      "centered_energy": {
+        "numerator": 217504,
+        "denominator": 193
+      },
+      "centered_distinct_count": {
+        "numerator": 285696,
+        "denominator": 193
+      },
+      "relative_error": {
+        "numerator": 2131,
+        "denominator": 6797
+      },
+      "rational_epsilon_upper": {
+        "numerator": 211,
+        "denominator": 125
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 6560,
+          "centered": {
+            "numerator": 217504,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 160,
+          "centered": {
+            "numerator": -1888,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 5152,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 5152,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -32,
+            "denominator": 193
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        3,
+        8,
+        9,
+        14,
+        23,
+        24,
+        27,
+        42,
+        43,
+        50,
+        64,
+        67,
+        69,
+        72,
+        81,
+        112,
+        121,
+        124,
+        126,
+        129,
+        143,
+        150,
+        151,
+        166,
+        169,
+        170,
+        179,
+        184,
+        185,
+        190,
+        192
+      ],
+      "alpha": {
+        "numerator": 161,
+        "denominator": 6
+      },
+      "energy": 5620160,
+      "distinct_zero_count": 3513600,
+      "centered_energy": {
+        "numerator": 10949056,
+        "denominator": 193
+      },
+      "centered_distinct_count": {
+        "numerator": 25666560,
+        "denominator": 193
+      },
+      "relative_error": {
+        "numerator": 229961,
+        "denominator": 171079
+      },
+      "rational_epsilon_upper": {
+        "numerator": 5423,
+        "denominator": 625
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 5620160,
+          "centered": {
+            "numerator": 10949056,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 173632,
+          "centered": {
+            "numerator": -43456,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 6560,
+          "centered": {
+            "numerator": 217504,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 5952,
+          "centered": {
+            "numerator": 100160,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 128,
+          "centered": {
+            "numerator": -8064,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 160,
+          "centered": {
+            "numerator": -1888,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 192,
+          "centered": {
+            "numerator": 4288,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 5152,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -32,
+            "denominator": 193
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        3,
+        8,
+        9,
+        14,
+        23,
+        24,
+        27,
+        42,
+        43,
+        50,
+        64,
+        67,
+        69,
+        72,
+        81,
+        112,
+        121,
+        124,
+        126,
+        129,
+        143,
+        150,
+        151,
+        166,
+        169,
+        170,
+        179,
+        184,
+        185,
+        190,
+        192
+      ],
+      "alpha": {
+        "numerator": 161,
+        "denominator": 6
+      },
+      "energy": 5700069536,
+      "distinct_zero_count": 2212600320,
+      "centered_energy": {
+        "numerator": 601792672,
+        "denominator": 193
+      },
+      "centered_distinct_count": {
+        "numerator": 2934005760,
+        "denominator": 193
+      },
+      "relative_error": {
+        "numerator": 72881659,
+        "denominator": 18806021
+      },
+      "rational_epsilon_upper": {
+        "numerator": 782711,
+        "denominator": 15625
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 5700069536,
+          "centered": {
+            "numerator": 601792672,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 178038496,
+          "centered": {
+            "numerator": 1691360,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 5620160,
+          "centered": {
+            "numerator": 10949056,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 5578272,
+          "centered": {
+            "numerator": 2864672,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 172064,
+          "centered": {
+            "numerator": -346080,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 173632,
+          "centered": {
+            "numerator": -43456,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 5376,
+          "centered": {
+            "numerator": -11008,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 173152,
+          "centered": {
+            "numerator": -136096,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 5216,
+          "centered": {
+            "numerator": -41888,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 6560,
+          "centered": {
+            "numerator": 217504,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 160,
+          "centered": {
+            "numerator": -1888,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 5952,
+          "centered": {
+            "numerator": 100160,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 256,
+          "centered": {
+            "numerator": 16640,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 128,
+          "centered": {
+            "numerator": -8064,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 6560,
+          "centered": {
+            "numerator": 217504,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 160,
+          "centered": {
+            "numerator": -1888,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 160,
+          "centered": {
+            "numerator": -1888,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 5152,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 5152,
+            "denominator": 193
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -32,
+            "denominator": 193
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        129,
+        193,
+        225,
+        241,
+        249,
+        253,
+        255,
+        256
+      ],
+      "alpha": {
+        "numerator": 241,
+        "denominator": 16
+      },
+      "energy": 912,
+      "distinct_zero_count": 672,
+      "centered_energy": {
+        "numerator": 168848,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 129024,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 2489,
+        "denominator": 10553
+      },
+      "rational_epsilon_upper": {
+        "numerator": 31,
+        "denominator": 9
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 912,
+          "centered": {
+            "numerator": 168848,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 8240,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 3856,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        129,
+        193,
+        225,
+        241,
+        249,
+        253,
+        255,
+        256
+      ],
+      "alpha": {
+        "numerator": 241,
+        "denominator": 16
+      },
+      "energy": 109840,
+      "distinct_zero_count": 40320,
+      "centered_energy": {
+        "numerator": 11451664,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 4596480,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 61207,
+        "denominator": 102247
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2159,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 109840,
+          "centered": {
+            "numerator": 11451664,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 7600,
+          "centered": {
+            "numerator": 904624,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 352,
+          "centered": {
+            "numerator": 24928,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 912,
+          "centered": {
+            "numerator": 168848,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 8240,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 12352,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 8240,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 3856,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 3856,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        129,
+        193,
+        225,
+        241,
+        249,
+        253,
+        255,
+        256
+      ],
+      "alpha": {
+        "numerator": 241,
+        "denominator": 16
+      },
+      "energy": 20201104,
+      "distinct_zero_count": 2822400,
+      "centered_energy": {
+        "numerator": 896716432,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 206438400,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 43142377,
+        "denominator": 56044777
+      },
+      "rational_epsilon_upper": {
+        "numerator": 22319,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 20201104,
+          "centered": {
+            "numerator": 896716432,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 1373232,
+          "centered": {
+            "numerator": 84485168,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 79840,
+          "centered": {
+            "numerator": 3741664,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 109840,
+          "centered": {
+            "numerator": 11451664,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 7600,
+          "centered": {
+            "numerator": 904624,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 7296,
+          "centered": {
+            "numerator": 826496,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 384,
+          "centered": {
+            "numerator": 33152,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 7600,
+          "centered": {
+            "numerator": 904624,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 912,
+          "centered": {
+            "numerator": 168848,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 640,
+          "centered": {
+            "numerator": 98944,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 12352,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 352,
+          "centered": {
+            "numerator": 24928,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 4128,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 64,
+          "centered": {
+            "numerator": 12352,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 912,
+          "centered": {
+            "numerator": 168848,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 48,
+          "centered": {
+            "numerator": 8240,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -4096,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -256,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 16,
+          "centered": {
+            "numerator": 3856,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -16,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "subgroup": true,
+      "r": 4,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        15,
+        16,
+        17,
+        30,
+        32,
+        34,
+        60,
+        64,
+        68,
+        120,
+        121,
+        128,
+        129,
+        136,
+        137,
+        189,
+        193,
+        197,
+        223,
+        225,
+        227,
+        240,
+        241,
+        242,
+        249,
+        253,
+        255,
+        256
+      ],
+      "alpha": {
+        "numerator": 225,
+        "denominator": 8
+      },
+      "energy": 6816,
+      "distinct_zero_count": 5184,
+      "centered_energy": {
+        "numerator": 703136,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 469248,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 7309,
+        "denominator": 21973
+      },
+      "rational_epsilon_upper": {
+        "numerator": 211,
+        "denominator": 125
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 6816,
+          "centered": {
+            "numerator": 703136,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 288,
+          "centered": {
+            "numerator": 41248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 7200,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -32,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "subgroup": true,
+      "r": 6,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        15,
+        16,
+        17,
+        30,
+        32,
+        34,
+        60,
+        64,
+        68,
+        120,
+        121,
+        128,
+        129,
+        136,
+        137,
+        189,
+        193,
+        197,
+        223,
+        225,
+        227,
+        240,
+        241,
+        242,
+        249,
+        253,
+        255,
+        256
+      ],
+      "alpha": {
+        "numerator": 225,
+        "denominator": 8
+      },
+      "energy": 4533920,
+      "distinct_zero_count": 2592000,
+      "centered_energy": {
+        "numerator": 91475616,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 13685760,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 810311,
+        "denominator": 952871
+      },
+      "rational_epsilon_upper": {
+        "numerator": 5423,
+        "denominator": 625
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 4533920,
+          "centered": {
+            "numerator": 91475616,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 158240,
+          "centered": {
+            "numerator": 7113248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 4160,
+          "centered": {
+            "numerator": 20544,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 6816,
+          "centered": {
+            "numerator": 703136,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 288,
+          "centered": {
+            "numerator": 41248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 128,
+          "centered": {
+            "numerator": 128,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 288,
+          "centered": {
+            "numerator": 41248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 7200,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 7200,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -32,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "subgroup": true,
+      "r": 8,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        15,
+        16,
+        17,
+        30,
+        32,
+        34,
+        60,
+        64,
+        68,
+        120,
+        121,
+        128,
+        129,
+        136,
+        137,
+        189,
+        193,
+        197,
+        223,
+        225,
+        227,
+        240,
+        241,
+        242,
+        249,
+        253,
+        255,
+        256
+      ],
+      "alpha": {
+        "numerator": 225,
+        "denominator": 8
+      },
+      "energy": 4327368864,
+      "distinct_zero_count": 1644894720,
+      "centered_energy": {
+        "numerator": 12622170272,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": -1359912960,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 436940101,
+        "denominator": 394442821
+      },
+      "rational_epsilon_upper": {
+        "numerator": 782711,
+        "denominator": 15625
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 4327368864,
+          "centered": {
+            "numerator": 12622170272,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 137749024,
+          "centered": {
+            "numerator": 1041760800,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 4188480,
+          "centered": {
+            "numerator": 2697536,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 4533920,
+          "centered": {
+            "numerator": 91475616,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 158240,
+          "centered": {
+            "numerator": 7113248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 130816,
+          "centered": {
+            "numerator": 65280,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 3264,
+          "centered": {
+            "numerator": -209728,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 158240,
+          "centered": {
+            "numerator": 7113248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 6816,
+          "centered": {
+            "numerator": 703136,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 4416,
+          "centered": {
+            "numerator": 86336,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 128,
+          "centered": {
+            "numerator": 128,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 4160,
+          "centered": {
+            "numerator": 20544,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 64,
+          "centered": {
+            "numerator": -16320,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 128,
+          "centered": {
+            "numerator": 128,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 6816,
+          "centered": {
+            "numerator": 703136,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 288,
+          "centered": {
+            "numerator": 41248,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 64,
+          "centered": {
+            "numerator": -16320,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -1024,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 7200,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -32,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 101,
+      "n": 13,
+      "subgroup": false,
+      "r": 4,
+      "elements": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "alpha": {
+        "numerator": 286,
+        "denominator": 25
+      },
+      "energy": 1469,
+      "distinct_zero_count": 1032,
+      "centered_energy": {
+        "numerator": 119808,
+        "denominator": 101
+      },
+      "centered_distinct_count": {
+        "numerator": 87072,
+        "denominator": 101
+      },
+      "relative_error": {
+        "numerator": 341,
+        "denominator": 1248
+      },
+      "rational_epsilon_upper": {
+        "numerator": 31,
+        "denominator": 9
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 1469,
+          "centered": {
+            "numerator": 119808,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 85,
+          "centered": {
+            "numerator": 6388,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 5,
+          "centered": {
+            "numerator": 336,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 13,
+          "centered": {
+            "numerator": 1144,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 1,
+          "centered": {
+            "numerator": 88,
+            "denominator": 101
+          }
+        }
+      ]
+    },
+    {
+      "p": 101,
+      "n": 13,
+      "subgroup": false,
+      "r": 6,
+      "elements": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "alpha": {
+        "numerator": 286,
+        "denominator": 25
+      },
+      "energy": 204763,
+      "distinct_zero_count": 67680,
+      "centered_energy": {
+        "numerator": 15854254,
+        "denominator": 101
+      },
+      "centered_distinct_count": {
+        "numerator": 5600160,
+        "denominator": 101
+      },
+      "relative_error": {
+        "numerator": 5127047,
+        "denominator": 7927127
+      },
+      "rational_epsilon_upper": {
+        "numerator": 2159,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 204763,
+          "centered": {
+            "numerator": 15854254,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 13119,
+          "centered": {
+            "numerator": 953726,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 733,
+          "centered": {
+            "numerator": 45472,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 923,
+          "centered": {
+            "numerator": 64662,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 43,
+          "centered": {
+            "numerator": 2146,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 57,
+          "centered": {
+            "numerator": 3560,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 3,
+          "centered": {
+            "numerator": 134,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 127,
+          "centered": {
+            "numerator": 10630,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 7,
+          "centered": {
+            "numerator": 538,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 13,
+          "centered": {
+            "numerator": 1144,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 1,
+          "centered": {
+            "numerator": 88,
+            "denominator": 101
+          }
+        }
+      ]
+    },
+    {
+      "p": 101,
+      "n": 13,
+      "subgroup": false,
+      "r": 8,
+      "elements": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "alpha": {
+        "numerator": 286,
+        "denominator": 25
+      },
+      "energy": 30162301,
+      "distinct_zero_count": 2943360,
+      "centered_energy": {
+        "numerator": 2230661680,
+        "denominator": 101
+      },
+      "centered_distinct_count": {
+        "numerator": 245387520,
+        "denominator": 101
+      },
+      "relative_error": {
+        "numerator": 24815927,
+        "denominator": 27883271
+      },
+      "rational_epsilon_upper": {
+        "numerator": 22319,
+        "denominator": 81
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 30162301,
+          "centered": {
+            "numerator": 2230661680,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 2029553,
+          "centered": {
+            "numerator": 142236336,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 121843,
+          "centered": {
+            "numerator": 7479334,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 142701,
+          "centered": {
+            "numerator": 9585992,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 7141,
+          "centered": {
+            "numerator": 349948,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 9143,
+          "centered": {
+            "numerator": 552150,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 441,
+          "centered": {
+            "numerator": 15980,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 10193,
+          "centered": {
+            "numerator": 658200,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 553,
+          "centered": {
+            "numerator": 27292,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 661,
+          "centered": {
+            "numerator": 38200,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 29,
+          "centered": {
+            "numerator": 732,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 675,
+          "centered": {
+            "numerator": 39614,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 33,
+          "centered": {
+            "numerator": 1136,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 43,
+          "centered": {
+            "numerator": 2146,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 1,
+          "centered": {
+            "numerator": -68,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 1469,
+          "centered": {
+            "numerator": 119808,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 85,
+          "centered": {
+            "numerator": 6388,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 53,
+          "centered": {
+            "numerator": 3156,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 5,
+          "centered": {
+            "numerator": 336,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 3,
+          "centered": {
+            "numerator": 134,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 13,
+          "centered": {
+            "numerator": 1144,
+            "denominator": 101
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 1,
+          "centered": {
+            "numerator": 88,
+            "denominator": 101
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "subgroup": false,
+      "r": 4,
+      "elements": [
+        1,
+        27,
+        32,
+        33,
+        54,
+        84,
+        89,
+        104,
+        122,
+        125,
+        132,
+        135,
+        153,
+        168,
+        173,
+        203,
+        224,
+        225,
+        230,
+        256
+      ],
+      "alpha": {
+        "numerator": 1185,
+        "denominator": 64
+      },
+      "energy": 1452,
+      "distinct_zero_count": 1320,
+      "centered_energy": {
+        "numerator": 213164,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 222960,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 2449,
+        "denominator": 53291
+      },
+      "rational_epsilon_upper": {
+        "numerator": 73,
+        "denominator": 32
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 1452,
+          "centered": {
+            "numerator": 213164,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": -6,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 224,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "coefficient": 8,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -400,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2
+          ],
+          "coefficient": 3,
+          "zero_count": 20,
+          "centered": {
+            "numerator": 4740,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            4
+          ],
+          "coefficient": -6,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -20,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "subgroup": false,
+      "r": 6,
+      "elements": [
+        1,
+        27,
+        32,
+        33,
+        54,
+        84,
+        89,
+        104,
+        122,
+        125,
+        132,
+        135,
+        153,
+        168,
+        173,
+        203,
+        224,
+        225,
+        230,
+        256
+      ],
+      "alpha": {
+        "numerator": 1185,
+        "denominator": 64
+      },
+      "energy": 298652,
+      "distinct_zero_count": 165600,
+      "centered_energy": {
+        "numerator": 12753564,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 14652000,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 158203,
+        "denominator": 1062797
+      },
+      "rational_epsilon_upper": {
+        "numerator": 881,
+        "denominator": 64
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 298652,
+          "centered": {
+            "numerator": 12753564,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 12596,
+          "centered": {
+            "numerator": 37172,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 512,
+          "centered": {
+            "numerator": -28416,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 45,
+          "zero_count": 940,
+          "centered": {
+            "numerator": 81580,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            4
+          ],
+          "coefficient": -90,
+          "zero_count": 28,
+          "centered": {
+            "numerator": -804,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": -120,
+          "zero_count": 44,
+          "centered": {
+            "numerator": 3308,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            5
+          ],
+          "coefficient": 144,
+          "zero_count": 2,
+          "centered": {
+            "numerator": 114,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": -15,
+          "zero_count": 36,
+          "centered": {
+            "numerator": 1252,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            4
+          ],
+          "coefficient": 90,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 628,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            3,
+            3
+          ],
+          "coefficient": 40,
+          "zero_count": 20,
+          "centered": {
+            "numerator": 4740,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            6
+          ],
+          "coefficient": -120,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -20,
+            "denominator": 257
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "subgroup": false,
+      "r": 8,
+      "elements": [
+        1,
+        27,
+        32,
+        33,
+        54,
+        84,
+        89,
+        104,
+        122,
+        125,
+        132,
+        135,
+        153,
+        168,
+        173,
+        203,
+        224,
+        225,
+        230,
+        256
+      ],
+      "alpha": {
+        "numerator": 1185,
+        "denominator": 64
+      },
+      "energy": 103015308,
+      "distinct_zero_count": 24595200,
+      "centered_energy": {
+        "numerator": 874934156,
+        "denominator": 257
+      },
+      "centered_distinct_count": {
+        "numerator": 1241856000,
+        "denominator": 257
+      },
+      "relative_error": {
+        "numerator": 91730461,
+        "denominator": 218733539
+      },
+      "rational_epsilon_upper": {
+        "numerator": 51463,
+        "denominator": 512
+      },
+      "partition_rows": [
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": 1,
+          "zero_count": 103015308,
+          "centered": {
+            "numerator": 874934156,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "coefficient": -28,
+          "zero_count": 4999872,
+          "centered": {
+            "numerator": 4967104,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "coefficient": 112,
+          "zero_count": 240924,
+          "centered": {
+            "numerator": -2082532,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficient": 210,
+          "zero_count": 262924,
+          "centered": {
+            "numerator": 3571468,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "coefficient": -420,
+          "zero_count": 11872,
+          "centered": {
+            "numerator": -148896,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            2,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 13092,
+          "centered": {
+            "numerator": 164644,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            1,
+            5
+          ],
+          "coefficient": 1344,
+          "zero_count": 688,
+          "centered": {
+            "numerator": 16816,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "coefficient": -420,
+          "zero_count": 12560,
+          "centered": {
+            "numerator": 27920,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "coefficient": 2520,
+          "zero_count": 628,
+          "centered": {
+            "numerator": 1396,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "coefficient": 1120,
+          "zero_count": 948,
+          "centered": {
+            "numerator": 83636,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            1,
+            6
+          ],
+          "coefficient": -3360,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 224,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "coefficient": 1680,
+          "zero_count": 604,
+          "centered": {
+            "numerator": -4772,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            2,
+            5
+          ],
+          "coefficient": -4032,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 224,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            3,
+            4
+          ],
+          "coefficient": -3360,
+          "zero_count": 52,
+          "centered": {
+            "numerator": 5364,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            1,
+            7
+          ],
+          "coefficient": 5760,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 628,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "coefficient": 105,
+          "zero_count": 1452,
+          "centered": {
+            "numerator": 213164,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            2,
+            4
+          ],
+          "coefficient": -1260,
+          "zero_count": 32,
+          "centered": {
+            "numerator": 224,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": -1120,
+          "zero_count": 36,
+          "centered": {
+            "numerator": 1252,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            2,
+            6
+          ],
+          "coefficient": 3360,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -400,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            3,
+            5
+          ],
+          "coefficient": 2688,
+          "zero_count": 4,
+          "centered": {
+            "numerator": 628,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            4,
+            4
+          ],
+          "coefficient": 1260,
+          "zero_count": 20,
+          "centered": {
+            "numerator": 4740,
+            "denominator": 257
+          }
+        },
+        {
+          "parts": [
+            8
+          ],
+          "coefficient": -5040,
+          "zero_count": 0,
+          "centered": {
+            "numerator": -20,
+            "denominator": 257
+          }
+        }
+      ]
+    }
+  ],
+  "logarithmic_depth_parameters": [
+    {
+      "log2_n": 8,
+      "n": 256,
+      "s": 24,
+      "sqrt_alpha_lower": 15,
+      "epsilon_upper": {
+        "numerator": 15705765588826604532231294642929210799204020370936304013,
+        "denominator": 12329672018575365655124187469482421875
+      },
+      "epsilon_upper_decimal": 1.2738186032170975e+18,
+      "two_sided_bound_nontrivial": false
+    },
+    {
+      "log2_n": 16,
+      "n": 65536,
+      "s": 48,
+      "sqrt_alpha_lower": 255,
+      "epsilon_upper": {
+        "numerator": 43386937945078610028871545912676901745042527027289565434311140506340575014498286861687201600335108569554476440993177030065290169796479568685455555207674348127217975260868296951847341058322503,
+        "denominator": 4918776062410264700149427462534544620214423569285465579582561240025771059148839381759358943347590261525588107531808694081038047981693678390260372756959128537346259690821170806884765625
+      },
+      "epsilon_upper_decimal": 8820677.622761797,
+      "two_sided_bound_nontrivial": false
+    },
+    {
+      "log2_n": 24,
+      "n": 16777216,
+      "s": 72,
+      "sqrt_alpha_lower": 4095,
+      "epsilon_upper": {
+        "numerator": 1207351054629391424756367631668479567542869965450040105615398930690807585899619530825996776591403226329532605315381040045223340796163359190569497777047560329285097213619750662125466800184897745057232676509502519367280551685196327146319880930441557733866500441249627546937242486468427380054762560744877707666228000811133301122676169042622755215204449948776323138897094755668939016029208489443669315341472171637206271428544788141,
+        "denominator": 109697669610128517478247782233771347260334770874218097255916985661051599497300960144153851924017268931256517814856407292704973951493312854415354146842079388413631128252703823522531661242666454795713069697189339044463319537383185568084961494248269972090991982383104709803187344613470706006607608142490302133090768172659469382164197641725323407226876574952067004013508758585932358387590550286017077041833545081317424774169921875
+      },
+      "epsilon_upper_decimal": 11.006168671771995,
+      "two_sided_bound_nontrivial": false
+    },
+    {
+      "log2_n": 28,
+      "n": 268435456,
+      "s": 84,
+      "sqrt_alpha_lower": 16383,
+      "epsilon_upper": {
+        "numerator": 6383799272068533591395295544059481556933059347315703962701060357792645597270229541247470861092616118928240508373531514076337208739510380230963721319665993930673761017128848560871851015350748678211594618779847921937376488771306239241584050067090997028943224643990261553346906076591655750644256802036281549565178139926616311630457147516218767147778333374684942199373904141089436806221255176300395699248112200641617077744251437691911625147066564292307143052932945995542039945693775103339339184829208816220179679784984600121706457156511486288548539840148389044951888073985291363081253958797753779730903007303981069579048642875735022566531059825551038785576816573,
+        "denominator": 4737519874627127896034748086530928246742092331951958615108805471453860125148139745248479915378880204435345527245800749328877778016198931270213201136361144965999792590102968860314330436531455408971078918028127448907201287437103585479669073080977475193169881677786031553180136035286786093850370364927244653824433688849312530129088017322221191550149971259748389949792002571209473212038158061310092732442686546828419291966700296012882346800570856251076758180338846478758693621062854240274415545053517525414834121363720066304308290467581947815893908612990137343026612970580761331668539987851754065867143766439555916025047357124264977433468940174448961214423183427
+      },
+      "epsilon_upper_decimal": 1.3474981511441106,
+      "two_sided_bound_nontrivial": false
+    },
+    {
+      "log2_n": 30,
+      "n": 1073741824,
+      "s": 90,
+      "sqrt_alpha_lower": 32767,
+      "epsilon_upper": {
+        "numerator": 119185325368952876284027960403767369557339277052550943973920379672960376088333857015951918724685981273075862871044904142883036648484622129816768505318174277694941040207039010708113840612637744507178700474511780798003113185340118169661329722159226211635689458608472496818301859263802472359217218198943722347092709012187496422211431613779394209585710615913189264608345176349339744494476366615661862277168152615055787998909749758846698182967479329618662260215145646673118388240622933726468072186050874620728608968345951114084089112837275306000225847937210976646098790907803951509312092653715932459679933452073052506421810686407264547302769134584013520327159602068324681553656918211780623395555482946629711550376517992189274826258940295144840213535260906700325505122750030170153,
+        "denominator": 188121878806636281750866485924894746281551065016032612755835447208832037771906059853405189772163782328273284112039694009354133595067480636421117017133121024545001262717986191986997949622393235684943887392905177155956136654612574847463023177338306023298708657716652045755884423190988413886863973266694922151478429201798148970176713679071923320286415487391815884935444433741596044453365001330150828294025055635867059270867078313248518450408694020181087549428978148157667527142329690149382221875708245743627465867570463169375601672980085935222295991042447886707259663617083287878997842561384818728960026853604236931759228089373978278540606696888730907606809390566103770346460446512873708028962404975743553129560261932977535500423888504855159786464739093299674494877249969829847
+      },
+      "epsilon_upper_decimal": 0.6335537691044388,
+      "two_sided_bound_nontrivial": true
+    },
+    {
+      "log2_n": 32,
+      "n": 4294967296,
+      "s": 96,
+      "sqrt_alpha_lower": 65535,
+      "epsilon_upper": {
+        "numerator": 144291261864216078187568592543249867472938908612710149957975447141131777609360101197013019567244992671933988846837144978746063697214562433771822365239283353390486202962291296882436064883183682467581732402039798504612010734541990526492300674939921758999100292873557857348740221322445762254249919177855204128217769357596514682706153163358344538190929384570632628026190270880219226889550200145049735501557964076385769386058170817425342796095198694779751444815242411745149820012233354962338598247190845478169485281733236347350616276539889702450847051030834320859170442691520768550384985993106230613945468844042285945196146487409276700251598462576832487341404460717873988206083671306855967634261595150541779043800615161635605687186515035157531138852848805024092425977143182845169898742984075758471402314508135861374227568570332271,
+        "denominator": 447426849875864629549428361291792121357666789695068097344060672468654203919421972714164502178758266555017222309061543520615876390643584632216520530571979193554837075596589406066931172417685888768132264891258650734413691562940980869817287458886465107505592976444353672112735065781122524643476136891166612890539821673839982820803263964800262869236091275573472830299644086665171925052286410249712762730444146708213290338586875427190954673358359227103710922884435382522744395844434951766730729433246919804997233138008128568526618806043126687088560922833227473244052254847451075909696983202847029064462414183705535019362488406342950551746865819135520882017068291740204321862083096831733090569323765562547180742410153856266003936283566116697243869523222036244448568510107841516941160143528734283169256968903937377035617828369140625
+      },
+      "epsilon_upper_decimal": 0.32249128970299534,
+      "two_sided_bound_nontrivial": true
+    },
+    {
+      "log2_n": 40,
+      "n": 1099511627776,
+      "s": 120,
+      "sqrt_alpha_lower": 1048575,
+      "epsilon_upper": {
+        "numerator": 70514637780777998700405625723870346201336145147230068471567840620674359698764392505639725963316551707084353184908232352846451534657152671790587669474799194391678311873823815143883885154753889271341107609032160023926820282893255696106541934067643029408727201553533760718507389891839597294696975425840944670634318910816872308057448373560060495854615689491711680316475810859120558187815830565652111542027976942820390413752924098173227916920692334193214488114982648152152630464190058713022558996569211844475891232132373685384432340383014991963414845904144030834834177141988437882275064558151717675587018233487258474938068662196452337712255738625347497433504664393731590092040935388934228364197417772085613940764744127760622923620134371048364383299056357326236088246487577289471415479362930611150541464772979432241922201314213673570559832408681326033409838024506046931632195746597851147311349995916530917031458710433665839441886522188367775637419929739250822638386043982880431517622300992663012805077116257438871920177464220616809662008705606013971755662348271819836797110956775848763622966730313035285877161575692318267944789947804999506365943093059304135497365653483335874272306485559145116214134549848700144405403756361704224883867188046827739920463595822567546953775565868572124794197159352730757259,
+        "denominator": 2543198909800668769310859316637636187249435335809025332153064879462985799647349872120987705679445983466843840880270659534377850992076630882541397954900522835997767229893832765321977125070419784077680910572925132260951293220526476968899659028713314267760915514737596692078255252318623765978972920008466108173246554821766384968429801513986488495157560459446063874891189407888585007458803031651899050289037475405438637103747960755300209163399923303163941180261082339609584645787425248914319664867324055634275095259103342317943179117968929131481400419873182248742821066838947943717503567332863761376255368245753712016356401333933780023754339704761645504122304373505101951149791195347664184642528555663655680303077055797744019351562012476790767885686877061467851243861311440626222406391756185984226673570937777011619386682019021889559988751049117462617924365282456644345339142116247896659343388456449870798652244436162596630412356739555133659776094509869542122633694138318637269366809941414024770814020895519976080160275521150423715112217078690273665707585153089216143191053274012504912968651202061629942415742767988802963095706195011522249189768546703711831377893296999898703051911530495799152583499186496879073113318663271451312100546260077323204184102471489136061688629553145801764912903308868408203125
+      },
+      "epsilon_upper_decimal": 0.02772674898099292,
+      "two_sided_bound_nontrivial": true
+    }
+  ],
+  "excluded_characteristic_example": {
+    "p": 3,
+    "r": 6,
+    "parts": [
+      3,
+      3
+    ],
+    "mixed_centered": {
+      "numerator": 8,
+      "denominator": 3
+    },
+    "centered_even_moment": {
+      "numerator": 2,
+      "denominator": 3
+    }
+  },
+  "elapsed_seconds": 0.632212750002509,
+  "input_sha256": {
+    "experiments/parallel33_verify_2026_09_05.py": "73f2f0b16da5f441fdfd9772db45b1d45c0aff133ed6ec6de77c62d3c8fd383f"
+  },
+  "scope": "Exact finite checks support an ordinary uniform proof; no upper bound on the remaining distinct-coordinate aggregate."
+}

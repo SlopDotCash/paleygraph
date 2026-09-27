@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "scope": "Complete eleven-set distributions for the explicit two-space collision; moments do not imply a uniform bound.",
+  "rows": [
+    {
+      "third_polynomial_coefficients": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_moments_1_through_6": [
+        [
+          4323,
+          28
+        ],
+        [
+          1239773,
+          52
+        ],
+        [
+          103108055,
+          28
+        ],
+        [
+          207069183403,
+          364
+        ],
+        [
+          31994731512459,
+          364
+        ],
+        [
+          4944525585810651,
+          364
+        ]
+      ],
+      "variance": [
+        47231,
+        10192
+      ],
+      "unordered_dependent_triple_pair_union_sizes": [
+        [
+          4,
+          42
+        ],
+        [
+          5,
+          244
+        ],
+        [
+          6,
+          344
+        ]
+      ]
+    },
+    {
+      "third_polynomial_coefficients": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "raw_moments_1_through_6": [
+        [
+          4323,
+          28
+        ],
+        [
+          1239773,
+          52
+        ],
+        [
+          335101268,
+          91
+        ],
+        [
+          207069401417,
+          364
+        ],
+        [
+          7998703683196,
+          91
+        ],
+        [
+          380350077087737,
+          28
+        ]
+      ],
+      "variance": [
+        47231,
+        10192
+      ],
+      "unordered_dependent_triple_pair_union_sizes": [
+        [
+          4,
+          42
+        ],
+        [
+          5,
+          244
+        ],
+        [
+          6,
+          344
+        ]
+      ]
+    }
+  ],
+  "moment_equality_1_through_6": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "source_sha256": {
+    "collision_moments.py": "452996606e41f4888a206ad90abaed28dc56c534d32a7122f37436c600f2a1fe"
+  },
+  "input_sha256": {
+    "rank_three_review.json": "273025f3e6ca238e80d81372226c8cf1ed2112f80bbd0341d53f3e20ccb6723a"
+  }
+}

@@ -1,0 +1,4 @@
+{"artifact": "orbit_small_p17.json", "queries": 352}
+{"artifact": "orbit_small_p41.json", "queries": 880}
+{"artifact": "orbit_small_p97.json", "queries": 2112}
+{"large": {"status": "complete", "count": 0, "scalars_a": [], "truncated": false, "seed_coordinate": 62, "seed_interval": [978728438, 1006632960], "seed_candidates": 27904523, "coordinate_order": [62, 63, 31, 58, 57, 60, 43, 29, 35, 37, 39, 51, 32, 46, 27, 47, 61, 48, 44, 41, 52, 50, 33, 42, 55, 54, 49, 56, 30, 40, 28, 59, 45, 34, 38, 53, 36], "survivors_after_coordinates": [27904523, 2323145, 293452, 57694, 12592, 3216, 1162, 628, 316, 180, 98, 50, 24, 14, 8, 6, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}

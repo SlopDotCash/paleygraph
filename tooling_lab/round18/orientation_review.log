@@ -1,0 +1,5 @@
+{"case": "small_complete", "status": "compiled", "vectors_checked": 256}
+{"case": "medium_walk", "status": "compiled", "vectors_checked": 65}
+{"case": "known_short_walk", "status": "compiled", "vectors_checked": 65}
+{"case": "known_centering_walk", "status": "compiled", "vectors_checked": 65}
+{"case": "quartic_window_walk", "status": "generator_2_has_wrong_order", "vectors_checked": 0}

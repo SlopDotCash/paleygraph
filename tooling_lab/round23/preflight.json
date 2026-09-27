@@ -1,0 +1,125 @@
+{
+  "status": "produced",
+  "seed": 20260908,
+  "anchors": [
+    522727778,
+    1818514913,
+    409279196,
+    756420179,
+    270410703,
+    407457373,
+    1343695077,
+    1002451588
+  ],
+  "cases": [
+    {
+      "name": "consecutive33",
+      "artifact": "consecutive33.json",
+      "erasures": 33,
+      "visible_directions": 13,
+      "individual_difference_bounds": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "difference_box_size": 2657205,
+      "difference_sign_representatives": 1328602,
+      "uniform_candidate_cap": 12288,
+      "statuses": {
+        "complete": 16
+      },
+      "complete_counts": {
+        "1": 8,
+        "0": 8
+      },
+      "maximum_observed_box": 192,
+      "scalar_candidates_checked": 413
+    },
+    {
+      "name": "consecutive36",
+      "artifact": "consecutive36.json",
+      "erasures": 36,
+      "visible_directions": 13,
+      "individual_difference_bounds": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "difference_box_size": 7381125,
+      "difference_sign_representatives": 3690562,
+      "uniform_candidate_cap": 27648,
+      "statuses": {
+        "complete": 16
+      },
+      "complete_counts": {
+        "1": 8,
+        "0": 8
+      },
+      "maximum_observed_box": 3456,
+      "scalar_candidates_checked": 9976
+    },
+    {
+      "name": "consecutive40",
+      "artifact": "consecutive40.json",
+      "erasures": 40,
+      "visible_directions": 13,
+      "individual_difference_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "difference_box_size": 439453125,
+      "difference_sign_representatives": 219726562,
+      "uniform_candidate_cap": 708588,
+      "statuses": {
+        "budget_exceeded": 10,
+        "complete": 6
+      },
+      "complete_counts": {
+        "0": 5,
+        "1": 1
+      },
+      "maximum_observed_box": 139968,
+      "scalar_candidates_checked": 215424
+    }
+  ],
+  "input_sha256": {
+    "../round22/metric_consecutive32.json": "484959f7befe4bf9fbcd9bd1fb3a08b9dcbd0e783d5e8ad1422c3aedaa679ebb"
+  },
+  "source_sha256": {
+    "preflight.py": "cb9a48a281ff016a40f19c499ebda4925465f3fd4048235166c0c26d7c8bbaf1",
+    "../round22/metric_erasure.py": "f142c4964a345c9256fccb878a4992c603bedc92db570783a973ed6fa545be52",
+    "../round22/conditioned_erasure.py": "3c5c6546156d51f1100d90ec29dc1b169691e1fb5e92194c885bc8570d3b89b4",
+    "../round21/lattice_erasure.py": "522c7486d34c44c68ca9810b21886041e54f5ac86508d1454d2ba7228a3bd603"
+  }
+}

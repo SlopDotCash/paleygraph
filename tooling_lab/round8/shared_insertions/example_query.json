@@ -1,0 +1,46 @@
+{
+  "q": 17,
+  "n": 7,
+  "degree": 6,
+  "selected": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    10
+  ],
+  "target": -3,
+  "neighbour_count": 70,
+  "shared_insertions": 10,
+  "marginal_neighbour_mean": [
+    -89,
+    35
+  ],
+  "marginal_neighbour_variance": [
+    40064,
+    1225
+  ],
+  "covariance_trace_squared": [
+    10317824,
+    625
+  ],
+  "seconds": 0.0036802089889533818,
+  "scope": "Joint insertion covariance at one actual input; no uniform estimate or target-free predictor.",
+  "contrast_covariance_trace_squared": [
+    68308992,
+    4375
+  ],
+  "contrast_to_full_squared_norm_fraction": [
+    16677,
+    17633
+  ],
+  "source_sha256": {
+    "query_covariance.py": "4944586846acaae1bae979d216db8bf4febd472f8e97da4fd454b32e62bd0b2b",
+    "covariance.py": "b8425128784e844c53fbe81993546d6da9a34033b083e8e814f5e0f4386a26c5",
+    "contrast_analysis.py": "8ddb5325ad8f6cbb572db94d33f1c21e081dc82346c16d3592f86ab0265d1111",
+    "covariance_backend.cpp": "de5446b8efa1510f05480cdfee5fb125d67347c8faba4449758f1584c921e6cb",
+    "covariance_backend": "df0d4f80569a4b05100d999c1525bd245828f9d186264104db8c078bbe77119d"
+  }
+}

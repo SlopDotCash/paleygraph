@@ -1,0 +1,1 @@
+{"status": "passed", "random_cases": 32, "literal_partitions_checked": 1120, "repair_successes": 31, "restart_successes": 31, "corrupt_histories_rejected": 4, "higher_flat_obstruction_checked": true, "singleton_repair_checked": true}

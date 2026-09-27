@@ -1,0 +1,13 @@
+{
+  "status": "toy_passed",
+  "scope": "Complete projective-multiset controls plus seeded finite-field multiplicity cases. Actual polynomial-cluster replay and independent corner optimality verifier pending.",
+  "patterns": 596,
+  "threshold_checks": 3936,
+  "literal_subsets": 45952,
+  "partial_class_witnesses": 8,
+  "source_sha256": {
+    "preflight.py": "6cb60ff5ecc6ae40afdac673545a04dc258eefa3e83277cfe40e643c2c424f70",
+    "capacitated_pinning.py": "f98680ec721ba454091759e5ad9b0e1e9ec32393d697fe1a2307e8daa7f6a225",
+    "../round11/rank_three_verifier.py": "d50cfdda1a9177fa9181fde45ebe5848aac77bd74a438b5c2b389e8404f88bd6"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "observed_at_utc": "2026-09-06T07:15:56.875010+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel38-energy-source/shkredov-2013-published.pdf",
+      "url": "http://mjcnt.phystech.edu/en/download.php?id=66",
+      "sha256": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+      "use": "PDF page10, printed197, Theorem4 d=2: weak cubic difference-coset tail for n<sqrt(p); visually rechecked by root"
+    },
+    {
+      "path": "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html",
+      "url": "https://arxiv.org/html/1504.04522v1#Thmsatz6",
+      "sha256": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+      "use": "Theorem6: shifted multiplicative energy under subgroup product size<p; zeros omitted only after applying the upper bound"
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "url": "https://arxiv.org/pdf/1712.00410",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477",
+      "use": "Corollary12 equation32: energy49/20 used as comparison baseline, not a premise of the final W theorem"
+    },
+    {
+      "path": "sources/sigma-volostnov-shkredov-1712.09355.pdf",
+      "url": "https://arxiv.org/pdf/1712.09355v1",
+      "sha256": "24fb1309794d46ed9886a99f95436321fbb3ee98f2b6995d37a079df56ce2eec",
+      "use": "Theorem5, individual Weil estimate for nonsquare monic polynomial words; no simultaneous cancellation assumed"
+    }
+  ],
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "new_ordinary_arguments": [
+    "Mixed-level functional correlation bound with geometric summation",
+    "Exact diagonal relation from collision excess to cubic coset mass",
+    "Real-subfield norm recovery and unit distortion",
+    "Random-shift sixth moment and exact recovery errors"
+  ],
+  "unproved_inputs": [
+    "X<<n^(61/31) up to logarithms",
+    "Original Sidon positive moment bounds",
+    "Uniform shell estimate",
+    "Full arbitrary-set Paley and official prize conclusion"
+  ],
+  "no_lean_or_external_peer_review": true
+}

@@ -1,0 +1,3 @@
+{"name": "consecutive33", "queries_replayed": 16, "scalar_candidates_checked": 413, "cuts_verified": 33, "optimality_certificates": 33, "difference_box_size": 2657205, "uniform_candidate_cap": 12288}
+{"name": "consecutive36", "queries_replayed": 16, "scalar_candidates_checked": 9976, "cuts_verified": 36, "optimality_certificates": 36, "difference_box_size": 7381125, "uniform_candidate_cap": 27648}
+{"name": "consecutive40", "queries_replayed": 16, "scalar_candidates_checked": 215424, "cuts_verified": 40, "optimality_certificates": 40, "difference_box_size": 439453125, "uniform_candidate_cap": 708588}

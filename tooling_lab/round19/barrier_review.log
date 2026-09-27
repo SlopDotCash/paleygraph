@@ -1,0 +1,5 @@
+{"p": 17, "N": 4, "certified_all_relation_l1_budget": 5, "other_coordinate_slack": 4, "independent_resultants": 5, "dual_identity_passed": true, "axis_case_excluded": true}
+{"p": 257, "N": 8, "certified_all_relation_l1_budget": 65, "other_coordinate_slack": 64, "independent_resultants": 5, "dual_identity_passed": true, "axis_case_excluded": true}
+{"p": 65537, "N": 16, "certified_all_relation_l1_budget": 16385, "other_coordinate_slack": 16384, "independent_resultants": 5, "dual_identity_passed": true, "axis_case_excluded": true}
+{"p": 6700417, "N": 32, "certified_all_relation_l1_budget": 26174, "other_coordinate_slack": 26173, "independent_resultants": 5, "dual_identity_passed": true, "axis_case_excluded": true}
+{"p": 2013265921, "N": 64, "certified_all_relation_l1_budget": 11607941, "other_coordinate_slack": 11607940, "independent_resultants": 5, "dual_identity_passed": true, "axis_case_excluded": true}

@@ -1,0 +1,55 @@
+{
+  "q": 17,
+  "n": 6,
+  "degree": 6,
+  "selected": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9
+  ],
+  "target": -1,
+  "neighbour_count": 66,
+  "delta_mean": [
+    34,
+    33
+  ],
+  "delta_second_moment": [
+    104,
+    11
+  ],
+  "neighbour_mean": [
+    1,
+    33
+  ],
+  "neighbour_variance": [
+    9140,
+    1089
+  ],
+  "query_seconds": 0.010469458007719368,
+  "source_sha256": {
+    "query.py": "c345c44dd9f471dbc0dcf0972b1bfd46849ed33c7640b5cfce6c10bf63db3e37",
+    "gram_oracle.cpp": "a0b7b6a3b9fe20e06d1a81448af65d675171cbdc9d93ba4b8b934f1d85488d31",
+    "gram_oracle": "b0832637aee7380c007f36617f1774e4bebbe8b74544da7492773b1a364da2b2"
+  },
+  "scope": "Exact local moments at the specified actual Paley set; no uniform bound or direct neighbour census.",
+  "threshold_bounds": [
+    {
+      "event": "T_after_swap >= 4",
+      "threshold": [
+        4,
+        1
+      ],
+      "direction": "upper",
+      "probability_upper": [
+        9140,
+        26301
+      ],
+      "neighbour_count_upper": 22,
+      "complement_count_lower": 44,
+      "method": "Exact Cantelli bound and finite-count floor"
+    }
+  ]
+}

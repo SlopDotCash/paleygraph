@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-05T22:53:09.599534+00:00",
+  "previous_goal_turn_classification": "verified wait: live Lean process 75893 sampled, ongoing kernel computation and existing unrelated build errors documented; no new mathematical proof",
+  "evidence_path": "results/lean_performance_diagnostic_2026_09_05_1842.json",
+  "evidence_sha256": "3982d626c9311507e404447f1c40c9a7407b772cce7f28bb782da4ea1fcfc829",
+  "revalidated_prior_input_count": 14,
+  "prior_central_files_verified_before_edits": 4,
+  "agent_status": "All three existing agents freshly inspected; terminal usage-limit errors. Root work continues.",
+  "new_lean_jobs": 0,
+  "new_hosted_jobs": 0,
+  "next_action_completed": "Resumed and checked the opposite-pair transform, its Gaussian coefficient bounds, and the degree-ten principal-term lower bound."
+}

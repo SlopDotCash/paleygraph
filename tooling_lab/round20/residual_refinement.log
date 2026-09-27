@@ -1,0 +1,8 @@
+{"name": "p65537_canonical", "cut": 8, "own_suffix_clique_lower_bound": 5, "all_supplied_suffixes_lower_bound": 5, "exact_full_language_width": 5, "valid_width_upper_bound": 5}
+{"name": "p65537_saved", "cut": 8, "own_suffix_clique_lower_bound": 144, "all_supplied_suffixes_lower_bound": 195, "exact_full_language_width": 801, "valid_width_upper_bound": 801}
+{"name": "p6700417_canonical", "cut": 16, "own_suffix_clique_lower_bound": 245, "all_supplied_suffixes_lower_bound": 245, "exact_full_language_width": 2565, "valid_width_upper_bound": 2565}
+{"name": "p2013265921_natural_cut4", "cut": 4, "own_suffix_clique_lower_bound": 203, "all_supplied_suffixes_lower_bound": 203, "exact_full_language_width": null, "valid_width_upper_bound": 28561}
+{"name": "p2013265921_natural_cut8", "cut": 8, "own_suffix_clique_lower_bound": 255, "all_supplied_suffixes_lower_bound": 255, "exact_full_language_width": null, "valid_width_upper_bound": 815730721}
+{"name": "p2013265921_natural_cut32", "cut": 32, "own_suffix_clique_lower_bound": 256, "all_supplied_suffixes_lower_bound": 256, "exact_full_language_width": null, "valid_width_upper_bound": 2013265921}
+{"name": "p2013265921_reversed_cut32", "cut": 32, "own_suffix_clique_lower_bound": 256, "all_supplied_suffixes_lower_bound": 256, "exact_full_language_width": null, "valid_width_upper_bound": 2013265921}
+{"name": "p2013265921_even_odd_cut32", "cut": 32, "own_suffix_clique_lower_bound": 256, "all_supplied_suffixes_lower_bound": 256, "exact_full_language_width": null, "valid_width_upper_bound": 2013265921}

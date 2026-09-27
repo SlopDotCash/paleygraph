@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "scope": "Independent prime/order checks, polynomial products/remainders, integer resultants, all carries, two-step cocycles and energy/norm comparisons. Complete only for the stated small scalar census; other walks are bounded and no global arithmetic estimate is inferred.",
+  "cases": [
+    {
+      "case": "small_complete",
+      "p": 257,
+      "n": 16,
+      "steps_checked": 256,
+      "independent_resultants": 257,
+      "radius_down_norm_up_steps": 64,
+      "quartic_window": false
+    },
+    {
+      "case": "medium_walk",
+      "p": 65537,
+      "n": 32,
+      "steps_checked": 64,
+      "independent_resultants": 66,
+      "radius_down_norm_up_steps": 15,
+      "quartic_window": false
+    },
+    {
+      "case": "known_short_walk",
+      "p": 6700417,
+      "n": 64,
+      "steps_checked": 64,
+      "independent_resultants": 66,
+      "radius_down_norm_up_steps": 13,
+      "quartic_window": false
+    },
+    {
+      "case": "known_centering_walk",
+      "p": 6700417,
+      "n": 64,
+      "steps_checked": 64,
+      "independent_resultants": 66,
+      "radius_down_norm_up_steps": 12,
+      "quartic_window": false
+    },
+    {
+      "case": "quartic_window_walk",
+      "p": 2013265921,
+      "n": 128,
+      "steps_checked": 32,
+      "independent_resultants": 34,
+      "radius_down_norm_up_steps": 5,
+      "quartic_window": true
+    }
+  ],
+  "source_sha256": {
+    "carry_review.py": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633"
+  },
+  "input_sha256": {
+    "norm_carry.json": "b2bc88626f8a7e1242ee592aaf95fed31901293332424684d4d0bc554829cf2a"
+  }
+}

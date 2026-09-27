@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-05T23:27:45.700941+00:00",
+  "previous_turn_classification": "progress: unconditional Gaussian lower bound and single-degree positive aggregate criterion",
+  "prior_sha256": {
+    "research/parallel35-single-degree-comparison-2026-09-05.md": "d04ff1e5687614edf9237dca34fb2ff1a2ef2cc9ba0e5f1dbb88e7ab7d723af9",
+    "research/parallel35-pass-summary-2026-09-05.md": "fe5f0e03c3872db2803c9b77fdbd93ad3a7405d4bbb9435de6e6ef9c2a59458e",
+    "experiments/parallel35_verify_2026_09_05.py": "ec1f6e48bce5370814882dbce38e7cd8ea9b28b4c5a45b66f30a1a472e4a9d82",
+    "experiments/parallel35_final_audit_2026_09_05.py": "ef819d10aebe070e02049ffc314587f0fb7a422dd427b7eb5715b7aeabe4a030",
+    "results/parallel35_prior_state_2026_09_05.json": "b127394fdd25a9ecd5babea52ca340dcb3ff6180640c95d2460e743c386b9d4b",
+    "results/parallel35_verification_2026_09_05.json": "2ca53a5aa080e728e51569cb3151935a6e8c36d67c9c6c20b4406cbd3284e39d",
+    "results/parallel35_source_scope_2026_09_05.json": "88c2b54c70623cf5c097196575783b7d22ccf390e6a027fbc7c8ffd1dc97bf76",
+    "sources/parallel35-single-degree/ravichandran-1609.04187v2.html": "92e9d9909a9383246f095f2884859a5bb63814435cda01fc404ece580af76b64",
+    "sources/parallel35-single-degree/ravichandran-1609.04187v2.pdf": "01389932e3b45075eea3155d035b3d6caea254ed043aa1f23ea907fc6c450f27",
+    "results/parallel35_pass_audit_2026_09_05.json": "d09f2e34d56c82e7e5bbca56c7310fece6e72e7209d98aab8c26d40183f5f393",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

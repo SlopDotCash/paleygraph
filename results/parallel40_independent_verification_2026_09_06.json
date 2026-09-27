@@ -1,0 +1,35 @@
+{
+  "shell": {
+    "p": 6700417,
+    "n": 64,
+    "V": "6120237/6700417",
+    "norm_F": 49482013672830957344502359241278764639832904317518004559068535393764204079780838145299499672995089358636564948868256339141203415543368136832477874311509333146189611768509832734470038013889614045721539363878201956161,
+    "norm_method": "32-by-32 Bareiss determinant",
+    "auxiliary_contradiction_margin": "97/98",
+    "scope": "Finite arithmetic; nonprincipality follows from the companion ordinary proof."
+  },
+  "distinct": {
+    "p": 215535361,
+    "n": 128,
+    "E": 61056,
+    "d": "477/2048",
+    "direct_incidence": 52736,
+    "normalized_weighted": 52736,
+    "discarded_multiplicity": 51968,
+    "missing_incidence": 768,
+    "witness_multiplicity": 2,
+    "witness_rho": 3,
+    "normalized_image_size": 1438,
+    "normalized_mass": 1440,
+    "direct_weighted_block": 144850944,
+    "collision_sum": 4,
+    "intersection_sum": 4,
+    "scope": "Actual dyadic levels and three distinct edge cosets; not an asymptotic energy counterexample."
+  },
+  "sidon": {
+    "sidon_sets": 538,
+    "nonzero_translations": 5916,
+    "set_pair_and_smoothing_checks": 42628,
+    "scope": "Exact identities and relative accuracy only; larger Croot-Sisask tolerance is not refuted."
+  }
+}

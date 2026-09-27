@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-09-05T22:23:49.392245+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel33-centered-collisions/higher-energies-published-2026.pdf",
+      "url": "https://lims.ac.uk/documents/some-new-results-on-the-higher-energies.pdf",
+      "use": "Definition7 equation18, printed115 visually checked; Theorem2 permits affine-subspace restriction. Scope check only.",
+      "sha256": "857db31934c24d07123bd804a67a6dec8b9ed1a56c09795b08d518ac099f72c4"
+    },
+    {
+      "path": "sources/parallel33-centered-collisions/higher-energies-2303.16348v2.html",
+      "url": "https://arxiv.org/html/2303.16348v2",
+      "use": "Older version archived separately; published normalization governs the source audit.",
+      "sha256": "e10821ec41c285d5c21bebed783fc92a1bc0f1b3363edd5a698c3d4d0d8d2d92"
+    },
+    {
+      "path": "sources/parallel33-centered-collisions/fourier-small-doubling-2412.11368v1.html",
+      "url": "https://arxiv.org/html/2412.11368v1",
+      "use": "Theorem1 Fourier/Bohr alternative. Size condition checked, no upper bound imported.",
+      "sha256": "696670b60837e52079e26f146c540c7a827c197dd8e638d7071b05e800f441e0"
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "url": "https://arxiv.org/pdf/1712.00410v1",
+      "use": "Previously inspected Theorem3 and Corollary7 supply E2/E3 seeds for the improved repetition bound.",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+    }
+  ],
+  "local_input_sha256": {
+    "research/parallel25-subgroup-growing-orders-2026-09-05.md": "c94e1eb1c427968c6413aada33e77261ff0ed1000376cb16f4a9b23226d80cf1",
+    "research/parallel29-centered-recurrence-2026-09-05.md": "c9bb92dbf59136bf7b7ce5e4a22fa95d203fbbab805182fdeebb7b9f18ba00e6",
+    "results/parallel32_pass_audit_2026_09_05.json": "37667a337cc40ca5a4f675fab06a355d61078807e534ffaf7dea87284b7d5b2e"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "new_argument": "Exact set-partition centering, Holder at nonzero frequencies, Jensen, Stirling cycle polynomial; subgroup averaging for repeated words. Ordinary proofs included.",
+  "scope": "Centered distinct-coordinate equivalence at growing depth and stronger repeated-word bound; no bound on the remaining distinct aggregate, separate-author review, Lean verification, or full conjecture proof."
+}

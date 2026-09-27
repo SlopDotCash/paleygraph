@@ -1,0 +1,1 @@
+{"status": "parallel_preflight_passed", "p": 65537, "n": 1024, "k": 64, "s": 96, "projective_classes": 963, "largest_class": 62, "unconstrained_queries": 70070, "constrained_profile_queries": 136155, "higher_rank_checks_pending": true}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "integral_lift_checked": true,
+  "full_integer_lattice_checked": true,
+  "scalar_congruences_checked": 64,
+  "erased_coordinates": 40,
+  "actual_pair_count": 0,
+  "scalar_difference": 345549834,
+  "max_digit_difference": 4,
+  "corrupt_controls_rejected": [
+    "changed_lift",
+    "changed_lattice_coordinate"
+  ],
+  "input_sha256": {
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028",
+    "gap_certificate.json": "b391e0d24a6843337c2244eb1b84437aaa637a9483ee06e9c272f7062487fe15",
+    "orbit_large.json": "769132782430fd09fea7f0626af6f945fcab82847a0747ef4f406dcc0cba790a",
+    "orbit_review.json": "445a35380a8215fa09cde1c2019916f92126cad93eae3ca524c68cd7fe9e97ca"
+  },
+  "source_sha256": {
+    "gap_review.py": "d2b16c63d71e938fc61073640bc0a3140a346296ee8f5adbedaee3e43e33ffde",
+    "../round22/conditioned_review.py": "541554d050c916cbbac05acf6347dd88377e3822926e64806da5987a1aed2ec6"
+  }
+}

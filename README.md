@@ -11,7 +11,204 @@ now have local Lean proofs with only standard axioms. The exact MCA
 interleaving theorem was already present in the pinned ArkLib source;
 our proof independently verifies an existing result.
 
-The [latest assessment](research/parallel31-pass-summary-2026-09-05.md)
+The [latest assessment](research/parallel53-pass-summary-2026-09-06.md)
+returns to the direct two-anchor spectral route. The ambient elliptic
+kernel has inversion-odd eigenvalues at least p-32pi^2sqrt(p), by an
+exact Jacobi diagonalization and a checked source discrepancy theorem.
+Thus the desired2p/3 saving cannot come from an ambient norm bound.
+It must use the actual common-neighbor restriction and symmetry average,
+or another argument on that operator. Exact coefficient, matrix and
+eigenvector checks pass; no uniform target bound improves.
+
+The [fifty-second assessment](research/parallel52-pass-summary-2026-09-06.md)
+charges new primitive collisions to the increase in cubic incidence
+count at each step. An exact inequality gives a sufficient increment
+bound for the energy route, but the published estimate remains too
+weak. A quartic example has positive cubic excess unchanged across
+one step, excluding automatic growth there. All368 distinct step checks
+pass. No uniform exponent or full-goal proof is established.
+
+The [fifty-first assessment](research/parallel51-pass-summary-2026-09-06.md)
+finds an order256 quartic example with a triple collision at order128
+and none in the newest primitive layer. Its full energy retains the
+earlier excess. An exact compatibility equation connects lower labels
+to their endpoint images, and the energy lower bound now retains its
+quadratic baseline. All71 tower checks pass. These constraints give no
+uniform upper bound; the conjecture and prize remain unproved.
+
+The [fiftieth assessment](research/parallel50-pass-summary-2026-09-06.md)
+recovers endpoint energy from the total first-precision triple mass,
+with matching powers in its upper and lower bounds and a logarithmic
+gap. A sharper recovery from an intermediate subgroup absorbs smaller
+levels using the existing energy theorem. The remaining sufficient
+estimate concerns only the upper part of the tower, starting near
+N^(80/87) with a logarithmic correction. That estimate remains unproved.
+Exact checks pass in70 towers; uniform exponents and full goals remain
+unchanged.
+
+The [forty-ninth assessment](research/parallel49-pass-summary-2026-09-06.md)
+uses all coefficients of the resultant polynomial to obtain an exact
+valuation formula and to show that primitive triple fibers require a
+splitting prime. The target primes remain in that class. Separate
+polynomial examples show why neither two resultants nor a simple sum
+of collision masses always gives the exact valuation. All checks pass,
+but the refined certificate equals the previous one in the checked
+subgroup orders, and no uniform exponent improves. The full goals
+remain unproved.
+
+The [forty-eighth assessment](research/parallel48-pass-summary-2026-09-06.md)
+certifies exactly three quartic primes at subgroup order128 with
+primitive fibers of size three. This refutes the proposed uniform
+maximum-fiber-two condition. Their balanced energy remains below the
+quadratic bound. Complete resultant factorizations classify this
+condition through order128; an aggregate of larger fibers gives a
+more targeted sufficient input for the energy route. Its uniform
+estimate remains unproved. All exact checks passed; the conjecture,
+prize and current uniform exponents remain unchanged.
+
+The [forty-seventh assessment](research/parallel47-pass-summary-2026-09-06.md)
+uses known matrix entries to exclude both earlier uncentered interval
+models. Centering and a product congruence repair those defects formally,
+but all2,048 tested positions fail a field power-sum condition at one
+certified quartic prime. The first n-1 power sums give an exact recognition
+criterion for the subgroup's full difference profile. Finite checks
+passed; this recognition result gives no new uniform coefficient bound.
+The conjecture, prize and current uniform exponents remain unchanged.
+
+The [forty-sixth assessment](research/parallel46-pass-summary-2026-09-06.md)
+derives a necessary row-capacity inequality from actual incidence data.
+It excludes the earlier interval with Sidon filler at sufficiently large
+size. A long-interval filler preserves the difficult correlation scale
+and satisfies the total-excess row condition, so no uniform exponent
+improves. Exact checks passed. Local incidence allocations and the
+off-diagonal multiplication identities remain to be controlled.
+
+The [forty-fifth assessment](research/parallel45-pass-summary-2026-09-06.md)
+extends the exact incidence-matrix algebra to arbitrary real weights,
+including product, commutator, trace, and orthogonal projection identities.
+The direct norm estimate from these identities is weaker than the current
+triangle bound. Checked shifted-product results also leave the remaining
+level concentration possible. All finite checks passed; no uniform
+exponent or full goal improves. The next step must control the actual
+weighted incidence correlation using more than the scalar moment bounds.
+
+The [forty-fourth assessment](research/parallel44-pass-summary-2026-09-06.md)
+proves a stronger mass bound when actual difference levels lie in cosets
+of larger subgroups. It reaches the intermediate triangle power under
+an explicit nested-coset partition hypothesis, which remains unproved
+for general levels. An abstract interval family shows that the new mass
+limits alone cannot improve the functional exponent. Exact matrix
+identities retain further actual subgroup constraints for the next step.
+Finite checks passed; no uniform exponent or full goal improves.
+
+The [forty-third assessment](research/parallel43-pass-summary-2026-09-06.md)
+improves the absolute exceptional-prime count for the intermediate
+triangle target to O_c(n^(5/3)/log n), using additive energy and a
+valid single-coset incidence bound. The estimate for every prime remains
+open. An actual order32 subgroup now rules out diagonal domination
+inside the quartic window, and exact prime-power lifts account for all
+collision valuation losses. Finite checks passed; root completed the
+review while the parallel lanes were unavailable at their usage limit.
+The uniform energy/period estimates and full goals remain unchanged.
+
+The [forty-second assessment](research/parallel42-pass-summary-2026-09-06.md)
+bounds the nontrivial shifted-product collision excess summed over primes
+at each fixed dyadic subgroup order. It gives an absolute bound on the
+number of quartic-range primes that can fail the triangle criterion;
+the estimate for every prime remains open. An actual subgroup with zero
+diagonal rich mass and positive off-diagonal mass rules out one general
+shortcut. Exact reflection smoothing also retains a recovery certificate
+no better than direct sixth-moment Holder. Finite checks passed. The
+parallel lanes returned findings before hitting the account usage limit;
+root completed the scoped review. Energy49/20, period71/72 and the full
+goals remain unchanged.
+
+The [forty-first assessment](research/parallel41-pass-summary-2026-09-06.md)
+proves a sharper uniform weighted-triangle bound,
+W<<n^(86/15)(1+log n)^(8/15), retaining every incidence multiplicity.
+Its power is still1/15 above the target for this route. An exact diagonal
+identity shows that a nontrivial shifted-energy bound X<<n^(61/31)
+would suffice to reach that triangle power; this new input is unproved.
+Real-subfield recovery also reduces an arithmetic cofactor loss, while
+the classical smoothed-moment estimate retains an unresolved recovery
+error. Root and parallel agents reviewed the proofs and exact finite
+checks. Energy49/20, period71/72 and the full goals remain unchanged.
+
+The [fortieth assessment](research/parallel40-pass-summary-2026-09-06.md)
+refutes two proposed shortcuts on actual quartic-window subgroups:
+a short shell need not have a principal evaluation kernel, and distinct
+edge cosets in actual difference levels can retain positive repeated
+incidence fibers. An algebraic reciprocal converse has an explicit,
+potentially enormous cofactor. The classical route also retains precise
+structural and error-normalization restrictions. Independent exact checks
+passed; the uniform estimates and full goals remain open.
+
+The [thirty-ninth assessment](research/parallel39-pass-summary-2026-09-06.md)
+constructs an exact subgroup coset refuting the literal finite amplitude
+constant C=2. A cyclotomic norm cofactor forces a small shell coset;
+existing sublinear cancellation prevents these small-cofactor templates
+from scaling in the quartic window. A separate weighted-triangle bound
+controls coincident edge cosets, leaving three distinct cosets open.
+Independent agents reviewed the new constructions and the earlier
+moment and lattice comparisons. No uniform exponent or full goal improves.
+
+The [thirty-eighth assessment](research/parallel38-pass-summary-2026-09-06.md)
+resolves an energy-source discrepancy through the published paper and
+two parallel reviews. The old arXiv22/9 claim is not the published32/13
+result; its incidence argument omits a hypothesis that fails on an exact
+dyadic example. The current49/20 energy input remains in place. This
+rules out an unsupported reuse of the old argument; no full target or
+uniform period exponent improves.
+
+The [thirty-sixth assessment](research/parallel36-pass-summary-2026-09-05.md)
+compares centered subgroup periods with exact dual-lattice distance
+deviations, with absolute constants and no exponent loss. The required
+uniform annulus estimate remains unproved; the elementary cyclotomic
+norm lower bound is too weak. A rational inverse-series certificate
+reproduces the known maximizing coset in the order64 example without
+high moments, and bounds every other coset below39.838 in absolute value.
+It does not improve the existing best enclosure of the maximum. No
+uniform period exponent or full conjecture bound improves. Pass39 supplies
+separate-agent review of sections1-4 and clarifies the nonzero subgroup
+domain; Lean review remains outstanding.
+
+The [thirty-fifth assessment](research/parallel35-pass-summary-2026-09-05.md)
+proves a Gaussian-scale lower bound for the centered opposite-free
+count and compares its upper bound with the full moment at the same
+degree. An established derivative-root theorem is applied to each Fourier
+row before averaging. This removes the need to assume bounds at all
+smaller degrees. The positive upper estimate remains unproved, so no
+period exponent or full conjecture bound improves. The uniform argument
+has exact finite checks and pass39 separate-agent review; Lean review
+remains outstanding.
+
+The [thirty-fourth assessment](research/parallel34-pass-summary-2026-09-05.md)
+separates opposite pairs from the centered distinct-coordinate moment.
+An exact positive transform and controlled inverse preserve Gaussian
+hierarchy bounds up to absolute constants. The required upper bound
+on the centered opposite-free aggregate remains unproved. A separate
+lower bound forces at least n^6/2 distinct, opposite-free ten-term
+relations in every eligible case with n>=2^35 and p<=n^4, confirming
+that the principal-term subtraction cannot be dropped. No full-energy
+or period exponent improves, and no full conjecture proof is claimed.
+
+The [thirty-third assessment](research/parallel33-pass-summary-2026-09-05.md)
+removes repeated coordinates from the centered subgroup moment target
+with an explicit relative error tending to zero at logarithmic depth.
+Each collision partition retains its own principal-term subtraction.
+It also improves the recorded repeated-six-word exponent from 69/20
+to 129/40. The distinct-coordinate upper bound remains unproved, so
+the full sixth-energy, period, Paley, and prize targets are unchanged.
+
+The [thirty-second assessment](research/parallel32-pass-summary-2026-09-05.md)
+proves a uniform linear bound for derivations by one triangle orbit:
+every generated six-term relation needs at most 8m triangle copies,
+where m is the order needed to contain the normalized triangle.
+A Fourier comparison with an explicitly invertible trinomial proves
+the bound. It controls derivation length as the order grows; the number
+of six-term outputs and all full conjecture bounds remain unproved.
+
+The [thirty-first assessment](research/parallel31-pass-summary-2026-09-05.md)
 classifies the minimum triangle derivations of every six-term remainder
 orbit in the new counterexample. Twenty primitive orbits need four
 triangle equations; the remaining 45 need at least 38-44, despite leaving

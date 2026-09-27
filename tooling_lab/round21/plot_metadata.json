@@ -1,0 +1,11 @@
+{
+  "status": "produced",
+  "scope": "Exact universal candidate-box caps from rational certificates; not list-size observations, timings, or bounds for every erasure pattern.",
+  "source_sha256": {
+    "plot_caps.py": "8fa66f7869db32108b901d175a0f31dff0938f7b662f86c3e0530fa2915c91b5"
+  },
+  "input_sha256": {
+    "pullback_summary.json": "efcfbae6a5dd10bcace69ff61ed34c0c3ba7691fa1338aecb8cf8d58f8792216",
+    "heldout_summary.json": "ca50196da3ce0b603bf3a0f9f1b0f0dedd63eb90e3171ede5c731e8b89179aaf"
+  }
+}

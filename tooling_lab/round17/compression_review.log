@@ -1,0 +1,5 @@
+{"case": "small_complete", "vectors_checked": 256, "relation_height": 2, "relation_l1": 3, "digit_height_bound": 1, "original_coefficient_bits": 8, "digit_coefficient_bits": 1, "original_norm_bits": 61, "digit_norm_bits": 5}
+{"case": "medium_walk", "vectors_checked": 65, "relation_height": 2, "relation_l1": 3, "digit_height_bound": 1, "original_coefficient_bits": 16, "digit_coefficient_bits": 1, "original_norm_bits": 257, "digit_norm_bits": 17}
+{"case": "known_short_walk", "vectors_checked": 65, "relation_height": 2, "relation_l1": 3, "digit_height_bound": 1, "original_coefficient_bits": 22, "digit_coefficient_bits": 1, "original_norm_bits": 739, "digit_norm_bits": 45}
+{"case": "known_centering_walk", "vectors_checked": 65, "relation_height": 2, "relation_l1": 3, "digit_height_bound": 1, "original_coefficient_bits": 22, "digit_coefficient_bits": 1, "original_norm_bits": 739, "digit_norm_bits": 45}
+{"case": "quartic_window_walk", "vectors_checked": 33, "relation_height": 3, "relation_l1": 13, "digit_height_bound": 6, "original_coefficient_bits": 30, "digit_coefficient_bits": 3, "original_norm_bits": 2055, "digit_norm_bits": 191}

@@ -1,6 +1,286 @@
 # Current proof frontier
 
-Latest: the [thirty-first pass](parallel31-pass-summary-2026-09-05.md)
+Latest: the [fifty-third pass](parallel53-pass-summary-2026-09-06.md)
+returns to the direct two-anchor operator. The elliptic kernel on all
+quadratic residues diagonalizes with eigenvalues Re(J(psi,chi)^2).
+Lu–Zheng–Zheng Theorem1.4 equation1.7, with one fixed quadratic
+character and one full character family, gives inversion-odd eigenvalues
+at least p-32pi^2sqrt(p). They exceed2p/3 for every eligible p>=2^20
+and have ratio tending to1. This rules out an ambient norm saving
+asymptotically; it does not refute the compressed S_3 average required
+by pass25. The exact p89 eigenvalue73 has an integer odd vector with
+nonzero support outside C. All4,096 cyclic coefficients and3,198
+restricted-identity entries pass. The next direct spectral input must
+control the joint C-support restriction and S_3 average. All uniform
+exponents and full goals remain unchanged.
+
+The [fifty-second pass](parallel52-pass-summary-2026-09-06.md)
+uses four-child incidence coarsening to prove Delta_s=X_s-X_(s/2)>=0,
+Delta_s>=36Y_s and Y_s^2<=sDelta_s/24. It also controls the increase
+in normalized energy excess and characterizes zero cubic increment.
+Holder gives sum_(M<s<=N)sqrt(Y_s)<<N^(1/4)(X_N-X_M)^(1/4), so
+X_N-X_M<<N^(5/3) at the pass50 cutoff would suffice. That increment
+estimate remains unproved. The existing X_N<<N^2 log N returns only
+energy5/2, weaker than49/20. At p2144280833,N256 the cubic excess
+is1260 at both128 and256; no fixed-factor growth at every step holds.
+All368 distinct steps,71 towers and397 cutoff checks pass. Uniform
+exponents and full goals remain unchanged. The next task is a genuine
+quantitative saving, beyond the new accounting identity.
+
+The [fifty-first pass](parallel51-pass-summary-2026-09-06.md)
+tracks primitive labels into the full endpoint kernel. Its exact
+compatibility equation is U+2C+H=A_tot/2+2sum_s T_s/s, where U counts
+extra mergers under the power maps, C counts coincidences across levels,
+and H counts the distinguished label. The energy lower bound sharpens
+to E_N>=3N^2-3N+6Nsum_s Y_s. At the actual quartic endpoint
+p2144280833,N256, Y128=3 but Y256=0, while D128=D256=48.
+Thus a pointwise top-layer domination for every tower is false; this
+finite example does not rule out an eventual or additive-error variant.
+All71 towers,397 levels and2,731,208 literal pairs pass. No uniform
+exponent improves. The next task remains the upper-tower estimate,
+using the full compatible label data when needed.
+
+The [fiftieth pass](parallel50-pass-summary-2026-09-06.md)
+proves 3N+6N sum_s Y_s<=E_N and
+sqrt(E_N)<=sqrt(14N^2-25N)+2sqrt(2N)sum_s sqrt(Y_s).
+The resulting upper bound28N^2+16N(log_2 N-1)sum_s Y_s compares
+energy with unweighted actual triple mass up to a logarithm. Recovery
+from any intermediate subgroup improves the earlier sufficient weighted
+criterion. Using the existing49/20 energy theorem handles all levels
+through the largest dyadic M<=N^(80/87)/(1+log N)^(4/29). The remaining
+sufficient input is sum_(M<s<=N)sqrt(Y_s)<<N^(2/3), still unproved.
+Exact checks cover70 towers,390 levels and460 cutoffs. Abstract
+equal-mass profiles only establish the limitation of the scalar Cauchy
+step; no field realization is claimed. Uniform exponents and all full
+goals remain unchanged.
+
+The [forty-ninth pass](parallel49-pass-summary-2026-09-06.md)
+replaces the two-resultant gcd by Ccrit_n, the gcd of all coefficients
+of Res(R_n,R_n'+T R_n''). Its valuation is the sum of the minima of
+the two derivative valuations at the lifted roots. It dominates all
+triple masses over p-adic precisions, with an explicit nonnegative
+reciprocal-sum correction. Generic polynomial examples prevent assuming
+either equality with the coarse gcd or equality with that collision sum.
+Norm geometry and field-degree descent show that every odd prime
+dividing Ccrit_n is 1 modulo n. The target primes satisfy this condition,
+so no target estimate improves. Through order128 the refined integer
+equals G_n, and all70 checked splitting cases have zero higher or
+cancellation contribution. These finite facts are not uniform identities.
+The next task remains a bound for the splitting-prime aggregate.
+Uniform exponents and full goals remain unchanged.
+
+The [forty-eighth pass](parallel48-pass-summary-2026-09-06.md)
+uses the gcd of two derivative resultants to classify primitive triple
+fibers through order128. Precisely three primes in its quartic interval
+have maximum fiber3; all three have B5120<8192. The proposed uniform
+maximum-fiber-two condition is false, while the aggregate quadratic
+bound survives throughout this fixed-order interval. For general dyadic
+n, Y_n=sum_(c>=3)c(c-2)<=v_p(G_n) and B_n<=n^2/2+nY_n.
+The weighted tower sum V_N gives E_N<=44N^2+22N^2 V_N. A uniform
+V_N<<N^(1/3) would reach the intermediate energy7/3 and triangle17/3
+targets, but remains unproved. Complete factorizations, prime
+certificates and literal counts passed. The next task is an aggregate
+estimate, with no reliance on the refuted pointwise condition. Uniform
+exponents and full goals remain unchanged.
+
+The [forty-seventh pass](parallel47-pass-summary-2026-09-06.md)
+derives h_i>=a_i(a_i-1)+a_(-i)(a_(-i)-1) for i!=0 from known matrix
+entries. Both earlier uncentered interval families fail this condition.
+A centered repair satisfies it, the formal product congruence, and every
+total-X row condition at large n, while retaining the difficult norm
+power61/15. Actual field power sums impose stronger constraints: the
+first n-1 characterize the complete profile by Newton reconstruction.
+All2,048 tested positions of the repair fail the first moment at one
+certified quartic prime. This finite exclusion and recognition theorem
+give no uniform coefficient or excess bound. That remains the next task,
+using field arithmetic or the full matrix law. Exact checks passed;
+uniform W86/15, energy49/20, period71/72, absolute exception5/3 and
+the full targets remain unchanged.
+
+The [forty-sixth pass](parallel46-pass-summary-2026-09-06.md)
+proves H_D<=nd max(1,sqrt(R_D))+6^(1/3)d^(2/3)X_D^(2/3), where h_i
+is the row's repeated-incidence mass, H_D its sum, and R_D the maximum
+outside mass. For actual C, h is determined by a's autocorrelation.
+The Sidon-filled interval forces X>=c n^(11/5), excluding its realization
+at sufficiently large size under the source bound. A long-interval filler
+retains the correlation power while satisfying every total-X consequence.
+It has no assigned local X_D or actual matrix. The next task is to use
+those local allocations or the off-diagonal multiplication identities.
+Finite checks passed; no uniform exponent or full target improves.
+
+The [forty-fifth pass](parallel45-pass-summary-2026-09-06.md)
+derives L(u)L(v)=n<u,v>I-nuv^T+L(L(u)v) for arbitrary real weights.
+Exact rank corrections, cubic and quartic traces, and the projection onto
+the shifted-matrix span are retained. For u=a^2, the remaining centered
+correlation contains W. Substituting only the current scalar moments into
+the resulting Cauchy bound gives power7, weaker than86/15. Warren's
+checked shifted-product consequence is also insufficient at the surviving
+interval parameters; a specified stronger cubic product input is unproved.
+The checked2026 complex-group theorem is not a finite-field substitute.
+All exact finite checks passed. The next task is targeted control of the
+actual incidence correlation using the full multiplication law, rather
+than a scalar norm substitution. Uniform exponents and full goals remain
+unchanged.
+
+The [forty-fourth pass](parallel44-pass-summary-2026-09-06.md)
+proves sum_D a<<n^(2/3)|D|^(1/3) for every quotient subgroup coset D.
+Whole level cosets therefore satisfy T^3|D|^2<<n^2. Nested level-coset
+pieces contribute at most the target triangle power17/3, and a stated
+polylogarithmic partition of levels above n^(23/60) would suffice up to
+logs. That partition is not established. Abstract weighted intervals
+still attain correlation power61/15 while satisfying all these coset
+mass caps and the other compared scalar bounds. They are not actual
+subgroup data. Actual C satisfies C^2=nI-ne0e0^T+L(a) and an exact
+shifted Frobenius identity, now derived and checked. The next task is
+to use this additional arithmetic against general high-level
+concentration. Uniform W86/15, energy49/20, period71/72, the absolute
+prime-exception exponent5/3, and all full targets remain unchanged.
+
+The [forty-third pass](parallel43-pass-summary-2026-09-06.md)
+improves the absolute exception count for W<<n^(17/3) in a quartic
+prime interval to O_c(n^(5/3)/log n). The exact inequality
+W<=R_max E_*^3/n^2 and the published single-coset bound R_max<<n^(2/3)
+make energy E<<n^(7/3) sufficient; the existing fourth-energy prime
+average controls how many primes can fail that criterion. This leaves
+individual exceptional primes possible and does not assert a proportion.
+At p278177,n32, minimum additive energy coexists with X_dist=X72 and
+zero diagonal rich mass, ruling out all constant-factor diagonal
+domination even inside the quartic window. Compatible root lifts give
+v_p(mathcal_P_n)=sum_r X_r, with exact finite norm comparisons.
+The uniform W, energy49/20, period71/72 and full targets do not improve.
+The next task is individual exceptional-prime control or stronger actual
+incidence structure beyond the ruled-out diagonal comparison.
+
+The [forty-second pass](parallel42-pass-summary-2026-09-06.md)
+proves sum_(p=1 mod n) X_p log p <=(M/2)log(S/M), with
+M=(n-1)^4-2(n-1)^2+(n-1) and S=8n^2(n-1)^2-2n^4.
+For each fixed dyadic n>=4, this gives an absolute exception count
+O_c(n^(63/31)/log n) for X_p>n^(61/31) in a quartic prime interval.
+The pass41 criterion gives W<<n^(17/3) outside those exceptions.
+No bound for every prime or eligible-prime proportion follows.
+The actual subgroup p353,n16 has X_dist=X72 and zero diagonal rich mass,
+refuting every constant-factor diagonal domination in the general sparse
+range; it lies outside the quartic window. Matched reflection projections
+give a positive smoothed sixth moment but an exact Holder recovery
+certificate at least as large as the direct one. Norm and reflection
+checks passed. The full goal, uniform energy49/20, and period71/72
+remain unchanged. The next task is individual exceptional-prime control
+or additional restrictions on the actual joint incidence distribution.
+
+The [forty-first pass](parallel41-pass-summary-2026-09-06.md)
+proves W<<n^(86/15)(1+log n)^(8/15) for the full nonzero weighted
+triangle sum, retaining all multiplicities and removing the initial
+dyadic logarithm loss. The power gap to17/3 is1/15. The exact dependence
+of the difference tail on nontrivial shifted-energy excess X shows that
+X<<n^(61/31), up to logarithms, would suffice to close this triangle gap.
+That input remains unproved. Real-subfield recovery changes the known
+scalar cofactor1217^31 to1217; centering and full-space unit balancing
+still do not supply the uniform shell estimate. A positive smoothed sixth
+moment has a quantified unsmoothing gap. Independent checks passed;
+energy49/20, period71/72 and all full-conjecture targets are unchanged.
+
+The [fortieth pass](parallel40-pass-summary-2026-09-06.md)
+rules out reversing the short-shell construction into a norm-p generator:
+the actual order64 example has V<1 and a nonprincipal kernel. Reciprocal
+recovery gives cofactor tau^(N-1), with exact scalar-family loss1217^31
+in that example; other certificates can have smaller cofactors.
+The actual quartic order128 difference levels also have positive repeated
+fibers with three distinct edge cosets. Correct incidence52736 becomes
+51968 after discarding multiplicity. The collision correction is now an
+explicit sum of multiplicative level intersections, still unbounded at
+the needed scale. Classical Sidon translation/container bounds and the
+distinction between relative and input-norm approximation are recorded.
+Root independently reviewed and checked the results. No uniform exponent
+or full target improves.
+
+The [thirty-ninth pass](parallel39-pass-summary-2026-09-06.md)
+proves a cyclotomic cofactor restriction and an exact finite obstruction
+to the literal constant C=2: p215535361,n128,a38468180 has V=1 and
+eta>2 sqrt(n log(p/n)). The bound with an unspecified constant remains
+open. Norm(f)=kp with p not dividing k forces V<=k^2 for some nonzero
+coset; any existing M=o(n) implies k>=(1-o(1))sqrt(n)/(2 pi), preventing
+small-cofactor constructions from scaling in the quartic window.
+The coincident-edge triangle contribution is <=3 F3* F4*/n; its
+three-distinct-coset complement still needs a bound. Independent agents
+reviewed these constructions and the prior moment/shell comparisons.
+No full target or uniform exponent improves.
+
+The [thirty-eighth pass](parallel38-pass-summary-2026-09-06.md)
+resolves the22/9 versus49/20 energy discrepancy. The published source
+has exponent32/13 and adds an injectivity condition to its incidence
+lemma. That condition fails for diagonal triples of sets containing
+multiple subgroup cosets. Exact enumeration verifies failure on an old
+proof level: p1153,n8,|S|24, ratio image1600 instead of1728. A separate
+p97 example counts48 incidences versus16 after multiplicity is dropped.
+These are hypothesis and counting failures, not asymptotic energy
+counterexamples. Two independent reviews support the source comparison
+and multiplicity identity. The current49/20 energy input,129/40 repeated-six
+bound, and71/72 uniform period exponent remain unchanged; the full goals
+and positive moment upper bound are unproved.
+
+The [thirty-sixth pass](parallel36-pass-summary-2026-09-05.md)
+gives an exact Bernoulli-series and Dirichlet-inverse comparison between
+centered periods and the shortest squared norms of dual-lattice cosets.
+For maximum deviation D and centered period maximum M_f,
+12p^2/(p^2-1)D<=M_f<=36p^2/(p^2+1)D; the left constant becomes24
+when multiplication by2 preserves the set. The same holds in every
+normalized l^r norm, r>=1. The desired uniform thin-annulus estimate
+is open. A rank-one cyclotomic norm bound gives only V>=p^(-2/N),
+far from the required mean near N/12. Truncated inversion yields an
+exact finite certificate without high moments and recovers the known
+order64 maximizing coset. It does not improve the prior tight enclosure
+of M. No uniform exponent or full target is proved. Pass39 independently
+reviews sections1-4 and clarifies A=H,a!=0; Lean review remains open.
+
+The [thirty-fifth pass](parallel35-pass-summary-2026-09-05.md)
+proves, for every symmetric nonzero set and every degree s>=1,
+B_s>=-(256sn)^s and T_s<=16^s B_s+2(4096sn)^s, together with
+|B_s|<=4^s[T_s+(64sn)^s]. The negative side is controlled, and the
+remaining sufficient input is a one-sided upper bound at one selected
+degree B_s<=(Ksn)^s. It no longer requires a hierarchy or the pass33
+epsilon condition. The proof applies Ravichandran's derivative-root
+theorem before averaging and covers all sizes. An actual quartic
+p1153,n8 example refutes real-rootedness of the averaged generating
+polynomial. The positive upper estimate, period improvement, and full
+Paley/prize targets remain unproved. Pass39 supplies separate-agent
+review of the comparison; Lean review remains outstanding.
+
+The [thirty-fourth pass](parallel34-pass-summary-2026-09-05.md)
+separates opposite pairs with an exact positive transform and an inverse
+whose coefficients count independent sets in cycles. For n=2N and
+2s<=N, the centered distinct counts Q_s and centered opposite-free
+counts B_s satisfy Gaussian hierarchy bounds together, up to absolute
+changes in constants. Combined with pass33, this holds at logarithmic
+depth in the quartic window. The missing input is a one-sided uniform
+bound B_t<=K^t(2t-1)!!n^t; it is not proved. For every eligible symmetric
+set with n>=2^35 and p<=n^4, O_10>=n^6/2, so the raw high-degree count
+cannot replace B_t. Opposite-free six-words are not merely D6. No full
+energy or period exponent improves; all full targets remain open.
+
+The [thirty-third pass](parallel33-pass-summary-2026-09-05.md)
+proves a centered distinct-coordinate reduction with explicit relative
+error product_(j=1)^(2s-1)(1+j/sqrt(alpha))-1, where
+alpha=n(p-n)/(p-1). In the quartic window this is O(s^2/sqrt(n))
+and tends to zero at logarithmic depth. Distinct counts subtract
+(n)_(2s)/p, while full moments subtract n^(2s)/p; every collision
+partition is centered before Holder. For repeated six-words, subgroup
+averaging gives R6<=15 sqrt(E2 E3), improving the recorded component
+exponent to 129/40 with log power3/5. The remaining distinct-coordinate
+upper bound is unproved and includes opposite-pair configurations;
+it is not simply D6. No full-energy or period exponent improves.
+
+The [thirty-second pass](parallel32-pass-summary-2026-09-05.md)
+proves that every six-term relation generated by a fixed triangle orbit
+has a derivation using at most 8m copies, with m the least subgroup
+order containing the normalized triangle. The inverse trinomial has
+coefficient norm at most 4m/3, by comparison with the explicit inverse
+of 1+X+X^2 and Parseval. A primitive generated target lies in one
+coset of that subgroup and has minimum cycle rank at most 4m-2.
+Integrality of the quotient remains essential. This is a uniform
+length estimate, not a bound on the number of outputs or a stronger
+cancellation exponent; separate-author and Lean review remain open.
+
+The [thirty-first pass](parallel31-pass-summary-2026-09-05.md)
 classifies all 119 remainder orbits at p=215535361, n=128 by their
 minimum number of scaled zero-triangle terms. The unique integer
 quotient by 1+X+X^19 proves the minima: 54 triangular orbits need 2,

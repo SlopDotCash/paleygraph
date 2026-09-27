@@ -1,0 +1,66 @@
+{
+  "observed_at_utc": "2026-09-06T09:20:34.442044+00:00",
+  "classification": "progress: necessary local row-capacity inequality, asymptotic exclusion of the Sidon-filled obstruction, and a modified family passing every total-X row condition",
+  "previous_goal_turn_classification": "progress: weighted matrix laws and exact checks; no new uniform estimate",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "finite_checks": {
+    "actual_subset_checks": 6656,
+    "positive_actual_certificates": 1,
+    "abstract_models": 4,
+    "symbolic_large_parameter_checks": 2,
+    "modified_model_threshold_checks": 399
+  },
+  "modified_family_scope": "Total-X necessary inequalities and listed scalar bounds only; no local X_D allocation, off-diagonal multiplication law, incidence matrix, or prime-field subgroup is supplied.",
+  "review_scope": "Root ordinary derivations and exact checks. No separate-agent, Lean or external review.",
+  "agent_state_verified": "All three existing lanes errored at usage limit, retry date September13; no restart or reset attempted.",
+  "no_lean_build": true,
+  "no_lean_poll": true,
+  "no_process_changes": true,
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel45_weighted_matrix_algebra.py": true,
+    "research/parallel45-pass-summary-2026-09-06.md": true,
+    "research/parallel45-shifted-product-scope-2026-09-06.md": true,
+    "research/parallel45-weighted-matrix-algebra-2026-09-06.md": true,
+    "results/parallel45_prior_state_2026_09_06.json": true,
+    "results/parallel45_resume_audit_2026_09_06.json": true,
+    "results/parallel45_source_scope_2026_09_06.json": true,
+    "results/parallel45_weighted_matrix_algebra_2026_09_06.json": true
+  },
+  "local_links_checked": 6,
+  "source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459"
+  },
+  "artifacts_sha256": {
+    "experiments/parallel46_row_capacity.py": "8102f0426d67fbeb78ebe65f42c06f1011dd54c551157b827a7e5428c042ea5f",
+    "research/parallel46-pass-summary-2026-09-06.md": "229726a683d85806d55896f32c3cf468e7749e6d5aa3560b71f1415e4a66ddf5",
+    "research/parallel46-row-capacity-2026-09-06.md": "b7041b53f80d81f412de987c4c9b2b0e6cdb9d6daa696b232616fc22b55b4e2f",
+    "results/parallel46_prior_state_2026_09_06.json": "3f51430059f37c76be36ebfddf82fc39f37cb891adc661179ddf97480a73c106",
+    "results/parallel46_row_capacity_2026_09_06.json": "7ab6be60fbf80c159138a89722b44958222239087f101fa517fbba6f556d70ac"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "7c9b5b1e9b8a2e9760948c7fac17e0b3b378da2d8018a1e0341f8efe083780a6",
+      "after": "e37e08bf478158c34082903c2376f0f2ad5c0b76cc253558f1bd46fd57d266bd"
+    },
+    "research/frontier.md": {
+      "before": "a3c48604bae0e395a1d0f87f3b185bf5fc22142c1a880264bf2e4cbbdda835b6",
+      "after": "f26b74d43063f88eee9b386c1b2284c906bfe792fb68e488c9bb893008f5eb45"
+    },
+    "research/source-audit.md": {
+      "before": "94f3d0768118ee12886ba88d8144bc97402a3df0c850af1ec7032625933f4500",
+      "after": "af523e220209635f5eabc8467507e96fa8bea593b9cbf80394bbeb46e2d4896f"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "054177c0c3168a765b63d62f402d34d99ccb95dddb7654a39b4280e12ec434e7",
+      "after": "5adda8e86d6dd0fec2757906207236910eb0f56a5391afc39f13914d20681190"
+    }
+  },
+  "next_action": "Use local cubic-excess allocations and off-diagonal matrix multiplication constraints against the long-interval-filled concentration model; do not treat its total-X certificates as a matrix realization."
+}

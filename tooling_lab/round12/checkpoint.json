@@ -1,0 +1,7 @@
+{
+  "status": "checkpoint_passed",
+  "scope": "Source bindings, terminal result statuses and preserved previous snapshot; round12 remains in progress and this is not full interface verification.",
+  "round11_artifacts_preserved": 49,
+  "source_input_bindings": 14,
+  "python_sources_compiled": 5
+}

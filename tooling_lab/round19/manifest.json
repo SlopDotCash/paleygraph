@@ -1,0 +1,133 @@
+{
+  "status": "verified",
+  "created_utc": "2026-09-06T09:28:57.992866+00:00",
+  "scope": "Exact window hierarchy, universal bounded-L1 relation obstruction and separator bracket, general projection/re-encoding codec and degenerate fallback. Membership is resolved within the stated algebraic model; efficient general enumeration and norm aggregates remain open.",
+  "previous_artifacts_preserved": {
+    "round18": 16,
+    "round17": 22,
+    "round16": 48
+  },
+  "source_and_input_bindings": 115,
+  "python_sources_compiled": 9,
+  "sympy_version": "1.14.0",
+  "markdown_local_links_passed": true,
+  "window_words_checked": 6642,
+  "all_relation_budget_certificates": 5,
+  "codec_small_census_checked": 6561,
+  "codec_family_relations_checked": 80,
+  "codec_family_words_checked": 117200,
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "dc4cf4e2e4dc0c10aa129b0a81580ca222d20a3b56c7b4b29f4d10dc73a6b325",
+      "bytes": 7840
+    },
+    "README.md": {
+      "sha256": "5e131bb553a118cf2c4fce22efe3cb0eb554d4b561643ed3dd2f0fc5cbbe03e2",
+      "bytes": 7312
+    },
+    "barrier_review.json": {
+      "sha256": "1c92da474a58d62c2323b7d8100774dca27afdf0b4e80de54a38adf0034f9530",
+      "bytes": 2109
+    },
+    "barrier_review.log": {
+      "sha256": "2bed19aaadc5e7c0dc06b7ff1d4146a66597d192efbef31606c0c6f19a67d5e1",
+      "bytes": 917
+    },
+    "barrier_review.py": {
+      "sha256": "70e894cdf73d64ce1206b8e31699cf335c3cb3955db1acdb8f5c49cea91986ba",
+      "bytes": 4760
+    },
+    "codec_family_controls.json": {
+      "sha256": "ce6a797fec721084bbbd0cead523f3a715e7b967c8446d680fa65d221b5afc4c",
+      "bytes": 30405
+    },
+    "codec_family_controls.log": {
+      "sha256": "31a961e5c282e7c48b1612fcdc81b28a39a89fe0ac005cf76a70c47d0d3130c5",
+      "bytes": 686
+    },
+    "codec_family_controls.py": {
+      "sha256": "66ed723246209bc8e95adf4fb197ee00eae7e4c1de70d713ecb58799aed2f81e",
+      "bytes": 3737
+    },
+    "codec_review.json": {
+      "sha256": "2226250d9c5dd14e6629db19bb0912c1d7be1eb846006e86042331cfbb9410c8",
+      "bytes": 3772
+    },
+    "codec_review.log": {
+      "sha256": "8345e492ae9572230886cd18dc785535f654d344d7f9a461b61abd6e1f6221f2",
+      "bytes": 1233
+    },
+    "codec_review.py": {
+      "sha256": "642cafcaabf3e1899be48f23a928e142510ad65eaf4f99341ba11e02a6cb196e",
+      "bytes": 9682
+    },
+    "prior_art.md": {
+      "sha256": "f967c0c1dee6a63d506ae8f455b0fdabb3d03538ac87a45c1b9d71fec5c6804a",
+      "bytes": 3320
+    },
+    "projection_codec.json": {
+      "sha256": "93c3fc5367b1e93f05a5cb969b9a5216ca3868a6055f58a6f0a281447870b55b",
+      "bytes": 1381740
+    },
+    "projection_codec.log": {
+      "sha256": "d8fd4333e39bcb9f99eb1b8696bb4ee4e75b6476ea6f3ad4e04e6832f54aa365",
+      "bytes": 642
+    },
+    "projection_codec.py": {
+      "sha256": "c250b5b9d6563ae4c76f9d2c6906b8e73c625c6900d4fe2704fb6e1946682723",
+      "bytes": 7750
+    },
+    "relation_barrier.json": {
+      "sha256": "e649891412a65ab225bd794d17cd8dc10762e27d58502e020d707bc84f5b024c",
+      "bytes": 104349
+    },
+    "relation_barrier.log": {
+      "sha256": "b62115b328f351594e3f9842196e9aaa8674feba904bf859ed2585132c7642f9",
+      "bytes": 1246
+    },
+    "relation_barrier.py": {
+      "sha256": "25a7fd6aa9d4876089ce6b9701f5b2afe8ba5e0587dc34e864817323d586e699",
+      "bytes": 5157
+    },
+    "separation_bounds.json": {
+      "sha256": "2fbaa5d0b9b4fd02496cc8a441764388b05412e956d8a7c56231d83ae89cae7e",
+      "bytes": 7914
+    },
+    "separation_bounds.log": {
+      "sha256": "4949b921baada02f5a5ea93e685d37384dbe178854ae743937e8dd07012d321e",
+      "bytes": 1187
+    },
+    "separation_bounds.py": {
+      "sha256": "a27347a1d028a5c5e0dbc1f9b07bfa2edae83b4e0d68c1e1802d68dc1c876dc8",
+      "bytes": 2899
+    },
+    "verify_round.py": {
+      "sha256": "0fc007aac5631b262c05907109057cb97b8ddf75fb3469162c4c9bf2c5ef513b",
+      "bytes": 5577
+    },
+    "window_hierarchy.json": {
+      "sha256": "bcb399e707ac5c4f5f8a8f433ef0a5dfb9e4806602ee32b6a810c2b252c6841b",
+      "bytes": 1154258
+    },
+    "window_hierarchy.log": {
+      "sha256": "720a9c3d46276d99293d2a3413c2021a2af5ae132e55c8cceeef42bde5508650",
+      "bytes": 1151
+    },
+    "window_hierarchy.py": {
+      "sha256": "13357476901ba23a26548f6e5ca9bced4c793426d2274613818e5e3b8633933e",
+      "bytes": 3165
+    },
+    "window_review.json": {
+      "sha256": "7b622d6a078d3106bbb6361e0f51ad4fa1f7edef95f279bfa1bb9428b273b1e9",
+      "bytes": 16889
+    },
+    "window_review.log": {
+      "sha256": "45c20060bceaa5c1f92a40f5c97f2598ee0e8e8fde7ac7fd20d13bc80109613f",
+      "bytes": 68
+    },
+    "window_review.py": {
+      "sha256": "7f7bbe2588061def50bcbada5880040dfa139758c7f9bc787bf5f0b54098190d",
+      "bytes": 3983
+    }
+  }
+}

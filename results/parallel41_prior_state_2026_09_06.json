@@ -1,0 +1,32 @@
+{
+  "observed_at_utc": "2026-09-06T06:54:09.748744+00:00",
+  "prior_pass40_hashes_match": true,
+  "files": {
+    "experiments/parallel40_distinct_levels.py": "8f6ae1d37dbf119d420aa5f5e32dc971a82e052115384b2c13ede1bd2b60d986",
+    "experiments/parallel40_independent_verify.py": "468a00e7e626cf509d3616135251ff5d624b565e2f4e9fe241db70091c6719a4",
+    "experiments/parallel40_shell_converse.py": "ce6d5b88fd6658c06c3de0113bb56c61935a7dab0d8b64b9a222a8e916de7272",
+    "research/parallel40-classical-structure-2026-09-06.md": "99cb94bfef91adefbd8a1471a3448c677396c5ea52564b7ac8a2adc85e3c5d1d",
+    "research/parallel40-distinct-edge-input-2026-09-06.md": "57042ffa49cbbb739db804d8f44de6c23563f812965e7588d382cc8d9f755c35",
+    "research/parallel40-independent-review-2026-09-06.md": "31758f001f784c313e3163bf450130b2532fc0d0d98abd96aa11b506dccd05a3",
+    "research/parallel40-pass-summary-2026-09-06.md": "afc90efd9e9398fa61fe517aaf9263ddaa25c7df315d52440c5529c5c13f6604",
+    "research/parallel40-shell-converse-2026-09-06.md": "5bd6d0796cf6dcf955759fc07134df64915cf41c3e00bd8768c1ec8ed37261d0",
+    "results/parallel40_distinct_levels_2026_09_06.json": "cccb89d41853b11cf729a3577c35534c484a14c262f26b4a6b4683b62f36d3cb",
+    "results/parallel40_distinct_quartic_2026_09_06.json": "0c66abd1d6677ae8bcd4d40e676f3bf7a937da7e2c85dc49ec45123d0b52ac5e",
+    "results/parallel40_independent_verification_2026_09_06.json": "bf52ef7ae17988c8db9768165a069b860333c9707f134c8ac83839c1c55c273c",
+    "results/parallel40_prior_state_2026_09_06.json": "b236fe2eb88689a69bddcd3aa71dd4e78cfd04cfa0ac8eee903b54768eb3fdbf",
+    "results/parallel40_shell_converse_2026_09_06.json": "85d5df47e26594cc8e935145511dd9c942af00b2a85128f1ba6ab3496c7352c0",
+    "README.md": "0c0c5def9f38efce68e5aec5894f1a255d38e26f3673213766bed240bf69f158",
+    "research/frontier.md": "cf300ab0d03ecc2afdb7d631782df7c4de8f2132e697e4d1af58bbe8cb8bd7ee",
+    "research/source-audit.md": "488df842bcbf0b5ef395afcad9c97cc15a06dd0232be064912e7876b4276f205",
+    "research/checkpoint-2026-09-04.md": "39f6b324b62b500b1119a2abcfc5a6890d0eef046d2e270bf6dd8304a1b10619"
+  },
+  "current_pass41_files": {
+    "research/parallel41-level-collision-bound-2026-09-06.md": "0a739400e06ae20dc3ea65a7169093199cd4cf00cefc71fc3b8082a05c7c6d9b",
+    "research/parallel41-shell-arithmetic-recovery-2026-09-06.md": "48ae38559176faa69fe605f8f95086773612be4bc8c3e1061426d5fbe5105423",
+    "research/parallel41-classical-smoothing-2026-09-06.md": "e7af779a69c4632d37ab35f9525e6c929d7134f16ce3f1b22f74b88a4f589640",
+    "experiments/parallel41_shell_real_recovery.py": "9ac9dc2073c12f4b77809e4a9c19b19329b33123ffcfcc8166902d95f7a37c42",
+    "experiments/parallel41_classical_smoothing.py": "f5d36f56c322806a8d36d96de932d5cbb3cb6fb44faf832c74180b818ecfc20d",
+    "results/parallel41_shell_real_recovery_2026_09_06.json": "fff97fe686d3efde47bdb10d3af07f5d594db5d13bc01f6d29bbc5173e811b1b",
+    "results/parallel41_classical_smoothing_2026_09_06.json": "cc032363c24bdb9d6b727743aab6ea9f15a5720d439e47fd87d12642b4ffcbf1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "toy_passed",
+  "scope": "Exact rank-two evaluation-pattern audit; no cluster-discovery algorithm or full proximity theorem.",
+  "projective_patterns": 3000,
+  "threshold_checks": 18000,
+  "agreement_sets_enumerated": 96000,
+  "source_sha256": {
+    "rank_two_pinning.py": "d7043842d3c0c8862e24693864a31d0cc101e9781945a96cff325d5bd33e6047"
+  }
+}

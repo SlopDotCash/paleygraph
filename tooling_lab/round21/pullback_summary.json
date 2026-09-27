@@ -1,0 +1,166 @@
+{
+  "status": "produced",
+  "scope": "Same large bounded-erasure queries with exact centered-orbit pullback radii. Uniform caps and uniqueness follow from rational dual identities, independent of the finite query sample.",
+  "cases": [
+    {
+      "name": "pullback_erase4",
+      "artifact": "pullback_erase4.json",
+      "erasures": 4,
+      "baseline_universal_cap": 1,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 128,
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 64,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase8",
+      "artifact": "pullback_erase8.json",
+      "erasures": 8,
+      "baseline_universal_cap": 1,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 128,
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 64,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase13",
+      "artifact": "pullback_erase13.json",
+      "erasures": 13,
+      "baseline_universal_cap": 1,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 128,
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 66,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase14",
+      "artifact": "pullback_erase14.json",
+      "erasures": 14,
+      "baseline_universal_cap": 1,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 128,
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 66,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase15",
+      "artifact": "pullback_erase15.json",
+      "erasures": 15,
+      "baseline_universal_cap": 1,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 128,
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 69,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase16",
+      "artifact": "pullback_erase16.json",
+      "erasures": 16,
+      "baseline_universal_cap": 2,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 128,
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 67,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase20",
+      "artifact": "pullback_erase20.json",
+      "erasures": 20,
+      "baseline_universal_cap": 8192,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true,
+      "queries": 16,
+      "complete_counts": {
+        "1": 8,
+        "0": 8
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 8,
+      "cyclic_controls": 512
+    },
+    {
+      "name": "pullback_erase24",
+      "artifact": "pullback_erase24.json",
+      "erasures": 24,
+      "baseline_universal_cap": 419904,
+      "universal_candidate_box_cap": 4,
+      "universal_unique_completion": false,
+      "queries": 6,
+      "complete_counts": {
+        "1": 3,
+        "0": 3
+      },
+      "maximum_observed_box": 1,
+      "scalar_candidates_checked": 3,
+      "cyclic_controls": 0
+    },
+    {
+      "name": "pullback_erase32",
+      "artifact": "pullback_erase32.json",
+      "erasures": 32,
+      "baseline_universal_cap": 110612791296,
+      "universal_candidate_box_cap": 41472,
+      "universal_unique_completion": false,
+      "queries": 6,
+      "complete_counts": {
+        "1": 3,
+        "0": 3
+      },
+      "maximum_observed_box": 1024,
+      "scalar_candidates_checked": 2777,
+      "cyclic_controls": 0
+    }
+  ],
+  "source_sha256": {
+    "pullback_experiments.py": "d91f99a972b204bc4db04036836e396404b4b7bccd6a6006297cff482a86ed23",
+    "pullback_erasure.py": "cce1677e80835b0b4d1a34017ebaca05d80f34fa1bb85db9f829fd32b9e46e30",
+    "lattice_erasure.py": "522c7486d34c44c68ca9810b21886041e54f5ac86508d1454d2ba7228a3bd603"
+  },
+  "input_sha256": {
+    "p2013265921_erase4.json": "4dcb3a46974811a72e31cd3a8bf783164728db9937ba6062554a25fe89e01ee4",
+    "p2013265921_erase8.json": "1eff4bf08b9c7d74661f479e569432d9d31b22de227e0bf33bfb9f325ba49c5f",
+    "p2013265921_erase13.json": "afc8caf1855627a9353f20b73dc8caaaddb4c23e75ab90876bd1c39a26391c21",
+    "p2013265921_erase14.json": "f00afb40d65943669c617192cc2d1f72e42f2459f0f843069f1f0bba2a312ee7",
+    "p2013265921_erase15.json": "d5b3265026cb94ad83b96f53176860b689f8a2b24de127a7469307db626f2d7d",
+    "p2013265921_erase16.json": "5254ab66b664e3bd46b13d74cac4ac39684bef43bfd755f625d62bf8e016a0e7",
+    "p2013265921_erase20.json": "b689ffa35a49719bd4c59c1880f97d34ce0c155b321194b9733c616ceb00450f",
+    "p2013265921_erase24.json": "8301f974c829dbf5c9cd374203aa95222f8b15616363cb182717917d5da2fe21",
+    "p2013265921_erase32.json": "3b7726b405171124601efe5baa6604124e396c7c34ab072625558efc4a80e817"
+  }
+}
