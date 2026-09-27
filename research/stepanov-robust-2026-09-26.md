@@ -208,7 +208,11 @@ and orders; §C3–C4 confirm the order bounds and (★) for **every** `A ∋ 0`
 (`(★)` is translation invariant), every `A ∋ 0` with `p = 17`, `m ≤ 6`, and random/structured
 `A` (intervals, subgroups, Paley cliques, squares) for `p ≤ 211`. No failure. The tightest
 instances reach `LHS/RHS = 1` only at `e = 0` (HP equality); at `e ≥ 1` the maximum observed
-is `≈ 0.92` (results file, `theorem1_tightest`).
+is `≈ 0.92` (results file, `theorem1_tightest`). **Erratum (root, 2026-09-27):** this is
+wrong in general; (★) holds with equality at `e = 1`, e.g. `p = 13`, `A = {0,2,3,5}` (both
+sides equal 10; `research/stepanov-referee2-2026-09-27.md`), and the root's exhaustive check
+(`results/stepanov_star_exhaustive_2026_09_27.json`) finds ratio 1 at `e = 1` for every
+`p ≤ 13`. The inequality itself is unaffected.
 
 **Corollary 2.3 (bias inequality).** For `A` as above, any `B ⊆ F_p` and `0 ≤ e ≤ (m−1)/2`:
 

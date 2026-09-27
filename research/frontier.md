@@ -4,8 +4,9 @@ Stepanov wave (2026-09-26/27, [summary](stepanov-pass-summary-2026-09-27.md)):
 a Hankel-minor refinement of the Hanson–Petridis polynomial proves
 `N₋ ≥ (e+1)[n − (d−e+r)/(m−2e)]` non-residue sums for every `e ≤ (m−1)/2`,
 hence robust Hanson–Petridis with `f(η) = (1−√(2η))^{−2}` and a constant
-bias saving `≍ κ²` whenever `|A||B| ≥ (1/2+κ)p`. The threshold `1/2` is
-sharp. This closes the constant-saving question at the square-root scale;
+bias saving `≍ κ²` whenever `|A||B| ≥ (1/2+κ)p`, independently re-proved
+by a referee agent. The threshold `1/2` is sharp over all set sizes (witness
+`|A| = 2`); for two growing sets it is open. This closes the constant-saving question at the square-root scale;
 the conjecture needs a power saving below it, and the method's degree
 budget `(e+1)(d−e)` still caps it at `|A||B| ≍ p`. Next targets: the
 optimal `η(κ)`, Lean formalization, and any way to shrink the degree budget.

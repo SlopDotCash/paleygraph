@@ -5,8 +5,9 @@ with exact verification, a robust form of the Hanson–Petridis inequality
 and, as a consequence, the first constant-factor cancellation bound for
 arbitrary sets in the window `p/2 < |A||B| < p`, where Chung's bound is
 trivial. The threshold `1/2` is sharp. The argument has been read line by
-line by the orchestrator and checked by two independent programs. It has
-not been reviewed by a human mathematician, and targeted literature
+line by the orchestrator, re-proved independently by a referee agent,
+and checked by three independent programs. It has not been reviewed by a
+human mathematician, and targeted literature
 searches found no prior statement of it; novelty is not established.**
 
 ## 1. The result (PROVED; `research/stepanov-robust-2026-09-26.md`)
@@ -22,13 +23,15 @@ Notation: `p` odd prime, `χ` the Legendre symbol, `d = (p−1)/2`,
 
 For `e = 0` this is exactly Hanson–Petridis.
 
-**Theorem B (supersaturation, Cor. 2.3).** For all `A, B` and
-`0 ≤ e ≤ (m−1)/2`: `N₋ ≥ (e+1)·[n − (d−e+r)/(m−2e)]`. Every element of
+**Theorem B (supersaturation, Cor. 2.3).** For all `A, B` with
+`|A| ≤ (p+1)/2` and `0 ≤ e ≤ (m−1)/2`: `N₋ ≥ (e+1)·[n − (d−e+r)/(m−2e)]`. Every element of
 `B` beyond the Hanson–Petridis bound forces about `e+1` non-residue sums.
 
 **Theorem C (robust Hanson–Petridis, Thm 2.4).** If every `b ∈ B` has at
 most `ηm` bad partners, `η ≤ 1/8`, then
-`|A||B| − r ≤ (1−√(2η))^{−2}·(p−1)/2 + |A|`.
+`|A||B| − r ≤ (1−√(2η))^{−2}·(p−1)/2 + |A|`. (The robust note assumes
+`|A| ≤ (p+1)/2`; the referee proves the bound without it, §8.2 of
+`research/stepanov-referee2-2026-09-27.md`.)
 
 **Theorem D (constant cancellation, Thm 2.5).** For `p ≥ 11`,
 `0 < κ ≤ 3/2`, `u = (1+2κ)^{−1/2}` and all `A, B ⊆ F_p` with
@@ -37,8 +40,12 @@ most `ηm` bad partners, `η ≤ 1/8`, then
     |S(A,B)| ≤ [ 1 − (1−u)² + (√((1/2+κ)p)+1)/(2(p−1)) ]·|A||B|.
 
 The saving is about `κ²` for small `κ`. It cannot exceed about
-`2κ/(1+2κ)`, and the threshold `1/2` is sharp: `A = {0,1}` with its
-complete partner set has `|A||B| = (p+3)/2` and bias `1 − O(1/p)`.
+`2κ/(1+2κ)`. The threshold `1/2` is sharp over all set sizes: for
+`p ≡ 1 mod 4`, `A = {0,1}` with its complete partner set has
+`|A||B| = (p+3)/2` and bias `1 − O(1/p)`. Whether `1/2` is sharp when both
+sets grow is OPEN. The bound is vacuous for small `p` because of the
+`O(p^{−1/2})` term: at `κ = 1/2` it bites from `p ≥ 47`, at `κ = 0.1` from
+`p ≥ 2741` (referee).
 
 **Corollary E (Paley graph, `p ≡ 1 mod 4`).** Taking `B = −A`: every set of
 at least `√((1/2+κ)p)` vertices spans an induced subgraph with edge
@@ -68,6 +75,7 @@ where the prime field enters.
 | independent exhaustive C check of Theorem A, every `A ∋ 0`, `|A| ≤ (p+1)/2`, all `e`, `p ≤ 29` (`experiments/stepanov_star_exhaustive_2026_09_27.c`) | 1,074,401,579 | 0 |
 | Theorem D on the 165 most biased `F_p` rectangles found by the adversary | 165 | 0 |
 | orchestrator's line-by-line reading of Thm 2.1 steps 1–5, Lemma 2.2, Thms 2.4–2.5 | — | none found |
+| independent referee (`research/stepanov-referee2-2026-09-27.md`): own proof of every step; full polynomials `H_{e+1}` in 2,509 cases; `Λ ≢ 0` for every `p ≤ 1500`, `m ≤ (p+1)/2`, `e ≤ 12`; exhaustive `p ≤ 23`; Corollary E at 40 primes | 257,753,636 | 0 |
 
 Theorem A is tight at `e = 1` for `p ≤ 13` (ratio exactly 1 in the
 exhaustive check). Literature: Hanson–Petridis follow-ups (Kalmynin,

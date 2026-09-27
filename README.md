@@ -7,11 +7,12 @@ The [Stepanov wave](research/stepanov-pass-summary-2026-09-27.md)
 and, from it, a constant-factor cancellation bound for arbitrary sets:
 if `|A||B| ≥ (1/2+κ)p` then `|Σχ(a+b)| ≤ (1 − (1−(1+2κ)^{−1/2})² + O(p^{−1/2}))|A||B|`.
 Chung's bound is trivial below `|A||B| = p`, and the threshold `1/2` is
-sharp. The key step is a Hankel determinant of the Hanson–Petridis
+sharp over all set sizes (its witness has `|A| = 2`). The key step is a Hankel determinant of the Hanson–Petridis
 polynomial's derivatives, whose error part has low rank identically in
 `x`. The argument was checked by the worker's verifier (1.2 million exact
 checks) and by an independent exhaustive program (1.07 billion cases,
-`p ≤ 29`). It has not been reviewed by a human mathematician, and novelty is
+`p ≤ 29`), and an independent referee agent re-proved every step
+(257.8 million further checks). It has not been reviewed by a human mathematician, and novelty is
 not established beyond targeted searches. Hanson–Petridis itself is now
 proved in Lean 4 for every proper divisor, not yet submitted to prove2me. This is
 not a proof of the conjecture: it gives no power saving and does not go
