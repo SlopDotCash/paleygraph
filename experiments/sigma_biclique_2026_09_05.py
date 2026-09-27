@@ -605,9 +605,12 @@ def main():
                'graham_ringrose_log_p_logloglog_p': round(math.log(p) * math.log(math.log(math.log(p))), 3),
                'log2_p': round(math.log2(p), 3)}
         if p in ctab:
-            row.update({'omega': ctab[p]['omega'], 'B_of_clique': ctab[p]['B_of_clique'], 'sumclique': ctab[p].get('sumclique'),
-                        'M': ctab[p]['M'], 'balanced': ctab[p]['balanced'], 'greedy_balanced': ctab[p]['greedy']['b'],
-                        'product3_violator': ctab[p]['product3']['violator_found'], 'gp': ctab[p]['gp']})
+            # root fix 2026-09-05: table rows may lack optional keys when a C++ run did not finish
+            c = ctab[p]
+            row.update({'omega': c.get('omega'), 'B_of_clique': c.get('B_of_clique'), 'sumclique': c.get('sumclique'),
+                        'M': c.get('M'), 'balanced': c.get('balanced'),
+                        'greedy_balanced': (c.get('greedy') or {}).get('b'),
+                        'product3_violator': (c.get('product3') or {}).get('violator_found'), 'gp': c.get('gp')})
         if p in results['omega_python']: row['omega_python'] = results['omega_python'][p]['omega']
         results['table'][p] = row
 
