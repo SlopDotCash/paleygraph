@@ -2,6 +2,21 @@
 
 **Status: open. No proof of the Paley graph conjecture or the Proximity Prize is claimed.**
 
+The [Stepanov wave](research/stepanov-pass-summary-2026-09-27.md)
+(2026-09-26/27) proves a robust form of the Hanson–Petridis inequality
+and, from it, a constant-factor cancellation bound for arbitrary sets:
+if `|A||B| ≥ (1/2+κ)p` then `|Σχ(a+b)| ≤ (1 − (1−(1+2κ)^{−1/2})² + O(p^{−1/2}))|A||B|`.
+Chung's bound is trivial below `|A||B| = p`, and the threshold `1/2` is
+sharp. The key step is a Hankel determinant of the Hanson–Petridis
+polynomial's derivatives, whose error part has low rank identically in
+`x`. The argument was checked by the worker's verifier (1.2 million exact
+checks) and by an independent exhaustive program (1.07 billion cases,
+`p ≤ 29`). It has not been reviewed by a human mathematician, and novelty is
+not established beyond targeted searches. Hanson–Petridis itself is now
+proved in Lean 4 for every proper divisor, not yet submitted to prove2me. This is
+not a proof of the conjecture: it gives no power saving and does not go
+below the square-root scale.
+
 [Prove2Me project setup](PROVE2ME.md) reuses the existing private Paley
 proposal and pinned Lean environment. Server proof verdicts and the
 remaining formalization scope are recorded there.
@@ -698,6 +713,12 @@ python3 experiments/sigma_lean_2026_09_05.py
 python3 experiments/sigma_dual_2026_09_05.py
 python3 experiments/sigma_tuple_2026_09_05.py
 python3 experiments/sigma_si_2026_09_05.py
+python3 experiments/stepanov_robust_2026_09_26.py
+python3 experiments/stepanov_algebra_2026_09_26.py
+python3 experiments/stepanov_pencil_2026_09_26.py
+python3 experiments/stepanov_adversary_2026_09_26.py
+python3 experiments/stepanov_leanhp_2026_09_26.py
+cc -O2 -o star experiments/stepanov_star_exhaustive_2026_09_27.c && ./star 29
 python3 experiments/sigma_frobenius_2026_09_05.py
 python3 experiments/sigma_stress_2026_09_05.py
 python3 experiments/sigma_p2m_2026_09_05.py

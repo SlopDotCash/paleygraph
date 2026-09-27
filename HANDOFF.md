@@ -132,3 +132,19 @@ copyrighted papers. Re-fetch them from the arXiv ids in the notes.
   2026-09-06 and 2026-09-26. The four ACCEPTED proofs remain on the prove2me
   server (ids in `research/sigma-p2m-2026-09-05.md`); local Lean sources
   must be re-fetched from the server or rebuilt.
+
+## 9. Update 2026-09-27 (Stepanov wave, complete)
+
+- **New theorem** (`research/stepanov-robust-2026-09-26.md`, summary in
+  `research/stepanov-pass-summary-2026-09-27.md`): robust Hanson–Petridis
+  and constant cancellation `|S(A,B)| ≤ (1 − c(κ))|A||B|` for
+  `|A||B| ≥ (1/2+κ)p`, `c(κ) ≈ κ²`, threshold sharp. Verified by 1.2M
+  worker checks and an independent 1.07B-case exhaustive C check. Needs
+  human review before anyone calls it established; see the summary's §5.
+- The `robust`, `adversary` and `leanhp` notes are final. The adversary note
+  is partial by design (worker cut off); a root addendum summarises its data.
+- Environment: `python3` now resolves to Homebrew Python 3.14 without
+  numpy/sympy; run verifiers with `/opt/miniconda3/bin/python3`.
+- Lean: Hanson–Petridis (all proper divisors), the clique bound and the
+  sharp example are in `experiments/stepanov_leanhp_lean/`; submission to
+  prove2me waits on a restored workspace and API key.
