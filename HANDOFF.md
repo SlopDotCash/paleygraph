@@ -113,3 +113,22 @@ copyrighted papers. Re-fetch them from the arXiv ids in the notes.
   their scratch artifacts.
 - A worker's `pkill -f` on its own verifier name will also kill the
   orchestrator's reproduction run; reproduce after the worker finishes.
+
+## 8. Update 2026-09-26 (Stepanov wave, partial)
+
+- New brief `research/stepanov-brief-2026-09-26.md`: target is robust
+  Hanson–Petridis (RHP), the first local, prime-sensitive route into the
+  window `p/2 < |A||B| < p`.
+- Done: `research/stepanov-algebra-2026-09-26.md` (2,118,597 checks, 0
+  failures) and `research/stepanov-pencil-2026-09-26.md` (18,191 checks):
+  HP polynomials of all subsets form one explicit linear system; the
+  ramification inequality `(2M−2)N₀ + (M−2)N₁ ≤ 2d−2` gives constant 2.
+  RHP at `e = 1` is reduced to where the ramification of one rational map
+  of degree `d` lies. RHP itself is OPEN.
+- Unfinished when the usage limit hit: workers `robust`, `adversary`,
+  `leanhp`; their `research/stepanov-*` notes may be partial. Check each
+  Status line before relying on it.
+- `~/prove2me_workspace` (and its `credentials.json`) was deleted between
+  2026-09-06 and 2026-09-26. The four ACCEPTED proofs remain on the prove2me
+  server (ids in `research/sigma-p2m-2026-09-05.md`); local Lean sources
+  must be re-fetched from the server or rebuilt.
