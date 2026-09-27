@@ -83,6 +83,27 @@ Rudnev–Tyrrell, Yip–Yoo, Kim–Yip–Yoo, Elsholtz–Wurzinger) treat
 complete containment only; no robust form or constant-bias bound in this
 window was found (searches of 2026-09-26 and 2026-09-27).
 
+## 2b. Sharpening (PROVED given (★); unrefereed; `research/stepanov-sharpen-2026-09-27.md`)
+
+- **Best saving from (★).** With `w = 1/(1+2κ)` and
+  `u(w) = (√(12w−3w²) − w)/2`: `|S| ≤ [1 − η★(κ) + 2.14(√(2p)+1)/p]|A||B|`
+  for `|A||B| ≥ (1/2+κ)p`, where `η★ = 1 − u(w) = (4/3)κ² − (40/9)κ³ + O(κ⁴)`.
+  An exact linear-programme analysis shows this is the most the family (★)
+  can give (uniformly defective profiles with `e_b ≈ (2/3)κ²m` satisfy every
+  (★)), so a saving linear in `κ` needs a new ingredient. The best
+  upper bound on the true saving is `2κ/(1+2κ)` for `κ ≤ 11/48` (two-element
+  examples), smaller beyond that (`≤ 0.3625` at `κ = 1/2`, five-element
+  examples).
+- **Balanced sets.** If `min(|A|,|B|) ≥ k`, the constant-saving threshold
+  is exactly `k/2^k` outside the window `M(k,κ) < |A| ≤ |B| < 12√p` (Weil
+  counts and a fourth-moment bound), and sharp there. Inside the window
+  only `1/2` is proved; a lower threshold would improve Hanson–Petridis for
+  balanced bicliques.
+- **Characters of order `k`.** With the order-`k` analogue of (★): for
+  `|A||B| ≥ (1+λ)(p−1)/k`, `|S_ψ| ≤ (|A||B|−r)·√(1 − 2θ(1−θ)(1−cos 2π/k))`,
+  saving `≈ (λ²/6)(1−cos 2π/k)`; the threshold `(p−1)/k` is sharp
+  (`A = {0}`, `B` the subgroup of index `k`).
+
 ## 3. The other directions of the wave
 
 - **Algebra** (`stepanov-algebra`, 2,118,597 checks): exact lifting of
@@ -123,7 +144,7 @@ Hanson–Petridis itself.
 1. Human review of `research/stepanov-robust-2026-09-26.md` §2, in
    particular Step 3 (multilinear expansion) and Lemma 2.2 (the
    Krattenthaler evaluation).
-2. Close the gap `κ² ≲ η(κ) ≲ 2κ` for the saving.
+2. Close the gap `(4/3)κ² ≲ η(κ) ≲ 2κ` for the saving; (★) alone cannot.
 3. The bias statement for characters of order `k` (Proposition 2.9 gives
    the inequality, not the bias bound).
 4. Formalize Theorems A–D in Lean, building on the Hanson–Petridis
