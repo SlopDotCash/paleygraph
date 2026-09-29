@@ -177,3 +177,12 @@ required. Four routes (two-sided polynomials, abc/Wronskian, Hankel minors,
 extra zeros) are each obstructed at an identified step. Data (HEURISTIC):
 the largest `|A||B|/p` with both sides `≥ K` at `p = 509` is `0.407, 0.346,
 0.285, 0.251` for `K = 3,…,6`, well below `1/2` and drifting toward `K/2^K`.
+
+`research/stepanov-kalmynin-2026-09-29.md` (1,228,382 checks, reproduced):
+the extra identities by which Kalmynin (Sárközy's conjecture) and Yip–Yoo
+go beyond Hanson–Petridis do not help for containment. The moment
+identities hold only for exact decompositions `A ⊕ B = Q`. Relations X and Y
+survive with a defect term, but a reach limit shows the defect is
+unconstrained near tightness. Exact LP certificates remain feasible with
+every surviving transfer added, up to `mn/p = 0.4998` at `p = 1,000,033`.
+OPEN.
