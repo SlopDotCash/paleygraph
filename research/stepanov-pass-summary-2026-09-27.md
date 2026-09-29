@@ -160,3 +160,20 @@ Hanson–Petridis itself.
    workspace and key exist.
 5. Whether any variant of the Hankel-minor idea can reduce the degree
    budget below `(e+1)d`; that would be needed to reach below `√p`.
+
+## 6. Follow-up (2026-09-29): balanced bicliques and the Hanson–Petridis constant
+
+`research/stepanov-balanced-2026-09-29.md` (1,624,403 checks, reproduced):
+the attempt to lower the threshold `1/2` for balanced complete bicliques,
+which would improve the prime Paley clique bound `ω ≤ √(p/2)`, stays OPEN.
+PROVED: complete bicliques are exactly the pairs for which
+`Π_{B∖(−A)}(x−b)^m Π_{B∩(−A)}(x−b)^{m−1}` divides the Hanson–Petridis
+polynomial `F_A`, with a defect `g = d − mn + r` shared by `F_A` and `F_B`.
+REFUTED: that the known constraints exclude a tight balanced biclique.
+Exact rational LP certificates at `p = 1009` up to `1,000,033` satisfy
+every one of them simultaneously ((★) for `A` and `νA`, subset-HP, the
+pencil inequality, exact moments, Weil counts), so a new ingredient is
+required. Four routes (two-sided polynomials, abc/Wronskian, Hankel minors,
+extra zeros) are each obstructed at an identified step. Data (HEURISTIC):
+the largest `|A||B|/p` with both sides `≥ K` at `p = 509` is `0.407, 0.346,
+0.285, 0.251` for `K = 3,…,6`, well below `1/2` and drifting toward `K/2^K`.

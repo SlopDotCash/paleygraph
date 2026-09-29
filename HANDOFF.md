@@ -163,3 +163,7 @@ copyrighted papers. Re-fetch them from the arXiv ids in the notes.
 - Paper-style write-up for human review: `paper/robust-hanson-petridis.md`
   (proofs of Theorems A–D and Corollaries B, E; verifier
   `experiments/paper_robust_hp_2026_09_29.py`, 24,349,465 checks).
+- Balanced bicliques (`research/stepanov-balanced-2026-09-29.md`): improving
+  Hanson–Petridis's constant for balanced sets is OPEN; LP certificates show
+  every known inequality is consistent with a tight balanced configuration,
+  so do not retry combinations of existing inequalities.
