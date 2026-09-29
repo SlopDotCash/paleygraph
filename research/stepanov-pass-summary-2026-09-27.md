@@ -186,3 +186,21 @@ survive with a defect term, but a reach limit shows the defect is
 unconstrained near tightness. Exact LP certificates remain feasible with
 every surviving transfer added, up to `mn/p = 0.4998` at `p = 1,000,033`.
 OPEN.
+
+`research/stepanov-hybrid-2026-09-29.md` (22,148 checks, reproduced):
+adding positive-semidefinite constraints (Gram and spectral matrices of the
+shifted characters, level sets, moment matrices of any degree, a two-point
+program) to the counting LP does not exclude Hanson–Petridis-tight balanced
+configurations. PROVED: every bad-partner profile satisfying the moment
+identities is realized by an explicit operator `S̃` with `S̃² = pI − J`, so
+these constraints are automatic and field-agnostic; the bipartite theta
+program is `≤ √p + 1`. Exact certificates at `p = 1009` to `1,000,033` stay
+within `m` of `(p−1)/2 + r`. A successful hybrid needs a prime-specific
+input coupling both sides. OPEN.
+
+**Net for the balanced Hanson–Petridis constant.** Three independent
+attacks (two-sided polynomials and abc, Kalmynin/Yip–Yoo identities, and
+semidefinite hybrids) each end in exact certificates showing their
+constraint families cannot exclude tight configurations. Improving the
+prime Paley clique bound `√(p/2)` needs a genuinely new prime-specific
+input.

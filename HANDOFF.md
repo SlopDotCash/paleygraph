@@ -167,3 +167,8 @@ copyrighted papers. Re-fetch them from the arXiv ids in the notes.
   Hanson–Petridis's constant for balanced sets is OPEN; LP certificates show
   every known inequality is consistent with a tight balanced configuration,
   so do not retry combinations of existing inequalities.
+- Kalmynin/Yip–Yoo identities (`stepanov-kalmynin-2026-09-29`) and
+  semidefinite hybrids (`stepanov-hybrid-2026-09-29`) also fail to improve
+  the balanced constant, each with exact certificates. Do not retry spectral,
+  moment-matrix, Weil-count, subset-HP or Kalmynin-transfer constraints for
+  this; a prime-specific input coupling both sides is required.
