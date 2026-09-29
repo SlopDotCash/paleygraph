@@ -9,8 +9,9 @@ full in this document (Sections 2–8). Their proofs were re-derived independent
 agent [Ref], which found no mathematical error and requested five presentation fixes; all five
 are incorporated here. Theorem A, Corollary B and Theorem D (together with the non-vanishing
 part of Lemma 4.2) have also been formalized in Lean 4 and compile with only the standard
-axioms in two Mathlib versions (Section 10.2). Section 9 collects further results that were
-checked numerically but have not been independently refereed. Targeted literature searches
+axioms in two Mathlib versions (Section 10.2). Section 9 collects further results; they were
+refereed separately [Ref3], which found no mathematical error and requested the scope and
+hypothesis fixes incorporated there. Targeted literature searches
 found no earlier statement of these results, but novelty is **not** established
 (Section 11). None of this proves the Paley graph conjecture (Section 1.4).
 
@@ -130,6 +131,13 @@ Then
 $$|S(A,B)|\le\Big[1-(1-u)^2+\frac{\sqrt{(1/2+\kappa)p}+1}{2(p-1)}\Big]\,|A||B|.$$
 For $\kappa>3/2$ the case $\kappa=3/2$ applies, a saving of $1/4-O(p^{-1/2})$. For small
 $\kappa$, $(1-u)^2=\kappa^2-3\kappa^3+O(\kappa^4)$.
+
+*Comparison with the second-moment bound.* The elementary bound $|S|\le\sqrt{p|A||B|}$ saves
+$1-(\frac12+\kappa)^{-1/2}$ when $|A||B|=(\frac12+\kappa)p$. This exceeds the saving
+$(1-u)^2$ of Theorem D exactly when $u<2-\sqrt2$, i.e. $\kappa>\frac14+\frac{\sqrt2}2\approx0.957$.
+So the new content of Theorem D is the range $p/2<|A||B|<(\frac34+\frac{\sqrt2}2)p\approx1.457p$;
+the sharper constant of Section 9.1 extends it to $|A||B|<(1+\frac{\sqrt3}2)p\approx1.866p$
+(the crossing $\kappa=(1+\sqrt3)/2$ was found by the second referee [Ref3]).
 
 The error term makes Theorem D vacuous for small $p$. For $p\in\{11,13\}$ the bracket is at
 least $1$ for every $\kappa\in(0,3/2]$; at $\kappa=3/2$ it is below $1$ exactly from $p=17$, at
@@ -671,12 +679,13 @@ is vacuous (Remark 7.4).
 
 ---
 
-## 9. Further results, checked numerically but not independently refereed
+## 9. Further results
 
 The statements in this section are proved in the workspace notes cited. They take Theorem A
-as input and, where stated, Weil's bound. They have **not** been independently refereed; each
-was checked by the exact verifier of its note, and the constants displayed here are
-re-checked in §G of our verifier. To avoid a clash with $u=(1+2\kappa)^{-1/2}$ above, we
+as input and, where stated, Weil's bound. A separate referee agent [Ref3] re-derived each of
+them, checked them with independent code (5,555,096 checks, 0 failures) and found no
+mathematical error; its scope and hypothesis fixes are incorporated below. The constants
+displayed here are also re-checked in §G of our verifier. To avoid a clash with $u=(1+2\kappa)^{-1/2}$ above, we
 write $U(w)$ for the function called $u(w)$ in [Sh].
 
 **9.1 A sharper constant** ([Sh, Theorem 1.5]). Put $w=1/(1+2\kappa)$,
@@ -692,12 +701,18 @@ into a bound on the mean of $e_b$. A one-variable inequality follows. For $m\le1
 $w\in[1/4,11/20]$ it is a computer-assisted rational-interval verification [Sh, Thm 1.3].
 Values of $\eta^\star$ against $(1-u)^2$ from Theorem D: $9.838\cdot10^{-3}$ vs
 $7.591\cdot10^{-3}$ at $\kappa=0.1$; $0.10436$ vs $0.08579$ at $\kappa=1/2$; $0.28647$ vs
-$0.25$ at $\kappa=3/2$. The ratio tends to $4/3$ as $\kappa\to0$.
+$0.25$ at $\kappa=3/2$. The ratio tends to $4/3$ as $\kappa\to0$. For
+$\kappa>(1+\sqrt3)/2\approx1.366$ (equivalently $w<2-\sqrt3$) the second-moment saving
+$1-(\frac12+\kappa)^{-1/2}$ is larger than $\eta^\star$ (e.g. $0.2929$ against $0.2865$ at
+$\kappa=3/2$) [Ref3].
 
 **9.2 This is the limit of $(\star)$** ([Sh, Prop. 2.1]). Consider balanced pairs with
-$m\to\infty$, $m/d\to0$. There, no non-negative combination of the inequalities $(\star)$,
-over all $e$ and with the exact weights, certifies a saving larger than
-$\eta^\star(\kappa)+o(1)$. Explicit feasible profiles of the corresponding linear programme,
+$m\to\infty$, $m/d\to0$. There, no non-negative combination of the inequalities $(\star)$
+applied to the fixed set $A$ (or to $B$), over all $e$ and with the exact weights, certifies a
+saving larger than $\eta^\star(\kappa)+o(1)$. Combinations that also apply $(\star)$ to subsets
+$A'\subseteq A$ are not covered; that part is heuristic [Sh]. (The feasible profiles have
+$|A||B|\le(\frac12+\kappa)(p-1)$, just below the threshold; a continuity argument in $w$ closes
+the gap [Ref3].) Explicit feasible profiles of the corresponding linear programme,
 checked constraint by constraint in exact integers, have every $e_b\approx t^\ast m$ with
 $t^\ast=(1-U(w))/2\approx\frac23\kappa^2$. So a saving linear in $\kappa$ needs an input
 beyond $(\star)$. The claim "combining $(\star)$ over several $e$ gives a linear saving" is
@@ -716,8 +731,8 @@ a constant saving holds for $|A||B|\ge(\tau+\kappa)p$, $\min(|A|,|B|)\ge k$ and 
 Then $\tau_k\le1/2$ by Theorem D, $\tau_1=\tau_2=1/2$, and $\tau_k\ge k/2^k$ [Sh, Prop. 4.1].
 Conversely, for pairs outside a *balanced window*
 $M(k,\kappa)<|A|\le|B|<12\sqrt p$, with $M=\lceil12/\tau\rceil$ and $\tau=k/2^k+\kappa$, the
-threshold $k/2^k$ suffices, with savings $\kappa/(\tau M)$ and $1-0.841$ in the two ranges
-[Sh, Thm 4.3]. Inside the window only the threshold $1/2$ of Theorem D is known. A constant
+threshold $k/2^k$ suffices, with saving $\min(\kappa/(\tau M),\,0.159)$, provided $k\ge2$,
+$0<\kappa\le1$ and $p\ge\max(25,(2M^2/\kappa)^2)$ [Sh, Thm 4.3; Ref3]. Inside the window only the threshold $1/2$ of Theorem D is known. A constant
 saving for balanced sets of size $c\sqrt p$ with $c<1/\sqrt2$ is open. It would imply that
 the bipartite graph $\chi(a+b)=1$ contains no $K_{c\sqrt p,c\sqrt p}$, a constant-factor
 improvement of Hanson–Petridis for balanced bicliques.
@@ -728,6 +743,8 @@ $d$ replaced by $d_k$, for $m+d_k-1\le p-1$ and $2e\le\min(m-1,d_k)$. For a char
 of order $k$ and $|A||B|\ge(1+\lambda)(p-1)/k$ with $0<\lambda\le3$ and $p\ge(1+\lambda)k+1$,
 this gives
 $|S_\psi(A,B)|\le\sqrt{1-2\theta_1(1-\theta_1)(1-\cos(2\pi/k))}\,|A||B|$. Here
+$m_1=\lceil\sqrt{(1+\lambda)d_k}\rceil$, $w_1=(d_k+m_1)/((1+\lambda)d_k)$ and
+$\theta_1=(1-U(\min(1,w_1)))/2$ [Sh, Cor. 5.2], so
 $\theta_1\to\theta(\lambda)=(1-U(1/(1+\lambda)))/2=\lambda^2/6+O(\lambda^3)$. The threshold
 $(p-1)/k$ is sharp: take $A=\{0\}$ and $B$ the subgroup of index $k$.
 
@@ -752,6 +769,7 @@ $m\cdot\#\{\text{coverage}\ge m-1\}=2(m/(m-1))^2d$.
 | independent exhaustive C check of $(\star)$ | every $A\ni0$ with $\lvert A\rvert\le(p+1)/2$, every admissible $e$, all primes $5\le p\le29$ | 1,074,401,579 cases | 0 | `experiments/stepanov_star_exhaustive_2026_09_27.c` → `results/stepanov_star_exhaustive_2026_09_27.json` |
 | Theorem D on adversarial rectangles | the 165 most biased rectangles found by the adversary search | 165 | 0 | same JSON |
 | referee [Ref] (code independent of the worker's) | own proof of every step; full $H_{e+1}$ in 2,509 cases with exact root multiplicities; $p\nmid\Lambda$ for every $p\le1500$, $m\le(p+1)/2$, $e\le12$; exhaustive over $A\ni0$ for $p\le23$; local search up to $p=2003$; Corollary E at 40 primes | 257,753,636 | 0 | `experiments/stepanov_referee2_2026_09_27.py` → `results/stepanov_referee2_2026_09_27.json` |
+| second referee [Ref3] for Section 9 and Proposition 2.9 (independent code) | own re-derivations; $(\star)_k$ for every $A\ni0$ over 15 $(p,k)$ pairs with $p\le19$; full $H_{e+1}$ in 413 order-$k$ cases; Theorems 1.4–1.5 of [Sh] over all pairs up to affine maps for $p\le23$; order-$k$ bias exhaustively at $p=7,13$ | 5,555,096 | 0 | `experiments/stepanov_referee3_2026_09_29.py` → `results/stepanov_referee3_2026_09_29.json` |
 | sharpening verifier [Sh] (Section 9 only) | as described in [Sh] | 5,911,513 | 0 | `experiments/stepanov_sharpen_2026_09_27.py` → `results/stepanov_sharpen_2026_09_27.json` |
 | this paper's verifier | see below | 24,349,465 | 0 | `experiments/paper_robust_hp_2026_09_29.py` → `results/paper_robust_hp_2026_09_29.json` |
 
@@ -922,6 +940,7 @@ needed.
   arXiv:1712.09355 (2017). Local copy: `sources/sigma-volostnov-shkredov-1712.09355.txt`.
 * Workspace notes: [R] `research/stepanov-robust-2026-09-26.md`;
   [Ref] `research/stepanov-referee2-2026-09-27.md`;
+  [Ref3] `research/stepanov-referee3-2026-09-29.md` (second referee: Section 9 and Proposition 2.9 of [R]).
   [Sh] `research/stepanov-sharpen-2026-09-27.md`;
   [L] `research/stepanov-leanrobust-2026-09-27.md`;
   [PS] `research/stepanov-pass-summary-2026-09-27.md`;

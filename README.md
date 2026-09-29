@@ -8,8 +8,8 @@ The [Stepanov wave](research/stepanov-pass-summary-2026-09-27.md)
 (2026-09-26/27) proves a robust form of the Hanson–Petridis inequality
 and, from it, a constant-factor cancellation bound for arbitrary sets:
 if `|A||B| ≥ (1/2+κ)p` then `|Σχ(a+b)| ≤ (1 − (1−(1+2κ)^{−1/2})² + O(p^{−1/2}))|A||B|`.
-Chung's bound is trivial below `|A||B| = p`, and the threshold `1/2` is
-sharp over all set sizes (its witness has `|A| = 2`). The key step is a Hankel determinant of the Hanson–Petridis
+Chung's bound is trivial below `|A||B| = p` and overtakes this bound only above
+about `1.87p`; the threshold `1/2` is sharp over all set sizes (its witness has `|A| = 2`). The key step is a Hankel determinant of the Hanson–Petridis
 polynomial's derivatives, whose error part has low rank identically in
 `x`. The argument was checked by the worker's verifier (1.2 million exact
 checks) and by an independent exhaustive program (1.07 billion cases,

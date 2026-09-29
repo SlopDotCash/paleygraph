@@ -225,3 +225,13 @@ sub-rectangles, the opposite of the expected behaviour. OPEN.
 Hanson–Petridis constant (two-sided polynomials, Kalmynin/Yip–Yoo
 identities, semidefinite hybrids, `p`-adic lifts, quartic refinements) each
 end in exact certificates at the Hanson–Petridis bound.
+
+`research/stepanov-referee3-2026-09-29.md` (5,555,096 checks, reproduced): an
+independent referee agent re-derived and re-checked Proposition 2.9 (order-`k`
+Hankel inequality) and every result of the sharpening note (§2b above); no
+mathematical error, only scope and hypothesis fixes, now in
+`paper/robust-hanson-petridis.md` §9. It also noted that the second-moment
+bound beats the sharpened saving for `κ > (1+√3)/2`, and Theorem D's
+`(1−u)²` for `κ > 1/4 + √2/2`: the new content is the window
+`p/2 < |A||B| < ≈1.87p` (≈`1.46p` with the simpler constant). Every claim in
+the paper has now been independently refereed by an agent; none by a human.
