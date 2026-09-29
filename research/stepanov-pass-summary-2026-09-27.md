@@ -211,3 +211,17 @@ counting equals `F_p` root counting; the Fermat quotients of the sums on
 complete bicliques behave like those of random rectangles; extra vanishing
 mod `p²` occurs only under Wieferich-type coincidences, and forcing it costs a
 factor `p` in degree. OPEN.
+
+`research/stepanov-quartic-2026-09-29.md` (2,157,238 checks, reproduced):
+quartic and octic sign matrices of complete bicliques give nothing new.
+Quadratic HP plus all class rows reduce exactly to `mn − r ≤ d·min(1,Θ,Θᵀ)`
+with `Θ ≥ 1` unless the quartic sign matrix is lopsided; exact certificates at
+8 primes up to `1,000,033` have perfectly balanced sign matrices and satisfy
+every quadratic, quartic, octic, Jacobi and Weil row. Conditionally, a gain
+through the quartic character would need it to be biased on large
+sub-rectangles, the opposite of the expected behaviour. OPEN.
+
+**Net (2026-09-29).** Five independent attacks on the balanced
+Hanson–Petridis constant (two-sided polynomials, Kalmynin/Yip–Yoo
+identities, semidefinite hybrids, `p`-adic lifts, quartic refinements) each
+end in exact certificates at the Hanson–Petridis bound.
