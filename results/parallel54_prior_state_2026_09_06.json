@@ -1,0 +1,17 @@
+{
+  "observed_at_utc": "2026-09-06T18:18:53.303191+00:00",
+  "previous_goal_turn_classification": "progress: sourced asymptotic obstruction to ambient norm saving and exact inversion-odd witness; next work returned to the actual compressed spectral operator",
+  "files": {
+    "experiments/parallel53_ambient_elliptic.py": "1e1fb3d6dd2cefb845940dd1a1f30ab00eba600b16c6fd300e3521e2ced7f9b0",
+    "research/parallel53-ambient-elliptic-2026-09-06.md": "0d0be491284c84f00023983e832a754b8d58fa300c89c2613aca96b4b036836e",
+    "research/parallel53-pass-summary-2026-09-06.md": "44150d2028fe10734261bd1c5943e6ff9e1d90fc30c09958ebffe806c537745c",
+    "results/parallel53_prior_state_2026_09_06.json": "175bd5731a071d136e15a15eb8b4699c26cfa395f7aff62bc334ae18bf9db81e",
+    "results/parallel53_ambient_elliptic_2026_09_06.json": "84ca168c29e098121fcbd3cd5890bc7af16cf07d48c2c0178791c1687b503ef4",
+    "results/parallel53_source_scope_2026_09_06.json": "5a703df538af206c2ba1176a3be1baacfdc81911055fad7de49deb10a98f04ad",
+    "README.md": "124a7097775ce9aea794bb249a5e3f455330dfd5ac4a748a72ae7dd19da864c3",
+    "research/frontier.md": "2e7026c4c4a25cb2c2ddcdcd06ed49ae8bdb86b7258ee7f5747de67abe85de75",
+    "research/source-audit.md": "b3ec6d77e5e74ec05ac5759a349c02e3cbd902d84015e4895e7439cf2434408b",
+    "research/checkpoint-2026-09-04.md": "c7d4ccf883c620650da3943dc75c1a85b09fb71d4524d6359b37a25557c83c49"
+  },
+  "direction": "Exact common-neighbor support and reflection in Mellin coordinates; distinguish a finite compressed-kernel witness from the asymptotic averaged target."
+}

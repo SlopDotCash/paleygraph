@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "modular_diagonal_certificates": 20,
+  "root_checks": 384,
+  "exact_nonlifting_witnesses": 1,
+  "results_sha256": "354de5920521818b237d167c6250b664405df4c55c1cda007cc38bc8c0576868",
+  "verifier_sha256": "d401737a616a615170084e7555ecc34afdfa7c6dfca2cc25f86322d5e9843b92"
+}

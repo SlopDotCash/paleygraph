@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "graph": "Paley13",
+      "third_moment": [
+        -173,
+        33
+      ],
+      "method": "fresh complete six-subset oracle using literal integer row products"
+    },
+    {
+      "graph": "Paley17",
+      "third_moment": [
+        17,
+        91
+      ],
+      "method": "fresh complete six-subset oracle using literal integer row products"
+    },
+    {
+      "graph": "Paley49",
+      "third_moment": [
+        44555,
+        35673
+      ],
+      "method": "independently verified full round3 histogram, all13983816 six-subsets"
+    },
+    {
+      "graph": "Peisert49",
+      "third_moment": [
+        6145,
+        3243
+      ],
+      "method": "independently verified full round3 histogram, all13983816 six-subsets"
+    }
+  ],
+  "preflight_sha256": "4c1bc914183ddf97486a7740ea95cc63b3d74d877d3616fc6c68d743bf47c04f",
+  "prior_twin_census_sha256": "04e1f3c2912e6c98fab7b72845eb1886d8e29aa03a0b334a7ad03ce599ac010a",
+  "review_source_sha256": "dcf757e5486871c77e5fdd0d431d4049a73bade575607ccd8cf19dad05446ddf",
+  "note": "The proposed method uses no six-set enumeration; this independent small acceptance checker deliberately does."
+}

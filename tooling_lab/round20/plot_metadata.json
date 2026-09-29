@@ -1,0 +1,13 @@
+{
+  "status": "produced",
+  "scope": "Exact fixed-order layered widths; implicit rejecting state excluded. No timing or asymptotic claim.",
+  "source_sha256": {
+    "plot_widths.py": "076dc32af68ffefb18f269ab079bc7dea3d2465a575d8330fba5d5b8762fb71c"
+  },
+  "input_sha256": {
+    "p65537_canonical.json": "9eaabf5b622cdaab98980807d6348e21e12541dfdd362581ff0fbe44447b62f1",
+    "p65537_saved.json": "b18b7e618290016d91aeb4d59ecb4de2aea7b18ac919a309c52b5729fdde32d5",
+    "p65537_saved_reordered.json": "69b4892209ec44d29d1ff357e547672806277f3b9fc5cd35c5ae49f526510600",
+    "symbolic_N32_k641.json": "7451199ec35cf7455fa5ffee7f3bb7aecc506d5c4213a9efc26d1a57a4fa505b"
+  }
+}

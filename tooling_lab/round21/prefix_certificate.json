@@ -1,0 +1,26 @@
+{
+  "status": "produced",
+  "scope": "Finite state-width lower bound for the stated natural-order cut, obtained from universal erasure uniqueness and a complete specified scalar interval. No all-order or asymptotic lower bound.",
+  "certificate_artifact": "pullback_erase20.json",
+  "p": 2013265921,
+  "N": 64,
+  "cut": 20,
+  "scalar_interval": [
+    0,
+    99999
+  ],
+  "scalar_words_checked": 100000,
+  "distinct_nonempty_prefixes": 100000,
+  "certified_width_lower_bound": 100000,
+  "pairwise_distinctions_implied": 4999950000,
+  "cross_splice_queries": 0,
+  "duplicate_prefix_examples": [],
+  "prefix_stream_sha256": "060bce313a4bb2411734268c5478133543cb38dad31d1122c98633b049f7d756",
+  "source_sha256": {
+    "prefix_certificate.py": "574a3ad65847b24c3500028baec0e5f701d535eab0aaa023386fe91ee83392b1",
+    "../round19/projection_codec.py": "c250b5b9d6563ae4c76f9d2c6906b8e73c625c6900d4fe2704fb6e1946682723"
+  },
+  "input_sha256": {
+    "pullback_erase20.json": "7d8ef54c1cdd18bc11af3e54063bad5dd3e58dfada331b8bb02276793d521c22"
+  }
+}

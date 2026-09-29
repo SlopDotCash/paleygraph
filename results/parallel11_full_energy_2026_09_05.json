@@ -1,0 +1,2490 @@
+{
+  "status": "All finite exact checks passed; the uniform logarithmic range uses the written source-dependent proof. The longer-depth target remains open.",
+  "arithmetic": "Integer object matrices, rational pairs u+v sqrt(p), exact sign comparisons, and rational upper square roots.",
+  "scope": "Complete spectral trace including J, anchor corrections, exceptional fibers and the constant direction.",
+  "cases": [
+    {
+      "p": 5,
+      "anchors": [
+        0
+      ],
+      "cell": [
+        1,
+        4
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 60,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "25786151439870685324041/244140625000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "61579577907470766462935841/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "112603194504519415936432281/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "718380205531369459173956809/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "1050392491883788120322449489/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "5650484148239800685537089/3906250000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "anchors": [
+        1
+      ],
+      "cell": [
+        0,
+        2
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 60,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "25786151439870685324041/244140625000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "61579577907470766462935841/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "112603194504519415936432281/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "718380205531369459173956809/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "1050392491883788120322449489/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "5",
+            "0"
+          ],
+          "upper_bound": "5650484148239800685537089/3906250000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 585,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "5/3",
+            "0"
+          ],
+          "upper_bound": "4570178228356039472284281/10000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "5/9",
+            "0"
+          ],
+          "upper_bound": "1231434501187287367974512816945210000238385597801/244140625000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "5/27",
+            "0"
+          ],
+          "upper_bound": "11935179477379276379001868009/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "5/81",
+            "0"
+          ],
+          "upper_bound": "25601608061672692502522180737313509382911095380209/61035156250000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "5/243",
+            "0"
+          ],
+          "upper_bound": "222562877569364922278278111369/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "5/729",
+            "0"
+          ],
+          "upper_bound": "4543595015133600773991097568764729377420714906721/152587890625000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "anchors": [
+        0,
+        4
+      ],
+      "cell": [],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 585,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "5/3",
+            "0"
+          ],
+          "upper_bound": "4570178228356039472284281/10000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "5/9",
+            "0"
+          ],
+          "upper_bound": "1231434501187287367974512816945210000238385597801/244140625000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "5/27",
+            "0"
+          ],
+          "upper_bound": "11935179477379276379001868009/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "5/81",
+            "0"
+          ],
+          "upper_bound": "25601608061672692502522180737313509382911095380209/61035156250000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "5/243",
+            "0"
+          ],
+          "upper_bound": "222562877569364922278278111369/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "5/729",
+            "0"
+          ],
+          "upper_bound": "4543595015133600773991097568764729377420714906721/152587890625000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0
+      ],
+      "cell": [
+        1,
+        3,
+        4,
+        9,
+        10,
+        12
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 468,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "518069914954288728999529/3906250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "73234650450947733921195801/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "32746004333991530629465441/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "206627560484790924236560609/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "7506258528219734259729/6250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "1647560323970934971357492329/1000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        1
+      ],
+      "cell": [
+        0,
+        2,
+        4,
+        5,
+        10,
+        11
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 468,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "518069914954288728999529/3906250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "73234650450947733921195801/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "32746004333991530629465441/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "206627560484790924236560609/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "7506258528219734259729/6250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "13",
+            "0"
+          ],
+          "upper_bound": "1647560323970934971357492329/1000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        4,
+        10
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 5577,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "29/3",
+            "0"
+          ],
+          "upper_bound": "558415235084298041606601481/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "3175/507",
+            "256/1521"
+          ],
+          "upper_bound": "1517299084832179192692308471468027659990933889191441/250000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "153079/28561",
+            "-120320/771147"
+          ],
+          "upper_bound": "14302308773419794400131432729/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "829563959/130323843",
+            "51241984/390971529"
+          ],
+          "upper_bound": "31301808784020811497965442712604905112695905002722969/62500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "336011555071/66074188401",
+            "14722092544/198222565203"
+          ],
+          "upper_bound": "4237981341822915474051929793969/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "21135894151823/3722179279923",
+            "-10862099760896/100498840557921"
+          ],
+          "upper_bound": "5522376542480753042699411443002569137038632654129161/156250000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        3
+      ],
+      "cell": [
+        4,
+        12
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 5577,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "29/3",
+            "0"
+          ],
+          "upper_bound": "558415235084298041606601481/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "3175/507",
+            "256/1521"
+          ],
+          "upper_bound": "1517299084832179192692308471468027659990933889191441/250000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "153079/28561",
+            "-120320/771147"
+          ],
+          "upper_bound": "14302308773419794400131432729/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "829563959/130323843",
+            "51241984/390971529"
+          ],
+          "upper_bound": "31301808784020811497965442712604905112695905002722969/62500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "336011555071/66074188401",
+            "14722092544/198222565203"
+          ],
+          "upper_bound": "4237981341822915474051929793969/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "21135894151823/3722179279923",
+            "-10862099760896/100498840557921"
+          ],
+          "upper_bound": "5522376542480753042699411443002569137038632654129161/156250000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        1,
+        4
+      ],
+      "cell": [],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 51870,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "13/7",
+            "0"
+          ],
+          "upper_bound": "2030176586546146903321081/976562500000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "13/49",
+            "0"
+          ],
+          "upper_bound": "193157380510137948885046729379778421585137099266401/2500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "13/343",
+            "0"
+          ],
+          "upper_bound": "162009740006060723304161840649/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "13/2401",
+            "0"
+          ],
+          "upper_bound": "1311019264591876265398652068561112798816122133474723761/15625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "13/16807",
+            "0"
+          ],
+          "upper_bound": "672309144224893313897086726094449/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "13/117649",
+            "0"
+          ],
+          "upper_bound": "215185869772596141859668672977937641798409536458224170929/2500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "anchors": [
+        0,
+        1,
+        10
+      ],
+      "cell": [],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 3,
+      "pointwise_checks": 51870,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "13/7",
+            "0"
+          ],
+          "upper_bound": "2030176586546146903321081/976562500000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "13/49",
+            "0"
+          ],
+          "upper_bound": "193157380510137948885046729379778421585137099266401/2500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "13/343",
+            "0"
+          ],
+          "upper_bound": "162009740006060723304161840649/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "13/2401",
+            "0"
+          ],
+          "upper_bound": "1311019264591876265398652068561112798816122133474723761/15625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "13/16807",
+            "0"
+          ],
+          "upper_bound": "672309144224893313897086726094449/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "13/117649",
+            "0"
+          ],
+          "upper_bound": "215185869772596141859668672977937641798409536458224170929/2500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0
+      ],
+      "cell": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        13,
+        15,
+        16
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "14346161184484959017841/100000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "310312431173047046076362689/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "13751406516094478215009/25000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "8637591957850101854901049/10000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "78239766703516838950367601/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "1714473401304232479996260569/1000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        1
+      ],
+      "cell": [
+        0,
+        2,
+        3,
+        5,
+        9,
+        10,
+        14,
+        16
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "14346161184484959017841/100000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "310312431173047046076362689/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "13751406516094478215009/25000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "8637591957850101854901049/10000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "78239766703516838950367601/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "17",
+            "0"
+          ],
+          "upper_bound": "1714473401304232479996260569/1000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        2,
+        9,
+        16
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "41/3",
+            "0"
+          ],
+          "upper_bound": "592676750208255462887043481/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "25889/2601",
+            "256/867"
+          ],
+          "upper_bound": "24989745404983285160232448411044897080009799317881/3906250000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "20320985/2255067",
+            "186880/751689"
+          ],
+          "upper_bound": "60284734535052436161751254481/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "18460865105/1955143089",
+            "-3396608/24137569"
+          ],
+          "upper_bound": "515510405501581342925414963938295789366775693860929/976562500000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "10786234117769/1695109058163",
+            "21620555264/565036352721"
+          ],
+          "upper_bound": "69812857394124415472599236081/15625000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "15572027794724993/1469659553427321",
+            "85415464818944/489886517809107"
+          ],
+          "upper_bound": "90989142338035385742166300640471883232350844660401/2441406250000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0,
+        2
+      ],
+      "cell": [
+        1,
+        4,
+        15
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "41/3",
+            "0"
+          ],
+          "upper_bound": "592676750208255462887043481/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "25889/2601",
+            "256/867"
+          ],
+          "upper_bound": "24989745404983285160232448411044897080009799317881/3906250000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "20320985/2255067",
+            "186880/751689"
+          ],
+          "upper_bound": "60284734535052436161751254481/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "18460865105/1955143089",
+            "-3396608/24137569"
+          ],
+          "upper_bound": "515510405501581342925414963938295789366775693860929/976562500000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "10786234117769/1695109058163",
+            "21620555264/565036352721"
+          ],
+          "upper_bound": "69812857394124415472599236081/15625000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "15572027794724993/1469659553427321",
+            "85415464818944/489886517809107"
+          ],
+          "upper_bound": "90989142338035385742166300640471883232350844660401/2441406250000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0,
+        1,
+        2
+      ],
+      "cell": [],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "17/7",
+            "0"
+          ],
+          "upper_bound": "343367480489022761724481/156250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "17/49",
+            "0"
+          ],
+          "upper_bound": "8159037850499975065755623190226552459599793162041/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "17/343",
+            "0"
+          ],
+          "upper_bound": "2739394853357378027563546270281/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "17/2401",
+            "0"
+          ],
+          "upper_bound": "55452144458196644361033841079928763095658195131969801/625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "17/16807",
+            "0"
+          ],
+          "upper_bound": "113790861991990883621832008506849/40000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "17/117649",
+            "0"
+          ],
+          "upper_bound": "9107422561584489051782431218620329366892690765926836489/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "anchors": [
+        0,
+        1,
+        9
+      ],
+      "cell": [],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "17/7",
+            "0"
+          ],
+          "upper_bound": "343367480489022761724481/156250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "17/49",
+            "0"
+          ],
+          "upper_bound": "8159037850499975065755623190226552459599793162041/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "17/343",
+            "0"
+          ],
+          "upper_bound": "2739394853357378027563546270281/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "17/2401",
+            "0"
+          ],
+          "upper_bound": "55452144458196644361033841079928763095658195131969801/625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "17/16807",
+            "0"
+          ],
+          "upper_bound": "113790861991990883621832008506849/40000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "17/117649",
+            "0"
+          ],
+          "upper_bound": "9107422561584489051782431218620329366892690765926836489/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        0
+      ],
+      "cell": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        13,
+        16,
+        20,
+        22,
+        23,
+        24,
+        25,
+        28
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "42974029357477901541892089/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "353939928121224698294504241/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "981913791333369929636809/1600000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "952682211286295276348483769/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "1371517470809238628820574529/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "116905395438959754454554609/62500000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        1
+      ],
+      "cell": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        14,
+        17,
+        21,
+        23,
+        24,
+        25,
+        26
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "42974029357477901541892089/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "353939928121224698294504241/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "981913791333369929636809/1600000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "952682211286295276348483769/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "1371517470809238628820574529/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "29",
+            "0"
+          ],
+          "upper_bound": "116905395438959754454554609/62500000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        5,
+        6,
+        7,
+        23,
+        24,
+        25
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "77/3",
+            "0"
+          ],
+          "upper_bound": "2635126331273576022336169/3906250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "163109/7569",
+            "256/2523"
+          ],
+          "upper_bound": "4469406626913925362370341571976955724679103261601/625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "320960957/19096587",
+            "-759296/6365529"
+          ],
+          "upper_bound": "4210120903542713542709015481/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "741088448789/48180689001",
+            "83291136/594823321"
+          ],
+          "upper_bound": "92276504539562480696279667014912127472261929354409/156250000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "2403824822991917/121559878349523",
+            "-1811071398400/40519959449841"
+          ],
+          "upper_bound": "1251136167221273349586544374009/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "6087914454186130949/306695573075846529",
+            "1291964494477568/102231857691948843"
+          ],
+          "upper_bound": "16322168910300206994054840169734562126779159866521/390625000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        0,
+        4
+      ],
+      "cell": [
+        5,
+        9,
+        13,
+        20,
+        24,
+        28
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "77/3",
+            "0"
+          ],
+          "upper_bound": "2635126331273576022336169/3906250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "163109/7569",
+            "256/2523"
+          ],
+          "upper_bound": "4469406626913925362370341571976955724679103261601/625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "320960957/19096587",
+            "-759296/6365529"
+          ],
+          "upper_bound": "4210120903542713542709015481/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "741088448789/48180689001",
+            "83291136/594823321"
+          ],
+          "upper_bound": "92276504539562480696279667014912127472261929354409/156250000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "2403824822991917/121559878349523",
+            "-1811071398400/40519959449841"
+          ],
+          "upper_bound": "1251136167221273349586544374009/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "6087914454186130949/306695573075846529",
+            "1291964494477568/102231857691948843"
+          ],
+          "upper_bound": "16322168910300206994054840169734562126779159866521/390625000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        0,
+        1,
+        5
+      ],
+      "cell": [
+        6,
+        25
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "125/7",
+            "0"
+          ],
+          "upper_bound": "2521226469998548350419250321/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "328709/41209",
+            "9216/41209"
+          ],
+          "upper_bound": "9313014237826256654552593670569154860788723423441/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "2154476237/242597383",
+            "-69580800/242597383"
+          ],
+          "upper_bound": "779625432180118903524750686601/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "18220296788693/1428170793721",
+            "71677440000/204024399103"
+          ],
+          "upper_bound": "62984483091267572173238042653681026722107381230535201/625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "47513947712979485/8407641462635527",
+            "-920796632524800/8407641462635527"
+          ],
+          "upper_bound": "806550255251212838687809983928801/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "642117067242416772773/49495785290535347449",
+            "-5202176784589569024/49495785290535347449"
+          ],
+          "upper_bound": "10318674221803119307899121971894738089458794478217837089/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "anchors": [
+        0,
+        1,
+        6
+      ],
+      "cell": [
+        5,
+        7
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "125/7",
+            "0"
+          ],
+          "upper_bound": "2521226469998548350419250321/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "328709/41209",
+            "9216/41209"
+          ],
+          "upper_bound": "9313014237826256654552593670569154860788723423441/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "2154476237/242597383",
+            "-69580800/242597383"
+          ],
+          "upper_bound": "779625432180118903524750686601/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "18220296788693/1428170793721",
+            "71677440000/204024399103"
+          ],
+          "upper_bound": "62984483091267572173238042653681026722107381230535201/625000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "47513947712979485/8407641462635527",
+            "-920796632524800/8407641462635527"
+          ],
+          "upper_bound": "806550255251212838687809983928801/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "642117067242416772773/49495785290535347449",
+            "-5202176784589569024/49495785290535347449"
+          ],
+          "upper_bound": "10318674221803119307899121971894738089458794478217837089/100000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0
+      ],
+      "cell": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        31,
+        32,
+        33,
+        36,
+        37,
+        39,
+        40
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "49262363980815809860644721/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "97730302303682704881443689/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "666011488198506125242937049/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "160034302445530709826081/156250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "91646771787434028489090001/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "4981935435763170813898761/2500000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        1
+      ],
+      "cell": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11,
+        17,
+        19,
+        21,
+        22,
+        24,
+        26,
+        32,
+        33,
+        34,
+        37,
+        38,
+        40
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "49262363980815809860644721/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "97730302303682704881443689/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "666011488198506125242937049/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "160034302445530709826081/156250000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "91646771787434028489090001/62500000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "41",
+            "0"
+          ],
+          "upper_bound": "4981935435763170813898761/2500000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0,
+        1
+      ],
+      "cell": [
+        2,
+        5,
+        9,
+        10,
+        21,
+        32,
+        33,
+        37,
+        40
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "113/3",
+            "0"
+          ],
+          "upper_bound": "740734784022057420915542521/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "505097/15129",
+            "512/5043"
+          ],
+          "upper_bound": "77315737734421534863290278101121754102570147514849/10000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "1768083425/76295547",
+            "1537024/25431849"
+          ],
+          "upper_bound": "18201965456893530217820480721/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "10134186514169/384758443521",
+            "-679389184/4750104241"
+          ],
+          "upper_bound": "1597565407216815079594585338159935907633131327633641/2500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "53703643727495249/1940336830676403",
+            "100876681133056/646778943558801"
+          ],
+          "upper_bound": "216844581384610032024048514081/40000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "280340113536713388521/9785118637101100329",
+            "277311043693457920/3261706212367033443"
+          ],
+          "upper_bound": "283146037927856742847450678478243255857548216643929/6250000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0,
+        2
+      ],
+      "cell": [
+        1,
+        4,
+        10,
+        18,
+        20,
+        23,
+        25,
+        33,
+        39
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "113/3",
+            "0"
+          ],
+          "upper_bound": "740734784022057420915542521/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "505097/15129",
+            "512/5043"
+          ],
+          "upper_bound": "77315737734421534863290278101121754102570147514849/10000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "1768083425/76295547",
+            "1537024/25431849"
+          ],
+          "upper_bound": "18201965456893530217820480721/250000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "10134186514169/384758443521",
+            "-679389184/4750104241"
+          ],
+          "upper_bound": "1597565407216815079594585338159935907633131327633641/2500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "53703643727495249/1940336830676403",
+            "100876681133056/646778943558801"
+          ],
+          "upper_bound": "216844581384610032024048514081/40000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "280340113536713388521/9785118637101100329",
+            "277311043693457920/3261706212367033443"
+          ],
+          "upper_bound": "283146037927856742847450678478243255857548216643929/6250000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0,
+        1,
+        2
+      ],
+      "cell": [
+        10,
+        33
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "137/7",
+            "0"
+          ],
+          "upper_bound": "2737748813060942614443816601/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "589817/82369",
+            "-9216/82369"
+          ],
+          "upper_bound": "1008922163706489882056139312840050190572809139053921/10000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "9930864233/969236023",
+            "163805184/969236023"
+          ],
+          "upper_bound": "3386712267874083804206702035369/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "127609500526553/11405000282641",
+            "-2859795320832/11405000282641"
+          ],
+          "upper_bound": "6854034298862785701596542929225277878889194326832578481/62500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "803744931870797897/134202638325836647",
+            "3716349381826560/19171805475119521"
+          ],
+          "upper_bound": "3515577374888287585510370682857409/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "21668834333271965455289/1579162445180119825249",
+            "-183975284711922582528/1579162445180119825249"
+          ],
+          "upper_bound": "1125365122018674967969835628796012211624117246349362265009/10000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "anchors": [
+        0,
+        1,
+        5
+      ],
+      "cell": [
+        9,
+        10,
+        21,
+        37
+      ],
+      "depth": 6,
+      "recurrence_checks": 6,
+      "curvature_checks": 5,
+      "trace_bounds": 6,
+      "converse_bounds": 6,
+      "missing_direction_checks": 6,
+      "boundary_checks": 24,
+      "specific_word_sums": 0,
+      "pointwise_checks": 0,
+      "bias_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "full_bounds": [
+        {
+          "j": 1,
+          "energy": [
+            "233/7",
+            "0"
+          ],
+          "upper_bound": "2759781261955801073510960001/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 2,
+          "energy": [
+            "1884857/82369",
+            "18432/82369"
+          ],
+          "upper_bound": "1015997744826081449586954631822784083554309785825121/10000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 3,
+          "energy": [
+            "21680273801/969236023",
+            "-299298816/969236023"
+          ],
+          "upper_bound": "3402972383206838227802143673569/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 4,
+          "energy": [
+            "30280555941791/1629285754663",
+            "4812828254208/11405000282641"
+          ],
+          "upper_bound": "6874425259253145196460884434043927025092712890550581681/62500000000000000000000000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 5,
+          "energy": [
+            "2298956813547075113/134202638325836647",
+            "-4976061089034240/19171805475119521"
+          ],
+          "upper_bound": "3521684653614198798046018793481409/1000000000000000000000000",
+          "below_trivial": false
+        },
+        {
+          "j": 6,
+          "energy": [
+            "49201980779600268549113/1579162445180119825249",
+            "202635342076465612800/1579162445180119825249"
+          ],
+          "upper_bound": "1126461963062074000705008777736764575691905633313029989809/10000000000000000000000000000000000000000000000",
+          "below_trivial": false
+        }
+      ]
+    }
+  ],
+  "jordan_edge": {
+    "N": 4,
+    "dimension": 2,
+    "checks": 41,
+    "meaning": "An exact abstract projection block at the spectral edge, not a Paley example; H_j=2+9j^2/4."
+  },
+  "large_first_step": {
+    "p": 10009,
+    "anchors": [
+      0,
+      1
+    ],
+    "cell_size": 2501,
+    "j": 1,
+    "exact_energy": "30017/3",
+    "upper_bound": "948443197135249094933351889/62500000000000000000000",
+    "upper_bound_below_twice_p": true,
+    "meaning": "A nonvacuous finite instance of the full bound; not asymptotic evidence."
+  },
+  "totals": {
+    "recurrence_checks": 168,
+    "curvature_checks": 140,
+    "trace_bounds": 168,
+    "converse_bounds": 168,
+    "missing_direction_checks": 168,
+    "boundary_checks": 672,
+    "specific_word_sums": 30,
+    "pointwise_checks": 117120,
+    "case_count": 28,
+    "full_upper_bounds": 168,
+    "positive_biases": 22,
+    "negative_biases": 146
+  },
+  "input_sha256": {
+    "research/parallel11-full-energy-2026-09-05.md": "d0bd223ef44dde0875437ab32bfc46efb4ef2a59213b5e303418f8bad664197a",
+    "experiments/parallel11_full_energy_2026_09_05.py": "43d0d764cadbb4a75a54e918b26dc6a140d4746b67a587516f92fc6d5a595e79",
+    "research/parallel10-word-aggregate-2026-09-05.md": "d8ff25b0ead18587725901b23370e6ad1278dbd9deedd81512eb5e280235f7af",
+    "research/parallel9-all-degrees-2026-09-05.md": "1a040da60d18bb72e626a17b4ba2c57d7ae645bce5878f508cf5ababd689fb1c",
+    "research/parallel2-spectral-transfer-2026-09-04.md": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3",
+    "experiments/parallel2_spectral_transfer_2026_09_04.py": "7cfee95be33f9da7c95544e2e671ca178338b5fea06c6f80fbe945768773dea4",
+    "sources/kunisky-2303.16475v1.html": "b16c8771a78741f54683e5a8e3acfe2fb9fee03e859ba55f49f9d5ee652a06da",
+    "sources/katz-rigid-local-systems.pdf": "ca6eb8d5d9e21076dda4e154e83dfa2821f586d6ccbe8c8f1b371b4352f753d1",
+    "sources/bbd-faisceaux-pervers.pdf": "6e976a78e7607c3026d006d319eea06df44ef75f80f35d9e475b3a8fbc1288d9",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe"
+  }
+}

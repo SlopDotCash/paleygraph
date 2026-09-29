@@ -1,0 +1,7 @@
+{
+  "date_utc": "2026-09-05T20:10:09.711292+00:00",
+  "path": "pair_type_twins/README.md",
+  "old_sha256": "a5807b1c8a4c0a1f4489091b4cdd71bac405bf29d01ffec9c0f2e0d1e3c26a2b",
+  "new_sha256": "6c5635661cc6cc06cd9a750962e78dab2223a000970cfe2e79632775e6297f6f",
+  "reason": "A resumed documentation lane refreshed this README during round4. All mathematical artifacts are byte-identical to the verified round3 snapshot; third-moment and total-variation claims were checked against the existing complete census. No mathematical replay was needed for this documentation-only change."
+}

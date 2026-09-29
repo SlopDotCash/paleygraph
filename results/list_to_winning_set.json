@@ -1,0 +1,419 @@
+{
+  "status": "Ordinary theorem and exact finite checks; not Lean formalized or submitted",
+  "finite_cases": [
+    {
+      "p": 5,
+      "domain": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "n": 4,
+      "k": 2,
+      "r": 2,
+      "coefficient_labels": [],
+      "received_polynomial_ascending": [
+        0,
+        0,
+        1
+      ],
+      "pigeonhole_list_lower_bound": 6,
+      "exact_list_size": 6,
+      "message_vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "v": [
+        0,
+        1
+      ],
+      "mu1": 0,
+      "mu2": 1,
+      "winning_challenges": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "winning_count": 5,
+      "hash_bound_numerator": 6,
+      "hash_bound_denominator": 10,
+      "minimum_codeword_weight": 3,
+      "least_second_word_weight_for_claim_one": 3,
+      "whole_admissible_suffix_by_minimum_distance": true,
+      "projection_vectors_exhausted": 25,
+      "collision_total": 300,
+      "large_list_regime": true
+    },
+    {
+      "p": 7,
+      "domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "n": 6,
+      "k": 3,
+      "r": 3,
+      "coefficient_labels": [],
+      "received_polynomial_ascending": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "pigeonhole_list_lower_bound": 20,
+      "exact_list_size": 20,
+      "message_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          1,
+          6,
+          4
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          2,
+          2,
+          6
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          4,
+          2,
+          5
+        ],
+        [
+          4,
+          4,
+          6
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          4,
+          4
+        ],
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          5,
+          5
+        ],
+        [
+          6,
+          6,
+          3
+        ]
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "mu1": 0,
+      "mu2": 1,
+      "winning_challenges": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "winning_count": 7,
+      "hash_bound_numerator": 20,
+      "hash_bound_denominator": 26,
+      "minimum_codeword_weight": 4,
+      "least_second_word_weight_for_claim_one": 4,
+      "whole_admissible_suffix_by_minimum_distance": true,
+      "projection_vectors_exhausted": 343,
+      "collision_total": 25480,
+      "large_list_regime": true
+    },
+    {
+      "p": 13,
+      "domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "n": 6,
+      "k": 3,
+      "r": 4,
+      "coefficient_labels": [
+        12
+      ],
+      "received_polynomial_ascending": [
+        0,
+        0,
+        0,
+        12,
+        1
+      ],
+      "pigeonhole_list_lower_bound": 2,
+      "exact_list_size": 3,
+      "message_vectors": [
+        [
+          5,
+          8,
+          0
+        ],
+        [
+          6,
+          9,
+          11
+        ],
+        [
+          10,
+          11,
+          7
+        ]
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "mu1": 0,
+      "mu2": 1,
+      "winning_challenges": [
+        0,
+        7,
+        11
+      ],
+      "winning_count": 3,
+      "hash_bound_numerator": 3,
+      "hash_bound_denominator": 15,
+      "minimum_codeword_weight": 4,
+      "least_second_word_weight_for_claim_one": 4,
+      "whole_admissible_suffix_by_minimum_distance": true,
+      "projection_vectors_exhausted": 2197,
+      "collision_total": 7605,
+      "large_list_regime": false
+    },
+    {
+      "p": 17,
+      "domain": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        13,
+        15,
+        16
+      ],
+      "n": 8,
+      "k": 4,
+      "r": 5,
+      "coefficient_labels": [
+        16
+      ],
+      "received_polynomial_ascending": [
+        0,
+        0,
+        0,
+        0,
+        16,
+        1
+      ],
+      "pigeonhole_list_lower_bound": 4,
+      "exact_list_size": 4,
+      "message_vectors": [
+        [
+          1,
+          16,
+          0,
+          0
+        ],
+        [
+          4,
+          13,
+          5,
+          12
+        ],
+        [
+          13,
+          4,
+          14,
+          3
+        ],
+        [
+          15,
+          6,
+          12,
+          6
+        ]
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "mu1": 0,
+      "mu2": 1,
+      "winning_challenges": [
+        0,
+        3,
+        6,
+        12
+      ],
+      "winning_count": 4,
+      "hash_bound_numerator": 4,
+      "hash_bound_denominator": 20,
+      "minimum_codeword_weight": 5,
+      "least_second_word_weight_for_claim_one": 5,
+      "whole_admissible_suffix_by_minimum_distance": true,
+      "projection_vectors_exhausted": 83521,
+      "collision_total": 393040,
+      "large_list_regime": false
+    }
+  ],
+  "profile": {
+    "p": 2130706433,
+    "q": 93571093019388561295270373781649880353786165192103559169,
+    "domain_size": 262144,
+    "scalar_dimension": 131072,
+    "interleaving": 8,
+    "total_dimension": 1048576,
+    "minimum_list_size_to_beat_epsilon": 274980728111395088,
+    "selected_list_size": 85677801616821870413970774,
+    "injectivity_union_bound_pairs": 3670342844945742156010585462243750221302345656094151,
+    "injectivity_union_bound_less_than_q": true,
+    "best_agreement_count_in_pigeonhole_family": 139503,
+    "unsafe_index": 122641,
+    "unsafe_radius": "122641/262144",
+    "minimum_distance_numerator": 131073,
+    "minimum_distance_denominator": 262144,
+    "coefficient_constraints": 8431,
+    "guaranteed_list_size": 85677801616821870413970774,
+    "next_agreement_guaranteed_list_size": 35350350170772326,
+    "best_binomial": {
+      "bits": 261352,
+      "sha256_big_endian": "94375147bf3014e5e42d00f80530ac81aac54b2e8d4b0d41b967ab6908b96ece"
+    },
+    "best_field_power": {
+      "bits": 261266,
+      "sha256_big_endian": "757eacb7f2879e70ab4fdd5ad87e5a87848d801d2e97c5de8430b3e1b9a9331b"
+    },
+    "centibits": 11649,
+    "score_verified_by_power_12800": true,
+    "centibits_minimal_for_this_radius": true,
+    "scope": "Optimal only within this scalar coefficient-pigeonhole bound at fixed profile",
+    "antipodal_family": {
+      "image_order": 128,
+      "subset_size": 65,
+      "fixed_sum": 1,
+      "list_size": 916312070471295267,
+      "radius": "63/128"
+    },
+    "earlier_large_list_consequence": {
+      "radius": "4095/8192",
+      "list_at_least_power_of_two": 8154,
+      "field_less_than_power_of_two": 186,
+      "winning_density_strictly_above": "1 - 2^(-7968)"
+    }
+  },
+  "source_sha256": {
+    "experiments/list_to_winning_set.py": "a3c6e231aedb96514edc97d782d40f002cb151d8e583738128b12e2454b7230e",
+    "results/subset_sum_list_certificate.json": "7232884b988d1a6e2cc6d7587aa3b7a092f9819cea173232ff942e4233db86cb",
+    "sources/abf-2026-680-july.pdf": "ccb3eea9966485d9dd312a0eb46b3219d9a92cbe4fd191a88ad9976115ed892a",
+    "sources/prize-attack-2026-09-04/SoundnessBounds.lean": "9d55d566e8c11b660148dd66ffe1ceb98aff0b96756fc114f56d281601be1dcf",
+    "sources/prize-attack-2026-09-04/SimplifiedIOR.lean": "7f00e39b7460c0ef9cf0a0e356801fd4f41e94d120ffd58c3567a052c6fbdc55",
+    "sources/official-prize-2026-09-04/ProximityPrize/Benchmark/TargetUpper.lean": "6aebed6c075924fd9fd2db9a6e347744c1c8252c0a9b6ab3536aa4c15c7768b3",
+    "sources/official-prize-2026-09-04/ProximityPrize/Benchmark/IRSProfile.lean": "75d40b94814bdc0ad00b107a2cf6a995c79f45a4b8c1ec1ce2f18ec612e81126"
+  }
+}

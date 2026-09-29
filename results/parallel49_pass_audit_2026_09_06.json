@@ -1,0 +1,147 @@
+{
+  "observed_at_utc": "2026-09-06T17:01:53.125994+00:00",
+  "classification": "progress: exact content valuation, prime-support restriction, and general algebraic counterexamples; no improved uniform bound",
+  "previous_goal_turn_classification": "progress: complete triple-fiber certificates, actual quartic counterexamples and an aggregate criterion; uniform bounds unchanged",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "finite_checks": {
+    "integer_resultant_pencils": 5,
+    "exact_resultant_evaluations": 82,
+    "p_adic_cases": 70,
+    "maximum_verified_precision": 16,
+    "nonsplit_field_cases": 21,
+    "nonsplit_branches": {
+      "field degree doubles": 9,
+      "opposite norms": 7,
+      "both norms one": 5
+    },
+    "balanced_pair_checks": 10920,
+    "norm_quadratic_checks": 9984,
+    "all_five_contents_equal_previous_gcd": true,
+    "all_seventy_derivative_corrections_zero": true,
+    "all_seventy_higher_triple_masses_zero": true,
+    "auxiliary_integer_polynomials": 2,
+    "auxiliary_examples_are_subgroups": false,
+    "checker_exit_code": 0
+  },
+  "mathematical_scope": "Every odd prime dividing the critical content is 1 modulo the dyadic order. Target primes already lie in this class. The weighted critical-content valuation or actual triple-mass bound is still unproved. Finite equality and vanishing checks do not give uniform identities.",
+  "review_scope": "Root ordinary derivations and exact checks; no separate-agent, Lean, external review or novelty claim.",
+  "agent_scope": "Previously observed usage-limited lanes were not restarted. No fresh agent status claimed.",
+  "runtime_scope": "Own complete Python checker terminated successfully. No Lean process polled, started or changed in this pass.",
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel48_collision_eliminants.py": true,
+    "experiments/requirements-exact-arithmetic.txt": true,
+    "research/parallel48-collision-eliminants-2026-09-06.md": true,
+    "research/parallel48-pass-summary-2026-09-06.md": true,
+    "results/parallel48_prior_state_2026_09_06.json": true,
+    "results/parallel48_factorization_candidates_2026_09_06.json": true,
+    "results/parallel48_exploration_runtime_2026_09_06.json": true,
+    "results/parallel48_collision_eliminants_2026_09_06.json": true,
+    "results/parallel48_source_scope_2026_09_06.json": true
+  },
+  "local_links_checked": [
+    {
+      "source": "research/parallel49-critical-content-2026-09-06.md",
+      "target": "research/parallel2-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/parallel49-critical-content-2026-09-06.md",
+      "target": "research/parallel48-collision-eliminants-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel49-critical-content-2026-09-06.md",
+      "target": "research/dyadic-descent-and-mixed-energy.md"
+    },
+    {
+      "source": "research/parallel49-critical-content-2026-09-06.md",
+      "target": "experiments/parallel49_critical_content.py"
+    },
+    {
+      "source": "research/parallel49-critical-content-2026-09-06.md",
+      "target": "results/parallel49_critical_content_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel49-pass-summary-2026-09-06.md",
+      "target": "research/parallel49-critical-content-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel49-pass-summary-2026-09-06.md",
+      "target": "experiments/parallel49_critical_content.py"
+    },
+    {
+      "source": "research/parallel49-pass-summary-2026-09-06.md",
+      "target": "results/parallel49_critical_content_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel49-pass-summary-2026-09-06.md",
+      "target": "results/parallel49_pass_audit_2026_09_06.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel49-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "research/parallel49-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "research/parallel49-critical-content-2026-09-06.md"
+    },
+    {
+      "source": "research/checkpoint-2026-09-04.md",
+      "target": "research/parallel49-pass-summary-2026-09-06.md"
+    }
+  ],
+  "source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "mathematical_and_checker_dependency_hashes": {
+    "research/parallel2-subgroup-2026-09-04.md": "d2d7a0e427a3eb9859d9c0045f048dc79a551325dcd1753722809705ef22f98b",
+    "research/dyadic-descent-and-mixed-energy.md": "8b31a1bad9fcd1c457e442ace22214fa094395b8e2958b03589ce3b14bd13924",
+    "research/parallel48-collision-eliminants-2026-09-06.md": "956846bd5f9592536730b22fb3e916c36f60b7a3d212ab3a7828b88b251a785a",
+    "experiments/parallel2_subgroup_2026_09_04.py": "71704c284dce4efa63b153075472a02e8e9b41d9dffca0ba4e436a80b5c61793",
+    "experiments/quadruple_orbits.py": "049823e7c8d5e8010920331a8d506868253778506bca698944adda798138befc",
+    "experiments/dyadic_energy_descent.py": "a49c4f640faf1bfbd8081c9793ecd81a0157d40582615156c7068d086b8c825e",
+    "experiments/parallel48_collision_eliminants.py": "b59ab2fba26d8a6d57560d6e7da42e1953de27666646199e1889113a944034de",
+    "experiments/requirements-exact-arithmetic.txt": "cfffc8d72603fc5d719a37f043b12db24ee8f0441a5923e2ecd585ce811775da",
+    "results/parallel48_collision_eliminants_2026_09_06.json": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d"
+  },
+  "compiled_backend_metadata_sha256": "11a4b12677ac9762cb5741d077c22312cf901fb5f3a67cd167a8ffe265f7ef87",
+  "artifacts_sha256": {
+    "experiments/parallel49_critical_content.py": "728e5041ca869d23d019e3efb7e9fad6420a4ed7f829a8a2bc6638deb9827be8",
+    "research/parallel49-critical-content-2026-09-06.md": "1a32594bd7c7d857994652029702ba8cdc9430d3eb4f15ab101748f5446a0522",
+    "research/parallel49-pass-summary-2026-09-06.md": "615665435bebf08c7ff7b5254b97d0a33ea200f640788840de45190d79e0b33e",
+    "results/parallel49_prior_state_2026_09_06.json": "2a24ccf872c9ff7654ab71569192220716db470ee645056ca51c3042915cd9be",
+    "results/parallel49_critical_content_2026_09_06.json": "fcf706437029ca3aa981ed3f3f07f84d174a34ae8771df3408b09bebf801e865",
+    "results/parallel49_source_scope_2026_09_06.json": "0e3da3648901f1db82a8ee57463f59821264d3ab844dab0f461aae7122c90686"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "d375435bd6e9a8ee340a0f17478621dc6506e67843ffc7295770a59350337a5a",
+      "after": "5dc81270f68048f62aa37f924d08aeee8ffd6e11f4f5bf5b866ed0fea1ee5b59"
+    },
+    "research/frontier.md": {
+      "before": "ab44c729b4c04959168cd1758ac1dd2ed04566607d001d8bcef801cfd9a9be6b",
+      "after": "8715223909d55077885178a1f759ccab7ac06953bcbe99131d38266d30aa677f"
+    },
+    "research/source-audit.md": {
+      "before": "dfa84b6b003aa8180d20e6d1df40c510e2e77f361947c085e1942406596ecb5f",
+      "after": "105529a88b81bf3341f936501bf4d87e24de47c9625a4dfdffef17364f581f93"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "e54e71c4d7e900336ce2f3c3da3ad90c9149c1ae18ea139de7c4bc9fb0a43ab8",
+      "after": "da6c998f905230fd102f6a65e44940d08e256a92d5cf237e64237ea1e1d9801d"
+    }
+  },
+  "central_git_diff_check_passed": true,
+  "next_action": "Obtain a uniform estimate at splitting primes for the weighted triple-fiber aggregate or a sufficient arithmetic certificate; keep higher-precision clustering and reciprocal cancellation explicit."
+}

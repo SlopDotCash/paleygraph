@@ -1,0 +1,97 @@
+{
+  "status": "setup verified",
+  "audited_at_utc": "2026-09-05T18:43:02.592637+00:00",
+  "platform_version": "0.9.7",
+  "credential_permissions": "0600",
+  "credential_gitignored": true,
+  "credentials_read_by_audit": false,
+  "existing_accepted_proofs": 4,
+  "main_goal": "Open",
+  "mission_status": "private Draft",
+  "new_local_proof": "passed with only standard axioms",
+  "additional_local_core_theorems": 4,
+  "new_publish_status": "PENDING",
+  "new_server_verdict": null,
+  "local_link_checks": [
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/prove2me_connection_2026_09_05.json"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/parallel25-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/prove2me-projection-count-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/prove2me_projection_server_2026_09_05.json"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "prove2me/Check_paley_functional_kernel_card.lean"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "research/prove2me-projection-core-2026-09-05.md"
+    },
+    {
+      "source": "PROVE2ME.md",
+      "target": "results/prove2me_setup_audit_2026_09_05.json"
+    },
+    {
+      "source": "research/prove2me-projection-count-2026-09-05.md",
+      "target": "parallel25-prize-projection-2026-09-05.md"
+    },
+    {
+      "source": "research/prove2me-projection-core-2026-09-05.md",
+      "target": "../prove2me/Check_paley_functional_kernel_card.lean"
+    },
+    {
+      "source": "research/prove2me-projection-core-2026-09-05.md",
+      "target": "../prove2me/Check_paley_nonzero_functional_count.lean"
+    },
+    {
+      "source": "research/prove2me-projection-core-2026-09-05.md",
+      "target": "../results/prove2me_functional_counts_local_2026_09_05.json"
+    },
+    {
+      "source": "research/prove2me-projection-core-2026-09-05.md",
+      "target": "../results/prove2me_projection_core_local_2026_09_05.json"
+    },
+    {
+      "source": "research/prove2me-projection-core-2026-09-05.md",
+      "target": "parallel25-prize-projection-2026-09-05.md"
+    },
+    {
+      "source": "research/prove2me-projection-core-2026-09-05.md",
+      "target": "../PROVE2ME.md"
+    }
+  ],
+  "artifact_sha256": {
+    "PROVE2ME.md": "c6f148feb9a870fadf4fcf4d3c76d89fe8048d62a6898025e75796d7d5d3a583",
+    "experiments/prove2me_setup_audit_2026_09_05.py": "d221047539d6e4cfcddd1a4a769def65ddfbe31b5f6f66e47675d848a824a1df",
+    "prove2me/Check_paley_functional_kernel_card.lean": "b4660da70bbc9d0d9166e00698518c97bf505a76ba2ff4bf4c7beac01adb7557",
+    "prove2me/Check_paley_nonzero_functional_count.lean": "27e4a699b47d8265641c65d81744374aa36ffa120b7fd504ace7ee2d427036e1",
+    "prove2me/Sol_paley_projection_survival_count.lean": "8b2d28ab36797c8e5c993c53b6496f2e6128060fb04b6914b8ab82c35be5fa4d",
+    "prove2me/Sol_paley_projection_survival_count.md": "d77c41220b0f0fca4ea69d15b088c0dcb8a7a1725ab133f7defb0cd3d85182cf",
+    "prove2me/projection-survival-problem.json": "0fece58cf4c94fbd6a7a66b938d575732237dc21d9fb0b926f98df27925498a4",
+    "prove2me/service-references/contribute.md": "0c21104fdec143aef4d1dacb208f528b4a1068050a77af642bc1e21cb1471ce1",
+    "prove2me/service-references/mission_solver.md": "3dbe446d8f9102a1a3897bbe3009566497559e9e110d269337997e2950cd8f0d",
+    "prove2me/service-references/prove.md": "615f3a7e7060e028fc2f87c1d7cbbf0ba7cddcb4c06ee9a585b1bab89d4050a1",
+    "prove2me/service-references/setup.md": "fc6ddb063462a594d43f6e78ca4e4abeef06adfc6b0eef6dbb0a4d29d6aafeba",
+    "prove2me/service-skill-current.md": "7b5b31e18758c0deb9670e809e1dbd53ecedfa904070d330cc1ff00db4608f69",
+    "research/prove2me-projection-core-2026-09-05.md": "f29b3b0eea4316c1435c1fdcb626c5013438b98ce29e78046034f44206c83384",
+    "research/prove2me-projection-count-2026-09-05.md": "60cab60483be11290be087cbec51d182553e29d7dd1d1bc73b5f10d441b3b88b",
+    "results/prove2me_connection_2026_09_05.json": "991602e34e5b75f10b8b5da849ef98d03c1be99243698b53ca694196d14e414f",
+    "results/prove2me_functional_counts_local_2026_09_05.json": "b6d10c853a677a19b9a98c3928ee56739895ca3b6c5b2c739cc7593dfa374038",
+    "results/prove2me_projection_core_local_2026_09_05.json": "9a9ff11a19ae71708c95e7d7aba3fcde2c28b6ed49ab322c2b062ac1acdf7958",
+    "results/prove2me_projection_local_2026_09_05.json": "54bab0f1f37f0c180641a8d274f81641989777a6f0267f79e0bc96a4f1f92373",
+    "results/prove2me_projection_server_2026_09_05.json": "6fdc5da348b134bded2b4a2138a4381d667e1748b89a5379441dcf3653153a30",
+    "scripts/prove2me.py": "52278d6f87fa5c0844110e6d4f530b97956d3bbd24da3b4c71836abc7ad2bfe7",
+    "scripts/prove2me_projection.py": "c6795e1d9a0812498a2b4924e4c3a9a85238b3780fb16b4feb5b6b814a9d3013"
+  },
+  "scope": "Hosted payload is the finite incidence lemma. Four further local theorems cover kernel counts and a common projection; the code-specific reduction and both conjectures remain unproved here."
+}

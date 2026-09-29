@@ -1,0 +1,848 @@
+{
+  "schema": "proximity-deformation-microscope/v1",
+  "seed": 20260905,
+  "source_checkout": "25de4107388ce3e371c2f56252279ab6455eb1a9",
+  "source_state": "read-only; contains untracked SW1 work not Lean-validated here",
+  "scope": "exact finite-field local diagnostics, no MCA or prize conclusion",
+  "checks": {
+    "tiny_exhaustive_projection_examples": 3,
+    "jet_polynomial_values": 11,
+    "second_order_null_control": "passed"
+  },
+  "field_transport_of_F41_index_pattern": [
+    {
+      "p": 41,
+      "n": 20,
+      "cofactor_degree": 1,
+      "matrix_rank": 5,
+      "kernel_dimension": 1
+    },
+    {
+      "p": 61,
+      "n": 20,
+      "cofactor_degree": 1,
+      "matrix_rank": 6,
+      "kernel_dimension": 0
+    },
+    {
+      "p": 101,
+      "n": 20,
+      "cofactor_degree": 1,
+      "matrix_rank": 6,
+      "kernel_dimension": 0
+    },
+    {
+      "p": 1021,
+      "n": 20,
+      "cofactor_degree": 1,
+      "matrix_rank": 6,
+      "kernel_dimension": 0
+    },
+    {
+      "p": 100361,
+      "n": 20,
+      "cofactor_degree": 1,
+      "matrix_rank": 6,
+      "kernel_dimension": 0
+    },
+    {
+      "p": 2147484041,
+      "n": 20,
+      "cofactor_degree": 1,
+      "matrix_rank": 6,
+      "kernel_dimension": 0
+    }
+  ],
+  "profiles": [
+    {
+      "name": "F41_linear_middle_witness",
+      "p": 41,
+      "n": 20,
+      "groups": [
+        [
+          2,
+          25,
+          37,
+          23,
+          39,
+          1
+        ],
+        [
+          8,
+          18,
+          16,
+          10,
+          5,
+          36
+        ],
+        [
+          4,
+          21,
+          33,
+          40,
+          31,
+          9
+        ]
+      ],
+      "cofactor_degree": 1,
+      "matrix_shape": [
+        8,
+        6
+      ],
+      "rank": 5,
+      "kernel_dimension": 1,
+      "cokernel_dimension": 3,
+      "kernel_basis": [
+        [
+          16,
+          14,
+          1,
+          26,
+          12,
+          1
+        ]
+      ],
+      "root_parameter_count": 18,
+      "tangent_constraint_rank": 3,
+      "tangent_dimension": 15,
+      "jet_order": 3,
+      "jet_survival": {
+        "translation": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "scaling": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "single_root": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "tangent_basis_0": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_1": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_3": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_4": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_5": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_6": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_7": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_8": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_9": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_10": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_11": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_0": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_1": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_3": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_4": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_5": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_6": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_7": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_8": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_9": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_10": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_11": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "tangent_survival_histogram": {
+        "[1, 1, 0, 0]": 24
+      },
+      "example_tangent_velocity": [
+        19,
+        8,
+        37,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "domain_tangent_dimension": 0,
+      "domain_tangent_reason": "n*x^(n-1) is nonzero at each n-th root because p does not divide n",
+      "edits": {
+        "operation": "one root replaced by an unused domain point",
+        "trials": 36,
+        "nullity_histogram": {
+          "0": 36
+        },
+        "first_damage": {
+          "group": 0,
+          "index": 0,
+          "old": 2,
+          "new": 32,
+          "nullity_after": 0
+        }
+      }
+    },
+    {
+      "name": "F41_random_partition_control",
+      "p": 41,
+      "n": 20,
+      "groups": [
+        [
+          33,
+          1,
+          2,
+          37,
+          9,
+          31
+        ],
+        [
+          40,
+          5,
+          18,
+          20,
+          10,
+          36
+        ],
+        [
+          23,
+          25,
+          39,
+          21,
+          32,
+          4
+        ]
+      ],
+      "cofactor_degree": 1,
+      "matrix_shape": [
+        8,
+        6
+      ],
+      "rank": 6,
+      "kernel_dimension": 0,
+      "cokernel_dimension": 2,
+      "kernel_basis": [],
+      "root_parameter_count": 18,
+      "tangent_constraint_rank": 0,
+      "tangent_dimension": 18,
+      "jet_order": 3,
+      "jet_survival": {
+        "translation": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "single_root": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tangent_basis_0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tangent_basis_1": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tangent_basis_2": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tangent_random_0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tangent_random_1": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tangent_random_2": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tangent_survival_histogram": {
+        "[0, 0, 0, 0]": 6
+      },
+      "example_tangent_velocity": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "domain_tangent_dimension": 0,
+      "domain_tangent_reason": "n*x^(n-1) is nonzero at each n-th root because p does not divide n",
+      "edits": {
+        "operation": "one root replaced by an unused domain point",
+        "trials": 36,
+        "nullity_histogram": {
+          "0": 36
+        },
+        "first_damage": null
+      }
+    },
+    {
+      "name": "coset_n16_p1009",
+      "p": 1009,
+      "n": 16,
+      "groups": [
+        [
+          1,
+          469,
+          1008,
+          540
+        ],
+        [
+          179,
+          204,
+          830,
+          805
+        ],
+        [
+          762,
+          192,
+          247,
+          817
+        ]
+      ],
+      "cofactor_degree": 0,
+      "matrix_shape": [
+        5,
+        3
+      ],
+      "rank": 2,
+      "kernel_dimension": 1,
+      "cokernel_dimension": 3,
+      "kernel_basis": [
+        [
+          469,
+          539,
+          1
+        ]
+      ],
+      "root_parameter_count": 12,
+      "tangent_constraint_rank": 3,
+      "tangent_dimension": 9,
+      "jet_order": 3,
+      "jet_survival": {
+        "translation": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "scaling": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "single_root": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "tangent_basis_0": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tangent_basis_1": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_3": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_4": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_5": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_6": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_7": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_0": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_1": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_3": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_4": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_5": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_6": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_7": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "tangent_survival_histogram": {
+        "[1, 1, 1, 1]": 1,
+        "[1, 1, 0, 0]": 15
+      },
+      "example_tangent_velocity": [
+        469,
+        1008,
+        540,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "domain_tangent_dimension": 0,
+      "domain_tangent_reason": "n*x^(n-1) is nonzero at each n-th root because p does not divide n",
+      "edits": {
+        "operation": "one root replaced by an unused domain point",
+        "trials": 48,
+        "nullity_histogram": {
+          "0": 48
+        },
+        "first_damage": {
+          "group": 0,
+          "index": 0,
+          "old": 1,
+          "new": 183,
+          "nullity_after": 0
+        }
+      }
+    },
+    {
+      "name": "coset_n24_p1009",
+      "p": 1009,
+      "n": 24,
+      "groups": [
+        [
+          1,
+          375,
+          374,
+          1008,
+          634,
+          635
+        ],
+        [
+          648,
+          840,
+          192,
+          361,
+          169,
+          817
+        ],
+        [
+          160,
+          469,
+          309,
+          849,
+          540,
+          700
+        ]
+      ],
+      "cofactor_degree": 0,
+      "matrix_shape": [
+        7,
+        3
+      ],
+      "rank": 2,
+      "kernel_dimension": 1,
+      "cokernel_dimension": 5,
+      "kernel_basis": [
+        [
+          469,
+          539,
+          1
+        ]
+      ],
+      "root_parameter_count": 18,
+      "tangent_constraint_rank": 5,
+      "tangent_dimension": 13,
+      "jet_order": 3,
+      "jet_survival": {
+        "translation": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "scaling": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "single_root": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "tangent_basis_0": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tangent_basis_1": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_3": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_4": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_5": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_6": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_basis_7": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_0": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_1": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_3": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_4": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_5": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_6": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "tangent_random_7": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "tangent_survival_histogram": {
+        "[1, 1, 1, 1]": 1,
+        "[1, 1, 0, 0]": 15
+      },
+      "example_tangent_velocity": [
+        375,
+        374,
+        1008,
+        634,
+        635,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "domain_tangent_dimension": 0,
+      "domain_tangent_reason": "n*x^(n-1) is nonzero at each n-th root because p does not divide n",
+      "edits": {
+        "operation": "one root replaced by an unused domain point",
+        "trials": 108,
+        "nullity_histogram": {
+          "0": 108
+        },
+        "first_damage": {
+          "group": 0,
+          "index": 0,
+          "old": 1,
+          "new": 762,
+          "nullity_after": 0
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 0.666
+}

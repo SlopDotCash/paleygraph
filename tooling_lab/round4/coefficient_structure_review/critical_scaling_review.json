@@ -1,0 +1,198 @@
+{
+  "status": "passed",
+  "critical_assumptions": "fixed alpha>0; admissible q tends to infinity; n/q^(1/4) tends to alpha",
+  "polynomial_substitution": "q=t^4,r=alpha*t-3",
+  "numerator_degree_in_t": 40,
+  "denominator_degree_in_t": 48,
+  "leading_coefficient_ratio": "-alpha^4",
+  "coefficient_asymptotic": "c(q,n,6) ~ -alpha^4 q^(-2)",
+  "weighted_terms_proving_P_asymptotic": [
+    {
+      "q_degree": 5,
+      "r_degree": 0,
+      "coefficient": "2"
+    },
+    {
+      "q_degree": 4,
+      "r_degree": 2,
+      "coefficient": "-1"
+    },
+    {
+      "q_degree": 4,
+      "r_degree": 1,
+      "coefficient": "-15"
+    },
+    {
+      "q_degree": 4,
+      "r_degree": 0,
+      "coefficient": "-74"
+    },
+    {
+      "q_degree": 3,
+      "r_degree": 3,
+      "coefficient": "4"
+    },
+    {
+      "q_degree": 3,
+      "r_degree": 2,
+      "coefficient": "87"
+    },
+    {
+      "q_degree": 3,
+      "r_degree": 1,
+      "coefficient": "445"
+    },
+    {
+      "q_degree": 3,
+      "r_degree": 0,
+      "coefficient": "942"
+    },
+    {
+      "q_degree": 2,
+      "r_degree": 4,
+      "coefficient": "-4"
+    },
+    {
+      "q_degree": 2,
+      "r_degree": 3,
+      "coefficient": "-208"
+    },
+    {
+      "q_degree": 2,
+      "r_degree": 2,
+      "coefficient": "-1689"
+    },
+    {
+      "q_degree": 2,
+      "r_degree": 1,
+      "coefficient": "-3683"
+    },
+    {
+      "q_degree": 2,
+      "r_degree": 0,
+      "coefficient": "-6158"
+    },
+    {
+      "q_degree": 1,
+      "r_degree": 4,
+      "coefficient": "160"
+    },
+    {
+      "q_degree": 1,
+      "r_degree": 3,
+      "coefficient": "2860"
+    },
+    {
+      "q_degree": 1,
+      "r_degree": 2,
+      "coefficient": "8537"
+    },
+    {
+      "q_degree": 1,
+      "r_degree": 1,
+      "coefficient": "13299"
+    },
+    {
+      "q_degree": 1,
+      "r_degree": 0,
+      "coefficient": "21760"
+    },
+    {
+      "q_degree": 0,
+      "r_degree": 4,
+      "coefficient": "-1596"
+    },
+    {
+      "q_degree": 0,
+      "r_degree": 3,
+      "coefficient": "-7168"
+    },
+    {
+      "q_degree": 0,
+      "r_degree": 2,
+      "coefficient": "-13846"
+    },
+    {
+      "q_degree": 0,
+      "r_degree": 1,
+      "coefficient": "-19838"
+    },
+    {
+      "q_degree": 0,
+      "r_degree": 0,
+      "coefficient": "-32984"
+    }
+  ],
+  "triangle_L_values": [
+    -1,
+    3
+  ],
+  "sum_h2": "-3-L",
+  "h2_squared_norm": "3q-15-2L",
+  "h3_squared_norm": "q-3",
+  "uniform_contraction_bound_squared": "q(q-3)(3q-13)",
+  "uniform_critical_correction_bound": "|cQ| <= (sqrt(3)*alpha^4+o(1))*q^(-1/2)",
+  "norm_proof": "S symmetric and S^2=qI-J imply operator norm sqrt(q); apply Cauchy-Schwarz and the exact vector norms",
+  "scope": "uniform over realized conference matrices and marked triples; bounds only the additive conditional-second-moment correction, not a relative baseline error or individual T6 values",
+  "all_triple_numeric_checks": [
+    {
+      "q": 17,
+      "all_marked_triples_checked": 680,
+      "largest_observed_squared_ratio_to_uniform_bound": [
+        25,
+        2261
+      ]
+    },
+    {
+      "q": 29,
+      "all_marked_triples_checked": 3654,
+      "largest_observed_squared_ratio_to_uniform_bound": [
+        1849,
+        13949
+      ]
+    }
+  ],
+  "finite_absolute_correction_bounds": [
+    {
+      "q": 65537,
+      "n": 16,
+      "c": [
+        -61192740735916932142812528315172418416,
+        1006659037873623835227994583592108940984257634305
+      ],
+      "uniform_squared_absolute_correction_bound": [
+        96492922152019081086414877963583825098839274261416293915373405127536584151090210778112,
+        30926310572608112647021027600896237210196824618884540492577018803655172266891856565681176575
+      ]
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "c": [
+        -50080568096759472526920644457721086442093080000,
+        101992164005182265317180108090425454369982782034459699935891
+      ],
+      "uniform_squared_absolute_correction_bound": [
+        75246539015110371572951449139178507445574085851174756363074167895826802074067539881691728114696032000000000,
+        104020894557763236185609902479030102997562867791016541029780822932343562223557132658299695394616347281538015754627
+      ]
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "c": [
+        -6080828978400959925488041791801567685457729127247912114,
+        427416209616137153589981409899888242151383255113635853409586132167713
+      ],
+      "uniform_squared_absolute_correction_bound": [
+        468142499364787573949251188166877898736769527133894509214404251158410348577620944289391330846322385899910443736550149665767504,
+        2562879536519208403397626032655756032510779129299755851918436144293913224380247471881112452179471421866053336388215811962307795069649
+      ]
+    }
+  ],
+  "source_sha256": {
+    "symbolic_formula.json": "1b47ccbc6bbf049034571ab8fd55d8fbc3dcee42b510f2758961e23980e04750",
+    "review_results.json": "05dd1dd55584bd3ec78ab5f18484f563f5fbbc9d66a51f075ce81a4d2f282dc5"
+  },
+  "review_sha256": "56bc816fe250276250416c7af369e1f04125908ae64582b76efb61e4874cd259"
+}

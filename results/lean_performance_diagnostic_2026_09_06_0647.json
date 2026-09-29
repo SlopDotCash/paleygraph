@@ -1,0 +1,24 @@
+{
+  "observations": [
+    {
+      "utc": "2026-09-06T06:48:55.864968+00:00",
+      "process": "13687 01:32:27  30:59.02   2.4 26264304 R+",
+      "load": "2:48  up 1 day,  9:54, 6 users, load averages: 86.46 71.41 64.74"
+    },
+    {
+      "utc": "2026-09-06T06:49:10.998764+00:00",
+      "process": "13687 01:32:42  31:00.67  30.7 24229760 R+",
+      "load": "2:49  up 1 day,  9:54, 6 users, load averages: 93.33 73.66 65.66"
+    }
+  ],
+  "source": "/tmp/queryphase-preservation-v19.lean",
+  "source_sha256": "138b2b0eb454e2b0010b59fe92462ef41f21496a93d68c624a493182cf740abb",
+  "log_bytes": 3780,
+  "log_mtime_utc": "2026-09-06T05:17:10.311423+00:00",
+  "exit_marker_exists": false,
+  "stack_sample": "/Users/shawwalters/Desktop/paleygraph/results/lean_kernel_diagnostic_2026_09_06_0647.txt",
+  "logical_cpus": 16,
+  "ram_gib": 128,
+  "running_job_changed": false,
+  "new_lean_build_started": false
+}

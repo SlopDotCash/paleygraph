@@ -1,0 +1,1022 @@
+{
+ "checks": {
+  "statement_match": 6,
+  "lean_files": 12,
+  "hp_bound": 67160,
+  "hp_bound_subB": 19392,
+  "lagrange_identity": 13618,
+  "aux_degree": 230,
+  "aux_root_mult": 395,
+  "bad_partner_formula": 1662,
+  "paley_set_equals_Zd0": 14,
+  "sharp_example": 21,
+  "clique_bound": 13,
+  "p2_counterexample": 1
+ },
+ "failures": [],
+ "witnesses": {
+  "hp_min_slack_|A|>=2": {
+   "p=3,d=1": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0
+    ]
+   ],
+   "p=5,d=1": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0
+    ]
+   ],
+   "p=5,d=2": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ]
+   ],
+   "p=7,d=1": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0
+    ]
+   ],
+   "p=7,d=2": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "p=7,d=3": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "p=11,d=1": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0
+    ]
+   ],
+   "p=11,d=2": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     10
+    ]
+   ],
+   "p=11,d=5": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3,
+     4
+    ]
+   ],
+   "p=13,d=1": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0
+    ]
+   ],
+   "p=13,d=2": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "p=13,d=3": [
+    0,
+    [
+     0,
+     2,
+     8
+    ],
+    [
+     1
+    ]
+   ],
+   "p=13,d=4": [
+    0,
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     8
+    ]
+   ],
+   "p=13,d=6": [
+    0,
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3,
+     9,
+     12
+    ]
+   ],
+   "p=17,d=1": [
+    0,
+    [
+     0,
+     16
+    ],
+    [
+     1
+    ]
+   ],
+   "p=17,d=2": [
+    0,
+    [
+     6,
+     7,
+     8
+    ],
+    [
+     10
+    ]
+   ],
+   "p=17,d=4": [
+    0,
+    [
+     5,
+     8
+    ],
+    [
+     8,
+     13
+    ]
+   ],
+   "p=17,d=8": [
+    0,
+    [
+     4,
+     8
+    ],
+    [
+     0,
+     5,
+     9,
+     11,
+     13
+    ]
+   ],
+   "p=19,d=1": [
+    0,
+    [
+     2,
+     3
+    ],
+    [
+     17
+    ]
+   ],
+   "p=19,d=2": [
+    0,
+    [
+     13,
+     14
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "p=19,d=3": [
+    0,
+    [
+     1,
+     7,
+     11
+    ],
+    [
+     0
+    ]
+   ],
+   "p=19,d=6": [
+    0,
+    [
+     4,
+     12
+    ],
+    [
+     7,
+     8,
+     14,
+     15
+    ]
+   ],
+   "p=19,d=9": [
+    0,
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     9,
+     11,
+     16,
+     17
+    ]
+   ],
+   "p=23,d=1": [
+    0,
+    [
+     20,
+     21
+    ],
+    [
+     3
+    ]
+   ],
+   "p=23,d=2": [
+    0,
+    [
+     1,
+     3
+    ],
+    [
+     21
+    ]
+   ],
+   "p=23,d=11": [
+    0,
+    [
+     7,
+     19
+    ],
+    [
+     5,
+     6,
+     16,
+     17,
+     20,
+     22
+    ]
+   ],
+   "p=29,d=1": [
+    0,
+    [
+     14,
+     15
+    ],
+    [
+     15
+    ]
+   ],
+   "p=29,d=2": [
+    0,
+    [
+     13,
+     15
+    ],
+    [
+     15
+    ]
+   ],
+   "p=29,d=4": [
+    0,
+    [
+     5,
+     18
+    ],
+    [
+     12,
+     23
+    ]
+   ],
+   "p=29,d=14": [
+    0,
+    [
+     10,
+     13
+    ],
+    [
+     3,
+     10,
+     12,
+     15,
+     20,
+     23,
+     25
+    ]
+   ],
+   "p=31,d=1": [
+    0,
+    [
+     18,
+     19
+    ],
+    [
+     13
+    ]
+   ],
+   "p=31,d=2": [
+    0,
+    [
+     14,
+     16
+    ],
+    [
+     16
+    ]
+   ],
+   "p=31,d=6": [
+    0,
+    [
+     26,
+     27
+    ],
+    [
+     4,
+     5,
+     10,
+     30
+    ]
+   ],
+   "p=31,d=15": [
+    0,
+    [
+     10,
+     23
+    ],
+    [
+     8,
+     9,
+     10,
+     15,
+     18,
+     22,
+     26,
+     28
+    ]
+   ],
+   "p=37,d=1": [
+    0,
+    [
+     13,
+     14
+    ],
+    [
+     24
+    ]
+   ],
+   "p=37,d=2": [
+    0,
+    [
+     17,
+     18
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "p=37,d=4": [
+    0,
+    [
+     6,
+     11
+    ],
+    [
+     25,
+     32
+    ]
+   ],
+   "p=37,d=6": [
+    0,
+    [
+     21,
+     31
+    ],
+    [
+     5,
+     6,
+     16,
+     17
+    ]
+   ],
+   "p=37,d=18": [
+    0,
+    [
+     33,
+     34
+    ],
+    [
+     0,
+     3,
+     4,
+     7,
+     13,
+     14,
+     15,
+     29,
+     30,
+     31
+    ]
+   ],
+   "p=41,d=1": [
+    0,
+    [
+     33,
+     34
+    ],
+    [
+     8
+    ]
+   ],
+   "p=41,d=2": [
+    0,
+    [
+     0,
+     2
+    ],
+    [
+     40
+    ]
+   ],
+   "p=41,d=4": [
+    0,
+    [
+     19,
+     29
+    ],
+    [
+     13,
+     21
+    ]
+   ],
+   "p=41,d=20": [
+    0,
+    [
+     17,
+     25
+    ],
+    [
+     6,
+     8,
+     14,
+     15,
+     16,
+     20,
+     24,
+     25,
+     26,
+     32,
+     34
+    ]
+   ],
+   "p=43,d=1": [
+    0,
+    [
+     2,
+     3
+    ],
+    [
+     41
+    ]
+   ],
+   "p=43,d=2": [
+    0,
+    [
+     1,
+     3
+    ],
+    [
+     41
+    ]
+   ],
+   "p=43,d=6": [
+    0,
+    [
+     27,
+     34
+    ],
+    [
+     9,
+     10,
+     15,
+     16
+    ]
+   ],
+   "p=43,d=21": [
+    0,
+    [
+     13,
+     23
+    ],
+    [
+     0,
+     1,
+     2,
+     8,
+     12,
+     18,
+     30,
+     31,
+     34,
+     36,
+     41
+    ]
+   ],
+   "p=47,d=1": [
+    0,
+    [
+     13,
+     14
+    ],
+    [
+     34
+    ]
+   ],
+   "p=47,d=2": [
+    0,
+    [
+     15,
+     17
+    ],
+    [
+     31
+    ]
+   ],
+   "p=47,d=23": [
+    0,
+    [
+     4,
+     29
+    ],
+    [
+     3,
+     5,
+     8,
+     13,
+     20,
+     21,
+     24,
+     30,
+     32,
+     43,
+     45,
+     46
+    ]
+   ]
+  },
+  "sharp_example": [
+   {
+    "p": 5,
+    "B_card": 2,
+    "r": 2,
+    "AB": 4,
+    "d_plus_r": 4
+   },
+   {
+    "p": 13,
+    "B_card": 4,
+    "r": 2,
+    "AB": 8,
+    "d_plus_r": 8
+   },
+   {
+    "p": 17,
+    "B_card": 5,
+    "r": 2,
+    "AB": 10,
+    "d_plus_r": 10
+   },
+   {
+    "p": 29,
+    "B_card": 8,
+    "r": 2,
+    "AB": 16,
+    "d_plus_r": 16
+   },
+   {
+    "p": 37,
+    "B_card": 10,
+    "r": 2,
+    "AB": 20,
+    "d_plus_r": 20
+   },
+   {
+    "p": 41,
+    "B_card": 11,
+    "r": 2,
+    "AB": 22,
+    "d_plus_r": 22
+   },
+   {
+    "p": 53,
+    "B_card": 14,
+    "r": 2,
+    "AB": 28,
+    "d_plus_r": 28
+   },
+   {
+    "p": 61,
+    "B_card": 16,
+    "r": 2,
+    "AB": 32,
+    "d_plus_r": 32
+   },
+   {
+    "p": 73,
+    "B_card": 19,
+    "r": 2,
+    "AB": 38,
+    "d_plus_r": 38
+   },
+   {
+    "p": 89,
+    "B_card": 23,
+    "r": 2,
+    "AB": 46,
+    "d_plus_r": 46
+   },
+   {
+    "p": 97,
+    "B_card": 25,
+    "r": 2,
+    "AB": 50,
+    "d_plus_r": 50
+   },
+   {
+    "p": 101,
+    "B_card": 26,
+    "r": 2,
+    "AB": 52,
+    "d_plus_r": 52
+   },
+   {
+    "p": 109,
+    "B_card": 28,
+    "r": 2,
+    "AB": 56,
+    "d_plus_r": 56
+   },
+   {
+    "p": 113,
+    "B_card": 29,
+    "r": 2,
+    "AB": 58,
+    "d_plus_r": 58
+   },
+   {
+    "p": 137,
+    "B_card": 35,
+    "r": 2,
+    "AB": 70,
+    "d_plus_r": 70
+   },
+   {
+    "p": 149,
+    "B_card": 38,
+    "r": 2,
+    "AB": 76,
+    "d_plus_r": 76
+   },
+   {
+    "p": 157,
+    "B_card": 40,
+    "r": 2,
+    "AB": 80,
+    "d_plus_r": 80
+   },
+   {
+    "p": 173,
+    "B_card": 44,
+    "r": 2,
+    "AB": 88,
+    "d_plus_r": 88
+   },
+   {
+    "p": 181,
+    "B_card": 46,
+    "r": 2,
+    "AB": 92,
+    "d_plus_r": 92
+   },
+   {
+    "p": 193,
+    "B_card": 49,
+    "r": 2,
+    "AB": 98,
+    "d_plus_r": 98
+   },
+   {
+    "p": 197,
+    "B_card": 50,
+    "r": 2,
+    "AB": 100,
+    "d_plus_r": 100
+   }
+  ],
+  "clique": [
+   {
+    "p": 5,
+    "omega": 2,
+    "w(w-1)": 2,
+    "(p-1)/2": 2
+   },
+   {
+    "p": 13,
+    "omega": 3,
+    "w(w-1)": 6,
+    "(p-1)/2": 6
+   },
+   {
+    "p": 17,
+    "omega": 3,
+    "w(w-1)": 6,
+    "(p-1)/2": 8
+   },
+   {
+    "p": 29,
+    "omega": 4,
+    "w(w-1)": 12,
+    "(p-1)/2": 14
+   },
+   {
+    "p": 37,
+    "omega": 4,
+    "w(w-1)": 12,
+    "(p-1)/2": 18
+   },
+   {
+    "p": 41,
+    "omega": 5,
+    "w(w-1)": 20,
+    "(p-1)/2": 20
+   },
+   {
+    "p": 53,
+    "omega": 5,
+    "w(w-1)": 20,
+    "(p-1)/2": 26
+   },
+   {
+    "p": 61,
+    "omega": 5,
+    "w(w-1)": 20,
+    "(p-1)/2": 30
+   },
+   {
+    "p": 73,
+    "omega": 5,
+    "w(w-1)": 20,
+    "(p-1)/2": 36
+   },
+   {
+    "p": 89,
+    "omega": 5,
+    "w(w-1)": 20,
+    "(p-1)/2": 44
+   },
+   {
+    "p": 97,
+    "omega": 6,
+    "w(w-1)": 30,
+    "(p-1)/2": 48
+   },
+   {
+    "p": 101,
+    "omega": 5,
+    "w(w-1)": 20,
+    "(p-1)/2": 50
+   },
+   {
+    "p": 109,
+    "omega": 6,
+    "w(w-1)": 30,
+    "(p-1)/2": 54
+   }
+  ],
+  "p2_counterexample": {
+   "A": [
+    0,
+    1
+   ],
+   "B": [
+    0,
+    1
+   ],
+   "AB": 4,
+   "rhs": 2
+  }
+ },
+ "lean": {
+  "experiments/stepanov_leanhp_lean/Solutions/Sol_hanson_petridis_paley.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Solutions/Sol_hanson_petridis_paley.lean",
+   "exit": 0,
+   "wall_s": 23.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {
+    "solution": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ]
+   },
+   "errors": [],
+   "uses_sorry": false,
+   "output_tail": "'solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "experiments/stepanov_leanhp_lean/Solutions/Sol_hanson_petridis_theorem_1_2.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Solutions/Sol_hanson_petridis_theorem_1_2.lean",
+   "exit": 0,
+   "wall_s": 23.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {
+    "solution": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ]
+   },
+   "errors": [],
+   "uses_sorry": false,
+   "output_tail": "'solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_clique_number_bound.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_clique_number_bound.lean",
+   "exit": 0,
+   "wall_s": 23.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {
+    "solution": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ]
+   },
+   "errors": [],
+   "uses_sorry": false,
+   "output_tail": "'solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_hanson_petridis_clique_number.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_hanson_petridis_clique_number.lean",
+   "exit": 0,
+   "wall_s": 23.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {
+    "solution": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ]
+   },
+   "errors": [],
+   "uses_sorry": false,
+   "output_tail": "'solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_hanson_petridis_difference_bound.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_hanson_petridis_difference_bound.lean",
+   "exit": 0,
+   "wall_s": 23.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {
+    "solution": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ]
+   },
+   "errors": [],
+   "uses_sorry": false,
+   "output_tail": "'solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_hp_sharp_example.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Solutions/Sol_paley_hp_sharp_example.lean",
+   "exit": 0,
+   "wall_s": 23.1,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {
+    "solution": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ]
+   },
+   "errors": [],
+   "uses_sorry": false,
+   "output_tail": "'solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "experiments/stepanov_leanhp_lean/Theorems/Thm_hanson_petridis_paley.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Theorems/Thm_hanson_petridis_paley.lean",
+   "exit": 0,
+   "wall_s": 22.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {},
+   "errors": [],
+   "uses_sorry": true,
+   "output_tail": "/Users/shawwalters/Desktop/paleygraph/experiments/stepanov_leanhp_lean/Theorems/Thm_hanson_petridis_paley.lean:8:8: warning: declaration uses `sorry`\n"
+  },
+  "experiments/stepanov_leanhp_lean/Theorems/Thm_hanson_petridis_theorem_1_2.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Theorems/Thm_hanson_petridis_theorem_1_2.lean",
+   "exit": 0,
+   "wall_s": 3.6,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {},
+   "errors": [],
+   "uses_sorry": true,
+   "output_tail": "/Users/shawwalters/Desktop/paleygraph/experiments/stepanov_leanhp_lean/Theorems/Thm_hanson_petridis_theorem_1_2.lean:8:8: warning: declaration uses `sorry`\n"
+  },
+  "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_clique_number_bound.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_clique_number_bound.lean",
+   "exit": 0,
+   "wall_s": 2.7,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {},
+   "errors": [],
+   "uses_sorry": true,
+   "output_tail": "/Users/shawwalters/Desktop/paleygraph/experiments/stepanov_leanhp_lean/Theorems/Thm_paley_clique_number_bound.lean:8:8: warning: declaration uses `sorry`\n"
+  },
+  "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hanson_petridis_clique_number.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hanson_petridis_clique_number.lean",
+   "exit": 0,
+   "wall_s": 3.0,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {},
+   "errors": [],
+   "uses_sorry": true,
+   "output_tail": "/Users/shawwalters/Desktop/paleygraph/experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hanson_petridis_clique_number.lean:8:8: warning: declaration uses `sorry`\n"
+  },
+  "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hanson_petridis_difference_bound.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hanson_petridis_difference_bound.lean",
+   "exit": 0,
+   "wall_s": 2.7,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {},
+   "errors": [],
+   "uses_sorry": true,
+   "output_tail": "/Users/shawwalters/Desktop/paleygraph/experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hanson_petridis_difference_bound.lean:8:8: warning: declaration uses `sorry`\n"
+  },
+  "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hp_sharp_example.lean": {
+   "file": "experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hp_sharp_example.lean",
+   "exit": 0,
+   "wall_s": 2.7,
+   "env": "proximityprize packages (Mathlib 5450b53, v4.30.0-rc2)",
+   "axioms": {},
+   "errors": [],
+   "uses_sorry": true,
+   "output_tail": "/Users/shawwalters/Desktop/paleygraph/experiments/stepanov_leanhp_lean/Theorems/Thm_paley_hp_sharp_example.lean:8:8: warning: declaration uses `sorry`\n"
+  }
+ },
+ "arith_wall_s": 0.6,
+ "total_checks": 102524,
+ "n_failures": 0,
+ "wall_s": 26.7
+}

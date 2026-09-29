@@ -1,0 +1,2584 @@
+{
+  "scope": "Exact polynomial exclusion and Hasse-supported global-moment sensitivity, not a pointwise bound.",
+  "critical_scaling": "n=alpha*q^(1/4)+O(1), fixed alpha>0, prime q=1 mod4",
+  "leading_laws": {
+    "mean": "-alpha^6*q^(-1/2)/48",
+    "variance": "alpha^6*q^(5/2)/720",
+    "raw_and_central_third": "alpha^9*q^(13/4)/216",
+    "standardized_third": "40*sqrt(5)*q^(-1/2)"
+  },
+  "finite_n_proxy_errors": {
+    "raw_and_central_third": "q*(n)_9/216 + O_alpha(q^(5/2))",
+    "variance": "q*(n)_6/720 + O_alpha(q^(7/4))",
+    "skewness": "40*sqrt(5)/sqrt(q) * (n)_9/(n)_6^(3/2) * (1+O_alpha(q^(-3/4)))"
+  },
+  "uniform_sensitivity_limsup": {
+    "arbitrary_arithmetic": "limsup q^(-3/2)*|DeltaM3| <= alpha^6/24",
+    "fixed_ordinary_moments": "limsup q^(1/4)*|DeltaM3| <= 3*alpha^7/4",
+    "arbitrary_arithmetic_standardized": "limsup q^(9/4)*|DeltaSkew| <= 360*sqrt(5)*alpha^(-3)",
+    "fixed_ordinary_standardized": "limsup q^4*|DeltaSkew| <= 6480*sqrt(5)*alpha^(-2)"
+  },
+  "degree_and_exponent_atlas": {
+    "baseline": [
+      {
+        "union_k": 6,
+        "q_degree": 6,
+        "leading_coefficient": [
+          1,
+          24
+        ],
+        "critical_exponent": [
+          3,
+          2
+        ]
+      },
+      {
+        "union_k": 7,
+        "q_degree": 6,
+        "leading_coefficient": [
+          -2,
+          1
+        ],
+        "critical_exponent": [
+          3,
+          4
+        ]
+      },
+      {
+        "union_k": 8,
+        "q_degree": 8,
+        "leading_coefficient": [
+          -1,
+          16
+        ],
+        "critical_exponent": [
+          2,
+          1
+        ]
+      },
+      {
+        "union_k": 9,
+        "q_degree": 10,
+        "leading_coefficient": [
+          1,
+          216
+        ],
+        "critical_exponent": [
+          13,
+          4
+        ]
+      },
+      {
+        "union_k": 10,
+        "q_degree": 10,
+        "leading_coefficient": [
+          -11,
+          192
+        ],
+        "critical_exponent": [
+          5,
+          2
+        ]
+      },
+      {
+        "union_k": 11,
+        "q_degree": 10,
+        "leading_coefficient": [
+          99,
+          320
+        ],
+        "critical_exponent": [
+          7,
+          4
+        ]
+      },
+      {
+        "union_k": 12,
+        "q_degree": 11,
+        "leading_coefficient": [
+          -1,
+          11520
+        ],
+        "critical_exponent": [
+          2,
+          1
+        ]
+      },
+      {
+        "union_k": 13,
+        "q_degree": 11,
+        "leading_coefficient": [
+          1,
+          1920
+        ],
+        "critical_exponent": [
+          5,
+          4
+        ]
+      },
+      {
+        "union_k": 14,
+        "q_degree": 11,
+        "leading_coefficient": [
+          -1,
+          512
+        ],
+        "critical_exponent": [
+          1,
+          2
+        ]
+      },
+      {
+        "union_k": 15,
+        "q_degree": 11,
+        "leading_coefficient": [
+          5,
+          1152
+        ],
+        "critical_exponent": [
+          -1,
+          4
+        ]
+      },
+      {
+        "union_k": 16,
+        "q_degree": 11,
+        "leading_coefficient": [
+          -1,
+          192
+        ],
+        "critical_exponent": [
+          -1,
+          1
+        ]
+      },
+      {
+        "union_k": 17,
+        "q_degree": 11,
+        "leading_coefficient": [
+          11,
+          5120
+        ],
+        "critical_exponent": [
+          -7,
+          4
+        ]
+      },
+      {
+        "union_k": 18,
+        "q_degree": 12,
+        "leading_coefficient": [
+          -1,
+          110592
+        ],
+        "critical_exponent": [
+          -3,
+          2
+        ]
+      }
+    ],
+    "second_moment": [
+      {
+        "union_k": 6,
+        "q_degree": 7,
+        "leading_coefficient": [
+          1,
+          720
+        ],
+        "critical_exponent": [
+          5,
+          2
+        ]
+      },
+      {
+        "union_k": 7,
+        "q_degree": 7,
+        "leading_coefficient": [
+          -1,
+          120
+        ],
+        "critical_exponent": [
+          7,
+          4
+        ]
+      },
+      {
+        "union_k": 8,
+        "q_degree": 7,
+        "leading_coefficient": [
+          1,
+          32
+        ],
+        "critical_exponent": [
+          1,
+          1
+        ]
+      },
+      {
+        "union_k": 9,
+        "q_degree": 7,
+        "leading_coefficient": [
+          -5,
+          72
+        ],
+        "critical_exponent": [
+          1,
+          4
+        ]
+      },
+      {
+        "union_k": 10,
+        "q_degree": 7,
+        "leading_coefficient": [
+          1,
+          12
+        ],
+        "critical_exponent": [
+          -1,
+          2
+        ]
+      },
+      {
+        "union_k": 11,
+        "q_degree": 7,
+        "leading_coefficient": [
+          -11,
+          320
+        ],
+        "critical_exponent": [
+          -5,
+          4
+        ]
+      },
+      {
+        "union_k": 12,
+        "q_degree": 8,
+        "leading_coefficient": [
+          1,
+          2304
+        ],
+        "critical_exponent": [
+          -1,
+          1
+        ]
+      }
+    ],
+    "statistics": {
+      "A1": [
+        {
+          "union_k": 7,
+          "q_degree": 2,
+          "leading_coefficient": [
+            32,
+            1
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 3,
+          "leading_coefficient": [
+            48,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            2
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -1408,
+            1
+          ],
+          "critical_exponent": [
+            -9,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -48,
+            1
+          ],
+          "critical_exponent": [
+            -2,
+            1
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 4,
+          "leading_coefficient": [
+            672,
+            1
+          ],
+          "critical_exponent": [
+            -11,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 5,
+          "leading_coefficient": [
+            6,
+            1
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -46,
+            1
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 5,
+          "leading_coefficient": [
+            144,
+            1
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -236,
+            1
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 5,
+          "leading_coefficient": [
+            214,
+            1
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -102,
+            1
+          ],
+          "critical_exponent": [
+            -25,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 5,
+          "leading_coefficient": [
+            20,
+            1
+          ],
+          "critical_exponent": [
+            -7,
+            1
+          ]
+        }
+      ],
+      "A2": [
+        {
+          "union_k": 7,
+          "q_degree": 3,
+          "leading_coefficient": [
+            2,
+            1
+          ],
+          "critical_exponent": [
+            -1,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -68,
+            1
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -3,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 4,
+          "leading_coefficient": [
+            49,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            2
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 5,
+          "leading_coefficient": [
+            1,
+            2
+          ],
+          "critical_exponent": [
+            -5,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -5,
+            1
+          ],
+          "critical_exponent": [
+            -2,
+            1
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 5,
+          "leading_coefficient": [
+            21,
+            1
+          ],
+          "critical_exponent": [
+            -11,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -48,
+            1
+          ],
+          "critical_exponent": [
+            -7,
+            2
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 5,
+          "leading_coefficient": [
+            129,
+            2
+          ],
+          "critical_exponent": [
+            -17,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -51,
+            1
+          ],
+          "critical_exponent": [
+            -5,
+            1
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 5,
+          "leading_coefficient": [
+            22,
+            1
+          ],
+          "critical_exponent": [
+            -23,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -4,
+            1
+          ],
+          "critical_exponent": [
+            -13,
+            2
+          ]
+        }
+      ],
+      "A3": [
+        {
+          "union_k": 7,
+          "q_degree": 2,
+          "leading_coefficient": [
+            8,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 3,
+          "leading_coefficient": [
+            1,
+            1
+          ],
+          "critical_exponent": [
+            -1,
+            2
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -19,
+            1
+          ],
+          "critical_exponent": [
+            -5,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -1,
+            4
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 4,
+          "leading_coefficient": [
+            11,
+            4
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -13,
+            1
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 4,
+          "leading_coefficient": [
+            69,
+            2
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -225,
+            4
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 4,
+          "leading_coefficient": [
+            231,
+            4
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -73,
+            2
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 4,
+          "leading_coefficient": [
+            13,
+            1
+          ],
+          "critical_exponent": [
+            -25,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -2,
+            1
+          ],
+          "critical_exponent": [
+            -7,
+            1
+          ]
+        }
+      ],
+      "B3": [
+        {
+          "union_k": 7,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -8,
+            3
+          ],
+          "critical_exponent": [
+            -3,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -1,
+            3
+          ],
+          "critical_exponent": [
+            -1,
+            2
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 3,
+          "leading_coefficient": [
+            19,
+            3
+          ],
+          "critical_exponent": [
+            -5,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 4,
+          "leading_coefficient": [
+            1,
+            12
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -11,
+            12
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 4,
+          "leading_coefficient": [
+            13,
+            3
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -23,
+            2
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 4,
+          "leading_coefficient": [
+            75,
+            4
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -77,
+            4
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 4,
+          "leading_coefficient": [
+            73,
+            6
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -13,
+            3
+          ],
+          "critical_exponent": [
+            -25,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 4,
+          "leading_coefficient": [
+            2,
+            3
+          ],
+          "critical_exponent": [
+            -7,
+            1
+          ]
+        }
+      ],
+      "A4": [
+        {
+          "union_k": 6,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -1,
+            48
+          ],
+          "critical_exponent": [
+            3,
+            2
+          ]
+        },
+        {
+          "union_k": 7,
+          "q_degree": 3,
+          "leading_coefficient": [
+            7,
+            12
+          ],
+          "critical_exponent": [
+            3,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 4,
+          "leading_coefficient": [
+            1,
+            32
+          ],
+          "critical_exponent": [
+            1,
+            1
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -1,
+            2
+          ],
+          "critical_exponent": [
+            1,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -1,
+            192
+          ],
+          "critical_exponent": [
+            1,
+            2
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 5,
+          "leading_coefficient": [
+            1,
+            16
+          ],
+          "critical_exponent": [
+            -1,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -31,
+            96
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 5,
+          "leading_coefficient": [
+            15,
+            16
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -107,
+            64
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 5,
+          "leading_coefficient": [
+            15,
+            8
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -31,
+            24
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 5,
+          "leading_coefficient": [
+            1,
+            2
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -1,
+            12
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        }
+      ],
+      "B4": [
+        {
+          "union_k": 6,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -1,
+            48
+          ],
+          "critical_exponent": [
+            3,
+            2
+          ]
+        },
+        {
+          "union_k": 7,
+          "q_degree": 3,
+          "leading_coefficient": [
+            7,
+            12
+          ],
+          "critical_exponent": [
+            3,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 4,
+          "leading_coefficient": [
+            1,
+            32
+          ],
+          "critical_exponent": [
+            1,
+            1
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -1,
+            2
+          ],
+          "critical_exponent": [
+            1,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -1,
+            192
+          ],
+          "critical_exponent": [
+            1,
+            2
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 5,
+          "leading_coefficient": [
+            1,
+            16
+          ],
+          "critical_exponent": [
+            -1,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -31,
+            96
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 5,
+          "leading_coefficient": [
+            15,
+            16
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -107,
+            64
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 5,
+          "leading_coefficient": [
+            15,
+            8
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -31,
+            24
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 5,
+          "leading_coefficient": [
+            1,
+            2
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -1,
+            12
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        }
+      ],
+      "M6": [
+        {
+          "union_k": 6,
+          "q_degree": 2,
+          "leading_coefficient": [
+            1,
+            720
+          ],
+          "critical_exponent": [
+            3,
+            2
+          ]
+        },
+        {
+          "union_k": 7,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -1,
+            40
+          ],
+          "critical_exponent": [
+            3,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 2,
+          "leading_coefficient": [
+            49,
+            240
+          ],
+          "critical_exponent": [
+            0,
+            1
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -1,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 2,
+          "leading_coefficient": [
+            157,
+            48
+          ],
+          "critical_exponent": [
+            -3,
+            2
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -301,
+            40
+          ],
+          "critical_exponent": [
+            -9,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 2,
+          "leading_coefficient": [
+            8989,
+            720
+          ],
+          "critical_exponent": [
+            -3,
+            1
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -301,
+            20
+          ],
+          "critical_exponent": [
+            -15,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 2,
+          "leading_coefficient": [
+            157,
+            12
+          ],
+          "critical_exponent": [
+            -9,
+            2
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -8,
+            1
+          ],
+          "critical_exponent": [
+            -21,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 2,
+          "leading_coefficient": [
+            49,
+            15
+          ],
+          "critical_exponent": [
+            -6,
+            1
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -4,
+            5
+          ],
+          "critical_exponent": [
+            -27,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 2,
+          "leading_coefficient": [
+            4,
+            45
+          ],
+          "critical_exponent": [
+            -15,
+            2
+          ]
+        }
+      ]
+    },
+    "fixed_ordinary_statistics": {
+      "A2": [
+        {
+          "union_k": 7,
+          "q_degree": 3,
+          "leading_coefficient": [
+            2,
+            1
+          ],
+          "critical_exponent": [
+            -1,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -68,
+            1
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -3,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 4,
+          "leading_coefficient": [
+            49,
+            1
+          ],
+          "critical_exponent": [
+            -3,
+            2
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 5,
+          "leading_coefficient": [
+            1,
+            2
+          ],
+          "critical_exponent": [
+            -5,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -5,
+            1
+          ],
+          "critical_exponent": [
+            -2,
+            1
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 5,
+          "leading_coefficient": [
+            21,
+            1
+          ],
+          "critical_exponent": [
+            -11,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -48,
+            1
+          ],
+          "critical_exponent": [
+            -7,
+            2
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 5,
+          "leading_coefficient": [
+            129,
+            2
+          ],
+          "critical_exponent": [
+            -17,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -51,
+            1
+          ],
+          "critical_exponent": [
+            -5,
+            1
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 5,
+          "leading_coefficient": [
+            22,
+            1
+          ],
+          "critical_exponent": [
+            -23,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 5,
+          "leading_coefficient": [
+            -4,
+            1
+          ],
+          "critical_exponent": [
+            -13,
+            2
+          ]
+        }
+      ],
+      "A3": [
+        {
+          "union_k": 7,
+          "q_degree": 2,
+          "leading_coefficient": [
+            32,
+            3
+          ],
+          "critical_exponent": [
+            -3,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 3,
+          "leading_coefficient": [
+            4,
+            3
+          ],
+          "critical_exponent": [
+            -1,
+            2
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 3,
+          "leading_coefficient": [
+            -76,
+            3
+          ],
+          "critical_exponent": [
+            -5,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -1,
+            3
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 4,
+          "leading_coefficient": [
+            11,
+            3
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -52,
+            3
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 4,
+          "leading_coefficient": [
+            46,
+            1
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -75,
+            1
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 4,
+          "leading_coefficient": [
+            77,
+            1
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -146,
+            3
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 4,
+          "leading_coefficient": [
+            52,
+            3
+          ],
+          "critical_exponent": [
+            -25,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 4,
+          "leading_coefficient": [
+            -8,
+            3
+          ],
+          "critical_exponent": [
+            -7,
+            1
+          ]
+        }
+      ],
+      "A4": [
+        {
+          "union_k": 7,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -1,
+            3
+          ],
+          "critical_exponent": [
+            -1,
+            4
+          ]
+        },
+        {
+          "union_k": 8,
+          "q_degree": 2,
+          "leading_coefficient": [
+            16,
+            3
+          ],
+          "critical_exponent": [
+            -1,
+            1
+          ]
+        },
+        {
+          "union_k": 9,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -115,
+            3
+          ],
+          "critical_exponent": [
+            -7,
+            4
+          ]
+        },
+        {
+          "union_k": 10,
+          "q_degree": 2,
+          "leading_coefficient": [
+            490,
+            3
+          ],
+          "critical_exponent": [
+            -5,
+            2
+          ]
+        },
+        {
+          "union_k": 11,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -1375,
+            3
+          ],
+          "critical_exponent": [
+            -13,
+            4
+          ]
+        },
+        {
+          "union_k": 12,
+          "q_degree": 2,
+          "leading_coefficient": [
+            2668,
+            3
+          ],
+          "critical_exponent": [
+            -4,
+            1
+          ]
+        },
+        {
+          "union_k": 13,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -3653,
+            3
+          ],
+          "critical_exponent": [
+            -19,
+            4
+          ]
+        },
+        {
+          "union_k": 14,
+          "q_degree": 2,
+          "leading_coefficient": [
+            3530,
+            3
+          ],
+          "critical_exponent": [
+            -11,
+            2
+          ]
+        },
+        {
+          "union_k": 15,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -2360,
+            3
+          ],
+          "critical_exponent": [
+            -25,
+            4
+          ]
+        },
+        {
+          "union_k": 16,
+          "q_degree": 2,
+          "leading_coefficient": [
+            1040,
+            3
+          ],
+          "critical_exponent": [
+            -7,
+            1
+          ]
+        },
+        {
+          "union_k": 17,
+          "q_degree": 2,
+          "leading_coefficient": [
+            -272,
+            3
+          ],
+          "critical_exponent": [
+            -31,
+            4
+          ]
+        },
+        {
+          "union_k": 18,
+          "q_degree": 2,
+          "leading_coefficient": [
+            32,
+            3
+          ],
+          "critical_exponent": [
+            -17,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  "finite_checks": [
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 6,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -173,
+        33
+      ],
+      "mean": [
+        -5,
+        33
+      ],
+      "variance": [
+        6608,
+        1089
+      ],
+      "central_third_moment": [
+        -89152,
+        35937
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        13,
+        1
+      ],
+      "exact_standardized_squared": [
+        39601,
+        1437653
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 24.806946917841692,
+      "actual_standardized_float": -0.16596864140630416
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 8,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -1159744,
+        715
+      ],
+      "mean": [
+        -28,
+        13
+      ],
+      "variance": [
+        1282048,
+        9295
+      ],
+      "central_third_moment": [
+        -87097344,
+        120835
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        476,
+        1
+      ],
+      "exact_standardized_squared": [
+        97143255,
+        490628752
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 21.693045781865617,
+      "actual_standardized_float": -0.44496907411545755
+    },
+    {
+      "graph": "Paley29",
+      "q": 29,
+      "n": 6,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        271,
+        117
+      ],
+      "mean": [
+        -1,
+        45
+      ],
+      "variance": [
+        45584,
+        2025
+      ],
+      "central_third_moment": [
+        4521664,
+        1184625
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        29,
+        1
+      ],
+      "exact_standardized_squared": [
+        101868649,
+        79756846169
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 16.609095970747994,
+      "actual_standardized_float": 0.03573849724810493
+    },
+    {
+      "graph": "Paley101",
+      "q": 101,
+      "n": 8,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -57974988352,
+        20009451
+      ],
+      "mean": [
+        -140,
+        3201
+      ],
+      "variance": [
+        150526067403520,
+        64050252651
+      ],
+      "central_third_moment": [
+        -530814013162698752,
+        205024858735851
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        2828,
+        1
+      ],
+      "exact_standardized_squared": [
+        419927535552592435927280215937051,
+        813158567294120979775814990544839500
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 8.899883189799695,
+      "actual_standardized_float": -0.02272477309877871,
+      "finite_hasse_sensitivity": {
+        "all_arithmetic_triangle_bound": [
+          92450886400,
+          20009451
+        ],
+        "all_arithmetic_concavity_bound": [
+          345633646512334,
+          65370876417
+        ],
+        "union6_concavity_component": [
+          9000361034,
+          10457667
+        ],
+        "fixed_ordinary_moments_range_bound": [
+          174776320,
+          20009451
+        ],
+        "fixed_ordinary_standardized_bound_squared": [
+          47796651533824768124890956,
+          8131585672941209797758149905448395
+        ],
+        "monochromatic_theta_support_points_evaluated": 5,
+        "range_minimum": [
+          -700448,
+          8575479
+        ],
+        "range_maximum": [
+          1882656,
+          6669817
+        ],
+        "scope": "Differences between any two nonnegative Hasse-supported inventories with the stated shared constraints; no realizability claim."
+      }
+    },
+    {
+      "graph": "Paley1297",
+      "q": 1297,
+      "n": 6,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        111595286003,
+        23328340049
+      ],
+      "mean": [
+        -1,
+        111629
+      ],
+      "variance": [
+        16087050429120,
+        12461033641
+      ],
+      "central_third_moment": [
+        1400678276717583416064,
+        290695230139276588409
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        1297,
+        1
+      ],
+      "exact_standardized_squared": [
+        3326245854472756586222931603898925329,
+        308262315042119945595511614185463465272479500
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 2.4835619954094974,
+      "actual_standardized_float": 0.00010387641561265114,
+      "finite_hasse_sensitivity": {
+        "all_arithmetic_triangle_bound": [
+          27494194176,
+          90070811
+        ],
+        "all_arithmetic_concavity_bound": [
+          27263922538524628,
+          907006401947625
+        ],
+        "union6_concavity_component": [
+          27263922538524628,
+          907006401947625
+        ],
+        "fixed_ordinary_moments_range_bound": [
+          0,
+          1
+        ],
+        "fixed_ordinary_standardized_bound_squared": [
+          0,
+          1
+        ],
+        "monochromatic_theta_support_points_evaluated": 18,
+        "range_minimum": [
+          0,
+          1
+        ],
+        "range_maximum": [
+          0,
+          1
+        ],
+        "scope": "Differences between any two nonnegative Hasse-supported inventories with the stated shared constraints; no realizability claim."
+      }
+    },
+    {
+      "graph": "Paley1297",
+      "q": 1297,
+      "n": 8,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -2253412148797301312,
+        925018672242955
+      ],
+      "mean": [
+        -4,
+        15947
+      ],
+      "variance": [
+        1635607898883260043264,
+        45669575127734995
+      ],
+      "central_third_moment": [
+        -566718436706399656166621184,
+        235238546803522758780595
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        36316,
+        1
+      ],
+      "exact_standardized_squared": [
+        1492111560489580764001374933056027518599160122801595,
+        11809738239954886364533953452197289609932650775889897605584
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 2.4835619954094974,
+      "actual_standardized_float": -0.0003554516313332345,
+      "finite_hasse_sensitivity": {
+        "all_arithmetic_triangle_bound": [
+          89154854385537024,
+          10882572614623
+        ],
+        "all_arithmetic_concavity_bound": [
+          5567986603766911535322032,
+          4653838316454724826625
+        ],
+        "union6_concavity_component": [
+          109055690154098512,
+          129572343135375
+        ],
+        "fixed_ordinary_moments_range_bound": [
+          85724510208,
+          2863834898585
+        ],
+        "fixed_ordinary_standardized_bound_squared": [
+          2260958394037348074369737642598814447795,
+          115913810711439807122494879995495255974571158493911138304
+        ],
+        "monochromatic_theta_support_points_evaluated": 18,
+        "range_minimum": [
+          304299776,
+          2775056016728865
+        ],
+        "range_maximum": [
+          51495566080,
+          555011203345773
+        ],
+        "scope": "Differences between any two nonnegative Hasse-supported inventories with the stated shared constraints; no realizability claim."
+      }
+    },
+    {
+      "graph": "Paley65537",
+      "q": 65537,
+      "n": 16,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        2875271714307434663912553814081123139559873449718792737119969409536,
+        2287078345969669310246603495021013697731619364726498615
+      ],
+      "mean": [
+        -616,
+        22024129
+      ],
+      "variance": [
+        34592293694612619411798382792020250611649871872,
+        65979054387401665873953418111109692953
+      ],
+      "central_third_moment": [
+        4184057518528051086715796950598013766859574442934488009001351723544513740976160768,
+        3328126161588393924968933408054238784425924257877551299505022202596645
+      ],
+      "finite_n_raw_proxy": [
+        1259568710400,
+        1
+      ],
+      "variance_proxy": [
+        524820296,
+        1
+      ],
+      "exact_standardized_squared": [
+        69283868175131993006782178243005286033028737002603545228751083288257453433531669560350286281530740575001840846299908998634110510307346175295707390278888659011793,
+        6317659484592623222418248695262397349101298808479473672321930711817880886085284625966506214752020389187072772658673377190736416532013067064353579390931616084787200
+      ],
+      "finite_n_standardized_proxy": 0.10476251860369859,
+      "asymptotic_standardized_proxy": 0.3493829559140973,
+      "actual_standardized_float": 0.10472200685024276,
+      "raw_proxy_relative_error": [
+        -1640807845356594564067925517616557870395961181920183919160663,
+        865604664307927106557022797537184808940069473717615116947997625
+      ],
+      "finite_hasse_sensitivity": {
+        "all_arithmetic_triangle_bound": [
+          586290182850155964709300462823759165147879120902473087188992,
+          242161236632082632849640370061048509171583226853393971
+        ],
+        "all_arithmetic_concavity_bound": [
+          2493035037660896777927278680756036737899820171092842447598390814730464,
+          9822626929683618504917876373627856765238959175538853469114328375
+        ],
+        "union6_concavity_component": [
+          68945725795085376284473888,
+          286975632076624438625
+        ],
+        "fixed_ordinary_moments_range_bound": [
+          2578160184140503814430261794168555425444050624512,
+          221718766372534913797509952445567212206173985399555
+        ],
+        "fixed_ordinary_standardized_bound_squared": [
+          213406085852342297297352444415800907056759179951622300954863787009045764682598432048899669164151480123401967342866392614965420106010617,
+          227463507139365687957236346482467618624085916257239846607164035451897234926582824230199524243278094443153125657460725115929042879718567891075115269971566874381516800
+        ],
+        "monochromatic_theta_support_points_evaluated": 128,
+        "range_minimum": [
+          90214718557470597841899445879373567370380288,
+          3632418549481239492744605550915727637573748402800909565
+        ],
+        "range_maximum": [
+          515650079771812257005620738722886959802284200960,
+          726483709896247898548921110183145527514749680560181913
+        ],
+        "scope": "Differences between any two nonnegative Hasse-supported inventories with the stated shared constraints; no realizability claim."
+      }
+    },
+    {
+      "graph": "Paley1000033",
+      "q": 1000033,
+      "n": 31,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        16819072063759998194298060051814276923015516570702033762565423141171060748777063371689801517875,
+        496730012136749810242164052857375112914346374066149578393011109898427991417289
+      ],
+      "mean": [
+        -118755,
+        10753333343
+      ],
+      "variance": [
+        3850305377710459845074927719481886483799243768728838978560000,
+        5230039847167409360511096910908434329534053398057
+      ],
+      "central_third_moment": [
+        1944859573975690701479666103623508273646976684260567017513484237403527738119829720369178186850226273578664181760000,
+        57438966634247706482684193934487433610539535027545828057673211409439584628664491478004338100215561
+      ],
+      "finite_n_raw_proxy": [
+        33870043674558000,
+        1
+      ],
+      "variance_proxy": [
+        736305297273,
+        1
+      ],
+      "exact_standardized_squared": [
+        1200481321729778580083418234916728200858393391547342063980240142416278034480294599464190763809964573230548986930131764055649323865430885687087726402689112000120873866849066110011804165121149102223835200976059584357,
+        417794462621091428783913318818837628664147553507666727401792258319508670181602523014575536019221824765390473016560995613276612961320507448462265669483019401769866832256049294220821598369589623963173153006223024140000
+      ],
+      "finite_n_standardized_proxy": 0.05360790918331423,
+      "asymptotic_standardized_proxy": 0.0894412433316516,
+      "actual_standardized_float": 0.05360389697559261,
+      "raw_proxy_relative_error": [
+        -477714186247658463223478515217488357562469249489535572548170317168664256913566547202919,
+        1547059053382569331502125552245265941048644452762320226383161792493817928512275715668104208
+      ],
+      "finite_hasse_sensitivity": {
+        "all_arithmetic_triangle_bound": [
+          111024614201694796209403929194442181489203887655710213148600076044276311967878400000000,
+          496730012136749810242164052857375112914346374066149578393011109898427991417289
+        ],
+        "all_arithmetic_concavity_bound": [
+          11123281166728941959280563057364233273172566528266512739028111319367678927737546220314820914980100,
+          496760809874859830393815634671371924967284547052028545144441221422925370565146171670014729
+        ],
+        "union6_concavity_component": [
+          59384785929133745776253430813840900,
+          2688575293000724844191148361
+        ],
+        "fixed_ordinary_moments_range_bound": [
+          21207660326944981623221641124353797178078804014354389352194453772800000,
+          1986864416343341627403088924939602142797387169423854445647566307737095327
+        ],
+        "fixed_ordinary_standardized_bound_squared": [
+          71065807124450935530542045005665463312997145560532173031930857397202885214329405950652314136353363397994457182466262687277828197286255218835723380940104938925895324181857,
+          248875515908223592206742444385620435201396488864835801946324801225969042272478473863734998297498609918731527918236334280754309295498959625724400547100956277507114913812526345199295082060269559237530552063590400
+        ],
+        "monochromatic_theta_support_points_evaluated": 500,
+        "range_minimum": [
+          52569641432110319685790026157116249105400679885997712568802400000,
+          496730012136749810242164052857375112914346374066149578393011109898427991417289
+        ],
+        "range_maximum": [
+          21207712896586413733541326914379954294327909415034275349907022575200000,
+          496730012136749810242164052857375112914346374066149578393011109898427991417289
+        ],
+        "scope": "Differences between any two nonnegative Hasse-supported inventories with the stated shared constraints; no realizability claim."
+      }
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 6,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        44555,
+        35673
+      ],
+      "mean": [
+        -1,
+        141
+      ],
+      "variance": [
+        848960,
+        19881
+      ],
+      "central_third_moment": [
+        1530158848,
+        709214913
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        49,
+        1
+      ],
+      "exact_standardized_squared": [
+        35726716615489,
+        597616798509846500
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 12.777531299998799,
+      "actual_standardized_float": 0.0077318808755020875
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 6,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        6145,
+        3243
+      ],
+      "mean": [
+        -1,
+        141
+      ],
+      "variance": [
+        848960,
+        19881
+      ],
+      "central_third_moment": [
+        180747008,
+        64474083
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        49,
+        1
+      ],
+      "exact_standardized_squared": [
+        498496717849,
+        4938981805866500
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 12.777531299998799,
+      "actual_standardized_float": 0.010046445634808793
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 7,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -99128449,
+        1533939
+      ],
+      "mean": [
+        -7,
+        141
+      ],
+      "variance": [
+        5149903360,
+        19662309
+      ],
+      "central_third_moment": [
+        -781141286912,
+        30496241259
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        343,
+        1
+      ],
+      "exact_standardized_squared": [
+        183518355995791181,
+        5025816655485005322250
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 12.777531299998799,
+      "actual_standardized_float": -0.0060427751476659596
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 7,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -1672321,
+        1533939
+      ],
+      "mean": [
+        -7,
+        141
+      ],
+      "variance": [
+        5149903360,
+        19662309
+      ],
+      "central_third_moment": [
+        1156383993856,
+        30496241259
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        343,
+        1
+      ],
+      "exact_standardized_squared": [
+        229819258498840283,
+        2871895231705717327000
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 12.777531299998799,
+      "actual_standardized_float": 0.0089455884310708
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 8,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -4737196096,
+        1533939
+      ],
+      "mean": [
+        -28,
+        141
+      ],
+      "variance": [
+        18168942592,
+        19662309
+      ],
+      "central_third_moment": [
+        -77391853813760,
+        30496241259
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        1372,
+        1
+      ],
+      "exact_standardized_squared": [
+        5516795951245691511725,
+        675887568285348578201152
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 12.777531299998799,
+      "actual_standardized_float": -0.09034543874720541
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 8,
+      "exact_first_three_moments_match": true,
+      "raw_third_moment": [
+        -4199178304,
+        1533939
+      ],
+      "mean": [
+        -28,
+        141
+      ],
+      "variance": [
+        18168942592,
+        19662309
+      ],
+      "central_third_moment": [
+        -66695522091008,
+        30496241259
+      ],
+      "finite_n_raw_proxy": [
+        0,
+        1
+      ],
+      "variance_proxy": [
+        1372,
+        1
+      ],
+      "exact_standardized_squared": [
+        1024306157523585167501,
+        168971892071337144550288
+      ],
+      "finite_n_standardized_proxy": 0.0,
+      "asymptotic_standardized_proxy": 12.777531299998799,
+      "actual_standardized_float": -0.07785879144704906
+    }
+  ],
+  "envelope_witness_checks": [
+    {
+      "q": 101,
+      "n": 8,
+      "model": "conference_only",
+      "witness_difference": [
+        12158067200,
+        60028353
+      ],
+      "independent_range_bound": [
+        345633646512334,
+        65370876417
+      ],
+      "bound_to_witness_ratio": 26.104993777824102
+    },
+    {
+      "q": 101,
+      "n": 8,
+      "model": "ordinary_powers_through_six",
+      "witness_difference": [
+        0,
+        1
+      ],
+      "independent_range_bound": [
+        174776320,
+        20009451
+      ],
+      "bound_to_witness_ratio": null
+    },
+    {
+      "q": 1297,
+      "n": 8,
+      "model": "conference_only",
+      "witness_difference": [
+        675311605195145216,
+        925018672242955
+      ],
+      "independent_range_bound": [
+        5567986603766911535322032,
+        4653838316454724826625
+      ],
+      "bound_to_witness_ratio": 1.6388272514057907
+    },
+    {
+      "q": 1297,
+      "n": 8,
+      "model": "ordinary_powers_through_six",
+      "witness_difference": [
+        579595511175839744,
+        34922229933188280115
+      ],
+      "independent_range_bound": [
+        85724510208,
+        2863834898585
+      ],
+      "bound_to_witness_ratio": 1.8035740977761774
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "model": "conference_only",
+      "witness_difference": [
+        95116466200802894977212954543047615545173935993306528874496,
+        403602061053471054749400616768414181952638711422323285
+      ],
+      "independent_range_bound": [
+        2493035037660896777927278680756036737899820171092842447598390814730464,
+        9822626929683618504917876373627856765238959175538853469114328375
+      ],
+      "bound_to_witness_ratio": 1.0769570935889379
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "model": "ordinary_powers_through_six",
+      "witness_difference": [
+        1991490399242017584255916625714494865812464079171502473216,
+        201949281167857269749810794741192532388516306843639885741425
+      ],
+      "independent_range_bound": [
+        2578160184140503814430261794168555425444050624512,
+        221718766372534913797509952445567212206173985399555
+      ],
+      "bound_to_witness_ratio": 1.1791567410458985
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "model": "conference_only",
+      "witness_difference": [
+        5447635518407222697951746554460095423997839203441854862663950652705116286492021672960000,
+        247868276056238155310839862375830181344258840659008639618112543839315567717227211
+      ],
+      "independent_range_bound": [
+        11123281166728941959280563057364233273172566528266512739028111319367678927737546220314820914980100,
+        496760809874859830393815634671371924967284547052028545144441221422925370565146171670014729
+      ],
+      "bound_to_witness_ratio": 1.0188224170601712
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "model": "ordinary_powers_through_six",
+      "witness_difference": [
+        193947931590393666792247130443273727622055602182318895760337157702009837196564243353600000,
+        19768758161271686486846934856454079728028719568246071292179413039764663133261010354714513447
+      ],
+      "independent_range_bound": [
+        21207660326944981623221641124353797178078804014354389352194453772800000,
+        1986864416343341627403088924939602142797387169423854445647566307737095327
+      ],
+      "bound_to_witness_ratio": 1.0879746172612441
+    }
+  ],
+  "source_sha256": "3d4668d046aecc3230dbd7a5036f8bc66da1fba630ef77933aaff1cc0112d3b5",
+  "q_polynomials_sha256": "8ee7458b1a79e83dba600061a057da9a1d89b3a98c1e76c8d0dda42572bbc7d6",
+  "input_sha256": {
+    "round5/trace_invariants/seven_statistics_Paley13.json": "37a10f10b17b11d2ea5b66bd24ff80ca75cc383245d093d6e5dc7a8e877a2955",
+    "round5/trace_invariants/seven_statistics_Paley17.json": "23bceddef76720ebb4b1f8edda8dd436d9816c786150ffb997d14f8651078aa9",
+    "round5/trace_invariants/seven_statistics_Paley29.json": "c2670672b4e1daa2dfdaf820e241787dedf8db63014c821af9e5c1a449674b80",
+    "round5/trace_invariants/seven_statistics_Paley101.json": "119e79bea83d7e7695eaeee69b1763fdd95d849e5204d934dadf7277b245c9bd",
+    "round5/trace_invariants/seven_statistics_Paley1297.json": "027f69e8c1cc0e122d09c070c7887504b4bf12a6d6224e83e61c30cbe741721e",
+    "round5/trace_invariants/seven_statistics_Paley65537.json": "90fa3c2d18d8a4d6fbb17717362faf8035d8aedb098784fe4ad87eac7e6695bd",
+    "round5/trace_invariants/seven_statistics_Paley1000033.json": "13d57413c2a6d0381a1c863a33da558d9fdeae7e2e684457dc0e40ce7ad3201f",
+    "round5/trace_invariants/seven_statistics_Paley49.json": "9efbae83c709ea8a3a50f99e14fc4b46c206e9ac581e5ea1c92e2f9f4739b76d",
+    "round5/trace_invariants/seven_statistics_Peisert49.json": "fb502cf2049398693ab061fff55855a6d9d9509e472c9f7c178e13233697442f",
+    "round5/third_moment/results.json": "c4ef2ac6da3639bf764e79029570945e5cd50883dc184dfba3fb0eeedb38c7bd",
+    "round6/trace_envelopes/results.json": "10f8f77d25261422c9c0077a9cff4fe23843a8d08fe2b7688677ad3b3534689d"
+  }
+}

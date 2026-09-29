@@ -1,0 +1,30 @@
+cover nodes=1 cuts=1 pending=10
+cover nodes=101 cuts=17 pending=12
+{"name": "cover32", "artifact": "cover32.json", "nodes": 131, "cuts": 21, "node_kinds": {"split": 61, "excluded": 70}, "continuous_witnesses": 0, "unresolved_leaves": 0, "universal_unique_completion": true}
+cover nodes=1 cuts=1 pending=14
+cover nodes=101 cuts=18 pending=24
+cover nodes=201 cuts=35 pending=22
+cover nodes=401 cuts=64 pending=16
+cover nodes=601 cuts=64 pending=18
+cover nodes=701 cuts=64 pending=18
+cover nodes=801 cuts=64 pending=16
+cover nodes=901 cuts=64 pending=20
+{"name": "cover33", "artifact": "cover33.json", "nodes": 1337, "cuts": 64, "node_kinds": {"split": 662, "unresolved": 1, "excluded": 674}, "continuous_witnesses": 0, "unresolved_leaves": 1, "universal_unique_completion": false}
+cover nodes=1 cuts=1 pending=14
+cover nodes=101 cuts=25 pending=22
+cover nodes=301 cuts=62 pending=20
+cover nodes=701 cuts=64 pending=22
+cover nodes=1001 cuts=64 pending=16
+cover nodes=1301 cuts=64 pending=18
+cover nodes=1401 cuts=64 pending=22
+cover nodes=1501 cuts=64 pending=20
+{"name": "cover36", "artifact": "cover36.json", "nodes": 1867, "cuts": 64, "node_kinds": {"split": 927, "excluded": 940}, "continuous_witnesses": 0, "unresolved_leaves": 0, "universal_unique_completion": true}
+cover nodes=1 cuts=1 pending=14
+cover nodes=301 cuts=64 pending=24
+cover nodes=601 cuts=64 pending=22
+cover nodes=701 cuts=64 pending=22
+cover nodes=801 cuts=64 pending=24
+cover nodes=1401 cuts=64 pending=20
+cover nodes=1601 cuts=64 pending=22
+cover nodes=1901 cuts=64 pending=20
+{"name": "cover40", "artifact": "cover40.json", "nodes": 2021, "cuts": 64, "node_kinds": {"split": 1004, "excluded": 998, "unresolved": 19}, "continuous_witnesses": 1, "unresolved_leaves": 19, "universal_unique_completion": false}

@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-09-06T09:21:31.645295+00:00",
+  "previous_goal_turn_classification": "progress: local row-capacity inequality, excluded Sidon filler, and surviving total-X model; no new uniform bound",
+  "files": {
+    "experiments/parallel46_row_capacity.py": "8102f0426d67fbeb78ebe65f42c06f1011dd54c551157b827a7e5428c042ea5f",
+    "research/parallel46-pass-summary-2026-09-06.md": "229726a683d85806d55896f32c3cf468e7749e6d5aa3560b71f1415e4a66ddf5",
+    "research/parallel46-row-capacity-2026-09-06.md": "b7041b53f80d81f412de987c4c9b2b0e6cdb9d6daa696b232616fc22b55b4e2f",
+    "results/parallel46_prior_state_2026_09_06.json": "3f51430059f37c76be36ebfddf82fc39f37cb891adc661179ddf97480a73c106",
+    "results/parallel46_row_capacity_2026_09_06.json": "7ab6be60fbf80c159138a89722b44958222239087f101fa517fbba6f556d70ac",
+    "README.md": "e37e08bf478158c34082903c2376f0f2ad5c0b76cc253558f1bd46fd57d266bd",
+    "research/frontier.md": "f26b74d43063f88eee9b386c1b2284c906bfe792fb68e488c9bb893008f5eb45",
+    "research/source-audit.md": "af523e220209635f5eabc8467507e96fa8bea593b9cbf80394bbeb46e2d4896f",
+    "research/checkpoint-2026-09-04.md": "5adda8e86d6dd0fec2757906207236910eb0f56a5391afc39f13914d20681190"
+  }
+}

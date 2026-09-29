@@ -1,0 +1,118 @@
+{
+  "status": "round2 complete; no global upper or asymptotic certificate",
+  "cases": [
+    {
+      "p": 101,
+      "m": 24,
+      "positive_ritz": 0.6048503507770483,
+      "negative_ritz": -0.7826463977624233,
+      "positive_exact_directional_lower": [
+        604849,
+        1000000
+      ],
+      "negative_exact_directional_lower": [
+        777097,
+        1000000
+      ],
+      "seconds": 0.01706854200165253,
+      "peak_rss_bytes": 66289664,
+      "matvec_calls": 74,
+      "max_eigenvector_residual": 9.708231768531758e-16
+    },
+    {
+      "p": 401,
+      "m": 99,
+      "positive_ritz": 0.8008660719254693,
+      "negative_ritz": -0.8794977323882058,
+      "positive_exact_directional_lower": [
+        799574,
+        1000000
+      ],
+      "negative_exact_directional_lower": [
+        877492,
+        1000000
+      ],
+      "seconds": 0.011128208003356121,
+      "peak_rss_bytes": 66797568,
+      "matvec_calls": 224,
+      "max_eigenvector_residual": 9.654294036121434e-11
+    },
+    {
+      "p": 1009,
+      "m": 251,
+      "positive_ritz": 0.8194814364024305,
+      "negative_ritz": -0.8608934764168503,
+      "positive_exact_directional_lower": [
+        819479,
+        1000000
+      ],
+      "negative_exact_directional_lower": [
+        858020,
+        1000000
+      ],
+      "seconds": 0.26690912499907427,
+      "peak_rss_bytes": 68927488,
+      "matvec_calls": 341,
+      "max_eigenvector_residual": 1.7765797135575998e-09
+    },
+    {
+      "p": 4001,
+      "m": 999,
+      "positive_ritz": 0.875125121263456,
+      "negative_ritz": -0.8620255220666021,
+      "positive_exact_directional_lower": [
+        873767,
+        1000000
+      ],
+      "negative_exact_directional_lower": [
+        861633,
+        1000000
+      ],
+      "seconds": 0.8849610829929588,
+      "peak_rss_bytes": 85557248,
+      "matvec_calls": 455,
+      "max_eigenvector_residual": 9.2335753184613e-10
+    },
+    {
+      "p": 65537,
+      "m": 16383,
+      "positive_ritz": 0.8633299609556184,
+      "negative_ritz": -0.8664366353491759,
+      "positive_exact_directional_lower": [
+        863186,
+        1000000
+      ],
+      "negative_exact_directional_lower": [
+        866423,
+        1000000
+      ],
+      "seconds": 58.71594191699114,
+      "peak_rss_bytes": 117080064,
+      "matvec_calls": 1907,
+      "max_eigenvector_residual": 2.246903747338566e-09
+    },
+    {
+      "p": 1000033,
+      "m": 250007,
+      "positive_ritz": 0.8675076727515397,
+      "negative_ritz": -0.8656259037807791,
+      "positive_exact_directional_lower": [
+        867504,
+        1000000
+      ],
+      "negative_exact_directional_lower": [
+        865619,
+        1000000
+      ],
+      "seconds": 667.5021959590085,
+      "peak_rss_bytes": 449757184,
+      "matvec_calls": 2506,
+      "max_eigenvector_residual": 1.2211232310378329e-06
+    }
+  ],
+  "exact_primary_witnesses": 12,
+  "additional_joint_rayleigh_translation_witnesses": 2,
+  "large_matrix_dense_bytes_avoided": 500028000392,
+  "runtime_seconds_million": 667.5021959590085,
+  "peak_memory_bytes_million": 449757184
+}

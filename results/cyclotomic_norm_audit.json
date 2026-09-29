@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "source_sha256": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288",
+  "cases": [
+    {
+      "n": 4,
+      "k": 4,
+      "degree": 2,
+      "normalized_tuples_exhausted": 64,
+      "intrinsic_zero_quadruples": 36,
+      "nonzero_norm_histogram": {
+        "2": 24,
+        "4": 16,
+        "8": 6,
+        "10": 8,
+        "16": 1
+      },
+      "norm_product_prime_factorization": {
+        "2": 86,
+        "5": 8
+      },
+      "splitting_primes_with_extra_relations": [
+        {
+          "p": 5,
+          "generator": 2,
+          "energy": 52,
+          "extra_zero_quadruples": 16,
+          "nullity_sum": 8,
+          "valuation_of_norm_product": 8
+        }
+      ],
+      "matrix_nullities_match_all_primitive_root_counts": true,
+      "required_prime_product_divides_norm_product": true,
+      "norm_product_at_most_4_to_degree_times_nonzero_tuple_count": true,
+      "sharper_AM_GM_bound_verified_with_integers": true,
+      "scope": "Complete k=4 audit for this n; no uniform spectral bound"
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "degree": 4,
+      "normalized_tuples_exhausted": 512,
+      "intrinsic_zero_quadruples": 168,
+      "nonzero_norm_histogram": {
+        "2": 144,
+        "4": 96,
+        "8": 48,
+        "16": 40,
+        "18": 48,
+        "32": 12,
+        "34": 48,
+        "36": 24,
+        "64": 6,
+        "82": 16,
+        "100": 8,
+        "256": 1
+      },
+      "norm_product_prime_factorization": {
+        "2": 920,
+        "3": 144,
+        "5": 16,
+        "17": 48,
+        "41": 16
+      },
+      "splitting_primes_with_extra_relations": [
+        {
+          "p": 17,
+          "generator": 9,
+          "energy": 264,
+          "extra_zero_quadruples": 96,
+          "nullity_sum": 48,
+          "valuation_of_norm_product": 48
+        },
+        {
+          "p": 41,
+          "generator": 38,
+          "energy": 200,
+          "extra_zero_quadruples": 32,
+          "nullity_sum": 16,
+          "valuation_of_norm_product": 16
+        }
+      ],
+      "matrix_nullities_match_all_primitive_root_counts": true,
+      "required_prime_product_divides_norm_product": true,
+      "norm_product_at_most_4_to_degree_times_nonzero_tuple_count": true,
+      "sharper_AM_GM_bound_verified_with_integers": true,
+      "scope": "Complete k=4 audit for this n; no uniform spectral bound"
+    },
+    {
+      "n": 16,
+      "k": 4,
+      "degree": 8,
+      "normalized_tuples_exhausted": 4096,
+      "intrinsic_zero_quadruples": 720,
+      "nonzero_norm_histogram": {
+        "2": 672,
+        "4": 480,
+        "8": 192,
+        "16": 192,
+        "32": 96,
+        "34": 576,
+        "64": 48,
+        "68": 192,
+        "98": 96,
+        "136": 192,
+        "194": 192,
+        "196": 96,
+        "226": 96,
+        "256": 88,
+        "272": 96,
+        "324": 48,
+        "452": 96,
+        "512": 24,
+        "514": 96,
+        "578": 192,
+        "674": 96,
+        "1024": 12,
+        "1156": 96,
+        "1296": 24,
+        "4096": 6,
+        "6562": 32,
+        "6724": 16,
+        "10000": 8,
+        "65536": 1
+      },
+      "norm_product_prime_factorization": {
+        "2": 8424,
+        "3": 288,
+        "5": 32,
+        "7": 384,
+        "17": 1664,
+        "41": 32,
+        "97": 192,
+        "113": 192,
+        "193": 32,
+        "257": 96,
+        "337": 96
+      },
+      "splitting_primes_with_extra_relations": [
+        {
+          "p": 17,
+          "generator": 3,
+          "energy": 3856,
+          "extra_zero_quadruples": 3136,
+          "nullity_sum": 1568,
+          "valuation_of_norm_product": 1664
+        },
+        {
+          "p": 97,
+          "generator": 8,
+          "energy": 1104,
+          "extra_zero_quadruples": 384,
+          "nullity_sum": 192,
+          "valuation_of_norm_product": 192
+        },
+        {
+          "p": 113,
+          "generator": 40,
+          "energy": 1104,
+          "extra_zero_quadruples": 384,
+          "nullity_sum": 192,
+          "valuation_of_norm_product": 192
+        },
+        {
+          "p": 193,
+          "generator": 64,
+          "energy": 784,
+          "extra_zero_quadruples": 64,
+          "nullity_sum": 32,
+          "valuation_of_norm_product": 32
+        },
+        {
+          "p": 257,
+          "generator": 249,
+          "energy": 912,
+          "extra_zero_quadruples": 192,
+          "nullity_sum": 96,
+          "valuation_of_norm_product": 96
+        },
+        {
+          "p": 337,
+          "generator": 191,
+          "energy": 912,
+          "extra_zero_quadruples": 192,
+          "nullity_sum": 96,
+          "valuation_of_norm_product": 96
+        }
+      ],
+      "matrix_nullities_match_all_primitive_root_counts": true,
+      "required_prime_product_divides_norm_product": true,
+      "norm_product_at_most_4_to_degree_times_nonzero_tuple_count": true,
+      "sharper_AM_GM_bound_verified_with_integers": true,
+      "scope": "Complete k=4 audit for this n; no uniform spectral bound"
+    }
+  ]
+}

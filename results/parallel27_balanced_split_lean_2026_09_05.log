@@ -1,0 +1,3 @@
+'PaleyBalancedSplit.two_equations_force_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleyBalancedSplit.two_balanced_splits_force_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleyBalancedSplit.no_two_balanced_splits' depends on axioms: [propext, Classical.choice, Quot.sound]

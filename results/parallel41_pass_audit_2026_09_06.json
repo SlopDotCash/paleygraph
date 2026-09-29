@@ -1,0 +1,65 @@
+{
+  "observed_at_utc": "2026-09-06T07:15:56.906169+00:00",
+  "classification": "progress: sharper uniform weighted-triangle bound, exact collision input reduction, real-subfield recovery, and independent verification",
+  "previous_turn_classification": "verified wait on live PID13687 plus saved performance diagnosis",
+  "goal_achieved": false,
+  "uniform_triangle_bound": "W<<n^(86/15)(1+log n)^(8/15)",
+  "remaining_triangle_power_gap": "1/15",
+  "sufficient_unproved_input": "X<<n^(61/31) up to logarithms",
+  "energy_exponent": "49/20 unchanged",
+  "period_exponent": "71/72 unchanged",
+  "independent_verifier_exit": 0,
+  "finite_scope": {
+    "small_triangle_fields": 6,
+    "positive_high_incidence_cases": 2,
+    "fixed_larger_excess_cases": 3,
+    "independent_smoothing_shift_tuples": 4167,
+    "shell_method": "32-by-32 integer Bareiss determinants"
+  },
+  "original_agent_verifiers_rerun": true,
+  "no_lean_build": true,
+  "no_prove2me_submission": true,
+  "no_process_changes": true,
+  "prior_noncentral_files_unchanged": 13,
+  "local_links_checked": 26,
+  "artifacts_sha256": {
+    "experiments/parallel41_classical_smoothing.py": "f5d36f56c322806a8d36d96de932d5cbb3cb6fb44faf832c74180b818ecfc20d",
+    "experiments/parallel41_independent_verify.py": "84d64fa0581492f263eb4922ca9d6eeff7dc1496006c1adf4cd2b46378fdbf68",
+    "experiments/parallel41_shell_real_recovery.py": "9ac9dc2073c12f4b77809e4a9c19b19329b33123ffcfcc8166902d95f7a37c42",
+    "experiments/parallel41_shell_unit_distortion.py": "ecf02633307fa6afbdf24bc256a9000149d39a6ee971653ae0cbab42f3afddef",
+    "research/parallel41-classical-smoothing-2026-09-06.md": "e7af779a69c4632d37ab35f9525e6c929d7134f16ce3f1b22f74b88a4f589640",
+    "research/parallel41-correlation-optimization-2026-09-06.md": "408204d7bbfb76dfc5d90b8788575261921fa450c012dd31caaced188b93d069",
+    "research/parallel41-independent-review-2026-09-06.md": "712e6688e067a53f30038bb88d631f2f178af9d4e1ac06aa21c3e5688505d146",
+    "research/parallel41-level-collision-bound-2026-09-06.md": "3998679ff0634ff3db1604ddd889cb40d775aa590ac544967d6881a07fd3543d",
+    "research/parallel41-level-refinement-2026-09-06.md": "321c4860d02c82a863d964fbcf95618c50721c246af599fdfd6a0fcd9e7d1afb",
+    "research/parallel41-pass-summary-2026-09-06.md": "38e2ec7df8a2582d2640c9a3de55f2b8846ca581d8afe8f4b2e82054a4326a7b",
+    "research/parallel41-shell-arithmetic-recovery-2026-09-06.md": "48ae38559176faa69fe605f8f95086773612be4bc8c3e1061426d5fbe5105423",
+    "research/parallel41-shell-unit-distortion-2026-09-06.md": "d64278677e0e7ac57e5ce1166b77c021122330ac6e5620c5801a4e856c662f9a",
+    "results/parallel41_classical_smoothing_2026_09_06.json": "cc032363c24bdb9d6b727743aab6ea9f15a5720d439e47fd87d12642b4ffcbf1",
+    "results/parallel41_independent_verification_2026_09_06.json": "66c3906ccbd750f4c549f05f04c35a50d2884487367172556403da3b5c8b8431",
+    "results/parallel41_prior_state_2026_09_06.json": "ff710c881a197b9e4721e7e6ed5705f39bfe92ab062008074bbc666fa39c2434",
+    "results/parallel41_shell_real_recovery_2026_09_06.json": "fff97fe686d3efde47bdb10d3af07f5d594db5d13bc01f6d29bbc5173e811b1b",
+    "results/parallel41_shell_unit_distortion_2026_09_06.json": "0a0d322c6f4e173985f2ae01f6e64ba0f7d2d47eb95c37d81dae2b459582b670",
+    "results/parallel41_source_scope_2026_09_06.json": "44e37b37050b8e5dbbd9cfa2e4eb87468eb546edfbb9e4d4cc92353b6b546ab6"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "0c0c5def9f38efce68e5aec5894f1a255d38e26f3673213766bed240bf69f158",
+      "after": "dbfb2c3c5b4c31bc47c44cf31b45ddc96b97c8508584876b2899e18e16bd5f48"
+    },
+    "research/frontier.md": {
+      "before": "cf300ab0d03ecc2afdb7d631782df7c4de8f2132e697e4d1af58bbe8cb8bd7ee",
+      "after": "c077c0b84042a4327f94539aab57dd4c6235bfd128bce3b6acdeb886666eb534"
+    },
+    "research/source-audit.md": {
+      "before": "488df842bcbf0b5ef395afcad9c97cc15a06dd0232be064912e7876b4276f205",
+      "after": "b41e980300a5593f64107fad4aad4417c40d562a45d486bf1340c4c93715fa63"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "39f6b324b62b500b1119a2abcfc5a6890d0eef046d2e270bf6dd8304a1b10619",
+      "after": "c912475343361dcc4c3d66b1758114fa2aea4d83c26c7b2b54ce325c72b6d189"
+    }
+  },
+  "source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "next_action": "Estimate the actual nontrivial shifted-energy excess or exploit additional joint restrictions on actual subgroup incidences and difference levels; retain full original goal."
+}

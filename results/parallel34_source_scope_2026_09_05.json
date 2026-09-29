@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-09-05T22:53:09.597127+00:00",
+  "sources": [
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "url": "https://arxiv.org/html/1712.00410v1",
+      "use": "Section5.1 Lemma6 proof freshly consulted as an alternative sum-product route; no new upper estimate imported into this pass.",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+    }
+  ],
+  "local_input_sha256": {
+    "research/parallel33-centered-distinct-moments-2026-09-05.md": "bd9d9d2bcc7fc2f76e84af908af083109750b99ea63b60591e12a23c6ae6fb2c",
+    "results/parallel33_pass_audit_2026_09_05.json": "7c66cd2ee0de6bdbb7fae11b46827400afaea9057b527dc008b6cc9825e5c594",
+    "research/parallel34-opposite-pair-transform-2026-09-05.md": "2e0e63e38fc4559a5578a1ad763edd7b93db522d142ab177ee92a6633e3b0955"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "new_argument": "Unique opposite-pair removal; formal power-series inversion; cycle independent-set coefficients; Gaussian row norms; Fourier and union bounds for forced distinct opposite-free ten-words.",
+  "scope": "Ordinary uniform reductions and lower bounds with exact finite checks. No upper estimate on the centered opposite-free hierarchy, new period exponent, full proof, novelty claim, separate-author review, or Lean verification."
+}

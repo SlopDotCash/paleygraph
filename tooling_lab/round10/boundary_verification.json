@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 0,
+      "pair_means": 1
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 1,
+      "pair_means": 1
+    },
+    {
+      "q": 5,
+      "n": 2,
+      "degree": 2,
+      "pair_means": 1
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 0,
+      "pair_means": 3
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 1,
+      "pair_means": 3
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 2,
+      "pair_means": 3
+    },
+    {
+      "q": 5,
+      "n": 3,
+      "degree": 3,
+      "pair_means": 3
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 0,
+      "pair_means": 55
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 1,
+      "pair_means": 55
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 2,
+      "pair_means": 55
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 3,
+      "pair_means": 55
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 4,
+      "pair_means": 55
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 5,
+      "pair_means": 55
+    },
+    {
+      "q": 13,
+      "n": 11,
+      "degree": 6,
+      "pair_means": 55
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 0,
+      "pair_means": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 1,
+      "pair_means": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 2,
+      "pair_means": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 3,
+      "pair_means": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 4,
+      "pair_means": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 5,
+      "pair_means": 21
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "degree": 6,
+      "pair_means": 21
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 0,
+      "pair_means": 28
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 1,
+      "pair_means": 28
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 2,
+      "pair_means": 28
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 3,
+      "pair_means": 28
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 4,
+      "pair_means": 28
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 5,
+      "pair_means": 28
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "degree": 6,
+      "pair_means": 28
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 0,
+      "pair_means": 2016
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 1,
+      "pair_means": 2016
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 2,
+      "pair_means": 2016
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 3,
+      "pair_means": 2016
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 4,
+      "pair_means": 2016
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 5,
+      "pair_means": 2016
+    },
+    {
+      "q": 257,
+      "n": 64,
+      "degree": 6,
+      "pair_means": 2016
+    }
+  ],
+  "all_pair_means_compared": 14855,
+  "literal_inward_targets_compared": 2229,
+  "source_sha256": {
+    "review.py": "5d2a881c196e592350f43338a9fc77ed26c2159e54d7ef7e7c91b3adc6601e5a",
+    "query.py": "87f56bb5446ce7f0aa8a8cc213b32ab020f0e1344749d20cbdf72aee2f4bf3e0",
+    "pair_means_backend.cpp": "f1f3212a429bcdfd23641bd2222041d1c89fc5bdbfd522d414f2358fa341f68f",
+    "pair_means_backend": "62ae4ef5ba9ce037aac4c386fe68c250b7ff5fc8e3be10d0ae857057d3401d59",
+    "deletion_pair_means.py": "9910ec1b2cb5c841e906048400e792a4696eb6edc277e79870bb1a8c907534c9",
+    "decomposition.py": "46f17a4fd721e62057fd3a7d5506f0f121296d843668ea23171be27f2edb0da8",
+    "inward_targets.cpp": "c1abde9118c5dc5b0f715ae7fe3713aef6717e6501f449eb17ee92456aae523b",
+    "inward_targets": "8433379544ec8822f7bca03c7353549dd7ea724e18b37680cb6acbdae6630c96"
+  },
+  "input_sha256": {
+    "../round7/local_edits/review_results.py": "f9a437253d191eeee44b8f244bb7df4f76f10c4468a7e46a187b3b46d40c2fcd"
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "status": "passed",
+  "date": "2026-09-05",
+  "complete_subset_moment_checks": 18,
+  "complete_subsets_enumerated": 31372,
+  "direct_low_degree_contractions": 384,
+  "records": [
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "degree": 0,
+      "completions": 1,
+      "Q": 2,
+      "cell_only_term": [
+        289,
+        1
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        289,
+        1
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "degree": 1,
+      "completions": 1,
+      "Q": 2,
+      "cell_only_term": [
+        0,
+        1
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        0,
+        1
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "degree": 2,
+      "completions": 1,
+      "Q": 2,
+      "cell_only_term": [
+        9,
+        1
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        9,
+        1
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "degree": 3,
+      "completions": 1,
+      "Q": 2,
+      "cell_only_term": [
+        4,
+        1
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        4,
+        1
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 4,
+      "degree": 1,
+      "completions": 14,
+      "Q": 10,
+      "cell_only_term": [
+        0,
+        1
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        0,
+        1
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 4,
+      "degree": 2,
+      "completions": 14,
+      "Q": 10,
+      "cell_only_term": [
+        36,
+        1
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        36,
+        1
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 4,
+      "degree": 3,
+      "completions": 14,
+      "Q": 10,
+      "cell_only_term": [
+        456,
+        7
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        456,
+        7
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 4,
+      "degree": 4,
+      "completions": 14,
+      "Q": 10,
+      "cell_only_term": [
+        99,
+        7
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        99,
+        7
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 3,
+      "completions": 364,
+      "Q": 2,
+      "cell_only_term": [
+        13840,
+        91
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        13840,
+        91
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "n": 6,
+      "degree": 6,
+      "completions": 364,
+      "Q": 2,
+      "cell_only_term": [
+        71,
+        7
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        71,
+        7
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 7,
+      "degree": 3,
+      "completions": 1001,
+      "Q": 10,
+      "cell_only_term": [
+        198020,
+        1001
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        198020,
+        1001
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "n": 7,
+      "degree": 6,
+      "completions": 1001,
+      "Q": 10,
+      "cell_only_term": [
+        48353,
+        1001
+      ],
+      "Q_coefficient": [
+        8,
+        1001
+      ],
+      "second_moment": [
+        629,
+        13
+      ]
+    },
+    {
+      "graph": "Paley29",
+      "marks": [
+        1,
+        4,
+        0
+      ],
+      "n": 7,
+      "degree": 6,
+      "completions": 14950,
+      "Q": -42,
+      "cell_only_term": [
+        941207,
+        7475
+      ],
+      "Q_coefficient": [
+        -2,
+        7475
+      ],
+      "second_moment": [
+        72407,
+        575
+      ]
+    },
+    {
+      "graph": "Paley29",
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "n": 7,
+      "degree": 6,
+      "completions": 14950,
+      "Q": 86,
+      "cell_only_term": [
+        941207,
+        7475
+      ],
+      "Q_coefficient": [
+        -2,
+        7475
+      ],
+      "second_moment": [
+        188207,
+        1495
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "marks": [
+        0,
+        1,
+        7
+      ],
+      "n": 4,
+      "degree": 3,
+      "completions": 46,
+      "Q": -94,
+      "cell_only_term": [
+        3200,
+        23
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        3200,
+        23
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "marks": [
+        0,
+        1,
+        7
+      ],
+      "n": 4,
+      "degree": 4,
+      "completions": 46,
+      "Q": -94,
+      "cell_only_term": [
+        1119,
+        23
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        1119,
+        23
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "marks": [
+        0,
+        1,
+        7
+      ],
+      "n": 4,
+      "degree": 3,
+      "completions": 46,
+      "Q": 42,
+      "cell_only_term": [
+        4040,
+        23
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        4040,
+        23
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "marks": [
+        0,
+        1,
+        7
+      ],
+      "n": 4,
+      "degree": 4,
+      "completions": 46,
+      "Q": 42,
+      "cell_only_term": [
+        1107,
+        23
+      ],
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "second_moment": [
+        1107,
+        23
+      ]
+    }
+  ],
+  "candidate_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+  "reviewer_sha256": "0b5db3b7a39352bd1a25288eeeec070ee991503c7ebb7893f881a3f32f579e01"
+}

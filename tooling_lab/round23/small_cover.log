@@ -1,0 +1,14 @@
+cover nodes=1 cuts=1 pending=3
+{"name": "p17_basic_erase2", "artifact": "cover_p17_basic_erase2.json", "nodes": 14, "cuts": 8, "node_kinds": {"split": 6, "unresolved": 8}, "unresolved_leaves": 8, "universal_unique_completion": false}
+cover nodes=1 cuts=1 pending=5
+cover nodes=201 cuts=16 pending=7
+{"name": "p17_basic_erase4", "artifact": "cover_p17_basic_erase4.json", "nodes": 252, "cuts": 16, "node_kinds": {"split": 124, "unresolved": 127, "excluded": 1}, "unresolved_leaves": 127, "universal_unique_completion": false}
+cover nodes=1 cuts=1 pending=3
+{"name": "p41_general_erase2", "artifact": "cover_p41_general_erase2.json", "nodes": 24, "cuts": 13, "node_kinds": {"split": 11, "unresolved": 13}, "unresolved_leaves": 13, "universal_unique_completion": false}
+cover nodes=1 cuts=1 pending=3
+{"name": "p97_general_erase2", "artifact": "cover_p97_general_erase2.json", "nodes": 38, "cuts": 16, "node_kinds": {"split": 18, "unresolved": 20}, "unresolved_leaves": 20, "universal_unique_completion": false}
+cover nodes=1 cuts=1 pending=4
+{"name": "squared_relation_erase3", "artifact": "cover_squared_relation_erase3.json", "nodes": 33, "cuts": 16, "node_kinds": {"split": 15, "excluded": 2, "unresolved": 16}, "unresolved_leaves": 16, "universal_unique_completion": false}
+cover nodes=1 cuts=1 pending=2
+{"name": "scalar_p_squared_erase1", "artifact": "cover_scalar_p_squared_erase1.json", "nodes": 31, "cuts": 16, "node_kinds": {"split": 15, "unresolved": 16}, "unresolved_leaves": 16, "universal_unique_completion": false}
+{"name": "scalar_p_squared_erase3", "artifact": "cover_scalar_p_squared_erase3.json", "nodes": 0, "cuts": 0, "node_kinds": {}, "unresolved_leaves": 0, "universal_unique_completion": true}

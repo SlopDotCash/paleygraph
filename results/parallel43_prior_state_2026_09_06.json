@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-09-06T07:57:48.397419+00:00",
+  "previous_turn_classification": "progress: weighted norm budget, exact affine recovery certificate, and verified live Lean diagnostic",
+  "files": {
+    "experiments/parallel42_classical_affine.py": "fc10b3d196acbee0234b873a48a3b24cf3f588c9477ae75a71e3ebc30bc60ccd",
+    "experiments/parallel42_final_audit.py": "20c3e55ab48d7aec6e6af48f0fc51cc8e81b6ac3774095c5aa79f97951d2234a",
+    "experiments/parallel42_norm_budget.py": "7c6f08be5e77c50fe40779a50ac572936d59407a8383c4c9da51b6b98d808143",
+    "research/parallel42-classical-affine-recovery-2026-09-06.md": "e9e1d8d26c1a1a0a775c522685df8e542a764d886e81c6a842cce905d9486fbc",
+    "research/parallel42-excess-equations-2026-09-06.md": "9b7f908e5d507aff1104ca60901cf10dda8678335d2c2f1bcc1093e543be2bdb",
+    "research/parallel42-excess-source-audit-2026-09-06.md": "6c381654e8e3a53b3e660a362bfd3763c77d8ed3a2cafc5795ea19f15b5e0aa7",
+    "research/parallel42-independent-review-2026-09-06.md": "a57261538396672bc63f44d8d14d6e2826eff562221db444bb883d10b88c497a",
+    "research/parallel42-pass-summary-2026-09-06.md": "ffbc40a33437cb58c85a0cd32046bc4d42c3bf5c6dc840f4216b5b869620f34f",
+    "results/parallel42_classical_affine_2026_09_06.json": "17cb95827684ab676006b2524aed16e4424c9a26a73028ad26fa520c9325c614",
+    "results/parallel42_norm_budget_2026_09_06.json": "eab779d46697787e79784145c0076e4f44ea8748eb974c2765ef7a394a2dbe8b",
+    "results/parallel42_prior_state_2026_09_06.json": "4d1df9c08ab47b3f21ab911833f1f1b5a91895f243bf0430091954053eeb9787",
+    "results/parallel42_source_scope_2026_09_06.json": "c8130ccd63cc27151a91bfef20bb7dd0026446fe7d86e2dcc7d2e1547ff7211a",
+    "README.md": "52dc8bdc31b737b543534f259c30701b8e15a52872a967be00c51c46d8d02516",
+    "research/frontier.md": "f6a7f6b5fac981b731ee522adef307d75b1dd20cee8f53b976a4ec15b906215c",
+    "research/source-audit.md": "0ab7435f328d0886cb7a383a9f0208094c570be7551fc98b7b6935cd77a48297",
+    "research/checkpoint-2026-09-04.md": "bc24a36dcef4c16ed9d1a60d4de3c4922dbb5a2eec6665794b29450a08f2ba7e"
+  }
+}

@@ -1,0 +1,5849 @@
+{
+  "status": "actual same-cell-profile different second moments found",
+  "n": 7,
+  "q": 29,
+  "marks_count": 3,
+  "canonical_cell_profile": [
+    [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      4
+    ],
+    [
+      [
+        -1,
+        -1,
+        1
+      ],
+      2
+    ],
+    [
+      [
+        -1,
+        0,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        -1,
+        1,
+        -1
+      ],
+      3
+    ],
+    [
+      [
+        -1,
+        1,
+        1
+      ],
+      4
+    ],
+    [
+      [
+        0,
+        -1,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        -1,
+        -1
+      ],
+      3
+    ],
+    [
+      [
+        1,
+        -1,
+        1
+      ],
+      4
+    ],
+    [
+      [
+        1,
+        1,
+        -1
+      ],
+      4
+    ],
+    [
+      [
+        1,
+        1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        1,
+        1
+      ],
+      2
+    ]
+  ],
+  "pair": [
+    {
+      "graph": "Paley29",
+      "marks": [
+        1,
+        4,
+        0
+      ],
+      "record": {
+        "q": 29,
+        "marks": [
+          1,
+          4,
+          0
+        ],
+        "cells": [
+          {
+            "pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "size": 2
+          },
+          {
+            "pattern": [
+              -1,
+              0,
+              1
+            ],
+            "size": 1
+          },
+          {
+            "pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "size": 3
+          },
+          {
+            "pattern": [
+              -1,
+              1,
+              1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              0,
+              -1,
+              1
+            ],
+            "size": 1
+          },
+          {
+            "pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "size": 3
+          },
+          {
+            "pattern": [
+              1,
+              -1,
+              1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              1,
+              1,
+              -1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              1,
+              1,
+              0
+            ],
+            "size": 1
+          },
+          {
+            "pattern": [
+              1,
+              1,
+              1
+            ],
+            "size": 2
+          }
+        ],
+        "relations": [
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 8
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 0,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 0,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 0,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 8
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 0,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 0,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 8
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 8
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 0,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 0,
+            "count": 2
+          }
+        ],
+        "provenance": "matrix supplied by caller"
+      },
+      "moments": {
+        "7": {
+          "q": 29,
+          "marks": [
+            1,
+            4,
+            0
+          ],
+          "n": 7,
+          "degree": 6,
+          "mean": [
+            -213,
+            1495
+          ],
+          "second_moment": [
+            72407,
+            575
+          ],
+          "variance": [
+            56280128,
+            447005
+          ],
+          "mean_float": -0.14247491638795987,
+          "second_moment_float": 125.92521739130434,
+          "variance_float": 125.9049182895046,
+          "cell_count": 11,
+          "relation_count": 189,
+          "canonical_relation_classes": 29,
+          "outside_union_coefficients": [
+            0,
+            0,
+            0,
+            58584,
+            535150
+          ],
+          "max_aggregate_integer_bits": 20,
+          "elapsed_seconds": 0.0008092500065686181
+        },
+        "8": {
+          "q": 29,
+          "marks": [
+            1,
+            4,
+            0
+          ],
+          "n": 8,
+          "degree": 6,
+          "mean": [
+            -888,
+            1495
+          ],
+          "second_moment": [
+            6729872,
+            16445
+          ],
+          "variance": [
+            10052484656,
+            24585275
+          ],
+          "mean_float": -0.5939799331103679,
+          "second_moment_float": 409.2351474612344,
+          "variance_float": 408.88233530029663,
+          "cell_count": 11,
+          "relation_count": 189,
+          "canonical_relation_classes": 29,
+          "outside_union_coefficients": [
+            0,
+            0,
+            0,
+            58584,
+            535150,
+            324436
+          ],
+          "max_aggregate_integer_bits": 20,
+          "elapsed_seconds": 0.0008207079954445362
+        },
+        "6": {
+          "q": 29,
+          "marks": [
+            1,
+            4,
+            0
+          ],
+          "n": 6,
+          "degree": 6,
+          "mean": [
+            -6,
+            325
+          ],
+          "second_moment": [
+            7323,
+            325
+          ],
+          "variance": [
+            2379939,
+            105625
+          ],
+          "mean_float": -0.018461538461538463,
+          "second_moment_float": 22.532307692307693,
+          "variance_float": 22.531966863905325,
+          "cell_count": 11,
+          "relation_count": 189,
+          "canonical_relation_classes": 29,
+          "outside_union_coefficients": [
+            0,
+            0,
+            0,
+            58584
+          ],
+          "max_aggregate_integer_bits": 16,
+          "n_equals_degree_cell_only_shortcut_checked": true,
+          "elapsed_seconds": 0.0032483329996466637
+        }
+      }
+    },
+    {
+      "graph": "Paley29",
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "record": {
+        "q": 29,
+        "marks": [
+          1,
+          9,
+          0
+        ],
+        "cells": [
+          {
+            "pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "size": 2
+          },
+          {
+            "pattern": [
+              -1,
+              0,
+              1
+            ],
+            "size": 1
+          },
+          {
+            "pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "size": 3
+          },
+          {
+            "pattern": [
+              -1,
+              1,
+              1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              0,
+              -1,
+              1
+            ],
+            "size": 1
+          },
+          {
+            "pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "size": 3
+          },
+          {
+            "pattern": [
+              1,
+              -1,
+              1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              1,
+              1,
+              -1
+            ],
+            "size": 4
+          },
+          {
+            "pattern": [
+              1,
+              1,
+              0
+            ],
+            "size": 1
+          },
+          {
+            "pattern": [
+              1,
+              1,
+              1
+            ],
+            "size": 2
+          }
+        ],
+        "relations": [
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 0,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 0,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 0,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 0,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 0,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 10
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 7
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 9
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 0,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 4
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 0,
+            "count": 1
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              0
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              0,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              -1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              0,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": -1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": -1,
+            "count": 6
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              -1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": -1,
+            "count": 5
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              -1
+            ],
+            "sign": 1,
+            "count": 3
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              0
+            ],
+            "sign": 1,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 0,
+            "count": 2
+          },
+          {
+            "left_pattern": [
+              1,
+              1,
+              1
+            ],
+            "right_pattern": [
+              1,
+              1,
+              1
+            ],
+            "sign": 1,
+            "count": 2
+          }
+        ],
+        "provenance": "matrix supplied by caller"
+      },
+      "moments": {
+        "7": {
+          "q": 29,
+          "marks": [
+            1,
+            9,
+            0
+          ],
+          "n": 7,
+          "degree": 6,
+          "mean": [
+            -213,
+            1495
+          ],
+          "second_moment": [
+            188207,
+            1495
+          ],
+          "variance": [
+            281324096,
+            2235025
+          ],
+          "mean_float": -0.14247491638795987,
+          "second_moment_float": 125.89096989966555,
+          "variance_float": 125.8706707978658,
+          "cell_count": 11,
+          "relation_count": 189,
+          "canonical_relation_classes": 29,
+          "outside_union_coefficients": [
+            0,
+            0,
+            0,
+            58584,
+            534638
+          ],
+          "max_aggregate_integer_bits": 20,
+          "elapsed_seconds": 0.0014985830057412386
+        },
+        "8": {
+          "q": 29,
+          "marks": [
+            1,
+            9,
+            0
+          ],
+          "n": 8,
+          "degree": 6,
+          "mean": [
+            -888,
+            1495
+          ],
+          "second_moment": [
+            6730128,
+            16445
+          ],
+          "variance": [
+            10052867376,
+            24585275
+          ],
+          "mean_float": -0.5939799331103679,
+          "second_moment_float": 409.2507145028884,
+          "variance_float": 408.8979023419506,
+          "cell_count": 11,
+          "relation_count": 189,
+          "canonical_relation_classes": 29,
+          "outside_union_coefficients": [
+            0,
+            0,
+            0,
+            58584,
+            534638,
+            336724
+          ],
+          "max_aggregate_integer_bits": 20,
+          "elapsed_seconds": 0.000851707998663187
+        },
+        "6": {
+          "q": 29,
+          "marks": [
+            1,
+            9,
+            0
+          ],
+          "n": 6,
+          "degree": 6,
+          "mean": [
+            -6,
+            325
+          ],
+          "second_moment": [
+            7323,
+            325
+          ],
+          "variance": [
+            2379939,
+            105625
+          ],
+          "mean_float": -0.018461538461538463,
+          "second_moment_float": 22.532307692307693,
+          "variance_float": 22.531966863905325,
+          "cell_count": 11,
+          "relation_count": 189,
+          "canonical_relation_classes": 29,
+          "outside_union_coefficients": [
+            0,
+            0,
+            0,
+            58584
+          ],
+          "max_aggregate_integer_bits": 16,
+          "n_equals_degree_cell_only_shortcut_checked": true,
+          "elapsed_seconds": 0.000895875011337921
+        }
+      }
+    }
+  ],
+  "scanned_before_witness": [
+    {
+      "graph": "Paley29",
+      "marked_inputs": 8,
+      "new_profiles": 4,
+      "duplicate_canonical_relations": 3,
+      "new_relations_same_profile": 1
+    }
+  ],
+  "input_twin_sha256": "04e1f3c2912e6c98fab7b72845eb1886d8e29aa03a0b334a7ad03ce599ac010a",
+  "compiler_source_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+  "source_sha256": "e72ff85b85a80138e33a7b4d788f95c97e6847f7e016e065bb319e7141b17e7f",
+  "elapsed_seconds": 0.7528513330034912
+}

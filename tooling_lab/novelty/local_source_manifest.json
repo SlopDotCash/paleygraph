@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-05",
+  "scope": "Selected local source reads and targeted text searches, not independent theorem validation",
+  "sources": [
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/research/parallel25-pass-summary-2026-09-05.md",
+      "exists": true,
+      "sha256": "55caf4487cc0aa6987b88a2e77fc24752b44e2f4b6bf857be663cadac6996a24"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/research/frontier.md",
+      "exists": true,
+      "sha256": "84e15afe3060b9ede1aa093db0b954a3d31c693527621b7989ac2bfe7ee3a054"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/research/parallel22-all-orders-obstruction-2026-09-05.md",
+      "exists": true,
+      "sha256": "b959300e5c9c886e2936c306a2b0846f01d47e77b795bf1c36b5325877ee926c"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/research/parallel25-spectral-full-operator-2026-09-05.md",
+      "exists": true,
+      "sha256": "a76b4865fd4356ae30422a5d8e6ec1320e5edccfd84686a17c4faf7ddabf51d3"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/research/parallel25-signed-inversion-2026-09-05.md",
+      "exists": true,
+      "sha256": "e28771326da404a8ff86170ad8174d69633fdbb7f9331634d7f0f3b09217bfc5"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/docs/kb/deltastar-466-syz36-union-generation-2026-07-11.md",
+      "exists": true,
+      "sha256": "220c0ef95c73f20269ce0c3d18ed3dd9e3e2d4e15862b015276aa93a5fd6d5a5"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/ArkLib/Data/CodingTheory/ProximityGap/Frontier/_SYZ71LinearMiddleSlot.lean",
+      "exists": true,
+      "sha256": "02942d92d81848b8f6ac8a4d02bfa6f1de6ccc322314fc65de5b7fd4374b213d"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/DISPROOF_LOG.md",
+      "exists": true,
+      "sha256": "8589a442fbf81b79a39b6352a0cd336dd01a46d49f3473b8dfb0820262b9163b"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/docs/kb/NEW_MATHEMATICS-2026-06-15.md",
+      "exists": true,
+      "sha256": "213d989f2eb36fea94e128e14d608400e94399369e8e88a41b91888b38218140"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/docs/kb/deltastar-100-attacks/README.md",
+      "exists": true,
+      "sha256": "b7065134706f2fb8c703cb4736f4e1026b879d23dc7a46fce750020bb4d35d4d"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/docs/kb/deltastar-464-attack-08-cumulant-largedeviation-subgaussian.md",
+      "exists": true,
+      "sha256": "e1518407918a2a4fee4291da7ec0ef8762b87938f798496084128b2fd4935636"
+    }
+  ]
+}

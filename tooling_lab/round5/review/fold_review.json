@@ -1,0 +1,258 @@
+{
+  "status": "folded and seven-stat adapters pass independent exact checks",
+  "counts": {
+    "literal_histogram_symmetry_checks": 1752,
+    "admissible_arbitrary_edge_histograms": 146,
+    "arbitrary_literal_column_coefficient_symmetries": 24,
+    "lossless_inventory_roundtrips": 15,
+    "folded_complete_subset_comparisons": 30,
+    "seven_stat_complete_subset_comparisons": 24,
+    "universal_high_coefficients_checked": 38,
+    "prime_orbit_parameter_checks": 10232
+  },
+  "records": [
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        -173,
+        33
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -337,
+        3
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -37568,
+        33
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        17,
+        91
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -10229,
+        143
+      ]
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -1159744,
+        715
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        44555,
+        35673
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 6,
+      "degree": 6,
+      "third_moment": [
+        6145,
+        3243
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -99128449,
+        1533939
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 7,
+      "degree": 6,
+      "third_moment": [
+        -1672321,
+        1533939
+      ]
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4737196096,
+        1533939
+      ]
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "n": 8,
+      "degree": 6,
+      "third_moment": [
+        -4199178304,
+        1533939
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 7,
+      "degree": 0,
+      "third_moment": [
+        2197,
+        1
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 7,
+      "degree": 2,
+      "third_moment": [
+        -9261,
+        1
+      ]
+    },
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "n": 7,
+      "degree": 4,
+      "third_moment": [
+        37057,
+        11
+      ]
+    }
+  ],
+  "prime_orbit_reviews": [
+    {
+      "p": 13,
+      "complete_census_independently_replayed": true,
+      "sampled_starting_parameters": 16,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 1,
+        "2": 1
+      },
+      "tau_sha256": "518910818d5e41ad313f74c5bb1920f90a7fecca22bb41cad796236b64e02e10"
+    },
+    {
+      "p": 17,
+      "complete_census_independently_replayed": true,
+      "sampled_starting_parameters": 18,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 2
+      },
+      "tau_sha256": "a0540cb341061c4a74ed357afa97a2b1327c2a34700d9e903f03cfc7eee52cbc"
+    },
+    {
+      "p": 29,
+      "complete_census_independently_replayed": true,
+      "sampled_starting_parameters": 30,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 4
+      },
+      "tau_sha256": "d9fb6623d850a6bd3f9bd595c8131c4a8ba92a74354370ca36f027c56d8bb0d8"
+    },
+    {
+      "p": 101,
+      "complete_census_independently_replayed": true,
+      "sampled_starting_parameters": 102,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 16
+      },
+      "tau_sha256": "61d73736fe7b6254869cdb34add3f6fe71adc87f263444373d1b166aa249cd63"
+    },
+    {
+      "p": 1297,
+      "complete_census_independently_replayed": true,
+      "sampled_starting_parameters": 1300,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 215,
+        "2": 1
+      },
+      "tau_sha256": "869531beee3bd16a03fe37181ff0c4b208d43655faeb39473077fa63e1d3fbf9"
+    },
+    {
+      "p": 65537,
+      "complete_census_independently_replayed": false,
+      "sampled_starting_parameters": 131,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 10922
+      },
+      "tau_sha256": "0d1fcec57a3d94ae2eab2e125540c948d2b3aef08cdab9b55ac48792170a48ba"
+    },
+    {
+      "p": 1000033,
+      "complete_census_independently_replayed": false,
+      "sampled_starting_parameters": 133,
+      "exact_orbit_count_formula": {
+        "3": 1,
+        "6": 166671,
+        "2": 1
+      },
+      "tau_sha256": "f65da4ee1cbf2d7956fcfc91f298296a5138b7964e897eea80db633916e765b9"
+    }
+  ],
+  "malformed_records_rejected": [
+    "folded:false_attached_cube",
+    "seven_converter:false_attached_cube",
+    "folded:duplicate_family",
+    "seven_converter:duplicate_family",
+    "folded:nonboolean_family",
+    "seven_converter:nonboolean_family",
+    "folded:inadmissible_same_residue_theta",
+    "seven_converter:inadmissible_same_residue_theta"
+  ],
+  "source_sha256": {
+    "folded_moment.py": "aa1cc9cf142e7b8f1e5630010d5c11c2d0051ff139dc5fc8c4c7858814dd32af",
+    "residue_moment.py": "8bd40e565abea4560c63b90c99de6449943172c7772c692cc57a469ac4d744a1",
+    "verify_symmetry.py": "b680c6efd25efeb6ca430488d677cae6436d607af569864c22a0154385505d1d",
+    "fold_review.py": "807de3adfcc18f027b2c1848eddb65c2636f3a5b8d261bf91842f6ed1387fe55"
+  },
+  "elapsed_seconds": 5.968256000007386,
+  "scope": "Full theta histogram retains family through residue. Powers-only and seven-stat objects require certified provenance and are not graph-realizability certificates."
+}

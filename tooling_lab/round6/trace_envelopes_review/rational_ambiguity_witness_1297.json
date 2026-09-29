@@ -1,0 +1,199 @@
+{
+  "q": 1297,
+  "n": 8,
+  "model": "ordinary_powers_through_six",
+  "count_convention": "Entry is N_monochromatic or N_mixed/3, NOT optimizer-scaled w. All are nonnegative rational counts.",
+  "histograms": [
+    {
+      "side": "lower",
+      "records": [
+        {
+          "monochromatic": true,
+          "theta": -2,
+          "count_per_edge_class": [
+            323,
+            1
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -70,
+          "count_per_edge_class": [
+            146597,
+            19890
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -54,
+          "count_per_edge_class": [
+            335975,
+            5148
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -30,
+          "count_per_edge_class": [
+            39997,
+            1440
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -22,
+          "count_per_edge_class": [
+            60505,
+            756
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": 34,
+          "count_per_edge_class": [
+            3042513,
+            32032
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": 50,
+          "count_per_edge_class": [
+            197083,
+            7020
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": 66,
+          "count_per_edge_class": [
+            50183,
+            2448
+          ]
+        }
+      ]
+    },
+    {
+      "side": "upper",
+      "records": [
+        {
+          "monochromatic": true,
+          "theta": -50,
+          "count_per_edge_class": [
+            4358679932,
+            24048661
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta": 54,
+          "count_per_edge_class": [
+            160031568,
+            3435523
+          ]
+        },
+        {
+          "monochromatic": true,
+          "theta": 62,
+          "count_per_edge_class": [
+            176062815,
+            1849897
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -70,
+          "count_per_edge_class": [
+            2251220,
+            542451
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -62,
+          "count_per_edge_class": [
+            417534,
+            21857
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -22,
+          "count_per_edge_class": [
+            204268844,
+            5549691
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": -14,
+          "count_per_edge_class": [
+            109485896,
+            792813
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": 26,
+          "count_per_edge_class": [
+            772450702,
+            8720943
+          ]
+        },
+        {
+          "monochromatic": false,
+          "theta": 34,
+          "count_per_edge_class": [
+            141510364,
+            3797157
+          ]
+        }
+      ]
+    }
+  ],
+  "shared_ordinary_theta_powers_0_through_6": [
+    [
+      1295,
+      1
+    ],
+    [
+      -2590,
+      1
+    ],
+    [
+      1679612,
+      1
+    ],
+    [
+      -3814648,
+      1
+    ],
+    [
+      4393553648,
+      1
+    ],
+    [
+      -14040602080,
+      1
+    ],
+    [
+      14383212251072,
+      1
+    ]
+  ],
+  "third_moments": [
+    [
+      -2253419363913228864,
+      925018672242955
+    ],
+    [
+      -85072761650304953462848,
+      34922229933188280115
+    ]
+  ],
+  "exact_difference": [
+    579595511175839744,
+    34922229933188280115
+  ],
+  "scope": "Two feasible fractional histograms with identical ordinary moments; no graph-realizability claim."
+}

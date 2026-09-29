@@ -1,0 +1,9 @@
+{"q": 1297, "n": 6, "family": "arithmetic_progression", "seconds": 0.005757291000918485, "off_diagonal_energy_fraction": 7.593774631662893e-05}
+{"q": 1297, "n": 6, "family": "seeded_uniform", "seconds": 0.0074538339977152646, "off_diagonal_energy_fraction": 3.257389216110034e-05}
+{"q": 65537, "n": 16, "family": "arithmetic_progression", "seconds": 0.016202291997615248, "off_diagonal_energy_fraction": 0.8858582665108435}
+{"q": 65537, "n": 16, "family": "seeded_uniform", "seconds": 0.016935457999352366, "off_diagonal_energy_fraction": 0.8651717261017982}
+{"q": 1000033, "n": 31, "family": "arithmetic_progression", "seconds": 0.8831559999962337, "off_diagonal_energy_fraction": 0.9566398734052669}
+{"q": 1000033, "n": 31, "family": "seeded_uniform", "seconds": 0.993133707990637, "off_diagonal_energy_fraction": 0.9540948803239234}
+{"q": 6700417, "n": 50, "family": "arithmetic_progression", "seconds": 24.825601332995575, "off_diagonal_energy_fraction": 0.9747812053957233}
+{"q": 6700417, "n": 50, "family": "seeded_uniform", "seconds": 31.7947918340069, "off_diagonal_energy_fraction": 0.9753152300511608}
+Completed covariance scale run.

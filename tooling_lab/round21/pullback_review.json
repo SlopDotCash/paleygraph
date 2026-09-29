@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "scope": "Every centered-orbit dual identity and radius verified with separate rational matrix multiplication; all scalar candidate sets and cyclic transports independently replayed.",
+  "cases": [
+    {
+      "name": "pullback_erase4",
+      "dual_functional_identities_checked": 4,
+      "queries_replayed": 128,
+      "scalar_candidates_checked": 64,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase8",
+      "dual_functional_identities_checked": 8,
+      "queries_replayed": 128,
+      "scalar_candidates_checked": 64,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase13",
+      "dual_functional_identities_checked": 13,
+      "queries_replayed": 128,
+      "scalar_candidates_checked": 66,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase14",
+      "dual_functional_identities_checked": 14,
+      "queries_replayed": 128,
+      "scalar_candidates_checked": 66,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase15",
+      "dual_functional_identities_checked": 15,
+      "queries_replayed": 128,
+      "scalar_candidates_checked": 69,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase16",
+      "dual_functional_identities_checked": 16,
+      "queries_replayed": 128,
+      "scalar_candidates_checked": 67,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase20",
+      "dual_functional_identities_checked": 20,
+      "queries_replayed": 16,
+      "scalar_candidates_checked": 8,
+      "cyclic_controls_checked": 512,
+      "universal_candidate_box_cap": 1,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "pullback_erase24",
+      "dual_functional_identities_checked": 24,
+      "queries_replayed": 6,
+      "scalar_candidates_checked": 3,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 4,
+      "universal_unique_completion": false
+    },
+    {
+      "name": "pullback_erase32",
+      "dual_functional_identities_checked": 32,
+      "queries_replayed": 6,
+      "scalar_candidates_checked": 2777,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 41472,
+      "universal_unique_completion": false
+    },
+    {
+      "name": "heldout_consecutive32",
+      "dual_functional_identities_checked": 32,
+      "queries_replayed": 32,
+      "scalar_candidates_checked": 53826,
+      "cyclic_controls_checked": 64,
+      "universal_candidate_box_cap": 41472,
+      "universal_unique_completion": false
+    },
+    {
+      "name": "heldout_alternating32",
+      "dual_functional_identities_checked": 32,
+      "queries_replayed": 32,
+      "scalar_candidates_checked": 0,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 30589793584572222784143360000000000,
+      "universal_unique_completion": false
+    },
+    {
+      "name": "heldout_random32",
+      "dual_functional_identities_checked": 32,
+      "queries_replayed": 32,
+      "scalar_candidates_checked": 0,
+      "cyclic_controls_checked": 0,
+      "universal_candidate_box_cap": 75399632030373292025058284273664000,
+      "universal_unique_completion": false
+    }
+  ],
+  "corrupt_pullback_certificates_rejected": [
+    "false_form",
+    "understated_physical_radius",
+    "wrong_minimum_radius",
+    "false_uniqueness"
+  ],
+  "source_sha256": {
+    "pullback_review.py": "79e76ef05393e978ddca89f79b9758257529fb05f01b179f6392f669a18049b4",
+    "erasure_review.py": "35c4948476839f7cdeb07eac8b2327dfcbe7a891176020d27cfac04ab59c2510"
+  },
+  "input_sha256": {
+    "pullback_summary.json": "efcfbae6a5dd10bcace69ff61ed34c0c3ba7691fa1338aecb8cf8d58f8792216",
+    "heldout_summary.json": "ca50196da3ce0b603bf3a0f9f1b0f0dedd63eb90e3171ede5c731e8b89179aaf",
+    "pullback_erase4.json": "683280776d75d57b39e9c5f74eacf6b4d69653f342a0366bc7ab10f9a1c3209c",
+    "pullback_erase8.json": "1a9fa95bf0f6ed85dbca85762ada4d1de811038f24f43b9a9c1a5f0dd4287095",
+    "pullback_erase13.json": "a4523a33cef82a0c18ac974ab20a3419a0804287bef17251a59f08d645b54d72",
+    "pullback_erase14.json": "62fa5902865cdc5e7889ac114e0aa93391aea0f32a3ca10b90ae135769d757ea",
+    "pullback_erase15.json": "c911b3dff30c4431e22be7be4c7cf16388bfbd057fd82cbd59d1bd97ac5ecacc",
+    "pullback_erase16.json": "c1a833ec7e69b26c869f2aaacb22edc603533fd396a80d082c98cee5ea0a5a7b",
+    "pullback_erase20.json": "7d8ef54c1cdd18bc11af3e54063bad5dd3e58dfada331b8bb02276793d521c22",
+    "pullback_erase24.json": "4b09365e542d2aaae91595628f8eaf143f1b0c1749952869ba54b594b4e5b66b",
+    "pullback_erase32.json": "9cacad8779faad4cc4813ec469b8552c1453148978a58b5e58e9679e5bfe46dd",
+    "heldout_consecutive32.json": "3a4036dde538ce79a60de9aa4a03f8d6c0875257f64337c0f020cb19f076c237",
+    "heldout_alternating32.json": "7d44b837b6178c079ea07869dcdb1cbc936be3ffb43b8dd3ad7abe2fd049ca49",
+    "heldout_random32.json": "6d25467d46eb39bf41fa38963a0b1949563b3134d47d382281728b0c26d7338a"
+  }
+}

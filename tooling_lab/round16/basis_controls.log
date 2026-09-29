@@ -1,0 +1,2 @@
+{"case": "nonfirst_pivot", "received_words_exhausted": 3125, "complete_space_members_per_word": 125, "queries_checked": 4375, "direction": [0, 1, 0]}
+{"case": "mixed_direction", "received_words_exhausted": 3125, "complete_space_members_per_word": 125, "queries_checked": 4375, "direction": [1, 2, 3]}

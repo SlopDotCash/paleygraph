@@ -1,0 +1,6 @@
+{"name": "small_complete", "mode": "field_projection", "relation_support": 2, "coefficient_products_per_reencoding": 16, "groups": {"positives": {"records": 256, "accepted": 256}, "probes": {"records": 90, "accepted": 5}}}
+{"name": "medium_walk", "mode": "field_projection", "relation_support": 2, "coefficient_products_per_reencoding": 32, "groups": {"positives": {"records": 65, "accepted": 65}, "probes": {"records": 90, "accepted": 1}}}
+{"name": "known_short_walk", "mode": "field_projection", "relation_support": 2, "coefficient_products_per_reencoding": 64, "groups": {"positives": {"records": 65, "accepted": 65}, "probes": {"records": 90, "accepted": 1}}}
+{"name": "known_centering_walk", "mode": "field_projection", "relation_support": 2, "coefficient_products_per_reencoding": 64, "groups": {"positives": {"records": 65, "accepted": 65}, "probes": {"records": 90, "accepted": 1}}}
+{"name": "quartic_window_walk", "mode": "field_projection", "relation_support": 9, "coefficient_products_per_reencoding": 576, "groups": {"positives": {"records": 33, "accepted": 33}, "probes": {"records": 90, "accepted": 1}}}
+{"status": "passed", "small_census": 6561, "accepted": 257, "degeneracy_records": 204, "corruptions_rejected": 12}

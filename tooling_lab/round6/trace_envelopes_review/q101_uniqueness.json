@@ -1,0 +1,175 @@
+{
+  "q": 101,
+  "equation_rank": 9,
+  "support_size": 10,
+  "equation_nullity": 1,
+  "null_direction": [
+    [
+      -3,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      42,
+      5
+    ],
+    [
+      -24,
+      5
+    ],
+    [
+      -3,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      -14,
+      5
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "support_points": [
+    [
+      true,
+      -14
+    ],
+    [
+      true,
+      -6
+    ],
+    [
+      true,
+      2
+    ],
+    [
+      true,
+      10
+    ],
+    [
+      true,
+      18
+    ],
+    [
+      false,
+      -18
+    ],
+    [
+      false,
+      -10
+    ],
+    [
+      false,
+      -2
+    ],
+    [
+      false,
+      6
+    ],
+    [
+      false,
+      14
+    ]
+  ],
+  "actual_scaled_weights": [
+    [
+      0,
+      1
+    ],
+    [
+      18,
+      101
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      6,
+      101
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      4,
+      101
+    ],
+    [
+      6,
+      101
+    ],
+    [
+      5,
+      101
+    ],
+    [
+      6,
+      101
+    ],
+    [
+      4,
+      101
+    ]
+  ],
+  "zero_weight_constraints": [
+    {
+      "point": [
+        true,
+        -14
+      ],
+      "direction": [
+        -3,
+        1
+      ]
+    },
+    {
+      "point": [
+        true,
+        2
+      ],
+      "direction": [
+        42,
+        5
+      ]
+    },
+    {
+      "point": [
+        true,
+        18
+      ],
+      "direction": [
+        -3,
+        5
+      ]
+    }
+  ],
+  "feasible_parameter_interval": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "conclusion": "At this finite support and these exact ordinary moments, nonnegativity leaves a unique feasible histogram."
+}

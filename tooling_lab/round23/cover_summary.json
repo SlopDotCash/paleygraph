@@ -1,0 +1,70 @@
+{
+  "status": "produced",
+  "cases": [
+    {
+      "name": "cover32",
+      "artifact": "cover32.json",
+      "nodes": 131,
+      "cuts": 21,
+      "node_kinds": {
+        "split": 61,
+        "excluded": 70
+      },
+      "continuous_witnesses": 0,
+      "unresolved_leaves": 0,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "cover33",
+      "artifact": "cover33.json",
+      "nodes": 1337,
+      "cuts": 64,
+      "node_kinds": {
+        "split": 662,
+        "unresolved": 1,
+        "excluded": 674
+      },
+      "continuous_witnesses": 0,
+      "unresolved_leaves": 1,
+      "universal_unique_completion": false
+    },
+    {
+      "name": "cover36",
+      "artifact": "cover36.json",
+      "nodes": 1867,
+      "cuts": 64,
+      "node_kinds": {
+        "split": 927,
+        "excluded": 940
+      },
+      "continuous_witnesses": 0,
+      "unresolved_leaves": 0,
+      "universal_unique_completion": true
+    },
+    {
+      "name": "cover40",
+      "artifact": "cover40.json",
+      "nodes": 2021,
+      "cuts": 64,
+      "node_kinds": {
+        "split": 1004,
+        "excluded": 998,
+        "unresolved": 19
+      },
+      "continuous_witnesses": 1,
+      "unresolved_leaves": 19,
+      "universal_unique_completion": false
+    }
+  ],
+  "input_sha256": {
+    "../round22/metric_consecutive32.json": "484959f7befe4bf9fbcd9bd1fb3a08b9dcbd0e783d5e8ad1422c3aedaa679ebb",
+    "consecutive33.json": "4f1666d22a9511bb37ff175e503d4af269b53f925adef747563c60aab23b22c1",
+    "consecutive36.json": "cb41b7f3da57e2960d19a6580c6304be8363eaa0457b4363eb47fae28915c935",
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028"
+  },
+  "source_sha256": {
+    "cover_experiments.py": "bb19c9ecc37e801a36adad4907ba2ae31edab2a7f0374e3bccbf721d311ea80a",
+    "box_cover.py": "ba9c8cbb73f964ee29cb67be25bcb771589776ab3b8dad1c00461291e29ecfae",
+    "../round22/conditioned_erasure.py": "3c5c6546156d51f1100d90ec29dc1b169691e1fb5e92194c885bc8570d3b89b4"
+  }
+}

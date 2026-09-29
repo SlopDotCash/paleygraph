@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-09-06T17:43:09.407600+00:00",
+  "previous_goal_turn_classification": "progress: exact cross-level compatibility, a stronger lower baseline, and a quartic counterexample to the pointwise top-layer shortcut; uniform bounds unchanged",
+  "files": {
+    "experiments/parallel51_collision_transport.py": "b5bdff523f06de80293065a482f90fed5ea84b20513b3ddb7c50bbf6279d9df2",
+    "research/parallel51-collision-transport-2026-09-06.md": "95f1f78d4a2db23b323cc715a285bfafe8ba110271205aee1ebc55843985683a",
+    "research/parallel51-pass-summary-2026-09-06.md": "ca10dd517706b05645ee5871b7d6ec06d465319d8512ba38d3b8f316a9dae889",
+    "results/parallel51_prior_state_2026_09_06.json": "78e6eaa6c2052482034ec984efdf1cb01260fb26ca74d910556aa81f6325d398",
+    "results/parallel51_collision_transport_2026_09_06.json": "b22e8ba4f1cc2fbb535ada36b046bca483fd4f0c9b90810f88079ea990cd155c",
+    "results/parallel51_source_scope_2026_09_06.json": "ffb1bf9d30a5aadfe95e0d3f23a4c3c26d4fbe4ef6698a4df2683928ca7a0c2c",
+    "README.md": "061d1e26d5877380c1cbd5f24f8c1318b8914c9d2b6152caeb9cf362d3939d24",
+    "research/frontier.md": "4e8468f080ff2ae45f6986d3244d9eaa46ebc16b577013810e1a1a214f26205e",
+    "research/source-audit.md": "8e083921882d4d58f1cb238c8587e9e6c58b58d3bf90af50a73a614082771453",
+    "research/checkpoint-2026-09-04.md": "60fdcbee83b89dfbf8c0f42a59802784aab6f77ff0ec8a2553a5c663d5113aab"
+  }
+}

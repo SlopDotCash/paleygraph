@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "base",
+      "supported_cutoff_decodings": 250,
+      "query_systems_independently_replayed": 475,
+      "multibranch_decodings": 125,
+      "complete_space_members_per_word": 125
+    },
+    {
+      "case": "nonfirst_pivot",
+      "supported_cutoff_decodings": 250,
+      "query_systems_independently_replayed": 475,
+      "multibranch_decodings": 125,
+      "complete_space_members_per_word": 125
+    },
+    {
+      "case": "mixed_direction",
+      "supported_cutoff_decodings": 250,
+      "query_systems_independently_replayed": 475,
+      "multibranch_decodings": 125,
+      "complete_space_members_per_word": 125
+    }
+  ],
+  "corrupt_decoding_artifacts_rejected": 4,
+  "no_guarded_profile_control_passed": true,
+  "scope": "Production decoder and independent complete branch reviewer tested against full125-polynomial oracles, with multibranch routing, affine origins, parameter changes and corrupted outputs/metrics. A tiny geometry correctly rejects an impossible singleton-reserving profile.",
+  "source_sha256": {
+    "decoding_controls.py": "90338dd86041fe2ece47a5eb94244367804c2d94d12821272c086ee991133af2",
+    "conditional_cover.py": "53e427c4c47ea650bd52b8cf65a35f20e547b38ea71e7fca93adf223a98a301b",
+    "conditional_verifier.py": "4f59795241db54d9bc24a73527da7187aef47855ccf632a36f581c6c8dbbdb92",
+    "conditional_pruning.py": "0e2a288cb1778fb1f8a10e6458920eb32f1e89303d39d020b30ead7a914898e8",
+    "decoding_review.py": "06ef53cce17a848ae716ffcb7e9482b6eec492a91d02f8c8e774e4ba75b68118",
+    "guard_profiles.py": "16d877667aab4bb52c665389531520fd290330dde606beee61a2565127aa26fb",
+    "toy_controls.py": "2cbb45c49aa48f8340a8081a135339f28a8e8b56eaaf95be434aa9886bd40b02",
+    "../round15/capacity_search.py": "7d788d29b073a22a418361145cf5a250d46fae1dffe212a46809a1b3f3ced514",
+    "../round15/projective_profile.py": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+    "../round14/arc_pruning.py": "f17ec68596ea342675d1a28b02d5f0ace859c2e04e8bcd3d15b5d1e5be9fbf4e",
+    "../round14/arc_filter_fast.py": "c2d1b1c51036571f268984926ae72a4fbe8dc841c57be0306ed05a437f379f94",
+    "../round14/arc_review.py": "95ce098d8c5c32356364a430783d5b4a990dcd88445318140db2d26d76271665",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8",
+    "../round14/arc_certificate.py": "48305a4d4fd98068992d4893a66eca3f9359261804015def975e0a7b5a30b513",
+    "../round14/dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a",
+    "../round14/arc_profile.py": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f"
+  }
+}

@@ -1,0 +1,1376 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-05T20:07:08.464592+00:00",
+  "checks": {
+    "first_weighted_constant": 1,
+    "recurrence_constant": 1,
+    "second_term_total_power": 1,
+    "amplitude_power": 1,
+    "refined_log_power": 1,
+    "published_recurrence_log_power": 1,
+    "baseline_power_improvement": 1,
+    "mixed_moment_ledger_maximum": 1,
+    "all_invariant_sets_Cstar_one_in_selected_fields": 221,
+    "weighted_lifting_exact_finite_check": 112,
+    "convolution_total_mass": 84,
+    "origin_pointwise_bound": 84,
+    "origin_energy_absorption": 84,
+    "recurrence_exact_finite_check": 42,
+    "independent_direct_six_category": 450
+  },
+  "exponent_ledger": {
+    "knots": {
+      "1": "1",
+      "2": "31/20",
+      "3": "2",
+      "6": "5/2",
+      "12": "3",
+      "24": "7/2",
+      "48": "4"
+    },
+    "candidates": [
+      {
+        "k": 1,
+        "l": 1,
+        "saving": "-1"
+      },
+      {
+        "k": 1,
+        "l": 2,
+        "saving": "-29/80"
+      },
+      {
+        "k": 1,
+        "l": 3,
+        "saving": "-1/6"
+      },
+      {
+        "k": 1,
+        "l": 6,
+        "saving": "-1/24"
+      },
+      {
+        "k": 1,
+        "l": 12,
+        "saving": "0"
+      },
+      {
+        "k": 1,
+        "l": 24,
+        "saving": "1/96"
+      },
+      {
+        "k": 1,
+        "l": 48,
+        "saving": "1/96"
+      },
+      {
+        "k": 2,
+        "l": 1,
+        "saving": "-29/80"
+      },
+      {
+        "k": 2,
+        "l": 2,
+        "saving": "-9/80"
+      },
+      {
+        "k": 2,
+        "l": 3,
+        "saving": "-3/80"
+      },
+      {
+        "k": 2,
+        "l": 6,
+        "saving": "1/480"
+      },
+      {
+        "k": 2,
+        "l": 12,
+        "saving": "11/960"
+      },
+      {
+        "k": 2,
+        "l": 24,
+        "saving": "7/640"
+      },
+      {
+        "k": 2,
+        "l": 48,
+        "saving": "31/3840"
+      },
+      {
+        "k": 3,
+        "l": 1,
+        "saving": "-1/6"
+      },
+      {
+        "k": 3,
+        "l": 2,
+        "saving": "-3/80"
+      },
+      {
+        "k": 3,
+        "l": 3,
+        "saving": "0"
+      },
+      {
+        "k": 3,
+        "l": 6,
+        "saving": "1/72"
+      },
+      {
+        "k": 3,
+        "l": 12,
+        "saving": "1/72"
+      },
+      {
+        "k": 3,
+        "l": 24,
+        "saving": "1/96"
+      },
+      {
+        "k": 3,
+        "l": 48,
+        "saving": "1/144"
+      },
+      {
+        "k": 6,
+        "l": 1,
+        "saving": "-1/24"
+      },
+      {
+        "k": 6,
+        "l": 2,
+        "saving": "1/480"
+      },
+      {
+        "k": 6,
+        "l": 3,
+        "saving": "1/72"
+      },
+      {
+        "k": 6,
+        "l": 6,
+        "saving": "1/72"
+      },
+      {
+        "k": 6,
+        "l": 12,
+        "saving": "1/96"
+      },
+      {
+        "k": 6,
+        "l": 24,
+        "saving": "1/144"
+      },
+      {
+        "k": 6,
+        "l": 48,
+        "saving": "5/1152"
+      },
+      {
+        "k": 12,
+        "l": 1,
+        "saving": "0"
+      },
+      {
+        "k": 12,
+        "l": 2,
+        "saving": "11/960"
+      },
+      {
+        "k": 12,
+        "l": 3,
+        "saving": "1/72"
+      },
+      {
+        "k": 12,
+        "l": 6,
+        "saving": "1/96"
+      },
+      {
+        "k": 12,
+        "l": 12,
+        "saving": "1/144"
+      },
+      {
+        "k": 12,
+        "l": 24,
+        "saving": "5/1152"
+      },
+      {
+        "k": 12,
+        "l": 48,
+        "saving": "1/384"
+      },
+      {
+        "k": 24,
+        "l": 1,
+        "saving": "1/96"
+      },
+      {
+        "k": 24,
+        "l": 2,
+        "saving": "7/640"
+      },
+      {
+        "k": 24,
+        "l": 3,
+        "saving": "1/96"
+      },
+      {
+        "k": 24,
+        "l": 6,
+        "saving": "1/144"
+      },
+      {
+        "k": 24,
+        "l": 12,
+        "saving": "5/1152"
+      },
+      {
+        "k": 24,
+        "l": 24,
+        "saving": "1/384"
+      },
+      {
+        "k": 24,
+        "l": 48,
+        "saving": "7/4608"
+      },
+      {
+        "k": 48,
+        "l": 1,
+        "saving": "1/96"
+      },
+      {
+        "k": 48,
+        "l": 2,
+        "saving": "31/3840"
+      },
+      {
+        "k": 48,
+        "l": 3,
+        "saving": "1/144"
+      },
+      {
+        "k": 48,
+        "l": 6,
+        "saving": "5/1152"
+      },
+      {
+        "k": 48,
+        "l": 12,
+        "saving": "1/384"
+      },
+      {
+        "k": 48,
+        "l": 24,
+        "saving": "7/4608"
+      },
+      {
+        "k": 48,
+        "l": 48,
+        "saving": "1/1152"
+      }
+    ],
+    "best_saving": "1/72",
+    "maximizers": [
+      {
+        "k": 3,
+        "l": 6,
+        "saving": "1/72"
+      },
+      {
+        "k": 3,
+        "l": 12,
+        "saving": "1/72"
+      },
+      {
+        "k": 6,
+        "l": 3,
+        "saving": "1/72"
+      },
+      {
+        "k": 6,
+        "l": 6,
+        "saving": "1/72"
+      },
+      {
+        "k": 12,
+        "l": 3,
+        "saving": "1/72"
+      }
+    ],
+    "scope": "Finite endpoint check for the explicitly proved piecewise envelope; not an optimality theorem for all analytic methods."
+  },
+  "weighted_fields": [
+    {
+      "p": 5,
+      "n": 4,
+      "invariant_cosets": 1,
+      "energies": {
+        "1": 4,
+        "2": 52,
+        "3": 820,
+        "4": 13108,
+        "5": 209716,
+        "6": 3355444,
+        "7": 53687092,
+        "8": 858993460,
+        "9": 13743895348,
+        "10": 219902325556,
+        "11": 3518437208884,
+        "12": 56294995342132
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 4,
+        "3": 12,
+        "4": 52,
+        "5": 204,
+        "6": 820,
+        "7": 3276,
+        "8": 13108,
+        "9": 52428,
+        "10": 209716,
+        "11": 838860,
+        "12": 3355444
+      }
+    },
+    {
+      "p": 13,
+      "n": 4,
+      "invariant_cosets": 3,
+      "energies": {
+        "1": 4,
+        "2": 36,
+        "3": 424,
+        "4": 5796,
+        "5": 85944,
+        "6": 1327656,
+        "7": 20909564,
+        "8": 332214116,
+        "9": 5298989284,
+        "10": 84668311176,
+        "11": 1353881095604,
+        "12": 21656391387336
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 36,
+        "5": 40,
+        "6": 424,
+        "7": 980,
+        "8": 5796,
+        "9": 18180,
+        "10": 85944,
+        "11": 308660,
+        "12": 1327656
+      }
+    },
+    {
+      "p": 17,
+      "n": 4,
+      "invariant_cosets": 4,
+      "energies": {
+        "1": 4,
+        "2": 36,
+        "3": 400,
+        "4": 5124,
+        "5": 72084,
+        "6": 1073424,
+        "7": 16515412,
+        "8": 258744132,
+        "9": 4093719952,
+        "10": 65110705636,
+        "11": 1038493287220,
+        "12": 16588236183312
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 36,
+        "5": 20,
+        "6": 400,
+        "7": 588,
+        "8": 5124,
+        "9": 12096,
+        "10": 72084,
+        "11": 218020,
+        "12": 1073424
+      }
+    },
+    {
+      "p": 29,
+      "n": 4,
+      "invariant_cosets": 7,
+      "energies": {
+        "1": 4,
+        "2": 36,
+        "3": 400,
+        "4": 4900,
+        "5": 63984,
+        "6": 877536,
+        "7": 12511356,
+        "8": 183854372,
+        "9": 2764791400,
+        "10": 42300596496,
+        "11": 655463201496,
+        "12": 10250858431552
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 36,
+        "5": 0,
+        "6": 400,
+        "7": 84,
+        "8": 4900,
+        "9": 3024,
+        "10": 63984,
+        "11": 72600,
+        "12": 877536
+      }
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "invariant_cosets": 1,
+      "energies": {
+        "1": 16,
+        "2": 3856,
+        "3": 986896,
+        "4": 252645136,
+        "5": 64677154576,
+        "6": 16557351571216,
+        "7": 4238682002231056,
+        "8": 1085102592571150096,
+        "9": 277786263698214424336,
+        "10": 71113283506742892629776,
+        "11": 18205000577726180513222416,
+        "12": 4660480147897902211384938256
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 16,
+        "3": 240,
+        "4": 3856,
+        "5": 61680,
+        "6": 986896,
+        "7": 15790320,
+        "8": 252645136,
+        "9": 4042322160,
+        "10": 64677154576,
+        "11": 1034834473200,
+        "12": 16557351571216
+      }
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "invariant_cosets": 6,
+      "energies": {
+        "1": 16,
+        "2": 1104,
+        "3": 191680,
+        "4": 45157840,
+        "5": 11377186176,
+        "6": 2903817489408,
+        "7": 742958382288096,
+        "8": 190177253430698448,
+        "9": 48684412893461323408,
+        "10": 12463163448137318654464,
+        "11": 3190567623457628324622288,
+        "12": 816785205121136013801792640
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 16,
+        "3": 0,
+        "4": 1104,
+        "5": 8320,
+        "6": 191680,
+        "7": 2642752,
+        "8": 45157840,
+        "9": 702410832,
+        "10": 11377186176,
+        "11": 181072388464,
+        "12": 2903817489408
+      }
+    },
+    {
+      "p": 193,
+      "n": 64,
+      "invariant_cosets": 3,
+      "energies": {
+        "1": 64,
+        "2": 89920,
+        "3": 356302720,
+        "4": 1458440425792,
+        "5": 5973688377334144,
+        "6": 24468220279424167552,
+        "7": 100221829619591035294912,
+        "8": 410508614064806051175403840,
+        "9": 1681443283204395194498349350464,
+        "10": 6887191688004755345970417704640640,
+        "11": 28209937154067438261878329089744229696,
+        "12": 115547902583060223608917606551398737853056
+      },
+      "origin_counts": {
+        "1": 0,
+        "2": 64,
+        "3": 1152,
+        "4": 89920,
+        "5": 5541120,
+        "6": 356302720,
+        "7": 22785706944,
+        "8": 1458440425792,
+        "9": 93338662413888,
+        "10": 5973688377334144,
+        "11": 382315922386047936,
+        "12": 24468220279424167552
+      }
+    }
+  ],
+  "direct_cases": [
+    {
+      "p": 73,
+      "n": 4,
+      "E3": 400,
+      "T6": 400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 15
+    },
+    {
+      "p": 1033,
+      "n": 8,
+      "E3": 5120,
+      "T6": 5120,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 69
+    },
+    {
+      "p": 16417,
+      "n": 16,
+      "E3": 50560,
+      "T6": 50560,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 297
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "E3": 51040,
+      "T6": 50560,
+      "J6": 0,
+      "repeated_R6": 480,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 305
+    },
+    {
+      "p": 262337,
+      "n": 32,
+      "E3": 446720,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1233
+    },
+    {
+      "p": 262657,
+      "n": 32,
+      "E3": 458240,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 11520,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1271
+    },
+    {
+      "p": 271393,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 276961,
+      "n": 32,
+      "E3": 450560,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 3840,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1252
+    },
+    {
+      "p": 284129,
+      "n": 32,
+      "E3": 452480,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 5760,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1257
+    },
+    {
+      "p": 286753,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1309
+    },
+    {
+      "p": 289889,
+      "n": 32,
+      "E3": 447680,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 960,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1241
+    },
+    {
+      "p": 302977,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 306913,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 325217,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 357281,
+      "n": 32,
+      "E3": 464000,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 17280,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1295
+    },
+    {
+      "p": 376577,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 380129,
+      "n": 32,
+      "E3": 460160,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 13440,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1283
+    },
+    {
+      "p": 396001,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 397057,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 406817,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 417793,
+      "n": 32,
+      "E3": 448640,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 1920,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1245
+    },
+    {
+      "p": 503137,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 506593,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 665857,
+      "n": 32,
+      "E3": 469760,
+      "T6": 446720,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 23040,
+      "normalized_multiset_candidates": 1293
+    },
+    {
+      "p": 4194433,
+      "n": 64,
+      "E3": 3750400,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5025
+    },
+    {
+      "p": 4195649,
+      "n": 64,
+      "E3": 3758080,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 7680,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5044
+    },
+    {
+      "p": 4198529,
+      "n": 64,
+      "E3": 3773440,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5063
+    },
+    {
+      "p": 4199297,
+      "n": 64,
+      "E3": 3754240,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 3840,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5037
+    },
+    {
+      "p": 4200257,
+      "n": 64,
+      "E3": 3796480,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5085
+    },
+    {
+      "p": 4201409,
+      "n": 64,
+      "E3": 3796480,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5085
+    },
+    {
+      "p": 4221761,
+      "n": 64,
+      "E3": 3761920,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 11520,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5049
+    },
+    {
+      "p": 4243969,
+      "n": 64,
+      "E3": 3888640,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5205
+    },
+    {
+      "p": 4251329,
+      "n": 64,
+      "E3": 3842560,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5145
+    },
+    {
+      "p": 4258753,
+      "n": 64,
+      "E3": 3842560,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5145
+    },
+    {
+      "p": 4263361,
+      "n": 64,
+      "E3": 3842560,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 46080,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5161
+    },
+    {
+      "p": 4264961,
+      "n": 64,
+      "E3": 3784960,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 34560,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5087
+    },
+    {
+      "p": 4285249,
+      "n": 64,
+      "E3": 3888640,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 138240,
+      "normalized_multiset_candidates": 5205
+    },
+    {
+      "p": 4310081,
+      "n": 64,
+      "E3": 3796480,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 46080,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5101
+    },
+    {
+      "p": 4323329,
+      "n": 64,
+      "E3": 3819520,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5123
+    },
+    {
+      "p": 4327489,
+      "n": 64,
+      "E3": 3911680,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 92160,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5243
+    },
+    {
+      "p": 4329601,
+      "n": 64,
+      "E3": 3865600,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5183
+    },
+    {
+      "p": 4337537,
+      "n": 64,
+      "E3": 3808000,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 11520,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5109
+    },
+    {
+      "p": 4443841,
+      "n": 64,
+      "E3": 3854080,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 11520,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5169
+    },
+    {
+      "p": 4592321,
+      "n": 64,
+      "E3": 3752320,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 1920,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5033
+    },
+    {
+      "p": 4667969,
+      "n": 64,
+      "E3": 3865600,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5183
+    },
+    {
+      "p": 4852481,
+      "n": 64,
+      "E3": 3888640,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 92160,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5205
+    },
+    {
+      "p": 4861889,
+      "n": 64,
+      "E3": 3819520,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5123
+    },
+    {
+      "p": 4885633,
+      "n": 64,
+      "E3": 3980800,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 184320,
+      "normalized_multiset_candidates": 5325
+    },
+    {
+      "p": 5109697,
+      "n": 64,
+      "E3": 3911680,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5243
+    },
+    {
+      "p": 5302721,
+      "n": 64,
+      "E3": 3804160,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 7680,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5104
+    },
+    {
+      "p": 5488961,
+      "n": 64,
+      "E3": 4506880,
+      "T6": 3750400,
+      "J6": 698880,
+      "repeated_R6": 57600,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 6294
+    },
+    {
+      "p": 5587457,
+      "n": 64,
+      "E3": 3934720,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 92160,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5265
+    },
+    {
+      "p": 6109057,
+      "n": 64,
+      "E3": 3804160,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 53760,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5120
+    },
+    {
+      "p": 6267841,
+      "n": 64,
+      "E3": 3900160,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 57600,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5245
+    },
+    {
+      "p": 6296513,
+      "n": 64,
+      "E3": 3781120,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 30720,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5082
+    },
+    {
+      "p": 6303809,
+      "n": 64,
+      "E3": 3808000,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 57600,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5125
+    },
+    {
+      "p": 6356033,
+      "n": 64,
+      "E3": 3934720,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 184320,
+      "normalized_multiset_candidates": 5265
+    },
+    {
+      "p": 6700417,
+      "n": 64,
+      "E3": 4816960,
+      "T6": 3750400,
+      "J6": 698880,
+      "repeated_R6": 367680,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 6965
+    },
+    {
+      "p": 6867137,
+      "n": 64,
+      "E3": 3934720,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 138240,
+      "normalized_multiset_candidates": 5265
+    },
+    {
+      "p": 6878593,
+      "n": 64,
+      "E3": 5409280,
+      "T6": 3750400,
+      "J6": 1382400,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 276480,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 7217
+    },
+    {
+      "p": 7041409,
+      "n": 64,
+      "E3": 5409280,
+      "T6": 3750400,
+      "J6": 1382400,
+      "repeated_R6": 92160,
+      "distinct_balanced_R6": 184320,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 7249
+    },
+    {
+      "p": 7204033,
+      "n": 64,
+      "E3": 5486080,
+      "T6": 3750400,
+      "J6": 1382400,
+      "repeated_R6": 168960,
+      "distinct_balanced_R6": 184320,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 7382
+    },
+    {
+      "p": 7563649,
+      "n": 64,
+      "E3": 3877120,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 34560,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5207
+    },
+    {
+      "p": 7636481,
+      "n": 64,
+      "E3": 4003840,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 184320,
+      "normalized_multiset_candidates": 5363
+    },
+    {
+      "p": 7997057,
+      "n": 64,
+      "E3": 4026880,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 92160,
+      "distinct_balanced_R6": 92160,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5417
+    },
+    {
+      "p": 8940097,
+      "n": 64,
+      "E3": 3957760,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 92160,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5303
+    },
+    {
+      "p": 9190913,
+      "n": 64,
+      "E3": 5478400,
+      "T6": 3750400,
+      "J6": 1382400,
+      "repeated_R6": 115200,
+      "distinct_balanced_R6": 184320,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 7347
+    },
+    {
+      "p": 9935297,
+      "n": 64,
+      "E3": 3934720,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 46080,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5281
+    },
+    {
+      "p": 10069889,
+      "n": 64,
+      "E3": 3800320,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 3840,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 5097
+    },
+    {
+      "p": 10135681,
+      "n": 64,
+      "E3": 3842560,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 46080,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5161
+    },
+    {
+      "p": 10219457,
+      "n": 64,
+      "E3": 5455360,
+      "T6": 3750400,
+      "J6": 1382400,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 276480,
+      "distinct_unbalanced_R6": 46080,
+      "normalized_multiset_candidates": 7277
+    },
+    {
+      "p": 11127041,
+      "n": 64,
+      "E3": 5271040,
+      "T6": 3750400,
+      "J6": 1397760,
+      "repeated_R6": 122880,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 7591
+    },
+    {
+      "p": 12720769,
+      "n": 64,
+      "E3": 3900160,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 11520,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 92160,
+      "normalized_multiset_candidates": 5229
+    },
+    {
+      "p": 13928833,
+      "n": 64,
+      "E3": 3957760,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 23040,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 184320,
+      "normalized_multiset_candidates": 5303
+    },
+    {
+      "p": 13973761,
+      "n": 64,
+      "E3": 3804160,
+      "T6": 3750400,
+      "J6": 0,
+      "repeated_R6": 7680,
+      "distinct_balanced_R6": 46080,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 5104
+    }
+  ],
+  "input_sha256": {
+    "experiments/parallel28_verify_2026_09_05.py": "17b9cab4aff4e18b6a2e0496fffec18769208c564fed31b369fe032ffe850d3f",
+    "experiments/parallel27_six_distinct_2026_09_05.py": "5ecb145ba324fc80071c1e2e8a53185c53d113a37a86d04c70ee53d6f1ad2519",
+    "experiments/parallel27_direct_six.cpp": "7a0bcf565dd070bdf343ec9662eae4f546e5546ede8cd5edfbb2c0b97123c801",
+    "results/parallel28_complete_remainder_2026_09_05.json": "81832f29f51399917c81ae1184f318bc1ac18dbad81f3df4bd1d0215459ce063",
+    "research/parallel28-moment-recurrence-2026-09-05.md": "59ee458120af5b78e41f5ece79b9e0a5a9c49ca2524805335d36b8a8c12ef3a9"
+  },
+  "scope": "Rational arithmetic and independent finite checks. The uniform analytic proof remains an ordinary argument using cited incidence and MRSS theorems; no Lean or separate-author review claimed."
+}

@@ -1,0 +1,332 @@
+{
+  "status": "all_exact_checks_passed",
+  "scope": "artificial affine quartic countermodel; no SS/CS/LM counterexample",
+  "conditional_completion_checks": {
+    "identities": 1750,
+    "completion_contributions": 23720,
+    "fields": [
+      {
+        "p": 11,
+        "conditioned_identities": 1650,
+        "completion_contributions": 21120,
+        "distinct_moments_evaluated": 1584
+      },
+      {
+        "p": 13,
+        "conditioned_identities": 100,
+        "completion_contributions": 2600,
+        "distinct_moments_evaluated": 704
+      }
+    ]
+  },
+  "local_perturbation_checks": {
+    "unordered_pairs": 54285,
+    "fields": [
+      {
+        "p": 11,
+        "n": 3,
+        "unordered_pairs": 13530
+      },
+      {
+        "p": 13,
+        "n": 3,
+        "unordered_pairs": 40755
+      }
+    ]
+  },
+  "hypergraph_checks": [
+    {
+      "p": 67,
+      "n": 4,
+      "edges": 2211,
+      "affine_orbits": [
+        {
+          "representative": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "size": 2211
+        }
+      ],
+      "ordered_pair_intersection_counts": [
+        3789654,
+        1039170,
+        53064,
+        4422,
+        2211
+      ],
+      "mean_u": {
+        "numerator": 3,
+        "denominator": 1040
+      },
+      "variance_u": {
+        "numerator": 3111,
+        "denominator": 1081600
+      },
+      "variance_z": {
+        "numerator": 1875933,
+        "denominator": 67600
+      },
+      "covariance_m_u": {
+        "numerator": 1422,
+        "denominator": 4225
+      },
+      "true_moment_mean": {
+        "numerator": 156996,
+        "denominator": 65
+      },
+      "true_moment_variance": {
+        "numerator": 166973184,
+        "denominator": 4225
+      },
+      "calibration_tau_squared": {
+        "rational_part": {
+          "numerator": 2673446877,
+          "denominator": 67600
+        },
+        "sqrt_p_coefficient": {
+          "numerator": 34128,
+          "denominator": 4225
+        }
+      },
+      "planted_z_sqrt_p_coefficient": {
+        "numerator": 3111,
+        "denominator": 260
+      },
+      "distinct_three_point_degrees": 6633,
+      "status": "all_exact_checks_passed"
+    },
+    {
+      "p": 71,
+      "n": 4,
+      "edges": 2485,
+      "affine_orbits": [
+        {
+          "representative": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "size": 2485
+        }
+      ],
+      "ordered_pair_intersection_counts": [
+        4860660,
+        1247470,
+        59640,
+        4970,
+        2485
+      ],
+      "mean_u": {
+        "numerator": 1,
+        "denominator": 391
+      },
+      "variance_u": {
+        "numerator": 390,
+        "denominator": 152881
+      },
+      "variance_z": {
+        "numerator": 3987360,
+        "denominator": 152881
+      },
+      "covariance_m_u": {
+        "numerator": -6144,
+        "denominator": 8993
+      },
+      "true_moment_mean": {
+        "numerator": 59228,
+        "denominator": 23
+      },
+      "true_moment_variance": {
+        "numerator": 22132224,
+        "denominator": 529
+      },
+      "calibration_tau_squared": {
+        "rational_part": {
+          "numerator": 6400200096,
+          "denominator": 152881
+        },
+        "sqrt_p_coefficient": {
+          "numerator": -147456,
+          "denominator": 8993
+        }
+      },
+      "planted_z_sqrt_p_coefficient": {
+        "numerator": 4680,
+        "denominator": 391
+      },
+      "distinct_three_point_degrees": 7455,
+      "status": "all_exact_checks_passed"
+    },
+    {
+      "p": 127,
+      "n": 5,
+      "edges": 32004,
+      "affine_orbits": [
+        {
+          "representative": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "size": 8001
+        },
+        {
+          "representative": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "size": 16002
+        },
+        {
+          "representative": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "size": 8001
+        }
+      ],
+      "ordered_pair_intersection_counts": [
+        899360406,
+        121183146,
+        3312414,
+        368046,
+        32004
+      ],
+      "mean_u": {
+        "numerator": 12,
+        "denominator": 775
+      },
+      "variance_u": {
+        "numerator": 411046,
+        "denominator": 24625625
+      },
+      "variance_z": {
+        "numerator": 7517209248,
+        "denominator": 24625625
+      },
+      "covariance_m_u": {
+        "numerator": 91392,
+        "denominator": 25625
+      },
+      "true_moment_mean": {
+        "numerator": 192394,
+        "denominator": 25
+      },
+      "true_moment_variance": {
+        "numerator": 9091252224,
+        "denominator": 25625
+      },
+      "calibration_tau_squared": {
+        "rational_part": {
+          "numerator": 8744210596512,
+          "denominator": 24625625
+        },
+        "sqrt_p_coefficient": {
+          "numerator": 2193408,
+          "denominator": 25625
+        }
+      },
+      "planted_z_sqrt_p_coefficient": {
+        "numerator": 46356,
+        "denominator": 775
+      },
+      "distinct_three_point_degrees": 40005,
+      "status": "all_exact_checks_passed"
+    },
+    {
+      "p": 131,
+      "n": 5,
+      "edges": 34060,
+      "affine_orbits": [
+        {
+          "representative": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "size": 8515
+        },
+        {
+          "representative": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "size": 17030
+        },
+        {
+          "representative": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "size": 8515
+        }
+      ],
+      "ordered_pair_intersection_counts": [
+        1022804770,
+        133327870,
+        3525210,
+        391690,
+        34060
+      ],
+      "mean_u": {
+        "numerator": 5,
+        "denominator": 344
+      },
+      "variance_u": {
+        "numerator": 235045,
+        "denominator": 15028672
+      },
+      "variance_z": {
+        "numerator": 277118055,
+        "denominator": 939292
+      },
+      "covariance_m_u": {
+        "numerator": 152520,
+        "denominator": 234823
+      },
+      "true_moment_mean": {
+        "numerator": 342090,
+        "denominator": 43
+      },
+      "true_moment_variance": {
+        "numerator": 86022351360,
+        "denominator": 234823
+      },
+      "calibration_tau_squared": {
+        "rational_part": {
+          "numerator": 344366523495,
+          "denominator": 939292
+        },
+        "sqrt_p_coefficient": {
+          "numerator": 3660480,
+          "denominator": 234823
+        }
+      },
+      "planted_z_sqrt_p_coefficient": {
+        "numerator": 5145,
+        "denominator": 86
+      },
+      "distinct_three_point_degrees": 42575,
+      "status": "all_exact_checks_passed"
+    }
+  ],
+  "source_sha256": {
+    "research/parallel7-classical-2026-09-04.md": "b8493c77e4ad15fc42680a461770c8dbdd4ea0d0614d978c0eb359aa4852eb55",
+    "experiments/parallel7_classical_2026_09_04.py": "84a50bc4dbfc745ca8d7aca075d57d545484a340e1821ac2f04469a450831e28",
+    "research/parallel6-classical-2026-09-04.md": "b9c1cea861c8df6b99c0966f376c0f709bc974819650891ec903d0a43f28a9c6"
+  }
+}

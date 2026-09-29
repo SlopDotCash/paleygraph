@@ -1,0 +1,13 @@
+{
+  "round1_all_node_equalities": 16,
+  "extension_all_node_equalities": 7,
+  "large_complete_censuses": 5,
+  "rotated_cover_equalities": 5,
+  "tiny_supports": 9216,
+  "lagrange_matrix_equalities": 221,
+  "sources": {
+    "compressed_support.py": "c92ad219679c17d704425d583a310729c3cc63f0ebfcc14418cd77c56fdda88d",
+    "run_experiments.py": "cf9e133d6564373b72569a0ca69f160fc1a222e6fb20e9cf00229ae96fea6b76"
+  },
+  "lean_validation": false
+}

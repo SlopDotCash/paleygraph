@@ -1,0 +1,71 @@
+{
+  "status": "conditional_covers_compiled",
+  "scope": "All residual query covers certified by Gaussian and integer determinant implementations. Routing proof and candidate decoding have not yet been independently reviewed.",
+  "cases": [
+    {
+      "case": "boundary",
+      "file": "boundary.conditional.json",
+      "query_count": 71113,
+      "best": {
+        "cutoff": 0,
+        "heavy_values": [
+          0
+        ],
+        "light_agreement_threshold": 96,
+        "light_queries_lower_bound": 57570,
+        "fibre_queries_lower_bound": 13543,
+        "total_queries_lower_bound": 71113
+      }
+    },
+    {
+      "case": "late_near_miss",
+      "file": "late_near_miss.conditional.json",
+      "query_count": 71113,
+      "best": {
+        "cutoff": 0,
+        "heavy_values": [
+          0
+        ],
+        "light_agreement_threshold": 96,
+        "light_queries_lower_bound": 57570,
+        "fibre_queries_lower_bound": 13543,
+        "total_queries_lower_bound": 71113
+      }
+    },
+    {
+      "case": "true_guard_mismatch",
+      "file": "true_guard_mismatch.conditional.json",
+      "query_count": 70892,
+      "best": {
+        "cutoff": 1,
+        "heavy_values": [
+          0
+        ],
+        "light_agreement_threshold": 95,
+        "light_queries_lower_bound": 57760,
+        "fibre_queries_lower_bound": 13132,
+        "total_queries_lower_bound": 70892
+      }
+    }
+  ],
+  "source_sha256": {
+    "conditional_cover.py": "53e427c4c47ea650bd52b8cf65a35f20e547b38ea71e7fca93adf223a98a301b",
+    "../round15/capacity_search.py": "7d788d29b073a22a418361145cf5a250d46fae1dffe212a46809a1b3f3ced514",
+    "../round15/projective_profile.py": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+    "../round14/arc_profile.py": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f",
+    "../round14/arc_certificate.py": "48305a4d4fd98068992d4893a66eca3f9359261804015def975e0a7b5a30b513",
+    "../round14/dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  },
+  "input_sha256": {
+    "../round15/root_class_results.json": "d8e89d07f48a8c46092ec65e3a7b005962528026e26dc094a288880b0fb129ab",
+    "../round15/boundary.run.json": "225b2161f9bb2be7e68f90c3f910ac31cb16180a906702ac3396ce0dfbbfc9e9",
+    "../round15/late_near_miss.run.json": "47937eb8eeb18b672ea3b2ee925ae0d54d6a3ef0d042fd2507b46cd6d6672ea3",
+    "../round15/true_guard_mismatch.run.json": "124a2fe1920b627046e5cbb67c4885921c2086aa0cbac338f7756a8835185d26"
+  },
+  "artifact_sha256": {
+    "boundary.conditional.json": "cd3f4361fdba585cff0e9606095cb14777747a4f31b8f6ac58ea496ead43824e",
+    "late_near_miss.conditional.json": "1dfa6c97b48264942d7442f2c4de80268241a5f8d73a31c1413f45712ea1a101",
+    "true_guard_mismatch.conditional.json": "11b6906369a6a79637f4d0aa8e104afaf29613e7ac25e0920e8761e22dbfc0d4"
+  }
+}

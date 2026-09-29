@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "Every constituent query independently rank-checked, all affine lifts and received histograms checked, and the exhaustive heavy/light routing certificate validated. No candidate-decoding experiment or globally optimal conditional family is certified here.",
+  "cases": [
+    {
+      "case": "boundary",
+      "review": {
+        "status": "verified",
+        "queries_rank_checked": 71113,
+        "branches_checked": 2,
+        "projective_class_size": 62,
+        "outside_coordinates": 962,
+        "routing_complete_in_supplied_space": true,
+        "cutoff_optimality_checked": false
+      }
+    },
+    {
+      "case": "late_near_miss",
+      "review": {
+        "status": "verified",
+        "queries_rank_checked": 71113,
+        "branches_checked": 2,
+        "projective_class_size": 62,
+        "outside_coordinates": 962,
+        "routing_complete_in_supplied_space": true,
+        "cutoff_optimality_checked": false
+      }
+    },
+    {
+      "case": "true_guard_mismatch",
+      "review": {
+        "status": "verified",
+        "queries_rank_checked": 70892,
+        "branches_checked": 2,
+        "projective_class_size": 62,
+        "outside_coordinates": 962,
+        "routing_complete_in_supplied_space": true,
+        "cutoff_optimality_checked": false
+      }
+    }
+  ],
+  "source_sha256": {
+    "conditional_verifier.py": "4f59795241db54d9bc24a73527da7187aef47855ccf632a36f581c6c8dbbdb92",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  },
+  "input_sha256": {
+    "conditional_results.json": "bca78a0dfe91c25ba2282128ba3e6ba8783eebeacf15d8f2358b1388d43f929a",
+    "boundary.conditional.json": "cd3f4361fdba585cff0e9606095cb14777747a4f31b8f6ac58ea496ead43824e",
+    "late_near_miss.conditional.json": "1dfa6c97b48264942d7442f2c4de80268241a5f8d73a31c1413f45712ea1a101",
+    "true_guard_mismatch.conditional.json": "11b6906369a6a79637f4d0aa8e104afaf29613e7ac25e0920e8761e22dbfc0d4"
+  }
+}

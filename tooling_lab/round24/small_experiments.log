@@ -1,0 +1,7 @@
+{"name": "p17_basic_erase2", "artifact": "small_p17_basic_erase2.json", "cuts": 4, "nodes": 14, "unresolved_leaves": 8, "unresolved_integer_points_up_to_sign": 8, "universal_unique_completion": false}
+{"name": "p17_basic_erase4", "artifact": "small_p17_basic_erase4.json", "cuts": 4, "nodes": 252, "unresolved_leaves": 128, "unresolved_integer_points_up_to_sign": 128, "universal_unique_completion": false}
+{"name": "p41_general_erase2", "artifact": "small_p41_general_erase2.json", "cuts": 4, "nodes": 24, "unresolved_leaves": 13, "unresolved_integer_points_up_to_sign": 13, "universal_unique_completion": false}
+{"name": "p97_general_erase2", "artifact": "small_p97_general_erase2.json", "cuts": 4, "nodes": 38, "unresolved_leaves": 20, "unresolved_integer_points_up_to_sign": 20, "universal_unique_completion": false}
+{"name": "squared_relation_erase3", "artifact": "small_squared_relation_erase3.json", "cuts": 4, "nodes": 31, "unresolved_leaves": 16, "unresolved_integer_points_up_to_sign": 16, "universal_unique_completion": false}
+{"name": "scalar_p_squared_erase1", "artifact": "small_scalar_p_squared_erase1.json", "cuts": 4, "nodes": 31, "unresolved_leaves": 16, "unresolved_integer_points_up_to_sign": 16, "universal_unique_completion": false}
+{"name": "scalar_p_squared_erase3", "artifact": "small_scalar_p_squared_erase3.json", "cuts": 1, "nodes": 0, "unresolved_leaves": 0, "unresolved_integer_points_up_to_sign": 0, "universal_unique_completion": true}

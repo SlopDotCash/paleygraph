@@ -1,0 +1,16 @@
+{
+ "description": "Independent exhaustive check (root, 2026-09-27) of inequality (star) of research/stepanov-robust-2026-09-26.md Theorem 2.1, over every A subset of F_p with 0 in A and |A| <= (p+1)/2, and every 0 <= e <= (|A|-1)/2. Source: experiments/stepanov_star_exhaustive_2026_09_27.c (no code shared with the worker's verifier). Run: cc -O2 -o star experiments/stepanov_star_exhaustive_2026_09_27.c && ./star <p>.",
+ "runs": [
+  {"p": 5, "cases": 17, "failures": 0, "worst_ratio_e_ge_1": 1.0},
+  {"p": 7, "cases": 77, "failures": 0, "worst_ratio_e_ge_1": 1.0},
+  {"p": 11, "cases": 1727, "failures": 0, "worst_ratio_e_ge_1": 1.0},
+  {"p": 13, "cases": 8142, "failures": 0, "worst_ratio_e_ge_1": 1.0},
+  {"p": 17, "cases": 162083, "failures": 0, "worst_ratio_e_ge_1": 0.9286},
+  {"p": 19, "cases": 700283, "failures": 0, "worst_ratio_e_ge_1": 0.9375},
+  {"p": 23, "cases": 13283558, "failures": 0, "worst_ratio_e_ge_1": 0.95},
+  {"p": 29, "cases": 1060245692, "failures": 0, "worst_ratio_e_ge_1": 0.9615}
+ ],
+ "total_cases": 1074401579,
+ "total_failures": 0,
+ "theorem_2_5_on_adversary_rectangles": {"tested": 165, "violations": 0, "source": "results/stepanov_adversary_2026_09_26_search.json, key rect, field fp, |A||B| >= p/2 + 1"}
+}

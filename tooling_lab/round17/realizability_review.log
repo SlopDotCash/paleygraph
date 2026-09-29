@@ -1,0 +1,9 @@
+{"case": "small_complete", "positive_vectors_checked": 256, "probes_checked": 90, "probe_status_counts": {"digit_height": 1, "nonzero": 4, "outside_centered": 84, "zero": 1}}
+{"case": "medium_walk", "positive_vectors_checked": 65, "probes_checked": 90, "probe_status_counts": {"digit_height": 1, "outside_centered": 88, "zero": 1}}
+{"case": "known_short_walk", "positive_vectors_checked": 65, "probes_checked": 90, "probe_status_counts": {"digit_height": 1, "nonintegral_inverse": 87, "outside_centered": 1, "zero": 1}}
+{"case": "known_centering_walk", "positive_vectors_checked": 65, "probes_checked": 90, "probe_status_counts": {"digit_height": 1, "nonintegral_inverse": 88, "zero": 1}}
+{"case": "quartic_window_walk", "positive_vectors_checked": 33, "probes_checked": 90, "probe_status_counts": {"digit_height": 1, "nonintegral_inverse": 88, "zero": 1}}
+census resultants checked 2000/6561
+census resultants checked 4000/6561
+census resultants checked 6000/6561
+{"status": "passed", "census": 6561, "realized": 257, "corruptions_rejected": 10}

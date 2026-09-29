@@ -1,0 +1,172 @@
+{
+  "created_utc": "2026-09-05T19:30:57.745979+00:00",
+  "status": "independent finite exact/numerical checks passed; no prize, bound or historical novelty certification",
+  "phase_snapshot_files_checked": 20,
+  "independent_programs_replayed": [
+    "pair_type_twins/controls.py",
+    "novelty/review_twins.py",
+    "phase_transport/verify_phase.py",
+    "phase_transport/review_phase_root.py"
+  ],
+  "markdown_local_links_passed": true,
+  "artifacts": {
+    "README.md": {
+      "sha256": "6e7b568d6d8b88b7dd61ade09f7febb704190596feb400aebe3f576c9b1c509b",
+      "bytes": 4292
+    },
+    "novelty/review_twins.py": {
+      "sha256": "e725e7ecc44d040c4a432f0fdca66d62718491f49325da718cdf86c8dbb7032a",
+      "bytes": 6440
+    },
+    "novelty/twin_origin_census": {
+      "sha256": "8f6ba9fac2ba15191da0e4cbf18cfcffdceed50e52589837a3e18393a51c4de0",
+      "bytes": 36592
+    },
+    "novelty/twin_origin_census.cpp": {
+      "sha256": "8f7c157871aa3190ee61587af2b55f5cefe3d20a5d03b86923e3c79955f9c055",
+      "bytes": 1274
+    },
+    "novelty/twins_review.json": {
+      "sha256": "ed4a96e067c4922e97c168ffb37e501b2db37ecd87a6fa5c0b0ae127ad576782",
+      "bytes": 1221
+    },
+    "novelty/twins_review.md": {
+      "sha256": "87b594d31a596d51fee60ddf5e98b893c0cdedd751e1664857643fa736efc0e5",
+      "bytes": 7485
+    },
+    "pair_type_twins/README.md": {
+      "sha256": "6c5635661cc6cc06cd9a750962e78dab2223a000970cfe2e79632775e6297f6f",
+      "bytes": 7110
+    },
+    "pair_type_twins/build_and_census.py": {
+      "sha256": "ab7fcd9550409d7294a1609c1e8bae6443ca6b1b1395f8bafc51630207a2c27b",
+      "bytes": 7898
+    },
+    "pair_type_twins/census_six": {
+      "sha256": "adfa9aefe5d6916dde2841cc602f5d7f57a59233cbf2c3afa19b5c4683d1e634",
+      "bytes": 37224
+    },
+    "pair_type_twins/census_six.cpp": {
+      "sha256": "21f52ad798cf7c95cae3395ff9cc16ac7dc35db19b6a04ebbe3bfcb42385e679",
+      "bytes": 1945
+    },
+    "pair_type_twins/control_results.json": {
+      "sha256": "459accb8e2e6a983fc8f6fb7e141f78937168fc8089530e9c34e0550279ceb12",
+      "bytes": 768
+    },
+    "pair_type_twins/controls.py": {
+      "sha256": "e54b2429e658f4f653c9cf11d30efcd96ef57dbd9ad883c8a5fa00840a3f883b",
+      "bytes": 4304
+    },
+    "pair_type_twins/pair_type_certificates.json": {
+      "sha256": "0d3176fdd1083f6c078d0d377ad4e0eb13177f2a3b9977986b8995fd9db27a3e",
+      "bytes": 2261193
+    },
+    "pair_type_twins/results.json": {
+      "sha256": "04e1f3c2912e6c98fab7b72845eb1886d8e29aa03a0b334a7ad03ce599ac010a",
+      "bytes": 101163
+    },
+    "pair_type_twins/universality.md": {
+      "sha256": "1f326222f4c1133798b0ac9fe169beacf13f426c4708e7d62762b01f50ed144a",
+      "bytes": 4090
+    },
+    "phase_transport/README.md": {
+      "sha256": "8e071d61badee8168d6dffeab41f79d93f8bcbae461585cbbe87c31a9a9c4c6a",
+      "bytes": 12860
+    },
+    "phase_transport/ambiguity_lab.py": {
+      "sha256": "976562a52347fd52852d345eacf39460c9fcb6fad752711a4997ee4cd55214b9",
+      "bytes": 7440
+    },
+    "phase_transport/export_results.py": {
+      "sha256": "0422d76701ae74816b16ef6adc506451a402c4084093d731e98c867fadd520d6",
+      "bytes": 6150
+    },
+    "phase_transport/manifest.json": {
+      "sha256": "fe6c980a96499d0aab5c44d40ebab3b6fbb0d96be9808d64056b2e891125a12e",
+      "bytes": 3327
+    },
+    "phase_transport/phase_controls.png": {
+      "sha256": "2265f167ceef43c8e2fb9d98de67711c57e274d9216ffa979a40210444c4cbe0",
+      "bytes": 1137421
+    },
+    "phase_transport/phase_controls.svg": {
+      "sha256": "59c7da75539aef447ba9cb5b85f0196b26216859ac222f25d665a911142deacb",
+      "bytes": 943836
+    },
+    "phase_transport/phase_plane_1009_negative.npz": {
+      "sha256": "146ffa78c9f7be9ea6208a0e6d580821c9d238ad0d0155e820e88ceb71e0d6dd",
+      "bytes": 23042113
+    },
+    "phase_transport/phase_plane_1009_positive.npz": {
+      "sha256": "733251bcbb94778284929d2131629101ebc4c7fa4f3c1aed3a61d1ae29421c11",
+      "bytes": 23046649
+    },
+    "phase_transport/phase_plane_101_negative.npz": {
+      "sha256": "9a19ed44856e1688e7bc0d518f2620318904a5149ebe69221119bd70327b2ec8",
+      "bytes": 212818
+    },
+    "phase_transport/phase_plane_101_positive.npz": {
+      "sha256": "e53585338f3591df3f774bc1140291981a16ce22bb5240db4a3941a2c779d9cb",
+      "bytes": 212813
+    },
+    "phase_transport/phase_plane_401_negative.npz": {
+      "sha256": "508992c11e02a3a6ca0033cd396d88e6e3ae1d38fe3c3bbc3c4589ba2bd7294d",
+      "bytes": 3587660
+    },
+    "phase_transport/phase_plane_401_positive.npz": {
+      "sha256": "88c69019e9013be0084e9f6ce05d4bee0806faeae16f91a2883fa8d9d5e825d5",
+      "bytes": 3586946
+    },
+    "phase_transport/refine_phase.py": {
+      "sha256": "23d0ec951e879345d1ce4eea180efa689b9fab9bf5a5f758082b27b181d2716d",
+      "bytes": 3715
+    },
+    "phase_transport/refinement.json": {
+      "sha256": "cbd460cc1331f2b040859e3071962adc9aae51b23a0180819172315b11c7d5cf",
+      "bytes": 27761
+    },
+    "phase_transport/results.json": {
+      "sha256": "a9a664d4175c7c7e33cfbf5cef22e5c9869cc4720a83af55fe25ed72be991a58",
+      "bytes": 1249275
+    },
+    "phase_transport/review_phase_root.py": {
+      "sha256": "2ffa69fa67f635bd1e36c8b14dc6d86b171b7f42cae2f164c07bfa1db7d5a111",
+      "bytes": 3212
+    },
+    "phase_transport/root_review.json": {
+      "sha256": "0ae300f8285fdb0fced0f5dcd109ca5c6a130a2ce57518c53047c636fd1c3e67",
+      "bytes": 2047
+    },
+    "phase_transport/summary.csv": {
+      "sha256": "f0d9c2126199e95aaf2e2673c025e19f2c5e6614c19592c91eea67fb285fdceb",
+      "bytes": 1480
+    },
+    "phase_transport/summary.json": {
+      "sha256": "ee394c1c0befdde5de6e6488d21e5f93499ca58c9496f5faca65dad669583eec",
+      "bytes": 4921
+    },
+    "phase_transport/validation.json": {
+      "sha256": "e47e09b785b3a9641464a32f439c9a00daa972def4a6db11f76064bc21d5332f",
+      "bytes": 3576
+    },
+    "phase_transport/verify_phase.py": {
+      "sha256": "1651a09754b7c7543fa09607cd5083dfa0c049128849f5f713f657c3ce832e51",
+      "bytes": 3042
+    },
+    "verify_round.py": {
+      "sha256": "eafec5754159fa9cad03cf9af7b7a8bfbd8fc5ebe76d64131a3511343375ab9a",
+      "bytes": 3329
+    }
+  },
+  "note": "This current snapshot supersedes nested lane snapshot byte listings for regenerated diagnostic files.",
+  "documentation_amendments": [
+    {
+      "date_utc": "2026-09-05T20:10:09.711292+00:00",
+      "path": "pair_type_twins/README.md",
+      "old_sha256": "a5807b1c8a4c0a1f4489091b4cdd71bac405bf29d01ffec9c0f2e0d1e3c26a2b",
+      "new_sha256": "6c5635661cc6cc06cd9a750962e78dab2223a000970cfe2e79632775e6297f6f",
+      "reason": "A resumed documentation lane refreshed this README during round4. All mathematical artifacts are byte-identical to the verified round3 snapshot; third-moment and total-variation claims were checked against the existing complete census. No mathematical replay was needed for this documentation-only change."
+    }
+  ]
+}

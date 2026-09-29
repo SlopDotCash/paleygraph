@@ -1,0 +1,1 @@
+{"status": "passed", "subspaces": 246, "agreement_sets_per_subspace": 4368, "ablations": [{"features": "pair_ranks", "fibres": 1, "ambiguous_fibres": 1}, {"features": "counts_degrees", "fibres": 27, "ambiguous_fibres": 2}, {"features": "line_sizes", "fibres": 28, "ambiguous_fibres": 1}, {"features": "vertex_line_sizes", "fibres": 29, "ambiguous_fibres": 0}]}

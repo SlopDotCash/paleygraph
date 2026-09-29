@@ -1,0 +1,1978 @@
+{
+  "status": "Exact finite identities; no uniform signed spectral estimate",
+  "numpy_version": "2.4.4",
+  "scipy_version": "1.17.1",
+  "cases": [
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 9,
+      "kind": "subgroup",
+      "dimension": 2,
+      "degree": 8,
+      "weight_squared_mass": 8,
+      "signed_nonzero_entries": 3,
+      "unsigned_nonzero_entries": 4,
+      "maximum_absolute_signed_entry": 2,
+      "signed_frobenius_squared": 9,
+      "unsigned_frobenius_squared": 57,
+      "unsigned_entry_sum": 15,
+      "absolute_signed_entry_sum": 5,
+      "entry_cancellation_loss": 10,
+      "loss_upper_bound": 24,
+      "absolute_spectral_lower_bound_numerator": -9,
+      "absolute_spectral_lower_bound_denominator": 2,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 8
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 8,
+          "trace": 9,
+          "int64_row_bound": 64
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 24,
+          "trace": -13,
+          "int64_row_bound": 512
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 264,
+          "trace": 49,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 1880,
+          "trace": -101,
+          "int64_row_bound": 32768
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 15560,
+          "trace": 297,
+          "int64_row_bound": 262144
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 123032,
+          "trace": -701,
+          "int64_row_bound": 2097152
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 987784,
+          "trace": 1889,
+          "int64_row_bound": 16777216
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 1,
+          "signed_trace": -1
+        },
+        {
+          "r": 2,
+          "identity_count": 16,
+          "each_nonidentity_count": 7,
+          "signed_trace": 9
+        },
+        {
+          "r": 3,
+          "identity_count": 48,
+          "each_nonidentity_count": 61,
+          "signed_trace": -13
+        },
+        {
+          "r": 4,
+          "identity_count": 528,
+          "each_nonidentity_count": 479,
+          "signed_trace": 49
+        }
+      ],
+      "signed_matrix": [
+        [
+          -1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 9,
+      "kind": "product",
+      "dimension": 2,
+      "degree": 16,
+      "weight_squared_mass": 16,
+      "signed_nonzero_entries": 2,
+      "unsigned_nonzero_entries": 4,
+      "maximum_absolute_signed_entry": 1,
+      "signed_frobenius_squared": 2,
+      "unsigned_frobenius_squared": 226,
+      "unsigned_entry_sum": 30,
+      "absolute_signed_entry_sum": 2,
+      "entry_cancellation_loss": 28,
+      "loss_upper_bound": 112,
+      "absolute_spectral_lower_bound_numerator": -82,
+      "absolute_spectral_lower_bound_denominator": 2,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -2,
+          "int64_row_bound": 16
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 16,
+          "trace": 2,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 240,
+          "trace": -2,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 3856,
+          "trace": 2,
+          "int64_row_bound": 65536
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 61680,
+          "trace": -2,
+          "int64_row_bound": 1048576
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 986896,
+          "trace": 2,
+          "int64_row_bound": 16777216
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 15790320,
+          "trace": -2,
+          "int64_row_bound": 268435456
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 252645136,
+          "trace": 2,
+          "int64_row_bound": 4294967296
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 2,
+          "signed_trace": -2
+        },
+        {
+          "r": 2,
+          "identity_count": 32,
+          "each_nonidentity_count": 30,
+          "signed_trace": 2
+        },
+        {
+          "r": 3,
+          "identity_count": 480,
+          "each_nonidentity_count": 482,
+          "signed_trace": -2
+        },
+        {
+          "r": 4,
+          "identity_count": 7712,
+          "each_nonidentity_count": 7710,
+          "signed_trace": 2
+        }
+      ],
+      "signed_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          7
+        ]
+      ]
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "kind": "subgroup",
+      "dimension": 1,
+      "degree": 16,
+      "weight_squared_mass": 16,
+      "signed_nonzero_entries": 1,
+      "unsigned_nonzero_entries": 1,
+      "maximum_absolute_signed_entry": 1,
+      "signed_frobenius_squared": 1,
+      "unsigned_frobenius_squared": 225,
+      "unsigned_entry_sum": 15,
+      "absolute_signed_entry_sum": 1,
+      "entry_cancellation_loss": 14,
+      "loss_upper_bound": 112,
+      "absolute_spectral_lower_bound_numerator": -97,
+      "absolute_spectral_lower_bound_denominator": 1,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 16
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 16,
+          "trace": 1,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 240,
+          "trace": -1,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 3856,
+          "trace": 1,
+          "int64_row_bound": 65536
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 61680,
+          "trace": -1,
+          "int64_row_bound": 1048576
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 986896,
+          "trace": 1,
+          "int64_row_bound": 16777216
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 15790320,
+          "trace": -1,
+          "int64_row_bound": 268435456
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 252645136,
+          "trace": 1,
+          "int64_row_bound": 4294967296
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 1,
+          "signed_trace": -1
+        },
+        {
+          "r": 2,
+          "identity_count": 16,
+          "each_nonidentity_count": 15,
+          "signed_trace": 1
+        },
+        {
+          "r": 3,
+          "identity_count": 240,
+          "each_nonidentity_count": 241,
+          "signed_trace": -1
+        },
+        {
+          "r": 4,
+          "identity_count": 3856,
+          "each_nonidentity_count": 3855,
+          "signed_trace": 1
+        }
+      ],
+      "signed_matrix": [
+        [
+          -1
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          15
+        ]
+      ]
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "kind": "product",
+      "dimension": 1,
+      "degree": 64,
+      "weight_squared_mass": 256,
+      "signed_nonzero_entries": 1,
+      "unsigned_nonzero_entries": 1,
+      "maximum_absolute_signed_entry": 4,
+      "signed_frobenius_squared": 16,
+      "unsigned_frobenius_squared": 3600,
+      "unsigned_entry_sum": 60,
+      "absolute_signed_entry_sum": 4,
+      "entry_cancellation_loss": 56,
+      "loss_upper_bound": 1792,
+      "absolute_spectral_lower_bound_numerator": -1732,
+      "absolute_spectral_lower_bound_denominator": 1,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -4,
+          "int64_row_bound": 64
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 256,
+          "trace": 16,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 15360,
+          "trace": -64,
+          "int64_row_bound": 262144
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 987136,
+          "trace": 256,
+          "int64_row_bound": 16777216
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 63160320,
+          "trace": -1024,
+          "int64_row_bound": 1073741824
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 4042326016,
+          "trace": 4096,
+          "int64_row_bound": 68719476736
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 258708602880,
+          "trace": -16384,
+          "int64_row_bound": 4398046511104
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 16557351632896,
+          "trace": 65536,
+          "int64_row_bound": 281474976710656
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 4,
+          "signed_trace": -4
+        },
+        {
+          "r": 2,
+          "identity_count": 256,
+          "each_nonidentity_count": 240,
+          "signed_trace": 16
+        },
+        {
+          "r": 3,
+          "identity_count": 15360,
+          "each_nonidentity_count": 15424,
+          "signed_trace": -64
+        },
+        {
+          "r": 4,
+          "identity_count": 987136,
+          "each_nonidentity_count": 986880,
+          "signed_trace": 256
+        }
+      ],
+      "signed_matrix": [
+        [
+          -4
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          60
+        ]
+      ]
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "generator": 64,
+      "kind": "subgroup",
+      "dimension": 12,
+      "degree": 8,
+      "weight_squared_mass": 8,
+      "signed_nonzero_entries": 62,
+      "unsigned_nonzero_entries": 74,
+      "maximum_absolute_signed_entry": 2,
+      "signed_frobenius_squared": 89,
+      "unsigned_frobenius_squared": 137,
+      "unsigned_entry_sum": 95,
+      "absolute_signed_entry_sum": 71,
+      "entry_cancellation_loss": 24,
+      "loss_upper_bound": 24,
+      "absolute_spectral_lower_bound_numerator": 71,
+      "absolute_spectral_lower_bound_denominator": 12,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 8
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 8,
+          "trace": 89,
+          "int64_row_bound": 64
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -64,
+          "int64_row_bound": 512
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 168,
+          "trace": 1525,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 80,
+          "trace": -3126,
+          "int64_row_bound": 32768
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 5600,
+          "trace": 35132,
+          "int64_row_bound": 262144
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 12040,
+          "trace": -116159,
+          "int64_row_bound": 2097152
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 248808,
+          "trace": 919645,
+          "int64_row_bound": 16777216
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 1,
+          "signed_trace": -1
+        },
+        {
+          "r": 2,
+          "identity_count": 96,
+          "each_nonidentity_count": 7,
+          "signed_trace": 89
+        },
+        {
+          "r": 3,
+          "identity_count": 0,
+          "each_nonidentity_count": 64,
+          "signed_trace": -64
+        },
+        {
+          "r": 4,
+          "identity_count": 2016,
+          "each_nonidentity_count": 491,
+          "signed_trace": 1525
+        }
+      ],
+      "signed_matrix": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          -2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          1,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          2,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -1,
+          1,
+          0,
+          -1,
+          -1,
+          1,
+          0,
+          1,
+          -1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          -2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          1,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -2,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          -2,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          1,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          0,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "generator": 64,
+      "kind": "product",
+      "dimension": 12,
+      "degree": 16,
+      "weight_squared_mass": 16,
+      "signed_nonzero_entries": 93,
+      "unsigned_nonzero_entries": 117,
+      "maximum_absolute_signed_entry": 4,
+      "signed_frobenius_squared": 162,
+      "unsigned_frobenius_squared": 386,
+      "unsigned_entry_sum": 190,
+      "absolute_signed_entry_sum": 114,
+      "entry_cancellation_loss": 76,
+      "loss_upper_bound": 112,
+      "absolute_spectral_lower_bound_numerator": 78,
+      "absolute_spectral_lower_bound_denominator": 12,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -2,
+          "int64_row_bound": 16
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 16,
+          "trace": 162,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -512,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 1296,
+          "trace": 7522,
+          "int64_row_bound": 65536
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 8080,
+          "trace": -33102,
+          "int64_row_bound": 1048576
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 204688,
+          "trace": 384690,
+          "int64_row_bound": 16777216
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 2604056,
+          "trace": -1980253,
+          "int64_row_bound": 268435456
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 45946768,
+          "trace": 20233650,
+          "int64_row_bound": 4294967296
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 2,
+          "signed_trace": -2
+        },
+        {
+          "r": 2,
+          "identity_count": 192,
+          "each_nonidentity_count": 30,
+          "signed_trace": 162
+        },
+        {
+          "r": 3,
+          "identity_count": 0,
+          "each_nonidentity_count": 512,
+          "signed_trace": -512
+        },
+        {
+          "r": 4,
+          "identity_count": 15552,
+          "each_nonidentity_count": 8030,
+          "signed_trace": 7522
+        }
+      ],
+      "signed_matrix": [
+        [
+          -4,
+          -1,
+          -1,
+          -2,
+          0,
+          -2,
+          2,
+          1,
+          0,
+          -2,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          0,
+          -1,
+          1,
+          2,
+          0
+        ],
+        [
+          -1,
+          1,
+          0,
+          -1,
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        [
+          -2,
+          1,
+          -1,
+          -2,
+          -2,
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          -1,
+          -2,
+          0,
+          1,
+          -2,
+          -1,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        [
+          -2,
+          -1,
+          0,
+          -1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          -1,
+          -1,
+          -2,
+          1,
+          -2,
+          -1,
+          -1,
+          0,
+          -1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          -2,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          1,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          4,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          3,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          0,
+          3,
+          2,
+          3,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          3,
+          0,
+          1,
+          0,
+          1,
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0,
+          3,
+          0,
+          1,
+          0,
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          1,
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          0,
+          3,
+          2,
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          2,
+          2,
+          0,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          3,
+          1,
+          1,
+          2,
+          1,
+          0,
+          4,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 97,
+      "n": 32,
+      "generator": 28,
+      "kind": "subgroup",
+      "dimension": 3,
+      "degree": 32,
+      "weight_squared_mass": 32,
+      "signed_nonzero_entries": 7,
+      "unsigned_nonzero_entries": 9,
+      "maximum_absolute_signed_entry": 6,
+      "signed_frobenius_squared": 65,
+      "unsigned_frobenius_squared": 1025,
+      "unsigned_entry_sum": 95,
+      "absolute_signed_entry_sum": 17,
+      "entry_cancellation_loss": 78,
+      "loss_upper_bound": 480,
+      "absolute_spectral_lower_bound_numerator": -385,
+      "absolute_spectral_lower_bound_denominator": 3,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 32
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 32,
+          "trace": 65,
+          "int64_row_bound": 1024
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 384,
+          "trace": 140,
+          "int64_row_bound": 32768
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 11424,
+          "trace": 1861,
+          "int64_row_bound": 1048576
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 348480,
+          "trace": 7754,
+          "int64_row_bound": 33554432
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 11090240,
+          "trace": 62858,
+          "int64_row_bound": 1073741824
+        },
+        {
+          "r": 7,
+          "weighted_zero_count": 354333728,
+          "trace": 332289,
+          "int64_row_bound": 34359738368
+        },
+        {
+          "r": 8,
+          "weighted_zero_count": 11335927456,
+          "trace": 2291733,
+          "int64_row_bound": 1099511627776
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 1,
+          "signed_trace": -1
+        },
+        {
+          "r": 2,
+          "identity_count": 96,
+          "each_nonidentity_count": 31,
+          "signed_trace": 65
+        },
+        {
+          "r": 3,
+          "identity_count": 1152,
+          "each_nonidentity_count": 1012,
+          "signed_trace": 140
+        },
+        {
+          "r": 4,
+          "identity_count": 34272,
+          "each_nonidentity_count": 32411,
+          "signed_trace": 1861
+        }
+      ],
+      "signed_matrix": [
+        [
+          -4,
+          -1,
+          0
+        ],
+        [
+          -1,
+          6,
+          1
+        ],
+        [
+          0,
+          1,
+          -3
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          12,
+          9,
+          10
+        ],
+        [
+          9,
+          10,
+          13
+        ],
+        [
+          10,
+          13,
+          9
+        ]
+      ]
+    },
+    {
+      "p": 97,
+      "n": 32,
+      "generator": 28,
+      "kind": "product",
+      "dimension": 3,
+      "degree": 256,
+      "weight_squared_mass": 832,
+      "signed_nonzero_entries": 9,
+      "unsigned_nonzero_entries": 9,
+      "maximum_absolute_signed_entry": 19,
+      "signed_frobenius_squared": 474,
+      "unsigned_frobenius_squared": 64346,
+      "unsigned_entry_sum": 760,
+      "absolute_signed_entry_sum": 42,
+      "entry_cancellation_loss": 718,
+      "loss_upper_bound": 31936,
+      "absolute_spectral_lower_bound_numerator": -31176,
+      "absolute_spectral_lower_bound_denominator": 3,
+      "quartic_window": false,
+      "quartic_absolute_bound": null,
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -8,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 832,
+          "trace": 474,
+          "int64_row_bound": 65536
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 170784,
+          "trace": -6599,
+          "int64_row_bound": 16777216
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 44328512,
+          "trace": 153074,
+          "int64_row_bound": 4294967296
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 11334260320,
+          "trace": -2761773,
+          "int64_row_bound": 1099511627776
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 2901822371488,
+          "trace": 56041365,
+          "int64_row_bound": 281474976710656
+        }
+      ],
+      "holonomy_checks": [
+        {
+          "r": 1,
+          "identity_count": 0,
+          "each_nonidentity_count": 8,
+          "signed_trace": -8
+        },
+        {
+          "r": 2,
+          "identity_count": 2496,
+          "each_nonidentity_count": 2022,
+          "signed_trace": 474
+        },
+        {
+          "r": 3,
+          "identity_count": 512352,
+          "each_nonidentity_count": 518951,
+          "signed_trace": -6599
+        },
+        {
+          "r": 4,
+          "identity_count": 132985536,
+          "each_nonidentity_count": 132832462,
+          "signed_trace": 153074
+        }
+      ],
+      "signed_matrix": [
+        [
+          -19,
+          -3,
+          2
+        ],
+        [
+          -3,
+          9,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ]
+      ],
+      "unsigned_matrix": [
+        [
+          85,
+          79,
+          88
+        ],
+        [
+          79,
+          85,
+          89
+        ],
+        [
+          88,
+          89,
+          78
+        ]
+      ]
+    },
+    {
+      "p": 1049,
+      "n": 8,
+      "generator": 461,
+      "kind": "subgroup",
+      "dimension": 131,
+      "degree": 8,
+      "weight_squared_mass": 8,
+      "signed_nonzero_entries": 1014,
+      "unsigned_nonzero_entries": 1026,
+      "maximum_absolute_signed_entry": 2,
+      "signed_frobenius_squared": 1041,
+      "unsigned_frobenius_squared": 1089,
+      "unsigned_entry_sum": 1047,
+      "absolute_signed_entry_sum": 1023,
+      "entry_cancellation_loss": 24,
+      "loss_upper_bound": 24,
+      "absolute_spectral_lower_bound_numerator": 1023,
+      "absolute_spectral_lower_bound_denominator": 131,
+      "quartic_window": true,
+      "quartic_absolute_bound": {
+        "rho_absolute_at_least": "8 - 2/8"
+      },
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 8
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 8,
+          "trace": 1041,
+          "int64_row_bound": 64
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -64,
+          "int64_row_bound": 512
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 168,
+          "trace": 21517,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 0,
+          "trace": -4096,
+          "int64_row_bound": 32768
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 5120,
+          "trace": 638592,
+          "int64_row_bound": 262144
+        }
+      ],
+      "holonomy_checks": null
+    },
+    {
+      "p": 1049,
+      "n": 8,
+      "generator": 461,
+      "kind": "product",
+      "dimension": 131,
+      "degree": 16,
+      "weight_squared_mass": 16,
+      "signed_nonzero_entries": 1979,
+      "unsigned_nonzero_entries": 2015,
+      "maximum_absolute_signed_entry": 4,
+      "signed_frobenius_squared": 2066,
+      "unsigned_frobenius_squared": 2290,
+      "unsigned_entry_sum": 2094,
+      "absolute_signed_entry_sum": 2006,
+      "entry_cancellation_loss": 88,
+      "loss_upper_bound": 112,
+      "absolute_spectral_lower_bound_numerator": 1982,
+      "absolute_spectral_lower_bound_denominator": 131,
+      "quartic_window": true,
+      "quartic_absolute_bound": {
+        "rho_absolute_at_least": "16 - 4/4"
+      },
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -2,
+          "int64_row_bound": 16
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 16,
+          "trace": 2066,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -512,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 1296,
+          "trace": 161746,
+          "int64_row_bound": 65536
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 0,
+          "trace": -131072,
+          "int64_row_bound": 1048576
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 160000,
+          "trace": 18882848,
+          "int64_row_bound": 16777216
+        }
+      ],
+      "holonomy_checks": null
+    },
+    {
+      "p": 2017,
+      "n": 8,
+      "generator": 1579,
+      "kind": "subgroup",
+      "dimension": 252,
+      "degree": 8,
+      "weight_squared_mass": 8,
+      "signed_nonzero_entries": 1982,
+      "unsigned_nonzero_entries": 1994,
+      "maximum_absolute_signed_entry": 2,
+      "signed_frobenius_squared": 2009,
+      "unsigned_frobenius_squared": 2057,
+      "unsigned_entry_sum": 2015,
+      "absolute_signed_entry_sum": 1991,
+      "entry_cancellation_loss": 24,
+      "loss_upper_bound": 24,
+      "absolute_spectral_lower_bound_numerator": 1991,
+      "absolute_spectral_lower_bound_denominator": 252,
+      "quartic_window": true,
+      "quartic_absolute_bound": {
+        "rho_absolute_at_least": "8 - 2/8"
+      },
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 8
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 8,
+          "trace": 2009,
+          "int64_row_bound": 64
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -64,
+          "int64_row_bound": 512
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 168,
+          "trace": 41845,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 0,
+          "trace": -4096,
+          "int64_row_bound": 32768
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 5120,
+          "trace": 1258112,
+          "int64_row_bound": 262144
+        }
+      ],
+      "holonomy_checks": null
+    },
+    {
+      "p": 2017,
+      "n": 8,
+      "generator": 1579,
+      "kind": "product",
+      "dimension": 252,
+      "degree": 16,
+      "weight_squared_mass": 16,
+      "signed_nonzero_entries": 3915,
+      "unsigned_nonzero_entries": 3951,
+      "maximum_absolute_signed_entry": 4,
+      "signed_frobenius_squared": 4002,
+      "unsigned_frobenius_squared": 4226,
+      "unsigned_entry_sum": 4030,
+      "absolute_signed_entry_sum": 3942,
+      "entry_cancellation_loss": 88,
+      "loss_upper_bound": 112,
+      "absolute_spectral_lower_bound_numerator": 3918,
+      "absolute_spectral_lower_bound_denominator": 252,
+      "quartic_window": true,
+      "quartic_absolute_bound": {
+        "rho_absolute_at_least": "16 - 4/4"
+      },
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -2,
+          "int64_row_bound": 16
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 16,
+          "trace": 4002,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -512,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 1296,
+          "trace": 318562,
+          "int64_row_bound": 65536
+        },
+        {
+          "r": 5,
+          "weighted_zero_count": 0,
+          "trace": -131072,
+          "int64_row_bound": 1048576
+        },
+        {
+          "r": 6,
+          "weighted_zero_count": 160000,
+          "trace": 38242848,
+          "int64_row_bound": 16777216
+        }
+      ],
+      "holonomy_checks": null
+    },
+    {
+      "p": 17393,
+      "n": 16,
+      "generator": 4305,
+      "kind": "subgroup",
+      "dimension": 1087,
+      "degree": 16,
+      "weight_squared_mass": 16,
+      "signed_nonzero_entries": 17230,
+      "unsigned_nonzero_entries": 17286,
+      "maximum_absolute_signed_entry": 2,
+      "signed_frobenius_squared": 17377,
+      "unsigned_frobenius_squared": 17601,
+      "unsigned_entry_sum": 17391,
+      "absolute_signed_entry_sum": 17279,
+      "entry_cancellation_loss": 112,
+      "loss_upper_bound": 112,
+      "absolute_spectral_lower_bound_numerator": 17279,
+      "absolute_spectral_lower_bound_denominator": 1087,
+      "quartic_window": true,
+      "quartic_absolute_bound": {
+        "rho_absolute_at_least": "16 - 2/16"
+      },
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": false,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -1,
+          "int64_row_bound": 16
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 16,
+          "trace": 17377,
+          "int64_row_bound": 256
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -256,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 720,
+          "trace": 778589,
+          "int64_row_bound": 65536
+        }
+      ],
+      "holonomy_checks": null
+    },
+    {
+      "p": 17393,
+      "n": 16,
+      "generator": 4305,
+      "kind": "product",
+      "dimension": 1087,
+      "degree": 64,
+      "weight_squared_mass": 64,
+      "signed_nonzero_entries": 67045,
+      "unsigned_nonzero_entries": 67853,
+      "maximum_absolute_signed_entry": 8,
+      "signed_frobenius_squared": 69316,
+      "unsigned_frobenius_squared": 73284,
+      "unsigned_entry_sum": 69564,
+      "absolute_signed_entry_sum": 67788,
+      "entry_cancellation_loss": 1776,
+      "loss_upper_bound": 1984,
+      "absolute_spectral_lower_bound_numerator": 67580,
+      "absolute_spectral_lower_bound_denominator": 1087,
+      "quartic_window": true,
+      "quartic_absolute_bound": {
+        "rho_absolute_at_least": "64 - 8/4"
+      },
+      "gauge_reconstruction_checked": true,
+      "independent_child_count_check": true,
+      "moments": [
+        {
+          "r": 1,
+          "weighted_zero_count": 0,
+          "trace": -4,
+          "int64_row_bound": 64
+        },
+        {
+          "r": 2,
+          "weighted_zero_count": 64,
+          "trace": 69316,
+          "int64_row_bound": 4096
+        },
+        {
+          "r": 3,
+          "weighted_zero_count": 0,
+          "trace": -16384,
+          "int64_row_bound": 262144
+        },
+        {
+          "r": 4,
+          "weighted_zero_count": 28224,
+          "trace": 29632676,
+          "int64_row_bound": 16777216
+        }
+      ],
+      "holonomy_checks": null
+    }
+  ],
+  "matrix_cases": 14,
+  "exact_trace_checks": 94,
+  "exact_holonomy_checks": 32,
+  "independent_balanced_count_checks": 46,
+  "source_sha256": {
+    "experiments/signed_quotient_operators.py": "2e08481cb654050ce50fa0d4ef17a687f12b1a5673a56119fd96bcc0e5de0610",
+    "experiments/kernel_discriminant.py": "bbced3a3416735e4be56268d214c1f0d10263c4a97af42a980a23530de471f93",
+    "experiments/cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "status": "carry_compression_realizability_checkpoint_passed",
+  "created_utc": "2026-09-06T08:34:49.179747+00:00",
+  "scope": "Exact carry cocycles, short-relation digit encodings and inverse membership, with separate resultant and polynomial inverse reviews. Complete small digit-cube census and selected larger probes; no uniform norm or shell theorem is claimed.",
+  "previous_round16_artifacts_preserved": 48,
+  "source_and_input_bindings": 67,
+  "python_sources_compiled": 7,
+  "sympy_version": "1.14.0",
+  "markdown_local_links_passed": true,
+  "carry_transitions_checked": 480,
+  "carry_resultants_checked": 489,
+  "compressed_vector_records_checked": 484,
+  "realizability_census_checked": 6561,
+  "realizability_probes_checked": 450,
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "a54878bde9f0fae3ebd8fb548cdc9713e4ce7e58cbcaf332cf2329fc50c87d4a",
+      "bytes": 4919
+    },
+    "README.md": {
+      "sha256": "51a349e84d02bba5e89ceb202254c8ef10029555c3a06233dec7fcd636ff4aa5",
+      "bytes": 7342
+    },
+    "carry_review.json": {
+      "sha256": "1dcbb1a25f8bf4a81f0036c58772a610c25e31858f1fb589587cf0c5082063c8",
+      "bytes": 1620
+    },
+    "carry_review.log": {
+      "sha256": "a39026beb59fa4c67e90f1c49cf6ae86dd7d0d37751ba5743f2a8a4cbe613fe9",
+      "bytes": 803
+    },
+    "carry_review.py": {
+      "sha256": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633",
+      "bytes": 4803
+    },
+    "checkpoint.py": {
+      "sha256": "b5b94edd1466683ff5421ab5eb5384f95c6d8ffe41c75b6ac566ff77d92a97c5",
+      "bytes": 4681
+    },
+    "compression_review.json": {
+      "sha256": "55554e9b3b9dfcb045e93e20675d67cb0d856f7e0944f9bf7499886f374f9128",
+      "bytes": 2306
+    },
+    "compression_review.log": {
+      "sha256": "7550aa5598d29254d1356ce784673187642a802b32588cca32fac4db875f79ff",
+      "bytes": 1146
+    },
+    "compression_review.py": {
+      "sha256": "e4ddcf3aba1d58a27e7cda5135665d546f07c37f2c4e1527736a8996bf8f3e13",
+      "bytes": 3376
+    },
+    "norm_carry.json": {
+      "sha256": "b2bc88626f8a7e1242ee592aaf95fed31901293332424684d4d0bc554829cf2a",
+      "bytes": 499525
+    },
+    "norm_carry.log": {
+      "sha256": "a090dd1d44dc07fe92830ea8c44be4217e3a4dc36beb28b67bca63725ff1fd6f",
+      "bytes": 2817
+    },
+    "norm_carry.py": {
+      "sha256": "8673aba54c88695408c18705355e32b2c8c59b2ae5641eba2dd4c4a3d7a29788",
+      "bytes": 5434
+    },
+    "norm_compression.json": {
+      "sha256": "dee00880cce3b58aae942755430b045757e8231dc529461940d3d68a59ea7f7c",
+      "bytes": 104865
+    },
+    "norm_compression.log": {
+      "sha256": "bc6394ca9806fbbde97855d75601049e5ff26372f96d73d6e582b19764ab6401",
+      "bytes": 1825
+    },
+    "norm_compression.py": {
+      "sha256": "6c2d9d1605695fe3233e800d36cdf1005f0a8e482f5dc8f736384919dfae39f1",
+      "bytes": 3606
+    },
+    "prior_art.md": {
+      "sha256": "59fc7249ffe407b91c350a4127ad6a2a52c7de6571b96cf4807628d02ac32c11",
+      "bytes": 4158
+    },
+    "realizability.json": {
+      "sha256": "b0373d4e39a7106bff04c36f9ebbc7fdb33e3f61a2f009a88d345cf76505bb31",
+      "bytes": 1404244
+    },
+    "realizability.log": {
+      "sha256": "fbe749b6bd73bd695ed33e29400925f2a77babbdaf6859ecd1ebd4007ffc07aa",
+      "bytes": 1468
+    },
+    "realizability.py": {
+      "sha256": "6b53d3bafb89cacf82210b6fdead586d39b88bc40b657ad98f5c8b57c9a17110",
+      "bytes": 7632
+    },
+    "realizability_review.json": {
+      "sha256": "ede12b51eddcc460f8cae2903d1ea9aee56637b06d63a8f169294a1d0bcdf87d",
+      "bytes": 11204
+    },
+    "realizability_review.log": {
+      "sha256": "3145c3f2cdc85cbb87ba09210f02db62349b47a46dbf15827f529937a58f8a03",
+      "bytes": 1047
+    },
+    "realizability_review.py": {
+      "sha256": "31fc2120c3bcdd5ccf4a8a862e34935c36021dbc6c056899f3b0c2ee842edaf8",
+      "bytes": 9414
+    }
+  }
+}

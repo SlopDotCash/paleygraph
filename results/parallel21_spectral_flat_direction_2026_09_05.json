@@ -1,0 +1,1484 @@
+{
+  "status": "All finite exact checks passed; no all-vector Fourier bound or spectral edge is proved.",
+  "arithmetic": "Python integers, Gaussian integers, Fraction, exact signs in Q(sqrt(p)).",
+  "input_sha256": {
+    "research/parallel21-spectral-next-input-2026-09-05.md": "2bc5a06bebfd1cdb2cd7f0d61d9f95c8448fe7bd64ace017f37edbaa7093df98",
+    "experiments/parallel21_spectral_flat_direction_2026_09_05.py": "32167075dbc2f8022b1345fae32795b61c6857a583395bac23492bf042783343",
+    "research/parallel17-prime-uncertainty-2026-09-05.md": "2eaca714a8c2a139e0be257f9c2196824cbf720e566ce4ef8f0024af87f9ad83",
+    "research/parallel13-principal-budget-2026-09-05.md": "50b4934169a32581859712d60269e8f8e06d829e92bfe90bd042ad68fb8684a9"
+  },
+  "counts": {
+    "quadratic_map_fibres": 31822,
+    "quadratic_trace_identities": 1418,
+    "actual_row_trace_identities": 9057,
+    "actual_affine_edges": 1742,
+    "actual_prime_neighborhoods": 79,
+    "exact_Jacobi_norms": 79,
+    "double_sum_Jacobi_identities": 79,
+    "neighborhood_quadratic_form_identities": 79,
+    "constant_direction_variance_identities": 79,
+    "constant_Fourier_gap_certificates": 72
+  },
+  "quadratic_root_fields": [
+    {
+      "p": 3,
+      "all_A_nonzero_B_pairs": 6
+    },
+    {
+      "p": 5,
+      "all_A_nonzero_B_pairs": 20
+    },
+    {
+      "p": 7,
+      "all_A_nonzero_B_pairs": 42
+    },
+    {
+      "p": 11,
+      "all_A_nonzero_B_pairs": 110
+    },
+    {
+      "p": 13,
+      "all_A_nonzero_B_pairs": 156
+    },
+    {
+      "p": 17,
+      "all_A_nonzero_B_pairs": 272
+    },
+    {
+      "p": 29,
+      "all_A_nonzero_B_pairs": 812
+    }
+  ],
+  "actual_prime_fields": [
+    {
+      "p": 13,
+      "m": 2,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -3,
+        2
+      ],
+      "U": 10,
+      "R_C": -2,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "11/26",
+        "sqrt_p_coefficient": "-1/26"
+      },
+      "constant_direction_residual_squared": "0",
+      "affine_edges_checked": 39
+    },
+    {
+      "p": 17,
+      "m": 3,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -1,
+        4
+      ],
+      "U": -30,
+      "R_C": -6,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "7/17",
+        "sqrt_p_coefficient": "-1/17"
+      },
+      "constant_direction_residual_squared": "0",
+      "affine_edges_checked": 68
+    },
+    {
+      "p": 29,
+      "m": 6,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        5,
+        2
+      ],
+      "U": 42,
+      "R_C": -6,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "23/58",
+        "sqrt_p_coefficient": "-1/58"
+      },
+      "constant_direction_residual_squared": "0",
+      "affine_edges_checked": 203
+    },
+    {
+      "p": 37,
+      "m": 8,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        1,
+        -6
+      ],
+      "U": -70,
+      "R_C": -16,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "29/74",
+        "sqrt_p_coefficient": "-1/37"
+      },
+      "constant_direction_residual_squared": "3",
+      "affine_edges_checked": 333
+    },
+    {
+      "p": 41,
+      "m": 9,
+      "primitive_root": 6,
+      "Jacobi_sum_Gaussian_integer": [
+        -5,
+        4
+      ],
+      "U": 18,
+      "R_C": -12,
+      "R_C_over_m": "-4/3",
+      "QR_Fourier_mass": {
+        "rational": "16/41",
+        "sqrt_p_coefficient": "-2/123"
+      },
+      "constant_direction_residual_squared": "32/9",
+      "affine_edges_checked": 410
+    },
+    {
+      "p": 53,
+      "m": 12,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -7,
+        2
+      ],
+      "U": 90,
+      "R_C": -12,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "41/106",
+        "sqrt_p_coefficient": "-1/106"
+      },
+      "constant_direction_residual_squared": "4",
+      "affine_edges_checked": 689
+    },
+    {
+      "p": 61,
+      "m": 14,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        5,
+        -6
+      ],
+      "U": -22,
+      "R_C": -22,
+      "R_C_over_m": "-11/7",
+      "QR_Fourier_mass": {
+        "rational": "47/122",
+        "sqrt_p_coefficient": "-11/854"
+      },
+      "constant_direction_residual_squared": "96/49",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 73,
+      "m": 17,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        3,
+        8
+      ],
+      "U": -110,
+      "R_C": -32,
+      "R_C_over_m": "-32/17",
+      "QR_Fourier_mass": {
+        "rational": "28/73",
+        "sqrt_p_coefficient": "-16/1241"
+      },
+      "constant_direction_residual_squared": "1152/289",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 89,
+      "m": 21,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -5,
+        8
+      ],
+      "U": -78,
+      "R_C": -36,
+      "R_C_over_m": "-12/7",
+      "QR_Fourier_mass": {
+        "rational": "34/89",
+        "sqrt_p_coefficient": "-6/623"
+      },
+      "constant_direction_residual_squared": "192/49",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 97,
+      "m": 23,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        -9,
+        -4
+      ],
+      "U": 130,
+      "R_C": -26,
+      "R_C_over_m": "-26/23",
+      "QR_Fourier_mass": {
+        "rational": "37/97",
+        "sqrt_p_coefficient": "-13/2231"
+      },
+      "constant_direction_residual_squared": "3648/529",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 101,
+      "m": 24,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        1,
+        10
+      ],
+      "U": -198,
+      "R_C": -48,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "77/202",
+        "sqrt_p_coefficient": "-1/101"
+      },
+      "constant_direction_residual_squared": "3",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 109,
+      "m": 26,
+      "primitive_root": 6,
+      "Jacobi_sum_Gaussian_integer": [
+        -3,
+        10
+      ],
+      "U": -182,
+      "R_C": -50,
+      "R_C_over_m": "-25/13",
+      "QR_Fourier_mass": {
+        "rational": "83/218",
+        "sqrt_p_coefficient": "-25/2834"
+      },
+      "constant_direction_residual_squared": "1728/169",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 113,
+      "m": 27,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        7,
+        8
+      ],
+      "U": -30,
+      "R_C": -42,
+      "R_C_over_m": "-14/9",
+      "QR_Fourier_mass": {
+        "rational": "43/113",
+        "sqrt_p_coefficient": "-7/1017"
+      },
+      "constant_direction_residual_squared": "704/81",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 137,
+      "m": 33,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        11,
+        4
+      ],
+      "U": 210,
+      "R_C": -36,
+      "R_C_over_m": "-12/11",
+      "QR_Fourier_mass": {
+        "rational": "52/137",
+        "sqrt_p_coefficient": "-6/1507"
+      },
+      "constant_direction_residual_squared": "736/121",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 149,
+      "m": 36,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -7,
+        10
+      ],
+      "U": -102,
+      "R_C": -60,
+      "R_C_over_m": "-5/3",
+      "QR_Fourier_mass": {
+        "rational": "113/298",
+        "sqrt_p_coefficient": "-5/894"
+      },
+      "constant_direction_residual_squared": "80/9",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 157,
+      "m": 38,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        -11,
+        -6
+      ],
+      "U": 170,
+      "R_C": -46,
+      "R_C_over_m": "-23/19",
+      "QR_Fourier_mass": {
+        "rational": "119/314",
+        "sqrt_p_coefficient": "-23/5966"
+      },
+      "constant_direction_residual_squared": "2112/361",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 173,
+      "m": 42,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        13,
+        2
+      ],
+      "U": 330,
+      "R_C": -42,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "131/346",
+        "sqrt_p_coefficient": "-1/346"
+      },
+      "constant_direction_residual_squared": "96/7",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 181,
+      "m": 44,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        9,
+        10
+      ],
+      "U": -38,
+      "R_C": -68,
+      "R_C_over_m": "-17/11",
+      "QR_Fourier_mass": {
+        "rational": "137/362",
+        "sqrt_p_coefficient": "-17/3982"
+      },
+      "constant_direction_residual_squared": "1680/121",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 193,
+      "m": 47,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        7,
+        12
+      ],
+      "U": -190,
+      "R_C": -82,
+      "R_C_over_m": "-82/47",
+      "QR_Fourier_mass": {
+        "rational": "73/193",
+        "sqrt_p_coefficient": "-41/9071"
+      },
+      "constant_direction_residual_squared": "20160/2209",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 197,
+      "m": 48,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        1,
+        -14
+      ],
+      "U": -390,
+      "R_C": -96,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "149/394",
+        "sqrt_p_coefficient": "-1/197"
+      },
+      "constant_direction_residual_squared": "11",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 229,
+      "m": 56,
+      "primitive_root": 6,
+      "Jacobi_sum_Gaussian_integer": [
+        -15,
+        2
+      ],
+      "U": 442,
+      "R_C": -56,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "173/458",
+        "sqrt_p_coefficient": "-1/458"
+      },
+      "constant_direction_residual_squared": "108/7",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 233,
+      "m": 57,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -13,
+        -8
+      ],
+      "U": 210,
+      "R_C": -72,
+      "R_C_over_m": "-24/19",
+      "QR_Fourier_mass": {
+        "rational": "88/233",
+        "sqrt_p_coefficient": "-12/4427"
+      },
+      "constant_direction_residual_squared": "5504/361",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 241,
+      "m": 59,
+      "primitive_root": 7,
+      "Jacobi_sum_Gaussian_integer": [
+        15,
+        4
+      ],
+      "U": 418,
+      "R_C": -62,
+      "R_C_over_m": "-62/59",
+      "QR_Fourier_mass": {
+        "rational": "91/241",
+        "sqrt_p_coefficient": "-31/14219"
+      },
+      "constant_direction_residual_squared": "38400/3481",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 257,
+      "m": 63,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -1,
+        16
+      ],
+      "U": -510,
+      "R_C": -126,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "97/257",
+        "sqrt_p_coefficient": "-1/257"
+      },
+      "constant_direction_residual_squared": "320/21",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 269,
+      "m": 66,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        13,
+        10
+      ],
+      "U": 138,
+      "R_C": -90,
+      "R_C_over_m": "-15/11",
+      "QR_Fourier_mass": {
+        "rational": "203/538",
+        "sqrt_p_coefficient": "-15/5918"
+      },
+      "constant_direction_residual_squared": "2272/121",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 277,
+      "m": 68,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        9,
+        14
+      ],
+      "U": -230,
+      "R_C": -116,
+      "R_C_over_m": "-29/17",
+      "QR_Fourier_mass": {
+        "rational": "209/554",
+        "sqrt_p_coefficient": "-29/9418"
+      },
+      "constant_direction_residual_squared": "5364/289",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 281,
+      "m": 69,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -5,
+        -16
+      ],
+      "U": -462,
+      "R_C": -132,
+      "R_C_over_m": "-44/23",
+      "QR_Fourier_mass": {
+        "rational": "106/281",
+        "sqrt_p_coefficient": "-22/6463"
+      },
+      "constant_direction_residual_squared": "8000/529",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 293,
+      "m": 72,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        17,
+        2
+      ],
+      "U": 570,
+      "R_C": -72,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "221/586",
+        "sqrt_p_coefficient": "-1/586"
+      },
+      "constant_direction_residual_squared": "44/3",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 313,
+      "m": 77,
+      "primitive_root": 10,
+      "Jacobi_sum_Gaussian_integer": [
+        -13,
+        -12
+      ],
+      "U": 50,
+      "R_C": -112,
+      "R_C_over_m": "-16/11",
+      "QR_Fourier_mass": {
+        "rational": "118/313",
+        "sqrt_p_coefficient": "-8/3443"
+      },
+      "constant_direction_residual_squared": "2208/121",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 317,
+      "m": 78,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -11,
+        -14
+      ],
+      "U": -150,
+      "R_C": -126,
+      "R_C_over_m": "-21/13",
+      "QR_Fourier_mass": {
+        "rational": "239/634",
+        "sqrt_p_coefficient": "-21/8242"
+      },
+      "constant_direction_residual_squared": "4096/169",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 337,
+      "m": 83,
+      "primitive_root": 10,
+      "Jacobi_sum_Gaussian_integer": [
+        -9,
+        16
+      ],
+      "U": -350,
+      "R_C": -146,
+      "R_C_over_m": "-146/83",
+      "QR_Fourier_mass": {
+        "rational": "127/337",
+        "sqrt_p_coefficient": "-73/27971"
+      },
+      "constant_direction_residual_squared": "157632/6889",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 349,
+      "m": 86,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        5,
+        18
+      ],
+      "U": -598,
+      "R_C": -166,
+      "R_C_over_m": "-83/43",
+      "QR_Fourier_mass": {
+        "rational": "263/698",
+        "sqrt_p_coefficient": "-83/30014"
+      },
+      "constant_direction_residual_squared": "46560/1849",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 353,
+      "m": 87,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -17,
+        8
+      ],
+      "U": 450,
+      "R_C": -102,
+      "R_C_over_m": "-34/29",
+      "QR_Fourier_mass": {
+        "rational": "133/353",
+        "sqrt_p_coefficient": "-17/10237"
+      },
+      "constant_direction_residual_squared": "23552/841",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 373,
+      "m": 92,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -7,
+        18
+      ],
+      "U": -550,
+      "R_C": -172,
+      "R_C_over_m": "-43/23",
+      "QR_Fourier_mass": {
+        "rational": "281/746",
+        "sqrt_p_coefficient": "-43/17158"
+      },
+      "constant_direction_residual_squared": "10548/529",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 389,
+      "m": 96,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        17,
+        10
+      ],
+      "U": 378,
+      "R_C": -120,
+      "R_C_over_m": "-5/4",
+      "QR_Fourier_mass": {
+        "rational": "293/778",
+        "sqrt_p_coefficient": "-5/3112"
+      },
+      "constant_direction_residual_squared": "319/16",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 397,
+      "m": 98,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        -19,
+        6
+      ],
+      "U": 650,
+      "R_C": -106,
+      "R_C_over_m": "-53/49",
+      "QR_Fourier_mass": {
+        "rational": "299/794",
+        "sqrt_p_coefficient": "-53/38906"
+      },
+      "constant_direction_residual_squared": "47808/2401",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 401,
+      "m": 99,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -1,
+        -20
+      ],
+      "U": -798,
+      "R_C": -198,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "151/401",
+        "sqrt_p_coefficient": "-1/401"
+      },
+      "constant_direction_residual_squared": "1024/33",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 409,
+      "m": 101,
+      "primitive_root": 21,
+      "Jacobi_sum_Gaussian_integer": [
+        3,
+        20
+      ],
+      "U": -782,
+      "R_C": -200,
+      "R_C_over_m": "-200/101",
+      "QR_Fourier_mass": {
+        "rational": "154/409",
+        "sqrt_p_coefficient": "-100/41309"
+      },
+      "constant_direction_residual_squared": "254112/10201",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 421,
+      "m": 104,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -15,
+        -14
+      ],
+      "U": 58,
+      "R_C": -152,
+      "R_C_over_m": "-19/13",
+      "QR_Fourier_mass": {
+        "rational": "317/842",
+        "sqrt_p_coefficient": "-19/10946"
+      },
+      "constant_direction_residual_squared": "4800/169",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 433,
+      "m": 107,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        -17,
+        -12
+      ],
+      "U": 290,
+      "R_C": -142,
+      "R_C_over_m": "-142/107",
+      "QR_Fourier_mass": {
+        "rational": "163/433",
+        "sqrt_p_coefficient": "-71/46331"
+      },
+      "constant_direction_residual_squared": "261888/11449",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 449,
+      "m": 111,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        7,
+        20
+      ],
+      "U": -702,
+      "R_C": -210,
+      "R_C_over_m": "-70/37",
+      "QR_Fourier_mass": {
+        "rational": "169/449",
+        "sqrt_p_coefficient": "-35/16613"
+      },
+      "constant_direction_residual_squared": "38464/1369",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 457,
+      "m": 113,
+      "primitive_root": 13,
+      "Jacobi_sum_Gaussian_integer": [
+        -21,
+        4
+      ],
+      "U": 850,
+      "R_C": -116,
+      "R_C_over_m": "-116/113",
+      "QR_Fourier_mass": {
+        "rational": "172/457",
+        "sqrt_p_coefficient": "-58/51641"
+      },
+      "constant_direction_residual_squared": "353568/12769",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 461,
+      "m": 114,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -19,
+        10
+      ],
+      "U": 522,
+      "R_C": -138,
+      "R_C_over_m": "-23/19",
+      "QR_Fourier_mass": {
+        "rational": "347/922",
+        "sqrt_p_coefficient": "-23/17518"
+      },
+      "constant_direction_residual_squared": "8800/361",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 509,
+      "m": 126,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        5,
+        -22
+      ],
+      "U": -918,
+      "R_C": -246,
+      "R_C_over_m": "-41/21",
+      "QR_Fourier_mass": {
+        "rational": "383/1018",
+        "sqrt_p_coefficient": "-41/21378"
+      },
+      "constant_direction_residual_squared": "16064/441",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 521,
+      "m": 129,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        11,
+        -20
+      ],
+      "U": -558,
+      "R_C": -228,
+      "R_C_over_m": "-76/43",
+      "QR_Fourier_mass": {
+        "rational": "196/521",
+        "sqrt_p_coefficient": "-38/22403"
+      },
+      "constant_direction_residual_squared": "52704/1849",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 541,
+      "m": 134,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        21,
+        10
+      ],
+      "U": 682,
+      "R_C": -158,
+      "R_C_over_m": "-79/67",
+      "QR_Fourier_mass": {
+        "rational": "407/1082",
+        "sqrt_p_coefficient": "-79/72494"
+      },
+      "constant_direction_residual_squared": "151008/4489",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 557,
+      "m": 138,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -19,
+        -14
+      ],
+      "U": 330,
+      "R_C": -186,
+      "R_C_over_m": "-31/23",
+      "QR_Fourier_mass": {
+        "rational": "419/1114",
+        "sqrt_p_coefficient": "-31/25622"
+      },
+      "constant_direction_residual_squared": "14656/529",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 569,
+      "m": 141,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -13,
+        -20
+      ],
+      "U": -462,
+      "R_C": -240,
+      "R_C_over_m": "-80/47",
+      "QR_Fourier_mass": {
+        "rational": "214/569",
+        "sqrt_p_coefficient": "-40/26743"
+      },
+      "constant_direction_residual_squared": "73312/2209",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 577,
+      "m": 143,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        -1,
+        24
+      ],
+      "U": -1150,
+      "R_C": -286,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "217/577",
+        "sqrt_p_coefficient": "-1/577"
+      },
+      "constant_direction_residual_squared": "4032/143",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 593,
+      "m": 147,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        23,
+        -8
+      ],
+      "U": 930,
+      "R_C": -162,
+      "R_C_over_m": "-54/49",
+      "QR_Fourier_mass": {
+        "rational": "223/593",
+        "sqrt_p_coefficient": "-27/29057"
+      },
+      "constant_direction_residual_squared": "99200/2401",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 601,
+      "m": 149,
+      "primitive_root": 7,
+      "Jacobi_sum_Gaussian_integer": [
+        -5,
+        24
+      ],
+      "U": -1102,
+      "R_C": -292,
+      "R_C_over_m": "-292/149",
+      "QR_Fourier_mass": {
+        "rational": "226/601",
+        "sqrt_p_coefficient": "-146/89549"
+      },
+      "constant_direction_residual_squared": "870720/22201",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 613,
+      "m": 152,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        17,
+        18
+      ],
+      "U": -70,
+      "R_C": -232,
+      "R_C_over_m": "-29/19",
+      "QR_Fourier_mass": {
+        "rational": "461/1226",
+        "sqrt_p_coefficient": "-29/23294"
+      },
+      "constant_direction_residual_squared": "14112/361",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 617,
+      "m": 153,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        19,
+        -16
+      ],
+      "U": 210,
+      "R_C": -216,
+      "R_C_over_m": "-24/17",
+      "QR_Fourier_mass": {
+        "rational": "232/617",
+        "sqrt_p_coefficient": "-12/10489"
+      },
+      "constant_direction_residual_squared": "38528/867",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 641,
+      "m": 159,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -25,
+        4
+      ],
+      "U": 1218,
+      "R_C": -162,
+      "R_C_over_m": "-54/53",
+      "QR_Fourier_mass": {
+        "rational": "241/641",
+        "sqrt_p_coefficient": "-27/33973"
+      },
+      "constant_direction_residual_squared": "106688/2809",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 653,
+      "m": 162,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        13,
+        -22
+      ],
+      "U": -630,
+      "R_C": -282,
+      "R_C_over_m": "-47/27",
+      "QR_Fourier_mass": {
+        "rational": "491/1306",
+        "sqrt_p_coefficient": "-47/35262"
+      },
+      "constant_direction_residual_squared": "31136/729",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 661,
+      "m": 164,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        25,
+        -6
+      ],
+      "U": 1178,
+      "R_C": -172,
+      "R_C_over_m": "-43/41",
+      "QR_Fourier_mass": {
+        "rational": "497/1322",
+        "sqrt_p_coefficient": "-43/54202"
+      },
+      "constant_direction_residual_squared": "63792/1681",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 673,
+      "m": 167,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        23,
+        -12
+      ],
+      "U": 770,
+      "R_C": -202,
+      "R_C_over_m": "-202/167",
+      "QR_Fourier_mass": {
+        "rational": "253/673",
+        "sqrt_p_coefficient": "-101/112391"
+      },
+      "constant_direction_residual_squared": "1337280/27889",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 677,
+      "m": 168,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        1,
+        26
+      ],
+      "U": -1350,
+      "R_C": -336,
+      "R_C_over_m": "-2",
+      "QR_Fourier_mass": {
+        "rational": "509/1354",
+        "sqrt_p_coefficient": "-1/677"
+      },
+      "constant_direction_residual_squared": "277/7",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 701,
+      "m": 174,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        5,
+        26
+      ],
+      "U": -1302,
+      "R_C": -342,
+      "R_C_over_m": "-57/29",
+      "QR_Fourier_mass": {
+        "rational": "527/1402",
+        "sqrt_p_coefficient": "-57/40658"
+      },
+      "constant_direction_residual_squared": "37728/841",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 709,
+      "m": 176,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -15,
+        -22
+      ],
+      "U": -518,
+      "R_C": -296,
+      "R_C_over_m": "-37/22",
+      "QR_Fourier_mass": {
+        "rational": "533/1418",
+        "sqrt_p_coefficient": "-37/31196"
+      },
+      "constant_direction_residual_squared": "18255/484",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 733,
+      "m": 182,
+      "primitive_root": 6,
+      "Jacobi_sum_Gaussian_integer": [
+        -27,
+        2
+      ],
+      "U": 1450,
+      "R_C": -182,
+      "R_C_over_m": "-1",
+      "QR_Fourier_mass": {
+        "rational": "551/1466",
+        "sqrt_p_coefficient": "-1/1466"
+      },
+      "constant_direction_residual_squared": "4224/91",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 757,
+      "m": 188,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        9,
+        26
+      ],
+      "U": -1190,
+      "R_C": -356,
+      "R_C_over_m": "-89/47",
+      "QR_Fourier_mass": {
+        "rational": "569/1514",
+        "sqrt_p_coefficient": "-89/71158"
+      },
+      "constant_direction_residual_squared": "102576/2209",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 761,
+      "m": 189,
+      "primitive_root": 6,
+      "Jacobi_sum_Gaussian_integer": [
+        19,
+        -20
+      ],
+      "U": -78,
+      "R_C": -288,
+      "R_C_over_m": "-32/21",
+      "QR_Fourier_mass": {
+        "rational": "286/761",
+        "sqrt_p_coefficient": "-16/15981"
+      },
+      "constant_direction_residual_squared": "19360/441",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 769,
+      "m": 191,
+      "primitive_root": 11,
+      "Jacobi_sum_Gaussian_integer": [
+        -25,
+        -12
+      ],
+      "U": 962,
+      "R_C": -226,
+      "R_C_over_m": "-226/191",
+      "QR_Fourier_mass": {
+        "rational": "289/769",
+        "sqrt_p_coefficient": "-113/146879"
+      },
+      "constant_direction_residual_squared": "1818432/36481",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 773,
+      "m": 192,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        17,
+        -22
+      ],
+      "U": -390,
+      "R_C": -312,
+      "R_C_over_m": "-13/8",
+      "QR_Fourier_mass": {
+        "rational": "581/1546",
+        "sqrt_p_coefficient": "-13/12368"
+      },
+      "constant_direction_residual_squared": "2663/64",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 797,
+      "m": 198,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -11,
+        26
+      ],
+      "U": -1110,
+      "R_C": -366,
+      "R_C_over_m": "-61/33",
+      "QR_Fourier_mass": {
+        "rational": "599/1594",
+        "sqrt_p_coefficient": "-61/52602"
+      },
+      "constant_direction_residual_squared": "44096/1089",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 809,
+      "m": 201,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -5,
+        -28
+      ],
+      "U": -1518,
+      "R_C": -396,
+      "R_C_over_m": "-132/67",
+      "QR_Fourier_mass": {
+        "rational": "304/809",
+        "sqrt_p_coefficient": "-66/54203"
+      },
+      "constant_direction_residual_squared": "240928/4489",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 821,
+      "m": 204,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        25,
+        -14
+      ],
+      "U": 858,
+      "R_C": -252,
+      "R_C_over_m": "-21/17",
+      "QR_Fourier_mass": {
+        "rational": "617/1642",
+        "sqrt_p_coefficient": "-21/27914"
+      },
+      "constant_direction_residual_squared": "16372/289",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 829,
+      "m": 206,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -27,
+        10
+      ],
+      "U": 1258,
+      "R_C": -230,
+      "R_C_over_m": "-115/103",
+      "QR_Fourier_mass": {
+        "rational": "623/1658",
+        "sqrt_p_coefficient": "-115/170774"
+      },
+      "constant_direction_residual_squared": "518976/10609",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 853,
+      "m": 212,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        -23,
+        18
+      ],
+      "U": 410,
+      "R_C": -292,
+      "R_C_over_m": "-73/53",
+      "QR_Fourier_mass": {
+        "rational": "641/1706",
+        "sqrt_p_coefficient": "-73/90418"
+      },
+      "constant_direction_residual_squared": "148212/2809",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 857,
+      "m": 213,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -29,
+        -4
+      ],
+      "U": 1650,
+      "R_C": -216,
+      "R_C_over_m": "-72/71",
+      "QR_Fourier_mass": {
+        "rational": "322/857",
+        "sqrt_p_coefficient": "-36/60847"
+      },
+      "constant_direction_residual_squared": "310624/5041",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 877,
+      "m": 218,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        29,
+        -6
+      ],
+      "U": 1610,
+      "R_C": -226,
+      "R_C_over_m": "-113/109",
+      "QR_Fourier_mass": {
+        "rational": "659/1754",
+        "sqrt_p_coefficient": "-113/191186"
+      },
+      "constant_direction_residual_squared": "681888/11881",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 881,
+      "m": 219,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -25,
+        16
+      ],
+      "U": 738,
+      "R_C": -282,
+      "R_C_over_m": "-94/73",
+      "QR_Fourier_mass": {
+        "rational": "331/881",
+        "sqrt_p_coefficient": "-47/64313"
+      },
+      "constant_direction_residual_squared": "236736/5329",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 929,
+      "m": 231,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        23,
+        -20
+      ],
+      "U": 258,
+      "R_C": -330,
+      "R_C_over_m": "-10/7",
+      "QR_Fourier_mass": {
+        "rational": "349/929",
+        "sqrt_p_coefficient": "-5/6503"
+      },
+      "constant_direction_residual_squared": "30400/539",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 937,
+      "m": 233,
+      "primitive_root": 5,
+      "Jacobi_sum_Gaussian_integer": [
+        19,
+        24
+      ],
+      "U": -430,
+      "R_C": -376,
+      "R_C_over_m": "-376/233",
+      "QR_Fourier_mass": {
+        "rational": "352/937",
+        "sqrt_p_coefficient": "-188/218321"
+      },
+      "constant_direction_residual_squared": "3780480/54289",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 941,
+      "m": 234,
+      "primitive_root": 2,
+      "Jacobi_sum_Gaussian_integer": [
+        29,
+        10
+      ],
+      "U": 1482,
+      "R_C": -258,
+      "R_C_over_m": "-43/39",
+      "QR_Fourier_mass": {
+        "rational": "707/1882",
+        "sqrt_p_coefficient": "-43/73398"
+      },
+      "constant_direction_residual_squared": "84224/1521",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 953,
+      "m": 237,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        -13,
+        28
+      ],
+      "U": -1230,
+      "R_C": -432,
+      "R_C_over_m": "-144/79",
+      "QR_Fourier_mass": {
+        "rational": "358/953",
+        "sqrt_p_coefficient": "-72/75287"
+      },
+      "constant_direction_residual_squared": "396384/6241",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 977,
+      "m": 243,
+      "primitive_root": 3,
+      "Jacobi_sum_Gaussian_integer": [
+        31,
+        -4
+      ],
+      "U": 1890,
+      "R_C": -246,
+      "R_C_over_m": "-82/81",
+      "QR_Fourier_mass": {
+        "rational": "367/977",
+        "sqrt_p_coefficient": "-41/79137"
+      },
+      "constant_direction_residual_squared": "335744/6561",
+      "affine_edges_checked": 0
+    },
+    {
+      "p": 997,
+      "m": 248,
+      "primitive_root": 7,
+      "Jacobi_sum_Gaussian_integer": [
+        -31,
+        -6
+      ],
+      "U": 1850,
+      "R_C": -256,
+      "R_C_over_m": "-32/31",
+      "QR_Fourier_mass": {
+        "rational": "749/1994",
+        "sqrt_p_coefficient": "-16/30907"
+      },
+      "constant_direction_residual_squared": "64851/961",
+      "affine_edges_checked": 0
+    }
+  ],
+  "limitations": [
+    "The uniform theorem concerns the constant vector on two-anchor common neighborhoods only.",
+    "The verified residual identity supplies no asymptotic estimate for its right side.",
+    "Passing to more anchors or arbitrary supported vectors is not justified.",
+    "No determinant bound for the full matrix or logarithmic depth range is improved.",
+    "No arbitrary projection, square-field example or abstract sign kernel is used as a counterexample.",
+    "This lane has no separate human or formal proof review."
+  ]
+}

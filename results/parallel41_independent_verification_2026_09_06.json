@@ -1,0 +1,173 @@
+{
+  "triangles": [
+    {
+      "p": 17,
+      "n": 4,
+      "W": 384,
+      "low": 384,
+      "high": 0,
+      "B": 15,
+      "X": 0,
+      "X_dist": 0,
+      "K": 33,
+      "level_blocks": 8,
+      "identities_passed": true
+    },
+    {
+      "p": 41,
+      "n": 4,
+      "W": 384,
+      "low": 384,
+      "high": 0,
+      "B": 15,
+      "X": 0,
+      "X_dist": 0,
+      "K": 33,
+      "level_blocks": 8,
+      "identities_passed": true
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "W": 17088,
+      "low": 17088,
+      "high": 0,
+      "B": 91,
+      "X": 0,
+      "X_dist": 0,
+      "K": 305,
+      "level_blocks": 8,
+      "identities_passed": true
+    },
+    {
+      "p": 193,
+      "n": 8,
+      "W": 14592,
+      "low": 14592,
+      "high": 0,
+      "B": 91,
+      "X": 0,
+      "X_dist": 0,
+      "K": 289,
+      "level_blocks": 8,
+      "identities_passed": true
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "W": 1640112,
+      "low": 698880,
+      "high": 941232,
+      "B": 549,
+      "X": 114,
+      "X_dist": 36,
+      "K": 4313,
+      "level_blocks": 8,
+      "identities_passed": true
+    },
+    {
+      "p": 1153,
+      "n": 32,
+      "W": 22444032,
+      "low": 13923840,
+      "high": 8520192,
+      "B": 2647,
+      "X": 756,
+      "X_dist": 540,
+      "K": 31729,
+      "level_blocks": 27,
+      "identities_passed": true
+    }
+  ],
+  "quartic_excess": [
+    {
+      "p": 6700417,
+      "n": 64,
+      "X": 114,
+      "diagonal": 78,
+      "X_dist": 36,
+      "method": "Direct shifted-ratio counts and the proved diagonal identity"
+    },
+    {
+      "p": 215535361,
+      "n": 128,
+      "X": 1740,
+      "diagonal": 1056,
+      "X_dist": 684,
+      "method": "Direct shifted-ratio counts and the proved diagonal identity"
+    },
+    {
+      "p": 67403009,
+      "n": 128,
+      "X": 720,
+      "diagonal": 216,
+      "X_dist": 504,
+      "method": "Direct shifted-ratio counts and the proved diagonal identity"
+    }
+  ],
+  "shell": {
+    "norm_method": "32-by-32 integer Bareiss determinants",
+    "recovered_cofactor": 1217,
+    "centering_defects": [
+      641,
+      178771841
+    ],
+    "additional_lattice_vectors": 4,
+    "unit_energies": [
+      [
+        19,
+        13
+      ],
+      [
+        53,
+        43
+      ],
+      [
+        305,
+        293
+      ]
+    ],
+    "all_passed": true
+  },
+  "smoothing": [
+    {
+      "p": 13,
+      "V": [
+        0,
+        1,
+        3
+      ],
+      "t": 3,
+      "third_moment": 6,
+      "shift_tuples": 2197,
+      "smoothed_sixth": "361570/4563",
+      "all_passed": true
+    },
+    {
+      "p": 41,
+      "V": [
+        0,
+        1
+      ],
+      "t": 2,
+      "third_moment": -6,
+      "shift_tuples": 1681,
+      "smoothed_sixth": "204159/656",
+      "all_passed": true
+    },
+    {
+      "p": 17,
+      "V": [
+        0,
+        1
+      ],
+      "t": 2,
+      "third_moment": -6,
+      "shift_tuples": 289,
+      "smoothed_sixth": "29655/272",
+      "all_passed": true
+    }
+  ],
+  "scope": "Finite exact checks plus rational exponent audit; no uniform theorem certification.",
+  "all_passed": true
+}

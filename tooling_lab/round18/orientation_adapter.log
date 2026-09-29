@@ -1,0 +1,5 @@
+{"case": "small_complete", "mapping": {"status": "compiled", "exponent": 11, "shift": 5, "sign": 1, "cofactor": 1}, "records": 256}
+{"case": "medium_walk", "mapping": {"status": "compiled", "exponent": 19, "shift": 0, "sign": -1, "cofactor": 1}, "records": 65}
+{"case": "known_short_walk", "mapping": {"status": "compiled", "exponent": 1, "shift": 0, "sign": 1, "cofactor": 641}, "records": 65}
+{"case": "known_centering_walk", "mapping": {"status": "compiled", "exponent": 1, "shift": 0, "sign": 1, "cofactor": 641}, "records": 65}
+{"case": "quartic_window_walk", "mapping": {"status": "generator_2_has_wrong_order"}, "records": 0}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "file": "witness_1000033_positive_128.bin",
+  "sha256": "f3e0b411b86c65828c00c0b0d18bfe400fb5e1dce18e0b1d4a01a33caa664b6c",
+  "cpp_source_sha256": "49b8ffd38fff67bcdf3b4873e9f72046c5efc962f01a1c247a7b7c0f41f77bee",
+  "logged_cpp_sha256": "8be1ea5aa1cd91fc4f98b65f52a614f9edf86cab747f52ce52cd7576db7bfd0c",
+  "reviewer_sha256": "a93c635370ee91072c8acc56a2e89af2a2ad07e36dc3f6f0e807c60664089ce2",
+  "p": 1000033,
+  "m": 250007,
+  "direct_character_rows": [
+    {
+      "row": 2,
+      "value": 5204
+    },
+    {
+      "row": 142029,
+      "value": -15286
+    },
+    {
+      "row": 333226,
+      "value": 16793
+    },
+    {
+      "row": 500017,
+      "value": 5204
+    },
+    {
+      "row": 1000032,
+      "value": 5204
+    }
+  ],
+  "direct_autocorrelation_shifts": [
+    {
+      "shift": 0,
+      "value": 195367076
+    },
+    {
+      "shift": 1,
+      "value": 2189980
+    },
+    {
+      "shift": 2,
+      "value": 201128
+    },
+    {
+      "shift": 17,
+      "value": 249539
+    },
+    {
+      "shift": 142861,
+      "value": -654462
+    },
+    {
+      "shift": 333344,
+      "value": 161918
+    },
+    {
+      "shift": 500016,
+      "value": 124918
+    },
+    {
+      "shift": 1000032,
+      "value": 2189980
+    }
+  ],
+  "directional_lower_bound": [
+    867000,
+    1000000
+  ],
+  "strict_square_margin": 27204278231265607038297961217904000000,
+  "scope": "Full freshly compiled candidate replay plus independent sampled rows; not independent full million-point convolution"
+}

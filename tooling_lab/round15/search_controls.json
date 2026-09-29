@@ -1,0 +1,1056 @@
+{
+  "status": "passed",
+  "scope": "32 interpolated rank-three polynomial configurations, literal optimal-profile covers, independent full-block exchange replay, a higher-flat impossibility control, singleton repair and corrupt-evidence rejection.",
+  "random_cases": [
+    {
+      "case": 0,
+      "values": [
+        5,
+        2,
+        1,
+        4,
+        0,
+        1,
+        0
+      ],
+      "literal_optimal_covers": 10,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 15,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 12,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 1,
+      "values": [
+        6,
+        5,
+        2,
+        3,
+        6,
+        2,
+        0
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 2,
+      "values": [
+        1,
+        0,
+        0,
+        4,
+        4,
+        1,
+        0
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 25,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 20,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 3,
+      "values": [
+        3,
+        5,
+        4,
+        6,
+        6,
+        2,
+        1
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 10,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 8,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 4,
+      "values": [
+        3,
+        0,
+        4,
+        4,
+        4,
+        4,
+        0
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 5,
+      "values": [
+        4,
+        1,
+        4,
+        3,
+        3,
+        5,
+        4
+      ],
+      "literal_optimal_covers": 22,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 15,
+        "accepted_swaps": 2,
+        "producer_local_queries_checked": 12,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 6,
+      "values": [
+        1,
+        2,
+        0,
+        6,
+        3,
+        5,
+        5
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 10,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 8,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 7,
+      "values": [
+        0,
+        0,
+        5,
+        1,
+        5,
+        3,
+        2
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 8,
+      "values": [
+        6,
+        2,
+        3,
+        0,
+        0,
+        2,
+        4
+      ],
+      "literal_optimal_covers": 0,
+      "repair_status": "not_found",
+      "restart_status": "not_found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 50,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 40,
+        "final_certificate_queries_checked": 0
+      }
+    },
+    {
+      "case": 9,
+      "values": [
+        4,
+        1,
+        3,
+        0,
+        3,
+        0,
+        0
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 10,
+      "values": [
+        3,
+        3,
+        0,
+        6,
+        1,
+        6,
+        6
+      ],
+      "literal_optimal_covers": 22,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 11,
+      "values": [
+        4,
+        6,
+        5,
+        1,
+        1,
+        4,
+        1
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 12,
+      "values": [
+        6,
+        6,
+        1,
+        5,
+        2,
+        4,
+        4
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 15,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 12,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 13,
+      "values": [
+        2,
+        1,
+        0,
+        1,
+        4,
+        2,
+        5
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 14,
+      "values": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        6,
+        0
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 15,
+        "accepted_swaps": 2,
+        "producer_local_queries_checked": 12,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 15,
+      "values": [
+        1,
+        2,
+        2,
+        1,
+        3,
+        1,
+        5
+      ],
+      "literal_optimal_covers": 17,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 15,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 12,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 16,
+      "values": [
+        0,
+        1,
+        5,
+        0,
+        2,
+        2,
+        3
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 17,
+      "values": [
+        4,
+        2,
+        5,
+        2,
+        6,
+        2,
+        6
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 18,
+      "values": [
+        4,
+        2,
+        5,
+        3,
+        1,
+        1,
+        4
+      ],
+      "literal_optimal_covers": 18,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 19,
+      "values": [
+        2,
+        2,
+        4,
+        4,
+        0,
+        1,
+        0
+      ],
+      "literal_optimal_covers": 22,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 20,
+      "values": [
+        6,
+        2,
+        5,
+        2,
+        0,
+        4,
+        2
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 21,
+      "values": [
+        1,
+        3,
+        3,
+        0,
+        1,
+        6,
+        4
+      ],
+      "literal_optimal_covers": 22,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 22,
+      "values": [
+        1,
+        0,
+        6,
+        1,
+        2,
+        3,
+        0
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 23,
+      "values": [
+        0,
+        6,
+        5,
+        3,
+        6,
+        4,
+        1
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 10,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 8,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 24,
+      "values": [
+        3,
+        0,
+        2,
+        6,
+        6,
+        0,
+        4
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 20,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 16,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 25,
+      "values": [
+        2,
+        6,
+        3,
+        2,
+        4,
+        6,
+        2
+      ],
+      "literal_optimal_covers": 12,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 10,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 8,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 26,
+      "values": [
+        2,
+        0,
+        4,
+        0,
+        6,
+        3,
+        4
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 27,
+      "values": [
+        6,
+        1,
+        6,
+        2,
+        2,
+        2,
+        1
+      ],
+      "literal_optimal_covers": 20,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 28,
+      "values": [
+        5,
+        4,
+        0,
+        5,
+        6,
+        5,
+        1
+      ],
+      "literal_optimal_covers": 22,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 0,
+        "accepted_swaps": 0,
+        "producer_local_queries_checked": 0,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 29,
+      "values": [
+        5,
+        0,
+        6,
+        4,
+        2,
+        1,
+        6
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 10,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 8,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 30,
+      "values": [
+        6,
+        6,
+        2,
+        2,
+        4,
+        5,
+        2
+      ],
+      "literal_optimal_covers": 15,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    },
+    {
+      "case": 31,
+      "values": [
+        1,
+        4,
+        4,
+        2,
+        0,
+        3,
+        1
+      ],
+      "literal_optimal_covers": 18,
+      "repair_status": "found",
+      "restart_status": "found",
+      "review": {
+        "initial_queries_fully_checked": 5,
+        "affected_block_queries_fully_checked": 5,
+        "accepted_swaps": 1,
+        "producer_local_queries_checked": 4,
+        "final_certificate_queries_checked": 5
+      }
+    }
+  ],
+  "literal_partitions_checked": 1120,
+  "corrupt_exchange_histories_rejected": 4,
+  "higher_flat_obstruction": {
+    "input": {
+      "p": 7,
+      "n": 7,
+      "k": 7,
+      "s": 5,
+      "dimension": 3,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "origin": [],
+      "basis": [
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          6,
+          1,
+          6,
+          1,
+          6
+        ]
+      ]
+    },
+    "rank_deficient_s_set": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "queried_blocks": 2,
+    "line_size": 6,
+    "unqueried": 0
+  },
+  "singleton_repair": {
+    "input": {
+      "p": 7,
+      "n": 7,
+      "k": 7,
+      "s": 7,
+      "dimension": 3,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "origin": [],
+      "basis": [
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          6,
+          1,
+          6,
+          1,
+          6
+        ]
+      ]
+    },
+    "initial_blocks": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "result": {
+      "status": "found",
+      "initial_audit": {
+        "queries_checked": 1,
+        "dependent_queries": [
+          {
+            "block": 0,
+            "coordinates": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "trials": [
+        {
+          "swap": [
+            0,
+            0,
+            1,
+            3
+          ],
+          "removed_dependencies": [
+            [
+              0,
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          ],
+          "added_dependencies": [
+            [
+              0,
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          ],
+          "local_queries_checked": 1,
+          "accepted": false
+        },
+        {
+          "swap": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "removed_dependencies": [
+            [
+              0,
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          ],
+          "added_dependencies": [
+            [
+              0,
+              [
+                1,
+                2,
+                4
+              ]
+            ]
+          ],
+          "local_queries_checked": 1,
+          "accepted": false
+        },
+        {
+          "swap": [
+            0,
+            0,
+            3,
+            5
+          ],
+          "removed_dependencies": [
+            [
+              0,
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          ],
+          "added_dependencies": [
+            [
+              0,
+              [
+                1,
+                2,
+                5
+              ]
+            ]
+          ],
+          "local_queries_checked": 1,
+          "accepted": false
+        },
+        {
+          "swap": [
+            0,
+            0,
+            4,
+            6
+          ],
+          "removed_dependencies": [
+            [
+              0,
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          ],
+          "added_dependencies": [],
+          "local_queries_checked": 1,
+          "accepted": true
+        }
+      ],
+      "class_conflicting_moves_skipped": 0,
+      "local_queries_checked": 4,
+      "final_audit": {
+        "queries_checked": 1,
+        "dependent_queries": []
+      },
+      "blocks": [
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          0
+        ]
+      ],
+      "search_queries_including_initial_scan": 5,
+      "scope": "Bounded strict local descent; every swap preserves block sizes and projective capacities. No complete repair algorithm or novelty claim.",
+      "certificate": {
+        "schema": "polynomial_arc_query_cover_v1",
+        "input": {
+          "p": 7,
+          "n": 7,
+          "k": 7,
+          "s": 7,
+          "dimension": 3,
+          "domain": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "origin": [],
+          "basis": [
+            [
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              6,
+              1,
+              6,
+              1,
+              6
+            ]
+          ]
+        },
+        "blocks": [
+          [
+            1,
+            2,
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            0
+          ]
+        ],
+        "query_count": 1,
+        "maximum_query_avoiding_set": 6,
+        "zero_coordinates": [],
+        "scope": "Every s-coordinate set contains a queried basis in this declared affine space. Every d-subset of a block of size at least d is queried. No cluster discovery or globally optimal cover is asserted."
+      },
+      "standalone_certificate_review": {
+        "status": "verified",
+        "p": 7,
+        "n": 7,
+        "k": 7,
+        "s": 7,
+        "dimension": 3,
+        "blocks": 5,
+        "queries_rank_checked": 1,
+        "maximum_query_avoiding_set": 6,
+        "minimum_guaranteed_agreement": 7,
+        "zero_coordinates": [],
+        "scope": "Complete d-subset queries inside checked arc blocks. Deterministic coverage for every received word inside the supplied affine space only."
+      }
+    }
+  },
+  "source_sha256": {
+    "search_controls.py": "08ce1906c7874160ac28177728d1820f6d0ba1e5ecd362de4721049f0defd510",
+    "capacity_search.py": "7d788d29b073a22a418361145cf5a250d46fae1dffe212a46809a1b3f3ced514",
+    "projective_profile.py": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+    "exchange_repair.py": "2874becc0eaf9a25cb175936aef6d26448ea943ee1e8a3555f04bcc52664755e",
+    "capacity_review.py": "d3a18d2d681a5785c9857128159dedc955bd7ff91df4b081e4d6e3933ed5344e",
+    "../round14/arc_certificate.py": "48305a4d4fd98068992d4893a66eca3f9359261804015def975e0a7b5a30b513",
+    "../round14/dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  }
+}

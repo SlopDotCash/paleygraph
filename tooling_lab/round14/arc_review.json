@@ -1,0 +1,985 @@
+{
+  "status": "passed",
+  "scope": "Every query independently solved with integer Cramer determinants; every candidate word fully evaluated with overflow-bounded integer arrays. All local support inferences, adaptive rejection bounds, outputs and special complete oracles checked. No timing speedup or global prize theorem is inferred.",
+  "cases": [
+    {
+      "case": "small",
+      "scalar": 0,
+      "review_seconds": 0.003064667005673982,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 1,
+      "review_seconds": 0.0028967079997528344,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 46,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 2,
+      "review_seconds": 0.006063917011488229,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 3,
+      "review_seconds": 0.007555542004411109,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 47,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 4,
+      "review_seconds": 0.005914207999012433,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 45,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            2
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 5,
+      "review_seconds": 0.003716374994837679,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 55,
+        "output_materialization_evaluations": 32,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 6,
+      "review_seconds": 0.004036792000988498,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 7,
+        "full_word_coordinate_values_checked": 112,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 16,
+        "outputs_checked": 1,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 7,
+      "review_seconds": 0.0029449590074364096,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 8,
+      "review_seconds": 0.004690707995905541,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 46,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 9,
+      "review_seconds": 0.005873707996215671,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 10,
+      "review_seconds": 0.005415708001237363,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 11,
+      "review_seconds": 0.0029843340016668662,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 9,
+        "full_word_coordinate_values_checked": 144,
+        "adaptive_coordinate_evaluations_checked": 41,
+        "output_materialization_evaluations": 16,
+        "outputs_checked": 1,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 12,
+      "review_seconds": 0.0028534580051200464,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 9,
+        "full_word_coordinate_values_checked": 144,
+        "adaptive_coordinate_evaluations_checked": 46,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 13,
+      "review_seconds": 0.0039628750091651455,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 47,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 14,
+      "review_seconds": 0.003519666992360726,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 43,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 15,
+      "review_seconds": 0.004240041002049111,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 10,
+        "full_word_coordinate_values_checked": 160,
+        "adaptive_coordinate_evaluations_checked": 47,
+        "output_materialization_evaluations": 0,
+        "outputs_checked": 0,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "small",
+      "scalar": 16,
+      "review_seconds": 0.00325108299148269,
+      "review": {
+        "queries_independently_replayed": 10,
+        "candidate_words_fully_evaluated": 7,
+        "full_word_coordinate_values_checked": 112,
+        "adaptive_coordinate_evaluations_checked": 37,
+        "output_materialization_evaluations": 16,
+        "outputs_checked": 1,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "complete_space",
+        "members": 4913
+      }
+    },
+    {
+      "case": "d3_s410",
+      "scalar": 0,
+      "review_seconds": 2.0285947090014815,
+      "review": {
+        "queries_independently_replayed": 2070,
+        "candidate_words_fully_evaluated": 1556,
+        "full_word_coordinate_values_checked": 1593344,
+        "adaptive_coordinate_evaluations_checked": 2579,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            1554
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d3_s410",
+      "scalar": 1,
+      "review_seconds": 1.3574802080111112,
+      "review": {
+        "queries_independently_replayed": 2070,
+        "candidate_words_fully_evaluated": 1556,
+        "full_word_coordinate_values_checked": 1593344,
+        "adaptive_coordinate_evaluations_checked": 2579,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            1554
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d4_s410",
+      "scalar": 0,
+      "review_seconds": 5.0081189579941565,
+      "review": {
+        "queries_independently_replayed": 7245,
+        "candidate_words_fully_evaluated": 6492,
+        "full_word_coordinate_values_checked": 6647808,
+        "adaptive_coordinate_evaluations_checked": 7363,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            6490
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d4_s410",
+      "scalar": 1,
+      "review_seconds": 4.781987666996429,
+      "review": {
+        "queries_independently_replayed": 7245,
+        "candidate_words_fully_evaluated": 6492,
+        "full_word_coordinate_values_checked": 6647808,
+        "adaptive_coordinate_evaluations_checked": 7363,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            6490
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d5_s410",
+      "scalar": 0,
+      "review_seconds": 10.785937166001531,
+      "review": {
+        "queries_independently_replayed": 26334,
+        "candidate_words_fully_evaluated": 24791,
+        "full_word_coordinate_values_checked": 25385984,
+        "adaptive_coordinate_evaluations_checked": 25541,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            24788
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d5_s410",
+      "scalar": 1,
+      "review_seconds": 8.056816041003913,
+      "review": {
+        "queries_independently_replayed": 26334,
+        "candidate_words_fully_evaluated": 24791,
+        "full_word_coordinate_values_checked": 25385984,
+        "adaptive_coordinate_evaluations_checked": 25534,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            24789
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d3_s192",
+      "scalar": 0,
+      "review_seconds": 2.7076462499971967,
+      "review": {
+        "queries_independently_replayed": 14685,
+        "candidate_words_fully_evaluated": 11065,
+        "full_word_coordinate_values_checked": 11330560,
+        "adaptive_coordinate_evaluations_checked": 11138,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            11063
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d3_s192",
+      "scalar": 1,
+      "review_seconds": 3.8156635830091545,
+      "review": {
+        "queries_independently_replayed": 14685,
+        "candidate_words_fully_evaluated": 11065,
+        "full_word_coordinate_values_checked": 11330560,
+        "adaptive_coordinate_evaluations_checked": 11138,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            11063
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d4_s192",
+      "scalar": 0,
+      "review_seconds": 47.408041874994524,
+      "review": {
+        "queries_independently_replayed": 122500,
+        "candidate_words_fully_evaluated": 105802,
+        "full_word_coordinate_values_checked": 108341248,
+        "adaptive_coordinate_evaluations_checked": 105839,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            105799
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d4_s192",
+      "scalar": 1,
+      "review_seconds": 617.2051020409999,
+      "review": {
+        "queries_independently_replayed": 122500,
+        "candidate_words_fully_evaluated": 105782,
+        "full_word_coordinate_values_checked": 108320768,
+        "adaptive_coordinate_evaluations_checked": 105824,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            105774
+          ],
+          [
+            2,
+            6
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d3_s128",
+      "scalar": 0,
+      "review_seconds": 12.544186291997903,
+      "review": {
+        "queries_independently_replayed": 37080,
+        "candidate_words_fully_evaluated": 27544,
+        "full_word_coordinate_values_checked": 28205056,
+        "adaptive_coordinate_evaluations_checked": 27559,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            27541
+          ],
+          [
+            16,
+            1
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    },
+    {
+      "case": "d3_s128",
+      "scalar": 1,
+      "review_seconds": 13.942420292005409,
+      "review": {
+        "queries_independently_replayed": 37080,
+        "candidate_words_fully_evaluated": 27547,
+        "full_word_coordinate_values_checked": 28208128,
+        "adaptive_coordinate_evaluations_checked": 27547,
+        "output_materialization_evaluations": 2048,
+        "outputs_checked": 2,
+        "rejection_evaluation_histogram": [
+          [
+            1,
+            27545
+          ]
+        ]
+      },
+      "complete_oracle": {
+        "kind": "two_piece_complete_ambient",
+        "agreement_sizes": [
+          512,
+          512
+        ],
+        "other_polynomial_agreement_cap": 126
+      }
+    }
+  ],
+  "queries_independently_replayed": 419998,
+  "candidate_words_fully_evaluated": 354645,
+  "full_word_coordinate_values_checked": 362993184,
+  "source_sha256": {
+    "arc_review.py": "95ce098d8c5c32356364a430783d5b4a990dcd88445318140db2d26d76271665",
+    "arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  },
+  "input_sha256": {
+    "actual_arc_results.json": "ac6f1725cad718cc77015e4a505f9458829208c7688ec12a3baf1d1cdcb75536",
+    "small.certificate.json": "c4abbd91eb307c35fa4ecb3433ddaf886ee03c581d19857e908d01fc31ea9065",
+    "small_scalar0.run.json": "1446bc4cdba51f426209a3f6ad4d7cd85982aef98290bf1079b0084c561f8fc4",
+    "small_scalar1.run.json": "f11d75a1da7dab75f38dc4983029b8e3274d5069b8835a4fbf56d46909fccccc",
+    "small_scalar2.run.json": "a26ba3b442932f400ecdfb593c9dfefdb2b37ef54dcdad909e22248be5db9a3d",
+    "small_scalar3.run.json": "1c8dd080ee8c6bb035fc157c83c3fe5d0b0be577fb810e8311cf6ab729267d74",
+    "small_scalar4.run.json": "11141f49f2cb1adac0d6fbc1fde5ed540cab530dd9c2d76a6f28ea9f55e8115b",
+    "small_scalar5.run.json": "565fda44d769a6e49ff58915ee08ba6bc1fc6b95aa0f32f0bfa6cbfd5312b4bb",
+    "small_scalar6.run.json": "f7352a7ac14bfea0cb4b1aa1d35dc19d08abd768c9c299fd89b508bbcf317d75",
+    "small_scalar7.run.json": "c99a20f6524e056a1cf10a924533cdb3a65b8c078fa010b6265fef574e683344",
+    "small_scalar8.run.json": "bd5baf1de83683829e88c2f4763498ccc3596eeb7ff18e888f6fdc2067f43661",
+    "small_scalar9.run.json": "e9da2824b37109c50452661d7b18451632b171d1ccc8f2b2ba116011fba9391b",
+    "small_scalar10.run.json": "c389e0f213b74b974425c6565e119f80bd4e5b6c38280906c013e0fa14e0c2b1",
+    "small_scalar11.run.json": "300af97e30ddb2ab7486248192b67f81ef1f40a9a126fd02c6a88c8c17e059d8",
+    "small_scalar12.run.json": "dad194cd1e9512c15c7cf931028d6281c59580142b1689b50dd2d09d6b9956f4",
+    "small_scalar13.run.json": "852a3bd30bc111c1d5cdeb2b9894e4a53c8234e80142456a6ff4f8d94c126991",
+    "small_scalar14.run.json": "51382940af4a630c20db55cb16ae12f87dff62908e00906c9a9e3e19af459c9f",
+    "small_scalar15.run.json": "92abdc2197d65d983046ab8a2448604506252827bc5df6aaddaafbf76e3fb3a6",
+    "small_scalar16.run.json": "1e941620c0c897b483eac66ab87edd536efb25fe7c5dc1dd2ac87624bcf02a08",
+    "d3_s410.certificate.json": "7a18c9b7180cd05b062f98e23db28bc5a6e173814b35eba050fecbb0999636d3",
+    "d3_s410_scalar0.run.json": "be456cba9c8a59c004931c90a833c0304cd0497456407295112561507f4df663",
+    "d3_s410_scalar1.run.json": "8935d33df0ac02de27cc72cf79018d68ab690e67169bd3015b57266eceb4b933",
+    "d4_s410.certificate.json": "041cb8f6c7f40e458a6b3e1eb0c0f546612e6753a741ea6be2c531081e0b8921",
+    "d4_s410_scalar0.run.json": "32f3bd80fdd9089a1c2a73cbb773bc6aadc3bdae5b85bb702828684523b4ba61",
+    "d4_s410_scalar1.run.json": "c895624fd383e70bfad2eb85d512560a000beb08b3f8c52fc4ee812d8208a72b",
+    "d5_s410.certificate.json": "c703609e09bd1efd96e8ba18397b78f1f773b986da11b9e9320e983373aec55c",
+    "d5_s410_scalar0.run.json": "06414c408b4cf975a4ef0b5b1341b755e23525545c7eac7301b49053240fe7e3",
+    "d5_s410_scalar1.run.json": "1bea6a7afd301fe3471195480b3bbb5baa0e6226c84a853e3aaff5e608c73b34",
+    "d3_s192.certificate.json": "c497e9f7cf274d3530fc50a54a12727511a177d6ab4e696b07f85eac1dfd2c70",
+    "d3_s192_scalar0.run.json": "7c75ec638a4502ab8487f8d6bcbbc8261f410cfca0e44152f7fe291140192a93",
+    "d3_s192_scalar1.run.json": "3cf5842061f997104123dcee37f4bee3d76e88decc4090c638ab56a7005e0035",
+    "d4_s192.certificate.json": "f2de4f0e9a9cd059f6117b36c105f5d369a538bb3736f9c55c0540713e49781e",
+    "d4_s192_scalar0.run.json": "230ea3c465982f4a73864759d56e4d04538e981be0df2de6242e51a2948a42e2",
+    "d4_s192_scalar1.run.json": "5e421cc1c7aa023d632ac5d3b09b670a9315d802edbbf8008029edddc1978c8d",
+    "d3_s128.certificate.json": "3db4590edc635a52758e589e792028d8229d2af843cb3c2d32fc2a3325e1ec0f",
+    "d3_s128_scalar0.run.json": "a493a66edddcb723681674769ea6581c174be1be8b4e004a85a8dee7aaf7dcfd",
+    "d3_s128_scalar1.run.json": "081b189d11a76c15be0ad801fa23c6794be3f31a9bad55420082e18a3a16cb8a",
+    "../round6/pencil_tracks/results.json": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216",
+    "../round6/overlap_preflight/coset_small_characteristic_sample3.certificate.json": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764"
+  }
+}

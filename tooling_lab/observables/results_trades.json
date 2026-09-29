@@ -1,0 +1,1655 @@
+{
+  "status": "exact finite mechanism and exhaustive toy realizability audit; not a uniform bound",
+  "circuit": {
+    "constraint_matrix": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        16,
+        36
+      ],
+      [
+        0,
+        16,
+        256,
+        1296
+      ]
+    ],
+    "integer_kernel_generator": [
+      -10,
+      15,
+      -6,
+      1
+    ],
+    "rank": 3,
+    "sixth_moment_step": 23040,
+    "boundary_matrix_determinant": 3072,
+    "integer_kernel_argument": "rank one over Q and final coordinate of generator is 1"
+  },
+  "replayed_collisions": [
+    {
+      "p": 41,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          19
+        ],
+        "m2": 210,
+        "m4": 2694,
+        "m6": 39630,
+        "b2": 30,
+        "b4": 246,
+        "energy": 82,
+        "quartic_deck": [
+          -7,
+          -7,
+          -7,
+          -7,
+          -7,
+          -3,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "t6_excluded": -17
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          35
+        ],
+        "m2": 210,
+        "m4": 2694,
+        "m6": 62670,
+        "b2": 30,
+        "b4": 246,
+        "energy": 94,
+        "quartic_deck": [
+          -11,
+          -11,
+          -7,
+          -7,
+          -3,
+          -3,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          5,
+          5,
+          9,
+          9
+        ],
+        "t6_excluded": 15
+      },
+      "interior_histograms": [
+        [
+          17,
+          9,
+          9,
+          0
+        ],
+        [
+          7,
+          24,
+          3,
+          1
+        ]
+      ],
+      "boundary_histogram": [
+        3,
+        3,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        0,
+        1
+      ],
+      "relaxed_m6_interval": [
+        39630,
+        62670
+      ]
+    },
+    {
+      "p": 41,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4",
+        "quartic_deck"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          36
+        ],
+        "m2": 210,
+        "m4": 2694,
+        "m6": 39630,
+        "b2": 30,
+        "b4": 246,
+        "energy": 98,
+        "quartic_deck": [
+          -11,
+          -11,
+          -7,
+          -7,
+          -3,
+          -3,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          5,
+          5,
+          9,
+          9
+        ],
+        "t6_excluded": -17
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          35
+        ],
+        "m2": 210,
+        "m4": 2694,
+        "m6": 62670,
+        "b2": 30,
+        "b4": 246,
+        "energy": 94,
+        "quartic_deck": [
+          -11,
+          -11,
+          -7,
+          -7,
+          -3,
+          -3,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          5,
+          5,
+          9,
+          9
+        ],
+        "t6_excluded": 15
+      },
+      "interior_histograms": [
+        [
+          17,
+          9,
+          9,
+          0
+        ],
+        [
+          7,
+          24,
+          3,
+          1
+        ]
+      ],
+      "boundary_histogram": [
+        3,
+        3,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        0,
+        1
+      ],
+      "relaxed_m6_interval": [
+        39630,
+        62670
+      ]
+    },
+    {
+      "p": 61,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "m2": 330,
+        "m4": 4566,
+        "m6": 92070,
+        "b2": 38,
+        "b4": 326,
+        "energy": 146,
+        "quartic_deck": [
+          -15,
+          -7,
+          -7,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5
+        ],
+        "t6_excluded": -5
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          3,
+          16,
+          25,
+          44
+        ],
+        "m2": 330,
+        "m4": 4566,
+        "m6": 115110,
+        "b2": 38,
+        "b4": 326,
+        "energy": 66,
+        "quartic_deck": [
+          -11,
+          -11,
+          -7,
+          -7,
+          -7,
+          -7,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          9,
+          9,
+          9,
+          9
+        ],
+        "t6_excluded": 27
+      },
+      "interior_histograms": [
+        [
+          20,
+          24,
+          10,
+          1
+        ],
+        [
+          10,
+          39,
+          4,
+          2
+        ]
+      ],
+      "boundary_histogram": [
+        2,
+        4,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        -1,
+        1
+      ],
+      "relaxed_m6_interval": [
+        69030,
+        115110
+      ]
+    },
+    {
+      "p": 61,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4",
+        "quartic_deck"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          9
+        ],
+        "m2": 330,
+        "m4": 5766,
+        "m6": 140190,
+        "b2": 14,
+        "b4": 86,
+        "energy": 98,
+        "quartic_deck": [
+          -11,
+          -7,
+          -3,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          1,
+          5,
+          9,
+          9,
+          9,
+          13,
+          13
+        ],
+        "t6_excluded": -17
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          34
+        ],
+        "m2": 330,
+        "m4": 5766,
+        "m6": 163230,
+        "b2": 14,
+        "b4": 86,
+        "energy": 90,
+        "quartic_deck": [
+          -11,
+          -7,
+          -3,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          1,
+          5,
+          9,
+          9,
+          9,
+          13,
+          13
+        ],
+        "t6_excluded": 15
+      },
+      "interior_histograms": [
+        [
+          25,
+          17,
+          11,
+          2
+        ],
+        [
+          15,
+          32,
+          5,
+          3
+        ]
+      ],
+      "boundary_histogram": [
+        5,
+        1,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        -1,
+        1
+      ],
+      "relaxed_m6_interval": [
+        117150,
+        163230
+      ]
+    },
+    {
+      "p": 61,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4",
+        "energy",
+        "quartic_deck"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          9
+        ],
+        "m2": 330,
+        "m4": 5766,
+        "m6": 140190,
+        "b2": 14,
+        "b4": 86,
+        "energy": 98,
+        "quartic_deck": [
+          -11,
+          -7,
+          -3,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          1,
+          5,
+          9,
+          9,
+          9,
+          13,
+          13
+        ],
+        "t6_excluded": -17
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          17
+        ],
+        "m2": 330,
+        "m4": 5766,
+        "m6": 163230,
+        "b2": 14,
+        "b4": 86,
+        "energy": 98,
+        "quartic_deck": [
+          -11,
+          -7,
+          -3,
+          -3,
+          -3,
+          1,
+          1,
+          1,
+          1,
+          5,
+          9,
+          9,
+          9,
+          13,
+          13
+        ],
+        "t6_excluded": 15
+      },
+      "interior_histograms": [
+        [
+          25,
+          17,
+          11,
+          2
+        ],
+        [
+          15,
+          32,
+          5,
+          3
+        ]
+      ],
+      "boundary_histogram": [
+        5,
+        1,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        -1,
+        1
+      ],
+      "relaxed_m6_interval": [
+        117150,
+        163230
+      ]
+    },
+    {
+      "p": 257,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          26,
+          34,
+          69,
+          187
+        ],
+        "m2": 1506,
+        "m4": 24534,
+        "m6": 555126,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -19,
+          -19,
+          -19,
+          -11,
+          -7,
+          -7,
+          5,
+          5,
+          5,
+          5,
+          17,
+          17,
+          17,
+          17,
+          29
+        ],
+        "t6_excluded": -53
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          26,
+          36,
+          219,
+          248
+        ],
+        "m2": 1506,
+        "m4": 24534,
+        "m6": 624246,
+        "b2": 22,
+        "b4": 166,
+        "energy": 74,
+        "quartic_deck": [
+          -27,
+          -27,
+          -11,
+          -7,
+          -7,
+          1,
+          1,
+          5,
+          5,
+          13,
+          13,
+          17,
+          17,
+          21,
+          21
+        ],
+        "t6_excluded": 43
+      },
+      "interior_histograms": [
+        [
+          98,
+          92,
+          54,
+          7
+        ],
+        [
+          68,
+          137,
+          36,
+          10
+        ]
+      ],
+      "boundary_histogram": [
+        4,
+        2,
+        0
+      ],
+      "primitive_steps": 3,
+      "nonnegative_histogram_t_interval": [
+        -6,
+        9
+      ],
+      "relaxed_m6_interval": [
+        416886,
+        762486
+      ]
+    },
+    {
+      "p": 257,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4",
+        "quartic_deck"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          34,
+          136,
+          162,
+          229
+        ],
+        "m2": 1506,
+        "m4": 22422,
+        "m6": 489846,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -31,
+          -19,
+          -19,
+          -19,
+          -15,
+          -7,
+          -7,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          13,
+          17,
+          29
+        ],
+        "t6_excluded": 3
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          24,
+          42,
+          130,
+          146
+        ],
+        "m2": 1506,
+        "m4": 22422,
+        "m6": 512886,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -31,
+          -19,
+          -19,
+          -19,
+          -15,
+          -7,
+          -7,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          13,
+          17,
+          29
+        ],
+        "t6_excluded": 35
+      },
+      "interior_histograms": [
+        [
+          75,
+          121,
+          49,
+          6
+        ],
+        [
+          65,
+          136,
+          43,
+          7
+        ]
+      ],
+      "boundary_histogram": [
+        4,
+        2,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        -6,
+        7
+      ],
+      "relaxed_m6_interval": [
+        351606,
+        651126
+      ]
+    },
+    {
+      "p": 257,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4",
+        "energy",
+        "quartic_deck"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          34,
+          136,
+          162,
+          229
+        ],
+        "m2": 1506,
+        "m4": 22422,
+        "m6": 489846,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -31,
+          -19,
+          -19,
+          -19,
+          -15,
+          -7,
+          -7,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          13,
+          17,
+          29
+        ],
+        "t6_excluded": 3
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          24,
+          42,
+          130,
+          146
+        ],
+        "m2": 1506,
+        "m4": 22422,
+        "m6": 512886,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -31,
+          -19,
+          -19,
+          -19,
+          -15,
+          -7,
+          -7,
+          -3,
+          -3,
+          1,
+          5,
+          5,
+          13,
+          17,
+          29
+        ],
+        "t6_excluded": 35
+      },
+      "interior_histograms": [
+        [
+          75,
+          121,
+          49,
+          6
+        ],
+        [
+          65,
+          136,
+          43,
+          7
+        ]
+      ],
+      "boundary_histogram": [
+        4,
+        2,
+        0
+      ],
+      "primitive_steps": 1,
+      "nonnegative_histogram_t_interval": [
+        -6,
+        7
+      ],
+      "relaxed_m6_interval": [
+        351606,
+        651126
+      ]
+    },
+    {
+      "p": 1297,
+      "features_preserved": [
+        "m2",
+        "m4",
+        "b2",
+        "b4"
+      ],
+      "left": {
+        "C": [
+          0,
+          1,
+          154,
+          512,
+          586,
+          1186
+        ],
+        "m2": 7746,
+        "m4": 125142,
+        "m6": 2905206,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -67,
+          -59,
+          -43,
+          -23,
+          -23,
+          -19,
+          -3,
+          21,
+          21,
+          25,
+          33,
+          41,
+          45,
+          57,
+          61
+        ],
+        "t6_excluded": -101
+      },
+      "right": {
+        "C": [
+          0,
+          1,
+          84,
+          98,
+          590,
+          1119
+        ],
+        "m2": 7746,
+        "m4": 125142,
+        "m6": 3043446,
+        "b2": 22,
+        "b4": 166,
+        "energy": 66,
+        "quartic_deck": [
+          -51,
+          -51,
+          -35,
+          -15,
+          -15,
+          -3,
+          -3,
+          1,
+          13,
+          17,
+          17,
+          33,
+          49,
+          49,
+          61
+        ],
+        "t6_excluded": 91
+      },
+      "interior_histograms": [
+        [
+          440,
+          556,
+          256,
+          39
+        ],
+        [
+          380,
+          646,
+          220,
+          45
+        ]
+      ],
+      "boundary_histogram": [
+        4,
+        2,
+        0
+      ],
+      "primitive_steps": 6,
+      "nonnegative_histogram_t_interval": [
+        -37,
+        42
+      ],
+      "relaxed_m6_interval": [
+        2052726,
+        3872886
+      ]
+    }
+  ],
+  "realizability": [
+    {
+      "p": 29,
+      "n": 6,
+      "normalized_sets": 17550,
+      "actual_fibers": 64,
+      "upper_relaxation_tight_fibers": 62,
+      "upper_realizability_gap_fibers": 2,
+      "max_upper_gap": 23040,
+      "largest_gap_witnesses": [
+        {
+          "feature_key": [
+            138,
+            1734,
+            14,
+            86
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              9,
+              14
+            ],
+            "m2": 138,
+            "m4": 1734,
+            "m6": 25758,
+            "b2": 14,
+            "b4": 86,
+            "energy": 82,
+            "quartic_deck": [
+              -7,
+              -7,
+              -7,
+              -3,
+              -3,
+              -3,
+              -3,
+              1,
+              1,
+              1,
+              1,
+              5,
+              5,
+              5,
+              9
+            ],
+            "t6_excluded": -9
+          },
+          "actual_m6_interval": [
+            25758,
+            25758
+          ],
+          "relaxed_m6_interval": [
+            25758,
+            48798
+          ],
+          "upper_gap": 23040,
+          "interior_histogram": [
+            10,
+            7,
+            6,
+            0
+          ],
+          "boundary_histogram": [
+            5,
+            1,
+            0
+          ],
+          "normalized_sets_in_fiber": 330
+        },
+        {
+          "feature_key": [
+            138,
+            1782,
+            22,
+            166
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              4,
+              7,
+              15
+            ],
+            "m2": 138,
+            "m4": 1782,
+            "m6": 26358,
+            "b2": 22,
+            "b4": 166,
+            "energy": 82,
+            "quartic_deck": [
+              -7,
+              -7,
+              -3,
+              -3,
+              -3,
+              -3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5,
+              5,
+              5,
+              5
+            ],
+            "t6_excluded": -13
+          },
+          "actual_m6_interval": [
+            26358,
+            26358
+          ],
+          "relaxed_m6_interval": [
+            26358,
+            49398
+          ],
+          "upper_gap": 23040,
+          "interior_histogram": [
+            12,
+            5,
+            6,
+            0
+          ],
+          "boundary_histogram": [
+            4,
+            2,
+            0
+          ],
+          "normalized_sets_in_fiber": 90
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "n": 6,
+      "normalized_sets": 82251,
+      "actual_fibers": 135,
+      "upper_relaxation_tight_fibers": 101,
+      "upper_realizability_gap_fibers": 34,
+      "max_upper_gap": 23040,
+      "largest_gap_witnesses": [
+        {
+          "feature_key": [
+            210,
+            2262,
+            54,
+            486
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "m2": 210,
+            "m4": 2262,
+            "m6": 29910,
+            "b2": 54,
+            "b4": 486,
+            "energy": 146,
+            "quartic_deck": [
+              -11,
+              -11,
+              -11,
+              -3,
+              -3,
+              -3,
+              -3,
+              -3,
+              -3,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "t6_excluded": -5
+          },
+          "actual_m6_interval": [
+            29910,
+            29910
+          ],
+          "relaxed_m6_interval": [
+            29910,
+            52950
+          ],
+          "upper_gap": 23040,
+          "interior_histogram": [
+            14,
+            15,
+            6,
+            0
+          ],
+          "boundary_histogram": [
+            0,
+            6,
+            0
+          ],
+          "normalized_sets_in_fiber": 30
+        },
+        {
+          "feature_key": [
+            210,
+            2742,
+            38,
+            710
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              7
+            ],
+            "m2": 210,
+            "m4": 2742,
+            "m6": 45990,
+            "b2": 38,
+            "b4": 710,
+            "energy": 118,
+            "quartic_deck": [
+              -11,
+              -7,
+              -7,
+              -7,
+              -3,
+              -3,
+              -3,
+              1,
+              1,
+              5,
+              5,
+              5,
+              5,
+              5,
+              9
+            ],
+            "t6_excluded": -5
+          },
+          "actual_m6_interval": [
+            45990,
+            45990
+          ],
+          "relaxed_m6_interval": [
+            45990,
+            69030
+          ],
+          "upper_gap": 23040,
+          "interior_histogram": [
+            13,
+            15,
+            7,
+            0
+          ],
+          "boundary_histogram": [
+            4,
+            1,
+            1
+          ],
+          "normalized_sets_in_fiber": 1620
+        },
+        {
+          "feature_key": [
+            210,
+            3318,
+            38,
+            326
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              9
+            ],
+            "m2": 210,
+            "m4": 3318,
+            "m6": 74790,
+            "b2": 38,
+            "b4": 326,
+            "energy": 106,
+            "quartic_deck": [
+              -11,
+              -7,
+              -7,
+              -3,
+              -3,
+              -3,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              9,
+              9
+            ],
+            "t6_excluded": -13
+          },
+          "actual_m6_interval": [
+            74790,
+            74790
+          ],
+          "relaxed_m6_interval": [
+            74790,
+            97830
+          ],
+          "upper_gap": 23040,
+          "interior_histogram": [
+            18,
+            10,
+            6,
+            1
+          ],
+          "boundary_histogram": [
+            2,
+            4,
+            0
+          ],
+          "normalized_sets_in_fiber": 120
+        },
+        {
+          "feature_key": [
+            210,
+            2598,
+            46,
+            790
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              10
+            ],
+            "m2": 210,
+            "m4": 2598,
+            "m6": 42750,
+            "b2": 46,
+            "b4": 790,
+            "energy": 106,
+            "quartic_deck": [
+              -11,
+              -11,
+              -7,
+              -7,
+              -3,
+              -3,
+              -3,
+              1,
+              1,
+              5,
+              5,
+              5,
+              5,
+              5,
+              9
+            ],
+            "t6_excluded": -1
+          },
+          "actual_m6_interval": [
+            42750,
+            42750
+          ],
+          "relaxed_m6_interval": [
+            42750,
+            65790
+          ],
+          "upper_gap": 23040,
+          "interior_histogram": [
+            12,
+            17,
+            6,
+            0
+          ],
+          "boundary_histogram": [
+            3,
+            2,
+            1
+          ],
+          "normalized_sets_in_fiber": 1680
+        }
+      ]
+    },
+    {
+      "p": 61,
+      "n": 6,
+      "normalized_sets": 455126,
+      "actual_fibers": 257,
+      "upper_relaxation_tight_fibers": 52,
+      "upper_realizability_gap_fibers": 205,
+      "max_upper_gap": 46080,
+      "largest_gap_witnesses": [
+        {
+          "feature_key": [
+            330,
+            4806,
+            14,
+            86
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              8
+            ],
+            "m2": 330,
+            "m4": 4806,
+            "m6": 97950,
+            "b2": 14,
+            "b4": 86,
+            "energy": 106,
+            "quartic_deck": [
+              -15,
+              -11,
+              -7,
+              -7,
+              -3,
+              -3,
+              1,
+              1,
+              1,
+              1,
+              5,
+              5,
+              5,
+              9,
+              13
+            ],
+            "t6_excluded": -9
+          },
+          "actual_m6_interval": [
+            97950,
+            97950
+          ],
+          "relaxed_m6_interval": [
+            74910,
+            144030
+          ],
+          "upper_gap": 46080,
+          "interior_histogram": [
+            20,
+            22,
+            12,
+            1
+          ],
+          "boundary_histogram": [
+            5,
+            1,
+            0
+          ],
+          "normalized_sets_in_fiber": 6240
+        },
+        {
+          "feature_key": [
+            330,
+            4230,
+            46,
+            790
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              3,
+              12,
+              48
+            ],
+            "m2": 330,
+            "m4": 4230,
+            "m6": 67710,
+            "b2": 46,
+            "b4": 790,
+            "energy": 82,
+            "quartic_deck": [
+              -15,
+              -11,
+              -11,
+              -7,
+              -7,
+              -3,
+              -3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              9,
+              9,
+              13
+            ],
+            "t6_excluded": -9
+          },
+          "actual_m6_interval": [
+            67710,
+            67710
+          ],
+          "relaxed_m6_interval": [
+            67710,
+            113790
+          ],
+          "upper_gap": 46080,
+          "interior_histogram": [
+            20,
+            23,
+            12,
+            0
+          ],
+          "boundary_histogram": [
+            3,
+            2,
+            1
+          ],
+          "normalized_sets_in_fiber": 2010
+        },
+        {
+          "feature_key": [
+            330,
+            3846,
+            46,
+            406
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              2,
+              5,
+              7,
+              47
+            ],
+            "m2": 330,
+            "m4": 3846,
+            "m6": 54270,
+            "b2": 46,
+            "b4": 406,
+            "energy": 78,
+            "quartic_deck": [
+              -15,
+              -11,
+              -11,
+              -7,
+              -7,
+              -7,
+              -3,
+              -3,
+              -3,
+              -3,
+              1,
+              1,
+              9,
+              9,
+              13
+            ],
+            "t6_excluded": -9
+          },
+          "actual_m6_interval": [
+            54270,
+            54270
+          ],
+          "relaxed_m6_interval": [
+            54270,
+            100350
+          ],
+          "upper_gap": 46080,
+          "interior_histogram": [
+            20,
+            23,
+            12,
+            0
+          ],
+          "boundary_histogram": [
+            1,
+            5,
+            0
+          ],
+          "normalized_sets_in_fiber": 150
+        },
+        {
+          "feature_key": [
+            330,
+            5046,
+            54,
+            486
+          ],
+          "example": {
+            "C": [
+              0,
+              1,
+              5,
+              48,
+              52,
+              53
+            ],
+            "m2": 330,
+            "m4": 5046,
+            "m6": 100950,
+            "b2": 54,
+            "b4": 486,
+            "energy": 90,
+            "quartic_deck": [
+              -7,
+              -7,
+              -7,
+              -7,
+              -7,
+              -7,
+              1,
+              1,
+              1,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "t6_excluded": -29
+          },
+          "actual_m6_interval": [
+            100950,
+            100950
+          ],
+          "relaxed_m6_interval": [
+            100950,
+            147030
+          ],
+          "upper_gap": 46080,
+          "interior_histogram": [
+            30,
+            12,
+            12,
+            1
+          ],
+          "boundary_histogram": [
+            0,
+            6,
+            0
+          ],
+          "normalized_sets_in_fiber": 5
+        }
+      ]
+    }
+  ],
+  "script_sha256": "4eb8efb81960dbce1d880379ccdfb0f89040edca01cd18f328414ba581c81ce7"
+}

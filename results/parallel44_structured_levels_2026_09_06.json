@@ -1,0 +1,319 @@
+{
+  "scope": "Exact structural identities and abstract functional obstruction; no full Paley proof.",
+  "actual_supergroup_checks": {
+    "p": 215535361,
+    "n": 128,
+    "ambient_generator": 7,
+    "mass_checks": [
+      {
+        "quotient_size": 1,
+        "scale": 1,
+        "mass": 6,
+        "mass_cubed_over_n2d": "27/2048",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 1,
+        "scale": 2,
+        "mass": 1,
+        "mass_cubed_over_n2d": "1/16384",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 1,
+        "scale": 3,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 1,
+        "scale": 5,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 2,
+        "scale": 1,
+        "mass": 6,
+        "mass_cubed_over_n2d": "27/4096",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 2,
+        "scale": 2,
+        "mass": 1,
+        "mass_cubed_over_n2d": "1/32768",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 2,
+        "scale": 3,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 2,
+        "scale": 5,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": false,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 3,
+        "scale": 1,
+        "mass": 6,
+        "mass_cubed_over_n2d": "9/2048",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 3,
+        "scale": 2,
+        "mass": 1,
+        "mass_cubed_over_n2d": "1/49152",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 3,
+        "scale": 3,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 3,
+        "scale": 5,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 5,
+        "scale": 1,
+        "mass": 6,
+        "mass_cubed_over_n2d": "27/10240",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 5,
+        "scale": 2,
+        "mass": 1,
+        "mass_cubed_over_n2d": "1/81920",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 5,
+        "scale": 3,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 5,
+        "scale": 5,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 6,
+        "scale": 1,
+        "mass": 6,
+        "mass_cubed_over_n2d": "9/4096",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 6,
+        "scale": 2,
+        "mass": 1,
+        "mass_cubed_over_n2d": "1/98304",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 6,
+        "scale": 3,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 6,
+        "scale": 5,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 15,
+        "scale": 1,
+        "mass": 6,
+        "mass_cubed_over_n2d": "9/10240",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 15,
+        "scale": 2,
+        "mass": 1,
+        "mass_cubed_over_n2d": "1/245760",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 15,
+        "scale": 3,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      },
+      {
+        "quotient_size": 15,
+        "scale": 5,
+        "mass": 0,
+        "mass_cubed_over_n2d": "0",
+        "mitkin_size_condition": true,
+        "mitkin_field_condition": true
+      }
+    ],
+    "nested_incidence_checks": [
+      {
+        "quotient_sizes": [
+          3,
+          3,
+          15
+        ],
+        "scales": [
+          1,
+          1,
+          2
+        ],
+        "direct_incidence": 384,
+        "normalized_intersection": 1,
+        "scaling_multiplicity": 384,
+        "source_hypotheses_passed": true
+      },
+      {
+        "quotient_sizes": [
+          3,
+          3,
+          15
+        ],
+        "scales": [
+          1,
+          2,
+          3
+        ],
+        "direct_incidence": 384,
+        "normalized_intersection": 1,
+        "scaling_multiplicity": 384,
+        "source_hypotheses_passed": true
+      },
+      {
+        "quotient_sizes": [
+          3,
+          3,
+          15
+        ],
+        "scales": [
+          2,
+          3,
+          5
+        ],
+        "direct_incidence": 384,
+        "normalized_intersection": 1,
+        "scaling_multiplicity": 384,
+        "source_hypotheses_passed": true
+      }
+    ],
+    "all_passed": true
+  },
+  "abstract_interval_models": [
+    {
+      "t": 2,
+      "n": 32,
+      "amplitude": 8,
+      "interval_size": 2,
+      "prime_group_order": 32771,
+      "filler_size": 7,
+      "mass": 31,
+      "A2": 157,
+      "K": 43585,
+      "Q": 1024,
+      "tested_target_pairs": 1,
+      "norm_cube_lower_bound": 144485765797983553,
+      "subgroup_coset_caps_passed": true,
+      "is_actual_subgroup_difference": false,
+      "all_passed": true
+    },
+    {
+      "t": 4,
+      "n": 1024,
+      "amplitude": 64,
+      "interval_size": 4,
+      "prime_group_order": 1073741827,
+      "filler_size": 383,
+      "mass": 1023,
+      "A2": 17917,
+      "K": 849666273,
+      "Q": 1048576,
+      "tested_target_pairs": 9,
+      "norm_cube_lower_bound": 210365041945614068900094929830674432,
+      "subgroup_coset_caps_passed": true,
+      "is_actual_subgroup_difference": false,
+      "all_passed": true
+    }
+  ],
+  "matrix_identity_checks": [
+    {
+      "p": 97,
+      "n": 8,
+      "quotient_order": 12,
+      "squared_matrix_entries": 144,
+      "shifted_inner_products": 12,
+      "weighted_frobenius_checks": 3,
+      "all_passed": true
+    },
+    {
+      "p": 353,
+      "n": 16,
+      "quotient_order": 22,
+      "squared_matrix_entries": 484,
+      "shifted_inner_products": 22,
+      "weighted_frobenius_checks": 3,
+      "all_passed": true
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "quotient_order": 144,
+      "squared_matrix_entries": 20736,
+      "shifted_inner_products": 144,
+      "weighted_frobenius_checks": 3,
+      "all_passed": true
+    }
+  ],
+  "all_passed": true
+}

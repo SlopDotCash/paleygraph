@@ -1,0 +1,211 @@
+{
+  "status": "passed",
+  "source_sha256": "6bf442a62be5438a28d0aa1b8d556a06b9629d8e657d46ee7e1217b35a2d1174",
+  "determinant_helper_sha256": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288",
+  "source_archive_manifest_sha256": "b1d02d649cd407ec248f661de628833839248c8c6a98f3611240e6096ebb792c",
+  "official_profile": {
+    "p": 2130706433,
+    "extension_degree": 6,
+    "extension_size": 93571093019388561295270373781649880353786165192103559169,
+    "n": 262144,
+    "base_subgroup_generator": 1816824389,
+    "modulus_coefficients_low_to_high": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "theta_frobenius_orbit_then_repeat": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2130706432,
+        0,
+        0,
+        2130706432
+      ],
+      [
+        0,
+        2130706432,
+        0,
+        0,
+        2130706432
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "Rabin_gcds_at_degrees_2_and_3": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "trace_of_power_basis": [
+      [
+        6
+      ],
+      [],
+      [],
+      [
+        2130706430
+      ],
+      [],
+      []
+    ],
+    "trace_pairing_Gram_matrix": [
+      [
+        6,
+        0,
+        0,
+        2130706430,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2130706430,
+        0,
+        0,
+        2130706430
+      ],
+      [
+        0,
+        2130706430,
+        0,
+        0,
+        2130706430,
+        0
+      ],
+      [
+        2130706430,
+        0,
+        0,
+        2130706430,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2130706430,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        2130706430,
+        0,
+        0,
+        6,
+        0
+      ]
+    ],
+    "trace_pairing_determinant_mod_p": 2130686750,
+    "traces_independently_verified_by_multiplication_matrices": true,
+    "nonzero_trace_zero_witness": [
+      0,
+      1
+    ],
+    "nonzero_trace_zero_frequency_count": 43915525653922199095960759124272039194517307392,
+    "trace_zero_nonzero_multiplicative_cosets_of_H": 167524435630501552947848354813659817483968,
+    "prime_field_coset_count": 8128,
+    "maximum_extension_period": 262144,
+    "maximum_justification": "Trace(theta*h)=h*Trace(theta)=0 for every base-field h",
+    "prime_below_quartic_window": true,
+    "extension_size_above_quartic_window": true,
+    "scope": "Field arithmetic and obstruction only; no prize theorem verified"
+  },
+  "small_exhaustive": {
+    "p": 5,
+    "degree": 2,
+    "n": 4,
+    "all_field_elements_checked": 25,
+    "nonzero_frequency_period_histogram": {
+      "4": 4,
+      "-1": 20
+    },
+    "moments": [
+      {
+        "r": 1,
+        "energy": 4,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 21
+      },
+      {
+        "r": 2,
+        "energy": 52,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 261
+      },
+      {
+        "r": 3,
+        "energy": 820,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 4101
+      },
+      {
+        "r": 4,
+        "energy": 13108,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 65541
+      },
+      {
+        "r": 5,
+        "energy": 209716,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 1048581
+      },
+      {
+        "r": 6,
+        "energy": 3355444,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 16777221
+      },
+      {
+        "r": 7,
+        "energy": 53687092,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 268435461
+      },
+      {
+        "r": 8,
+        "energy": 858993460,
+        "prime_coset_moment": 1,
+        "extension_coset_moment": 4294967301
+      }
+    ]
+  }
+}

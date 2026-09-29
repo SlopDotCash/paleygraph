@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "arithmetic_progression",
+      "projected_mean_norm_squared": [
+        1316587456,
+        693380963025
+      ],
+      "high_target_norm_squared": [
+        0,
+        1
+      ],
+      "lower_degree_norm_squared": [
+        6582689792,
+        3466904815125
+      ],
+      "boundary_norm_squared": [
+        64,
+        1155634938375
+      ],
+      "remainder_relative_to_high_norm_squared": null,
+      "high_target_projection_identically_zero": true,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": true,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "seeded_uniform",
+      "projected_mean_norm_squared": [
+        190337248,
+        26875231125
+      ],
+      "high_target_norm_squared": [
+        0,
+        1
+      ],
+      "lower_degree_norm_squared": [
+        982094848,
+        138676192605
+      ],
+      "boundary_norm_squared": [
+        352,
+        3466904815125
+      ],
+      "remainder_relative_to_high_norm_squared": null,
+      "high_target_projection_identically_zero": true,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": true,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "arithmetic_progression",
+      "projected_mean_norm_squared": [
+        11137511389900235940718165568,
+        2519630697120775875
+      ],
+      "high_target_norm_squared": [
+        82506134474577257675676544,
+        18663931089783525
+      ],
+      "lower_degree_norm_squared": [
+        172364971891648,
+        4417498482789
+      ],
+      "boundary_norm_squared": [
+        858553113728,
+        119982414148608375
+      ],
+      "remainder_relative_to_high_norm_squared": [
+        3072240962209449829,
+        348072754814622805819260420
+      ],
+      "high_target_projection_identically_zero": false,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": false,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "seeded_uniform",
+      "projected_mean_norm_squared": [
+        8117215242970565948181963028,
+        2519630697120775875
+      ],
+      "high_target_norm_squared": [
+        180383447555658123868839836,
+        55991793269350575
+      ],
+      "lower_degree_norm_squared": [
+        729855483178942948,
+        14909057379412875
+      ],
+      "boundary_norm_squared": [
+        161264533008652,
+        2519630697120775875
+      ],
+      "remainder_relative_to_high_norm_squared": [
+        30835373136340658407,
+        2029313785001153893524448155
+      ],
+      "high_target_projection_identically_zero": false,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": false,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "arithmetic_progression",
+      "projected_mean_norm_squared": [
+        383906907671868819924288076536088655872,
+        36250217500471250435000145
+      ],
+      "high_target_norm_squared": [
+        76781525813440604897505978150410807296,
+        7250043500094250087000029
+      ],
+      "lower_degree_norm_squared": [
+        5298230963699397377053755904,
+        12083405833490416811666715
+      ],
+      "boundary_norm_squared": [
+        2210720911370202019328,
+        36250217500471250435000145
+      ],
+      "remainder_relative_to_high_norm_squared": [
+        7761219102603355756866924,
+        187454897005470226800551704468776385
+      ],
+      "high_target_projection_identically_zero": false,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": false,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "seeded_uniform",
+      "projected_mean_norm_squared": [
+        720912332690194003112232977267110260736,
+        108750652501413751305000435
+      ],
+      "high_target_norm_squared": [
+        48060763507353082988693675123828248576,
+        7250043500094250087000029
+      ],
+      "lower_degree_norm_squared": [
+        103409873838390146461113856,
+        250001500003250003000001
+      ],
+      "boundary_norm_squared": [
+        5887906602225220696576,
+        108750652501413751305000435
+      ],
+      "remainder_relative_to_high_norm_squared": [
+        10982420270675908225983991,
+        176003772609935606648048126674175715
+      ],
+      "high_target_projection_identically_zero": false,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": false,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "arithmetic_progression",
+      "projected_mean_norm_squared": [
+        35947958024082942688517444194959905858846832,
+        24690524920536233638487296129
+      ],
+      "high_target_norm_squared": [
+        35947953993482917100017593120539246914208640,
+        24690524920536233638487296129
+      ],
+      "lower_degree_norm_squared": [
+        787654587083027783475354206208,
+        503888263684412931397699921
+      ],
+      "boundary_norm_squared": [
+        225067648224854604237872,
+        24690524920536233638487296129
+      ],
+      "remainder_relative_to_high_norm_squared": [
+        482425195912063455942958657319,
+        449349424918536463750219914006740586427608
+      ],
+      "high_target_projection_identically_zero": false,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": false,
+      "projected_T2_pair_targets_identically_zero": true
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "seeded_uniform",
+      "projected_mean_norm_squared": [
+        98968589419240301817666435283512097604874776,
+        74071574761608700915461888387
+      ],
+      "high_target_norm_squared": [
+        32989530410310374961218019579362102748171936,
+        24690524920536233638487296129
+      ],
+      "lower_degree_norm_squared": [
+        729449502060266544622656217088,
+        503888263684412931397699921
+      ],
+      "boundary_norm_squared": [
+        5866019169609050920184,
+        1511664791053238794193099763
+      ],
+      "remainder_relative_to_high_norm_squared": [
+        13403701385795926446725560488559,
+        12371073903866390610456757342260788530564476
+      ],
+      "high_target_projection_identically_zero": false,
+      "all_projected_means_explained_by_lower_degrees_and_induced_graph": false,
+      "projected_T2_pair_targets_identically_zero": true
+    }
+  ],
+  "source_sha256": {
+    "projection_analysis.py": "ddbc77fdb1c75514c09b0619b1aa7d67f00a9bfd51d81f2284e3583543be78fd",
+    "decomposition.py": "46f17a4fd721e62057fd3a7d5506f0f121296d843668ea23171be27f2edb0da8"
+  },
+  "input_sha256": {
+    "scale_verification.json": "822380d0e64b4baad278133ade5976ccda694e4d86eb75fdb22c455b5a001b70"
+  }
+}

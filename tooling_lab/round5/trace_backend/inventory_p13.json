@@ -1,0 +1,273 @@
+{
+  "p": 13,
+  "q": 13,
+  "records": [
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": -2,
+      "count": 2
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": 6,
+      "count": 1
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": -6,
+      "count": 1
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": 2,
+      "count": 2
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": -6,
+      "count": 1
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": 2,
+      "count": 2
+    },
+    {
+      "edges": [
+        1,
+        1,
+        1
+      ],
+      "tau": 2,
+      "count": 2
+    }
+  ],
+  "normalized_parameter_count": 11,
+  "ordered_distinct_row_weight": 156,
+  "sampled_tau_rows": [
+    {
+      "t": 0,
+      "tau": -1
+    },
+    {
+      "t": 1,
+      "tau": -1
+    },
+    {
+      "t": 2,
+      "tau": -6
+    },
+    {
+      "t": 3,
+      "tau": 2
+    },
+    {
+      "t": 4,
+      "tau": 2
+    },
+    {
+      "t": 5,
+      "tau": 2
+    },
+    {
+      "t": 6,
+      "tau": -2
+    },
+    {
+      "t": 7,
+      "tau": 6
+    },
+    {
+      "t": 9,
+      "tau": 2
+    },
+    {
+      "t": 10,
+      "tau": 2
+    },
+    {
+      "t": 11,
+      "tau": 2
+    },
+    {
+      "t": 12,
+      "tau": -6
+    }
+  ],
+  "metadata": {
+    "ntt_modulus": 998244353,
+    "ntt_length": 32,
+    "transforms": 3,
+    "input_l1": 11,
+    "integer_recovery_margin": 998244331,
+    "singular_tau_0": -1,
+    "singular_tau_1": -1,
+    "max_abs_nonsingular_tau": 6,
+    "Hasse_checked_after_recovery": true,
+    "all_normalized_triple_type_inversions_checked": 11,
+    "backend_seconds": 0.00132858
+  },
+  "edge_power_sums": [
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "powers": [
+        3,
+        2,
+        44,
+        200,
+        1328,
+        7712,
+        46784
+      ]
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "powers": [
+        3,
+        -2,
+        44,
+        -200,
+        1328,
+        -7712,
+        46784
+      ]
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "powers": [
+        3,
+        -2,
+        44,
+        -200,
+        1328,
+        -7712,
+        46784
+      ]
+    },
+    {
+      "edges": [
+        1,
+        1,
+        1
+      ],
+      "powers": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ]
+    }
+  ],
+  "total_power_sums": [
+    11,
+    2,
+    140,
+    -184,
+    4016,
+    -7648,
+    140480
+  ],
+  "n6_global_third_moment": {
+    "n": 6,
+    "degree": 6,
+    "all_equal_numerator": -260,
+    "exactly_two_equal_numerator": -4680,
+    "all_distinct_numerator": -4056,
+    "sum_T6_cubed": -8996,
+    "number_of_six_sets": 1716,
+    "third_moment": [
+      -173,
+      33
+    ],
+    "third_moment_display": -5.242424242424242,
+    "six_column_subsets_enumerated": 0
+  },
+  "normalization": {
+    "family": "prime Paley only",
+    "row_order": [
+      "0",
+      "1",
+      "t"
+    ],
+    "edge_order": [
+      "S[0,1]",
+      "S[0,t]",
+      "S[1,t]"
+    ],
+    "edge_formula": [
+      "1",
+      "chi(t)",
+      "chi(t-1)"
+    ],
+    "trace_definition": "tau(t)=sum_x chi(x(x-1)(x-t))",
+    "frobenius_trace_sign": "a_t(p)=-tau(t)",
+    "excluded_parameters": [
+      0,
+      1
+    ],
+    "affine_map": "x -> (x-a)/(b-a); t=(c-a)/(b-a)",
+    "sign_complement_multiplier": "chi(b-a)",
+    "valid_target_symmetry": "Degree6 row coefficients and their third products are invariant under simultaneous sign complement.",
+    "distinct_ordered_triples_per_parameter": 156,
+    "weights_applied_to_records": false
+  },
+  "provenance": {
+    "input_file": "input_p13.json",
+    "input_sha256": "0cda3a4cebb8f4c936828b3efe784d55d08beaf510b4d83f5935742d668ca160",
+    "tau_file": "tau_p13.bin",
+    "tau_sha256": "518910818d5e41ad313f74c5bb1920f90a7fecca22bb41cad796236b64e02e10",
+    "tau_format": "little-endian uint32 p, followed by p little-endian signed int32 tau values including t0,1",
+    "cpp_sha256": "f4b095430f3a9948acb8e679945b6f6695f6167a87e9ed5a83c75c8f9d193976",
+    "ntt_header_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "copied_ntt_source": "round4/marked_counts_ablation/ntt_exact.hpp",
+    "copied_ntt_source_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "executable_sha256": "d107a6b8682a36447d4bf374d17443f9eeb329bcb98faa3d78915874560698c7",
+    "runner_sha256": "d252c2ecbaef12498dc989ca328a277863a0c08bfaa67516519acc24af67b08c",
+    "wall_seconds": 0.30970245800563134,
+    "maximum_child_rss_bytes": 1441792,
+    "rss_scope": "maximum over child processes in this runner lifetime, not isolated per input",
+    "runtime": {
+      "python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "version": "3.14.6"
+    }
+  }
+}

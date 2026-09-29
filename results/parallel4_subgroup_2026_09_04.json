@@ -1,0 +1,1595 @@
+{
+  "status": "passed",
+  "scope": "Exact finite identities checked; asymptotic proof uses Thorner--Zaman Corollary 3.1/(3.2). No prime scan or factorization search.",
+  "sources_sha256": {
+    "experiments/parallel4_subgroup_2026_09_04.py": "211780cd084841a5f006edff792796f35dd9b2ffcdf0afa640d506a5992f0707",
+    "research/parallel4-subgroup-2026-09-04.md": "e3f76ed5f91e08470244f69ab115af2933754c731648f41254f88eda17dc4fe0",
+    "results/cyclotomic_norm_audit.json": "87b06357dbd0e31a4aaf0c14bc0487be21b707f36f02b686b3404366c22918d8",
+    "experiments/cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288",
+    "research/cyclotomic-prime-average.md": "0082c26329418e5c6803504170275596ea9d1eacdbac3c0cacc0ae4ff7722fe1",
+    "research/parallel2-subgroup-2026-09-04.md": "d2d7a0e427a3eb9859d9c0045f048dc79a551325dcd1753722809705ef22f98b"
+  },
+  "analytic_source": "https://arxiv.org/html/2108.10878#S3.SS1",
+  "analytic_specialization": {
+    "q": "N=2^m",
+    "rad_q": 2,
+    "a": 1,
+    "x": "N^4",
+    "h": "3N^4/4",
+    "fixed_epsilon": "1/12",
+    "prime_count_leading_constant": "3/8",
+    "exact_good_proportion_lower_bound": "1-log(2)/36",
+    "exact_good_proportion_decimal": 0.9807459116511126,
+    "collision_mean_upper_bound": "log(2)/18",
+    "finite_threshold_computed": false
+  },
+  "prime_certificates": [
+    {
+      "p": 5,
+      "parent_order": 4,
+      "generator": 2,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "1",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 52,
+          "D": 16,
+          "B": 4,
+          "T": 2,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 1,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 16,
+            "free_orbits_by_multiplicity": {
+              "(3, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "parent_order": 8,
+      "generator": 9,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "3/2",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 3,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 264,
+          "D": 96,
+          "B": 16,
+          "T": 12,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 0,
+          "u_orbits": 1,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 96,
+            "free_orbits_by_multiplicity": {
+              "(2, 1, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "parent_order": 8,
+      "generator": 38,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "1/2",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 200,
+          "D": 32,
+          "B": 16,
+          "T": 4,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 1,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 32,
+            "free_orbits_by_multiplicity": {
+              "(3, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "parent_order": 16,
+      "generator": 3,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 6,
+      "normalized_tower_defect": "55/4",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 3,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 264,
+          "D": 96,
+          "B": 16,
+          "T": 12,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 0,
+          "u_orbits": 1,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 96,
+            "free_orbits_by_multiplicity": {
+              "(2, 1, 1)": 1
+            }
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 3856,
+          "D": 3136,
+          "B": 256,
+          "T": 224,
+          "primitive_collision_mass": 6,
+          "primitive_fiber_histogram": {
+            "4": 1
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 15,
+          "epsilon": 1,
+          "u_orbits": 6,
+          "v_orbits": 5,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 3136,
+            "free_orbits_by_multiplicity": {
+              "(3, 1)": 1,
+              "(2, 1, 1)": 6,
+              "(1, 1, 1, 1)": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "parent_order": 16,
+      "generator": 8,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "3/2",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 19,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 1104,
+          "D": 384,
+          "B": 64,
+          "T": 48,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 81,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 1,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 384,
+            "free_orbits_by_multiplicity": {
+              "(1, 1, 1, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 113,
+      "parent_order": 16,
+      "generator": 40,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 1,
+      "normalized_tower_defect": "3/2",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 110,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 1104,
+          "D": 384,
+          "B": 96,
+          "T": 24,
+          "primitive_collision_mass": 1,
+          "primitive_fiber_histogram": {
+            "2": 1,
+            "1": 2
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 5,
+          "epsilon": 0,
+          "u_orbits": 2,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 384,
+            "free_orbits_by_multiplicity": {
+              "(2, 1, 1)": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "parent_order": 16,
+      "generator": 64,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "1/4",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 183,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 784,
+          "D": 64,
+          "B": 64,
+          "T": 8,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 1,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 64,
+            "free_orbits_by_multiplicity": {
+              "(3, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "parent_order": 16,
+      "generator": 249,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "3/4",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 224,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 912,
+          "D": 192,
+          "B": 64,
+          "T": 24,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 0,
+          "u_orbits": 1,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 192,
+            "free_orbits_by_multiplicity": {
+              "(2, 1, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 337,
+      "parent_order": 16,
+      "generator": 191,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "3/4",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 234,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 912,
+          "D": 192,
+          "B": 64,
+          "T": 24,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 0,
+          "u_orbits": 1,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 192,
+            "free_orbits_by_multiplicity": {
+              "(2, 1, 1)": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "p": 2113,
+      "parent_order": 32,
+      "generator": 2005,
+      "in_quartic_window": false,
+      "total_primitive_collision_mass": 3,
+      "normalized_tower_defect": "9/8",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 120,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 720,
+          "D": 0,
+          "B": 64,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 963,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 32,
+          "energy": 4128,
+          "D": 1152,
+          "B": 448,
+          "T": 0,
+          "primitive_collision_mass": 3,
+          "primitive_fiber_histogram": {
+            "1": 5,
+            "3": 1
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 0,
+          "u_orbits": 1,
+          "v_orbits": 1
+        }
+      ]
+    },
+    {
+      "p": 73,
+      "parent_order": 4,
+      "generator": 27,
+      "in_quartic_window": true,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "0",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        }
+      ]
+    },
+    {
+      "p": 2017,
+      "parent_order": 8,
+      "generator": 1579,
+      "in_quartic_window": true,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "0",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 1306,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        }
+      ]
+    },
+    {
+      "p": 65521,
+      "parent_order": 16,
+      "generator": 61640,
+      "in_quartic_window": true,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "0",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 42113,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 720,
+          "D": 0,
+          "B": 64,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 61518,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        }
+      ]
+    },
+    {
+      "p": 6700417,
+      "parent_order": 64,
+      "generator": 1688191,
+      "in_quartic_window": true,
+      "total_primitive_collision_mass": 0,
+      "normalized_tower_defect": "3/16",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 3987069,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 720,
+          "D": 0,
+          "B": 64,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 3543403,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 32,
+          "energy": 2976,
+          "D": 0,
+          "B": 256,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 8
+          },
+          "F_mod_p": 3047732,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 64,
+          "energy": 12864,
+          "D": 768,
+          "B": 1024,
+          "T": 96,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 16
+          },
+          "F_mod_p": 0,
+          "repeated_pair_count": 3,
+          "epsilon": 0,
+          "u_orbits": 1,
+          "v_orbits": 0
+        }
+      ]
+    },
+    {
+      "p": 67403009,
+      "parent_order": 128,
+      "generator": 64701253,
+      "in_quartic_window": true,
+      "total_primitive_collision_mass": 2,
+      "normalized_tower_defect": "3/16",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 24088320,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 720,
+          "D": 0,
+          "B": 64,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 43952436,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 32,
+          "energy": 2976,
+          "D": 0,
+          "B": 256,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 8
+          },
+          "F_mod_p": 57166078,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 64,
+          "energy": 12096,
+          "D": 0,
+          "B": 1024,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 16
+          },
+          "F_mod_p": 59725175,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 128,
+          "energy": 51840,
+          "D": 3072,
+          "B": 4608,
+          "T": 0,
+          "primitive_collision_mass": 2,
+          "primitive_fiber_histogram": {
+            "1": 28,
+            "2": 2
+          },
+          "F_mod_p": 60547252,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 1
+        }
+      ]
+    },
+    {
+      "p": 17189277697,
+      "parent_order": 512,
+      "generator": 730170861,
+      "in_quartic_window": true,
+      "total_primitive_collision_mass": 2,
+      "normalized_tower_defect": "3/64",
+      "levels": [
+        {
+          "parent_order": 2,
+          "energy": 6,
+          "D": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 6,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 4,
+          "energy": 36,
+          "D": 0,
+          "B": 4,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 1
+          },
+          "F_mod_p": 20,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 36,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 8,
+          "energy": 168,
+          "D": 0,
+          "B": 16,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 2
+          },
+          "F_mod_p": 24088320,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 168,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 16,
+          "energy": 720,
+          "D": 0,
+          "B": 64,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 4
+          },
+          "F_mod_p": 7098174714,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0,
+          "independent_multiset_audit": {
+            "intrinsic": 720,
+            "extra": 0,
+            "free_orbits_by_multiplicity": {}
+          }
+        },
+        {
+          "parent_order": 32,
+          "energy": 2976,
+          "D": 0,
+          "B": 256,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 8
+          },
+          "F_mod_p": 1190154501,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 64,
+          "energy": 12096,
+          "D": 0,
+          "B": 1024,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 16
+          },
+          "F_mod_p": 6734380915,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 128,
+          "energy": 48768,
+          "D": 0,
+          "B": 4096,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 32
+          },
+          "F_mod_p": 5479109710,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 256,
+          "energy": 195840,
+          "D": 0,
+          "B": 16384,
+          "T": 0,
+          "primitive_collision_mass": 0,
+          "primitive_fiber_histogram": {
+            "1": 64
+          },
+          "F_mod_p": 9257985818,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 0
+        },
+        {
+          "parent_order": 512,
+          "energy": 797184,
+          "D": 12288,
+          "B": 67584,
+          "T": 0,
+          "primitive_collision_mass": 2,
+          "primitive_fiber_histogram": {
+            "1": 124,
+            "2": 2
+          },
+          "F_mod_p": 11555655343,
+          "repeated_pair_count": 1,
+          "epsilon": 0,
+          "u_orbits": 0,
+          "v_orbits": 1
+        }
+      ]
+    }
+  ],
+  "small_norm_audits": [
+    {
+      "n": 4,
+      "normalized_tuples": 64,
+      "nonintrinsic_normalized_tuples": 55,
+      "integer_AM_GM_passed": true,
+      "required_prime_product_divides": true,
+      "norm_product_bits": 105
+    },
+    {
+      "n": 8,
+      "normalized_tuples": 512,
+      "nonintrinsic_normalized_tuples": 491,
+      "integer_AM_GM_passed": true,
+      "required_prime_product_divides": true,
+      "norm_product_bits": 1468
+    },
+    {
+      "n": 16,
+      "normalized_tuples": 4096,
+      "nonintrinsic_normalized_tuples": 4051,
+      "integer_AM_GM_passed": true,
+      "required_prime_product_divides": true,
+      "norm_product_bits": 21401
+    }
+  ],
+  "boundary_products": [
+    {
+      "n": 4,
+      "F_hex": "0x14",
+      "F_bits": 5,
+      "strict_binary_height_exponent": 5
+    },
+    {
+      "n": 8,
+      "F_hex": "0x16f8f00",
+      "F_bits": 25,
+      "strict_binary_height_exponent": 27
+    },
+    {
+      "n": 16,
+      "F_hex": "0x14e071f6bbe433e279720ff000000",
+      "F_bits": 113,
+      "strict_binary_height_exponent": 119
+    },
+    {
+      "n": 32,
+      "F_hex": "0xffc979029e31529cebe355af7965b9307dd265b89aede35c223a1e9452f4b4522b8e5404215b43cdc4e8f5731af97c404200ffff0000000000000000",
+      "F_bits": 480,
+      "strict_binary_height_exponent": 495
+    },
+    {
+      "n": 64,
+      "F_hex": "0x9862059eb7355c6a12a31e18b35c224568f6c81ad6aa227abb68b197581123b681082ffda04c3e0a229e25a0571ca2fb6b726fd28126386b7ca831183874ed7df44a5441ebc480c742fb2beeb5515cb585b69d4effc1c70316767df1ee8a52a097bbc19c1ea8a8ba6aaa103a5154dc89a9bace64d0b15883ebf94f30d8832955c95fab389ac1066fe3a53273ca3b0c0f7c8e19be9a40e7c5e96e07b60e4c3581cb83dbad8c9d1c0992af1fdfc6bf081fd1eac4d5c341a92ad5596258b1aa3832e10bd00b3ef4bf13db679a1874ba23ee7febfc7ab7991d9fe47658b5cc020000ffffffff0000000000000000000000000000000000000000",
+      "F_bits": 1984,
+      "strict_binary_height_exponent": 2015
+    }
+  ],
+  "rational_exponent_and_dyadic_sum_checks": [
+    {
+      "m": 2,
+      "all_level_square_sum": 20
+    },
+    {
+      "m": 3,
+      "all_level_square_sum": 84
+    },
+    {
+      "m": 4,
+      "all_level_square_sum": 340
+    },
+    {
+      "m": 5,
+      "all_level_square_sum": 1364
+    },
+    {
+      "m": 6,
+      "all_level_square_sum": 5460
+    },
+    {
+      "m": 7,
+      "all_level_square_sum": 21844
+    },
+    {
+      "m": 8,
+      "all_level_square_sum": 87380
+    },
+    {
+      "m": 9,
+      "all_level_square_sum": 349524
+    },
+    {
+      "m": 10,
+      "all_level_square_sum": 1398100
+    },
+    {
+      "m": 11,
+      "all_level_square_sum": 5592404
+    },
+    {
+      "m": 12,
+      "all_level_square_sum": 22369620
+    },
+    {
+      "m": 13,
+      "all_level_square_sum": 89478484
+    },
+    {
+      "m": 14,
+      "all_level_square_sum": 357913940
+    },
+    {
+      "m": 15,
+      "all_level_square_sum": 1431655764
+    },
+    {
+      "m": 16,
+      "all_level_square_sum": 5726623060
+    },
+    {
+      "m": 17,
+      "all_level_square_sum": 22906492244
+    },
+    {
+      "m": 18,
+      "all_level_square_sum": 91625968980
+    },
+    {
+      "m": 19,
+      "all_level_square_sum": 366503875924
+    },
+    {
+      "m": 20,
+      "all_level_square_sum": 1466015503700
+    },
+    {
+      "m": 21,
+      "all_level_square_sum": 5864062014804
+    },
+    {
+      "m": 22,
+      "all_level_square_sum": 23456248059220
+    },
+    {
+      "m": 23,
+      "all_level_square_sum": 93824992236884
+    },
+    {
+      "m": 24,
+      "all_level_square_sum": 375299968947540
+    },
+    {
+      "m": 25,
+      "all_level_square_sum": 1501199875790164
+    },
+    {
+      "m": 26,
+      "all_level_square_sum": 6004799503160660
+    },
+    {
+      "m": 27,
+      "all_level_square_sum": 24019198012642644
+    },
+    {
+      "m": 28,
+      "all_level_square_sum": 96076792050570580
+    },
+    {
+      "m": 29,
+      "all_level_square_sum": 384307168202282324
+    },
+    {
+      "m": 30,
+      "all_level_square_sum": 1537228672809129300
+    },
+    {
+      "m": 31,
+      "all_level_square_sum": 6148914691236517204
+    },
+    {
+      "m": 32,
+      "all_level_square_sum": 24595658764946068820
+    }
+  ]
+}

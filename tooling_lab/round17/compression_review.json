@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "scope": "Each coefficient compression identity and digit-height bound checked by a separate polynomial product implementation; every digit norm and relation norm independently computed by integer resultants. Original large norms are bound to the completed carry review.",
+  "cases": [
+    {
+      "case": "small_complete",
+      "vectors_checked": 256,
+      "relation_height": 2,
+      "relation_l1": 3,
+      "digit_height_bound": 1,
+      "original_coefficient_bits": 8,
+      "digit_coefficient_bits": 1,
+      "original_norm_bits": 61,
+      "digit_norm_bits": 5
+    },
+    {
+      "case": "medium_walk",
+      "vectors_checked": 65,
+      "relation_height": 2,
+      "relation_l1": 3,
+      "digit_height_bound": 1,
+      "original_coefficient_bits": 16,
+      "digit_coefficient_bits": 1,
+      "original_norm_bits": 257,
+      "digit_norm_bits": 17
+    },
+    {
+      "case": "known_short_walk",
+      "vectors_checked": 65,
+      "relation_height": 2,
+      "relation_l1": 3,
+      "digit_height_bound": 1,
+      "original_coefficient_bits": 22,
+      "digit_coefficient_bits": 1,
+      "original_norm_bits": 739,
+      "digit_norm_bits": 45
+    },
+    {
+      "case": "known_centering_walk",
+      "vectors_checked": 65,
+      "relation_height": 2,
+      "relation_l1": 3,
+      "digit_height_bound": 1,
+      "original_coefficient_bits": 22,
+      "digit_coefficient_bits": 1,
+      "original_norm_bits": 739,
+      "digit_norm_bits": 45
+    },
+    {
+      "case": "quartic_window_walk",
+      "vectors_checked": 33,
+      "relation_height": 3,
+      "relation_l1": 13,
+      "digit_height_bound": 6,
+      "original_coefficient_bits": 30,
+      "digit_coefficient_bits": 3,
+      "original_norm_bits": 2055,
+      "digit_norm_bits": 191
+    }
+  ],
+  "source_sha256": {
+    "compression_review.py": "e4ddcf3aba1d58a27e7cda5135665d546f07c37f2c4e1527736a8996bf8f3e13",
+    "carry_review.py": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633"
+  },
+  "input_sha256": {
+    "norm_compression.json": "dee00880cce3b58aae942755430b045757e8231dc529461940d3d68a59ea7f7c",
+    "norm_carry.json": "b2bc88626f8a7e1242ee592aaf95fed31901293332424684d4d0bc554829cf2a",
+    "carry_review.json": "1dcbb1a25f8bf4a81f0036c58772a610c25e31858f1fb589587cf0c5082063c8"
+  }
+}

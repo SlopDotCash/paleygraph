@@ -1,0 +1,8 @@
+{
+  "source_sha256": "40a4c6671f08bf5c65023fea8075a6ff66419505e30254ccce714b0c4dc4408f",
+  "input_sha256": {
+    "local_edits/ablation_results.json": "e0862f96275a98c39377241297ec6b5c519ece1201dff4ac267e1b058363d3e6",
+    "local_edits/threshold_results.json": "514ac566c74b8fce6d27577344075d7067f81cdbde3e242786fe47752d22ca32"
+  },
+  "scope": "Exact saved counts and rational-bound display values; no interpolation or uncertainty bands claimed."
+}

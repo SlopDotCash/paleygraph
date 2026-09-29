@@ -1,0 +1,532 @@
+{
+  "status": "passed",
+  "scope": "Exact finite block-incidence and scalar-alphabet transfer audit. No claim that the cited paper main theorem is false.",
+  "source_under_audit": "https://arxiv.org/pdf/2601.10047v1#page=10",
+  "parameters": {
+    "p": 17,
+    "gamma": 3,
+    "k": 4,
+    "m": 2,
+    "d": 1
+  },
+  "polynomial_coefficients": [
+    7,
+    5,
+    4,
+    1
+  ],
+  "roots": [
+    1,
+    3,
+    9
+  ],
+  "all_nonzero_blocks": [
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      13,
+      5
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      15,
+      11
+    ],
+    [
+      16,
+      14
+    ]
+  ],
+  "disjoint_blocks": [
+    [
+      1,
+      3
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      13,
+      5
+    ],
+    [
+      15,
+      11
+    ],
+    [
+      16,
+      14
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "all_basepoints_audit": {
+    "dimension": 1,
+    "kernel_dimensions": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "intersection_dimension_sum": 2,
+    "normalized_dimension_loss": [
+      1,
+      8
+    ],
+    "maximum_coordinate_reuse": 2,
+    "coordinate_multiplicities": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        16,
+        2
+      ]
+    ]
+  },
+  "disjoint_audit": {
+    "dimension": 1,
+    "kernel_dimensions": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "intersection_dimension_sum": 1,
+    "normalized_dimension_loss": [
+      1,
+      8
+    ],
+    "maximum_coordinate_reuse": 1,
+    "coordinate_multiplicities": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        16,
+        1
+      ]
+    ]
+  },
+  "displayed_lemma_4_1_rhs": [
+    3,
+    2
+  ],
+  "same_root_count_control": {
+    "polynomial_coefficients": [
+      9,
+      14,
+      10,
+      1
+    ],
+    "roots": [
+      1,
+      2,
+      4
+    ],
+    "audit": {
+      "dimension": 1,
+      "kernel_dimensions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "intersection_dimension_sum": 0,
+      "normalized_dimension_loss": [
+        0,
+        1
+      ],
+      "maximum_coordinate_reuse": 2,
+      "coordinate_multiplicities": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          2
+        ]
+      ]
+    }
+  },
+  "complete_monic_polynomials_tested": 5220,
+  "complete_count_histogram": [
+    [
+      0,
+      0,
+      4948
+    ],
+    [
+      1,
+      0,
+      128
+    ],
+    [
+      1,
+      1,
+      128
+    ],
+    [
+      2,
+      1,
+      16
+    ]
+  ],
+  "max_all_basepoints": 2,
+  "max_disjoint_basepoints": 1,
+  "ordinary_RS_two_dimensional_audit": {
+    "dimension": 2,
+    "kernel_dimensions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "intersection_dimension_sum": 16,
+    "normalized_dimension_loss": [
+      1,
+      2
+    ],
+    "maximum_coordinate_reuse": 1,
+    "coordinate_multiplicities": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        16,
+        1
+      ]
+    ]
+  },
+  "source_sha256": {
+    "coding_block_audit.py": "7d331fde8a97ff3b1dd848eddea6e6c063d4f7649909150c8c08d88810e2ad23"
+  }
+}

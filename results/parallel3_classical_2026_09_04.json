@@ -1,0 +1,196 @@
+{
+  "claim": "Exact Fourier/Kloosterman identities and integer configurations; no full Paley or LM proof",
+  "exact_nonzero_frequency_transform_checks": 106,
+  "exact_signed_symmetry_checks": 900,
+  "exact_directional_pairing_and_affine_invariance_checks": 54,
+  "fields": [
+    {
+      "p": 5,
+      "full_elliptic_norm_squared": 14,
+      "subsets": 9
+    },
+    {
+      "p": 7,
+      "full_elliptic_norm_squared": 34,
+      "subsets": 9
+    },
+    {
+      "p": 13,
+      "full_elliptic_norm_squared": 142,
+      "subsets": 9
+    },
+    {
+      "p": 17,
+      "full_elliptic_norm_squared": 254,
+      "subsets": 9
+    },
+    {
+      "p": 29,
+      "full_elliptic_norm_squared": 782,
+      "subsets": 9
+    },
+    {
+      "p": 41,
+      "full_elliptic_norm_squared": 1598,
+      "subsets": 9
+    }
+  ],
+  "integer_configuration_records": [
+    {
+      "n": 32,
+      "h": 1,
+      "rational_cross_ratio": -1,
+      "distinct_offset_patterns": 1,
+      "constructed_quadruple_lower_bound": 16,
+      "independent_full_integer_count": 1680
+    },
+    {
+      "n": 32,
+      "h": 2,
+      "rational_cross_ratio": -4,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 1440
+    },
+    {
+      "n": 32,
+      "h": 3,
+      "rational_cross_ratio": -9,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 1144
+    },
+    {
+      "n": 32,
+      "h": 4,
+      "rational_cross_ratio": -16,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 272
+    },
+    {
+      "n": 64,
+      "h": 1,
+      "rational_cross_ratio": -1,
+      "distinct_offset_patterns": 2,
+      "constructed_quadruple_lower_bound": 64,
+      "independent_full_integer_count": 9648
+    },
+    {
+      "n": 64,
+      "h": 2,
+      "rational_cross_ratio": -4,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 8448
+    },
+    {
+      "n": 64,
+      "h": 3,
+      "rational_cross_ratio": -9,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 7304
+    },
+    {
+      "n": 64,
+      "h": 4,
+      "rational_cross_ratio": -16,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 2168
+    },
+    {
+      "n": 128,
+      "h": 1,
+      "rational_cross_ratio": -1,
+      "distinct_offset_patterns": 8,
+      "constructed_quadruple_lower_bound": 512,
+      "independent_full_integer_count": 51136
+    },
+    {
+      "n": 128,
+      "h": 2,
+      "rational_cross_ratio": -4,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 45608
+    },
+    {
+      "n": 128,
+      "h": 3,
+      "rational_cross_ratio": -9,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 40248
+    },
+    {
+      "n": 128,
+      "h": 4,
+      "rational_cross_ratio": -16,
+      "distinct_offset_patterns": 0,
+      "constructed_quadruple_lower_bound": 0,
+      "independent_full_integer_count": 15672
+    },
+    {
+      "n": 1024,
+      "h": 1,
+      "rational_cross_ratio": -1,
+      "distinct_offset_patterns": 142,
+      "constructed_quadruple_lower_bound": 72704
+    },
+    {
+      "n": 1024,
+      "h": 2,
+      "rational_cross_ratio": -4,
+      "distinct_offset_patterns": 18,
+      "constructed_quadruple_lower_bound": 9216
+    },
+    {
+      "n": 1024,
+      "h": 3,
+      "rational_cross_ratio": -9,
+      "distinct_offset_patterns": 9,
+      "constructed_quadruple_lower_bound": 4608
+    },
+    {
+      "n": 1024,
+      "h": 4,
+      "rational_cross_ratio": -16,
+      "distinct_offset_patterns": 5,
+      "constructed_quadruple_lower_bound": 2560
+    },
+    {
+      "n": 4096,
+      "h": 1,
+      "rational_cross_ratio": -1,
+      "distinct_offset_patterns": 762,
+      "constructed_quadruple_lower_bound": 1560576
+    },
+    {
+      "n": 4096,
+      "h": 2,
+      "rational_cross_ratio": -4,
+      "distinct_offset_patterns": 156,
+      "constructed_quadruple_lower_bound": 319488
+    },
+    {
+      "n": 4096,
+      "h": 3,
+      "rational_cross_ratio": -9,
+      "distinct_offset_patterns": 72,
+      "constructed_quadruple_lower_bound": 147456
+    },
+    {
+      "n": 4096,
+      "h": 4,
+      "rational_cross_ratio": -16,
+      "distinct_offset_patterns": 41,
+      "constructed_quadruple_lower_bound": 83968
+    }
+  ],
+  "source_sha256": {
+    "research/parallel3-classical-2026-09-04.md": "35817afc77576e4383488da17006ea79aa51f63672f43272547372f6ad8a450c",
+    "experiments/parallel3_classical_2026_09_04.py": "eb650d046f1100d7a4ab5792cb0480be4fa941c3dbd92e9e08bd1dbfa9717fc4"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "scope": "Every reported scalar encoding, cross-splice and distinguishing suffix selector replayed using independent direct powers and dense integer arithmetic. No maximum-clique or all-orders claim.",
+  "cases": [
+    {
+      "name": "p65537_canonical",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4295000064,
+        "dense_convolution_absolute_sum": 98304,
+        "projection_absolute_sum": 1048576,
+        "projection_scale": 4294967296
+      },
+      "calibration_beta": 65535,
+      "distinguished_pairs": 10,
+      "certified_width_lower_bound": 5
+    },
+    {
+      "name": "p65537_saved",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4295000064,
+        "dense_convolution_absolute_sum": 98304,
+        "projection_absolute_sum": 1048576,
+        "projection_scale": 4294967296
+      },
+      "calibration_beta": 2,
+      "distinguished_pairs": 10296,
+      "certified_width_lower_bound": 144
+    },
+    {
+      "name": "p6700417_canonical",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 44895577923264,
+        "dense_convolution_absolute_sum": 10050624,
+        "projection_absolute_sum": 214413312,
+        "projection_scale": 44895574573056
+      },
+      "calibration_beta": 6699135,
+      "distinguished_pairs": 29890,
+      "certified_width_lower_bound": 245
+    },
+    {
+      "name": "p2013265921_natural_cut4",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4053239665640079360,
+        "dense_convolution_absolute_sum": 13086228480,
+        "projection_absolute_sum": 773094113280,
+        "projection_scale": 4053239664633446400
+      },
+      "calibration_beta": 272772816,
+      "distinguished_pairs": 20503,
+      "certified_width_lower_bound": 203
+    },
+    {
+      "name": "p2013265921_natural_cut8",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4053239665640079360,
+        "dense_convolution_absolute_sum": 13086228480,
+        "projection_absolute_sum": 773094113280,
+        "projection_scale": 4053239664633446400
+      },
+      "calibration_beta": 272772816,
+      "distinguished_pairs": 32385,
+      "certified_width_lower_bound": 255
+    },
+    {
+      "name": "p2013265921_natural_cut32",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4053239665640079360,
+        "dense_convolution_absolute_sum": 13086228480,
+        "projection_absolute_sum": 773094113280,
+        "projection_scale": 4053239664633446400
+      },
+      "calibration_beta": 272772816,
+      "distinguished_pairs": 32640,
+      "certified_width_lower_bound": 256
+    },
+    {
+      "name": "p2013265921_reversed_cut32",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4053239665640079360,
+        "dense_convolution_absolute_sum": 13086228480,
+        "projection_absolute_sum": 773094113280,
+        "projection_scale": 4053239664633446400
+      },
+      "calibration_beta": 272772816,
+      "distinguished_pairs": 32640,
+      "certified_width_lower_bound": 256
+    },
+    {
+      "name": "p2013265921_even_odd_cut32",
+      "cross_splices": 65536,
+      "scalar_encodings": 256,
+      "overflow_bounds": {
+        "scalar_times_power_plus_m": 4053239665640079360,
+        "dense_convolution_absolute_sum": 13086228480,
+        "projection_absolute_sum": 773094113280,
+        "projection_scale": 4053239664633446400
+      },
+      "calibration_beta": 272772816,
+      "distinguished_pairs": 32640,
+      "certified_width_lower_bound": 256
+    }
+  ],
+  "corrupt_artifacts_rejected": [
+    "duplicate_prefix_index",
+    "false_selector",
+    "duplicate_read_coordinate",
+    "corrupt_scalar_word",
+    "false_acceptance_entry"
+  ],
+  "source_sha256": {
+    "splice_review.py": "a3e14ebf8a2f810a0f726c721615d62171f8a1e76ea6ec35521e87d93cd11b5c"
+  },
+  "input_sha256": {
+    "splice_summary.json": "04431ef4034bb395469c636c157b008613f551b275369c8c3188508bf95483cf",
+    "p65537_canonical_splice.json": "be060bd83bb020ed1305163b8f4dc472dc705ed0c5596d9f66de5aa035e08503",
+    "p65537_saved_splice.json": "1de9e5902e7c9bb26227f16da5022b9768ad2717487316e2e2d98fa31f355d9f",
+    "p6700417_canonical_splice.json": "418751f8155371beae0918fa74f6af930e361f6f544a9e168e65e41abe441a9e",
+    "p2013265921_natural_cut4_splice.json": "a44bc03dd9422ca0db6d195e8d4f84c8a58457f73763444db516b6069512a807",
+    "p2013265921_natural_cut8_splice.json": "9b2ad22add34b70ae68ccde143f148992affcd1e6caf18b1e3c4c9b6f7c789e1",
+    "p2013265921_natural_cut32_splice.json": "55148597e77b42d326946d1e7d9986042c56dc7a5c08548426b2c900e0c926f7",
+    "p2013265921_reversed_cut32_splice.json": "f0e520ddc874b379e5e66e8141eb6fb92ba6f029147abf0ab6dfe736bcfe5bbc",
+    "p2013265921_even_odd_cut32_splice.json": "e7cb28c92712775b6814f30338318846ff3115fba18db4785335c57a25c2ad08"
+  },
+  "numpy_version": "2.4.5"
+}

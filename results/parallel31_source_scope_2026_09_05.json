@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-09-05T21:35:37.610354+00:00",
+  "reused_primary_sources": [
+    {
+      "path": "sources/parallel28-moment-recurrence/shkredov-1705.09703v1.html",
+      "url": "https://arxiv.org/html/1705.09703v1",
+      "used": "Definitions distinguish repeated-difference energies from sum-equality moments; no new estimate imported.",
+      "sha256": "8f2e81422b2180dc62c7d48e8f56f183a94761774dab8c2a00ea2536b4fb153e"
+    },
+    {
+      "path": "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf",
+      "url": "https://arxiv.org/pdf/1712.00410",
+      "used": "Previously inspected E2/E3 seeds, used only in the higher-energy exploration addendum.",
+      "sha256": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+    }
+  ],
+  "local_input_sha256": {
+    "research/parallel30-triangle-remainder-2026-09-05.md": "43669f2c9b9db9d43766455073d372e6aa21897e4087b706ea662322a30aa483",
+    "results/parallel30_verification_2026_09_05.json": "b74d7c380457bad8596764d47647cb1a8836dae2272d49d66244c8916ad40bfe",
+    "research/parallel29-centered-recurrence-2026-09-05.md": "c9bb92dbf59136bf7b7ce5e4a22fa95d203fbbab805182fdeebb7b9f18ba00e6"
+  },
+  "new_mathematical_argument": "Minimum triangle length from injectivity and integer coefficients; connectedness and cycle rank for primitive targets. No non-elementary external theorem is needed for the finite classification.",
+  "scope": "One fixed prime and subgroup; no uniform upper bound, literature novelty, independent-author review, or Lean verification.",
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41"
+}

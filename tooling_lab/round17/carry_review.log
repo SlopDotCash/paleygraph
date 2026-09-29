@@ -1,0 +1,5 @@
+{"case": "small_complete", "p": 257, "n": 16, "steps_checked": 256, "independent_resultants": 257, "radius_down_norm_up_steps": 64, "quartic_window": false}
+{"case": "medium_walk", "p": 65537, "n": 32, "steps_checked": 64, "independent_resultants": 66, "radius_down_norm_up_steps": 15, "quartic_window": false}
+{"case": "known_short_walk", "p": 6700417, "n": 64, "steps_checked": 64, "independent_resultants": 66, "radius_down_norm_up_steps": 13, "quartic_window": false}
+{"case": "known_centering_walk", "p": 6700417, "n": 64, "steps_checked": 64, "independent_resultants": 66, "radius_down_norm_up_steps": 12, "quartic_window": false}
+{"case": "quartic_window_walk", "p": 2013265921, "n": 128, "steps_checked": 32, "independent_resultants": 34, "radius_down_norm_up_steps": 5, "quartic_window": true}

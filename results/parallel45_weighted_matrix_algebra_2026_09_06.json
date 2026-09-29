@@ -1,0 +1,298 @@
+{
+  "scope": "Exact weighted matrix identities and source-power comparisons; no new uniform bound.",
+  "cases": [
+    {
+      "p": 13,
+      "n": 2,
+      "m": 6,
+      "algebra_weight_pairs": 25,
+      "algebra_entries_checked": 900,
+      "trace_checks": [
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 4,
+          "quartic": 31
+        },
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 4,
+          "quartic": 31
+        },
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 4,
+          "quartic": 31
+        },
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 4,
+          "quartic": 31
+        },
+        {
+          "sum_weights": 0,
+          "norm_squared": 2,
+          "triangle": -3,
+          "cubic": -21,
+          "quartic": 122
+        }
+      ],
+      "exact_projection_checks": [
+        {
+          "residual_norm_squared": "170/189",
+          "centered_bound_square": "625/84",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "170/189",
+          "centered_bound_square": "625/84",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "170/189",
+          "centered_bound_square": "625/84",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "170/189",
+          "centered_bound_square": "625/84",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "554/189",
+          "centered_bound_square": "500/7",
+          "passed": true
+        }
+      ],
+      "field_convolution_checks": 5,
+      "all_passed": true
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "m": 12,
+      "algebra_weight_pairs": 25,
+      "algebra_entries_checked": 3600,
+      "trace_checks": [
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 448,
+          "quartic": 5077
+        },
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 448,
+          "quartic": 5077
+        },
+        {
+          "sum_weights": 7,
+          "norm_squared": 13,
+          "triangle": 324,
+          "cubic": 177316,
+          "quartic": 9616701
+        },
+        {
+          "sum_weights": 13,
+          "norm_squared": 49,
+          "triangle": 2136,
+          "cubic": 1140184,
+          "quartic": 114940197
+        },
+        {
+          "sum_weights": 0,
+          "norm_squared": 2,
+          "triangle": 0,
+          "cubic": 0,
+          "quartic": 4802
+        }
+      ],
+      "exact_projection_checks": [
+        {
+          "residual_norm_squared": "53948/60993",
+          "centered_bound_square": "296571/4016",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "53948/60993",
+          "centered_bound_square": "296571/4016",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "7902332/60993",
+          "centered_bound_square": "444085203/4016",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "113839052/60993",
+          "centered_bound_square": "25137017139/4016",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "218594/60993",
+          "centered_bound_square": "162630/251",
+          "passed": true
+        }
+      ],
+      "field_convolution_checks": 5,
+      "all_passed": true
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "m": 16,
+      "algebra_weight_pairs": 25,
+      "algebra_entries_checked": 6400,
+      "trace_checks": [
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 3,
+          "cubic": 4467,
+          "quartic": 72953
+        },
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 3,
+          "cubic": 4467,
+          "quartic": 72953
+        },
+        {
+          "sum_weights": 15,
+          "norm_squared": 41,
+          "triangle": 4641,
+          "cubic": 13929969,
+          "quartic": 3284665961
+        },
+        {
+          "sum_weights": 41,
+          "norm_squared": 401,
+          "triangle": 102507,
+          "cubic": 286080603,
+          "quartic": 183873384793
+        },
+        {
+          "sum_weights": 0,
+          "norm_squared": 2,
+          "triangle": -12,
+          "cubic": -2508,
+          "quartic": 53386
+        }
+      ],
+      "exact_projection_checks": [
+        {
+          "residual_norm_squared": "53464/60975",
+          "centered_bound_square": "14583375/69376",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "53464/60975",
+          "centered_bound_square": "14583375/69376",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "68965304/60975",
+          "centered_bound_square": "624944131935/69376",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "2481611528/20325",
+          "centered_bound_square": "692956265865375/69376",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "63074/20325",
+          "centered_bound_square": "975585/542",
+          "passed": true
+        }
+      ],
+      "field_convolution_checks": 5,
+      "all_passed": true
+    },
+    {
+      "p": 353,
+      "n": 16,
+      "m": 22,
+      "algebra_weight_pairs": 25,
+      "algebra_entries_checked": 12100,
+      "trace_checks": [
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 3840,
+          "quartic": 74957
+        },
+        {
+          "sum_weights": 1,
+          "norm_squared": 1,
+          "triangle": 0,
+          "cubic": 3840,
+          "quartic": 74957
+        },
+        {
+          "sum_weights": 15,
+          "norm_squared": 29,
+          "triangle": 3072,
+          "cubic": 13896960,
+          "quartic": 3292122893
+        },
+        {
+          "sum_weights": 29,
+          "norm_squared": 113,
+          "triangle": 22800,
+          "cubic": 100607760,
+          "quartic": 46021963725
+        },
+        {
+          "sum_weights": 0,
+          "norm_squared": 2,
+          "triangle": 0,
+          "cubic": 0,
+          "quartic": 44242
+        }
+      ],
+      "exact_projection_checks": [
+        {
+          "residual_norm_squared": "563164/599307",
+          "centered_bound_square": "276374259/903628",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "563164/599307",
+          "centered_bound_square": "276374259/903628",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "126038972/199769",
+          "centered_bound_square": "4015974717251/903628",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "5738181500/599307",
+          "centered_bound_square": "22328079903185/82148",
+          "passed": true
+        },
+        {
+          "residual_norm_squared": "2244454/599307",
+          "centered_bound_square": "52738588/20537",
+          "passed": true
+        }
+      ],
+      "field_convolution_checks": 5,
+      "all_passed": true
+    }
+  ],
+  "all_passed": true
+}

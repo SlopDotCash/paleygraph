@@ -1,0 +1,275 @@
+{
+  "asymptotic_conjecture_proved": false,
+  "arithmetic": "exact integers",
+  "dense_crosschecks": [
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 2,
+      "index": 2,
+      "depth": 5,
+      "moments": [
+        {
+          "r": 1,
+          "energy": 8,
+          "centered_moment": 72,
+          "coset_moment": 9,
+          "M_squared_upper_integer": 9,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 1,
+          "overflow_bound_before_step": 8
+        },
+        {
+          "r": 2,
+          "energy": 264,
+          "centered_moment": 392,
+          "coset_moment": 49,
+          "M_squared_upper_integer": 7,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 8,
+          "overflow_bound_before_step": 8
+        },
+        {
+          "r": 3,
+          "energy": 15560,
+          "centered_moment": 2376,
+          "coset_moment": 297,
+          "M_squared_upper_integer": 7,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 33,
+          "overflow_bound_before_step": 64
+        },
+        {
+          "r": 4,
+          "energy": 987784,
+          "centered_moment": 15112,
+          "coset_moment": 1889,
+          "M_squared_upper_integer": 7,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 264,
+          "overflow_bound_before_step": 264
+        },
+        {
+          "r": 5,
+          "energy": 63167048,
+          "centered_moment": 97992,
+          "coset_moment": 12249,
+          "M_squared_upper_integer": 7,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 1945,
+          "overflow_bound_before_step": 2112
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "generator": 33,
+      "index": 12,
+      "depth": 5,
+      "moments": [
+        {
+          "r": 1,
+          "energy": 8,
+          "centered_moment": 712,
+          "coset_moment": 89,
+          "M_squared_upper_integer": 89,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 1,
+          "overflow_bound_before_step": 8
+        },
+        {
+          "r": 2,
+          "energy": 168,
+          "centered_moment": 12200,
+          "coset_moment": 1525,
+          "M_squared_upper_integer": 40,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 8,
+          "overflow_bound_before_step": 8
+        },
+        {
+          "r": 3,
+          "energy": 5600,
+          "centered_moment": 281056,
+          "coset_moment": 35132,
+          "M_squared_upper_integer": 33,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 21,
+          "overflow_bound_before_step": 64
+        },
+        {
+          "r": 4,
+          "energy": 248808,
+          "centered_moment": 7357160,
+          "coset_moment": 919645,
+          "M_squared_upper_integer": 31,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 168,
+          "overflow_bound_before_step": 168
+        },
+        {
+          "r": 5,
+          "energy": 13182288,
+          "centered_moment": 204940112,
+          "coset_moment": 25617514,
+          "M_squared_upper_integer": 31,
+          "gaussian_coefficient_fails": false,
+          "SG_with_K_2_at_this_instance": true,
+          "max_count": 700,
+          "overflow_bound_before_step": 1344
+        }
+      ]
+    }
+  ],
+  "target": {
+    "p": 6700417,
+    "n": 64,
+    "generator": 2,
+    "index": 104694,
+    "depth": 12,
+    "moments": [
+      {
+        "r": 1,
+        "energy": 64,
+        "centered_moment": 428822592,
+        "coset_moment": 6700353,
+        "M_squared_upper_integer": 6700353,
+        "gaussian_coefficient_fails": false,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 1,
+        "overflow_bound_before_step": 64
+      },
+      {
+        "r": 2,
+        "energy": 12864,
+        "centered_moment": 86177387072,
+        "coset_moment": 1346521673,
+        "M_squared_upper_integer": 36695,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 64,
+        "overflow_bound_before_step": 64
+      },
+      {
+        "r": 3,
+        "energy": 4816960,
+        "centered_moment": 32206921195584,
+        "coset_moment": 503233143681,
+        "M_squared_upper_integer": 7955,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 201,
+        "overflow_bound_before_step": 4096
+      },
+      {
+        "r": 4,
+        "energy": 2868260416,
+        "centered_moment": 18937065875082816,
+        "coset_moment": 295891654298169,
+        "M_squared_upper_integer": 4148,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 12864,
+        "overflow_bound_before_step": 12864
+      },
+      {
+        "r": 5,
+        "energy": 2497343114304,
+        "centered_moment": 15580318753308617792,
+        "coset_moment": 243442480520447153,
+        "M_squared_upper_integer": 3002,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 122560,
+        "overflow_bound_before_step": 823296
+      },
+      {
+        "r": 6,
+        "energy": 3146441208601152,
+        "centered_moment": 16360101680742059866688,
+        "coset_moment": 255626588761594685417,
+        "M_squared_upper_integer": 2520,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 4816960,
+        "overflow_bound_before_step": 7843840
+      },
+      {
+        "r": 7,
+        "energy": 5939411662724012096,
+        "centered_moment": 20453721761080170160945216,
+        "coset_moment": 319589402516877658764769,
+        "M_squared_upper_integer": 2280,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 85487808,
+        "overflow_bound_before_step": 308285440
+      },
+      {
+        "r": 8,
+        "energy": 16140369225530123142720,
+        "centered_moment": 28919041830754533524030563904,
+        "coset_moment": 451860028605539586312977561,
+        "M_squared_upper_integer": 2148,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 2868260416,
+        "overflow_bound_before_step": 5471219712
+      },
+      {
+        "r": 9,
+        "energy": 55081239457952006896690240,
+        "centered_moment": 44548719586705685411544507253824,
+        "coset_moment": 696073743542276334555382925841,
+        "M_squared_upper_integer": 2070,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 73300419264,
+        "overflow_bound_before_step": 183568666624
+      },
+      {
+        "r": 10,
+        "energy": 209250862204621189085033443904,
+        "centered_moment": 72840038595585421001765472822563392,
+        "coset_moment": 1138125603056022203152585512852553,
+        "M_squared_upper_integer": 2022,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 2497343114304,
+        "overflow_bound_before_step": 4691226832896
+      },
+      {
+        "r": 11,
+        "energy": 831095678228104959526213325484096,
+        "centered_moment": 124169740291108933179757992791878684736,
+        "coset_moment": 1940152192048577080933718637373104449,
+        "M_squared_upper_integer": 1991,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 81877844354240,
+        "overflow_bound_before_step": 159829959315456
+      },
+      {
+        "r": 12,
+        "energy": 3360801151538389751318410002884550208,
+        "centered_moment": 218023970856779700823928523649327745056320,
+        "coset_moment": 3406624544637182825373883182020746016505,
+        "M_squared_upper_integer": 1970,
+        "gaussian_coefficient_fails": true,
+        "SG_with_K_2_at_this_instance": true,
+        "max_count": 3146441208601152,
+        "overflow_bound_before_step": 5240182038671360
+      }
+    ]
+  }
+}

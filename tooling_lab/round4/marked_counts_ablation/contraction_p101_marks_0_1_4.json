@@ -1,0 +1,397 @@
+{
+  "p": 101,
+  "marks": [
+    0,
+    1,
+    4
+  ],
+  "Q": 62,
+  "cells": [
+    {
+      "pattern": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": 10
+    },
+    {
+      "pattern": [
+        -1,
+        -1,
+        1
+      ],
+      "size": 15
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        -1
+      ],
+      "size": 15
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        1
+      ],
+      "size": 10
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        -1
+      ],
+      "size": 14
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        0
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        1
+      ],
+      "size": 10
+    },
+    {
+      "pattern": [
+        1,
+        0,
+        -1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        -1
+      ],
+      "size": 10
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        1
+      ],
+      "size": 14
+    }
+  ],
+  "sampled_convolution_rows": [
+    {
+      "x": 0,
+      "value": -2
+    },
+    {
+      "x": 1,
+      "value": 0
+    },
+    {
+      "x": 2,
+      "value": -7
+    },
+    {
+      "x": 3,
+      "value": 17
+    },
+    {
+      "x": 4,
+      "value": 0
+    },
+    {
+      "x": 7,
+      "value": 1
+    },
+    {
+      "x": 9,
+      "value": -19
+    },
+    {
+      "x": 19,
+      "value": 5
+    },
+    {
+      "x": 22,
+      "value": -3
+    },
+    {
+      "x": 26,
+      "value": -7
+    },
+    {
+      "x": 27,
+      "value": 9
+    },
+    {
+      "x": 29,
+      "value": 17
+    },
+    {
+      "x": 31,
+      "value": 5
+    },
+    {
+      "x": 33,
+      "value": 5
+    },
+    {
+      "x": 40,
+      "value": 1
+    },
+    {
+      "x": 41,
+      "value": 9
+    },
+    {
+      "x": 42,
+      "value": -3
+    },
+    {
+      "x": 43,
+      "value": -11
+    },
+    {
+      "x": 44,
+      "value": 9
+    },
+    {
+      "x": 49,
+      "value": 5
+    },
+    {
+      "x": 65,
+      "value": 5
+    },
+    {
+      "x": 66,
+      "value": 9
+    },
+    {
+      "x": 76,
+      "value": 5
+    },
+    {
+      "x": 79,
+      "value": 13
+    },
+    {
+      "x": 86,
+      "value": -7
+    },
+    {
+      "x": 87,
+      "value": 5
+    },
+    {
+      "x": 89,
+      "value": -7
+    },
+    {
+      "x": 90,
+      "value": -11
+    },
+    {
+      "x": 93,
+      "value": -7
+    },
+    {
+      "x": 98,
+      "value": -15
+    },
+    {
+      "x": 100,
+      "value": 13
+    }
+  ],
+  "metadata": {
+    "ntt_modulus": 998244353,
+    "ntt_length": 256,
+    "transforms": 3,
+    "h3_l1": 98,
+    "h2_l1": 146,
+    "integer_recovery_margin": 998244157,
+    "Q_absolute_bound": 14308,
+    "backend_seconds": 6.4959e-05
+  },
+  "reduced_moments": [
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "n": 6,
+      "degree": 6,
+      "cell_only_term": [
+        451155,
+        4753
+      ],
+      "Q": 62,
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "mean": [
+        -6,
+        4753
+      ],
+      "second_moment": [
+        451155,
+        4753
+      ],
+      "variance": [
+        2144339679,
+        22591009
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 0,
+      "uneliminated_ordered_walsh_terms": 0
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "n": 7,
+      "degree": 6,
+      "cell_only_term": [
+        282728564,
+        451535
+      ],
+      "Q": 62,
+      "Q_coefficient": [
+        -1,
+        47530
+      ],
+      "mean": [
+        -4413,
+        451535
+      ],
+      "second_moment": [
+        56545595,
+        90307
+      ],
+      "variance": [
+        127661556717056,
+        203883856225
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 24,
+      "uneliminated_ordered_walsh_terms": 6
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "n": 8,
+      "degree": 6,
+      "cell_only_term": [
+        10008641663,
+        4244429
+      ],
+      "Q": 62,
+      "Q_coefficient": [
+        -737,
+        8488858
+      ],
+      "mean": [
+        -528,
+        12901
+      ],
+      "second_moment": [
+        1429802688,
+        606347
+      ],
+      "variance": [
+        18445871375040,
+        7822482647
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6
+    },
+    {
+      "q": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "n": 31,
+      "degree": 6,
+      "cell_only_term": [
+        39665489811275280,
+        1672911373
+      ],
+      "Q": 62,
+      "Q_coefficient": [
+        341785425,
+        3129963214
+      ],
+      "mean": [
+        -65685321,
+        57133
+      ],
+      "second_moment": [
+        1150299532982776545,
+        48514429817
+      ],
+      "variance": [
+        62056357724009924453376,
+        2771774918734661
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6
+    }
+  ],
+  "validation": {
+    "Q_from_full_exact_relations": 62,
+    "relation_Q_matched": true,
+    "direct_rows": 101,
+    "direct_integer_terms": 10201,
+    "full_independent_direct_Q": true,
+    "all_character_values_checked_by_Euler_criterion": 101
+  },
+  "provenance": {
+    "input_file": "marked_counts/counts_p101_marks_0_1_4.json",
+    "input_sha256": "d14faf13e324486fbdf52bc7d4005c436cfb61bf64e6bf10594b219c3e7a2b3c",
+    "cpp_sha256": "73478bb4b272ff6826fd6e8b7213503fdf88e44b05428008c938e7c8841707d5",
+    "header_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "binary_sha256": "cf1ee8e6fdacc6b3accfb0352053b50632390c9489f283b8b556826c101e1090",
+    "verifier_sha256": "f3564cb52dcc1f40224564606b2b3869688e8357f167a7101b74f5c53680de37",
+    "reduction_source_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+    "conditional_compiler_source_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "wall_including_independent_validation_seconds": 0.2538181249983609,
+    "runner_lifetime_max_child_rss_bytes": 38109184
+  }
+}

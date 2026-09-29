@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "source-bound readback sharing production algebra helpers",
+  "counts": {
+    "records": 30,
+    "linear_systems": 85,
+    "complete_static": 7,
+    "complete_scalar": 5,
+    "minimal_piece_counts": 8,
+    "dual_inconsistency_witnesses": 44
+  },
+  "source_sha256": {
+    "piece_discovery.py": "2c546e99c602906d9957b5d0c541b0d7ba15fd83359ac158f9d7bd703a1917a0",
+    "run_experiments.py": "1853a76f4b689a7d497208e18bb8d74ea1728b56c4ba5bc4d2917d0574d3a008",
+    "verify_results.py": "c6f47e7ad990d5a1475f79819405babd747ed7c225762f84aeb02348e60fa5a0"
+  },
+  "results_sha256": "e33f37635088e83a8897154e15fba4327e23195f0d4916d14d448b90cb54ed9a"
+}

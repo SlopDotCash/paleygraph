@@ -1,0 +1,2 @@
+# Compiled integer arithmetic used by parallel48_collision_eliminants.py.
+python-flint==0.9.0

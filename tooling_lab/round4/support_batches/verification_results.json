@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "exports_checked": [
+    {
+      "distinct_tracks_checked": 630,
+      "covered_bases_certified": 630,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 0,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 3,
+      "covered_bases_certified": 546,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 1,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 546,
+      "covered_bases_certified": 546,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 1,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 3,
+      "covered_bases_certified": 3465,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 1,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 3,
+      "covered_bases_certified": 16507238,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 1,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 3,
+      "covered_bases_certified": 271753118987350,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 1,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 3,
+      "covered_bases_certified": 357459200002524597110894827605335741280427934700,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 1,
+      "whole_field_tracks_checked": 0
+    },
+    {
+      "distinct_tracks_checked": 1,
+      "covered_bases_certified": 6,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 0,
+      "whole_field_tracks_checked": 1
+    },
+    {
+      "distinct_tracks_checked": 1,
+      "covered_bases_certified": 6,
+      "all_skips_certified_without_basis_enumeration": true,
+      "node_exports_checked": 9,
+      "whole_field_tracks_checked": 1
+    }
+  ],
+  "tampering_rejected": [
+    "basis_count",
+    "missing_track",
+    "duplicate_track",
+    "false_common_coordinate",
+    "missing_node",
+    "mismatched_cover_problem",
+    "noncanonical_field_coordinate",
+    "duplicate_node"
+  ],
+  "scope": "shared-helper readback, no ZDD replay; not an independently implemented end-to-end decoder",
+  "source_sha256": {
+    "symbolic_batches.py": "bde92e5a68878389a19848b4e99e0873faab24162b1a8f4a1666d4bfec91e356",
+    "verify_exports.py": "f3e87027e479b9fce270c9e72d9b958fe1eee633e7bbeef6edb8a62eb1fa5f25",
+    "results.json": "64ade84b21ee93eb993989c23e854ebb4093ccb1597a7b790e2adbc93a7afd01"
+  }
+}

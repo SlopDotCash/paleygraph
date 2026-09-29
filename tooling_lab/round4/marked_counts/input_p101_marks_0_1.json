@@ -1,0 +1,9 @@
+{
+  "marks": [
+    0,
+    1
+  ],
+  "matrix": "S[x,y]=LegendreSymbol(x-y,p)",
+  "ordered_row_pairs": true,
+  "p": 101
+}

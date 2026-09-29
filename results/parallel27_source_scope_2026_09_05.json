@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-09-05T19:26:50.282455+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel25-mrss-1712.00410v1.html",
+      "url": "https://arxiv.org/html/1712.00410v1#Thmtheorem3",
+      "bytes": 586339,
+      "sha256": "d97c080d3222fa4c19ff8d26b684a2d9fc05b0810dd20a7d6dad934a1211fdbf",
+      "scope": "Theorem3: E2(H) << n^(49/20) log(n)^(1/5) for n<=sqrt(p). Used to bound evaluation cost through r4(2)<=E2. No cubic difference-multiplicity energy imported."
+    },
+    {
+      "path": "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html",
+      "url": "https://arxiv.org/html/1504.04522v1#Thmsatz6",
+      "bytes": 205631,
+      "sha256": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+      "scope": "Theorem6 with both subgroups H and both shifts -1: shifted multiplicative energy << n^2(1+log n), assuming n^2<p. Used to bound collision enumeration cost."
+    }
+  ],
+  "new_archives": 0,
+  "manifest_entries": 36,
+  "scope": "Primary theorem statements rechecked online at exact versions; earlier archives retained. Limited broader search supplied no additional estimate used here. No best-current or exhaustive literature claim."
+}

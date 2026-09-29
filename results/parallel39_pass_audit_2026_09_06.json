@@ -1,0 +1,158 @@
+{
+  "observed_at_utc": "2026-09-06T06:02:11.095444+00:00",
+  "classification": "progress: exact finite C=2 obstruction, cofactor restriction, coincident-edge bound and independent reviews",
+  "goal_achieved": false,
+  "uniform_bounds_improved": false,
+  "energy_exponent": "49/20 unchanged",
+  "period_exponent": "71/72 unchanged",
+  "finite_principal_verifier_exit": 0,
+  "finite_edge_verifier_exit": 0,
+  "finite_edge_cases": 7,
+  "review_scope": "Independent agents reviewed ordinary mathematical arguments and finite examples; not external peer review or Lean certification. Shell inversion review covers sections1-4.",
+  "no_new_lean_build": true,
+  "no_new_prove2me_submission": true,
+  "prior_artifacts_unchanged": 29,
+  "intentional_changes": {
+    "README.md": {
+      "before": "72110d4c6bb2d4bd91044d2d51746bc1b8e7ab46daf0aa4f8cc6b2462b6886a1",
+      "after": "ff79cd01fd1c4f36f6e86bacf756bcefb95bba0fb362ed7b9c2b42bf42c4e179"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "2f72282cc30eb8760708f7b63c5c94585886860572c6e63b924ea44302589970",
+      "after": "247541ef516407f2ae9b29518c7c7ca0a94624820cc15ffe8a7a6bbdbce624c0"
+    },
+    "research/frontier.md": {
+      "before": "814933974a1b769db06477c4e8b8a134b2abd5ce2e63e734b845964d55e21845",
+      "after": "8dd9462358a5cd2ea2a26e962785b1be8118730fdf06b6d8cc1353f20b53d532"
+    },
+    "research/parallel36-shell-inversion-2026-09-05.md": {
+      "before": "986655882b1790acfd1a34e27edc982675ac59d74b51dc3a58f9bae151297d9b",
+      "after": "2f443a6ee2614efaa047c19972bf59f3666d3bfb9b717ba52d71a530f03d0508"
+    },
+    "research/source-audit.md": {
+      "before": "65e06b7f8e1211ac872e2063b48f60c49fa909235df9f2f043ae21b5e3b70d74",
+      "after": "7e2559bb0104a39a307e391f8a819345ddd00089f682632b46d2dba5895709a7"
+    }
+  },
+  "local_links_checked": [
+    {
+      "file": "research/parallel39-edge-coset-reduction-2026-09-06.md",
+      "target": "parallel39-independent-coset-coincidence-review-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-edge-coset-reduction-2026-09-06.md",
+      "target": "../experiments/parallel39_edge_cosets.py"
+    },
+    {
+      "file": "research/parallel39-edge-coset-reduction-2026-09-06.md",
+      "target": "../results/parallel39_edge_cosets_2026_09_06.json"
+    },
+    {
+      "file": "research/parallel39-independent-principal-shell-review-2026-09-06.md",
+      "target": "../results/parallel31_short_multiples_2026_09_05.json"
+    },
+    {
+      "file": "research/parallel39-independent-principal-shell-review-2026-09-06.md",
+      "target": "parallel39-shell-structural-input-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-independent-shell-review-2026-09-06.md",
+      "target": "parallel36-shell-inversion-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-independent-single-degree-review-2026-09-06.md",
+      "target": "parallel35-single-degree-comparison-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "parallel39-shell-structural-input-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "parallel39-independent-principal-shell-review-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "../experiments/parallel39_principal_shell.py"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "parallel39-edge-coset-reduction-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "parallel39-independent-coset-coincidence-review-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "parallel39-independent-single-degree-review-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "parallel39-independent-shell-review-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-pass-summary-2026-09-06.md",
+      "target": "lean-performance-refresh-2026-09-06.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "parallel36-shell-inversion-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "subgroup-target.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "parallel30-triangle-remainder-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "parallel31-short-multiples-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "parallel32-linear-triangle-length-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "parallel28-moment-recurrence-2026-09-05.md"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "../results/parallel39_principal_shell_2026_09_06.json"
+    },
+    {
+      "file": "research/parallel39-shell-structural-input-2026-09-06.md",
+      "target": "../experiments/parallel39_principal_shell.py"
+    }
+  ],
+  "artifacts_sha256": {
+    "experiments/parallel39_edge_cosets.py": "c684a4b75c1c204415b4f525bb62a782d5d788dc13aceed455794da895cc72d3",
+    "experiments/parallel39_principal_shell.py": "8af8a52485ea4d4ff777a7352b19363a94baa008e07a64f08a663d4a329eb196",
+    "research/parallel39-edge-coset-reduction-2026-09-06.md": "1d5e852ff9a12885df5b6f3e9e7dd727d0220619998b3fc18bb60867aed21aeb",
+    "research/parallel39-independent-coset-coincidence-review-2026-09-06.md": "5048f938ecb601d5071af83fbb0bac84999827e9fcda27222af0c9a13d631ff0",
+    "research/parallel39-independent-principal-shell-review-2026-09-06.md": "32c28571007d7eca0c5512ab496084dec077e4e3329f3749593a007e0ab43735",
+    "research/parallel39-independent-shell-review-2026-09-06.md": "95acfccb609ab64660f7306aeb856c3582ce3edce50daf3bd8a2bdcc9cd41331",
+    "research/parallel39-independent-single-degree-review-2026-09-06.md": "224ae1125fde6cd58b63aab9fd5cccb852a2731e32dc7a47f6116cfb591db5c0",
+    "research/parallel39-pass-summary-2026-09-06.md": "aa1f53735acaf04580bc1f3b6880fbd0e9b47ce11ff09509ddae9639e86fd172",
+    "research/parallel39-shell-structural-input-2026-09-06.md": "b56605d41729c2dfcaa24054614a4b7c1d26223335196aab2fe63576213231cd",
+    "results/parallel39_edge_cosets_2026_09_06.json": "d7d96062c1881e6034b93624be2c983c7336e65a3a54090ce314a555f141f768",
+    "results/parallel39_principal_shell_2026_09_06.json": "808d93d989fdae877327f85ed2e207b997a3cdd55a92affa63957a07779e462c",
+    "results/parallel39_prior_state_2026_09_06.json": "39d0c2e72ed9031bae9be9405b764906e3e2607d19cc39e4f7bcc40e44f0368d"
+  },
+  "central_sha256": {
+    "README.md": "ff79cd01fd1c4f36f6e86bacf756bcefb95bba0fb362ed7b9c2b42bf42c4e179",
+    "research/frontier.md": "8dd9462358a5cd2ea2a26e962785b1be8118730fdf06b6d8cc1353f20b53d532",
+    "research/source-audit.md": "7e2559bb0104a39a307e391f8a819345ddd00089f682632b46d2dba5895709a7",
+    "research/checkpoint-2026-09-04.md": "247541ef516407f2ae9b29518c7c7ca0a94624820cc15ffe8a7a6bbdbce624c0"
+  },
+  "next_action": "Address uniform positive moments or three-distinct-edge actual level-set structure; retain arithmetic cofactor restriction. Full goal remains active.",
+  "performance_artifacts_sha256": {
+    "research/lean-performance-refresh-2026-09-06.md": "4b64092a1d13d39390f88b22582a921449ffaaec3b4b79d5f0713ac313e4cb74",
+    "research/lean-queryphase-performance-review-2026-09-06.md": "798897decd66f0782a854d50a8943d157b941b2ec2e23c4c72ae61b239695716",
+    "results/lean_performance_refresh_2026_09_06.json": "ae83f1f10fffcbf36ffde4e94a8f05ca81e0e98e68b1be071c77e79fcf889771",
+    "results/lean_kernel_refresh_2026_09_06.txt": "a4daefb1d66e3530427afa0078acd7f388d903c3580db6df43f92ef3eecad162"
+  }
+}

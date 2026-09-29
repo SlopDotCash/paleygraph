@@ -1,0 +1,3392 @@
+{
+  "status": "exact finite inverse-bound checks passed; uniform argument is ordinary mathematics; full goal unproved",
+  "check_counts": {
+    "explicit_cyclotomic_unit_inverse": 6,
+    "exact_base_inverse_norms": 6,
+    "uniform_constant_four_thirds": 6,
+    "nonzero_trinomial_norm": 252,
+    "independent_inverse_row_identity": 252,
+    "fourier_dominance_l2_consequence": 252,
+    "coefficient_cauchy": 252,
+    "sharper_inverse_l1_bound": 252,
+    "uniform_inverse_l1_bound": 252,
+    "six_term_rational_quotient_identity": 252,
+    "signed_convolution_bound": 252,
+    "conductor_lift_inverse": 5,
+    "conductor_lift_norm_preserved": 5,
+    "bound_uses_conductor_not_ambient_order": 5,
+    "all_119_minima_obey_actual_inverse_bound": 119,
+    "all_119_minima_obey_uniform_bound": 119,
+    "primitive_cycle_upper_bound": 65
+  },
+  "trinomial_rows": [
+    {
+      "n": 4,
+      "b": 0,
+      "norm": 5,
+      "inverse_l1": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 5
+      }
+    },
+    {
+      "n": 4,
+      "b": 1,
+      "norm": 5,
+      "inverse_l1": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 5
+      }
+    },
+    {
+      "n": 4,
+      "b": 2,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 4,
+      "b": 3,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 8,
+      "b": 0,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 15,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 5,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 8,
+      "b": 1,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 15,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 5,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 8,
+      "b": 2,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 3,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 8,
+      "b": 3,
+      "norm": 9,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 3
+      }
+    },
+    {
+      "n": 8,
+      "b": 4,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 8,
+      "b": 5,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 8,
+      "b": 6,
+      "norm": 9,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 3
+      }
+    },
+    {
+      "n": 8,
+      "b": 7,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 3,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 16,
+      "b": 0,
+      "norm": 257,
+      "inverse_l1": {
+        "numerator": 255,
+        "denominator": 257
+      },
+      "inverse_l2_squared": {
+        "numerator": 85,
+        "denominator": 257
+      }
+    },
+    {
+      "n": 16,
+      "b": 1,
+      "norm": 257,
+      "inverse_l1": {
+        "numerator": 255,
+        "denominator": 257
+      },
+      "inverse_l2_squared": {
+        "numerator": 85,
+        "denominator": 257
+      }
+    },
+    {
+      "n": 16,
+      "b": 2,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 5,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 5,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 16,
+      "b": 3,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 37,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 13,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 4,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 39,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 15,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 5,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 39,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 15,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 6,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 37,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 13,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 7,
+      "norm": 49,
+      "inverse_l1": {
+        "numerator": 11,
+        "denominator": 7
+      },
+      "inverse_l2_squared": {
+        "numerator": 3,
+        "denominator": 7
+      }
+    },
+    {
+      "n": 16,
+      "b": 8,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 16,
+      "b": 9,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 16,
+      "b": 10,
+      "norm": 49,
+      "inverse_l1": {
+        "numerator": 11,
+        "denominator": 7
+      },
+      "inverse_l2_squared": {
+        "numerator": 3,
+        "denominator": 7
+      }
+    },
+    {
+      "n": 16,
+      "b": 11,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 37,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 13,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 12,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 39,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 15,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 13,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 39,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 15,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 14,
+      "norm": 17,
+      "inverse_l1": {
+        "numerator": 37,
+        "denominator": 17
+      },
+      "inverse_l2_squared": {
+        "numerator": 13,
+        "denominator": 17
+      }
+    },
+    {
+      "n": 16,
+      "b": 15,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 5,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 5,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 32,
+      "b": 0,
+      "norm": 65537,
+      "inverse_l1": {
+        "numerator": 65535,
+        "denominator": 65537
+      },
+      "inverse_l2_squared": {
+        "numerator": 21845,
+        "denominator": 65537
+      }
+    },
+    {
+      "n": 32,
+      "b": 1,
+      "norm": 65537,
+      "inverse_l1": {
+        "numerator": 65535,
+        "denominator": 65537
+      },
+      "inverse_l2_squared": {
+        "numerator": 21845,
+        "denominator": 65537
+      }
+    },
+    {
+      "n": 32,
+      "b": 2,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 11,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 11,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 32,
+      "b": 3,
+      "norm": 449,
+      "inverse_l1": {
+        "numerator": 1191,
+        "denominator": 449
+      },
+      "inverse_l2_squared": {
+        "numerator": 305,
+        "denominator": 449
+      }
+    },
+    {
+      "n": 32,
+      "b": 4,
+      "norm": 193,
+      "inverse_l1": {
+        "numerator": 597,
+        "denominator": 193
+      },
+      "inverse_l2_squared": {
+        "numerator": 173,
+        "denominator": 193
+      }
+    },
+    {
+      "n": 32,
+      "b": 5,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 445,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 181,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 6,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 355,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 117,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 7,
+      "norm": 353,
+      "inverse_l1": {
+        "numerator": 967,
+        "denominator": 353
+      },
+      "inverse_l2_squared": {
+        "numerator": 243,
+        "denominator": 353
+      }
+    },
+    {
+      "n": 32,
+      "b": 8,
+      "norm": 257,
+      "inverse_l1": {
+        "numerator": 735,
+        "denominator": 257
+      },
+      "inverse_l2_squared": {
+        "numerator": 255,
+        "denominator": 257
+      }
+    },
+    {
+      "n": 32,
+      "b": 9,
+      "norm": 257,
+      "inverse_l1": {
+        "numerator": 735,
+        "denominator": 257
+      },
+      "inverse_l2_squared": {
+        "numerator": 255,
+        "denominator": 257
+      }
+    },
+    {
+      "n": 32,
+      "b": 10,
+      "norm": 353,
+      "inverse_l1": {
+        "numerator": 967,
+        "denominator": 353
+      },
+      "inverse_l2_squared": {
+        "numerator": 243,
+        "denominator": 353
+      }
+    },
+    {
+      "n": 32,
+      "b": 11,
+      "norm": 449,
+      "inverse_l1": {
+        "numerator": 1191,
+        "denominator": 449
+      },
+      "inverse_l2_squared": {
+        "numerator": 305,
+        "denominator": 449
+      }
+    },
+    {
+      "n": 32,
+      "b": 12,
+      "norm": 193,
+      "inverse_l1": {
+        "numerator": 597,
+        "denominator": 193
+      },
+      "inverse_l2_squared": {
+        "numerator": 173,
+        "denominator": 193
+      }
+    },
+    {
+      "n": 32,
+      "b": 13,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 445,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 181,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 14,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 355,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 117,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 15,
+      "norm": 2209,
+      "inverse_l1": {
+        "numerator": 87,
+        "denominator": 47
+      },
+      "inverse_l2_squared": {
+        "numerator": 21,
+        "denominator": 47
+      }
+    },
+    {
+      "n": 32,
+      "b": 16,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 32,
+      "b": 17,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 32,
+      "b": 18,
+      "norm": 2209,
+      "inverse_l1": {
+        "numerator": 87,
+        "denominator": 47
+      },
+      "inverse_l2_squared": {
+        "numerator": 21,
+        "denominator": 47
+      }
+    },
+    {
+      "n": 32,
+      "b": 19,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 355,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 117,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 20,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 445,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 181,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 21,
+      "norm": 193,
+      "inverse_l1": {
+        "numerator": 597,
+        "denominator": 193
+      },
+      "inverse_l2_squared": {
+        "numerator": 173,
+        "denominator": 193
+      }
+    },
+    {
+      "n": 32,
+      "b": 22,
+      "norm": 449,
+      "inverse_l1": {
+        "numerator": 1191,
+        "denominator": 449
+      },
+      "inverse_l2_squared": {
+        "numerator": 305,
+        "denominator": 449
+      }
+    },
+    {
+      "n": 32,
+      "b": 23,
+      "norm": 353,
+      "inverse_l1": {
+        "numerator": 967,
+        "denominator": 353
+      },
+      "inverse_l2_squared": {
+        "numerator": 243,
+        "denominator": 353
+      }
+    },
+    {
+      "n": 32,
+      "b": 24,
+      "norm": 257,
+      "inverse_l1": {
+        "numerator": 735,
+        "denominator": 257
+      },
+      "inverse_l2_squared": {
+        "numerator": 255,
+        "denominator": 257
+      }
+    },
+    {
+      "n": 32,
+      "b": 25,
+      "norm": 257,
+      "inverse_l1": {
+        "numerator": 735,
+        "denominator": 257
+      },
+      "inverse_l2_squared": {
+        "numerator": 255,
+        "denominator": 257
+      }
+    },
+    {
+      "n": 32,
+      "b": 26,
+      "norm": 353,
+      "inverse_l1": {
+        "numerator": 967,
+        "denominator": 353
+      },
+      "inverse_l2_squared": {
+        "numerator": 243,
+        "denominator": 353
+      }
+    },
+    {
+      "n": 32,
+      "b": 27,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 355,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 117,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 28,
+      "norm": 97,
+      "inverse_l1": {
+        "numerator": 445,
+        "denominator": 97
+      },
+      "inverse_l2_squared": {
+        "numerator": 181,
+        "denominator": 97
+      }
+    },
+    {
+      "n": 32,
+      "b": 29,
+      "norm": 193,
+      "inverse_l1": {
+        "numerator": 597,
+        "denominator": 193
+      },
+      "inverse_l2_squared": {
+        "numerator": 173,
+        "denominator": 193
+      }
+    },
+    {
+      "n": 32,
+      "b": 30,
+      "norm": 449,
+      "inverse_l1": {
+        "numerator": 1191,
+        "denominator": 449
+      },
+      "inverse_l2_squared": {
+        "numerator": 305,
+        "denominator": 449
+      }
+    },
+    {
+      "n": 32,
+      "b": 31,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 11,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 11,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 64,
+      "b": 0,
+      "norm": 4294967297,
+      "inverse_l1": {
+        "numerator": 4294967295,
+        "denominator": 4294967297
+      },
+      "inverse_l2_squared": {
+        "numerator": 1431655765,
+        "denominator": 4294967297
+      }
+    },
+    {
+      "n": 64,
+      "b": 1,
+      "norm": 4294967297,
+      "inverse_l1": {
+        "numerator": 4294967295,
+        "denominator": 4294967297
+      },
+      "inverse_l2_squared": {
+        "numerator": 1431655765,
+        "denominator": 4294967297
+      }
+    },
+    {
+      "n": 64,
+      "b": 2,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 21,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 21,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 64,
+      "b": 3,
+      "norm": 204353,
+      "inverse_l1": {
+        "numerator": 609115,
+        "denominator": 204353
+      },
+      "inverse_l2_squared": {
+        "numerator": 137707,
+        "denominator": 204353
+      }
+    },
+    {
+      "n": 64,
+      "b": 4,
+      "norm": 48449,
+      "inverse_l1": {
+        "numerator": 184373,
+        "denominator": 48449
+      },
+      "inverse_l2_squared": {
+        "numerator": 41069,
+        "denominator": 48449
+      }
+    },
+    {
+      "n": 64,
+      "b": 5,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 72557,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 25981,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 6,
+      "norm": 49601,
+      "inverse_l1": {
+        "numerator": 219607,
+        "denominator": 49601
+      },
+      "inverse_l2_squared": {
+        "numerator": 44601,
+        "denominator": 49601
+      }
+    },
+    {
+      "n": 64,
+      "b": 7,
+      "norm": 27457,
+      "inverse_l1": {
+        "numerator": 132543,
+        "denominator": 27457
+      },
+      "inverse_l2_squared": {
+        "numerator": 30165,
+        "denominator": 27457
+      }
+    },
+    {
+      "n": 64,
+      "b": 8,
+      "norm": 15809,
+      "inverse_l1": {
+        "numerator": 94493,
+        "denominator": 15809
+      },
+      "inverse_l2_squared": {
+        "numerator": 25449,
+        "denominator": 15809
+      }
+    },
+    {
+      "n": 64,
+      "b": 9,
+      "norm": 15809,
+      "inverse_l1": {
+        "numerator": 94493,
+        "denominator": 15809
+      },
+      "inverse_l2_squared": {
+        "numerator": 25449,
+        "denominator": 15809
+      }
+    },
+    {
+      "n": 64,
+      "b": 10,
+      "norm": 27457,
+      "inverse_l1": {
+        "numerator": 132543,
+        "denominator": 27457
+      },
+      "inverse_l2_squared": {
+        "numerator": 30165,
+        "denominator": 27457
+      }
+    },
+    {
+      "n": 64,
+      "b": 11,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 35385,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 10243,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 12,
+      "norm": 33409,
+      "inverse_l1": {
+        "numerator": 164137,
+        "denominator": 33409
+      },
+      "inverse_l2_squared": {
+        "numerator": 38873,
+        "denominator": 33409
+      }
+    },
+    {
+      "n": 64,
+      "b": 13,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 72557,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 25981,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 14,
+      "norm": 49601,
+      "inverse_l1": {
+        "numerator": 219607,
+        "denominator": 49601
+      },
+      "inverse_l2_squared": {
+        "numerator": 44601,
+        "denominator": 49601
+      }
+    },
+    {
+      "n": 64,
+      "b": 15,
+      "norm": 123713,
+      "inverse_l1": {
+        "numerator": 410037,
+        "denominator": 123713
+      },
+      "inverse_l2_squared": {
+        "numerator": 85517,
+        "denominator": 123713
+      }
+    },
+    {
+      "n": 64,
+      "b": 16,
+      "norm": 65537,
+      "inverse_l1": {
+        "numerator": 196095,
+        "denominator": 65537
+      },
+      "inverse_l2_squared": {
+        "numerator": 65535,
+        "denominator": 65537
+      }
+    },
+    {
+      "n": 64,
+      "b": 17,
+      "norm": 65537,
+      "inverse_l1": {
+        "numerator": 196095,
+        "denominator": 65537
+      },
+      "inverse_l2_squared": {
+        "numerator": 65535,
+        "denominator": 65537
+      }
+    },
+    {
+      "n": 64,
+      "b": 18,
+      "norm": 123713,
+      "inverse_l1": {
+        "numerator": 410037,
+        "denominator": 123713
+      },
+      "inverse_l2_squared": {
+        "numerator": 85517,
+        "denominator": 123713
+      }
+    },
+    {
+      "n": 64,
+      "b": 19,
+      "norm": 14657,
+      "inverse_l1": {
+        "numerator": 102039,
+        "denominator": 14657
+      },
+      "inverse_l2_squared": {
+        "numerator": 31117,
+        "denominator": 14657
+      }
+    },
+    {
+      "n": 64,
+      "b": 20,
+      "norm": 63361,
+      "inverse_l1": {
+        "numerator": 243191,
+        "denominator": 63361
+      },
+      "inverse_l2_squared": {
+        "numerator": 50169,
+        "denominator": 63361
+      }
+    },
+    {
+      "n": 64,
+      "b": 21,
+      "norm": 48449,
+      "inverse_l1": {
+        "numerator": 184373,
+        "denominator": 48449
+      },
+      "inverse_l2_squared": {
+        "numerator": 41069,
+        "denominator": 48449
+      }
+    },
+    {
+      "n": 64,
+      "b": 22,
+      "norm": 204353,
+      "inverse_l1": {
+        "numerator": 609115,
+        "denominator": 204353
+      },
+      "inverse_l2_squared": {
+        "numerator": 137707,
+        "denominator": 204353
+      }
+    },
+    {
+      "n": 64,
+      "b": 23,
+      "norm": 65921,
+      "inverse_l1": {
+        "numerator": 265787,
+        "denominator": 65921
+      },
+      "inverse_l2_squared": {
+        "numerator": 53701,
+        "denominator": 65921
+      }
+    },
+    {
+      "n": 64,
+      "b": 24,
+      "norm": 21569,
+      "inverse_l1": {
+        "numerator": 108141,
+        "denominator": 21569
+      },
+      "inverse_l2_squared": {
+        "numerator": 26265,
+        "denominator": 21569
+      }
+    },
+    {
+      "n": 64,
+      "b": 25,
+      "norm": 21569,
+      "inverse_l1": {
+        "numerator": 108141,
+        "denominator": 21569
+      },
+      "inverse_l2_squared": {
+        "numerator": 26265,
+        "denominator": 21569
+      }
+    },
+    {
+      "n": 64,
+      "b": 26,
+      "norm": 65921,
+      "inverse_l1": {
+        "numerator": 265787,
+        "denominator": 65921
+      },
+      "inverse_l2_squared": {
+        "numerator": 53701,
+        "denominator": 65921
+      }
+    },
+    {
+      "n": 64,
+      "b": 27,
+      "norm": 14657,
+      "inverse_l1": {
+        "numerator": 102039,
+        "denominator": 14657
+      },
+      "inverse_l2_squared": {
+        "numerator": 31117,
+        "denominator": 14657
+      }
+    },
+    {
+      "n": 64,
+      "b": 28,
+      "norm": 63361,
+      "inverse_l1": {
+        "numerator": 243191,
+        "denominator": 63361
+      },
+      "inverse_l2_squared": {
+        "numerator": 50169,
+        "denominator": 63361
+      }
+    },
+    {
+      "n": 64,
+      "b": 29,
+      "norm": 33409,
+      "inverse_l1": {
+        "numerator": 164137,
+        "denominator": 33409
+      },
+      "inverse_l2_squared": {
+        "numerator": 38873,
+        "denominator": 33409
+      }
+    },
+    {
+      "n": 64,
+      "b": 30,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 35385,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 10243,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 31,
+      "norm": 4870849,
+      "inverse_l1": {
+        "numerator": 4179,
+        "denominator": 2207
+      },
+      "inverse_l2_squared": {
+        "numerator": 987,
+        "denominator": 2207
+      }
+    },
+    {
+      "n": 64,
+      "b": 32,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 64,
+      "b": 33,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 64,
+      "b": 34,
+      "norm": 4870849,
+      "inverse_l1": {
+        "numerator": 4179,
+        "denominator": 2207
+      },
+      "inverse_l2_squared": {
+        "numerator": 987,
+        "denominator": 2207
+      }
+    },
+    {
+      "n": 64,
+      "b": 35,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 35385,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 10243,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 36,
+      "norm": 33409,
+      "inverse_l1": {
+        "numerator": 164137,
+        "denominator": 33409
+      },
+      "inverse_l2_squared": {
+        "numerator": 38873,
+        "denominator": 33409
+      }
+    },
+    {
+      "n": 64,
+      "b": 37,
+      "norm": 63361,
+      "inverse_l1": {
+        "numerator": 243191,
+        "denominator": 63361
+      },
+      "inverse_l2_squared": {
+        "numerator": 50169,
+        "denominator": 63361
+      }
+    },
+    {
+      "n": 64,
+      "b": 38,
+      "norm": 14657,
+      "inverse_l1": {
+        "numerator": 102039,
+        "denominator": 14657
+      },
+      "inverse_l2_squared": {
+        "numerator": 31117,
+        "denominator": 14657
+      }
+    },
+    {
+      "n": 64,
+      "b": 39,
+      "norm": 65921,
+      "inverse_l1": {
+        "numerator": 265787,
+        "denominator": 65921
+      },
+      "inverse_l2_squared": {
+        "numerator": 53701,
+        "denominator": 65921
+      }
+    },
+    {
+      "n": 64,
+      "b": 40,
+      "norm": 21569,
+      "inverse_l1": {
+        "numerator": 108141,
+        "denominator": 21569
+      },
+      "inverse_l2_squared": {
+        "numerator": 26265,
+        "denominator": 21569
+      }
+    },
+    {
+      "n": 64,
+      "b": 41,
+      "norm": 21569,
+      "inverse_l1": {
+        "numerator": 108141,
+        "denominator": 21569
+      },
+      "inverse_l2_squared": {
+        "numerator": 26265,
+        "denominator": 21569
+      }
+    },
+    {
+      "n": 64,
+      "b": 42,
+      "norm": 65921,
+      "inverse_l1": {
+        "numerator": 265787,
+        "denominator": 65921
+      },
+      "inverse_l2_squared": {
+        "numerator": 53701,
+        "denominator": 65921
+      }
+    },
+    {
+      "n": 64,
+      "b": 43,
+      "norm": 204353,
+      "inverse_l1": {
+        "numerator": 609115,
+        "denominator": 204353
+      },
+      "inverse_l2_squared": {
+        "numerator": 137707,
+        "denominator": 204353
+      }
+    },
+    {
+      "n": 64,
+      "b": 44,
+      "norm": 48449,
+      "inverse_l1": {
+        "numerator": 184373,
+        "denominator": 48449
+      },
+      "inverse_l2_squared": {
+        "numerator": 41069,
+        "denominator": 48449
+      }
+    },
+    {
+      "n": 64,
+      "b": 45,
+      "norm": 63361,
+      "inverse_l1": {
+        "numerator": 243191,
+        "denominator": 63361
+      },
+      "inverse_l2_squared": {
+        "numerator": 50169,
+        "denominator": 63361
+      }
+    },
+    {
+      "n": 64,
+      "b": 46,
+      "norm": 14657,
+      "inverse_l1": {
+        "numerator": 102039,
+        "denominator": 14657
+      },
+      "inverse_l2_squared": {
+        "numerator": 31117,
+        "denominator": 14657
+      }
+    },
+    {
+      "n": 64,
+      "b": 47,
+      "norm": 123713,
+      "inverse_l1": {
+        "numerator": 410037,
+        "denominator": 123713
+      },
+      "inverse_l2_squared": {
+        "numerator": 85517,
+        "denominator": 123713
+      }
+    },
+    {
+      "n": 64,
+      "b": 48,
+      "norm": 65537,
+      "inverse_l1": {
+        "numerator": 196095,
+        "denominator": 65537
+      },
+      "inverse_l2_squared": {
+        "numerator": 65535,
+        "denominator": 65537
+      }
+    },
+    {
+      "n": 64,
+      "b": 49,
+      "norm": 65537,
+      "inverse_l1": {
+        "numerator": 196095,
+        "denominator": 65537
+      },
+      "inverse_l2_squared": {
+        "numerator": 65535,
+        "denominator": 65537
+      }
+    },
+    {
+      "n": 64,
+      "b": 50,
+      "norm": 123713,
+      "inverse_l1": {
+        "numerator": 410037,
+        "denominator": 123713
+      },
+      "inverse_l2_squared": {
+        "numerator": 85517,
+        "denominator": 123713
+      }
+    },
+    {
+      "n": 64,
+      "b": 51,
+      "norm": 49601,
+      "inverse_l1": {
+        "numerator": 219607,
+        "denominator": 49601
+      },
+      "inverse_l2_squared": {
+        "numerator": 44601,
+        "denominator": 49601
+      }
+    },
+    {
+      "n": 64,
+      "b": 52,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 72557,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 25981,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 53,
+      "norm": 33409,
+      "inverse_l1": {
+        "numerator": 164137,
+        "denominator": 33409
+      },
+      "inverse_l2_squared": {
+        "numerator": 38873,
+        "denominator": 33409
+      }
+    },
+    {
+      "n": 64,
+      "b": 54,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 35385,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 10243,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 55,
+      "norm": 27457,
+      "inverse_l1": {
+        "numerator": 132543,
+        "denominator": 27457
+      },
+      "inverse_l2_squared": {
+        "numerator": 30165,
+        "denominator": 27457
+      }
+    },
+    {
+      "n": 64,
+      "b": 56,
+      "norm": 15809,
+      "inverse_l1": {
+        "numerator": 94493,
+        "denominator": 15809
+      },
+      "inverse_l2_squared": {
+        "numerator": 25449,
+        "denominator": 15809
+      }
+    },
+    {
+      "n": 64,
+      "b": 57,
+      "norm": 15809,
+      "inverse_l1": {
+        "numerator": 94493,
+        "denominator": 15809
+      },
+      "inverse_l2_squared": {
+        "numerator": 25449,
+        "denominator": 15809
+      }
+    },
+    {
+      "n": 64,
+      "b": 58,
+      "norm": 27457,
+      "inverse_l1": {
+        "numerator": 132543,
+        "denominator": 27457
+      },
+      "inverse_l2_squared": {
+        "numerator": 30165,
+        "denominator": 27457
+      }
+    },
+    {
+      "n": 64,
+      "b": 59,
+      "norm": 49601,
+      "inverse_l1": {
+        "numerator": 219607,
+        "denominator": 49601
+      },
+      "inverse_l2_squared": {
+        "numerator": 44601,
+        "denominator": 49601
+      }
+    },
+    {
+      "n": 64,
+      "b": 60,
+      "norm": 7937,
+      "inverse_l1": {
+        "numerator": 72557,
+        "denominator": 7937
+      },
+      "inverse_l2_squared": {
+        "numerator": 25981,
+        "denominator": 7937
+      }
+    },
+    {
+      "n": 64,
+      "b": 61,
+      "norm": 48449,
+      "inverse_l1": {
+        "numerator": 184373,
+        "denominator": 48449
+      },
+      "inverse_l2_squared": {
+        "numerator": 41069,
+        "denominator": 48449
+      }
+    },
+    {
+      "n": 64,
+      "b": 62,
+      "norm": 204353,
+      "inverse_l1": {
+        "numerator": 609115,
+        "denominator": 204353
+      },
+      "inverse_l2_squared": {
+        "numerator": 137707,
+        "denominator": 204353
+      }
+    },
+    {
+      "n": 64,
+      "b": 63,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 21,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 21,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 128,
+      "b": 0,
+      "norm": 18446744073709551617,
+      "inverse_l1": {
+        "numerator": 18446744073709551615,
+        "denominator": 18446744073709551617
+      },
+      "inverse_l2_squared": {
+        "numerator": 6148914691236517205,
+        "denominator": 18446744073709551617
+      }
+    },
+    {
+      "n": 128,
+      "b": 1,
+      "norm": 18446744073709551617,
+      "inverse_l1": {
+        "numerator": 18446744073709551615,
+        "denominator": 18446744073709551617
+      },
+      "inverse_l2_squared": {
+        "numerator": 6148914691236517205,
+        "denominator": 18446744073709551617
+      }
+    },
+    {
+      "n": 128,
+      "b": 2,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 43,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 43,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 128,
+      "b": 3,
+      "norm": 42116007041,
+      "inverse_l1": {
+        "numerator": 127187543763,
+        "denominator": 42116007041
+      },
+      "inverse_l2_squared": {
+        "numerator": 28292724221,
+        "denominator": 42116007041
+      }
+    },
+    {
+      "n": 128,
+      "b": 4,
+      "norm": 2384220673,
+      "inverse_l1": {
+        "numerator": 9524161463,
+        "denominator": 2384220673
+      },
+      "inverse_l2_squared": {
+        "numerator": 2013189505,
+        "denominator": 2384220673
+      }
+    },
+    {
+      "n": 128,
+      "b": 5,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 1196224267,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 422438763,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 6,
+      "norm": 1850818561,
+      "inverse_l1": {
+        "numerator": 10688123115,
+        "denominator": 1850818561
+      },
+      "inverse_l2_squared": {
+        "numerator": 1863452461,
+        "denominator": 1850818561
+      }
+    },
+    {
+      "n": 128,
+      "b": 7,
+      "norm": 1259259137,
+      "inverse_l1": {
+        "numerator": 8106978315,
+        "denominator": 1259259137
+      },
+      "inverse_l2_squared": {
+        "numerator": 1382785661,
+        "denominator": 1259259137
+      }
+    },
+    {
+      "n": 128,
+      "b": 8,
+      "norm": 355914497,
+      "inverse_l1": {
+        "numerator": 4121396339,
+        "denominator": 355914497
+      },
+      "inverse_l2_squared": {
+        "numerator": 977378419,
+        "denominator": 355914497
+      }
+    },
+    {
+      "n": 128,
+      "b": 9,
+      "norm": 1707203969,
+      "inverse_l1": {
+        "numerator": 10255641779,
+        "denominator": 1707203969
+      },
+      "inverse_l2_squared": {
+        "numerator": 1650858811,
+        "denominator": 1707203969
+      }
+    },
+    {
+      "n": 128,
+      "b": 10,
+      "norm": 836388097,
+      "inverse_l1": {
+        "numerator": 6653168811,
+        "denominator": 836388097
+      },
+      "inverse_l2_squared": {
+        "numerator": 1221143113,
+        "denominator": 836388097
+      }
+    },
+    {
+      "n": 128,
+      "b": 11,
+      "norm": 604202113,
+      "inverse_l1": {
+        "numerator": 5175303125,
+        "denominator": 604202113
+      },
+      "inverse_l2_squared": {
+        "numerator": 1065373341,
+        "denominator": 604202113
+      }
+    },
+    {
+      "n": 128,
+      "b": 12,
+      "norm": 473133569,
+      "inverse_l1": {
+        "numerator": 4479206061,
+        "denominator": 473133569
+      },
+      "inverse_l2_squared": {
+        "numerator": 953149479,
+        "denominator": 473133569
+      }
+    },
+    {
+      "n": 128,
+      "b": 13,
+      "norm": 3521397377,
+      "inverse_l1": {
+        "numerator": 15615210239,
+        "denominator": 3521397377
+      },
+      "inverse_l2_squared": {
+        "numerator": 2861176283,
+        "denominator": 3521397377
+      }
+    },
+    {
+      "n": 128,
+      "b": 14,
+      "norm": 635773057,
+      "inverse_l1": {
+        "numerator": 4838105167,
+        "denominator": 635773057
+      },
+      "inverse_l2_squared": {
+        "numerator": 904440833,
+        "denominator": 635773057
+      }
+    },
+    {
+      "n": 128,
+      "b": 15,
+      "norm": 1751349889,
+      "inverse_l1": {
+        "numerator": 10307325349,
+        "denominator": 1751349889
+      },
+      "inverse_l2_squared": {
+        "numerator": 1688080259,
+        "denominator": 1751349889
+      }
+    },
+    {
+      "n": 128,
+      "b": 16,
+      "norm": 347642369,
+      "inverse_l1": {
+        "numerator": 2242867757,
+        "denominator": 347642369
+      },
+      "inverse_l2_squared": {
+        "numerator": 483419361,
+        "denominator": 347642369
+      }
+    },
+    {
+      "n": 128,
+      "b": 17,
+      "norm": 347642369,
+      "inverse_l1": {
+        "numerator": 2242867757,
+        "denominator": 347642369
+      },
+      "inverse_l2_squared": {
+        "numerator": 483419361,
+        "denominator": 347642369
+      }
+    },
+    {
+      "n": 128,
+      "b": 18,
+      "norm": 1751349889,
+      "inverse_l1": {
+        "numerator": 10307325349,
+        "denominator": 1751349889
+      },
+      "inverse_l2_squared": {
+        "numerator": 1688080259,
+        "denominator": 1751349889
+      }
+    },
+    {
+      "n": 128,
+      "b": 19,
+      "norm": 215535361,
+      "inverse_l1": {
+        "numerator": 2878824541,
+        "denominator": 215535361
+      },
+      "inverse_l2_squared": {
+        "numerator": 781474603,
+        "denominator": 215535361
+      }
+    },
+    {
+      "n": 128,
+      "b": 20,
+      "norm": 962076673,
+      "inverse_l1": {
+        "numerator": 6484257773,
+        "denominator": 962076673
+      },
+      "inverse_l2_squared": {
+        "numerator": 1117027977,
+        "denominator": 962076673
+      }
+    },
+    {
+      "n": 128,
+      "b": 21,
+      "norm": 879165697,
+      "inverse_l1": {
+        "numerator": 5334302529,
+        "denominator": 879165697
+      },
+      "inverse_l2_squared": {
+        "numerator": 1149265541,
+        "denominator": 879165697
+      }
+    },
+    {
+      "n": 128,
+      "b": 22,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 302973695,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 82938077,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 23,
+      "norm": 422899073,
+      "inverse_l1": {
+        "numerator": 2959694969,
+        "denominator": 422899073
+      },
+      "inverse_l2_squared": {
+        "numerator": 603073053,
+        "denominator": 422899073
+      }
+    },
+    {
+      "n": 128,
+      "b": 24,
+      "norm": 775123073,
+      "inverse_l1": {
+        "numerator": 6526633523,
+        "denominator": 775123073
+      },
+      "inverse_l2_squared": {
+        "numerator": 1190841887,
+        "denominator": 775123073
+      }
+    },
+    {
+      "n": 128,
+      "b": 25,
+      "norm": 1316627201,
+      "inverse_l1": {
+        "numerator": 8695829135,
+        "denominator": 1316627201
+      },
+      "inverse_l2_squared": {
+        "numerator": 1447912495,
+        "denominator": 1316627201
+      }
+    },
+    {
+      "n": 128,
+      "b": 26,
+      "norm": 3433927169,
+      "inverse_l1": {
+        "numerator": 16376686245,
+        "denominator": 3433927169
+      },
+      "inverse_l2_squared": {
+        "numerator": 2980644073,
+        "denominator": 3433927169
+      }
+    },
+    {
+      "n": 128,
+      "b": 27,
+      "norm": 215535361,
+      "inverse_l1": {
+        "numerator": 2878824541,
+        "denominator": 215535361
+      },
+      "inverse_l2_squared": {
+        "numerator": 781474603,
+        "denominator": 215535361
+      }
+    },
+    {
+      "n": 128,
+      "b": 28,
+      "norm": 962076673,
+      "inverse_l1": {
+        "numerator": 6484257773,
+        "denominator": 962076673
+      },
+      "inverse_l2_squared": {
+        "numerator": 1117027977,
+        "denominator": 962076673
+      }
+    },
+    {
+      "n": 128,
+      "b": 29,
+      "norm": 1142774401,
+      "inverse_l1": {
+        "numerator": 7749323765,
+        "denominator": 1142774401
+      },
+      "inverse_l2_squared": {
+        "numerator": 1311717703,
+        "denominator": 1142774401
+      }
+    },
+    {
+      "n": 128,
+      "b": 30,
+      "norm": 1029980417,
+      "inverse_l1": {
+        "numerator": 6911662443,
+        "denominator": 1029980417
+      },
+      "inverse_l2_squared": {
+        "numerator": 1217607597,
+        "denominator": 1029980417
+      }
+    },
+    {
+      "n": 128,
+      "b": 31,
+      "norm": 15305003393,
+      "inverse_l1": {
+        "numerator": 53172513979,
+        "denominator": 15305003393
+      },
+      "inverse_l2_squared": {
+        "numerator": 10579618803,
+        "denominator": 15305003393
+      }
+    },
+    {
+      "n": 128,
+      "b": 32,
+      "norm": 4294967297,
+      "inverse_l1": {
+        "numerator": 12884770815,
+        "denominator": 4294967297
+      },
+      "inverse_l2_squared": {
+        "numerator": 4294967295,
+        "denominator": 4294967297
+      }
+    },
+    {
+      "n": 128,
+      "b": 33,
+      "norm": 4294967297,
+      "inverse_l1": {
+        "numerator": 12884770815,
+        "denominator": 4294967297
+      },
+      "inverse_l2_squared": {
+        "numerator": 4294967295,
+        "denominator": 4294967297
+      }
+    },
+    {
+      "n": 128,
+      "b": 34,
+      "norm": 15305003393,
+      "inverse_l1": {
+        "numerator": 53172513979,
+        "denominator": 15305003393
+      },
+      "inverse_l2_squared": {
+        "numerator": 10579618803,
+        "denominator": 15305003393
+      }
+    },
+    {
+      "n": 128,
+      "b": 35,
+      "norm": 604202113,
+      "inverse_l1": {
+        "numerator": 5175303125,
+        "denominator": 604202113
+      },
+      "inverse_l2_squared": {
+        "numerator": 1065373341,
+        "denominator": 604202113
+      }
+    },
+    {
+      "n": 128,
+      "b": 36,
+      "norm": 473133569,
+      "inverse_l1": {
+        "numerator": 4479206061,
+        "denominator": 473133569
+      },
+      "inverse_l2_squared": {
+        "numerator": 953149479,
+        "denominator": 473133569
+      }
+    },
+    {
+      "n": 128,
+      "b": 37,
+      "norm": 1923297793,
+      "inverse_l1": {
+        "numerator": 11043417707,
+        "denominator": 1923297793
+      },
+      "inverse_l2_squared": {
+        "numerator": 1818083141,
+        "denominator": 1923297793
+      }
+    },
+    {
+      "n": 128,
+      "b": 38,
+      "norm": 2105179777,
+      "inverse_l1": {
+        "numerator": 45067123,
+        "denominator": 8191361
+      },
+      "inverse_l2_squared": {
+        "numerator": 7401243,
+        "denominator": 8191361
+      }
+    },
+    {
+      "n": 128,
+      "b": 39,
+      "norm": 422899073,
+      "inverse_l1": {
+        "numerator": 2959694969,
+        "denominator": 422899073
+      },
+      "inverse_l2_squared": {
+        "numerator": 603073053,
+        "denominator": 422899073
+      }
+    },
+    {
+      "n": 128,
+      "b": 40,
+      "norm": 775123073,
+      "inverse_l1": {
+        "numerator": 6526633523,
+        "denominator": 775123073
+      },
+      "inverse_l2_squared": {
+        "numerator": 1190841887,
+        "denominator": 775123073
+      }
+    },
+    {
+      "n": 128,
+      "b": 41,
+      "norm": 1316627201,
+      "inverse_l1": {
+        "numerator": 8695829135,
+        "denominator": 1316627201
+      },
+      "inverse_l2_squared": {
+        "numerator": 1447912495,
+        "denominator": 1316627201
+      }
+    },
+    {
+      "n": 128,
+      "b": 42,
+      "norm": 3433927169,
+      "inverse_l1": {
+        "numerator": 16376686245,
+        "denominator": 3433927169
+      },
+      "inverse_l2_squared": {
+        "numerator": 2980644073,
+        "denominator": 3433927169
+      }
+    },
+    {
+      "n": 128,
+      "b": 43,
+      "norm": 42116007041,
+      "inverse_l1": {
+        "numerator": 127187543763,
+        "denominator": 42116007041
+      },
+      "inverse_l2_squared": {
+        "numerator": 28292724221,
+        "denominator": 42116007041
+      }
+    },
+    {
+      "n": 128,
+      "b": 44,
+      "norm": 2384220673,
+      "inverse_l1": {
+        "numerator": 9524161463,
+        "denominator": 2384220673
+      },
+      "inverse_l2_squared": {
+        "numerator": 2013189505,
+        "denominator": 2384220673
+      }
+    },
+    {
+      "n": 128,
+      "b": 45,
+      "norm": 1923297793,
+      "inverse_l1": {
+        "numerator": 11043417707,
+        "denominator": 1923297793
+      },
+      "inverse_l2_squared": {
+        "numerator": 1818083141,
+        "denominator": 1923297793
+      }
+    },
+    {
+      "n": 128,
+      "b": 46,
+      "norm": 2105179777,
+      "inverse_l1": {
+        "numerator": 45067123,
+        "denominator": 8191361
+      },
+      "inverse_l2_squared": {
+        "numerator": 7401243,
+        "denominator": 8191361
+      }
+    },
+    {
+      "n": 128,
+      "b": 47,
+      "norm": 1876848641,
+      "inverse_l1": {
+        "numerator": 11170400571,
+        "denominator": 1876848641
+      },
+      "inverse_l2_squared": {
+        "numerator": 1777001187,
+        "denominator": 1876848641
+      }
+    },
+    {
+      "n": 128,
+      "b": 48,
+      "norm": 334325249,
+      "inverse_l1": {
+        "numerator": 2215171109,
+        "denominator": 334325249
+      },
+      "inverse_l2_squared": {
+        "numerator": 480713505,
+        "denominator": 334325249
+      }
+    },
+    {
+      "n": 128,
+      "b": 49,
+      "norm": 334325249,
+      "inverse_l1": {
+        "numerator": 2215171109,
+        "denominator": 334325249
+      },
+      "inverse_l2_squared": {
+        "numerator": 480713505,
+        "denominator": 334325249
+      }
+    },
+    {
+      "n": 128,
+      "b": 50,
+      "norm": 1876848641,
+      "inverse_l1": {
+        "numerator": 11170400571,
+        "denominator": 1876848641
+      },
+      "inverse_l2_squared": {
+        "numerator": 1777001187,
+        "denominator": 1876848641
+      }
+    },
+    {
+      "n": 128,
+      "b": 51,
+      "norm": 1850818561,
+      "inverse_l1": {
+        "numerator": 10688123115,
+        "denominator": 1850818561
+      },
+      "inverse_l2_squared": {
+        "numerator": 1863452461,
+        "denominator": 1850818561
+      }
+    },
+    {
+      "n": 128,
+      "b": 52,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 1196224267,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 422438763,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 53,
+      "norm": 1142774401,
+      "inverse_l1": {
+        "numerator": 7749323765,
+        "denominator": 1142774401
+      },
+      "inverse_l2_squared": {
+        "numerator": 1311717703,
+        "denominator": 1142774401
+      }
+    },
+    {
+      "n": 128,
+      "b": 54,
+      "norm": 1029980417,
+      "inverse_l1": {
+        "numerator": 6911662443,
+        "denominator": 1029980417
+      },
+      "inverse_l2_squared": {
+        "numerator": 1217607597,
+        "denominator": 1029980417
+      }
+    },
+    {
+      "n": 128,
+      "b": 55,
+      "norm": 1259259137,
+      "inverse_l1": {
+        "numerator": 8106978315,
+        "denominator": 1259259137
+      },
+      "inverse_l2_squared": {
+        "numerator": 1382785661,
+        "denominator": 1259259137
+      }
+    },
+    {
+      "n": 128,
+      "b": 56,
+      "norm": 355914497,
+      "inverse_l1": {
+        "numerator": 4121396339,
+        "denominator": 355914497
+      },
+      "inverse_l2_squared": {
+        "numerator": 977378419,
+        "denominator": 355914497
+      }
+    },
+    {
+      "n": 128,
+      "b": 57,
+      "norm": 1707203969,
+      "inverse_l1": {
+        "numerator": 10255641779,
+        "denominator": 1707203969
+      },
+      "inverse_l2_squared": {
+        "numerator": 1650858811,
+        "denominator": 1707203969
+      }
+    },
+    {
+      "n": 128,
+      "b": 58,
+      "norm": 836388097,
+      "inverse_l1": {
+        "numerator": 6653168811,
+        "denominator": 836388097
+      },
+      "inverse_l2_squared": {
+        "numerator": 1221143113,
+        "denominator": 836388097
+      }
+    },
+    {
+      "n": 128,
+      "b": 59,
+      "norm": 635773057,
+      "inverse_l1": {
+        "numerator": 4838105167,
+        "denominator": 635773057
+      },
+      "inverse_l2_squared": {
+        "numerator": 904440833,
+        "denominator": 635773057
+      }
+    },
+    {
+      "n": 128,
+      "b": 60,
+      "norm": 3521397377,
+      "inverse_l1": {
+        "numerator": 15615210239,
+        "denominator": 3521397377
+      },
+      "inverse_l2_squared": {
+        "numerator": 2861176283,
+        "denominator": 3521397377
+      }
+    },
+    {
+      "n": 128,
+      "b": 61,
+      "norm": 879165697,
+      "inverse_l1": {
+        "numerator": 5334302529,
+        "denominator": 879165697
+      },
+      "inverse_l2_squared": {
+        "numerator": 1149265541,
+        "denominator": 879165697
+      }
+    },
+    {
+      "n": 128,
+      "b": 62,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 302973695,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 82938077,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 63,
+      "norm": 23725150497409,
+      "inverse_l1": {
+        "numerator": 9227463,
+        "denominator": 4870847
+      },
+      "inverse_l2_squared": {
+        "numerator": 2178309,
+        "denominator": 4870847
+      }
+    },
+    {
+      "n": 128,
+      "b": 64,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 128,
+      "b": 65,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    {
+      "n": 128,
+      "b": 66,
+      "norm": 23725150497409,
+      "inverse_l1": {
+        "numerator": 9227463,
+        "denominator": 4870847
+      },
+      "inverse_l2_squared": {
+        "numerator": 2178309,
+        "denominator": 4870847
+      }
+    },
+    {
+      "n": 128,
+      "b": 67,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 302973695,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 82938077,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 68,
+      "norm": 879165697,
+      "inverse_l1": {
+        "numerator": 5334302529,
+        "denominator": 879165697
+      },
+      "inverse_l2_squared": {
+        "numerator": 1149265541,
+        "denominator": 879165697
+      }
+    },
+    {
+      "n": 128,
+      "b": 69,
+      "norm": 3521397377,
+      "inverse_l1": {
+        "numerator": 15615210239,
+        "denominator": 3521397377
+      },
+      "inverse_l2_squared": {
+        "numerator": 2861176283,
+        "denominator": 3521397377
+      }
+    },
+    {
+      "n": 128,
+      "b": 70,
+      "norm": 635773057,
+      "inverse_l1": {
+        "numerator": 4838105167,
+        "denominator": 635773057
+      },
+      "inverse_l2_squared": {
+        "numerator": 904440833,
+        "denominator": 635773057
+      }
+    },
+    {
+      "n": 128,
+      "b": 71,
+      "norm": 836388097,
+      "inverse_l1": {
+        "numerator": 6653168811,
+        "denominator": 836388097
+      },
+      "inverse_l2_squared": {
+        "numerator": 1221143113,
+        "denominator": 836388097
+      }
+    },
+    {
+      "n": 128,
+      "b": 72,
+      "norm": 1707203969,
+      "inverse_l1": {
+        "numerator": 10255641779,
+        "denominator": 1707203969
+      },
+      "inverse_l2_squared": {
+        "numerator": 1650858811,
+        "denominator": 1707203969
+      }
+    },
+    {
+      "n": 128,
+      "b": 73,
+      "norm": 355914497,
+      "inverse_l1": {
+        "numerator": 4121396339,
+        "denominator": 355914497
+      },
+      "inverse_l2_squared": {
+        "numerator": 977378419,
+        "denominator": 355914497
+      }
+    },
+    {
+      "n": 128,
+      "b": 74,
+      "norm": 1259259137,
+      "inverse_l1": {
+        "numerator": 8106978315,
+        "denominator": 1259259137
+      },
+      "inverse_l2_squared": {
+        "numerator": 1382785661,
+        "denominator": 1259259137
+      }
+    },
+    {
+      "n": 128,
+      "b": 75,
+      "norm": 1029980417,
+      "inverse_l1": {
+        "numerator": 6911662443,
+        "denominator": 1029980417
+      },
+      "inverse_l2_squared": {
+        "numerator": 1217607597,
+        "denominator": 1029980417
+      }
+    },
+    {
+      "n": 128,
+      "b": 76,
+      "norm": 1142774401,
+      "inverse_l1": {
+        "numerator": 7749323765,
+        "denominator": 1142774401
+      },
+      "inverse_l2_squared": {
+        "numerator": 1311717703,
+        "denominator": 1142774401
+      }
+    },
+    {
+      "n": 128,
+      "b": 77,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 1196224267,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 422438763,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 78,
+      "norm": 1850818561,
+      "inverse_l1": {
+        "numerator": 10688123115,
+        "denominator": 1850818561
+      },
+      "inverse_l2_squared": {
+        "numerator": 1863452461,
+        "denominator": 1850818561
+      }
+    },
+    {
+      "n": 128,
+      "b": 79,
+      "norm": 1876848641,
+      "inverse_l1": {
+        "numerator": 11170400571,
+        "denominator": 1876848641
+      },
+      "inverse_l2_squared": {
+        "numerator": 1777001187,
+        "denominator": 1876848641
+      }
+    },
+    {
+      "n": 128,
+      "b": 80,
+      "norm": 334325249,
+      "inverse_l1": {
+        "numerator": 2215171109,
+        "denominator": 334325249
+      },
+      "inverse_l2_squared": {
+        "numerator": 480713505,
+        "denominator": 334325249
+      }
+    },
+    {
+      "n": 128,
+      "b": 81,
+      "norm": 334325249,
+      "inverse_l1": {
+        "numerator": 2215171109,
+        "denominator": 334325249
+      },
+      "inverse_l2_squared": {
+        "numerator": 480713505,
+        "denominator": 334325249
+      }
+    },
+    {
+      "n": 128,
+      "b": 82,
+      "norm": 1876848641,
+      "inverse_l1": {
+        "numerator": 11170400571,
+        "denominator": 1876848641
+      },
+      "inverse_l2_squared": {
+        "numerator": 1777001187,
+        "denominator": 1876848641
+      }
+    },
+    {
+      "n": 128,
+      "b": 83,
+      "norm": 2105179777,
+      "inverse_l1": {
+        "numerator": 45067123,
+        "denominator": 8191361
+      },
+      "inverse_l2_squared": {
+        "numerator": 7401243,
+        "denominator": 8191361
+      }
+    },
+    {
+      "n": 128,
+      "b": 84,
+      "norm": 1923297793,
+      "inverse_l1": {
+        "numerator": 11043417707,
+        "denominator": 1923297793
+      },
+      "inverse_l2_squared": {
+        "numerator": 1818083141,
+        "denominator": 1923297793
+      }
+    },
+    {
+      "n": 128,
+      "b": 85,
+      "norm": 2384220673,
+      "inverse_l1": {
+        "numerator": 9524161463,
+        "denominator": 2384220673
+      },
+      "inverse_l2_squared": {
+        "numerator": 2013189505,
+        "denominator": 2384220673
+      }
+    },
+    {
+      "n": 128,
+      "b": 86,
+      "norm": 42116007041,
+      "inverse_l1": {
+        "numerator": 127187543763,
+        "denominator": 42116007041
+      },
+      "inverse_l2_squared": {
+        "numerator": 28292724221,
+        "denominator": 42116007041
+      }
+    },
+    {
+      "n": 128,
+      "b": 87,
+      "norm": 3433927169,
+      "inverse_l1": {
+        "numerator": 16376686245,
+        "denominator": 3433927169
+      },
+      "inverse_l2_squared": {
+        "numerator": 2980644073,
+        "denominator": 3433927169
+      }
+    },
+    {
+      "n": 128,
+      "b": 88,
+      "norm": 1316627201,
+      "inverse_l1": {
+        "numerator": 8695829135,
+        "denominator": 1316627201
+      },
+      "inverse_l2_squared": {
+        "numerator": 1447912495,
+        "denominator": 1316627201
+      }
+    },
+    {
+      "n": 128,
+      "b": 89,
+      "norm": 775123073,
+      "inverse_l1": {
+        "numerator": 6526633523,
+        "denominator": 775123073
+      },
+      "inverse_l2_squared": {
+        "numerator": 1190841887,
+        "denominator": 775123073
+      }
+    },
+    {
+      "n": 128,
+      "b": 90,
+      "norm": 422899073,
+      "inverse_l1": {
+        "numerator": 2959694969,
+        "denominator": 422899073
+      },
+      "inverse_l2_squared": {
+        "numerator": 603073053,
+        "denominator": 422899073
+      }
+    },
+    {
+      "n": 128,
+      "b": 91,
+      "norm": 2105179777,
+      "inverse_l1": {
+        "numerator": 45067123,
+        "denominator": 8191361
+      },
+      "inverse_l2_squared": {
+        "numerator": 7401243,
+        "denominator": 8191361
+      }
+    },
+    {
+      "n": 128,
+      "b": 92,
+      "norm": 1923297793,
+      "inverse_l1": {
+        "numerator": 11043417707,
+        "denominator": 1923297793
+      },
+      "inverse_l2_squared": {
+        "numerator": 1818083141,
+        "denominator": 1923297793
+      }
+    },
+    {
+      "n": 128,
+      "b": 93,
+      "norm": 473133569,
+      "inverse_l1": {
+        "numerator": 4479206061,
+        "denominator": 473133569
+      },
+      "inverse_l2_squared": {
+        "numerator": 953149479,
+        "denominator": 473133569
+      }
+    },
+    {
+      "n": 128,
+      "b": 94,
+      "norm": 604202113,
+      "inverse_l1": {
+        "numerator": 5175303125,
+        "denominator": 604202113
+      },
+      "inverse_l2_squared": {
+        "numerator": 1065373341,
+        "denominator": 604202113
+      }
+    },
+    {
+      "n": 128,
+      "b": 95,
+      "norm": 15305003393,
+      "inverse_l1": {
+        "numerator": 53172513979,
+        "denominator": 15305003393
+      },
+      "inverse_l2_squared": {
+        "numerator": 10579618803,
+        "denominator": 15305003393
+      }
+    },
+    {
+      "n": 128,
+      "b": 96,
+      "norm": 4294967297,
+      "inverse_l1": {
+        "numerator": 12884770815,
+        "denominator": 4294967297
+      },
+      "inverse_l2_squared": {
+        "numerator": 4294967295,
+        "denominator": 4294967297
+      }
+    },
+    {
+      "n": 128,
+      "b": 97,
+      "norm": 4294967297,
+      "inverse_l1": {
+        "numerator": 12884770815,
+        "denominator": 4294967297
+      },
+      "inverse_l2_squared": {
+        "numerator": 4294967295,
+        "denominator": 4294967297
+      }
+    },
+    {
+      "n": 128,
+      "b": 98,
+      "norm": 15305003393,
+      "inverse_l1": {
+        "numerator": 53172513979,
+        "denominator": 15305003393
+      },
+      "inverse_l2_squared": {
+        "numerator": 10579618803,
+        "denominator": 15305003393
+      }
+    },
+    {
+      "n": 128,
+      "b": 99,
+      "norm": 1029980417,
+      "inverse_l1": {
+        "numerator": 6911662443,
+        "denominator": 1029980417
+      },
+      "inverse_l2_squared": {
+        "numerator": 1217607597,
+        "denominator": 1029980417
+      }
+    },
+    {
+      "n": 128,
+      "b": 100,
+      "norm": 1142774401,
+      "inverse_l1": {
+        "numerator": 7749323765,
+        "denominator": 1142774401
+      },
+      "inverse_l2_squared": {
+        "numerator": 1311717703,
+        "denominator": 1142774401
+      }
+    },
+    {
+      "n": 128,
+      "b": 101,
+      "norm": 962076673,
+      "inverse_l1": {
+        "numerator": 6484257773,
+        "denominator": 962076673
+      },
+      "inverse_l2_squared": {
+        "numerator": 1117027977,
+        "denominator": 962076673
+      }
+    },
+    {
+      "n": 128,
+      "b": 102,
+      "norm": 215535361,
+      "inverse_l1": {
+        "numerator": 2878824541,
+        "denominator": 215535361
+      },
+      "inverse_l2_squared": {
+        "numerator": 781474603,
+        "denominator": 215535361
+      }
+    },
+    {
+      "n": 128,
+      "b": 103,
+      "norm": 3433927169,
+      "inverse_l1": {
+        "numerator": 16376686245,
+        "denominator": 3433927169
+      },
+      "inverse_l2_squared": {
+        "numerator": 2980644073,
+        "denominator": 3433927169
+      }
+    },
+    {
+      "n": 128,
+      "b": 104,
+      "norm": 1316627201,
+      "inverse_l1": {
+        "numerator": 8695829135,
+        "denominator": 1316627201
+      },
+      "inverse_l2_squared": {
+        "numerator": 1447912495,
+        "denominator": 1316627201
+      }
+    },
+    {
+      "n": 128,
+      "b": 105,
+      "norm": 775123073,
+      "inverse_l1": {
+        "numerator": 6526633523,
+        "denominator": 775123073
+      },
+      "inverse_l2_squared": {
+        "numerator": 1190841887,
+        "denominator": 775123073
+      }
+    },
+    {
+      "n": 128,
+      "b": 106,
+      "norm": 422899073,
+      "inverse_l1": {
+        "numerator": 2959694969,
+        "denominator": 422899073
+      },
+      "inverse_l2_squared": {
+        "numerator": 603073053,
+        "denominator": 422899073
+      }
+    },
+    {
+      "n": 128,
+      "b": 107,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 302973695,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 82938077,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 108,
+      "norm": 879165697,
+      "inverse_l1": {
+        "numerator": 5334302529,
+        "denominator": 879165697
+      },
+      "inverse_l2_squared": {
+        "numerator": 1149265541,
+        "denominator": 879165697
+      }
+    },
+    {
+      "n": 128,
+      "b": 109,
+      "norm": 962076673,
+      "inverse_l1": {
+        "numerator": 6484257773,
+        "denominator": 962076673
+      },
+      "inverse_l2_squared": {
+        "numerator": 1117027977,
+        "denominator": 962076673
+      }
+    },
+    {
+      "n": 128,
+      "b": 110,
+      "norm": 215535361,
+      "inverse_l1": {
+        "numerator": 2878824541,
+        "denominator": 215535361
+      },
+      "inverse_l2_squared": {
+        "numerator": 781474603,
+        "denominator": 215535361
+      }
+    },
+    {
+      "n": 128,
+      "b": 111,
+      "norm": 1751349889,
+      "inverse_l1": {
+        "numerator": 10307325349,
+        "denominator": 1751349889
+      },
+      "inverse_l2_squared": {
+        "numerator": 1688080259,
+        "denominator": 1751349889
+      }
+    },
+    {
+      "n": 128,
+      "b": 112,
+      "norm": 347642369,
+      "inverse_l1": {
+        "numerator": 2242867757,
+        "denominator": 347642369
+      },
+      "inverse_l2_squared": {
+        "numerator": 483419361,
+        "denominator": 347642369
+      }
+    },
+    {
+      "n": 128,
+      "b": 113,
+      "norm": 347642369,
+      "inverse_l1": {
+        "numerator": 2242867757,
+        "denominator": 347642369
+      },
+      "inverse_l2_squared": {
+        "numerator": 483419361,
+        "denominator": 347642369
+      }
+    },
+    {
+      "n": 128,
+      "b": 114,
+      "norm": 1751349889,
+      "inverse_l1": {
+        "numerator": 10307325349,
+        "denominator": 1751349889
+      },
+      "inverse_l2_squared": {
+        "numerator": 1688080259,
+        "denominator": 1751349889
+      }
+    },
+    {
+      "n": 128,
+      "b": 115,
+      "norm": 635773057,
+      "inverse_l1": {
+        "numerator": 4838105167,
+        "denominator": 635773057
+      },
+      "inverse_l2_squared": {
+        "numerator": 904440833,
+        "denominator": 635773057
+      }
+    },
+    {
+      "n": 128,
+      "b": 116,
+      "norm": 3521397377,
+      "inverse_l1": {
+        "numerator": 15615210239,
+        "denominator": 3521397377
+      },
+      "inverse_l2_squared": {
+        "numerator": 2861176283,
+        "denominator": 3521397377
+      }
+    },
+    {
+      "n": 128,
+      "b": 117,
+      "norm": 473133569,
+      "inverse_l1": {
+        "numerator": 4479206061,
+        "denominator": 473133569
+      },
+      "inverse_l2_squared": {
+        "numerator": 953149479,
+        "denominator": 473133569
+      }
+    },
+    {
+      "n": 128,
+      "b": 118,
+      "norm": 604202113,
+      "inverse_l1": {
+        "numerator": 5175303125,
+        "denominator": 604202113
+      },
+      "inverse_l2_squared": {
+        "numerator": 1065373341,
+        "denominator": 604202113
+      }
+    },
+    {
+      "n": 128,
+      "b": 119,
+      "norm": 836388097,
+      "inverse_l1": {
+        "numerator": 6653168811,
+        "denominator": 836388097
+      },
+      "inverse_l2_squared": {
+        "numerator": 1221143113,
+        "denominator": 836388097
+      }
+    },
+    {
+      "n": 128,
+      "b": 120,
+      "norm": 1707203969,
+      "inverse_l1": {
+        "numerator": 10255641779,
+        "denominator": 1707203969
+      },
+      "inverse_l2_squared": {
+        "numerator": 1650858811,
+        "denominator": 1707203969
+      }
+    },
+    {
+      "n": 128,
+      "b": 121,
+      "norm": 355914497,
+      "inverse_l1": {
+        "numerator": 4121396339,
+        "denominator": 355914497
+      },
+      "inverse_l2_squared": {
+        "numerator": 977378419,
+        "denominator": 355914497
+      }
+    },
+    {
+      "n": 128,
+      "b": 122,
+      "norm": 1259259137,
+      "inverse_l1": {
+        "numerator": 8106978315,
+        "denominator": 1259259137
+      },
+      "inverse_l2_squared": {
+        "numerator": 1382785661,
+        "denominator": 1259259137
+      }
+    },
+    {
+      "n": 128,
+      "b": 123,
+      "norm": 1850818561,
+      "inverse_l1": {
+        "numerator": 10688123115,
+        "denominator": 1850818561
+      },
+      "inverse_l2_squared": {
+        "numerator": 1863452461,
+        "denominator": 1850818561
+      }
+    },
+    {
+      "n": 128,
+      "b": 124,
+      "norm": 65456257,
+      "inverse_l1": {
+        "numerator": 1196224267,
+        "denominator": 65456257
+      },
+      "inverse_l2_squared": {
+        "numerator": 422438763,
+        "denominator": 65456257
+      }
+    },
+    {
+      "n": 128,
+      "b": 125,
+      "norm": 2384220673,
+      "inverse_l1": {
+        "numerator": 9524161463,
+        "denominator": 2384220673
+      },
+      "inverse_l2_squared": {
+        "numerator": 2013189505,
+        "denominator": 2384220673
+      }
+    },
+    {
+      "n": 128,
+      "b": 126,
+      "norm": 42116007041,
+      "inverse_l1": {
+        "numerator": 127187543763,
+        "denominator": 42116007041
+      },
+      "inverse_l2_squared": {
+        "numerator": 28292724221,
+        "denominator": 42116007041
+      }
+    },
+    {
+      "n": 128,
+      "b": 127,
+      "norm": 1,
+      "inverse_l1": {
+        "numerator": 43,
+        "denominator": 1
+      },
+      "inverse_l2_squared": {
+        "numerator": 43,
+        "denominator": 1
+      }
+    }
+  ],
+  "largest_inverse_l1_over_order": {
+    "4": {
+      "b": 2,
+      "inverse_l1_over_n": {
+        "numerator": 1,
+        "denominator": 4
+      }
+    },
+    "8": {
+      "b": 2,
+      "inverse_l1_over_n": {
+        "numerator": 3,
+        "denominator": 8
+      }
+    },
+    "16": {
+      "b": 2,
+      "inverse_l1_over_n": {
+        "numerator": 5,
+        "denominator": 16
+      }
+    },
+    "32": {
+      "b": 2,
+      "inverse_l1_over_n": {
+        "numerator": 11,
+        "denominator": 32
+      }
+    },
+    "64": {
+      "b": 2,
+      "inverse_l1_over_n": {
+        "numerator": 21,
+        "denominator": 64
+      }
+    },
+    "128": {
+      "b": 2,
+      "inverse_l1_over_n": {
+        "numerator": 43,
+        "denominator": 128
+      }
+    }
+  },
+  "conductor_lifts": [
+    {
+      "conductor": 4,
+      "ambient_order": 32,
+      "b": 2
+    },
+    {
+      "conductor": 8,
+      "ambient_order": 64,
+      "b": 3
+    },
+    {
+      "conductor": 16,
+      "ambient_order": 128,
+      "b": 5
+    },
+    {
+      "conductor": 32,
+      "ambient_order": 128,
+      "b": 7
+    },
+    {
+      "conductor": 64,
+      "ambient_order": 256,
+      "b": 19
+    }
+  ],
+  "fixed_field": {
+    "p": 215535361,
+    "n": 128,
+    "inverse_l1": {
+      "numerator": 2878824541,
+      "denominator": 215535361
+    },
+    "six_term_bound": {
+      "numerator": 17272947246,
+      "denominator": 215535361
+    },
+    "integer_six_term_bound": 80,
+    "uniform_six_term_bound": 1024
+  },
+  "elapsed_seconds": 1.5037727909948444,
+  "input_sha256": {
+    "experiments/parallel32_verify_2026_09_05.py": "cfd7944fff1d935c87e44902f8e4e9b253d0f6106ee7d654121990a3c0d256e5",
+    "experiments/parallel31_short_multiples_2026_09_05.py": "43d2e43fc094ae8e93b51d8b6b22fff72e0934ef7be0d13cb1c1af6fe5cdb0cb",
+    "results/parallel31_short_multiples_2026_09_05.json": "dbda8295da9bd2804abfe703091cd405915fa8599c4e41ab46e8e67864ca594f"
+  },
+  "scope": "No bound on the number of six-term outputs, no stronger Paley exponent, no Lean verification or separate-author review."
+}

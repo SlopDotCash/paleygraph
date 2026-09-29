@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "proof_method": "independent literal-column expansion plus exact finite binomial identity; no fitted coefficients",
+  "literal_column_walsh_reconstructions": [
+    17,
+    29
+  ],
+  "signed_marked_pair_polynomials_per_q": 128,
+  "base_W_nonzero_terms": 45,
+  "all_seven_binomial_rows_equal": true,
+  "binomial_rows_3_through_6_vanish_exactly": true,
+  "common_factor_B_expanded": "t**4*v**4*w**4 - 2*t**4*v**4*w**2 + t**4*v**4 - 2*t**2*v**4*w**4 - 2*t**2*v**4*w**2 + 8*t**2*v**3*w**2 - 2*t**2*v**2*w**2 - 2*t**2*v**2 + v**4*w**4 - 2*v**2*w**2 + 1",
+  "union_coefficients_degree_in_q_at_most": 2,
+  "degree_bound_in_r": 12,
+  "degree_over_Qq": 12,
+  "eight_endpoint_factor_product": "q**4*r**4 - 6*q**4*r**3 + 11*q**4*r**2 - 6*q**4*r - 4*q**3*r**5 + 6*q**3*r**4 + 64*q**3*r**3 - 174*q**3*r**2 + 108*q**3*r + 6*q**2*r**6 + 18*q**2*r**5 - 139*q**2*r**4 - 156*q**2*r**3 + 985*q**2*r**2 - 714*q**2*r - 4*q*r**7 - 30*q*r**6 + 42*q*r**5 + 516*q*r**4 - 242*q*r**3 - 2334*q*r**2 + 2052*q*r + r**8 + 12*r**7 + 22*r**6 - 180*r**5 - 491*r**4 + 888*r**3 + 1908*r**2 - 2160*r",
+  "quartic_after_division": "-(2*q**5 - q**4*r**2 - 15*q**4*r - 74*q**4 + 4*q**3*r**3 + 87*q**3*r**2 + 445*q**3*r + 942*q**3 - 4*q**2*r**4 - 208*q**2*r**3 - 1689*q**2*r**2 - 3683*q**2*r - 6158*q**2 + 160*q*r**4 + 2860*q*r**3 + 8537*q*r**2 + 13299*q*r + 21760*q - 1596*r**4 - 7168*r**3 - 13846*r**2 - 19838*r - 32984)/2",
+  "quartic_leading_coefficient": "2*(q - 21)*(q - 19)",
+  "exceptional_formal_specialization": {
+    "q": 21,
+    "degree_in_r": 11
+  },
+  "numeric_coefficients_from_literal_columns": [
+    {
+      "q": 17,
+      "n": 6,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "coefficient": [
+        8,
+        1001
+      ]
+    },
+    {
+      "q": 17,
+      "n": 8,
+      "coefficient": [
+        -8,
+        1001
+      ]
+    },
+    {
+      "q": 17,
+      "n": 14,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 17,
+      "n": 15,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 17,
+      "n": 16,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 17,
+      "n": 17,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 29,
+      "n": 6,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 29,
+      "n": 7,
+      "coefficient": [
+        -2,
+        7475
+      ]
+    },
+    {
+      "q": 29,
+      "n": 8,
+      "coefficient": [
+        2,
+        16445
+      ]
+    },
+    {
+      "q": 29,
+      "n": 26,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 29,
+      "n": 27,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 29,
+      "n": 28,
+      "coefficient": [
+        0,
+        1
+      ]
+    },
+    {
+      "q": 29,
+      "n": 29,
+      "coefficient": [
+        0,
+        1
+      ]
+    }
+  ],
+  "fixed_q_export_factorizations_rechecked": [
+    29,
+    49,
+    101,
+    1297
+  ],
+  "coefficient_formula_exactly_equal": true,
+  "validity_domain": "q>=17,q=1mod4,3<=n<=q; degree6; graph interpretation additionally requires a realized conference matrix",
+  "elapsed_seconds": 57.370447,
+  "source_sha256": {
+    "symbolic_formula.py": "177775bbebab00c14423be5808d99b10c424d1d7064c95b1721c2388a76e1b13",
+    "symbolic_formula.json": "1b47ccbc6bbf049034571ab8fd55d8fbc3dcee42b510f2758961e23980e04750",
+    "coefficient_polynomial.py": "2beade4cfb03cdae74c41a90c2a14246758763cc7c13eab4fce24ac0ca522ea9",
+    "fixed_q_polynomials.json": "10cde61da3220981a074474fc66995971dd0ffb7c6e5b213e1d8f8df35e31ee5"
+  },
+  "review_sha256": "6c5277209ef14505562ba3f01f5ce3c75779b2cfa07a9b7256f2d5066565c5f5"
+}

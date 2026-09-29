@@ -1,0 +1,603 @@
+{
+  "status": "experimental mathematical tool; no asymptotic bound or novelty theorem",
+  "seed": 20260905,
+  "exact_small_checks": 40,
+  "cases": [
+    {
+      "field": "F_101",
+      "q": 101,
+      "m": 24,
+      "degree": 1,
+      "radius_H": 0.7826463977624244,
+      "radius_Z_two_anchor": 0.9037222168568534,
+      "tail_window": 0.025,
+      "tail_rank": 3,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.2950582023170566,
+        "maximizing_shift": 3,
+        "median_abs_overlap": 0.10192985774228772,
+        "count_ge_0_75": 0
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.7974668393246206,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.23280958317770228,
+        "count_ge_0_75": 2
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.37438653667504945,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.19667774334065735,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5000000000000001,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.25000000000000006,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 1.3322676295501878e-15,
+      "spectral_moments_2_4_6": [
+        0.2340162241431706,
+        0.09208995669621516,
+        0.04316545091302868
+      ],
+      "tail_witness_rayleigh_H": -0.7621493423472057,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": null,
+      "certificate_file": "witness_101.json"
+    },
+    {
+      "field": "F_257",
+      "q": 257,
+      "m": 63,
+      "degree": 1,
+      "radius_H": 0.8477229154077629,
+      "radius_Z_two_anchor": 0.9788661068177725,
+      "tail_window": 0.025,
+      "tail_rank": 2,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.23142949112147443,
+        "maximizing_shift": 90,
+        "median_abs_overlap": 0.0675346609903248,
+        "count_ge_0_75": 0
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.47698857431978275,
+        "maximizing_shift": 90,
+        "median_abs_overlap": 0.12869123471938843,
+        "count_ge_0_75": 0
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.2856251914275232,
+        "maximizing_shift": 59,
+        "median_abs_overlap": 0.0890648335721613,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.47619047619047605,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.23809523809523803,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.24316984175638562,
+        0.10279944066100719,
+        0.05173873378563843
+      ],
+      "tail_witness_rayleigh_H": -0.8477229154077632,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": null,
+      "certificate_file": "witness_257.json"
+    },
+    {
+      "field": "F_401",
+      "q": 401,
+      "m": 99,
+      "degree": 1,
+      "radius_H": 0.8794977323882048,
+      "radius_Z_two_anchor": 1.015556505091991,
+      "tail_window": 0.025,
+      "tail_rank": 3,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.26158195442200793,
+        "maximizing_shift": 123,
+        "median_abs_overlap": 0.057593918366438526,
+        "count_ge_0_75": 0
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.42057234770474067,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.14511513395861075,
+        "count_ge_0_75": 0
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.23666325941667002,
+        "maximizing_shift": 107,
+        "median_abs_overlap": 0.09722563059888795,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.4848484848484849,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.24242424242424246,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 5.551115123125783e-17,
+      "spectral_moments_2_4_6": [
+        0.2455028260867655,
+        0.10906371541193365,
+        0.05827401990800152
+      ],
+      "tail_witness_rayleigh_H": -0.8688765206508924,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": null,
+      "certificate_file": "witness_401.json"
+    },
+    {
+      "field": "F_1009",
+      "q": 1009,
+      "m": 251,
+      "degree": 1,
+      "radius_H": 0.8608934764168497,
+      "radius_Z_two_anchor": 0.9940741607057219,
+      "tail_window": 0.025,
+      "tail_rank": 4,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.17039683040392417,
+        "maximizing_shift": 451,
+        "median_abs_overlap": 0.03794250642636851,
+        "count_ge_0_75": 0
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.3588264630115215,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.11007353558166191,
+        "count_ge_0_75": 0
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.14367279216315476,
+        "maximizing_shift": 362,
+        "median_abs_overlap": 0.07285401232857791,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5099601593625496,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.247011952191235,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 1.6653345369377348e-16,
+      "spectral_moments_2_4_6": [
+        0.24812749194261155,
+        0.1071526285127686,
+        0.054715951895885226
+      ],
+      "tail_witness_rayleigh_H": -0.8375426924108715,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": null,
+      "certificate_file": "witness_1009.json"
+    },
+    {
+      "field": "F_2017",
+      "q": 2017,
+      "m": 503,
+      "degree": 1,
+      "radius_H": 0.8693373597528001,
+      "radius_Z_two_anchor": 1.0038243173397554,
+      "tail_window": 0.025,
+      "tail_rank": 4,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.1448480449131211,
+        "maximizing_shift": 400,
+        "median_abs_overlap": 0.029859127305435204,
+        "count_ge_0_75": 0
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.2687254219993781,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.07494895297337922,
+        "count_ge_0_75": 0
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.09854692947061841,
+        "maximizing_shift": 327,
+        "median_abs_overlap": 0.05197496214977715,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.49304174950298185,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.25049701789264417,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 8.326672684688674e-16,
+      "spectral_moments_2_4_6": [
+        0.24905140038956192,
+        0.10842018787754384,
+        0.05574169155835821
+      ],
+      "tail_witness_rayleigh_H": -0.8582595929777911,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": null,
+      "certificate_file": "witness_2017.json"
+    },
+    {
+      "field": "F_4001",
+      "q": 4001,
+      "m": 999,
+      "degree": 1,
+      "radius_H": 0.8751251212634574,
+      "radius_Z_two_anchor": 1.0105074486721222,
+      "tail_window": 0.025,
+      "tail_rank": 6,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.20472600534461693,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.02141698838909097,
+        "count_ge_0_75": 0
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.2395383007209596,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.0649368547523778,
+        "count_ge_0_75": 0
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.07982115269201351,
+        "maximizing_shift": 973,
+        "median_abs_overlap": 0.048100603246995874,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.4864864864864859,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.25025025025025005,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 3.608224830031759e-16,
+      "spectral_moments_2_4_6": [
+        0.24951110595903875,
+        0.10882537835230487,
+        0.05616872446583039
+      ],
+      "tail_witness_rayleigh_H": 0.8717344471852757,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": null,
+      "certificate_file": "witness_4001.json"
+    },
+    {
+      "field": "F_11^2",
+      "q": 121,
+      "m": 29,
+      "degree": 2,
+      "radius_H": 0.9500229884742186,
+      "radius_Z_two_anchor": 1.0969920562638458,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.8009982889946019,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.06135709693253669,
+        "count_ge_0_75": 2
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.8009982889946019,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.06135709693253669,
+        "count_ge_0_75": 2
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.25781915246962,
+        "maximizing_shift": 41,
+        "median_abs_overlap": 0.047874111361672696,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5517241379310345,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.20689655172413793,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.23483651248619233,
+        0.10877958043609584,
+        0.06327185701628998
+      ],
+      "tail_witness_rayleigh_H": 0.9500229884742192,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": {
+        "rayleigh_H": 0.652892561983471,
+        "transport": {
+          "max_abs_overlap": 0.8888888888888888,
+          "maximizing_shift": 1,
+          "median_abs_overlap": 0.0,
+          "count_ge_0_75": 10
+        },
+        "tail_projection_mass": 0.7147723255342008
+      },
+      "certificate_file": "witness_121.json"
+    },
+    {
+      "field": "F_17^2",
+      "q": 289,
+      "m": 71,
+      "degree": 2,
+      "radius_H": 0.9699108946780507,
+      "radius_Z_two_anchor": 1.1199566322646468,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.7901713710467929,
+        "maximizing_shift": 4,
+        "median_abs_overlap": 0.0331007144476754,
+        "count_ge_0_75": 2
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.7901713710467929,
+        "maximizing_shift": 4,
+        "median_abs_overlap": 0.0331007144476754,
+        "count_ge_0_75": 2
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.21556785487481167,
+        "maximizing_shift": 136,
+        "median_abs_overlap": 0.03322116413337502,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5352112676056338,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.2535211267605634,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.24355770523091852,
+        0.10669340420198323,
+        0.0597464581556319
+      ],
+      "tail_witness_rayleigh_H": 0.9699108946780512,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": {
+        "rayleigh_H": 0.7716262975778545,
+        "transport": {
+          "max_abs_overlap": 0.9333333333333331,
+          "maximizing_shift": 1,
+          "median_abs_overlap": 0.0,
+          "count_ge_0_75": 16
+        },
+        "tail_projection_mass": 0.7576345235630838
+      },
+      "certificate_file": "witness_289.json"
+    },
+    {
+      "field": "F_23^2",
+      "q": 529,
+      "m": 131,
+      "degree": 2,
+      "radius_H": 0.9760118218143213,
+      "radius_Z_two_anchor": 1.127001376113511,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.8814726725265754,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.037612724707518766,
+        "count_ge_0_75": 22
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.8814726725265754,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.037612724707518766,
+        "count_ge_0_75": 22
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.17547451816569948,
+        "maximizing_shift": 55,
+        "median_abs_overlap": 0.028855294680351005,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5343511450381679,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.24427480916030533,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.24637793909742248,
+        0.1103878174465633,
+        0.06184587972267082
+      ],
+      "tail_witness_rayleigh_H": 0.9760118218143217,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": {
+        "rayleigh_H": 0.829867674858223,
+        "transport": {
+          "max_abs_overlap": 0.9523809523809526,
+          "maximizing_shift": 1,
+          "median_abs_overlap": 0.0,
+          "count_ge_0_75": 22
+        },
+        "tail_projection_mass": 0.8567685937062881
+      },
+      "certificate_file": "witness_529.json"
+    },
+    {
+      "field": "F_31^2",
+      "q": 961,
+      "m": 239,
+      "degree": 2,
+      "radius_H": 0.9811001103143429,
+      "radius_Z_two_anchor": 1.1328768255839148,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.9221324599394898,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.027623234221103216,
+        "count_ge_0_75": 30
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.9221324599394898,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.027623234221103216,
+        "count_ge_0_75": 30
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.1490129417553141,
+        "maximizing_shift": 124,
+        "median_abs_overlap": 0.020830532487490873,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5271966527196651,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.2510460251046025,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.24798433450433074,
+        0.10972188416514779,
+        0.05818256572831236
+      ],
+      "tail_witness_rayleigh_H": 0.9811001103143452,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": {
+        "rayleigh_H": 0.8730489073881375,
+        "transport": {
+          "max_abs_overlap": 0.9655172413793103,
+          "maximizing_shift": 1,
+          "median_abs_overlap": 0.0,
+          "count_ge_0_75": 30
+        },
+        "tail_projection_mass": 0.8941146400931729
+      },
+      "certificate_file": "witness_961.json"
+    },
+    {
+      "field": "F_43^2",
+      "q": 1849,
+      "m": 461,
+      "degree": 2,
+      "radius_H": 0.9879009673682921,
+      "radius_Z_two_anchor": 1.1407297788855504,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.9298379427568759,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.021606952391203874,
+        "count_ge_0_75": 42
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.9298379427568759,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.021606952391203874,
+        "count_ge_0_75": 42
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.08059695761062147,
+        "maximizing_shift": 647,
+        "median_abs_overlap": 0.01568198053604147,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.5206073752711499,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.24728850325379612,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.24894306906106087,
+        0.11109124782548825,
+        0.05985796367387613
+      ],
+      "tail_witness_rayleigh_H": 0.987900967368291,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": {
+        "rayleigh_H": 0.9080584099513251,
+        "transport": {
+          "max_abs_overlap": 0.9756097560975611,
+          "maximizing_shift": 1,
+          "median_abs_overlap": 0.0,
+          "count_ge_0_75": 42
+        },
+        "tail_projection_mass": 0.9152125554887759
+      },
+      "certificate_file": "witness_1849.json"
+    },
+    {
+      "field": "F_61^2",
+      "q": 3721,
+      "m": 929,
+      "degree": 2,
+      "radius_H": 0.9895394233354202,
+      "radius_Z_two_anchor": 1.142621704872904,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "top_eigenvector": {
+        "max_abs_overlap": 0.9564984925309151,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.01571630001179554,
+        "count_ge_0_75": 60
+      },
+      "tail_subspace": {
+        "max_abs_overlap": 0.9564984925309151,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.01571630001179554,
+        "count_ge_0_75": 60
+      },
+      "same_spectrum_relabelled_tail": {
+        "max_abs_overlap": 0.08728994205423735,
+        "maximizing_shift": 569,
+        "median_abs_overlap": 0.012271119588038407,
+        "count_ge_0_75": 0
+      },
+      "uniform_baseline": {
+        "max_abs_overlap": 0.501614639397201,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.24865446716899875,
+        "count_ge_0_75": 0
+      },
+      "max_basis_rotation_error": 0.0,
+      "spectral_moments_2_4_6": [
+        0.2494797578767423,
+        0.10942383740616082,
+        0.057159062608690435
+      ],
+      "tail_witness_rayleigh_H": 0.9895394233354198,
+      "relabelled_moment_preservation": "exact by simultaneous row/column permutation",
+      "subfield_seed": {
+        "rayleigh_H": 0.9349637194302601,
+        "transport": {
+          "max_abs_overlap": 0.9830508474576275,
+          "maximizing_shift": 1,
+          "median_abs_overlap": 0.0,
+          "count_ge_0_75": 60
+        },
+        "tail_projection_mass": 0.9479741234675924
+      },
+      "certificate_file": "witness_3721.json"
+    }
+  ],
+  "interval_null": {
+    "kind": "interval false-positive control",
+    "p": 1009,
+    "size": 31,
+    "translation": {
+      "max_abs_overlap": 0.9677419354838711,
+      "maximizing_shift": 1,
+      "median_abs_overlap": 0.0,
+      "count_ge_0_75": 14
+    },
+    "rayleigh_H": 0.56437704415879,
+    "radius_H": 0.5762931238050886
+  },
+  "source_sha256": "1a21572c748f9cf49f656dfd033a8ffa43768e410b30cb970fba715931fa1ad9"
+}

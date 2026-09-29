@@ -1,0 +1,67 @@
+{
+  "status": "preflight_checkpoint_passed",
+  "created_utc": "2026-09-06T06:31:46.426315+00:00",
+  "scope": "Source bindings, controlled profile/determinant tests and declared-space enlargement checks. Round14 remains in progress; generic public certificate validation and decoding are pending.",
+  "previous_round13_artifacts_preserved": 25,
+  "source_and_input_bindings": 38,
+  "python_sources_compiled": 5,
+  "markdown_local_links_passed": true,
+  "artifacts": {
+    "README.md": {
+      "sha256": "9d863c27bc0005a4629ebbfc7ea122e1c1d6fc41ef2b5d8063703b27bdc02ece",
+      "bytes": 4216
+    },
+    "arc_profile.py": {
+      "sha256": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f",
+      "bytes": 1804
+    },
+    "checkpoint.py": {
+      "sha256": "0a3018b9a92a21154f74b6b6ae7133d5dd413bc9da364188729f5e11b3142f68",
+      "bytes": 4029
+    },
+    "dimension.log": {
+      "sha256": "375cc978ff1ba32395946dc62049ef5e1072866b3280a89839b18c08519f9136",
+      "bytes": 1710
+    },
+    "dimension3.preflight.json": {
+      "sha256": "1d75ab6efff4fd0d664100eeb9434bc6f27331736110e15926d082c618b1fee8",
+      "bytes": 12304
+    },
+    "dimension4.preflight.json": {
+      "sha256": "dffef4def1d4a428f568f2d7044a40846b2b5d4672347da09c396a92ce5544d8",
+      "bytes": 12298
+    },
+    "dimension5.preflight.json": {
+      "sha256": "0db47c4f2a9b1f273be7dc990c704b71580d14ca7f05f111f8aacca2dbc43f41",
+      "bytes": 12361
+    },
+    "dimension_preflight.py": {
+      "sha256": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a",
+      "bytes": 6327
+    },
+    "dimension_results.json": {
+      "sha256": "3c6d56b884abd52784fbaed24bb2c58c22148632e1108a2403a0ff3b9cb052fe",
+      "bytes": 22381
+    },
+    "profile_controls.json": {
+      "sha256": "7588edf8876b8c986d4d6e6167f0e51bfa80cc8ceb7a8ea7ed27427c54c38e85",
+      "bytes": 828
+    },
+    "profile_controls.log": {
+      "sha256": "eb7a1c22bf340a07a19909f9c529d935734827f65eae62949758001061127321",
+      "bytes": 682
+    },
+    "profile_controls.py": {
+      "sha256": "0f8803b9021ce47d923e9e809d3f769c47f0a0fe52a9f42bf66428cc08bf8874",
+      "bytes": 2966
+    },
+    "zero_preflight.py": {
+      "sha256": "c3f1b79839593d53af098e72cdea10ec09d462a2981a762515c4bf12ff0ebf8f",
+      "bytes": 2764
+    },
+    "zero_results.json": {
+      "sha256": "07214235328e29e65a615981f7c42cc728b0d1db396bef0b4eac7c6e239ffd38",
+      "bytes": 3383
+    }
+  }
+}

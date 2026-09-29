@@ -1,0 +1,1560 @@
+{
+  "status": "all exact finite checks passed; full targets unproved",
+  "created_at_utc": "2026-09-05T22:49:34.560694+00:00",
+  "duration_seconds": 0.225304417006555,
+  "input_sha256": {
+    "research/parallel33-centered-distinct-moments-2026-09-05.md": "bd9d9d2bcc7fc2f76e84af908af083109750b99ea63b60591e12a23c6ae6fb2c",
+    "experiments/parallel34_verify_2026_09_05.py": "274d3655b2054da67cfbd8150f0566687f5e5cd34465a360dc6abfb4a04f5379",
+    "results/parallel34_prior_state_2026_09_05.json": "d2a1ae80e3b277e26c4c56a34e8a965223330fc21755cf53fb07e7e25037c273"
+  },
+  "check_counts": {
+    "full word totals": 86,
+    "distinct totals": 95,
+    "opposite-free totals": 95,
+    "forward raw": 52,
+    "inverse raw": 52,
+    "forward centered": 52,
+    "inverse centered": 52,
+    "normalized Lyapunov": 34,
+    "principal lower bound": 34,
+    "Jensen lower bound": 34,
+    "distinct opposite union bound": 34,
+    "symmetric-set repeated fraction": 34,
+    "combined exclusion": 34,
+    "degree two base": 9,
+    "non-subgroup witness": 1,
+    "cycle enumeration": 79,
+    "forward Gaussian coefficient": 2906,
+    "inverse Gaussian coefficient": 2906,
+    "triangular inverse identity": 2906,
+    "Gaussian row norm": 354,
+    "ten-term threshold": 1,
+    "square-root threshold": 1,
+    "fifth-root threshold": 1
+  },
+  "cases": [
+    {
+      "p": 17,
+      "n": 16,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 16,
+            "denominator": 17
+          },
+          "centered_opposite_free": {
+            "numerator": 16,
+            "denominator": 17
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 16,
+          "distinct": 16,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 32,
+            "denominator": 17
+          },
+          "centered_opposite_free": {
+            "numerator": -224,
+            "denominator": 17
+          },
+          "gaussian": 16
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 3856,
+          "distinct": 2592,
+          "opposite_free": 1920,
+          "centered_distinct": {
+            "numerator": 384,
+            "denominator": 17
+          },
+          "centered_opposite_free": {
+            "numerator": 5760,
+            "denominator": 17
+          },
+          "gaussian": 768,
+          "repeated": 1264,
+          "marked_opposite_upper": 1536
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 986896,
+          "distinct": 339840,
+          "opposite_free": 69120,
+          "centered_distinct": {
+            "numerator": 11520,
+            "denominator": 17
+          },
+          "centered_opposite_free": {
+            "numerator": -115200,
+            "denominator": 17
+          },
+          "gaussian": 61440,
+          "repeated": 647056,
+          "marked_opposite_upper": 925440
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 252645136,
+          "distinct": 30562560,
+          "opposite_free": 645120,
+          "centered_distinct": {
+            "numerator": 645120,
+            "denominator": 17
+          },
+          "centered_opposite_free": {
+            "numerator": 645120,
+            "denominator": 17
+          },
+          "gaussian": 6881280,
+          "repeated": 222082576,
+          "marked_opposite_upper": 442129408
+        }
+      ]
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        8,
+        12,
+        18,
+        22,
+        27,
+        33,
+        47,
+        50,
+        64,
+        70,
+        75,
+        79,
+        85,
+        89,
+        96
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 96,
+            "denominator": 97
+          },
+          "centered_opposite_free": {
+            "numerator": 96,
+            "denominator": 97
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 16,
+          "distinct": 16,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 1312,
+            "denominator": 97
+          },
+          "centered_opposite_free": {
+            "numerator": -224,
+            "denominator": 97
+          },
+          "gaussian": 16
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 1104,
+          "distinct": 1056,
+          "opposite_free": 384,
+          "centered_distinct": {
+            "numerator": 58752,
+            "denominator": 97
+          },
+          "centered_opposite_free": {
+            "numerator": 10368,
+            "denominator": 97
+          },
+          "gaussian": 768,
+          "repeated": 48,
+          "marked_opposite_upper": 1536
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 191680,
+          "distinct": 97920,
+          "opposite_free": 11520,
+          "centered_distinct": {
+            "numerator": 3732480,
+            "denominator": 97
+          },
+          "centered_opposite_free": {
+            "numerator": -172800,
+            "denominator": 97
+          },
+          "gaussian": 61440,
+          "repeated": 93760,
+          "marked_opposite_upper": 264960
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 45157840,
+          "distinct": 7983360,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 255467520,
+            "denominator": 97
+          },
+          "centered_opposite_free": {
+            "numerator": -10321920,
+            "denominator": 97
+          },
+          "gaussian": 6881280,
+          "repeated": 37174480,
+          "marked_opposite_upper": 85872640
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        3,
+        9,
+        27,
+        43,
+        50,
+        64,
+        81,
+        112,
+        129,
+        143,
+        150,
+        166,
+        184,
+        190,
+        192
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 192,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": 192,
+            "denominator": 193
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 16,
+          "distinct": 16,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 2848,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -224,
+            "denominator": 193
+          },
+          "gaussian": 16
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 784,
+          "distinct": 672,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 86016,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -26880,
+            "denominator": 193
+          },
+          "gaussian": 768,
+          "repeated": 112,
+          "marked_opposite_upper": 1536
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 104800,
+          "distinct": 51840,
+          "opposite_free": 11520,
+          "centered_distinct": {
+            "numerator": 4239360,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": 933120,
+            "denominator": 193
+          },
+          "gaussian": 61440,
+          "repeated": 52960,
+          "marked_opposite_upper": 188160
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 23106832,
+          "distinct": 4112640,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 274821120,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -10321920,
+            "denominator": 193
+          },
+          "gaussian": 6881280,
+          "repeated": 18994192,
+          "marked_opposite_upper": 46950400
+        }
+      ]
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        3,
+        8,
+        9,
+        14,
+        23,
+        24,
+        27,
+        42,
+        43,
+        50,
+        64,
+        67,
+        69,
+        72,
+        81,
+        112,
+        121,
+        124,
+        126,
+        129,
+        143,
+        150,
+        151,
+        166,
+        169,
+        170,
+        179,
+        184,
+        185,
+        190,
+        192
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 192,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": 192,
+            "denominator": 193
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 32,
+          "distinct": 32,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 5184,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -960,
+            "denominator": 193
+          },
+          "gaussian": 32
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 6560,
+          "distinct": 5952,
+          "opposite_free": 3072,
+          "centered_distinct": {
+            "numerator": 285696,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -105984,
+            "denominator": 193
+          },
+          "gaussian": 3072,
+          "repeated": 608,
+          "marked_opposite_upper": 6144
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 5620160,
+          "distinct": 3513600,
+          "opposite_free": 2004480,
+          "centered_distinct": {
+            "numerator": 25666560,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": 17856000,
+            "denominator": 193
+          },
+          "gaussian": 491520,
+          "repeated": 2106560,
+          "marked_opposite_upper": 3148800
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 5700069536,
+          "distinct": 2212600320,
+          "opposite_free": 676085760,
+          "centered_distinct": {
+            "numerator": 2934005760,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -2358558720,
+            "denominator": 193
+          },
+          "gaussian": 110100480,
+          "repeated": 3487469216,
+          "marked_opposite_upper": 5035663360
+        },
+        {
+          "s": 5,
+          "r": 10,
+          "energy": 5833858254272,
+          "distinct": 1215154483200,
+          "opposite_free": 155719065600,
+          "centered_distinct": {
+            "numerator": 422798745600,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": 296922931200,
+            "denominator": 193
+          },
+          "gaussian": 31708938240,
+          "repeated": 4618703771072,
+          "marked_opposite_upper": 8208100131840
+        },
+        {
+          "s": 6,
+          "r": 12,
+          "energy": 5973697244719424,
+          "distinct": 560749929062400,
+          "opposite_free": 18317021184000,
+          "centered_distinct": {
+            "numerator": 69604680499200,
+            "denominator": 193
+          },
+          "centered_opposite_free": {
+            "numerator": -35637719040000,
+            "denominator": 193
+          },
+          "gaussian": 11161546260480,
+          "repeated": 5412947315657024,
+          "marked_opposite_upper": 12321108633022464
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        129,
+        193,
+        225,
+        241,
+        249,
+        253,
+        255,
+        256
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 16,
+          "distinct": 16,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 3872,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -224,
+            "denominator": 257
+          },
+          "gaussian": 16
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 912,
+          "distinct": 672,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 129024,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -26880,
+            "denominator": 257
+          },
+          "gaussian": 768,
+          "repeated": 240,
+          "marked_opposite_upper": 1536
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 109840,
+          "distinct": 40320,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 4596480,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -1290240,
+            "denominator": 257
+          },
+          "gaussian": 61440,
+          "repeated": 69520,
+          "marked_opposite_upper": 218880
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 20201104,
+          "distinct": 2822400,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 206438400,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -10321920,
+            "denominator": 257
+          },
+          "gaussian": 6881280,
+          "repeated": 17378704,
+          "marked_opposite_upper": 49208320
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        15,
+        16,
+        17,
+        30,
+        32,
+        34,
+        60,
+        64,
+        68,
+        120,
+        121,
+        128,
+        129,
+        136,
+        137,
+        189,
+        193,
+        197,
+        223,
+        225,
+        227,
+        240,
+        241,
+        242,
+        249,
+        253,
+        255,
+        256
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 32,
+          "distinct": 32,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 7232,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -960,
+            "denominator": 257
+          },
+          "gaussian": 32
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 6816,
+          "distinct": 5184,
+          "opposite_free": 2304,
+          "centered_distinct": {
+            "numerator": 469248,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -106752,
+            "denominator": 257
+          },
+          "gaussian": 3072,
+          "repeated": 1632,
+          "marked_opposite_upper": 6144
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 4533920,
+          "distinct": 2592000,
+          "opposite_free": 1359360,
+          "centered_distinct": {
+            "numerator": 13685760,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -19653120,
+            "denominator": 257
+          },
+          "gaussian": 491520,
+          "repeated": 1941920,
+          "marked_opposite_upper": 3271680
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 4327368864,
+          "distinct": 1644894720,
+          "opposite_free": 554803200,
+          "centered_distinct": {
+            "numerator": -1359912960,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 9741312000,
+            "denominator": 257
+          },
+          "gaussian": 110100480,
+          "repeated": 2682474144,
+          "marked_opposite_upper": 4062392320
+        },
+        {
+          "s": 5,
+          "r": 10,
+          "energy": 4387806259872,
+          "distinct": 911960985600,
+          "opposite_free": 111708979200,
+          "centered_distinct": {
+            "numerator": 271956787200,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -1047649075200,
+            "denominator": 257
+          },
+          "gaussian": 31708938240,
+          "repeated": 3475845274272,
+          "marked_opposite_upper": 6231411164160
+        },
+        {
+          "s": 6,
+          "r": 12,
+          "energy": 4487041260747936,
+          "distinct": 421448599756800,
+          "opposite_free": 13304748441600,
+          "centered_distinct": {
+            "numerator": 157158508953600,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -151502458060800,
+            "denominator": 257
+          },
+          "gaussian": 11161546260480,
+          "repeated": 4065592660991136,
+          "marked_opposite_upper": 9267046820849664
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        2,
+        4,
+        8,
+        11,
+        15,
+        16,
+        17,
+        22,
+        23,
+        30,
+        32,
+        34,
+        35,
+        44,
+        46,
+        60,
+        64,
+        67,
+        68,
+        70,
+        73,
+        81,
+        88,
+        92,
+        95,
+        111,
+        117,
+        120,
+        121,
+        123,
+        128,
+        129,
+        134,
+        136,
+        137,
+        140,
+        146,
+        162,
+        165,
+        169,
+        176,
+        184,
+        187,
+        189,
+        190,
+        193,
+        197,
+        211,
+        213,
+        222,
+        223,
+        225,
+        227,
+        234,
+        235,
+        240,
+        241,
+        242,
+        246,
+        249,
+        253,
+        255,
+        256
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 64,
+          "distinct": 64,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 12416,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -3968,
+            "denominator": 257
+          },
+          "gaussian": 64
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 69696,
+          "distinct": 64128,
+          "opposite_free": 52224,
+          "centered_distinct": {
+            "numerator": 1231872,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -387072,
+            "denominator": 257
+          },
+          "gaussian": 12288,
+          "repeated": 5568,
+          "marked_opposite_upper": 24576
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 267810880,
+          "distinct": 210700800,
+          "opposite_free": 163261440,
+          "centered_distinct": {
+            "numerator": 168560640,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 200862720,
+            "denominator": 257
+          },
+          "gaussian": 3932160,
+          "repeated": 57110080,
+          "marked_opposite_upper": 66908160
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 1095273635904,
+          "distinct": 694533288960,
+          "opposite_free": 422210396160,
+          "centered_distinct": {
+            "numerator": 32067624960,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -60979322880,
+            "denominator": 257
+          },
+          "gaussian": 1761607680,
+          "repeated": 400740346944,
+          "marked_opposite_upper": 479917096960
+        },
+        {
+          "s": 5,
+          "r": 10,
+          "energy": 4486079780833344,
+          "distinct": 2138806010880000,
+          "opposite_free": 932810386636800,
+          "centered_distinct": {
+            "numerator": 7142871859200,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 11804457369600,
+            "denominator": 257
+          },
+          "gaussian": 1014686023680,
+          "repeated": 2347273769953344,
+          "marked_opposite_upper": 3154388071403520
+        },
+        {
+          "s": 6,
+          "r": 12,
+          "energy": 18374967237173719104,
+          "distinct": 6121189749646540800,
+          "opposite_free": 1723757965900185600,
+          "centered_distinct": {
+            "numerator": 1668151812096000,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 2378085831475200,
+            "denominator": 257
+          },
+          "gaussian": 714338960670720,
+          "repeated": 12253777487527178304,
+          "marked_opposite_upper": 18949200994240045056
+        }
+      ]
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "label": "multiplicative subgroup",
+      "subgroup": true,
+      "elements": [
+        1,
+        4040,
+        4508,
+        4512,
+        6875,
+        7300,
+        10253,
+        11157,
+        22556,
+        23460,
+        26413,
+        26838,
+        29201,
+        29205,
+        29673,
+        33712
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 33712,
+            "denominator": 33713
+          },
+          "centered_opposite_free": {
+            "numerator": 33712,
+            "denominator": 33713
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 16,
+          "distinct": 16,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 539168,
+            "denominator": 33713
+          },
+          "centered_opposite_free": {
+            "numerator": -224,
+            "denominator": 33713
+          },
+          "gaussian": 16
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 720,
+          "distinct": 672,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 22611456,
+            "denominator": 33713
+          },
+          "centered_opposite_free": {
+            "numerator": -26880,
+            "denominator": 33713
+          },
+          "gaussian": 768,
+          "repeated": 48,
+          "marked_opposite_upper": 1536
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 51040,
+          "distinct": 40320,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 1353542400,
+            "denominator": 33713
+          },
+          "centered_opposite_free": {
+            "numerator": -1290240,
+            "denominator": 33713
+          },
+          "gaussian": 61440,
+          "repeated": 10720,
+          "marked_opposite_upper": 172800
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 4816336,
+          "distinct": 2822400,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 94632652800,
+            "denominator": 33713
+          },
+          "centered_opposite_free": {
+            "numerator": -10321920,
+            "denominator": 33713
+          },
+          "gaussian": 6881280,
+          "repeated": 1993936,
+          "marked_opposite_upper": 22865920
+        }
+      ]
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "label": "symmetric non-subgroup",
+      "subgroup": false,
+      "elements": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        34,
+        55,
+        89,
+        168,
+        202,
+        223,
+        236,
+        244,
+        249,
+        252,
+        254,
+        255,
+        256
+      ],
+      "rows": [
+        {
+          "s": 0,
+          "r": 0,
+          "energy": 1,
+          "distinct": 1,
+          "opposite_free": 1,
+          "centered_distinct": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 256,
+            "denominator": 257
+          },
+          "gaussian": 1
+        },
+        {
+          "s": 1,
+          "r": 2,
+          "energy": 20,
+          "distinct": 20,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 4760,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -360,
+            "denominator": 257
+          },
+          "gaussian": 20
+        },
+        {
+          "s": 2,
+          "r": 4,
+          "energy": 1820,
+          "distinct": 1368,
+          "opposite_free": 288,
+          "centered_distinct": {
+            "numerator": 235296,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -6624,
+            "denominator": 257
+          },
+          "gaussian": 1200,
+          "repeated": 452,
+          "marked_opposite_upper": 2400
+        },
+        {
+          "s": 3,
+          "r": 6,
+          "energy": 393002,
+          "distinct": 184320,
+          "opposite_free": 46080,
+          "centered_distinct": {
+            "numerator": 19463040,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": 2165760,
+            "denominator": 257
+          },
+          "gaussian": 120000,
+          "repeated": 208682,
+          "marked_opposite_upper": 546000
+        },
+        {
+          "s": 4,
+          "r": 8,
+          "energy": 122607452,
+          "distinct": 26530560,
+          "opposite_free": 483840,
+          "centered_distinct": {
+            "numerator": 1739243520,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -340139520,
+            "denominator": 257
+          },
+          "gaussian": 16800000,
+          "repeated": 96076892,
+          "marked_opposite_upper": 220081120
+        },
+        {
+          "s": 5,
+          "r": 10,
+          "energy": 43964414550,
+          "distinct": 3265920000,
+          "opposite_free": 0,
+          "centered_distinct": {
+            "numerator": 168898867200,
+            "denominator": 257
+          },
+          "centered_opposite_free": {
+            "numerator": -3715891200,
+            "denominator": 257
+          },
+          "gaussian": 3024000000,
+          "repeated": 40698494550,
+          "marked_opposite_upper": 110346706800
+        }
+      ]
+    }
+  ],
+  "cycle_enumeration": [
+    {
+      "M": 2,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "M": 3,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 3
+      }
+    },
+    {
+      "M": 4,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 4,
+        "2": 2
+      }
+    },
+    {
+      "M": 5,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 5,
+        "2": 5
+      }
+    },
+    {
+      "M": 6,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 6,
+        "2": 9,
+        "3": 2
+      }
+    },
+    {
+      "M": 7,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 7,
+        "2": 14,
+        "3": 7
+      }
+    },
+    {
+      "M": 8,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 8,
+        "2": 20,
+        "3": 16,
+        "4": 2
+      }
+    },
+    {
+      "M": 9,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 9,
+        "2": 27,
+        "3": 30,
+        "4": 9
+      }
+    },
+    {
+      "M": 10,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 10,
+        "2": 35,
+        "3": 50,
+        "4": 25,
+        "5": 2
+      }
+    },
+    {
+      "M": 11,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 11,
+        "2": 44,
+        "3": 77,
+        "4": 55,
+        "5": 11
+      }
+    },
+    {
+      "M": 12,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 12,
+        "2": 54,
+        "3": 112,
+        "4": 105,
+        "5": 36,
+        "6": 2
+      }
+    },
+    {
+      "M": 13,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 13,
+        "2": 65,
+        "3": 156,
+        "4": 182,
+        "5": 91,
+        "6": 13
+      }
+    },
+    {
+      "M": 14,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 14,
+        "2": 77,
+        "3": 210,
+        "4": 294,
+        "5": 196,
+        "6": 49,
+        "7": 2
+      }
+    },
+    {
+      "M": 15,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 15,
+        "2": 90,
+        "3": 275,
+        "4": 450,
+        "5": 378,
+        "6": 140,
+        "7": 15
+      }
+    },
+    {
+      "M": 16,
+      "independent_set_counts": {
+        "0": 1,
+        "1": 16,
+        "2": 104,
+        "3": 352,
+        "4": 660,
+        "5": 672,
+        "6": 336,
+        "7": 64,
+        "8": 2
+      }
+    }
+  ],
+  "coefficient_parameter_ranges": [
+    {
+      "N": 1,
+      "maximum_s": 0
+    },
+    {
+      "N": 2,
+      "maximum_s": 1
+    },
+    {
+      "N": 3,
+      "maximum_s": 1
+    },
+    {
+      "N": 4,
+      "maximum_s": 2
+    },
+    {
+      "N": 5,
+      "maximum_s": 2
+    },
+    {
+      "N": 6,
+      "maximum_s": 3
+    },
+    {
+      "N": 7,
+      "maximum_s": 3
+    },
+    {
+      "N": 8,
+      "maximum_s": 4
+    },
+    {
+      "N": 9,
+      "maximum_s": 4
+    },
+    {
+      "N": 10,
+      "maximum_s": 5
+    },
+    {
+      "N": 11,
+      "maximum_s": 5
+    },
+    {
+      "N": 12,
+      "maximum_s": 6
+    },
+    {
+      "N": 13,
+      "maximum_s": 6
+    },
+    {
+      "N": 14,
+      "maximum_s": 7
+    },
+    {
+      "N": 15,
+      "maximum_s": 7
+    },
+    {
+      "N": 16,
+      "maximum_s": 8
+    },
+    {
+      "N": 17,
+      "maximum_s": 8
+    },
+    {
+      "N": 18,
+      "maximum_s": 9
+    },
+    {
+      "N": 19,
+      "maximum_s": 9
+    },
+    {
+      "N": 20,
+      "maximum_s": 10
+    },
+    {
+      "N": 21,
+      "maximum_s": 10
+    },
+    {
+      "N": 22,
+      "maximum_s": 11
+    },
+    {
+      "N": 23,
+      "maximum_s": 11
+    },
+    {
+      "N": 24,
+      "maximum_s": 12
+    },
+    {
+      "N": 25,
+      "maximum_s": 12
+    },
+    {
+      "N": 26,
+      "maximum_s": 13
+    },
+    {
+      "N": 27,
+      "maximum_s": 13
+    },
+    {
+      "N": 28,
+      "maximum_s": 14
+    },
+    {
+      "N": 29,
+      "maximum_s": 14
+    },
+    {
+      "N": 30,
+      "maximum_s": 15
+    },
+    {
+      "N": 31,
+      "maximum_s": 15
+    },
+    {
+      "N": 32,
+      "maximum_s": 16
+    },
+    {
+      "N": 64,
+      "maximum_s": 32
+    },
+    {
+      "N": 128,
+      "maximum_s": 32
+    }
+  ],
+  "ten_term_threshold": {
+    "n_at_least": 34359738368,
+    "p_at_most": "n^4",
+    "excluded_fraction_upper": {
+      "numerator": 46125,
+      "denominator": 131072
+    },
+    "conclusion": "O_10 >= n^6/2",
+    "scope": "For any eligible symmetric subset of the nonzero prime field; no prime existence claim."
+  },
+  "scope": "Finite checks of independent counting implementations and exact bounds. The uniform proofs are ordinary mathematics; no Lean or separate-author verification."
+}

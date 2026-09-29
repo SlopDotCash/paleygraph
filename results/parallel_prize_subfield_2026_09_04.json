@@ -1,0 +1,162 @@
+{
+  "status": "Finite checks only; uniform proofs are in the note.",
+  "exhaustive_base_field_descent": {
+    "p": 3,
+    "q": 9,
+    "modulus": [
+      1,
+      0,
+      1
+    ],
+    "n": 3,
+    "k": 1,
+    "received_pairs_exhausted": 729,
+    "agreement_thresholds": [
+      1,
+      2,
+      3
+    ],
+    "exact_bad_set_comparisons": 2187,
+    "nonempty_bad_set_comparisons": 1512
+  },
+  "degree_one_polynomial_descent": {
+    "p": 5,
+    "q": 25,
+    "modulus": [
+      3,
+      0,
+      1
+    ],
+    "domain": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "k": 2,
+    "base_codewords_enumerated": 25,
+    "extension_codewords_enumerated": 625,
+    "received_pairs_sampled": 64,
+    "exact_bad_set_comparisons": 256
+  },
+  "alphabet_subspaces": {
+    "p": 3,
+    "q": 81,
+    "modulus": [
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    "n": 3,
+    "k": 1,
+    "domain": [
+      0,
+      1,
+      2
+    ],
+    "U_basis": [
+      1,
+      3
+    ],
+    "V_basis": [
+      1,
+      9
+    ],
+    "U": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "V": [
+      0,
+      1,
+      2,
+      9,
+      10,
+      11,
+      18,
+      19,
+      20
+    ],
+    "ratio_set": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      18,
+      19,
+      20,
+      28,
+      31,
+      34,
+      37,
+      41,
+      42,
+      46,
+      48,
+      53,
+      56,
+      59,
+      62,
+      65,
+      67,
+      69,
+      74,
+      75,
+      79
+    ],
+    "ratio_set_size": 32,
+    "counting_upper_bound": 32,
+    "received_pairs_sampled": 96,
+    "threshold_checks": 288,
+    "maximum_bad_count_observed": 3,
+    "maximum_example": [
+      {
+        "f": [
+          1,
+          3,
+          6
+        ],
+        "g": [
+          10,
+          20,
+          9
+        ],
+        "required": 1,
+        "bad": [
+          8,
+          20,
+          42
+        ]
+      }
+    ]
+  },
+  "pinned_profile": {
+    "p": 2130706433,
+    "q": 93571093019388561295270373781649880353786165192103559169,
+    "base_field_pair_mca_upper_numerator": 1,
+    "base_field_pair_mca_upper_denominator": 43915525653922199095960759124272039194517307393,
+    "denominator_exceeds_2_to_128": true
+  },
+  "source_sha256": {
+    "research/parallel-prize-subfield-2026-09-04.md": "68311e1c8e382e4bb9c910003c5a951288a09f06f63161b916ad37d38143e46c",
+    "experiments/parallel_prize_subfield_2026_09_04.py": "817e21b9c367c2eed20e6832b8557888425fd2954625ccc19511d287af75a4e3",
+    "research/prize-reduction-audit.md": "fbcb9bba2c22878ee681baf4bff1c896366e5227accd58bdcf8eb2987fc75315",
+    "research/official-profile-and-trace.md": "8027ef4c4313c3445e818fa90f869ebe636304290de612a1d2f51da8162f9f37"
+  }
+}

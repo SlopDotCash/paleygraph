@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "result_status": "PASS",
+  "input_hashes_verified": 6,
+  "local_links_verified": [
+    "research/sigma-subgroup-2026-09-05.md",
+    "research/subgroup-target.md",
+    "research/parallel4-subgroup-2026-09-04.md",
+    "experiments/parallel21_subgroup_next_input_2026_09_05.py",
+    "results/parallel21_subgroup_next_input_2026_09_05.json",
+    "research/analytic-bounds-and-amplification.md"
+  ],
+  "script_syntax": "AST parse passed",
+  "artifacts_sha256": {
+    "research/parallel21-subgroup-next-input-2026-09-05.md": "84005053f3954ee2d36eccf85b2786f1fe00d6bd956c76b23b1b40e82b991c22",
+    "experiments/parallel21_subgroup_next_input_2026_09_05.py": "5404b71d3189f8454635ddb25baaf0f8d3baa49feb4d83748efcdb947c10d359",
+    "results/parallel21_subgroup_next_input_2026_09_05.json": "29b79704857e65bba3e45911d6991b1f6ce087a865c4f92fd05a9d78938243aa"
+  },
+  "limitations": [
+    "No new subgroup cancellation exponent",
+    "No uniform opposite-free-six upper bound",
+    "Symmetric Sidon examples are not multiplicative subgroups",
+    "No official-prize bridge"
+  ]
+}

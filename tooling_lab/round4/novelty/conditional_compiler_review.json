@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "date": "2026-09-05",
+  "cases": [
+    {
+      "graph": "Paley13",
+      "n": 6,
+      "compared": 379
+    },
+    {
+      "graph": "Paley13",
+      "n": 7,
+      "compared": 379
+    },
+    {
+      "graph": "Paley17",
+      "n": 6,
+      "compared": 835
+    },
+    {
+      "graph": "Paley17",
+      "n": 8,
+      "compared": 835
+    },
+    {
+      "graph": "Paley49",
+      "n": 6,
+      "compared": 12
+    },
+    {
+      "graph": "Peisert49",
+      "n": 6,
+      "compared": 12
+    },
+    {
+      "graph": "Paley49",
+      "n": 7,
+      "compared": 3
+    },
+    {
+      "graph": "Peisert49",
+      "n": 7,
+      "compared": 3
+    }
+  ],
+  "saved_oracle_records": 2454,
+  "full_mark_boundary_records": 4,
+  "additional_generic_degree_checks": 316,
+  "mark_permutation_checks": 8,
+  "compiler_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+  "oracle_sha256": "f0814639bb27efae151c2f7c6ae27f435a84d61b9637779b1fed5cce07bb5802",
+  "reviewer_sha256": "0f7583ec66c34695ecfbf7d78f45997be02d451e424182dbe4fd4c3d7d84cbc2",
+  "elapsed_seconds": 9.511598583005252
+}

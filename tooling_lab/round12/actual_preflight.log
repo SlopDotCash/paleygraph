@@ -1,0 +1,6 @@
+{"reviewed": 500, "seconds": 30.491736332987784}
+{"reviewed": 1000, "seconds": 52.323080749993096}
+{"reviewed": 1500, "seconds": 79.55941479100147}
+{"reviewed": 2000, "seconds": 96.78723687499587}
+{"reviewed": 2500, "seconds": 112.99112325000169}
+{"status": "actual_inputs_passed", "scope": "All rank-three spaces spanned by quadruples of the saved18 actual nodes, including zeros and parallel columns. Nodes can belong to different received-word scalars; this is not a decoder or a cluster coverage theorem.", "rank_three_quadruples": 2894, "dependent_quadruples": 166, "unique_labeled_dependency_catalogues": 1825, "agreement_sets_per_catalogue": 4368, "literal_agreement_sets_evaluated": 7971600, "coordinate_triples_checked": 1620640, "previous_simple_cases_matched": 55, "minimum_over_all_rank_three_spaces": 50, "nonzero_class_count_histogram": [[10, 1], [11, 119], [12, 695], [13, 939], [14, 756], [15, 329], [16, 55]], "seconds": 120.67357508299756}

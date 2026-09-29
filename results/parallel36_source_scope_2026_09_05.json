@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-05T23:41:17.978614+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel36-shell/nist-equations.md",
+      "sha256": "810bee75308854eee6f32d2a0b2a2e623bd76d92f1a2f51d9298bf562631bdeb",
+      "urls": [
+        "https://dlmf.nist.gov/24.8.E1",
+        "https://dlmf.nist.gov/25.6.E1"
+      ],
+      "kind": "equation transcription from inspected primary web pages, not raw archive"
+    }
+  ],
+  "scope": "Only the classical Bernoulli Fourier expansion and zeta(2), zeta(4) values are imported. Centered inversion, lattice argument and finite certificate algorithm are derived locally; no novelty or independent review claimed.",
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "local_inputs": {
+    "research/period-polynomial-certificate.md": "d6a35868efb726ccf0a61a5b74ee7832bacc12112d4a6cb9c59c5ea9e828e23d",
+    "results/period_polynomial_bounds.json": "4e924958e6bae4cc590909589080c35af3a871743a81d635f8893847a477d885",
+    "research/subgroup-target.md": "3de22df57c17eb0f736cf3dba03ca9cb9e20d4915480cf7cfb1850cc67b66c05",
+    "research/parallel32-linear-triangle-length-2026-09-05.md": "2db5b4abcc20ebc263402c7d339fe4cc85768069b2d4e7a76836344395b91b00"
+  },
+  "correction": "The earlier polynomial certificate already identifies the maximizing coset and encloses M to 1e-18. Pass36 is an alternative calculation, not an improvement to that enclosure."
+}

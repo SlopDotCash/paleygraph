@@ -1,0 +1,1762 @@
+{
+  "status": "Exact reductions and structured obstruction proved; SS, CS, LM and Paley remain unproved.",
+  "arithmetic": "Integer character sums and counts; rational exponents and ratios.",
+  "subset_transfers": [
+    {
+      "p": 5,
+      "sets": 30,
+      "exact_average_checks": 150
+    },
+    {
+      "p": 7,
+      "sets": 98,
+      "exact_average_checks": 588
+    },
+    {
+      "p": 11,
+      "sets": 561,
+      "exact_average_checks": 3872
+    },
+    {
+      "p": 13,
+      "sets": 1092,
+      "exact_average_checks": 7774
+    }
+  ],
+  "rectangle_transfers": [
+    {
+      "p": 5,
+      "rectangles": 961,
+      "exact_transfer_checks": 4526,
+      "moment_maxima": [
+        {
+          "k": 1,
+          "r": 2,
+          "maximum": 4
+        },
+        {
+          "k": 1,
+          "r": 3,
+          "maximum": 4
+        },
+        {
+          "k": 2,
+          "r": 2,
+          "maximum": 18
+        },
+        {
+          "k": 2,
+          "r": 3,
+          "maximum": 66
+        },
+        {
+          "k": 3,
+          "r": 2,
+          "maximum": 18
+        },
+        {
+          "k": 3,
+          "r": 3,
+          "maximum": 66
+        }
+      ]
+    },
+    {
+      "p": 7,
+      "rectangles": 16129,
+      "exact_transfer_checks": 87884,
+      "moment_maxima": [
+        {
+          "k": 1,
+          "r": 2,
+          "maximum": 6
+        },
+        {
+          "k": 1,
+          "r": 3,
+          "maximum": 6
+        },
+        {
+          "k": 2,
+          "r": 2,
+          "maximum": 34
+        },
+        {
+          "k": 2,
+          "r": 3,
+          "maximum": 130
+        },
+        {
+          "k": 3,
+          "r": 2,
+          "maximum": 84
+        },
+        {
+          "k": 3,
+          "r": 3,
+          "maximum": 732
+        }
+      ]
+    }
+  ],
+  "structured_witnesses": [
+    {
+      "p": 101,
+      "auxiliary_prime": 5,
+      "h": 2,
+      "base": 10,
+      "container": [
+        0,
+        11,
+        42,
+        43,
+        14
+      ],
+      "no_wrap_margin": 15,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 5,
+          "permutation_minimum": 5,
+          "ordered_tuples": 5
+        },
+        {
+          "j": 2,
+          "actual": 45,
+          "permutation_minimum": 45,
+          "ordered_tuples": 25
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 79,
+          "surviving_columns": 5
+        },
+        {
+          "row": 47,
+          "surviving_columns": 5
+        },
+        {
+          "row": 20,
+          "surviving_columns": 5
+        },
+        {
+          "row": 96,
+          "surviving_columns": 4
+        },
+        {
+          "row": 36,
+          "surviving_columns": 4
+        },
+        {
+          "row": 33,
+          "surviving_columns": 4
+        },
+        {
+          "row": 5,
+          "surviving_columns": 4
+        },
+        {
+          "row": 98,
+          "surviving_columns": 3
+        }
+      ],
+      "B": [
+        11,
+        42,
+        14
+      ],
+      "U": [
+        79,
+        47,
+        20,
+        96,
+        36,
+        33,
+        5,
+        98
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 3,
+          "permutation_minimum": 3,
+          "ordered_tuples": 3
+        },
+        {
+          "j": 2,
+          "actual": 15,
+          "permutation_minimum": 15,
+          "ordered_tuples": 9
+        }
+      ],
+      "moments": [
+        {
+          "r": 3,
+          "actual": 17634,
+          "forced_row_lower_bound": 5832,
+          "gaussian_ratio_numerator": 5878,
+          "gaussian_ratio_denominator": 909
+        },
+        {
+          "r": 4,
+          "actual": 157794,
+          "forced_row_lower_bound": 52488,
+          "gaussian_ratio_numerator": 52598,
+          "gaussian_ratio_denominator": 2727
+        },
+        {
+          "r": 5,
+          "actual": 1418274,
+          "forced_row_lower_bound": 472392,
+          "gaussian_ratio_numerator": 157586,
+          "gaussian_ratio_denominator": 2727
+        }
+      ],
+      "container_row_average": [
+        4945,
+        372286
+      ]
+    },
+    {
+      "p": 127,
+      "auxiliary_prime": 7,
+      "h": 2,
+      "base": 14,
+      "container": [
+        0,
+        15,
+        58,
+        31,
+        32,
+        61,
+        20
+      ],
+      "no_wrap_margin": 5,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 7,
+          "permutation_minimum": 7,
+          "ordered_tuples": 7
+        },
+        {
+          "j": 2,
+          "actual": 91,
+          "permutation_minimum": 91,
+          "ordered_tuples": 49
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 62,
+          "surviving_columns": 7
+        },
+        {
+          "row": 102,
+          "surviving_columns": 6
+        },
+        {
+          "row": 119,
+          "surviving_columns": 5
+        },
+        {
+          "row": 67,
+          "surviving_columns": 5
+        },
+        {
+          "row": 118,
+          "surviving_columns": 4
+        },
+        {
+          "row": 99,
+          "surviving_columns": 4
+        },
+        {
+          "row": 52,
+          "surviving_columns": 4
+        },
+        {
+          "row": 46,
+          "surviving_columns": 4
+        }
+      ],
+      "B": [
+        15,
+        58,
+        31
+      ],
+      "U": [
+        62,
+        102,
+        119,
+        67,
+        118,
+        99,
+        52,
+        46
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 3,
+          "permutation_minimum": 3,
+          "ordered_tuples": 3
+        },
+        {
+          "j": 2,
+          "actual": 15,
+          "permutation_minimum": 15,
+          "ordered_tuples": 9
+        }
+      ],
+      "moments": [
+        {
+          "r": 3,
+          "actual": 22092,
+          "forced_row_lower_bound": 5832,
+          "gaussian_ratio_numerator": 7364,
+          "gaussian_ratio_denominator": 1143
+        },
+        {
+          "r": 4,
+          "actual": 197436,
+          "forced_row_lower_bound": 52488,
+          "gaussian_ratio_numerator": 65812,
+          "gaussian_ratio_denominator": 3429
+        },
+        {
+          "r": 5,
+          "actual": 1773612,
+          "forced_row_lower_bound": 472392,
+          "gaussian_ratio_numerator": 197068,
+          "gaussian_ratio_denominator": 3429
+        }
+      ],
+      "container_row_average": [
+        1592941,
+        78755875
+      ]
+    },
+    {
+      "p": 509,
+      "auxiliary_prime": 11,
+      "h": 2,
+      "base": 22,
+      "container": [
+        0,
+        23,
+        90,
+        201,
+        114,
+        71,
+        72,
+        117,
+        206,
+        97,
+        32
+      ],
+      "no_wrap_margin": 97,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 11,
+          "permutation_minimum": 11,
+          "ordered_tuples": 11
+        },
+        {
+          "j": 2,
+          "actual": 231,
+          "permutation_minimum": 231,
+          "ordered_tuples": 121
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 365,
+          "surviving_columns": 10
+        },
+        {
+          "row": 447,
+          "surviving_columns": 9
+        },
+        {
+          "row": 270,
+          "surviving_columns": 9
+        },
+        {
+          "row": 351,
+          "surviving_columns": 8
+        },
+        {
+          "row": 443,
+          "surviving_columns": 7
+        },
+        {
+          "row": 91,
+          "surviving_columns": 7
+        },
+        {
+          "row": 17,
+          "surviving_columns": 7
+        },
+        {
+          "row": 508,
+          "surviving_columns": 6
+        }
+      ],
+      "B": [
+        0,
+        23,
+        90
+      ],
+      "U": [
+        365,
+        447,
+        270,
+        351,
+        443,
+        91,
+        17,
+        508
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 3,
+          "permutation_minimum": 3,
+          "ordered_tuples": 3
+        },
+        {
+          "j": 2,
+          "actual": 15,
+          "permutation_minimum": 15,
+          "ordered_tuples": 9
+        }
+      ],
+      "moments": [
+        {
+          "r": 3,
+          "actual": 92298,
+          "forced_row_lower_bound": 5832,
+          "gaussian_ratio_numerator": 30766,
+          "gaussian_ratio_denominator": 4581
+        },
+        {
+          "r": 4,
+          "actual": 827322,
+          "forced_row_lower_bound": 52488,
+          "gaussian_ratio_numerator": 275774,
+          "gaussian_ratio_denominator": 13743
+        },
+        {
+          "r": 5,
+          "actual": 7441578,
+          "forced_row_lower_bound": 472392,
+          "gaussian_ratio_numerator": 275614,
+          "gaussian_ratio_denominator": 4581
+        }
+      ],
+      "container_row_average": [
+        13443925,
+        336163451
+      ]
+    },
+    {
+      "p": 5003,
+      "auxiliary_prime": 31,
+      "h": 2,
+      "base": 62,
+      "container": [
+        0,
+        63,
+        250,
+        561,
+        996,
+        1555,
+        316,
+        1123,
+        132,
+        1187,
+        444,
+        1747,
+        1252,
+        881,
+        634,
+        511,
+        512,
+        637,
+        886,
+        1259,
+        1756,
+        455,
+        1200,
+        147,
+        1140,
+        335,
+        1576,
+        1019,
+        586,
+        277,
+        92
+      ],
+      "no_wrap_margin": 1491,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 31,
+          "permutation_minimum": 31,
+          "ordered_tuples": 31
+        },
+        {
+          "j": 2,
+          "actual": 1891,
+          "permutation_minimum": 1891,
+          "ordered_tuples": 961
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 4745,
+          "surviving_columns": 24
+        },
+        {
+          "row": 3985,
+          "surviving_columns": 20
+        },
+        {
+          "row": 2509,
+          "surviving_columns": 18
+        },
+        {
+          "row": 2628,
+          "surviving_columns": 17
+        },
+        {
+          "row": 1228,
+          "surviving_columns": 16
+        },
+        {
+          "row": 2890,
+          "surviving_columns": 14
+        },
+        {
+          "row": 3820,
+          "surviving_columns": 13
+        },
+        {
+          "row": 2152,
+          "surviving_columns": 12
+        }
+      ],
+      "B": [
+        561,
+        1187,
+        1252,
+        881,
+        512,
+        886,
+        147
+      ],
+      "U": [
+        4745,
+        3985,
+        2509,
+        2628,
+        1228,
+        2890,
+        3820,
+        2152
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 7,
+          "permutation_minimum": 7,
+          "ordered_tuples": 7
+        },
+        {
+          "j": 2,
+          "actual": 91,
+          "permutation_minimum": 91,
+          "ordered_tuples": 49
+        }
+      ],
+      "moments": [
+        {
+          "r": 3,
+          "actual": 18176812,
+          "forced_row_lower_bound": 941192,
+          "gaussian_ratio_numerator": 18176812,
+          "gaussian_ratio_denominator": 1716029
+        },
+        {
+          "r": 4,
+          "actual": 632764132,
+          "forced_row_lower_bound": 46118408,
+          "gaussian_ratio_numerator": 90394876,
+          "gaussian_ratio_denominator": 1716029
+        },
+        {
+          "r": 5,
+          "actual": 25330501852,
+          "forced_row_lower_bound": 2259801992,
+          "gaussian_ratio_numerator": 25330501852,
+          "gaussian_ratio_denominator": 84085421
+        }
+      ],
+      "container_row_average": [
+        25046703744920,
+        208333250000003
+      ]
+    },
+    {
+      "p": 20011,
+      "auxiliary_prime": 61,
+      "h": 2,
+      "base": 122,
+      "container": [
+        0,
+        123,
+        490,
+        1101,
+        1956,
+        3055,
+        4398,
+        5985,
+        374,
+        2449,
+        4768,
+        7331,
+        2696,
+        5747,
+        1600,
+        5139,
+        1480,
+        5507,
+        2336,
+        6851,
+        4168,
+        1729,
+        6976,
+        5025,
+        3318,
+        1855,
+        636,
+        7103,
+        6372,
+        5885,
+        5642,
+        5643,
+        5888,
+        6377,
+        7110,
+        645,
+        1866,
+        3331,
+        5040,
+        6993,
+        1748,
+        4189,
+        6874,
+        2361,
+        5534,
+        1509,
+        5170,
+        1633,
+        5782,
+        2733,
+        7370,
+        4809,
+        2492,
+        419,
+        6032,
+        4447,
+        3106,
+        2009,
+        1156,
+        547,
+        182
+      ],
+      "no_wrap_margin": 5271,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 61,
+          "permutation_minimum": 61,
+          "ordered_tuples": 61
+        },
+        {
+          "j": 2,
+          "actual": 7381,
+          "permutation_minimum": 7381,
+          "ordered_tuples": 3721
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 14020,
+          "surviving_columns": 47
+        },
+        {
+          "row": 12674,
+          "surviving_columns": 37
+        },
+        {
+          "row": 18006,
+          "surviving_columns": 30
+        },
+        {
+          "row": 1240,
+          "surviving_columns": 26
+        },
+        {
+          "row": 10471,
+          "surviving_columns": 23
+        },
+        {
+          "row": 12940,
+          "surviving_columns": 20
+        },
+        {
+          "row": 12565,
+          "surviving_columns": 19
+        },
+        {
+          "row": 19350,
+          "surviving_columns": 17
+        }
+      ],
+      "B": [
+        3055,
+        374,
+        1600,
+        5139,
+        1480,
+        2336,
+        4168,
+        6976,
+        5025,
+        3318,
+        6372,
+        2733,
+        7370,
+        2492,
+        4447
+      ],
+      "U": [
+        14020,
+        12674,
+        18006,
+        1240,
+        10471,
+        12940,
+        12565,
+        19350
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 15,
+          "permutation_minimum": 15,
+          "ordered_tuples": 15
+        },
+        {
+          "j": 2,
+          "actual": 435,
+          "permutation_minimum": 435,
+          "ordered_tuples": 225
+        }
+      ],
+      "moments": [
+        {
+          "r": 3,
+          "actual": 921661260,
+          "forced_row_lower_bound": 91125000,
+          "gaussian_ratio_numerator": 61444084,
+          "gaussian_ratio_denominator": 4502475
+        },
+        {
+          "r": 4,
+          "actual": 92451758172,
+          "forced_row_lower_bound": 20503125000,
+          "gaussian_ratio_numerator": 30817252724,
+          "gaussian_ratio_denominator": 337685625
+        },
+        {
+          "r": 5,
+          "actual": 12066277471980,
+          "forced_row_lower_bound": 4613203125000,
+          "gaussian_ratio_numerator": 804418498132,
+          "gaussian_ratio_denominator": 1013056875
+        }
+      ],
+      "container_row_average": [
+        77004797209750,
+        323749797248007
+      ]
+    },
+    {
+      "p": 3001,
+      "auxiliary_prime": 5,
+      "h": 3,
+      "base": 15,
+      "container": [
+        0,
+        241,
+        737,
+        513,
+        919
+      ],
+      "no_wrap_margin": 244,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 5,
+          "permutation_minimum": 5,
+          "ordered_tuples": 5
+        },
+        {
+          "j": 2,
+          "actual": 45,
+          "permutation_minimum": 45,
+          "ordered_tuples": 25
+        },
+        {
+          "j": 3,
+          "actual": 545,
+          "permutation_minimum": 545,
+          "ordered_tuples": 125
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 2941,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2933,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2920,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2913,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2905,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2903,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2865,
+          "surviving_columns": 5
+        },
+        {
+          "row": 2836,
+          "surviving_columns": 5
+        }
+      ],
+      "B": [
+        0,
+        241,
+        737,
+        513
+      ],
+      "U": [
+        2941,
+        2933,
+        2920,
+        2913,
+        2905,
+        2903,
+        2865,
+        2836
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 4,
+          "permutation_minimum": 4,
+          "ordered_tuples": 4
+        },
+        {
+          "j": 2,
+          "actual": 28,
+          "permutation_minimum": 28,
+          "ordered_tuples": 16
+        },
+        {
+          "j": 3,
+          "actual": 256,
+          "permutation_minimum": 256,
+          "ordered_tuples": 64
+        }
+      ],
+      "moments": [
+        {
+          "r": 4,
+          "actual": 25287588,
+          "forced_row_lower_bound": 524288,
+          "gaussian_ratio_numerator": 6321897,
+          "gaussian_ratio_denominator": 192064
+        },
+        {
+          "r": 5,
+          "actual": 400027308,
+          "forced_row_lower_bound": 8388608,
+          "gaussian_ratio_numerator": 100006827,
+          "gaussian_ratio_denominator": 768256
+        },
+        {
+          "r": 6,
+          "actual": 6381911028,
+          "forced_row_lower_bound": 134217728,
+          "gaussian_ratio_numerator": 1595477757,
+          "gaussian_ratio_denominator": 3073024
+        }
+      ],
+      "container_row_average": [
+        34643415235,
+        1795202800533
+      ]
+    },
+    {
+      "p": 10009,
+      "auxiliary_prime": 7,
+      "h": 3,
+      "base": 21,
+      "container": [
+        0,
+        463,
+        527,
+        2691,
+        487,
+        2735,
+        2673
+      ],
+      "no_wrap_margin": 1804,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 7,
+          "permutation_minimum": 7,
+          "ordered_tuples": 7
+        },
+        {
+          "j": 2,
+          "actual": 91,
+          "permutation_minimum": 91,
+          "ordered_tuples": 49
+        },
+        {
+          "j": 3,
+          "actual": 1645,
+          "permutation_minimum": 1645,
+          "ordered_tuples": 343
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 9879,
+          "surviving_columns": 7
+        },
+        {
+          "row": 9856,
+          "surviving_columns": 7
+        },
+        {
+          "row": 9609,
+          "surviving_columns": 7
+        },
+        {
+          "row": 9536,
+          "surviving_columns": 7
+        },
+        {
+          "row": 9432,
+          "surviving_columns": 7
+        },
+        {
+          "row": 9240,
+          "surviving_columns": 7
+        },
+        {
+          "row": 8974,
+          "surviving_columns": 7
+        },
+        {
+          "row": 8817,
+          "surviving_columns": 7
+        }
+      ],
+      "B": [
+        0,
+        463,
+        527,
+        2691
+      ],
+      "U": [
+        9879,
+        9856,
+        9609,
+        9536,
+        9432,
+        9240,
+        8974,
+        8817
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 4,
+          "permutation_minimum": 4,
+          "ordered_tuples": 4
+        },
+        {
+          "j": 2,
+          "actual": 28,
+          "permutation_minimum": 28,
+          "ordered_tuples": 16
+        },
+        {
+          "j": 3,
+          "actual": 256,
+          "permutation_minimum": 256,
+          "ordered_tuples": 64
+        }
+      ],
+      "moments": [
+        {
+          "r": 4,
+          "actual": 84303780,
+          "forced_row_lower_bound": 524288,
+          "gaussian_ratio_numerator": 21075945,
+          "gaussian_ratio_denominator": 640576
+        },
+        {
+          "r": 5,
+          "actual": 1333657260,
+          "forced_row_lower_bound": 8388608,
+          "gaussian_ratio_numerator": 333414315,
+          "gaussian_ratio_denominator": 2562304
+        },
+        {
+          "r": 6,
+          "actual": 21277473780,
+          "forced_row_lower_bound": 134217728,
+          "gaussian_ratio_numerator": 5319368445,
+          "gaussian_ratio_denominator": 10249216
+        }
+      ],
+      "container_row_average": [
+        2601042812375,
+        95466862928009
+      ]
+    },
+    {
+      "p": 131071,
+      "auxiliary_prime": 11,
+      "h": 3,
+      "base": 33,
+      "container": [
+        0,
+        1123,
+        8846,
+        5745,
+        9970,
+        4460,
+        7728,
+        2350,
+        6839,
+        3408,
+        10933
+      ],
+      "no_wrap_margin": 98272,
+      "container_energies": [
+        {
+          "j": 1,
+          "actual": 11,
+          "permutation_minimum": 11,
+          "ordered_tuples": 11
+        },
+        {
+          "j": 2,
+          "actual": 231,
+          "permutation_minimum": 231,
+          "ordered_tuples": 121
+        },
+        {
+          "j": 3,
+          "actual": 6941,
+          "permutation_minimum": 6941,
+          "ordered_tuples": 1331
+        }
+      ],
+      "row_stages": [
+        {
+          "row": 129178,
+          "surviving_columns": 11
+        },
+        {
+          "row": 128875,
+          "surviving_columns": 11
+        },
+        {
+          "row": 125175,
+          "surviving_columns": 11
+        },
+        {
+          "row": 123075,
+          "surviving_columns": 11
+        },
+        {
+          "row": 121126,
+          "surviving_columns": 11
+        },
+        {
+          "row": 113554,
+          "surviving_columns": 11
+        },
+        {
+          "row": 112732,
+          "surviving_columns": 11
+        },
+        {
+          "row": 110662,
+          "surviving_columns": 11
+        }
+      ],
+      "B": [
+        0,
+        1123,
+        8846,
+        5745
+      ],
+      "U": [
+        129178,
+        128875,
+        125175,
+        123075,
+        121126,
+        113554,
+        112732,
+        110662
+      ],
+      "witness_energies": [
+        {
+          "j": 1,
+          "actual": 4,
+          "permutation_minimum": 4,
+          "ordered_tuples": 4
+        },
+        {
+          "j": 2,
+          "actual": 28,
+          "permutation_minimum": 28,
+          "ordered_tuples": 16
+        },
+        {
+          "j": 3,
+          "actual": 256,
+          "permutation_minimum": 256,
+          "ordered_tuples": 64
+        }
+      ],
+      "moments": [
+        {
+          "r": 4,
+          "actual": 1094458788,
+          "forced_row_lower_bound": 524288,
+          "gaussian_ratio_numerator": 273614697,
+          "gaussian_ratio_denominator": 8388544
+        },
+        {
+          "r": 5,
+          "actual": 17310742188,
+          "forced_row_lower_bound": 8388608,
+          "gaussian_ratio_numerator": 4327685547,
+          "gaussian_ratio_denominator": 33554176
+        },
+        {
+          "r": 6,
+          "actual": 276169251828,
+          "forced_row_lower_bound": 134217728,
+          "gaussian_ratio_numerator": 69042312957,
+          "gaussian_ratio_denominator": 134216704
+        }
+      ],
+      "container_row_average": [
+        25610315003169453,
+        596185611837938471
+      ]
+    }
+  ],
+  "exponent_audit": {
+    "termwise_ranks": [
+      {
+        "r": 2,
+        "theta": "1/3",
+        "termwise_beta": "1/6"
+      },
+      {
+        "r": 3,
+        "theta": "1/4",
+        "termwise_beta": "1/4"
+      },
+      {
+        "r": 4,
+        "theta": "1/5",
+        "termwise_beta": "3/10"
+      },
+      {
+        "r": 5,
+        "theta": "1/6",
+        "termwise_beta": "1/3"
+      },
+      {
+        "r": 6,
+        "theta": "1/7",
+        "termwise_beta": "5/14"
+      },
+      {
+        "r": 7,
+        "theta": "1/8",
+        "termwise_beta": "3/8"
+      },
+      {
+        "r": 8,
+        "theta": "1/9",
+        "termwise_beta": "7/18"
+      },
+      {
+        "r": 9,
+        "theta": "1/10",
+        "termwise_beta": "2/5"
+      },
+      {
+        "r": 10,
+        "theta": "1/11",
+        "termwise_beta": "9/22"
+      },
+      {
+        "r": 11,
+        "theta": "1/12",
+        "termwise_beta": "5/12"
+      },
+      {
+        "r": 12,
+        "theta": "1/13",
+        "termwise_beta": "11/26"
+      },
+      {
+        "r": 13,
+        "theta": "1/14",
+        "termwise_beta": "3/7"
+      },
+      {
+        "r": 14,
+        "theta": "1/15",
+        "termwise_beta": "13/30"
+      },
+      {
+        "r": 15,
+        "theta": "1/16",
+        "termwise_beta": "7/16"
+      },
+      {
+        "r": 16,
+        "theta": "1/17",
+        "termwise_beta": "15/34"
+      },
+      {
+        "r": 17,
+        "theta": "1/18",
+        "termwise_beta": "4/9"
+      },
+      {
+        "r": 18,
+        "theta": "1/19",
+        "termwise_beta": "17/38"
+      },
+      {
+        "r": 19,
+        "theta": "1/20",
+        "termwise_beta": "9/20"
+      },
+      {
+        "r": 20,
+        "theta": "1/21",
+        "termwise_beta": "19/42"
+      },
+      {
+        "r": 21,
+        "theta": "1/22",
+        "termwise_beta": "5/11"
+      },
+      {
+        "r": 22,
+        "theta": "1/23",
+        "termwise_beta": "21/46"
+      },
+      {
+        "r": 23,
+        "theta": "1/24",
+        "termwise_beta": "11/24"
+      },
+      {
+        "r": 24,
+        "theta": "1/25",
+        "termwise_beta": "23/50"
+      },
+      {
+        "r": 25,
+        "theta": "1/26",
+        "termwise_beta": "6/13"
+      },
+      {
+        "r": 26,
+        "theta": "1/27",
+        "termwise_beta": "25/54"
+      },
+      {
+        "r": 27,
+        "theta": "1/28",
+        "termwise_beta": "13/28"
+      },
+      {
+        "r": 28,
+        "theta": "1/29",
+        "termwise_beta": "27/58"
+      },
+      {
+        "r": 29,
+        "theta": "1/30",
+        "termwise_beta": "7/15"
+      },
+      {
+        "r": 30,
+        "theta": "1/31",
+        "termwise_beta": "29/62"
+      },
+      {
+        "r": 31,
+        "theta": "1/32",
+        "termwise_beta": "15/32"
+      },
+      {
+        "r": 32,
+        "theta": "1/33",
+        "termwise_beta": "31/66"
+      },
+      {
+        "r": 33,
+        "theta": "1/34",
+        "termwise_beta": "8/17"
+      },
+      {
+        "r": 34,
+        "theta": "1/35",
+        "termwise_beta": "33/70"
+      },
+      {
+        "r": 35,
+        "theta": "1/36",
+        "termwise_beta": "17/36"
+      },
+      {
+        "r": 36,
+        "theta": "1/37",
+        "termwise_beta": "35/74"
+      },
+      {
+        "r": 37,
+        "theta": "1/38",
+        "termwise_beta": "9/19"
+      },
+      {
+        "r": 38,
+        "theta": "1/39",
+        "termwise_beta": "37/78"
+      },
+      {
+        "r": 39,
+        "theta": "1/40",
+        "termwise_beta": "19/40"
+      },
+      {
+        "r": 40,
+        "theta": "1/41",
+        "termwise_beta": "39/82"
+      },
+      {
+        "r": 41,
+        "theta": "1/42",
+        "termwise_beta": "10/21"
+      },
+      {
+        "r": 42,
+        "theta": "1/43",
+        "termwise_beta": "41/86"
+      },
+      {
+        "r": 43,
+        "theta": "1/44",
+        "termwise_beta": "21/44"
+      },
+      {
+        "r": 44,
+        "theta": "1/45",
+        "termwise_beta": "43/90"
+      },
+      {
+        "r": 45,
+        "theta": "1/46",
+        "termwise_beta": "11/23"
+      },
+      {
+        "r": 46,
+        "theta": "1/47",
+        "termwise_beta": "45/94"
+      },
+      {
+        "r": 47,
+        "theta": "1/48",
+        "termwise_beta": "23/48"
+      },
+      {
+        "r": 48,
+        "theta": "1/49",
+        "termwise_beta": "47/98"
+      },
+      {
+        "r": 49,
+        "theta": "1/50",
+        "termwise_beta": "12/25"
+      },
+      {
+        "r": 50,
+        "theta": "1/51",
+        "termwise_beta": "49/102"
+      },
+      {
+        "r": 51,
+        "theta": "1/52",
+        "termwise_beta": "25/52"
+      },
+      {
+        "r": 52,
+        "theta": "1/53",
+        "termwise_beta": "51/106"
+      },
+      {
+        "r": 53,
+        "theta": "1/54",
+        "termwise_beta": "13/27"
+      },
+      {
+        "r": 54,
+        "theta": "1/55",
+        "termwise_beta": "53/110"
+      },
+      {
+        "r": 55,
+        "theta": "1/56",
+        "termwise_beta": "27/56"
+      },
+      {
+        "r": 56,
+        "theta": "1/57",
+        "termwise_beta": "55/114"
+      },
+      {
+        "r": 57,
+        "theta": "1/58",
+        "termwise_beta": "14/29"
+      },
+      {
+        "r": 58,
+        "theta": "1/59",
+        "termwise_beta": "57/118"
+      },
+      {
+        "r": 59,
+        "theta": "1/60",
+        "termwise_beta": "29/60"
+      },
+      {
+        "r": 60,
+        "theta": "1/61",
+        "termwise_beta": "59/122"
+      },
+      {
+        "r": 61,
+        "theta": "1/62",
+        "termwise_beta": "15/31"
+      },
+      {
+        "r": 62,
+        "theta": "1/63",
+        "termwise_beta": "61/126"
+      },
+      {
+        "r": 63,
+        "theta": "1/64",
+        "termwise_beta": "31/64"
+      },
+      {
+        "r": 64,
+        "theta": "1/65",
+        "termwise_beta": "63/130"
+      },
+      {
+        "r": 65,
+        "theta": "1/66",
+        "termwise_beta": "16/33"
+      },
+      {
+        "r": 66,
+        "theta": "1/67",
+        "termwise_beta": "65/134"
+      },
+      {
+        "r": 67,
+        "theta": "1/68",
+        "termwise_beta": "33/68"
+      },
+      {
+        "r": 68,
+        "theta": "1/69",
+        "termwise_beta": "67/138"
+      },
+      {
+        "r": 69,
+        "theta": "1/70",
+        "termwise_beta": "17/35"
+      },
+      {
+        "r": 70,
+        "theta": "1/71",
+        "termwise_beta": "69/142"
+      },
+      {
+        "r": 71,
+        "theta": "1/72",
+        "termwise_beta": "35/72"
+      },
+      {
+        "r": 72,
+        "theta": "1/73",
+        "termwise_beta": "71/146"
+      },
+      {
+        "r": 73,
+        "theta": "1/74",
+        "termwise_beta": "18/37"
+      },
+      {
+        "r": 74,
+        "theta": "1/75",
+        "termwise_beta": "73/150"
+      },
+      {
+        "r": 75,
+        "theta": "1/76",
+        "termwise_beta": "37/76"
+      },
+      {
+        "r": 76,
+        "theta": "1/77",
+        "termwise_beta": "75/154"
+      },
+      {
+        "r": 77,
+        "theta": "1/78",
+        "termwise_beta": "19/39"
+      },
+      {
+        "r": 78,
+        "theta": "1/79",
+        "termwise_beta": "77/158"
+      },
+      {
+        "r": 79,
+        "theta": "1/80",
+        "termwise_beta": "39/80"
+      },
+      {
+        "r": 80,
+        "theta": "1/81",
+        "termwise_beta": "79/162"
+      },
+      {
+        "r": 81,
+        "theta": "1/82",
+        "termwise_beta": "20/41"
+      },
+      {
+        "r": 82,
+        "theta": "1/83",
+        "termwise_beta": "81/166"
+      },
+      {
+        "r": 83,
+        "theta": "1/84",
+        "termwise_beta": "41/84"
+      },
+      {
+        "r": 84,
+        "theta": "1/85",
+        "termwise_beta": "83/170"
+      },
+      {
+        "r": 85,
+        "theta": "1/86",
+        "termwise_beta": "21/43"
+      },
+      {
+        "r": 86,
+        "theta": "1/87",
+        "termwise_beta": "85/174"
+      },
+      {
+        "r": 87,
+        "theta": "1/88",
+        "termwise_beta": "43/88"
+      },
+      {
+        "r": 88,
+        "theta": "1/89",
+        "termwise_beta": "87/178"
+      },
+      {
+        "r": 89,
+        "theta": "1/90",
+        "termwise_beta": "22/45"
+      },
+      {
+        "r": 90,
+        "theta": "1/91",
+        "termwise_beta": "89/182"
+      },
+      {
+        "r": 91,
+        "theta": "1/92",
+        "termwise_beta": "45/92"
+      },
+      {
+        "r": 92,
+        "theta": "1/93",
+        "termwise_beta": "91/186"
+      },
+      {
+        "r": 93,
+        "theta": "1/94",
+        "termwise_beta": "23/47"
+      },
+      {
+        "r": 94,
+        "theta": "1/95",
+        "termwise_beta": "93/190"
+      },
+      {
+        "r": 95,
+        "theta": "1/96",
+        "termwise_beta": "47/96"
+      },
+      {
+        "r": 96,
+        "theta": "1/97",
+        "termwise_beta": "95/194"
+      },
+      {
+        "r": 97,
+        "theta": "1/98",
+        "termwise_beta": "24/49"
+      },
+      {
+        "r": 98,
+        "theta": "1/99",
+        "termwise_beta": "97/198"
+      },
+      {
+        "r": 99,
+        "theta": "1/100",
+        "termwise_beta": "49/100"
+      },
+      {
+        "r": 100,
+        "theta": "1/101",
+        "termwise_beta": "99/202"
+      }
+    ],
+    "conditional_examples": [
+      {
+        "epsilon": "3/4",
+        "r": 6,
+        "SS_beta": "1/7",
+        "CS_alpha": "1/6",
+        "delta": "1/64"
+      },
+      {
+        "epsilon": "1/2",
+        "r": 8,
+        "SS_beta": "1/9",
+        "CS_alpha": "1/8",
+        "delta": "1/128"
+      },
+      {
+        "epsilon": "1/3",
+        "r": 12,
+        "SS_beta": "1/13",
+        "CS_alpha": "1/12",
+        "delta": "1/288"
+      },
+      {
+        "epsilon": "1/4",
+        "r": 16,
+        "SS_beta": "1/17",
+        "CS_alpha": "1/16",
+        "delta": "1/512"
+      },
+      {
+        "epsilon": "1/10",
+        "r": 40,
+        "SS_beta": "1/41",
+        "CS_alpha": "1/40",
+        "delta": "1/3200"
+      },
+      {
+        "epsilon": "1/20",
+        "r": 80,
+        "SS_beta": "1/81",
+        "CS_alpha": "1/80",
+        "delta": "1/12800"
+      },
+      {
+        "epsilon": "1/50",
+        "r": 200,
+        "SS_beta": "1/201",
+        "CS_alpha": "1/200",
+        "delta": "1/80000"
+      },
+      {
+        "epsilon": "1/100",
+        "r": 400,
+        "SS_beta": "1/401",
+        "CS_alpha": "1/400",
+        "delta": "1/320000"
+      }
+    ]
+  },
+  "source_sha256": {
+    "research/parallel5-classical-2026-09-04.md": "91dda305c8d3cfa72ca4493e61deb7e816c821e146e96701ac7b8376cf4f9eb9",
+    "experiments/parallel5_classical_2026_09_04.py": "ea402f6f236d8d0bc37f9e207a619d3ad4e0f69911c670ee7a90d689b87d09e4"
+  }
+}

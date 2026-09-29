@@ -1,0 +1,461 @@
+{
+  "p": 101,
+  "marks": [
+    0
+  ],
+  "cells": [
+    {
+      "pattern": [
+        -1
+      ],
+      "size": 50
+    },
+    {
+      "pattern": [
+        0
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1
+      ],
+      "size": 50
+    }
+  ],
+  "relations": [
+    {
+      "left_pattern": [
+        -1
+      ],
+      "right_pattern": [
+        -1
+      ],
+      "sign": -1,
+      "count": 1200
+    },
+    {
+      "left_pattern": [
+        -1
+      ],
+      "right_pattern": [
+        -1
+      ],
+      "sign": 0,
+      "count": 50
+    },
+    {
+      "left_pattern": [
+        -1
+      ],
+      "right_pattern": [
+        -1
+      ],
+      "sign": 1,
+      "count": 1250
+    },
+    {
+      "left_pattern": [
+        -1
+      ],
+      "right_pattern": [
+        0
+      ],
+      "sign": -1,
+      "count": 50
+    },
+    {
+      "left_pattern": [
+        -1
+      ],
+      "right_pattern": [
+        1
+      ],
+      "sign": -1,
+      "count": 1250
+    },
+    {
+      "left_pattern": [
+        -1
+      ],
+      "right_pattern": [
+        1
+      ],
+      "sign": 1,
+      "count": 1250
+    },
+    {
+      "left_pattern": [
+        0
+      ],
+      "right_pattern": [
+        -1
+      ],
+      "sign": -1,
+      "count": 50
+    },
+    {
+      "left_pattern": [
+        0
+      ],
+      "right_pattern": [
+        0
+      ],
+      "sign": 0,
+      "count": 1
+    },
+    {
+      "left_pattern": [
+        0
+      ],
+      "right_pattern": [
+        1
+      ],
+      "sign": 1,
+      "count": 50
+    },
+    {
+      "left_pattern": [
+        1
+      ],
+      "right_pattern": [
+        -1
+      ],
+      "sign": -1,
+      "count": 1250
+    },
+    {
+      "left_pattern": [
+        1
+      ],
+      "right_pattern": [
+        -1
+      ],
+      "sign": 1,
+      "count": 1250
+    },
+    {
+      "left_pattern": [
+        1
+      ],
+      "right_pattern": [
+        0
+      ],
+      "sign": 1,
+      "count": 50
+    },
+    {
+      "left_pattern": [
+        1
+      ],
+      "right_pattern": [
+        1
+      ],
+      "sign": -1,
+      "count": 1250
+    },
+    {
+      "left_pattern": [
+        1
+      ],
+      "right_pattern": [
+        1
+      ],
+      "sign": 0,
+      "count": 50
+    },
+    {
+      "left_pattern": [
+        1
+      ],
+      "right_pattern": [
+        1
+      ],
+      "sign": 1,
+      "count": 1200
+    }
+  ],
+  "sampled_rows": [
+    {
+      "x": 0,
+      "cell_character_sums": [
+        -50,
+        0,
+        50
+      ]
+    },
+    {
+      "x": 1,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 2,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 3,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 7,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 9,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 19,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 22,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 26,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 27,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 29,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 31,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 33,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 40,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 41,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 42,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 43,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 44,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 49,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 65,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 66,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 72,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 76,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 79,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 86,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 87,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "x": 89,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 90,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 93,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 98,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 99,
+      "cell_character_sums": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "x": 100,
+      "cell_character_sums": [
+        0,
+        1,
+        -1
+      ]
+    }
+  ],
+  "metadata": {
+    "ordered_row_pairs": true,
+    "field_primality_method": "trial division through sqrt(p)",
+    "ntt_modulus": 998244353,
+    "ntt_primitive_root": 3,
+    "ntt_length": 256,
+    "ntt_transforms": 5,
+    "singleton_cells_direct": 1,
+    "full_cells_direct": 0,
+    "minimum_integer_recovery_margin": 998244253,
+    "pair_count_bit_bound": 14,
+    "backend_elapsed_seconds": 9.425e-05
+  },
+  "provenance": {
+    "input_sha256": "6a122ce1ad981f1ac4099ad0e59f22541163a12d8f0491dda9c22dff40e1d65e",
+    "input_file": "input_p101_marks_0.json",
+    "backend_source_sha256": "1a73fbcad35b4e1e00e0073c1f853c47f492b9ed457125ee9d48589a66e156e0",
+    "backend_executable_sha256": "5ff7ae01559c1de1064cdeca422a151742330b652853c7c860ac0f6af408890f",
+    "runner_source_sha256": "8569cd8d35a7c537e9e97bd356d1492a4c41739916b819c18c539529600341fe",
+    "wall_seconds": 0.0039446250011678785,
+    "children_peak_rss_bytes": 6897664,
+    "children_peak_rss_scope": "maximum over this runner process lifetime, not isolated per case",
+    "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "python_version": "3.14.6"
+  }
+}

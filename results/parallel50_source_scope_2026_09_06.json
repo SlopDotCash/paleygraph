@@ -1,0 +1,37 @@
+{
+  "observed_at_utc": "2026-09-06T17:16:03.807008+00:00",
+  "root_derivations": [
+    "Baseline-subtracted Cauchy estimate T_s<=2k^2+sqrt(E_k sY_s).",
+    "Two-sided endpoint energy recovery from any intermediate dyadic subgroup.",
+    "Comparison with the previous sufficient weighted criterion and limitations of scalar recovery.",
+    "Exact80/87 power and4/29 logarithmic cutoff using the existing49/20 energy input."
+  ],
+  "imported_input": {
+    "source": "MRSS arXiv1712.00410",
+    "url": "https://arxiv.org/abs/1712.00410",
+    "location": "Corollary12 equation32",
+    "statement": "E(Gamma)<<|Gamma|^(49/20) log^(1/5)|Gamma|",
+    "hypothesis": "Gamma multiplicative subgroup of F_p^*, |Gamma|<=sqrt(p)",
+    "verification": "Complete archived primary text reread; its bytes and the existing primary PDF are pinned below.",
+    "application": "N^4/4<=p<=N^4, N>=4 and M<=N imply M<=sqrt(p)."
+  },
+  "search_scope": "A bounded primary-source search returned energy and additive-decomposition papers. No new quantitative estimate was imported from the search results.",
+  "dependency_hashes": {
+    "research/parallel48-collision-eliminants-2026-09-06.md": "956846bd5f9592536730b22fb3e916c36f60b7a3d212ab3a7828b88b251a785a",
+    "research/parallel49-critical-content-2026-09-06.md": "1a32594bd7c7d857994652029702ba8cdc9430d3eb4f15ab101748f5446a0522",
+    "research/dyadic-descent-and-mixed-energy.md": "8b31a1bad9fcd1c457e442ace22214fa094395b8e2958b03589ce3b14bd13924",
+    "research/parallel43-energy-prime-exceptions-2026-09-06.md": "f865b3247e18b0e1478d6b3efee8e1aa786e12f4b1a7dc76adf4ac814342ce59",
+    "results/parallel48_collision_eliminants_2026_09_06.json": "fca20afee78a45497e649760a24ab48b106a076f29f9f117199cc6f80ee61a0d",
+    "results/parallel49_pass_audit_2026_09_06.json": "eac1cfb5b03a216594e3e39a2c6ad85d5616cdaa43cb641d692d1903932e4efc",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.txt": "b58780e7733f9a82373ab98a92d6b60e3c8ed6445dfc79b5291b8ab188acff1c"
+  },
+  "primary_source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "checker_arithmetic": "Python standard library integer arithmetic, Fraction and isqrt; no compiled polynomial backend or numerical root approximation.",
+  "no_uniform_improvement_claimed": true,
+  "main_source_manifest_unchanged": true
+}

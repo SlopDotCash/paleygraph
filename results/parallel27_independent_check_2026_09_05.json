@@ -1,0 +1,238 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-05T19:32:37.079583+00:00",
+  "seconds": 93.67383995899581,
+  "toolchain": "leanprover/lean4:v4.30.0",
+  "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "axioms_by_theorem": {
+    "PaleyBalancedSplit.two_equations_force_collision": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyBalancedSplit.two_balanced_splits_force_collision": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaleyBalancedSplit.no_two_balanced_splits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "direct_cases": [
+    {
+      "p": 5,
+      "n": 4,
+      "E3": 820,
+      "T6": 400,
+      "J6": 360,
+      "repeated_R6": 60,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 40,
+      "seconds": 0.19601074999081902
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "E3": 15560,
+      "T6": 5120,
+      "J6": 6720,
+      "repeated_R6": 3720,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 254,
+      "seconds": 0.015888916997937486
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "E3": 191680,
+      "T6": 50560,
+      "J6": 69120,
+      "repeated_R6": 60480,
+      "distinct_balanced_R6": 11520,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 1225,
+      "seconds": 0.01253954200365115
+    },
+    {
+      "p": 73,
+      "n": 4,
+      "E3": 400,
+      "T6": 400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 15,
+      "seconds": 0.009955458997865207
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "E3": 5120,
+      "T6": 5120,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 69,
+      "seconds": 0.015589916991302744
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "E3": 51040,
+      "T6": 50560,
+      "J6": 0,
+      "repeated_R6": 480,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 305,
+      "seconds": 0.011813374992925674
+    },
+    {
+      "p": 37201,
+      "n": 16,
+      "E3": 51040,
+      "T6": 50560,
+      "J6": 0,
+      "repeated_R6": 480,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 305,
+      "seconds": 0.004956457996740937
+    },
+    {
+      "p": 6700417,
+      "n": 64,
+      "E3": 4816960,
+      "T6": 3750400,
+      "J6": 698880,
+      "repeated_R6": 367680,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 6965,
+      "seconds": 0.00706091700703837
+    },
+    {
+      "p": 7204033,
+      "n": 64,
+      "E3": 5486080,
+      "T6": 3750400,
+      "J6": 1382400,
+      "repeated_R6": 168960,
+      "distinct_balanced_R6": 184320,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 7382,
+      "seconds": 0.007865208011935465
+    },
+    {
+      "p": 67403009,
+      "n": 128,
+      "E3": 37268480,
+      "T6": 30725120,
+      "J6": 5713920,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 552960,
+      "distinct_unbalanced_R6": 276480,
+      "normalized_multiset_candidates": 24581,
+      "seconds": 0.009399167000083253
+    },
+    {
+      "p": 1073748737,
+      "n": 256,
+      "E3": 249088000,
+      "T6": 248719360,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 368640,
+      "normalized_multiset_candidates": 81657,
+      "seconds": 0.0743979590042727
+    },
+    {
+      "p": 17179869697,
+      "n": 512,
+      "E3": 2003333120,
+      "T6": 2001489920,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 1843200,
+      "normalized_multiset_candidates": 327213,
+      "seconds": 3.0603626660013106
+    },
+    {
+      "p": 34359753217,
+      "n": 512,
+      "E3": 2002227200,
+      "T6": 2001489920,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 737280,
+      "normalized_multiset_candidates": 327033,
+      "seconds": 2.394995624999865
+    },
+    {
+      "p": 51539610113,
+      "n": 512,
+      "E3": 2001489920,
+      "T6": 2001489920,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 0,
+      "normalized_multiset_candidates": 326913,
+      "seconds": 1.3311047500028508
+    },
+    {
+      "p": 274877908993,
+      "n": 1024,
+      "E3": 16064880640,
+      "T6": 16058982400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 5898240,
+      "normalized_multiset_candidates": 1309665,
+      "seconds": 29.10179812500428
+    },
+    {
+      "p": 549755860993,
+      "n": 1024,
+      "E3": 16061194240,
+      "T6": 16058982400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 2211840,
+      "normalized_multiset_candidates": 1309365,
+      "seconds": 17.549062584002968
+    },
+    {
+      "p": 824633730049,
+      "n": 1024,
+      "E3": 16060456960,
+      "T6": 16058982400,
+      "J6": 0,
+      "repeated_R6": 0,
+      "distinct_balanced_R6": 0,
+      "distinct_unbalanced_R6": 1474560,
+      "normalized_multiset_candidates": 1309305,
+      "seconds": 11.744825874993694
+    }
+  ],
+  "input_sha256": {
+    "prove2me/Check_paley_balanced_split_collision.lean": "8c05bed45d049519ccc4403dff2d79564d4a37cf3362ca3618be34f69c4af8d0",
+    "experiments/parallel27_direct_six.cpp": "7a0bcf565dd070bdf343ec9662eae4f546e5546ede8cd5edfbb2c0b97123c801",
+    "experiments/parallel27_independent_check_2026_09_05.py": "6682983416d696288d02ef6fd20056db50247954cad15578e110aba4f7b7c82e",
+    "results/parallel27_six_distinct_2026_09_05.json": "a4ea00eebd6bb78929859869cef61ae1738bf552cf023c3ed399ef44a2623b6c",
+    "results/parallel27_balanced_split_lean_2026_09_05.log": "d6d11024776e3001e37d37b4cbdca66515c0a1a28c273b75621264f22f23ac51"
+  },
+  "scope": "Same-author independently implemented integer enumeration, plus Lean algebraic core. Full combinatorial counting formula is an ordinary proof; no uniform upper bound."
+}

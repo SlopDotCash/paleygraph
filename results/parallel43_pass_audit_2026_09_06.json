@@ -1,0 +1,57 @@
+{
+  "observed_at_utc": "2026-09-06T08:10:21.063111+00:00",
+  "classification": "progress: smaller exceptional-prime bound for the triangle target, quartic zero-diagonal witness, and exact lifted collision accounting",
+  "previous_turn_classification": "progress: weighted norm budget, exact affine recovery certificate, and verified live Lean diagnostic",
+  "goal_achieved": false,
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "quartic_absolute_exception_exponent": "5/3",
+  "previous_quartic_absolute_exception_exponent": "63/31",
+  "uniform_estimate_for_every_prime_proved": false,
+  "review_scope": "Root ordinary proof review, primary-page visual inspection, independent numerical methods; no separate-agent, Lean or external peer review.",
+  "finite_scope": {
+    "independent_norm_valuation_comparisons": 21,
+    "larger_lift_cases": 3,
+    "exact_energy_triangle_cases": 4,
+    "quartic_witness_p": 278177,
+    "quartic_witness_n": 32,
+    "quartic_witness_X": 72,
+    "quartic_witness_diagonal_rich_mass": 0
+  },
+  "no_lean_build": true,
+  "no_process_changes": true,
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": 12,
+  "local_links_checked": 14,
+  "artifacts_sha256": {
+    "experiments/parallel43_pointwise_inputs.py": "f8f510bcc9f6473dc7e1137f318c3f6204f3db7ba05ffa97875d04a0476ba7bb",
+    "research/parallel43-energy-prime-exceptions-2026-09-06.md": "f865b3247e18b0e1478d6b3efee8e1aa786e12f4b1a7dc76adf4ac814342ce59",
+    "research/parallel43-pass-summary-2026-09-06.md": "29b0bd63871ec91bc3b982d3836b2482899585d43c1c3f4e89676c5ec5f6ef31",
+    "research/parallel43-quartic-collisions-2026-09-06.md": "9d58c7568b1c55ddc539022b0abccab1955549b057791a61a757809fd54d3f47",
+    "research/parallel43-review-2026-09-06.md": "ab93fe19ad474ce6bbe58536581e299c2f48da79a8bd7b3e16f3cfb8affb7ad7",
+    "results/parallel43_pointwise_inputs_2026_09_06.json": "4afd44184863bf393da370292eaac12edc32416a6d9ce40d9cfdc651fdd133d3",
+    "results/parallel43_prior_state_2026_09_06.json": "e6799ac82db5de95d7cfc38a3df4bcd519b644120705af90b5ed5468ac7acc89",
+    "results/parallel43_source_scope_2026_09_06.json": "ad5a491e43494d7f1737531751a0e25e04856733125b2540ca9ef157ae134087"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "52dc8bdc31b737b543534f259c30701b8e15a52872a967be00c51c46d8d02516",
+      "after": "df573d097ab985957f362a3d7eac4998f5ad26c05a94f400215fa81e0afdca50"
+    },
+    "research/frontier.md": {
+      "before": "f6a7f6b5fac981b731ee522adef307d75b1dd20cee8f53b976a4ec15b906215c",
+      "after": "945c6e95aacd6045f708e8759ceb3303e3d70a9f993274e43721161a470d7644"
+    },
+    "research/source-audit.md": {
+      "before": "0ab7435f328d0886cb7a383a9f0208094c570be7551fc98b7b6935cd77a48297",
+      "after": "d44100d486e6e8d0303f639990b33404b7e85df308a27ec8bcf522f128cd7f21"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "bc24a36dcef4c16ed9d1a60d4de3c4922dbb5a2eec6665794b29450a08f2ba7e",
+      "after": "2031ef1b63e1c3aed88d39d275fef3e55c75956dd080cead89b22a50c86d35c7"
+    }
+  },
+  "source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "next_action": "Control individual exceptional primes or exploit stronger actual joint incidence restrictions; diagonal domination is now ruled out within the quartic range."
+}

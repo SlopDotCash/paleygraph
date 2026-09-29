@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "scope": "Exact full-shell mean using only the previously verified row-count histogram, compared with all new pair-mean numerators.",
+  "cases": [
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "arithmetic_progression",
+      "distance_two_final_sets": 12490425,
+      "mean": [
+        4363,
+        499617
+      ]
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "seeded_uniform",
+      "distance_two_final_sets": 12490425,
+      "mean": [
+        18041,
+        4163475
+      ]
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "arithmetic_progression",
+      "distance_two_final_sets": 257576155200,
+      "mean": [
+        216731634716,
+        21294325
+      ]
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "seeded_uniform",
+      "distance_two_final_sets": 257576155200,
+      "mean": [
+        4262139271939,
+        511063800
+      ]
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "arithmetic_progression",
+      "distance_two_final_sets": 232500697500465,
+      "mean": [
+        117380459278759779499,
+        25833410833385
+      ]
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "seeded_uniform",
+      "distance_two_final_sets": 232500697500465,
+      "mean": [
+        -98200533484488488261,
+        232500697500465
+      ]
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "arithmetic_progression",
+      "distance_two_final_sets": 27498133131022225,
+      "mean": [
+        -2097463766822305083789476,
+        27498133131022225
+      ]
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "seeded_uniform",
+      "distance_two_final_sets": 27498133131022225,
+      "mean": [
+        165545254765714796064364,
+        27498133131022225
+      ]
+    }
+  ],
+  "source_sha256": {
+    "shell_mean_review.py": "12dd041c9534ef846721ab372afc1796fcb7e6447fc60cdf9254b416994ccf13"
+  },
+  "input_sha256": {
+    "../round7/local_edits/results.json": "6f1be8e1e1ad71e7e63665403450958da039d2864785bf420ed9c1cd9c8f0783",
+    "scale_results.json": "34ec73ef082e35cacbe488f2ae6da36cbe2af9bb2209dbb87a9cb0f1d65424a8"
+  }
+}

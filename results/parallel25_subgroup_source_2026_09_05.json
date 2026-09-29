@@ -1,0 +1,8 @@
+{
+  "name": "parallel25-mrss-1712.00410v1-html",
+  "url": "https://arxiv.org/html/1712.00410v1",
+  "path": "sources/parallel25-mrss-1712.00410v1.html",
+  "bytes": 586339,
+  "sha256": "d97c080d3222fa4c19ff8d26b684a2d9fc05b0810dd20a7d6dad934a1211fdbf",
+  "version_note": "Root read live primary HTML Theorem3 and Section2 energy convention in pass25. Imported only E(H)<<n^(49/20)log^(1/5)n for n<=sqrt(p), not the distinct cubic energy. Existing PDF/text archives retained unchanged; no PDF used by root."
+}

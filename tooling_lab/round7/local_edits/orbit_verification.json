@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "scope": "Independent all-translation canonicalization, Burnside cycle counting and literal derivative profiles on every square-affine representative; no production import.",
+  "cases": [
+    {
+      "q": 17,
+      "n": 6,
+      "square_affine_orbits": 98,
+      "full_affine_orbits": 49,
+      "summary_fibres": 98,
+      "summary_fibres_by_full_affine_orbits": {
+        "1": 98
+      },
+      "non_affine_pairs": []
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "square_affine_orbits": 150,
+      "full_affine_orbits": 75,
+      "summary_fibres": 148,
+      "summary_fibres_by_full_affine_orbits": {
+        "1": 146,
+        "2": 2
+      },
+      "non_affine_pairs": [
+        {
+          "profiles": [
+            {
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                10
+              ],
+              "neighbour_histogram": [
+                [
+                  -19,
+                  2
+                ],
+                [
+                  -11,
+                  10
+                ],
+                [
+                  -3,
+                  40
+                ],
+                [
+                  5,
+                  18
+                ]
+              ],
+              "raw_sums_through_four": [
+                70,
+                -178,
+                2742,
+                -25858,
+                421542
+              ]
+            },
+            {
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                15
+              ],
+              "neighbour_histogram": [
+                [
+                  -19,
+                  2
+                ],
+                [
+                  -11,
+                  10
+                ],
+                [
+                  -3,
+                  40
+                ],
+                [
+                  5,
+                  18
+                ]
+              ],
+              "raw_sums_through_four": [
+                70,
+                -178,
+                2742,
+                -25858,
+                421542
+              ]
+            }
+          ],
+          "all_neighbour_histograms_equal": true
+        },
+        {
+          "profiles": [
+            {
+              "selected": [
+                0,
+                1,
+                2,
+                4,
+                7,
+                12,
+                14
+              ],
+              "neighbour_histogram": [
+                [
+                  -19,
+                  2
+                ],
+                [
+                  -11,
+                  10
+                ],
+                [
+                  -3,
+                  40
+                ],
+                [
+                  5,
+                  18
+                ]
+              ],
+              "raw_sums_through_four": [
+                70,
+                -178,
+                2742,
+                -25858,
+                421542
+              ]
+            },
+            {
+              "selected": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                7,
+                12
+              ],
+              "neighbour_histogram": [
+                [
+                  -19,
+                  2
+                ],
+                [
+                  -11,
+                  10
+                ],
+                [
+                  -3,
+                  40
+                ],
+                [
+                  5,
+                  18
+                ]
+              ],
+              "raw_sums_through_four": [
+                70,
+                -178,
+                2742,
+                -25858,
+                421542
+              ]
+            }
+          ],
+          "all_neighbour_histograms_equal": true
+        }
+      ]
+    },
+    {
+      "q": 17,
+      "n": 8,
+      "square_affine_orbits": 190,
+      "full_affine_orbits": 95,
+      "summary_fibres": 190,
+      "summary_fibres_by_full_affine_orbits": {
+        "1": 190
+      },
+      "non_affine_pairs": []
+    }
+  ],
+  "source_sha256": {
+    "review_orbits.py": "97dd8eda997326443909346c1c9b0e0ef43ceb57805897ad1dcfd0a45b20d535",
+    "review_results.py": "f9a437253d191eeee44b8f244bb7df4f76f10c4468a7e46a187b3b46d40c2fcd"
+  },
+  "input_sha256": {
+    "orbit_results.json": "0d77b7b2362761e7e5e18a2a2678b2233dd7edead957057022cdcbcaf5e65a95"
+  }
+}

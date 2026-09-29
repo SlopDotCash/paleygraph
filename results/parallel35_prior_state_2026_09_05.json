@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-05T23:04:06.431737+00:00",
+  "previous_turn_classification": "progress: exact centered opposite-pair transform and forced degree-ten principal term",
+  "prior_sha256": {
+    "research/parallel34-opposite-pair-transform-2026-09-05.md": "2e0e63e38fc4559a5578a1ad763edd7b93db522d142ab177ee92a6633e3b0955",
+    "research/parallel34-pass-summary-2026-09-05.md": "f3179d401088d8a83a46963f39cf9cdc9ec3f8fe6117ff825e554fa0a65f7599",
+    "experiments/parallel34_verify_2026_09_05.py": "274d3655b2054da67cfbd8150f0566687f5e5cd34465a360dc6abfb4a04f5379",
+    "experiments/parallel34_final_audit_2026_09_05.py": "f9af01a1fceb43816d1f47052f31e1e9fbc75d884369b03af6e900a194e406bf",
+    "results/parallel34_prior_state_2026_09_05.json": "d2a1ae80e3b277e26c4c56a34e8a965223330fc21755cf53fb07e7e25037c273",
+    "results/parallel34_resume_state_2026_09_05.json": "e5d60a2c1e907ab542e6c77d3751f03e485988b17bf7be8837517dc470dabef0",
+    "results/parallel34_verification_2026_09_05.json": "89a3b8bef904874f36157334c1d45b418df541221c492a65797862a32147be54",
+    "results/parallel34_source_scope_2026_09_05.json": "4048f0e365a147fb2048a324301bc1eb6d794d2cbecb5d6e6dda3a1875b52964",
+    "results/parallel34_pass_audit_2026_09_05.json": "830e4a705479dfa60edb2eec72410bd1e8b670fa49a1564b45320faf53d30e86",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

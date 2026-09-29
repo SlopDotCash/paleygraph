@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "Independent literal witness enumeration, exact rational algebra and entrywise separate-backend scale comparisons; no production import, no direct large-neighbour census.",
+  "scale_cases": 8,
+  "scale_internal_entries_compared": 7506,
+  "scale_deletion_sums_and_norms_compared": 206,
+  "unique_toy_witness_sets": 10,
+  "literal_toy_neighbour_targets": 700,
+  "equal_quartic_deck_witness_pairs": 2,
+  "corrupted_records_rejected": 7,
+  "prior_source_bindings_checked": 9,
+  "source_sha256": {
+    "review_results.py": "f9a437253d191eeee44b8f244bb7df4f76f10c4468a7e46a187b3b46d40c2fcd"
+  },
+  "input_sha256": {
+    "results.json": "6f1be8e1e1ad71e7e63665403450958da039d2864785bf420ed9c1cd9c8f0783",
+    "gram_results.json": "0b36b6baa94a557042f8bda73d61694c9b7a40349a1c61c7ab1aa784494d97c1",
+    "ablation_results.json": "e0862f96275a98c39377241297ec6b5c519ece1201dff4ac267e1b058363d3e6"
+  }
+}

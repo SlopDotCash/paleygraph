@@ -1,0 +1,26 @@
+{
+  "status": "produced",
+  "small_cases": [
+    {
+      "artifact": "orbit_small_p17.json",
+      "queries": 352
+    },
+    {
+      "artifact": "orbit_small_p41.json",
+      "queries": 880
+    },
+    {
+      "artifact": "orbit_small_p97.json",
+      "queries": 2112
+    }
+  ],
+  "large_artifact": "orbit_large.json",
+  "input_sha256": {
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028",
+    "cover40.json": "b4a985b5296578ba5599dda8b842b11180e64244b7b7244f06c70298a28c12a1"
+  },
+  "source_sha256": {
+    "orbit_experiments.py": "e9aea3dc771cb88d53034e6ef72858872ef5aabe12f8f4bf9b1831581c0b4646",
+    "orbit_intersection.py": "77da024c2872c49eb63188c1fe28631c6ea203b8f964ab7d33c0fba8bd549282"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "parallel_preflight_checkpoint_passed",
+  "created_utc": "2026-09-06T07:22:15.159141+00:00",
+  "scope": "Actual-domain polynomial projective-capacity obstruction, relaxed optimal profile and verified class allocation. Higher-rank independence and decoding remain pending; round15 stays active.",
+  "previous_round14_artifacts_preserved": 80,
+  "source_and_input_bindings": 86,
+  "python_sources_compiled": 4,
+  "markdown_local_links_passed": true,
+  "artifacts": {
+    "README.md": {
+      "sha256": "de1389b9b2379594226d3655a3a0fdb3d21140f1b22e8ab31388f452fd26d807",
+      "bytes": 4087
+    },
+    "checkpoint.py": {
+      "sha256": "e31c9f0d55b96eb9f0c2a1690e83fdb013726394fb46cb9867d8871cceb22e37",
+      "bytes": 3429
+    },
+    "parallel_controls.json": {
+      "sha256": "95fd22788f3f364cea7d8d21e6326e62687d009b4b972bfea95939cfe017b4d5",
+      "bytes": 578
+    },
+    "parallel_controls.log": {
+      "sha256": "d6e4cecd8156e6ba83d4bba9b1aa96608f34fac182addfc59c1e221d225eb24d",
+      "bytes": 552
+    },
+    "parallel_controls.py": {
+      "sha256": "1ee49fe011275d9c68c8913f4d5af5e328bfa21663de37e1584869a9651f931c",
+      "bytes": 2935
+    },
+    "projective_profile.py": {
+      "sha256": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+      "bytes": 2522
+    },
+    "root_class.log": {
+      "sha256": "89ce9c75f506a620b1950001c48272653e5b22a8cc8161e7adef441f1356c929",
+      "bytes": 236
+    },
+    "root_class_preflight.py": {
+      "sha256": "82711ff5857dc0db1a3418151ab192e98a86a52fe9e68519c8bcb21c232ee592",
+      "bytes": 3783
+    },
+    "root_class_results.json": {
+      "sha256": "d8e89d07f48a8c46092ec65e3a7b005962528026e26dc094a288880b0fb129ab",
+      "bytes": 30356
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Prior art and reason to change direction
+
+The weighted-Gram compiler is a specific arithmetic implementation of known conditioning, elementary-symmetric recurrences and Boolean interpolation. The response matrix is not declared historically new. [Round9](../round9/README.md) already computed each fixed pair's moments separately; the new implementation shares the work across all pairs.
+
+[Filmus–Mossel, Harmonicity and invariance on slices of the Boolean cube](https://arxiv.org/abs/1507.02713), and [Filmus, Orthogonal basis for functions over a slice](https://www.ias.edu/sites/default/files/math/csdm/14-15/Filmus2015.pdf), are relevant primary precedents for polynomial degree and Johnson-scheme decompositions on fixed-size sets. Their distributional results are not being applied to the chosen Paley inputs. Removing vertex-additive effects is ordinary orthogonal projection.
+
+The actual novelty audit is constructive: [DERIVATION.md](DERIVATION.md) reduces the new forward mean matrix to inward targets and the induced graph. At six and seven selected points its projected part uses only quartic incidence and boundary data. At eight selected points over F17, even one scalar norm identifies every full affine orbit in the tested domain, making apparent separation weak evidence for general usefulness. Larger inputs mostly reproduce the inward sixth-degree incidence.
+
+This justifies retaining the compiler as an efficient query and rejecting its interpretation as newly discovered arithmetic information. It also suggests a reusable research practice: require a symbolic reduction and an information-leakage check before promoting a new observable. This practice itself has prior art; historical originality remains unestablished.
+
+For the next coding prototype, [Guruswami–Wang's linear-algebraic decoding](https://eccc.weizmann.ac.il/report/2012/073/) already separates the production of a low-dimensional candidate space from pruning it. The [2026 folded-code paper](https://arxiv.org/html/2601.10047v1) also develops coordinate pinning and pruning; its particular all-basepoints lemma was separately audited in round9. Neither “pinning” nor “polynomial clusters” is a new invention.
+
+The local [fiber-Chebyshev note](/Users/shawwalters/proximityprize/docs/kb/deltastar-466-rate-quarter-fiber-chebyshev-2026-07-11.md) already retains ratios of actual codeword differences and their root caps, and explicitly rejects transferring that cap to arbitrary received-word ratios. Its Lean claims were not rebuilt in this round. A useful next contribution must specify a sharper executable contract on actual polynomial clusters, with worst-case agreement sets and explicit incidence, rather than rename these methods.

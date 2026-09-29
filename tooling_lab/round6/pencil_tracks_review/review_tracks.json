@@ -1,0 +1,299 @@
+{
+  "status": "whole-field track compiler independently verified",
+  "counts": {
+    "complete_tiny_oracles": 1586,
+    "nodes_compared": 3345,
+    "no_anchor_tiny_cases": 759,
+    "whole_field_tiny_cases": 513,
+    "field_5_oracles": 64,
+    "field_9_oracles": 64
+  },
+  "saved_readbacks": [
+    {
+      "name": "skew-two",
+      "q": 257,
+      "n": 192,
+      "k": 8,
+      "s": 80,
+      "tracks": 2,
+      "cap": 14,
+      "exceptional_scalars": 139,
+      "collisions": 0,
+      "generic_list_size": 2,
+      "nodes": 514,
+      "qualifying_scalars": 257,
+      "complete_codebook_and_scalar_oracle": false,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "empty",
+            null
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    },
+    {
+      "name": "pair-colliding-three",
+      "q": 257,
+      "n": 192,
+      "k": 8,
+      "s": 80,
+      "tracks": 3,
+      "cap": 21,
+      "exceptional_scalars": 3,
+      "collisions": 3,
+      "generic_list_size": 0,
+      "nodes": 3,
+      "qualifying_scalars": 3,
+      "complete_codebook_and_scalar_oracle": false,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "singleton",
+            255
+          ],
+          [
+            0,
+            2,
+            "singleton",
+            256
+          ],
+          [
+            1,
+            2,
+            "singleton",
+            127
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    },
+    {
+      "name": "skew-two",
+      "q": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "tracks": 2,
+      "cap": 126,
+      "exceptional_scalars": 1011,
+      "collisions": 0,
+      "generic_list_size": 2,
+      "nodes": 131074,
+      "qualifying_scalars": 65537,
+      "complete_codebook_and_scalar_oracle": false,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "empty",
+            null
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    },
+    {
+      "name": "pair-colliding-three",
+      "q": 65537,
+      "n": 1024,
+      "k": 64,
+      "s": 410,
+      "tracks": 3,
+      "cap": 189,
+      "exceptional_scalars": 3,
+      "collisions": 3,
+      "generic_list_size": 0,
+      "nodes": 3,
+      "qualifying_scalars": 3,
+      "complete_codebook_and_scalar_oracle": false,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "singleton",
+            32767
+          ],
+          [
+            0,
+            2,
+            "singleton",
+            65535
+          ],
+          [
+            1,
+            2,
+            "singleton",
+            65536
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    },
+    {
+      "name": "saved GF9 certificate",
+      "q": 9,
+      "n": 8,
+      "k": 2,
+      "s": 5,
+      "tracks": 4,
+      "cap": 4,
+      "exceptional_scalars": 8,
+      "collisions": 1,
+      "generic_list_size": 0,
+      "nodes": 1,
+      "qualifying_scalars": 1,
+      "complete_codebook_and_scalar_oracle": true,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "empty",
+            null
+          ],
+          [
+            0,
+            2,
+            "singleton",
+            1
+          ],
+          [
+            0,
+            3,
+            "empty",
+            null
+          ],
+          [
+            1,
+            2,
+            "empty",
+            null
+          ],
+          [
+            1,
+            3,
+            "empty",
+            null
+          ],
+          [
+            2,
+            3,
+            "empty",
+            null
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    },
+    {
+      "name": "ambiguous-coordinate-fragment-reassignment",
+      "q": 17,
+      "n": 12,
+      "k": 2,
+      "s": 3,
+      "tracks": 2,
+      "cap": 2,
+      "exceptional_scalars": 12,
+      "collisions": 0,
+      "generic_list_size": 2,
+      "nodes": 34,
+      "qualifying_scalars": 17,
+      "complete_codebook_and_scalar_oracle": true,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "empty",
+            null
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    },
+    {
+      "name": "four-joint-regions-two-marginals-versus-four-piece-slice",
+      "q": 257,
+      "n": 192,
+      "k": 8,
+      "s": 80,
+      "tracks": 4,
+      "cap": 28,
+      "exceptional_scalars": 138,
+      "collisions": 2,
+      "generic_list_size": 0,
+      "nodes": 2,
+      "qualifying_scalars": 1,
+      "complete_codebook_and_scalar_oracle": false,
+      "no_anchor_certificate": {
+        "all_regions_have_at_least_k_coordinates": true,
+        "pair_collision_constraints": [
+          [
+            0,
+            1,
+            "singleton",
+            0
+          ],
+          [
+            0,
+            2,
+            "empty",
+            null
+          ],
+          [
+            0,
+            3,
+            "empty",
+            null
+          ],
+          [
+            1,
+            2,
+            "empty",
+            null
+          ],
+          [
+            1,
+            3,
+            "empty",
+            null
+          ],
+          [
+            2,
+            3,
+            "singleton",
+            0
+          ]
+        ],
+        "common_scalar_solution_set": "empty"
+      }
+    }
+  ],
+  "malformed_certificates_rejected": [
+    "false_total",
+    "missing_collision",
+    "false_generic_domain",
+    "false_support_ledger",
+    "false_anchor"
+  ],
+  "candidate_sha256": "1d2b3ca8dfaaa164155faa55d3b3a83d4e5c99dbfa012daf4911d99d77cc60f1",
+  "results_sha256": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216",
+  "reviewer_sha256": "7d634f7a298fe7f81190b6de60770508751df0779027d7b1be95fa56822e0d00",
+  "field_oracle_sha256": "26102694466e0268a67f27e40b5f017bfb075bab1dba5f4c732ae35128568607",
+  "elapsed_seconds": 11.639710292001837,
+  "scope": "Tiny lists enumerate every polynomial and scalar independently. Larger cases independently reconstruct the complete event ledger and prove the generic complement symbolically; no large codebook or full-field scan."
+}

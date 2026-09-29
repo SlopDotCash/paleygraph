@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Lightweight syntax, recorded input hash, and note link audit; no verifier rerun.",
+  "input_hashes_match": {
+    "experiments/parallel23_subgroup_upper_2026_09_05.py": true,
+    "research/parallel21-subgroup-next-input-2026-09-05.md": true,
+    "research/parallel22-subgroup-independent-review-2026-09-05.md": true,
+    "research/mixed-periods-and-shifted-energy.md": true,
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": true
+  },
+  "local_links_checked": [
+    "mixed-periods-and-shifted-energy.md",
+    "parallel21-subgroup-next-input-2026-09-05.md",
+    "../experiments/parallel23_subgroup_upper_2026_09_05.py",
+    "../results/parallel23_subgroup_upper_2026_09_05.json"
+  ],
+  "sha256": {
+    "research/parallel23-subgroup-upper-2026-09-05.md": "1b97e491bc1c0b2cfe391388b0340d89d1f2a7168822db116513b63f4148bd41",
+    "experiments/parallel23_subgroup_upper_2026_09_05.py": "ea2023a2cf0b78434efebb9913249c6dc74aec9247da2ad5b8d8a2000251414f",
+    "results/parallel23_subgroup_upper_2026_09_05.json": "d675ecc47be55cde21ba176fbd5d3bfdf9c0da35af79c093079d31e47cb82770"
+  }
+}

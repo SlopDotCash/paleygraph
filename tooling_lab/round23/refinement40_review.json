@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "cover40_refined",
+      "nodes_verified": 2021,
+      "cuts_verified": 64,
+      "exact_narrowing_steps": 10249,
+      "unresolved_leaves": 19,
+      "unresolved_integer_points_up_to_sign": 177723199,
+      "continuous_witnesses_checked": 1,
+      "universal_unique_completion": false,
+      "actual_small_ambiguity_pairs_preserved": 0,
+      "actual_difference_classes_preserved": 0,
+      "earlier_finished_nodes_preserved": 2002,
+      "old_nodes": 2021,
+      "old_cuts": 64,
+      "old_unresolved_leaves": [
+        65,
+        818,
+        1296,
+        1999,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "added_cuts": 0,
+      "added_nodes": 0
+    }
+  ],
+  "input_sha256": {
+    "cover40_refined.json": "b07984c9a9cca7ea40e8c28722a43833ca9c186ab75400df2a3353ad200009e5",
+    "cover40.json": "b4a985b5296578ba5599dda8b842b11180e64244b7b7244f06c70298a28c12a1",
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028"
+  },
+  "source_sha256": {
+    "refinement_review.py": "c270960e36a517be1bea5fecb38c4be3b2d6e81adfc1ec661eb906f2e4d5ae8b",
+    "cover_review.py": "4acdb7a8af21a14b7c78a77bc8648f9ab20b2a20aefb2f86ec6c6c02f41b22b1"
+  }
+}

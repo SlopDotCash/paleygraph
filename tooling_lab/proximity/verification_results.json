@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "syzygy_vectors": 13,
+  "decoded_codewords": 95,
+  "affine_tracks": 383,
+  "independent_tiny_projection_examples": 3,
+  "independent_tiny_full_codeword_census": true,
+  "source_repo_modified": false,
+  "lean_validation_performed": false
+}

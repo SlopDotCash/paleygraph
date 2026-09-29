@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-09-05T20:58:48.307550+00:00",
+  "previous_turn_classification": "progress",
+  "prior_sha256": {
+    "research/parallel29-centered-recurrence-2026-09-05.md": "c9bb92dbf59136bf7b7ce5e4a22fa95d203fbbab805182fdeebb7b9f18ba00e6",
+    "research/parallel29-pass-summary-2026-09-05.md": "0ee56cc41abd6e0cbb1d77cb06958a2fe9c83442d511dd81ed6d3460b352ca7d",
+    "experiments/parallel29_verify_2026_09_05.py": "535f3a3a2d426abced22b1eff97d9afcf00dd71264f50b784b69edf339e7bae4",
+    "experiments/parallel29_final_audit_2026_09_05.py": "107414577fd516176e25a5b74b2c6797eb8d73b6ad6e1c1080d52e78751df1bb",
+    "results/parallel29_prior_state_2026_09_05.json": "0b61a6121d74d83bcf9ec655096423c59908e0de1d83f23e76da154e52ca26df",
+    "results/parallel29_verification_2026_09_05.json": "20c3ebbab139ce534366b83be697c05b8a00f5e8e465b57f8c711db74fc905cc",
+    "results/parallel29_source_scope_2026_09_05.json": "4d114cc01819e6a08114b1551feff8b7afec80c85f5d77da6950dfa69235aa12",
+    "results/parallel29_pass_audit_2026_09_05.json": "f4ade577c8b0c42059a908a3ecd2072f3945feb63ceb91fa4fa0e9ec1a92a906",
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "results/prove2me_projection_server_2026_09_05.json": "dab074a9fc0876a525dec7668b26ada3b2d79b3f9d161cadb37c5b9183b4f918"
+  }
+}

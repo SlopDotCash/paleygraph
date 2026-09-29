@@ -1,0 +1,1299 @@
+{
+  "status": "Exact fiber and gcd criteria proved; triple-free quartic hypothesis is not proved by these scans.",
+  "integer_primitive_polynomials": {
+    "4": [
+      "4",
+      "1"
+    ],
+    "8": [
+      "16",
+      "136",
+      "1"
+    ],
+    "16": [
+      "256",
+      "887132416",
+      "164595808",
+      "51472",
+      "1"
+    ],
+    "32": [
+      "65536",
+      "2896377613012067508627308544",
+      "104357535190999063204484453336465408",
+      "687426137161750884826526921721307136",
+      "338493057640551722621444775626240",
+      "302568802429718900801334784",
+      "4234935902549651904",
+      "4808643104",
+      "1"
+    ],
+    "64": [
+      "4294967296",
+      "143261599572682134069910619261088042924089234080232374011736234900053819392",
+      "1709658916307229660229528188776556904264921045395583596165303113269515106130936166882567483660633665116831744",
+      "195189027205213901729338372901027622544791775464603936743746001305212461929703336206713633096048577622263708100345430223718711296",
+      "18420787934202730487428589141410217187749059763500301499552574422530884781669570886361136908312701950241212909012855492005257590062895333376",
+      "412950726832616396700799226511927064240784258944159045599177379420473008125777593068690507696731868997886809316069329850202985701753803744739328",
+      "69633012212913636724001516705128424142173515441803971273110393611812226861976012009517577740189309570561423394650589340510465198856240243933184",
+      "944776898983107734991714066830176457977722632938337221639954723013951766838604007853169362235133515372460751431037086590301980936474984448",
+      "5979002435564581958282303262088323532758216306523393098735753621528192858910403522896566338244802323877578416380472200716804816896",
+      "70127903071967480142314796974626096245123720088898520636824342343280376707181143957058361228781351173462235199803490304",
+      "4733650514035611427613898422938937775843615362608355840788413400563593604571531527923752065959415147429888",
+      "4836184112162090110631485558889719491655421513819034147945027818936635627055560704903364608",
+      "176347725841815395687442323811260974359886265927948351654212473107189537792",
+      "508525929240214502453905639780455073716368478258680646656",
+      "238280294281078775769263484198605481856",
+      "29321986255081448512",
+      "1"
+    ],
+    "128": [
+      "18446744073709551616",
+      "6719762728897062798172935892726861888052475109738151550662115894626765791875428255358776350203818983497012718166984481380685894968509487599954313607218278305775123225883072768754797510656",
+      "230104774990157168001922892713939939791983753616969349773669859709517567571162995157345547322169620904533161898559154009045402484403455749312636415366670189365579454584692858284574515718085249327777189380381950288751570932543156438209576999161672019597007380354093278006890478587240100246061056",
+      "388344022572780161518290376250357884435213596055382732240354489913109217849344300909563231612684529874096336372840984099893615609880185117666690381746804410190113903580225233662955457046191788418040179236330551388140417540119261105967811860962316917493974168319749830448929609987833966471824735581738663588452611642541642001854205924383013828238430949329659760571337146368",
+      "176305498993723738045950818825195035523213410333616955358186900364990319443869352618881777454199720291093692978024780258107409045739293101321302622998673437897141435765236922137207085486623111117840930352761512214865922340484813411014516664867700628836294236882109451816623061804495758411412444167502514191091568836672448883572942788943525911437583780687101360216741153132361665044349067181298920823306894314858717572867375946006528",
+      "1293860443987530165752828864831022038223289487035360233237949868057189085613697423601308289588292645258195725442837091137423611836028136402081770797425673904184961504161109160639768055761410620675263537808737923132575835765395839519999945084478269915384963878269423428981512783762480987137288576744224585663969478013538382623854754431475434499043130208383108700248257602643725204959345352810655482580557169250922375105733368999569378962408397955566808938195841648691119363457024",
+      "111286616468296228690901215593169101573661622225278518323872342135750945851227527308749347527320918092682911815103024394720745200882303233522518273242393748328949349599372959965027823688065116962693923559404371167963979648260171540085521438130235534963070821981596753608280799817139111744984089452476626753516447948218230252962545239692251208434074789797357575900859434739619524302738565880111304165870383503534174972678857330840398196841229387991364010010905922367894339433341589835918110148259481732830847827968",
+      "9204091441746937137880374018890241610817314662396160631120206534423727623561737562264797371044337456959245346012254472508869132050241461119280229809488965723088183336008907194140279519323693351093842976096532828527481781317710092279428052517216299371586521549957178568210256055000295236683468381269162466995995283517861590853209193192653225408535482582429112725532838941501089984451666603362140312967178121839922365254055915366309689259949783554070604418975256995536623914807153376187400780082819099284990940008983951309563454274804908032",
+      "17443429077803942267604717920839211291577311645519348714689047225484352559766227749663125020370609835906946372497044841265817519820091831664383185672693266489528022015256873556403918102107311675383387239249978371425494560396001022889198044972633323050329263084723661369962270261235676123060911895779029107252326609821487342197103177187519619825360569704569526295593066511386156016489016944888189188386194138911379456661698127577640691799439498792097772131571597663563217625841717957769829132033339943555129739982963503954315557387923591601875493270239313920",
+      "8364452707151349415781192694840859250452749706660819781324330773208212972978664826683477969819128055495238570823437853303837438967696065425814825921270162497446963777544353042201805091562646433254688278523959461744880101160344328385072311594677465811960536588558859645030566024665865827887867275164616362818655922387804204190318155686054575820118663898388104153714108731453596007233928200341255718908141370474745433359126829270078092853557778498265524023888191110656694949273743960927573856633158947910924207486068857328694673676956672814775539305347104315281120428032",
+      "6720989126895533154358796349457156452552707706804272914864096795251850069966112036785803279709945695232615981772095903689162620204024030455277455511796988293128901207330925523313607266949223728160850408405138950119628699462501161226944409612226073826144837775514578559345362442222419608612675577944650570436314297022545511785497484653993640531584394563930627173055661634231646508474544980167027167652200212269143775128028258890568346778505969573164048700351408525063673128678096412249115532286943935033052166940952845119475977318748581150956095891296822974632167770578485248",
+      "41944749306702137554148447044198565512219817209934586674923022586001343803327413329302171508367216684374116394803358969016424013733293963254663545658493250908589352639782988291586795705391508807380533083377850735954460395836008199228681760609419272680015021745824492312859622277927072807155658659301903640135677936063605241867691246267074478761197920030247101136569837047906902438927527016725908411114908019188567131474189728121121543273798914169796170897024406057799038920064857941669803245690391023170404293728447416343176816644774127576700685216560968191909287230410063872",
+      "7274864172255946776663372934516805317278940677926205176056612131792181733616916396343670266721845453755836549734629134427594311547931129484990436657403253469146904585839968388775446743313915408905185990819816173464272181930692365686430107851737667912495909274808751977843879863342890877916419391068714193009992495996716072350189153565230802068176507987347882060511261398989568320689854081783634150454117403102226727700540721433102989802962658841692897036663359064276553485011275146958046697696509083847809120768199760085005090525681074145490874310222977704389950629216256",
+      "103389627675149283305371459987068513503810137613373193976168116822909114090736846898471353055508584080928931198324472159788721513339731417449568769142187826611177507921531792620591554017619857738298249295522332653089780133904067137194141206052751305746801751395032775224238926585936776046025148468877619414663862956552337632387776957692891970073264690801802254887539816155096819401249610861456806601872687120834621124448895521054609085728963134565626853514730440925969460584816421102963851015913289524133638413142726852082520015955852631554868741709583969679310848",
+      "306060753747052178827639615321272374143605081026393364206021516753399071658337034801971092240517489517264030656584464494268633692596878017793399758553626958499516383238366288165339709531421343168750005739769151342910767040584132648269098042005947286303243316027752637729794747909794746727933994047515506041785843959903496809635480592025990234605354475899996363700970851539232943653124348016192459448006834378253865776476022694188712056931837408347437310810571026280630807108928315416984221376623116356465086198219192489613189604168735201276821564817408",
+      "427156639653764327702001075337730453928918043268579045202246019474136866206379619410369845468912554829196471024549430383488798215354370755233334466812355167803066916981171630726646513169841861146201975800360654564641711472509537453842241923190996755268155220484819922980591430594882175053425830668483262157303001026701765401264469838517034177901100725101803962065568258276595488999369169467093250425199907773916142759033438883774368961284465909572682407799521136057541643785652566723744539212856131482887111946656524906537844633843531776",
+      "580070648269322008289009194861869350690795853918401821361078276001890713845666956068798674311135785238396632740157509014713122994692718100332403574072380564176077953690950676031044749787909491300500219573967512672611880034526954133776879588516048781068117155312694405240572755609403679087769731447540348256381811218595491642764584231916749850155658068223926232145408675987427791065693205972568913587180053693836261386288634800644958389995725767905275511039939754916208285232765171656848270184390567621494479788129124352",
+      "1468221494027525748825870875007097842191197434276821060354453227987589044133753581333396443493778238288327202712332738711428416087424460465435129751576630643289123002452167585146096165819982018612625295312814911046652858680621630012218713707846680724953680135026932825502208148152703726586526181282237130549589261854960226833799645348046601205619537843568314597245653258019400002304488092131837480889273327937019946088012257906419237222190172160269036482615438096748413391406444896653226571473092608",
+      "12485383826923168430684391118474137625866167886373914719935440411307072068623977168594861442967219994071741217349426244541307132659646439216837636811049968030250845095772058183123578960882373083898287460130010446207397692412869167474844407835541480312740877039642591710857684967896459564589284464999396364968999448560496540616189814715545109104546105478639912145591166262032000739896657465115795318035677002762492045758882531240636368515851320344025479754917884715416177082368",
+      "611536758900408330870838301506411205083169415513404942973860806231003802686919516031908340211209843635852058256463043257901368667140651088071500978415312553935271246184757732642944445160775388281966325205768640640882706145695386765660963979297440388911490165034442100792022007509469845482021116870907601700464884541878183465800381298803053022529105940328025189305914949515249638287784930842780956624329042021613310713302684185765235722584528443670528",
+      "283722476513043375857002806375547000951797864241546999538148407112533732860191329554749355117267377377344644291931816365222766101250272411997281490906397676792545137069727209069806927370663763047878906435919892383997188995931430234252543012931576903883049613614526588215152786160874440226032048841386439749800212371250918563927127793506941006818536955827815816404726318392927444406776827998770311694064190102050469870305280",
+      "1980555769075686853633619376285329349730228043782743717958843292083546403095764191131640902002855663546242040042335964042034256407658851988198292998525704168844249160314998975094126606631486275981833892707934918146827088945579191890440542307022971822220899519457654348711801328156268034052675431969107892134584858042081264023367380215718050505072128360430965895418229672419158887040311298621440",
+      "320991190449414303994403850131616971295066630212578088122572098458598533000294639412261942930144588117249970707377978360086127343052041142611649508008848035678010801449473950390135005810740930573510168624529057250242806969441394586915151438937826094502274849559310802449972962860249022094597552467114229219765519894396582577537247437231082207515351993541753569280",
+      "1819476444376801510301606391306561281567801701187265344363152877003873025792716585148493779596920817840273534052110399242374849594010700671794927413128709584459153904581079443986720907941432005725990668530416642357415703241796902487356636470773764275150851070541083194539912846462912899945261556590576903640563849447446220583731200",
+      "532782020038752327327874487778412424260367590006069013245264078208445515390138356564219600160082048679157955874089408214768120715533407184034361710186679014789602570792284601408518047788960271506692270634131760801162606145597547415742149451112903762024114002476759130345411678034818984531910721536",
+      "11726075200008814772382578354432944411093657468114190285491824825434507489318023426214156499155016062525420209981584897326361907099554926539396979747205015605831878119832235963146686083099700345293706466660846226268817631276356663239792384531948993651910005751808",
+      "27958837264372234429107850226991880206058594932675767315270771710562043400164733264365344464919375792551175523333890526477892339778123325402609472902864368327724980681064346675106440248949580862524256922987820609441981815128064",
+      "10375955737039199414735745340384279954080517861048289176592836216327797226513062243511643515646029435869181371309808138468364300805426389417061840141078857693512652043438563873111055159951360",
+      "855043028978401784477691108906338598212426969462618479629838713507864955771152653895420330559968851459298554345643761708259402633796129012101926831290368",
+      "21398058747969899682395905162966294942802109723646345401137956506665496311548473783071554249032427052212672457758720",
+      "201414045946358150340742905841582601555189876120856556670590538356494262853376",
+      "766436673341698651716338808844177655936",
+      "1"
+    ]
+  },
+  "historical_exception_profiles": [
+    {
+      "p": 5,
+      "parent_order": 4,
+      "generator": 2,
+      "quartic_window": false,
+      "balanced_energy": 4,
+      "baseline": 4,
+      "fiber_multiplicity_histogram": {
+        "1": 1
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 6,
+      "parent_energy": 52,
+      "T": 2,
+      "epsilon": 1,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 17,
+      "parent_order": 8,
+      "generator": 9,
+      "quartic_window": false,
+      "balanced_energy": 16,
+      "baseline": 16,
+      "fiber_multiplicity_histogram": {
+        "1": 2
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 36,
+      "parent_energy": 264,
+      "T": 12,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 41,
+      "parent_order": 8,
+      "generator": 38,
+      "quartic_window": false,
+      "balanced_energy": 16,
+      "baseline": 16,
+      "fiber_multiplicity_histogram": {
+        "1": 2
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 36,
+      "parent_energy": 200,
+      "T": 4,
+      "epsilon": 1,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 17,
+      "parent_order": 16,
+      "generator": 3,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 64,
+      "fiber_multiplicity_histogram": {
+        "4": 1
+      },
+      "squarefree_defect": 3,
+      "successive_gcd_degrees": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "maximum_fiber": 4,
+      "literal_pair_check": true,
+      "child_energy": 264,
+      "parent_energy": 3856,
+      "T": 224,
+      "epsilon": 1,
+      "repeated_entry_orbits": 6,
+      "four_distinct_orbits": 5
+    },
+    {
+      "p": 97,
+      "parent_order": 16,
+      "generator": 8,
+      "quartic_window": false,
+      "balanced_energy": 64,
+      "baseline": 64,
+      "fiber_multiplicity_histogram": {
+        "1": 4
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 168,
+      "parent_energy": 1104,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 113,
+      "parent_order": 16,
+      "generator": 40,
+      "quartic_window": false,
+      "balanced_energy": 96,
+      "baseline": 64,
+      "fiber_multiplicity_histogram": {
+        "1": 2,
+        "2": 1
+      },
+      "squarefree_defect": 1,
+      "successive_gcd_degrees": [
+        1,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 168,
+      "parent_energy": 1104,
+      "T": 24,
+      "epsilon": 0,
+      "repeated_entry_orbits": 2,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 193,
+      "parent_order": 16,
+      "generator": 64,
+      "quartic_window": false,
+      "balanced_energy": 64,
+      "baseline": 64,
+      "fiber_multiplicity_histogram": {
+        "1": 4
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 168,
+      "parent_energy": 784,
+      "T": 8,
+      "epsilon": 1,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 257,
+      "parent_order": 16,
+      "generator": 249,
+      "quartic_window": false,
+      "balanced_energy": 64,
+      "baseline": 64,
+      "fiber_multiplicity_histogram": {
+        "1": 4
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 168,
+      "parent_energy": 912,
+      "T": 24,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 337,
+      "parent_order": 16,
+      "generator": 191,
+      "quartic_window": false,
+      "balanced_energy": 64,
+      "baseline": 64,
+      "fiber_multiplicity_histogram": {
+        "1": 4
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 168,
+      "parent_energy": 912,
+      "T": 24,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 97,
+      "parent_order": 32,
+      "generator": 28,
+      "quartic_window": false,
+      "balanced_energy": 832,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 1,
+        "3": 1,
+        "4": 1
+      },
+      "squarefree_defect": 5,
+      "successive_gcd_degrees": [
+        5,
+        3,
+        1,
+        0
+      ],
+      "maximum_fiber": 4,
+      "literal_pair_check": true,
+      "child_energy": 1104,
+      "parent_energy": 11424,
+      "T": 528,
+      "epsilon": 0,
+      "repeated_entry_orbits": 4,
+      "four_distinct_orbits": 9
+    },
+    {
+      "p": 193,
+      "parent_order": 32,
+      "generator": 185,
+      "quartic_window": false,
+      "balanced_energy": 576,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "squarefree_defect": 4,
+      "successive_gcd_degrees": [
+        4,
+        1,
+        0
+      ],
+      "maximum_fiber": 3,
+      "literal_pair_check": true,
+      "child_energy": 784,
+      "parent_energy": 6560,
+      "T": 192,
+      "epsilon": 1,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 4
+    },
+    {
+      "p": 257,
+      "parent_order": 32,
+      "generator": 136,
+      "quartic_window": false,
+      "balanced_energy": 448,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 2,
+        "2": 3
+      },
+      "squarefree_defect": 3,
+      "successive_gcd_degrees": [
+        3,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 912,
+      "parent_energy": 6816,
+      "T": 288,
+      "epsilon": 0,
+      "repeated_entry_orbits": 4,
+      "four_distinct_orbits": 3
+    },
+    {
+      "p": 353,
+      "parent_order": 32,
+      "generator": 294,
+      "quartic_window": false,
+      "balanced_energy": 384,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 5280,
+      "T": 192,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 3
+    },
+    {
+      "p": 449,
+      "parent_order": 32,
+      "generator": 221,
+      "quartic_window": false,
+      "balanced_energy": 384,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 5664,
+      "T": 240,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 3
+    },
+    {
+      "p": 577,
+      "parent_order": 32,
+      "generator": 400,
+      "quartic_window": false,
+      "balanced_energy": 448,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 2,
+        "2": 3
+      },
+      "squarefree_defect": 3,
+      "successive_gcd_degrees": [
+        3,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 5664,
+      "T": 192,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 3
+    },
+    {
+      "p": 641,
+      "parent_order": 32,
+      "generator": 160,
+      "quartic_window": false,
+      "balanced_energy": 512,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 3,
+        "2": 1,
+        "3": 1
+      },
+      "squarefree_defect": 3,
+      "successive_gcd_degrees": [
+        3,
+        1,
+        0
+      ],
+      "maximum_fiber": 3,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 5664,
+      "T": 144,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 3
+    },
+    {
+      "p": 673,
+      "parent_order": 32,
+      "generator": 118,
+      "quartic_window": false,
+      "balanced_energy": 384,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 4512,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 2
+    },
+    {
+      "p": 929,
+      "parent_order": 32,
+      "generator": 701,
+      "quartic_window": false,
+      "balanced_energy": 384,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 4512,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 2
+    },
+    {
+      "p": 1153,
+      "parent_order": 32,
+      "generator": 286,
+      "quartic_window": false,
+      "balanced_energy": 384,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 1217,
+      "parent_order": 32,
+      "generator": 540,
+      "quartic_window": false,
+      "balanced_energy": 512,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 3,
+        "2": 1,
+        "3": 1
+      },
+      "squarefree_defect": 3,
+      "successive_gcd_degrees": [
+        3,
+        1,
+        0
+      ],
+      "maximum_fiber": 3,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 4512,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 2
+    },
+    {
+      "p": 1249,
+      "parent_order": 32,
+      "generator": 672,
+      "quartic_window": false,
+      "balanced_energy": 384,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 1409,
+      "parent_order": 32,
+      "generator": 327,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 2017,
+      "parent_order": 32,
+      "generator": 500,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 2113,
+      "parent_order": 32,
+      "generator": 2005,
+      "quartic_window": false,
+      "balanced_energy": 448,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 5,
+        "3": 1
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        1,
+        0
+      ],
+      "maximum_fiber": 3,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 4128,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 2273,
+      "parent_order": 32,
+      "generator": 1100,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 2593,
+      "parent_order": 32,
+      "generator": 2588,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 2689,
+      "parent_order": 32,
+      "generator": 2561,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 3137,
+      "parent_order": 32,
+      "generator": 2188,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 3457,
+      "parent_order": 32,
+      "generator": 1267,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 4001,
+      "parent_order": 32,
+      "generator": 3339,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 4129,
+      "parent_order": 32,
+      "generator": 1142,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 4993,
+      "parent_order": 32,
+      "generator": 469,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 5857,
+      "parent_order": 32,
+      "generator": 1007,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 7937,
+      "parent_order": 32,
+      "generator": 970,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    },
+    {
+      "p": 10177,
+      "parent_order": 32,
+      "generator": 7318,
+      "quartic_window": false,
+      "balanced_energy": 320,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 6,
+        "2": 1
+      },
+      "squarefree_defect": 1,
+      "successive_gcd_degrees": [
+        1,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 11329,
+      "parent_order": 32,
+      "generator": 536,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 26177,
+      "parent_order": 32,
+      "generator": 18757,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 32993,
+      "parent_order": 32,
+      "generator": 4612,
+      "quartic_window": false,
+      "balanced_energy": 320,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 6,
+        "2": 1
+      },
+      "squarefree_defect": 1,
+      "successive_gcd_degrees": [
+        1,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3744,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 2,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 37217,
+      "parent_order": 32,
+      "generator": 32508,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 50177,
+      "parent_order": 32,
+      "generator": 42493,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 51137,
+      "parent_order": 32,
+      "generator": 23992,
+      "quartic_window": false,
+      "balanced_energy": 320,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 6,
+        "2": 1
+      },
+      "squarefree_defect": 1,
+      "successive_gcd_degrees": [
+        1,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 65537,
+      "parent_order": 32,
+      "generator": 65529,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 68449,
+      "parent_order": 32,
+      "generator": 50034,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 156353,
+      "parent_order": 32,
+      "generator": 147006,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 194977,
+      "parent_order": 32,
+      "generator": 180906,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3360,
+      "T": 48,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 21523361,
+      "parent_order": 32,
+      "generator": 19929038,
+      "quartic_window": false,
+      "balanced_energy": 256,
+      "baseline": 256,
+      "fiber_multiplicity_histogram": {
+        "1": 8
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 720,
+      "parent_energy": 3104,
+      "T": 16,
+      "epsilon": 1,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 0
+    }
+  ],
+  "quartic_witnesses": [
+    {
+      "p": 6700417,
+      "parent_order": 64,
+      "generator": 1688191,
+      "quartic_window": true,
+      "balanced_energy": 1024,
+      "baseline": 1024,
+      "fiber_multiplicity_histogram": {
+        "1": 16
+      },
+      "squarefree_defect": 0,
+      "successive_gcd_degrees": [
+        0
+      ],
+      "maximum_fiber": 1,
+      "literal_pair_check": true,
+      "child_energy": 2976,
+      "parent_energy": 12864,
+      "T": 96,
+      "epsilon": 0,
+      "repeated_entry_orbits": 1,
+      "four_distinct_orbits": 0
+    },
+    {
+      "p": 67403009,
+      "parent_order": 128,
+      "generator": 64701253,
+      "quartic_window": true,
+      "balanced_energy": 4608,
+      "baseline": 4096,
+      "fiber_multiplicity_histogram": {
+        "1": 28,
+        "2": 2
+      },
+      "squarefree_defect": 2,
+      "successive_gcd_degrees": [
+        2,
+        0
+      ],
+      "maximum_fiber": 2,
+      "literal_pair_check": true,
+      "child_energy": 12096,
+      "parent_energy": 51840,
+      "T": 0,
+      "epsilon": 0,
+      "repeated_entry_orbits": 0,
+      "four_distinct_orbits": 1
+    }
+  ],
+  "quartic_scans": [
+    {
+      "parent_order": 256,
+      "eligible_primes_checked": 2048,
+      "start": 1073741825,
+      "last_prime": 1079232257,
+      "maximum_fiber": 1,
+      "collisions": []
+    },
+    {
+      "parent_order": 512,
+      "eligible_primes_checked": 2048,
+      "start": 17179869185,
+      "last_prime": 17192336897,
+      "maximum_fiber": 2,
+      "collisions": [
+        {
+          "p": 17189277697,
+          "parent_order": 512,
+          "generator": 730170861,
+          "quartic_window": true,
+          "balanced_energy": 67584,
+          "baseline": 65536,
+          "fiber_multiplicity_histogram": {
+            "1": 124,
+            "2": 2
+          },
+          "squarefree_defect": 2,
+          "successive_gcd_degrees": [
+            2,
+            0
+          ],
+          "maximum_fiber": 2,
+          "literal_pair_check": true,
+          "child_energy": 195840,
+          "parent_energy": 797184,
+          "T": 0,
+          "epsilon": 0,
+          "repeated_entry_orbits": 0,
+          "four_distinct_orbits": 1
+        }
+      ]
+    },
+    {
+      "parent_order": 1024,
+      "eligible_primes_checked": 2048,
+      "start": 274877906945,
+      "last_prime": 274905326593,
+      "maximum_fiber": 1,
+      "collisions": []
+    }
+  ],
+  "source_sha256": {
+    "experiments/parallel2_subgroup_2026_09_04.py": "71704c284dce4efa63b153075472a02e8e9b41d9dffca0ba4e436a80b5c61793",
+    "results/kernel_discriminant.json": "17491d1cf4fc67bc1aa5c7a12ab481bde41743262bf332197fb394aa0ba0dcee"
+  }
+}

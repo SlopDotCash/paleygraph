@@ -1,0 +1,88 @@
+{
+  "finite_bounds": [
+    {
+      "configuration": "coset_medium_characteristic",
+      "sample": 0,
+      "catalog_aware_volume_lower_bound": 78,
+      "exact_integer_partition_cap_minimum": 14,
+      "strict_partition_cap_fails": true,
+      "caveat": "Size-only cap lower bound; actual attainment is separately certified by cover_barriers."
+    },
+    {
+      "configuration": "coset_small_characteristic",
+      "sample": 3,
+      "catalog_aware_volume_lower_bound": 11,
+      "exact_integer_partition_cap_minimum": 13,
+      "strict_partition_cap_fails": true,
+      "caveat": "Size-only cap lower bound; actual attainment is separately certified by cover_barriers."
+    }
+  ],
+  "pure_k_support_fixed_rate": {
+    "R": 0.5,
+    "alpha": 0.6875,
+    "entropy_exponent_bits_per_coordinate": 0.4188212310720749,
+    "formula": "H2(R)-alpha*H2(R/alpha)>0 for 0<R<alpha<1",
+    "finite_instances": [
+      {
+        "n": 16,
+        "k": 8,
+        "s": 11,
+        "exact_integer_lower_bound": 78,
+        "log2_counting_ratio": 6.285402218862249
+      },
+      {
+        "n": 32,
+        "k": 16,
+        "s": 22,
+        "exact_integer_lower_bound": 8056,
+        "log2_counting_ratio": 12.975843316485076
+      },
+      {
+        "n": 64,
+        "k": 32,
+        "s": 44,
+        "exact_integer_lower_bound": 86892595,
+        "log2_counting_ratio": 26.37272989852439
+      },
+      {
+        "n": 128,
+        "k": 64,
+        "s": 88,
+        "exact_integer_lower_bound": 10165894361641766,
+        "log2_counting_ratio": 53.17458666248481
+      },
+      {
+        "n": 256,
+        "k": 128,
+        "s": 176,
+        "exact_integer_lower_bound": 139537557204414115090125278725877,
+        "log2_counting_ratio": 106.78235251902368
+      },
+      {
+        "n": 512,
+        "k": 256,
+        "s": 352,
+        "exact_integer_lower_bound": 26326462004621635730907669885159456298320715208153638190634499511,
+        "log2_counting_ratio": 213.9999117243936
+      },
+      {
+        "n": 1024,
+        "k": 512,
+        "s": 704,
+        "exact_integer_lower_bound": 937778954114234754239435625533152943321770199295775911932286552337046288510870072730974075864869156067781160647284668338954034876,
+        "log2_counting_ratio": 428.436044047657
+      }
+    ]
+  },
+  "scope": "Pure k-support lower bound is conditional on that structural regime; no saved hard-pencil sequence at growing n is claimed.",
+  "source_bindings": [
+    {
+      "path": "counting_bounds.py",
+      "sha256": "0342faf20e83513f1334394cb168b0c7747b4948eabae9e1b09bd20686bf1e74"
+    },
+    {
+      "path": "results.json",
+      "sha256": "3b9ee61ad88cb40656bc5786b7dec19d4f50cff149585adeed2847c54ee74439"
+    }
+  ]
+}

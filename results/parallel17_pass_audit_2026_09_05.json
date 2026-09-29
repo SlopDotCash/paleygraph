@@ -1,0 +1,629 @@
+{
+  "status": "Passed final audit. Explicit prime-field gap and quantified insufficiency of this determinant certificate; full goal unproved.",
+  "audited_at_utc": "2026-09-05T07:06:58.703930+00:00",
+  "previous_turn_classification": "progress",
+  "input_hash_checks": [
+    {
+      "origin": "pass17",
+      "path": "research/parallel17-prime-uncertainty-2026-09-05.md",
+      "sha256": "2eaca714a8c2a139e0be257f9c2196824cbf720e566ce4ef8f0024af87f9ad83"
+    },
+    {
+      "origin": "pass17",
+      "path": "experiments/parallel17_prime_uncertainty_2026_09_05.py",
+      "sha256": "414bbdad5f373c8b8d77995112ab81b41eea5e66a3e9b7ff8e12b681926bd3bd"
+    },
+    {
+      "origin": "pass17",
+      "path": "sources/tao-uncertainty-math0308286v6.pdf",
+      "sha256": "244f4e79e667ee831e65d0cb0d8d42de4e354e83d576c65acaf391b0da519880"
+    },
+    {
+      "origin": "pass17",
+      "path": "sources/tao-uncertainty-math0308286v6.html",
+      "sha256": "268bcdcd3a1bcb487c1ea03d6927d4f63e72ba4e0312e2bd3ecc58f1e33f20f8"
+    },
+    {
+      "origin": "pass17",
+      "path": "research/parallel16-square-field-barrier-2026-09-05.md",
+      "sha256": "3d7219b9ff6568efc025d62331ea778c5e9e71a9be3de6db4286fb0f5c62174a"
+    },
+    {
+      "origin": "pass16",
+      "path": "research/parallel16-square-field-barrier-2026-09-05.md",
+      "sha256": "3d7219b9ff6568efc025d62331ea778c5e9e71a9be3de6db4286fb0f5c62174a"
+    },
+    {
+      "origin": "pass16",
+      "path": "experiments/parallel16_square_fields_2026_09_05.py",
+      "sha256": "69e92ed6662871430f94c27f216158b85aec5842046a8f2a6877829eed2264c3"
+    },
+    {
+      "origin": "pass16",
+      "path": "research/parallel14-elliptic-model-2026-09-05.md",
+      "sha256": "d24c58a1e0f89d500af8684ed80e9ef929eac1269b2be987386cc7778330dd72"
+    },
+    {
+      "origin": "pass16",
+      "path": "research/parallel15-elliptic-correlations-2026-09-05.md",
+      "sha256": "72e532a27b729b3fc443c5f3c200a5a6a135ce5d88ef4a2d54f9290040b3734a"
+    },
+    {
+      "origin": "pass16",
+      "path": "research/parallel2-spectral-transfer-2026-09-04.md",
+      "sha256": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3"
+    },
+    {
+      "origin": "pass16",
+      "path": "sources/katz-gauss-kloosterman-monodromy.pdf",
+      "sha256": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe"
+    },
+    {
+      "origin": "pass16",
+      "path": "sources/kunisky-2303.16475v1.html",
+      "sha256": "b16c8771a78741f54683e5a8e3acfe2fb9fee03e859ba55f49f9d5ee652a06da"
+    }
+  ],
+  "syntax_checks": [
+    "experiments/parallel17_prime_uncertainty_2026_09_05.py"
+  ],
+  "local_link_checks": [
+    {
+      "source": "research/parallel17-prime-uncertainty-2026-09-05.md",
+      "target": "../sources/tao-uncertainty-math0308286v6.pdf"
+    },
+    {
+      "source": "research/parallel17-prime-uncertainty-2026-09-05.md",
+      "target": "../experiments/parallel17_prime_uncertainty_2026_09_05.py"
+    },
+    {
+      "source": "research/parallel17-pass-summary-2026-09-05.md",
+      "target": "parallel17-prime-uncertainty-2026-09-05.md"
+    },
+    {
+      "source": "research/parallel17-pass-summary-2026-09-05.md",
+      "target": "../experiments/parallel17_prime_uncertainty_2026_09_05.py"
+    },
+    {
+      "source": "research/parallel17-pass-summary-2026-09-05.md",
+      "target": "../results/parallel17_prime_uncertainty_2026_09_05.json"
+    },
+    {
+      "source": "research/parallel17-pass-summary-2026-09-05.md",
+      "target": "../results/parallel17_pass_audit_2026_09_05.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel17-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel16-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel15-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel14-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel13-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel12-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel11-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel10-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel9-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel8-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel7-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel6-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel5-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel4-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel3-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel2-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/subgroup-target.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/source-audit.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/moments-and-obstructions.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/MomentObstruction.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/paley_exact.py"
+    },
+    {
+      "source": "README.md",
+      "target": "results/exact_checks.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/frontier.md"
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/subgroup_moments.py"
+    },
+    {
+      "source": "README.md",
+      "target": "research/SubgroupQuarticCounterexample.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "research/finite-spectral-obstruction.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/geometric-lift-and-alias.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/prize-reduction-audit.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/coset-coherence.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/period-polynomial-certificate.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/jacobi-coefficient-route.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/cyclotomic-prime-average.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/official-profile-and-trace.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/subset-sums-and-lists.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/riesz-tail-route.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/analytic-bounds-and-amplification.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-periods-and-shifted-energy.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/kernel-discriminant.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/quadruple-orbits-and-cube.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/dyadic-descent-and-mixed-energy.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/positive-product-moments.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/signed-quotient-operators.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/list-to-winning-set.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/localized-necklace-identities.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/planar-necklace-reductions.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel17-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel16-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel15-pass-summary-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "subgroup-target.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "geometric-lift-and-alias.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "coset-coherence.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "period-polynomial-certificate.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "jacobi-coefficient-route.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "cyclotomic-prime-average.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "official-profile-and-trace.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "subset-sums-and-lists.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "riesz-tail-route.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "analytic-bounds-and-amplification.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "mixed-periods-and-shifted-energy.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "kernel-discriminant.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "quadruple-orbits-and-cube.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "dyadic-descent-and-mixed-energy.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "positive-product-moments.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "signed-quotient-operators.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "list-to-winning-set.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "localized-necklace-identities.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "planar-necklace-reductions.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-spectral-transfer-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel2-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-conic-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel3-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-kernel-aggregate-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel4-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-anchor-aggregate-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel5-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-pass-summary-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-seeded-kernels-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel6-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-multiplier-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-subgroup-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-necklace-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel7-classical-2026-09-04.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel8-necklace-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel9-all-degrees-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel10-word-aggregate-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel11-full-energy-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel12-bootstrap-obstruction-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel13-principal-budget-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel14-elliptic-model-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel15-elliptic-correlations-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel16-square-field-barrier-2026-09-05.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "parallel17-prime-uncertainty-2026-09-05.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "prize-reduction-audit.md"
+    }
+  ],
+  "sources_verified": [
+    {
+      "path": "sources/tao-uncertainty-math0308286v6.pdf",
+      "sha256": "244f4e79e667ee831e65d0cb0d8d42de4e354e83d576c65acaf391b0da519880",
+      "bytes": 130591
+    },
+    {
+      "path": "sources/tao-uncertainty-math0308286v6.html",
+      "sha256": "268bcdcd3a1bcb487c1ea03d6927d4f63e72ba4e0312e2bd3ecc58f1e33f20f8",
+      "bytes": 161191
+    }
+  ],
+  "source_pdf_review": {
+    "path": "sources/tao-uncertainty-math0308286v6.pdf",
+    "total_pages": 7,
+    "reviewed_complete_pages": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "inputs": "Theorem 1.1, Lemmas 1.2-1.3, Corollary 1.4 and the uncertainty proof; Cauchy-Davenport is not an input.",
+    "rendered_page_checks": [
+      {
+        "page": 2,
+        "sha256": "877609f1575a748da0ca7c5f02d054df77bc803f7d11fb9749f07f6a4ac103ac",
+        "visually_reviewed_complete_page": true
+      },
+      {
+        "page": 3,
+        "sha256": "881dfb85c828c8b2d1acb335290f3a3638ba4886937355d9842b669b9626520e",
+        "visually_reviewed_complete_page": true
+      },
+      {
+        "page": 4,
+        "sha256": "ac82b0bfbd6d0bb1bae2cf8652b5585b4b98f191ce39db307890b95c5e6a3fd4",
+        "visually_reviewed_complete_page": true
+      },
+      {
+        "page": 5,
+        "sha256": "372ba0f08d3e136554d59ea194d23d9b4cc4d06e0941a29fb0c575c573a73527",
+        "visually_reviewed_complete_page": true
+      }
+    ],
+    "rendering_command": "pdftoppm -f 2 -l 5 -r 110 -png sources/tao-uncertainty-math0308286v6.pdf tmp/pdfs/paley17/tao"
+  },
+  "primary_html_review": "The matching primary arXiv v6 HTML was checked for the theorem hypotheses and proof.",
+  "preserved_pass16_artifacts": [
+    "research/parallel16-square-field-barrier-2026-09-05.md",
+    "research/parallel16-pass-summary-2026-09-05.md",
+    "experiments/parallel16_square_fields_2026_09_05.py",
+    "results/parallel16_square_fields_2026_09_05.json",
+    "results/parallel16_pass_audit_2026_09_05.json"
+  ],
+  "source_manifest_previous_entries_preserved": 20,
+  "source_manifest_appended_entries": 2,
+  "verification_counts": {
+    "positive_conjugate_leading_minors": 41420,
+    "independent_integer_determinants": 4132,
+    "second_moment_and_rational_decay_checks": 4132,
+    "shifted_positive_conjugate_minors": 518,
+    "permutation_determinants": 226,
+    "compressions": 4132,
+    "cyclotomic_projection_convolution_rows": 47
+  },
+  "exact_three_anchor_comparison": {
+    "p": 257,
+    "anchors": [
+      0,
+      1,
+      62
+    ],
+    "m": 32,
+    "certificate_gap_upper": "6209337915274753595651817956328872843046162717818690437765505609860483383296/1180599122369720559519596707231080237831562830074043406598871487089797546188809",
+    "certificate_upper_less_than": "1/100",
+    "required_gap_greater_than": "1/6"
+  },
+  "terminal_verifier": "Exit code 0 on final proof and script inputs.",
+  "proof_review": "Root checked Fourier-projection full-rank hypotheses, both conjugate positive matrices, rank-one determinant extraction, integral norm in Z[(1+sqrt(p))/2], removal of powers of two, the integer k, generalized compression and endpoint gap, exact second moment, rational AM-GM and exponential certificate decay, binomial Fourier leakage, and the non-Paley nature of the large interval-frequency family. The certificate upper bound is not an upper bound on the actual Paley gap. Independent mathematical review and formal verification remain outstanding.",
+  "worker_status": "The three workers were terminal at usage limits in the last live check during pass16. No restart or reset; this pass ran locally.",
+  "artifact_sha256": {
+    "research/parallel17-prime-uncertainty-2026-09-05.md": "2eaca714a8c2a139e0be257f9c2196824cbf720e566ce4ef8f0024af87f9ad83",
+    "research/parallel17-pass-summary-2026-09-05.md": "9c0534a7d48a1d50a572e2cad7f91d165c76885a8d95ad1a99d8ae9bb5b99e10",
+    "experiments/parallel17_prime_uncertainty_2026_09_05.py": "414bbdad5f373c8b8d77995112ab81b41eea5e66a3e9b7ff8e12b681926bd3bd",
+    "results/parallel17_prime_uncertainty_2026_09_05.json": "a88ec06d97ceeb7bddb260c3042255536c4e4f4b4c51fdaa09041b9a222fe29f"
+  },
+  "central_file_sha256": {
+    "README.md": "2ebb99cd9ea4c394094aaf9fff7296b806b60b60efbb6210cec3fb8d9ad7bd1e",
+    "research/frontier.md": "5fd495deef9f6ec81ffbc27cf36f473118e5b778e101806faa37108fcffad0fd",
+    "research/source-audit.md": "581045ada04aecc2a3876d14af0fb58fea4862310aaccb22c552aa0db1b22073",
+    "research/checkpoint-2026-09-04.md": "9172a94dc45a36933e05845a0f1a9f6ed9182a4e04c73e9c5dd60d076b954f02",
+    "sources/manifest.json": "d080f11a662e3c24512653e2489e6ce5c5a4336267e471fd3644f3cfa4d1721c"
+  },
+  "goal_status": "active and unachieved",
+  "open_obligations": [
+    "Quantitative control of quadratic-residue Fourier mass on actual anchor neighborhoods, or another uniform long-depth estimate strong enough for the spectral edge.",
+    "Independent mathematical review of the new deductions and earlier source-dependent arguments.",
+    "Classical arbitrary-two-set Paley cancellation.",
+    "Uniform subgroup square-root cancellation and exceptional-prime control.",
+    "Exact quantitative bridge to the official Reed-Solomon prize."
+  ]
+}

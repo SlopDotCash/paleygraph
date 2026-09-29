@@ -1,0 +1,435 @@
+{
+  "p": 101,
+  "q": 101,
+  "records": [
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": -18,
+      "count": 4
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": -10,
+      "count": 6
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": -2,
+      "count": 5
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": 6,
+      "count": 6
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "tau": 14,
+      "count": 4
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": -14,
+      "count": 4
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": -6,
+      "count": 6
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": 2,
+      "count": 5
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": 10,
+      "count": 6
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "tau": 18,
+      "count": 4
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": -14,
+      "count": 4
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": -6,
+      "count": 6
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": 2,
+      "count": 5
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": 10,
+      "count": 6
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "tau": 18,
+      "count": 4
+    },
+    {
+      "edges": [
+        1,
+        1,
+        1
+      ],
+      "tau": -6,
+      "count": 18
+    },
+    {
+      "edges": [
+        1,
+        1,
+        1
+      ],
+      "tau": 10,
+      "count": 6
+    }
+  ],
+  "normalized_parameter_count": 99,
+  "ordered_distinct_row_weight": 10100,
+  "sampled_tau_rows": [
+    {
+      "t": 0,
+      "tau": -1
+    },
+    {
+      "t": 1,
+      "tau": -1
+    },
+    {
+      "t": 2,
+      "tau": 2
+    },
+    {
+      "t": 3,
+      "tau": 6
+    },
+    {
+      "t": 7,
+      "tau": 10
+    },
+    {
+      "t": 9,
+      "tau": 18
+    },
+    {
+      "t": 19,
+      "tau": -6
+    },
+    {
+      "t": 22,
+      "tau": -6
+    },
+    {
+      "t": 26,
+      "tau": 18
+    },
+    {
+      "t": 27,
+      "tau": -10
+    },
+    {
+      "t": 29,
+      "tau": -10
+    },
+    {
+      "t": 31,
+      "tau": -6
+    },
+    {
+      "t": 33,
+      "tau": -14
+    },
+    {
+      "t": 40,
+      "tau": -10
+    },
+    {
+      "t": 41,
+      "tau": 14
+    },
+    {
+      "t": 42,
+      "tau": 14
+    },
+    {
+      "t": 43,
+      "tau": 2
+    },
+    {
+      "t": 44,
+      "tau": 10
+    },
+    {
+      "t": 49,
+      "tau": -14
+    },
+    {
+      "t": 65,
+      "tau": -6
+    },
+    {
+      "t": 66,
+      "tau": 10
+    },
+    {
+      "t": 76,
+      "tau": 18
+    },
+    {
+      "t": 79,
+      "tau": -6
+    },
+    {
+      "t": 86,
+      "tau": -6
+    },
+    {
+      "t": 87,
+      "tau": 10
+    },
+    {
+      "t": 89,
+      "tau": -14
+    },
+    {
+      "t": 90,
+      "tau": -2
+    },
+    {
+      "t": 93,
+      "tau": 18
+    },
+    {
+      "t": 98,
+      "tau": 18
+    },
+    {
+      "t": 100,
+      "tau": 2
+    }
+  ],
+  "metadata": {
+    "ntt_modulus": 998244353,
+    "ntt_length": 256,
+    "transforms": 3,
+    "input_l1": 99,
+    "integer_recovery_margin": 998244155,
+    "singular_tau_0": -1,
+    "singular_tau_1": -1,
+    "max_abs_nonsingular_tau": 18,
+    "Hasse_checked_after_recovery": true,
+    "all_normalized_triple_type_inversions_checked": 99,
+    "backend_seconds": 0.000515292
+  },
+  "edge_power_sums": [
+    {
+      "edges": [
+        1,
+        -1,
+        -1
+      ],
+      "powers": [
+        25,
+        -50,
+        2916,
+        -17096,
+        641424,
+        -5960480,
+        172447296
+      ]
+    },
+    {
+      "edges": [
+        1,
+        -1,
+        1
+      ],
+      "powers": [
+        25,
+        50,
+        2916,
+        17096,
+        641424,
+        5960480,
+        172447296
+      ]
+    },
+    {
+      "edges": [
+        1,
+        1,
+        -1
+      ],
+      "powers": [
+        25,
+        50,
+        2916,
+        17096,
+        641424,
+        5960480,
+        172447296
+      ]
+    },
+    {
+      "edges": [
+        1,
+        1,
+        1
+      ],
+      "powers": [
+        24,
+        -48,
+        1248,
+        2112,
+        83328,
+        460032,
+        6839808
+      ]
+    }
+  ],
+  "total_power_sums": [
+    99,
+    2,
+    9996,
+    19208,
+    2007600,
+    6420512,
+    524181696
+  ],
+  "n6_global_third_moment": {
+    "n": 6,
+    "degree": 6,
+    "all_equal_numerator": -1979600,
+    "exactly_two_equal_numerator": -558247200,
+    "all_distinct_numerator": 6400087200,
+    "sum_T6_cubed": 5839860400,
+    "number_of_six_sets": 1267339920,
+    "third_moment": [
+      65705,
+      14259
+    ],
+    "third_moment_display": 4.607966898099446,
+    "six_column_subsets_enumerated": 0
+  },
+  "normalization": {
+    "family": "prime Paley only",
+    "row_order": [
+      "0",
+      "1",
+      "t"
+    ],
+    "edge_order": [
+      "S[0,1]",
+      "S[0,t]",
+      "S[1,t]"
+    ],
+    "edge_formula": [
+      "1",
+      "chi(t)",
+      "chi(t-1)"
+    ],
+    "trace_definition": "tau(t)=sum_x chi(x(x-1)(x-t))",
+    "frobenius_trace_sign": "a_t(p)=-tau(t)",
+    "excluded_parameters": [
+      0,
+      1
+    ],
+    "affine_map": "x -> (x-a)/(b-a); t=(c-a)/(b-a)",
+    "sign_complement_multiplier": "chi(b-a)",
+    "valid_target_symmetry": "Degree6 row coefficients and their third products are invariant under simultaneous sign complement.",
+    "distinct_ordered_triples_per_parameter": 10100,
+    "weights_applied_to_records": false
+  },
+  "provenance": {
+    "input_file": "input_p101.json",
+    "input_sha256": "d543e06282ac8563aa98b79a1e75374144c347d164f020fe9582156a1e93ef1e",
+    "tau_file": "tau_p101.bin",
+    "tau_sha256": "61d73736fe7b6254869cdb34add3f6fe71adc87f263444373d1b166aa249cd63",
+    "tau_format": "little-endian uint32 p, followed by p little-endian signed int32 tau values including t0,1",
+    "cpp_sha256": "f4b095430f3a9948acb8e679945b6f6695f6167a87e9ed5a83c75c8f9d193976",
+    "ntt_header_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "copied_ntt_source": "round4/marked_counts_ablation/ntt_exact.hpp",
+    "copied_ntt_source_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "executable_sha256": "d107a6b8682a36447d4bf374d17443f9eeb329bcb98faa3d78915874560698c7",
+    "runner_sha256": "d252c2ecbaef12498dc989ca328a277863a0c08bfaa67516519acc24af67b08c",
+    "wall_seconds": 0.011980417009908706,
+    "maximum_child_rss_bytes": 1490944,
+    "rss_scope": "maximum over child processes in this runner lifetime, not isolated per input",
+    "runtime": {
+      "python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "version": "3.14.6"
+    }
+  }
+}

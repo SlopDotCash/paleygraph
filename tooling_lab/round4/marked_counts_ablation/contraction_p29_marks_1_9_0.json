@@ -1,0 +1,326 @@
+{
+  "p": 29,
+  "marks": [
+    1,
+    9,
+    0
+  ],
+  "Q": 86,
+  "cells": [
+    {
+      "pattern": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": 4
+    },
+    {
+      "pattern": [
+        -1,
+        -1,
+        1
+      ],
+      "size": 2
+    },
+    {
+      "pattern": [
+        -1,
+        0,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        -1
+      ],
+      "size": 3
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        1
+      ],
+      "size": 4
+    },
+    {
+      "pattern": [
+        0,
+        -1,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        -1
+      ],
+      "size": 3
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        1
+      ],
+      "size": 4
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        -1
+      ],
+      "size": 4
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        0
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        1
+      ],
+      "size": 2
+    }
+  ],
+  "sampled_convolution_rows": [
+    {
+      "x": 0,
+      "value": -2
+    },
+    {
+      "x": 1,
+      "value": 0
+    },
+    {
+      "x": 2,
+      "value": 1
+    },
+    {
+      "x": 3,
+      "value": -7
+    },
+    {
+      "x": 5,
+      "value": 1
+    },
+    {
+      "x": 6,
+      "value": -3
+    },
+    {
+      "x": 8,
+      "value": 1
+    },
+    {
+      "x": 9,
+      "value": 0
+    },
+    {
+      "x": 11,
+      "value": -3
+    },
+    {
+      "x": 12,
+      "value": 5
+    },
+    {
+      "x": 13,
+      "value": -3
+    },
+    {
+      "x": 14,
+      "value": 1
+    },
+    {
+      "x": 15,
+      "value": -7
+    },
+    {
+      "x": 16,
+      "value": 5
+    },
+    {
+      "x": 20,
+      "value": -3
+    },
+    {
+      "x": 21,
+      "value": 9
+    },
+    {
+      "x": 22,
+      "value": 5
+    },
+    {
+      "x": 23,
+      "value": -3
+    },
+    {
+      "x": 25,
+      "value": 9
+    },
+    {
+      "x": 26,
+      "value": 1
+    },
+    {
+      "x": 27,
+      "value": 5
+    },
+    {
+      "x": 28,
+      "value": -3
+    }
+  ],
+  "metadata": {
+    "ntt_modulus": 998244353,
+    "ntt_length": 64,
+    "transforms": 3,
+    "h3_l1": 26,
+    "h2_l1": 38,
+    "integer_recovery_margin": 998244301,
+    "Q_absolute_bound": 988,
+    "backend_seconds": 4.9334e-05
+  },
+  "reduced_moments": [
+    {
+      "q": 29,
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "n": 6,
+      "degree": 6,
+      "cell_only_term": [
+        7323,
+        325
+      ],
+      "Q": 86,
+      "Q_coefficient": [
+        0,
+        1
+      ],
+      "mean": [
+        -6,
+        325
+      ],
+      "second_moment": [
+        7323,
+        325
+      ],
+      "variance": [
+        2379939,
+        105625
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 0,
+      "uneliminated_ordered_walsh_terms": 0
+    },
+    {
+      "q": 29,
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "n": 7,
+      "degree": 6,
+      "cell_only_term": [
+        941207,
+        7475
+      ],
+      "Q": 86,
+      "Q_coefficient": [
+        -2,
+        7475
+      ],
+      "mean": [
+        -213,
+        1495
+      ],
+      "second_moment": [
+        188207,
+        1495
+      ],
+      "variance": [
+        281324096,
+        2235025
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 24,
+      "uneliminated_ordered_walsh_terms": 6
+    },
+    {
+      "q": 29,
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "n": 8,
+      "degree": 6,
+      "cell_only_term": [
+        6729956,
+        16445
+      ],
+      "Q": 86,
+      "Q_coefficient": [
+        2,
+        16445
+      ],
+      "mean": [
+        -888,
+        1495
+      ],
+      "second_moment": [
+        6730128,
+        16445
+      ],
+      "variance": [
+        10052867376,
+        24585275
+      ],
+      "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+      "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+      "nonzero_walsh_coefficients": 32,
+      "uneliminated_ordered_walsh_terms": 6
+    }
+  ],
+  "validation": {
+    "Q_from_full_exact_relations": 86,
+    "relation_Q_matched": true,
+    "direct_rows": 29,
+    "direct_integer_terms": 841,
+    "full_independent_direct_Q": true,
+    "all_character_values_checked_by_Euler_criterion": 29
+  },
+  "provenance": {
+    "input_file": "marked_counts_ablation/witness.json",
+    "input_sha256": "68114fe6784f50d4cb066578271ea3ec6d3628fc6a9a0b9c9a746af250d48ffb",
+    "cpp_sha256": "73478bb4b272ff6826fd6e8b7213503fdf88e44b05428008c938e7c8841707d5",
+    "header_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "binary_sha256": "cf1ee8e6fdacc6b3accfb0352053b50632390c9489f283b8b556826c101e1090",
+    "verifier_sha256": "f3564cb52dcc1f40224564606b2b3869688e8357f167a7101b74f5c53680de37",
+    "reduction_source_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+    "conditional_compiler_source_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "wall_including_independent_validation_seconds": 0.24564399999508169,
+    "runner_lifetime_max_child_rss_bytes": 38109184
+  }
+}

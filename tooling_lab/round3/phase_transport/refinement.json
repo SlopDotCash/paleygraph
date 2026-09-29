@@ -1,0 +1,822 @@
+{
+  "status": "amplitude-subtracted and symmetry-preserving controls; finite exploratory comparison",
+  "cases": [
+    {
+      "p": 101,
+      "side": "positive",
+      "baseline": {
+        "off_axes_max": 0.3567247689180928,
+        "off_axes_quartic_sum": 2.923124731728656,
+        "nonvertical_line_max": 1.449065348771736,
+        "vertical_line": 7.730895958504658,
+        "horizontal_line": 1.3649947220377596
+      },
+      "S3_equivariant_shuffles": [
+        {
+          "index": 0,
+          "rayleigh_H_same_operator": 0.23917522773290356,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.3939314737780051,
+          "off_axes_quartic_sum": 3.4618495104086646,
+          "nonvertical_line_max": 1.6004641835630897,
+          "vertical_line": 7.730895958504659,
+          "horizontal_line": 1.3767382309049343
+        },
+        {
+          "index": 1,
+          "rayleigh_H_same_operator": 0.3332294848386058,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.369140786457385,
+          "off_axes_quartic_sum": 2.9385995592637935,
+          "nonvertical_line_max": 1.925263554981062,
+          "vertical_line": 7.730895958504659,
+          "horizontal_line": 1.925263554981062
+        },
+        {
+          "index": 2,
+          "rayleigh_H_same_operator": 0.5605568925862678,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.33749199859573814,
+          "off_axes_quartic_sum": 3.0904572632362077,
+          "nonvertical_line_max": 1.7708232181676469,
+          "vertical_line": 7.730895958504657,
+          "horizontal_line": 1.5234621061668934
+        },
+        {
+          "index": 3,
+          "rayleigh_H_same_operator": 0.23917522773290356,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.3939314737780051,
+          "off_axes_quartic_sum": 3.4618495104086646,
+          "nonvertical_line_max": 1.6004641835630897,
+          "vertical_line": 7.730895958504659,
+          "horizontal_line": 1.3767382309049343
+        },
+        {
+          "index": 4,
+          "rayleigh_H_same_operator": 0.13293465527446846,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.34541967191204925,
+          "off_axes_quartic_sum": 3.018344251027816,
+          "nonvertical_line_max": 1.8152667754723313,
+          "vertical_line": 7.730895958504659,
+          "horizontal_line": 1.5947894776309068
+        },
+        {
+          "index": 5,
+          "rayleigh_H_same_operator": 0.389852651407251,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.4048877043031238,
+          "off_axes_quartic_sum": 3.249029947322807,
+          "nonvertical_line_max": 2.112708149034839,
+          "vertical_line": 7.730895958504657,
+          "horizontal_line": 1.6940804311959248
+        },
+        {
+          "index": 6,
+          "rayleigh_H_same_operator": 0.3044634095263773,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.39669720372780554,
+          "off_axes_quartic_sum": 3.654134752293058,
+          "nonvertical_line_max": 1.780338746555889,
+          "vertical_line": 7.730895958504659,
+          "horizontal_line": 1.780338746555889
+        },
+        {
+          "index": 7,
+          "rayleigh_H_same_operator": 0.5748421536710804,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.35672476891809285,
+          "off_axes_quartic_sum": 2.9920649052278034,
+          "nonvertical_line_max": 1.5884927780969904,
+          "vertical_line": 7.730895958504659,
+          "horizontal_line": 1.5884927780969904
+        }
+      ],
+      "chirp_orbit_fixed_operator_rayleighs": [
+        {
+          "c": 0,
+          "rayleigh_H_same_operator": 0.6048500694520627
+        },
+        {
+          "c": 1,
+          "rayleigh_H_same_operator": 0.030002844592853947
+        },
+        {
+          "c": 2,
+          "rayleigh_H_same_operator": -0.09529334361837538
+        },
+        {
+          "c": 3,
+          "rayleigh_H_same_operator": 0.02917582717119281
+        },
+        {
+          "c": 4,
+          "rayleigh_H_same_operator": 0.01372242895014308
+        },
+        {
+          "c": 5,
+          "rayleigh_H_same_operator": 0.029042501902544753
+        },
+        {
+          "c": 7,
+          "rayleigh_H_same_operator": -0.02416357506645456
+        },
+        {
+          "c": 11,
+          "rayleigh_H_same_operator": 0.08822979914823245
+        },
+        {
+          "c": 13,
+          "rayleigh_H_same_operator": -0.026643005903506968
+        },
+        {
+          "c": 17,
+          "rayleigh_H_same_operator": 0.04072765070186839
+        }
+      ],
+      "vertical_amplitude_identity_error": 8.881784197001252e-16
+    },
+    {
+      "p": 101,
+      "side": "negative",
+      "baseline": {
+        "off_axes_max": 0.340061136894915,
+        "off_axes_quartic_sum": 3.072897223842253,
+        "nonvertical_line_max": 2.8226841563043346,
+        "vertical_line": 7.517705169418217,
+        "horizontal_line": 2.8226841563043346
+      },
+      "S3_equivariant_shuffles": [
+        {
+          "index": 0,
+          "rayleigh_H_same_operator": 0.20649690768783502,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.3694696091260523,
+          "off_axes_quartic_sum": 2.8449511044716393,
+          "nonvertical_line_max": 1.7582162300393587,
+          "vertical_line": 7.5177051694182175,
+          "horizontal_line": 1.0654345238473824
+        },
+        {
+          "index": 1,
+          "rayleigh_H_same_operator": -0.06985238525290721,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.5386900391260684,
+          "off_axes_quartic_sum": 5.17241503467905,
+          "nonvertical_line_max": 2.3239815421841112,
+          "vertical_line": 7.517705169418216,
+          "horizontal_line": 2.3239815421841112
+        },
+        {
+          "index": 2,
+          "rayleigh_H_same_operator": 0.38299761219031203,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.4268505599450543,
+          "off_axes_quartic_sum": 3.6440288975484236,
+          "nonvertical_line_max": 1.879756511402496,
+          "vertical_line": 7.517705169418216,
+          "horizontal_line": 1.4949384564879094
+        },
+        {
+          "index": 3,
+          "rayleigh_H_same_operator": 0.17122943370047689,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.3798326107388969,
+          "off_axes_quartic_sum": 3.450300022266428,
+          "nonvertical_line_max": 1.5129912615248928,
+          "vertical_line": 7.517705169418216,
+          "horizontal_line": 1.3202470516425335
+        },
+        {
+          "index": 4,
+          "rayleigh_H_same_operator": -0.35425088463192544,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.4306934616147649,
+          "off_axes_quartic_sum": 3.441558476521241,
+          "nonvertical_line_max": 1.6546525791604887,
+          "vertical_line": 7.517705169418217,
+          "horizontal_line": 1.6093808979956619
+        },
+        {
+          "index": 5,
+          "rayleigh_H_same_operator": -0.1466633118117408,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.38482974836613604,
+          "off_axes_quartic_sum": 2.584566777622082,
+          "nonvertical_line_max": 1.484961088827034,
+          "vertical_line": 7.517705169418215,
+          "horizontal_line": 1.4769035863307503
+        },
+        {
+          "index": 6,
+          "rayleigh_H_same_operator": -0.15001736449775926,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.36421280683767016,
+          "off_axes_quartic_sum": 2.886367363597615,
+          "nonvertical_line_max": 1.9282819367039075,
+          "vertical_line": 7.517705169418215,
+          "horizontal_line": 1.9282819367039075
+        },
+        {
+          "index": 7,
+          "rayleigh_H_same_operator": 0.20649690768783502,
+          "regular_orbits_permuted": 4,
+          "off_axes_max": 0.3694696091260523,
+          "off_axes_quartic_sum": 2.8449511044716393,
+          "nonvertical_line_max": 1.7582162300393587,
+          "vertical_line": 7.5177051694182175,
+          "horizontal_line": 1.0654345238473824
+        }
+      ],
+      "chirp_orbit_fixed_operator_rayleighs": [
+        {
+          "c": 0,
+          "rayleigh_H_same_operator": -0.7770987507966671
+        },
+        {
+          "c": 1,
+          "rayleigh_H_same_operator": 0.13374567461899325
+        },
+        {
+          "c": 2,
+          "rayleigh_H_same_operator": 0.10709096948816421
+        },
+        {
+          "c": 3,
+          "rayleigh_H_same_operator": -0.1489887249098261
+        },
+        {
+          "c": 4,
+          "rayleigh_H_same_operator": 0.033509038267387485
+        },
+        {
+          "c": 5,
+          "rayleigh_H_same_operator": 0.18522635162338424
+        },
+        {
+          "c": 7,
+          "rayleigh_H_same_operator": -0.1620459957921374
+        },
+        {
+          "c": 11,
+          "rayleigh_H_same_operator": -0.036012243860872616
+        },
+        {
+          "c": 13,
+          "rayleigh_H_same_operator": 0.15917117750376308
+        },
+        {
+          "c": 17,
+          "rayleigh_H_same_operator": -0.04231343794601219
+        }
+      ],
+      "vertical_amplitude_identity_error": 8.881784197001252e-16
+    },
+    {
+      "p": 401,
+      "side": "positive",
+      "baseline": {
+        "off_axes_max": 0.21803892554093612,
+        "off_axes_quartic_sum": 3.1529317089487314,
+        "nonvertical_line_max": 3.0124145041960895,
+        "vertical_line": 8.60150298406986,
+        "horizontal_line": 3.0124145041960895
+      },
+      "S3_equivariant_shuffles": [
+        {
+          "index": 0,
+          "rayleigh_H_same_operator": 0.037750728584080497,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.22787084220365744,
+          "off_axes_quartic_sum": 3.050079897422311,
+          "nonvertical_line_max": 1.7185256379376108,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 1.5610386056837415
+        },
+        {
+          "index": 1,
+          "rayleigh_H_same_operator": 0.025488792603990326,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.21489410522886884,
+          "off_axes_quartic_sum": 3.0074547349180816,
+          "nonvertical_line_max": 1.7393972577596495,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 1.7393972577596495
+        },
+        {
+          "index": 2,
+          "rayleigh_H_same_operator": 0.12915601024768184,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2412531347376863,
+          "off_axes_quartic_sum": 3.1355083717345913,
+          "nonvertical_line_max": 1.7159145129734803,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 1.7159145129734803
+        },
+        {
+          "index": 3,
+          "rayleigh_H_same_operator": 0.16253789522251233,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.21815981651451408,
+          "off_axes_quartic_sum": 3.0983268648302404,
+          "nonvertical_line_max": 2.083068680435046,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 2.083068680435046
+        },
+        {
+          "index": 4,
+          "rayleigh_H_same_operator": -0.10430644544755287,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2640540081180936,
+          "off_axes_quartic_sum": 3.1355336615407667,
+          "nonvertical_line_max": 2.486085332221726,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 2.486085332221726
+        },
+        {
+          "index": 5,
+          "rayleigh_H_same_operator": 0.16877988183268677,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.23042444843088505,
+          "off_axes_quartic_sum": 3.1778197595340822,
+          "nonvertical_line_max": 2.7416615796216885,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 2.7416615796216885
+        },
+        {
+          "index": 6,
+          "rayleigh_H_same_operator": 0.2055880567326876,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2416107359703466,
+          "off_axes_quartic_sum": 3.224114105898702,
+          "nonvertical_line_max": 2.2675162500849515,
+          "vertical_line": 8.60150298406986,
+          "horizontal_line": 2.2675162500849515
+        },
+        {
+          "index": 7,
+          "rayleigh_H_same_operator": -0.05464022161815828,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2442004432714134,
+          "off_axes_quartic_sum": 3.181759996278478,
+          "nonvertical_line_max": 2.366493967584109,
+          "vertical_line": 8.601502984069862,
+          "horizontal_line": 2.366493967584109
+        }
+      ],
+      "chirp_orbit_fixed_operator_rayleighs": [
+        {
+          "c": 0,
+          "rayleigh_H_same_operator": 0.7995758238927917
+        },
+        {
+          "c": 1,
+          "rayleigh_H_same_operator": 0.08405661943070022
+        },
+        {
+          "c": 2,
+          "rayleigh_H_same_operator": 0.017954104806185256
+        },
+        {
+          "c": 3,
+          "rayleigh_H_same_operator": -0.04966536382412942
+        },
+        {
+          "c": 4,
+          "rayleigh_H_same_operator": -0.02437005855573427
+        },
+        {
+          "c": 5,
+          "rayleigh_H_same_operator": 0.024749079234972056
+        },
+        {
+          "c": 7,
+          "rayleigh_H_same_operator": -0.084397133376607
+        },
+        {
+          "c": 11,
+          "rayleigh_H_same_operator": -0.035182813700834224
+        },
+        {
+          "c": 13,
+          "rayleigh_H_same_operator": 0.08135854248489452
+        },
+        {
+          "c": 17,
+          "rayleigh_H_same_operator": -0.023714748081496855
+        }
+      ],
+      "vertical_amplitude_identity_error": 3.552713678800501e-15
+    },
+    {
+      "p": 401,
+      "side": "negative",
+      "baseline": {
+        "off_axes_max": 0.24792725290619683,
+        "off_axes_quartic_sum": 3.177874589316078,
+        "nonvertical_line_max": 4.233803278086709,
+        "vertical_line": 10.081592377683968,
+        "horizontal_line": 4.233803278086709
+      },
+      "S3_equivariant_shuffles": [
+        {
+          "index": 0,
+          "rayleigh_H_same_operator": -0.14544494218063755,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.24033454318116304,
+          "off_axes_quartic_sum": 3.2176915485351465,
+          "nonvertical_line_max": 1.9207485759755962,
+          "vertical_line": 10.081592377683968,
+          "horizontal_line": 1.9207485759755962
+        },
+        {
+          "index": 1,
+          "rayleigh_H_same_operator": 0.17365425716622226,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.28002766823563424,
+          "off_axes_quartic_sum": 3.5137119990564565,
+          "nonvertical_line_max": 2.8414483866200717,
+          "vertical_line": 10.081592377683968,
+          "horizontal_line": 2.8414483866200717
+        },
+        {
+          "index": 2,
+          "rayleigh_H_same_operator": 0.04426041956750956,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.26970933432834204,
+          "off_axes_quartic_sum": 3.2672585641246252,
+          "nonvertical_line_max": 1.7336387597454634,
+          "vertical_line": 10.08159237768397,
+          "horizontal_line": 1.7336387597454634
+        },
+        {
+          "index": 3,
+          "rayleigh_H_same_operator": -0.09023079409256839,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2645390770555571,
+          "off_axes_quartic_sum": 3.8259143303741086,
+          "nonvertical_line_max": 2.2724499165069307,
+          "vertical_line": 10.081592377683968,
+          "horizontal_line": 2.2724499165069307
+        },
+        {
+          "index": 4,
+          "rayleigh_H_same_operator": -0.10843772477334537,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.22686818773459,
+          "off_axes_quartic_sum": 3.1519514172712437,
+          "nonvertical_line_max": 2.0984962220789583,
+          "vertical_line": 10.081592377683966,
+          "horizontal_line": 2.0984962220789583
+        },
+        {
+          "index": 5,
+          "rayleigh_H_same_operator": -0.07570236308939605,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2168349707546414,
+          "off_axes_quartic_sum": 3.2067439383362464,
+          "nonvertical_line_max": 1.708555499768123,
+          "vertical_line": 10.081592377683968,
+          "horizontal_line": 1.708555499768123
+        },
+        {
+          "index": 6,
+          "rayleigh_H_same_operator": 0.04389265692059245,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2736311950455461,
+          "off_axes_quartic_sum": 3.3932432676874074,
+          "nonvertical_line_max": 1.7469622017472801,
+          "vertical_line": 10.081592377683968,
+          "horizontal_line": 1.7469622017472801
+        },
+        {
+          "index": 7,
+          "rayleigh_H_same_operator": -0.0784400570855319,
+          "regular_orbits_permuted": 16,
+          "off_axes_max": 0.2415059502791629,
+          "off_axes_quartic_sum": 3.3356192538095053,
+          "nonvertical_line_max": 1.6257842049372653,
+          "vertical_line": 10.081592377683968,
+          "horizontal_line": 1.6257842049372653
+        }
+      ],
+      "chirp_orbit_fixed_operator_rayleighs": [
+        {
+          "c": 0,
+          "rayleigh_H_same_operator": -0.8774933055890198
+        },
+        {
+          "c": 1,
+          "rayleigh_H_same_operator": -0.01302282383257522
+        },
+        {
+          "c": 2,
+          "rayleigh_H_same_operator": -0.007202375809512652
+        },
+        {
+          "c": 3,
+          "rayleigh_H_same_operator": 0.01902027698162328
+        },
+        {
+          "c": 4,
+          "rayleigh_H_same_operator": -0.0020385257792347265
+        },
+        {
+          "c": 5,
+          "rayleigh_H_same_operator": 0.004346941191767643
+        },
+        {
+          "c": 7,
+          "rayleigh_H_same_operator": 0.07219903537788645
+        },
+        {
+          "c": 11,
+          "rayleigh_H_same_operator": -0.00690081594019219
+        },
+        {
+          "c": 13,
+          "rayleigh_H_same_operator": 0.027411624030125554
+        },
+        {
+          "c": 17,
+          "rayleigh_H_same_operator": 0.03435882121638971
+        }
+      ],
+      "vertical_amplitude_identity_error": 3.552713678800501e-15
+    },
+    {
+      "p": 1009,
+      "side": "positive",
+      "baseline": {
+        "off_axes_max": 0.15691542849319112,
+        "off_axes_quartic_sum": 3.1074430269263864,
+        "nonvertical_line_max": 3.611709087995181,
+        "vertical_line": 11.135161657985037,
+        "horizontal_line": 3.611709087995181
+      },
+      "S3_equivariant_shuffles": [
+        {
+          "index": 0,
+          "rayleigh_H_same_operator": -0.08004854778401276,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.17503844139199773,
+          "off_axes_quartic_sum": 3.1280953294268627,
+          "nonvertical_line_max": 1.913741898083019,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 1.913741898083019
+        },
+        {
+          "index": 1,
+          "rayleigh_H_same_operator": 0.05720525261009504,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.16605725265146856,
+          "off_axes_quartic_sum": 3.1471829279349057,
+          "nonvertical_line_max": 2.0877591345079174,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 2.0877591345079174
+        },
+        {
+          "index": 2,
+          "rayleigh_H_same_operator": 0.016313118391987173,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.18245222429396526,
+          "off_axes_quartic_sum": 3.2239271732090655,
+          "nonvertical_line_max": 2.1377947318716877,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 2.1377947318716877
+        },
+        {
+          "index": 3,
+          "rayleigh_H_same_operator": 0.012553476595265189,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.1929320492288662,
+          "off_axes_quartic_sum": 3.322706154053649,
+          "nonvertical_line_max": 1.870004629911097,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 1.870004629911097
+        },
+        {
+          "index": 4,
+          "rayleigh_H_same_operator": -0.003715599339014406,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.1625862086565372,
+          "off_axes_quartic_sum": 3.240328479951682,
+          "nonvertical_line_max": 1.7232529851325573,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 1.7232529851325573
+        },
+        {
+          "index": 5,
+          "rayleigh_H_same_operator": -0.04509006604095804,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.16342732288177333,
+          "off_axes_quartic_sum": 3.0612554225839075,
+          "nonvertical_line_max": 1.8559131661236652,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 1.8559131661236652
+        },
+        {
+          "index": 6,
+          "rayleigh_H_same_operator": -0.04786719475478375,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.15682787356602892,
+          "off_axes_quartic_sum": 3.224607621457229,
+          "nonvertical_line_max": 1.786487468622647,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 1.786487468622647
+        },
+        {
+          "index": 7,
+          "rayleigh_H_same_operator": 0.003938003201232161,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.18620328341202355,
+          "off_axes_quartic_sum": 3.246153126294701,
+          "nonvertical_line_max": 1.5972478170797972,
+          "vertical_line": 11.135161657985037,
+          "horizontal_line": 1.5972478170797972
+        }
+      ],
+      "chirp_orbit_fixed_operator_rayleighs": [
+        {
+          "c": 0,
+          "rayleigh_H_same_operator": 0.8194808923405309
+        },
+        {
+          "c": 1,
+          "rayleigh_H_same_operator": -0.007606865224416852
+        },
+        {
+          "c": 2,
+          "rayleigh_H_same_operator": 0.03221169059100594
+        },
+        {
+          "c": 3,
+          "rayleigh_H_same_operator": -0.004333764315414511
+        },
+        {
+          "c": 4,
+          "rayleigh_H_same_operator": -0.030121027563627882
+        },
+        {
+          "c": 5,
+          "rayleigh_H_same_operator": 0.012106257292202426
+        },
+        {
+          "c": 7,
+          "rayleigh_H_same_operator": -0.031031566023217987
+        },
+        {
+          "c": 11,
+          "rayleigh_H_same_operator": -0.025658761050538027
+        },
+        {
+          "c": 13,
+          "rayleigh_H_same_operator": -0.03787438665175037
+        },
+        {
+          "c": 17,
+          "rayleigh_H_same_operator": -0.00864778455639112
+        }
+      ],
+      "vertical_amplitude_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "p": 1009,
+      "side": "negative",
+      "baseline": {
+        "off_axes_max": 0.16309400797653908,
+        "off_axes_quartic_sum": 3.1754925092636093,
+        "nonvertical_line_max": 3.9541289499607277,
+        "vertical_line": 9.395444829907115,
+        "horizontal_line": 3.9541289499607277
+      },
+      "S3_equivariant_shuffles": [
+        {
+          "index": 0,
+          "rayleigh_H_same_operator": -0.0588448887358031,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.15942883823029141,
+          "off_axes_quartic_sum": 3.017156946592234,
+          "nonvertical_line_max": 1.8145024820734121,
+          "vertical_line": 9.395444829907113,
+          "horizontal_line": 1.8145024820734121
+        },
+        {
+          "index": 1,
+          "rayleigh_H_same_operator": 0.0816966470009623,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.15311946650388383,
+          "off_axes_quartic_sum": 3.112249594127447,
+          "nonvertical_line_max": 2.2519141071782114,
+          "vertical_line": 9.395444829907113,
+          "horizontal_line": 2.2519141071782114
+        },
+        {
+          "index": 2,
+          "rayleigh_H_same_operator": 0.11758193297326182,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.1613082653326532,
+          "off_axes_quartic_sum": 3.1172185202047804,
+          "nonvertical_line_max": 1.961196720469594,
+          "vertical_line": 9.395444829907115,
+          "horizontal_line": 1.961196720469594
+        },
+        {
+          "index": 3,
+          "rayleigh_H_same_operator": 0.02324798972372538,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.20105803572578151,
+          "off_axes_quartic_sum": 3.2322139124207885,
+          "nonvertical_line_max": 2.5406317455912593,
+          "vertical_line": 9.395444829907115,
+          "horizontal_line": 2.5406317455912593
+        },
+        {
+          "index": 4,
+          "rayleigh_H_same_operator": -0.11984317954485854,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.16501738701656068,
+          "off_axes_quartic_sum": 3.0633402454205356,
+          "nonvertical_line_max": 2.2314767696614752,
+          "vertical_line": 9.395444829907115,
+          "horizontal_line": 2.2314767696614752
+        },
+        {
+          "index": 5,
+          "rayleigh_H_same_operator": 0.057775997748516585,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.15245587957402187,
+          "off_axes_quartic_sum": 3.0727441326598948,
+          "nonvertical_line_max": 2.2358551740749304,
+          "vertical_line": 9.395444829907113,
+          "horizontal_line": 2.2358551740749304
+        },
+        {
+          "index": 6,
+          "rayleigh_H_same_operator": -0.011211850698049742,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.1772277379306448,
+          "off_axes_quartic_sum": 3.1942377335606773,
+          "nonvertical_line_max": 1.674483280110882,
+          "vertical_line": 9.395444829907113,
+          "horizontal_line": 1.674483280110882
+        },
+        {
+          "index": 7,
+          "rayleigh_H_same_operator": 0.09417333208912049,
+          "regular_orbits_permuted": 41,
+          "off_axes_max": 0.16083239517005019,
+          "off_axes_quartic_sum": 3.106386836523723,
+          "nonvertical_line_max": 1.9868911049630493,
+          "vertical_line": 9.395444829907113,
+          "horizontal_line": 1.9868911049630493
+        }
+      ],
+      "chirp_orbit_fixed_operator_rayleighs": [
+        {
+          "c": 0,
+          "rayleigh_H_same_operator": -0.858021159892215
+        },
+        {
+          "c": 1,
+          "rayleigh_H_same_operator": 0.05335762568229775
+        },
+        {
+          "c": 2,
+          "rayleigh_H_same_operator": 0.00809417938966143
+        },
+        {
+          "c": 3,
+          "rayleigh_H_same_operator": -0.020219594781703907
+        },
+        {
+          "c": 4,
+          "rayleigh_H_same_operator": 0.02874958458216353
+        },
+        {
+          "c": 5,
+          "rayleigh_H_same_operator": 0.007137742691259119
+        },
+        {
+          "c": 7,
+          "rayleigh_H_same_operator": -0.007535888526916413
+        },
+        {
+          "c": 11,
+          "rayleigh_H_same_operator": -0.0532861705279421
+        },
+        {
+          "c": 13,
+          "rayleigh_H_same_operator": -0.0005575770695554257
+        },
+        {
+          "c": 17,
+          "rayleigh_H_same_operator": -0.021596031327987444
+        }
+      ],
+      "vertical_amplitude_identity_error": 1.7763568394002505e-15
+    }
+  ],
+  "source_sha256": "23d0ec951e879345d1ce4eea180efa689b9fab9bf5a5f758082b27b181d2716d"
+}

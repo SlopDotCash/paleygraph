@@ -1,0 +1,6 @@
+{
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "Darwin-25.2.0-arm64-arm-64bit-Mach-O",
+  "dependencies": "Python standard library plus the previously compiled C++ exact union backend; no numerical libraries in this lane"
+}

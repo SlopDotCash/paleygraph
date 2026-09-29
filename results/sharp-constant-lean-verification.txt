@@ -1,0 +1,11 @@
+Lean (version 4.29.1, arm64-apple-darwin24.6.0, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)
+mathlib HEAD: 5e932f97dd25535344f80f9dd8da3aab83df0fe6
+source SHA-256: 54d7df75bf1c536f758ea98130879bfcf6290a2085abdafd1eb97e16ab8762a8
+exit code: 0
+axiom audit passed: True
+'PaleySharpConstant.subgroup_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleySharpConstant.cosLower_le_cos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleySharpConstant.periodReal_gt_43' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleySharpConstant.log_ratio_lt_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleySharpConstant.sharp_constant_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleySharpConstant.sharp_period_bound_fails' depends on axioms: [propext, Classical.choice, Quot.sound]

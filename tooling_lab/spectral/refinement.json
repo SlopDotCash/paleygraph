@@ -1,0 +1,477 @@
+{
+  "status": "iteration after pilot falsified single-score interpretation",
+  "exact_witnesses_verified": 12,
+  "cases": [
+    {
+      "q": 101,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          100
+        ],
+        "translation_count": 3,
+        "sumset_size": 5,
+        "productset_size": 3,
+        "additive_closure_size": 101,
+        "closure_steps": 50,
+        "proper_subfield_recovered": false,
+        "witness_additive_energy_normalized": "156942102143339/30216496292978",
+        "fixed_witness_max_abs_overlap": "3099497/3886933",
+        "high_overlap_translation_min": "3099497/3886933"
+      }
+    },
+    {
+      "q": 257,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0
+        ],
+        "translation_count": 1,
+        "sumset_size": 1,
+        "productset_size": 1,
+        "additive_closure_size": 1,
+        "closure_steps": 1,
+        "proper_subfield_recovered": false,
+        "witness_additive_energy_normalized": "626958685236069/118826990480450",
+        "fixed_witness_max_abs_overlap": "3675858/7708015",
+        "high_overlap_translation_min": "1"
+      }
+    },
+    {
+      "q": 401,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0
+        ],
+        "translation_count": 1,
+        "sumset_size": 1,
+        "productset_size": 1,
+        "additive_closure_size": 1,
+        "closure_steps": 1,
+        "proper_subfield_recovered": false,
+        "witness_additive_energy_normalized": "1199671483616899/227085711222402",
+        "fixed_witness_max_abs_overlap": "1493671/3551883",
+        "high_overlap_translation_min": "1"
+      }
+    },
+    {
+      "q": 1009,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0
+        ],
+        "translation_count": 1,
+        "sumset_size": 1,
+        "productset_size": 1,
+        "additive_closure_size": 1,
+        "closure_steps": 1,
+        "proper_subfield_recovered": false,
+        "witness_additive_energy_normalized": "3686619756230805/643660950984676",
+        "fixed_witness_max_abs_overlap": "4551996/12685237",
+        "high_overlap_translation_min": "1"
+      }
+    },
+    {
+      "q": 2017,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0
+        ],
+        "translation_count": 1,
+        "sumset_size": 1,
+        "productset_size": 1,
+        "additive_closure_size": 1,
+        "closure_steps": 1,
+        "proper_subfield_recovered": false,
+        "witness_additive_energy_normalized": "12085069671531365/2196306948341529",
+        "fixed_witness_max_abs_overlap": "12592016/46864773",
+        "high_overlap_translation_min": "1"
+      }
+    },
+    {
+      "q": 4001,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0
+        ],
+        "translation_count": 1,
+        "sumset_size": 1,
+        "productset_size": 1,
+        "additive_closure_size": 1,
+        "closure_steps": 1,
+        "proper_subfield_recovered": false,
+        "witness_additive_energy_normalized": "38432520168324593/6262205308005409",
+        "fixed_witness_max_abs_overlap": "18954430/79134097",
+        "high_overlap_translation_min": "1"
+      }
+    },
+    {
+      "q": 121,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          2,
+          9,
+          10
+        ],
+        "translation_count": 5,
+        "sumset_size": 9,
+        "productset_size": 7,
+        "additive_closure_size": 11,
+        "closure_steps": 3,
+        "proper_subfield_recovered": true,
+        "witness_additive_energy_normalized": "769243357913587/124572452407209",
+        "fixed_witness_max_abs_overlap": "8941760/11161203",
+        "high_overlap_translation_min": "6751520/11161203"
+      }
+    },
+    {
+      "q": 289,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "translation_count": 17,
+        "sumset_size": 17,
+        "productset_size": 17,
+        "additive_closure_size": 17,
+        "closure_steps": 1,
+        "proper_subfield_recovered": true,
+        "witness_additive_energy_normalized": "759421853888615/74251845150003",
+        "fixed_witness_max_abs_overlap": "11794237/14924997",
+        "high_overlap_translation_min": "9509114/14924997"
+      }
+    },
+    {
+      "q": 529,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "translation_count": 23,
+        "sumset_size": 23,
+        "productset_size": 23,
+        "additive_closure_size": 23,
+        "closure_steps": 1,
+        "proper_subfield_recovered": true,
+        "witness_additive_energy_normalized": "9393641816782511/581359561737201",
+        "fixed_witness_max_abs_overlap": "21255116/24111399",
+        "high_overlap_translation_min": "1459097/1854723"
+      }
+    },
+    {
+      "q": 961,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "translation_count": 31,
+        "sumset_size": 31,
+        "productset_size": 31,
+        "additive_closure_size": 31,
+        "closure_steps": 1,
+        "proper_subfield_recovered": true,
+        "witness_additive_energy_normalized": "20821726925284295/869205246750369",
+        "fixed_witness_max_abs_overlap": "27189278/29482287",
+        "high_overlap_translation_min": "24723689/29482287"
+      }
+    },
+    {
+      "q": 1849,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "translation_count": 43,
+        "sumset_size": 43,
+        "productset_size": 43,
+        "additive_closure_size": 43,
+        "closure_steps": 1,
+        "proper_subfield_recovered": true,
+        "witness_additive_energy_normalized": "18340172510080139/523962197116875",
+        "fixed_witness_max_abs_overlap": "3351268/3604275",
+        "high_overlap_translation_min": "6924074/7929405"
+      }
+    },
+    {
+      "q": 3721,
+      "signature": {
+        "threshold": [
+          3,
+          5
+        ],
+        "large_overlap_translations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "translation_count": 61,
+        "sumset_size": 61,
+        "productset_size": 61,
+        "additive_closure_size": 61,
+        "closure_steps": 1,
+        "proper_subfield_recovered": true,
+        "witness_additive_energy_normalized": "192229504845949609/3589655881305169",
+        "fixed_witness_max_abs_overlap": "57310320/59913737",
+        "high_overlap_translation_min": "55318384/59913737"
+      }
+    }
+  ],
+  "interval_signature": {
+    "threshold": [
+      3,
+      5
+    ],
+    "large_overlap_translations": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      997,
+      998,
+      999,
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008
+    ],
+    "translation_count": 25,
+    "sumset_size": 49,
+    "productset_size": 119,
+    "additive_closure_size": 1009,
+    "closure_steps": 42,
+    "proper_subfield_recovered": false,
+    "witness_additive_energy_normalized": "641/31",
+    "fixed_witness_max_abs_overlap": "30/31",
+    "high_overlap_translation_min": "19/31"
+  },
+  "source_sha256": "7af0f2aa074088cc7b1ccdafaf7bffa99c8aae1aa05a704d953a0a4201815db6"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "sampled independent numerical checks, not interval-arithmetic certification",
+  "cases": [
+    {
+      "p": 65537,
+      "m": 16383,
+      "Euler_character_checks": 256,
+      "direct_rows": 32,
+      "direct_character_products": 524256,
+      "max_row_error": 1.7763568394002505e-15,
+      "relative_bilinear_symmetry_error": 3.478829022285263e-18,
+      "dense_full_matrix_allocated": false
+    },
+    {
+      "p": 1000033,
+      "m": 250007,
+      "Euler_character_checks": 256,
+      "direct_rows": 32,
+      "direct_character_products": 8000224,
+      "max_row_error": 9.71445146547012e-16,
+      "relative_bilinear_symmetry_error": 3.4073769711830218e-18,
+      "dense_full_matrix_allocated": false
+    }
+  ],
+  "source_sha256": "d41531f5095307dd2e4d626deecf94215a86e871c72118d415b21ca3907b439a"
+}

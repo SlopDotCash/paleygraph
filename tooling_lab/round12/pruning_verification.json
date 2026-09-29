@@ -1,0 +1,310 @@
+{
+  "status": "passed",
+  "scope": "Every saved query replayed using Gaussian elimination, all emitted candidates checked, complete small-space and two-piece large oracles verified. Probability statement remains conditional on independent uniform draws; the saved outputs themselves are completely checked on these inputs.",
+  "cases": [
+    {
+      "case": "small",
+      "scalar": 0,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 179,
+      "distinct_candidates_recomputed": 79,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 1,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 170,
+      "distinct_candidates_recomputed": 76,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 2,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 156,
+      "distinct_candidates_recomputed": 77,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 3,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 197,
+      "distinct_candidates_recomputed": 74,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 4,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 174,
+      "distinct_candidates_recomputed": 79,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 5,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 159,
+      "distinct_candidates_recomputed": 52,
+      "outputs_checked": 2,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 6,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 195,
+      "distinct_candidates_recomputed": 63,
+      "outputs_checked": 1,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 7,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 181,
+      "distinct_candidates_recomputed": 78,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 8,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 199,
+      "distinct_candidates_recomputed": 83,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 9,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 179,
+      "distinct_candidates_recomputed": 73,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 10,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 176,
+      "distinct_candidates_recomputed": 75,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 11,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 183,
+      "distinct_candidates_recomputed": 71,
+      "outputs_checked": 1,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 12,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 168,
+      "distinct_candidates_recomputed": 65,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 13,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 193,
+      "distinct_candidates_recomputed": 70,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 14,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 177,
+      "distinct_candidates_recomputed": 78,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 15,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 179,
+      "distinct_candidates_recomputed": 71,
+      "outputs_checked": 0,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "small",
+      "scalar": 16,
+      "p": 17,
+      "n": 16,
+      "s": 11,
+      "queries_replayed": 432,
+      "singular_queries": 188,
+      "distinct_candidates_recomputed": 61,
+      "outputs_checked": 1,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        70368744177664
+      ]
+    },
+    {
+      "case": "large",
+      "scalar": 0,
+      "p": 65537,
+      "n": 1024,
+      "s": 410,
+      "queries_replayed": 945,
+      "singular_queries": 0,
+      "distinct_candidates_recomputed": 691,
+      "outputs_checked": 2,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        4398046511104
+      ]
+    },
+    {
+      "case": "large",
+      "scalar": 1,
+      "p": 65537,
+      "n": 1024,
+      "s": 410,
+      "queries_replayed": 945,
+      "singular_queries": 1,
+      "distinct_candidates_recomputed": 703,
+      "outputs_checked": 2,
+      "failure_probability_at_most_under_uniform_sampling": [
+        1,
+        4398046511104
+      ]
+    }
+  ],
+  "queries_replayed": 9234,
+  "candidate_evaluations_recomputed": 2619,
+  "small_space_members_enumerated": 4913,
+  "large_global_degree_root_bound_checked": true,
+  "sum_of_run_failure_bounds": [
+    49,
+    70368744177664
+  ],
+  "source_sha256": {
+    "pruning_verifier.py": "f9be29e8139d790a6205d0d0018d3a69ea332c0ca42a1fe5c9cff764a64124b4",
+    "certificate_verifier.py": "6a13a4e94905a5be28e5da072b205564a4d692d6ed46317f3045f39733245be4"
+  },
+  "input_sha256": {
+    "pruning_results.json": "060aef45e3d0eb798741e7152958f2114cc45bd219a4c2447411891722815072",
+    "hard_rank3.certificate.json": "74f9d94e15d0e38834f50f6e6513a4c8002c8263f554593f940921f0e1a83771",
+    "full_length.certificate.json": "3b3c935e23c0344933b2567b55d05e7b133aa727b322fef8c0c281f564e79476",
+    "../round6/overlap_preflight/coset_small_characteristic_sample3.certificate.json": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764",
+    "../round6/pencil_tracks/results.json": "6fadaba99d3f96ccef8d94266d48218c5d2ba9b286c6ff14d5f99a3bcf9c7216"
+  }
+}

@@ -1,0 +1,2327 @@
+{
+  "scope": "Complete triple-fiber classification at fixed dyadic orders through128; three quartic counterexamples to a maximum-fiber-two hypothesis. No improved uniform energy or Paley theorem.",
+  "python_version": "3.13.2",
+  "python_flint_version": "0.9.0",
+  "package_metadata_sha256": "11a4b12677ac9762cb5741d077c22312cf901fb5f3a67cd167a8ffe265f7ef87",
+  "prime_certificates": {
+    "2": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 1
+    },
+    "17": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 3
+    },
+    "97": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 7
+    },
+    "193": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 13
+    },
+    "257": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 13
+    },
+    "449": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 19
+    },
+    "577": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 23
+    },
+    "641": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 23
+    },
+    "769": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 23
+    },
+    "1153": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 31
+    },
+    "1217": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 31
+    },
+    "1409": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 37
+    },
+    "2113": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 43
+    },
+    "2689": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 47
+    },
+    "3329": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 53
+    },
+    "4481": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 61
+    },
+    "4673": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 67
+    },
+    "4993": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 67
+    },
+    "6529": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 79
+    },
+    "7297": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 83
+    },
+    "7873": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 83
+    },
+    "7937": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 89
+    },
+    "9857": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 97
+    },
+    "10753": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 103
+    },
+    "14593": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 113
+    },
+    "23041": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 151
+    },
+    "30977": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 173
+    },
+    "31873": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 173
+    },
+    "40193": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 199
+    },
+    "48449": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 211
+    },
+    "142529": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 373
+    },
+    "158209": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 397
+    },
+    "176321": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 419
+    },
+    "177473": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 421
+    },
+    "240641": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 487
+    },
+    "259201": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 509
+    },
+    "528001": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 719
+    },
+    "697601": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 829
+    },
+    "932609": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 953
+    },
+    "944897": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 971
+    },
+    "1518337": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 1231
+    },
+    "6166273": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 2477
+    },
+    "6529153": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 2551
+    },
+    "6725249": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 2593
+    },
+    "24645377": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 4957
+    },
+    "26949761": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 5189
+    },
+    "27744257": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 5261
+    },
+    "30858241": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 5531
+    },
+    "53044993": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 7283
+    },
+    "65456257": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 8089
+    },
+    "77796353": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 8819
+    },
+    "118593281": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 10889
+    },
+    "181312129": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 13463
+    },
+    "323909633": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 17989
+    },
+    "886538753": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 29761
+    },
+    "2144280833": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 46301
+    },
+    "15064776193": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 122719
+    },
+    "25692456577": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 160253
+    },
+    "25971027073": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 161149
+    },
+    "36207211393": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 190271
+    },
+    "36819670273": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 191861
+    },
+    "40605716353": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 201499
+    },
+    "47463490433": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 217859
+    },
+    "209821185281": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 458057
+    },
+    "251169086977": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 501157
+    },
+    "973021549697": {
+      "method": "trial division through sqrt(p)",
+      "last_trial_prime": 986417
+    }
+  },
+  "orders": [
+    {
+      "n": 8,
+      "degree": 2,
+      "coefficients_ascending": [
+        16,
+        136,
+        1
+      ],
+      "resultant_first_hex": "-0x4800",
+      "resultant_second_hex": "0x4",
+      "gcd_hex": "0x4",
+      "complete_factorization": [
+        [
+          2,
+          2
+        ]
+      ],
+      "matrix_determinants_match": true,
+      "stdlib_bareiss_match": true,
+      "candidate_primes_are_exact_triple_primes": true,
+      "fields": [],
+      "quartic_triple_primes": [],
+      "seconds": 0.0003304169995317352
+    },
+    {
+      "n": 16,
+      "degree": 4,
+      "coefficients_ascending": [
+        256,
+        887132416,
+        164595808,
+        51472,
+        1
+      ],
+      "resultant_first_hex": "0x1e4283d942525056100800000000000000000",
+      "resultant_second_hex": "-0xa0b5b9bc20d43718ff000000000000",
+      "gcd_hex": "0x19fc99c81000000000000",
+      "complete_factorization": [
+        [
+          2,
+          48
+        ],
+        [
+          17,
+          8
+        ]
+      ],
+      "matrix_determinants_match": true,
+      "stdlib_bareiss_match": true,
+      "candidate_primes_are_exact_triple_primes": true,
+      "fields": [
+        {
+          "p": 17,
+          "n": 16,
+          "generator": 3,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "4": 1
+          },
+          "triple_gcd_degree": 2,
+          "triple_mass_Y": 8,
+          "eliminant_valuation": 8,
+          "balanced_energy": 256,
+          "child_energy": 264,
+          "parent_energy": 3856,
+          "T": 224,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 320,
+          "roots_sha256": "7112a20f8224a851d514a98ae70e2c7f46192ad025cd04b6ad42ef9b030b10da"
+        }
+      ],
+      "quartic_triple_primes": [],
+      "seconds": 0.0003737919996638084
+    },
+    {
+      "n": 32,
+      "degree": 8,
+      "coefficients_ascending": [
+        65536,
+        2896377613012067508627308544,
+        104357535190999063204484453336465408,
+        687426137161750884826526921721307136,
+        338493057640551722621444775626240,
+        302568802429718900801334784,
+        4234935902549651904,
+        4808643104,
+        1
+      ],
+      "resultant_first_hex": "0x7c0ee3064c201523805d1e9ae0ca31b023e83acc339e0456d575dd512a4ceb30d16b1c801b5b5603567de18ff6d1fbc57dc6cfb8f9f1c5b5d4e1988bede92372d66155ed67c39a5323075a9eb54b1ce0bd98e032e92c8ef5a520072dd2ad9630b31da4f1f1aa6620336514980ad80800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "resultant_second_hex": "-0x22698d0dfbebf918f0ecdb1e5de0a35d53d11ec0946598665dee676f3806533ed54b104915301c6acc75b124153903d1aec54724e1a1c7276c8abca6ecd5a6f98935ccee77cacdceb8c3f9b18da8f9b41c0495131e175708ff3044b6cf1102a8abf831661ee1ecae358a5008dfedf3bf0000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gcd_hex": "0x96481d7bab19fa6663a01da368b399459f43e706f57a8e10000000000000000000000000000000000000000000000000000000000000000000000000",
+      "complete_factorization": [
+        [
+          2,
+          292
+        ],
+        [
+          97,
+          11
+        ],
+        [
+          193,
+          3
+        ],
+        [
+          641,
+          3
+        ],
+        [
+          1217,
+          3
+        ],
+        [
+          2113,
+          3
+        ]
+      ],
+      "matrix_determinants_match": true,
+      "stdlib_bareiss_match": true,
+      "candidate_primes_are_exact_triple_primes": true,
+      "fields": [
+        {
+          "p": 97,
+          "n": 32,
+          "generator": 28,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          },
+          "triple_gcd_degree": 3,
+          "triple_mass_Y": 11,
+          "eliminant_valuation": 11,
+          "balanced_energy": 832,
+          "child_energy": 1104,
+          "parent_energy": 11424,
+          "T": 528,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 1280,
+          "roots_sha256": "507ac070283b6715b1549abc6427e65f114bab6d4ba0378f48cc2fa05b7ec82f"
+        },
+        {
+          "p": 193,
+          "n": 32,
+          "generator": 185,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 576,
+          "child_energy": 784,
+          "parent_energy": 6560,
+          "T": 192,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 1280,
+          "roots_sha256": "d8e49cdfd5d724e33887f560e42e92fecf73edf8fa2576b48d0b4358bf75fd43"
+        },
+        {
+          "p": 641,
+          "n": 32,
+          "generator": 160,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 512,
+          "child_energy": 720,
+          "parent_energy": 5664,
+          "T": 144,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 1280,
+          "roots_sha256": "742e2c4e14bf950fe4e5deb785ef119f14572ba5d68575d3d2bf805d8e749add"
+        },
+        {
+          "p": 1217,
+          "n": 32,
+          "generator": 540,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 512,
+          "child_energy": 720,
+          "parent_energy": 4512,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 1280,
+          "roots_sha256": "375d873a0b0070c4e1e1cab516270c4715b45fd330e2bcb6121d122292b6e2dd"
+        },
+        {
+          "p": 2113,
+          "n": 32,
+          "generator": 2005,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 5,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 448,
+          "child_energy": 720,
+          "parent_energy": 4128,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 1280,
+          "roots_sha256": "8b215aa8b5f9dc53cf0d1c9e4451af23d41dd42c9d46ecca2c62a9bfafec7c81"
+        }
+      ],
+      "quartic_triple_primes": [],
+      "seconds": 0.03627933299958386
+    },
+    {
+      "n": 64,
+      "degree": 16,
+      "coefficients_ascending": [
+        4294967296,
+        143261599572682134069910619261088042924089234080232374011736234900053819392,
+        1709658916307229660229528188776556904264921045395583596165303113269515106130936166882567483660633665116831744,
+        195189027205213901729338372901027622544791775464603936743746001305212461929703336206713633096048577622263708100345430223718711296,
+        18420787934202730487428589141410217187749059763500301499552574422530884781669570886361136908312701950241212909012855492005257590062895333376,
+        412950726832616396700799226511927064240784258944159045599177379420473008125777593068690507696731868997886809316069329850202985701753803744739328,
+        69633012212913636724001516705128424142173515441803971273110393611812226861976012009517577740189309570561423394650589340510465198856240243933184,
+        944776898983107734991714066830176457977722632938337221639954723013951766838604007853169362235133515372460751431037086590301980936474984448,
+        5979002435564581958282303262088323532758216306523393098735753621528192858910403522896566338244802323877578416380472200716804816896,
+        70127903071967480142314796974626096245123720088898520636824342343280376707181143957058361228781351173462235199803490304,
+        4733650514035611427613898422938937775843615362608355840788413400563593604571531527923752065959415147429888,
+        4836184112162090110631485558889719491655421513819034147945027818936635627055560704903364608,
+        176347725841815395687442323811260974359886265927948351654212473107189537792,
+        508525929240214502453905639780455073716368478258680646656,
+        238280294281078775769263484198605481856,
+        29321986255081448512,
+        1
+      ],
+      "resultant_first_hex": "0xa8e20beb64922fe73e36af5a042d9f8751134e1af4af923f4f81c35a124e24ba5df9a7894be5901d4fb1ff3125cc3821f13d9aa900405741eb451d2ff7c8c538dc911a65fb23f80467e0a5ef5c7e92643a26fef70d237c200645f7965ab51f641dd4905a1fff6683dd58e2ecded7bce656e88259235fb03aa032167277b2ae8d87a17f8a29124b7bbe4f46fce79b4d6c542ff51256e611a676687614d38835aebd1812d264bdaa3dd0a6ceccf33a427cbcffc2d45c3defb1e89fbb5dd3d0858f67bece616d52e729bc08f1107b9b8cc318b97f812145288ff782560895553aa375f0f14e5e79793c624618156ee926f6e5e9a7d96761084a626e3adc6b543ba5d4c8558860b3a6d0cf10314022283ccc3775ab9c9d1efc9106d0a6d5c80d48ed3fa1fd6aa2c8a17496628b1b85e0556d7a866b64aa0b840a4bacc440850bfd6975baeb752ea4c12669127d3533f410672f5fb2d3b806267c207c5354251ebb5a9f11de5ee2c7dbc90782d67cea50ee91d07e34a98d9fcc97923c79add11f5303828f72d9c731ee23bdd6e75b7e9a85ee4715d35e8a7207d3b77222f1d716e5fe4f59160b0ad4d50011bef0bfcbbeb9b3667fccb0e37354c7d8222b7cc6f41fafc7fef6c125c6cd430d3ec3861aaff494015a339979da430cda31130b7102ced6a42de1b4ab704ae3a65d3340cb1af2542b8d072e523ba76e5b06dbcd70d11ee888ca131b7f6844593cd892263ac69209ee35835ab6abc6c41882ae34aa09ced78b4aae27973ce94b5540bd016ecd1d34ad6488f5500e8417477dd24c01564a4b0fb21bb81efa599901e599455de8234c8898bcd86e962b5f5ba8a8a5b6f4f90493b7916df6fde5685527f2ebd881fd1ea021c6e9f0f43fe45058a2dd61921977592b741744a0823c5cc0c3a9a3ef7b513321c02a46fe712fea14cc3298858eaa619031dbcdbc6e290b0cd57b5c5e246205b76299a943c84f001ad3ffc579c1de42029ea4fd110e9db97ca4a77193f583e2c97fd614224d2b3973ddd18a092ec03f5af97ec837bd54d07e6a09927a4f5e7d9a1a6ed9c03458a446321ffb04f269d30175307476b1857742bb2f13c1c367e2e34a4b3969d65ae1caf6dc1f911301425058360df8ae0ef5a0c8b79a52735ad3ff70981d9957fb2bc33d73ce296efd602d3a54407e257079646d082dcf2353983171d7e43e0f9355bb632bdf9c55a057bb4f54e9c2c73e09b3f050c81955aaeaba44bbc9dcff5f577db58235ccc7d93ff587e6e6db667f2ded4ddda8588d5b17ef8bf4b7dc88922261221a4caf10bc95c0c17d29c6d927abe7fc84c66dc9559f25c61d59d68c7a90627816607bf8e9cc3800a272f75988094c659bb58874f8a0a1cda8433615a3c63fbd7853ad02b2e9309b50ed2c3c20a7703a712f9726d3dfc5a5f7060c37624aba80f5eddf390d2310f1e36faf092b3ca6c8f4a7c47758829333dd6daa1a243736fa4e206b2f1df135580080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "resultant_second_hex": "-0x595eeeaefe302a7c1640fab08bab7c75f0351071b7c00756938c52cc67877be3c08d436c4f5b34ef8a486a72372298fd1f808a5182ba37e74645edc085cb4ca4b775e88de9a3c9ca9f01802eff8ad1dfd2fab724fa1eda709df5e2da97be88ae6135f0f7b42dcbe05c6ae78f2ea09e4ea9701ea94ee324d60b81b13b82d2e15a2e3f070418465b55988d4b4785f62930b4f6bd1fce5a805c5c9a4a9f6f89f1faa94707b9e0d0925b8910601a558540cfc55aa2c3532b15d5c480d4ae86125bf92b451b318c4d58561947f645d8f83cb4ca71fa4e799dc8bab7b8ff837081ed05fabf39ac12edf717bb1f21dd880aac268da89a560cf745b930a99fb9b873f60ef5c63cac0256c9aca12000dac0d58a5aa8a536a3aca1b3fd3525a4d9bfa152cb718cf2fc75ff013f9b4e36680a8cc762a6a7640a69052e129b53d4bf45917b9ce4746aabcd91b9b6131d61077a0477ca6882ba44523b27f6a6352f9c95d433f0739f81456b358dc1f12ecf7414c14328a50531ae52821dd9b37af6e5c6e3e116e2a376c00c7c383aa81e822d6c3df93834442b405005597e29911f43814c789541c385bcf00db9d8d6a27d6ad3776656859bf95fdaabbef70591986644437c046e0668eeb48721841efea500305bc7fd24acd98a554dbe89fcc657656aa22fdd1c851b857cd776e3ce06fccbe2639f46d290c4a914541982d4c99cff5e1c6fb0ac8167abde754bfc4f9e05dc7ee478b3b71d59947fad89196a7d94f72d67542bd1998e5db0f2e813b6e81b430ea88a14c6ae1e59dcd00f16484b9d38bee73b262cf1d845dda66bbbd23791da5f042a8fb3873e246a0b1d1fb8c77504d50e2edbfa1f2a0692b3648b62398cc685aa733892ad62d9fe7d4e372278335fe22a4b9ad2b000ac01387187cf3733a72dafbebdb20e11a434ccb169a646fc82f85a14cacc9d347c07db4f46c5903238adfe551cf19fc7965f0e6dde4392427e68ee3bfeb9e995cd206e3b4bafa214d0517a7bd2b7586990b1dbbc8b4368c8ff3d292250242c0c75fd3b805981e5cbcbb16ce5e4764e3560cb8fbb9d2d35009d331f999dea25a7062b4a6c81d61062dbf2e226caf639f945f479f3516898a879601572c405523b56e1d152ded630f4b5130ad968187ef6788700821ed725488cbcfe56ae4b60fe654965b201116c58f1cb866200c3e60566c7984c3bd5c3684b1f7dfba93f877e43a2867021e347851b18038b9d22e728074e90ade117a75d5fe75a45079580807c92cf6a4a83321cfecd3e7df2f076eaa933d3eb6d092a2f8d8fc530d1bce7e1aea6b04c11007a85d06ddb75ed4d1e84bee4e60cdb649c1bc1283d5242d9a6ec6c600643157b377c80edd270605937f9149069840bc59600b6211a954bf0612eb544641e625dd37dadca9e4b42283509e5051e0c25c16e0f9a54e7f1664d174a0bb6e8fad76d766aaee9728fc1d500f6ba20731ecc08d8ba2ee48707fbf5268647d815c243ec07f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gcd_hex": "0x23b9da25f0d27e633cb0d1bc365a2b757f159549d489f72540957b73548b3bbe92d493bcba33551abe856167fd638d90518495212f9017f0bf12e2fa1bba83203e57cda314dd92d24da3350c791274b0499d9ef23afaa149fe594f096416542a68e24023f2d2525f28a098d0c55d6c15a946825aac19990125c5e686f1295db7aeadd39d1bf1c09bd89ff200db42c1d00222a5e0f31c59348fde756ab804d1f116994346be5974ea5c0c65b69a3fe7871de94bf5d7efaf56a66b52870f73ab2ea83b211351ca9918c86a2ee29fd9130e40405721fb845c1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "complete_factorization": [
+        [
+          2,
+          1404
+        ],
+        [
+          193,
+          64
+        ],
+        [
+          257,
+          38
+        ],
+        [
+          449,
+          12
+        ],
+        [
+          577,
+          11
+        ],
+        [
+          641,
+          3
+        ],
+        [
+          769,
+          11
+        ],
+        [
+          4673,
+          3
+        ],
+        [
+          7873,
+          3
+        ],
+        [
+          7937,
+          8
+        ],
+        [
+          23041,
+          3
+        ],
+        [
+          48449,
+          3
+        ],
+        [
+          142529,
+          3
+        ],
+        [
+          176321,
+          3
+        ],
+        [
+          177473,
+          3
+        ],
+        [
+          240641,
+          3
+        ],
+        [
+          259201,
+          3
+        ],
+        [
+          697601,
+          3
+        ]
+      ],
+      "matrix_determinants_match": true,
+      "stdlib_bareiss_match": true,
+      "candidate_primes_are_exact_triple_primes": true,
+      "fields": [
+        {
+          "p": 193,
+          "n": 64,
+          "generator": 125,
+          "maximum_fiber": 8,
+          "multiplicity_histogram": {
+            "4": 2,
+            "8": 1
+          },
+          "triple_gcd_degree": 10,
+          "triple_mass_Y": 64,
+          "eliminant_valuation": 64,
+          "balanced_energy": 6144,
+          "child_energy": 6560,
+          "parent_energy": 89920,
+          "T": 4992,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "e61f0c03d1adb0f0f548658cdaaf266c9d39fc7fadd9f1daa8a4b3603e16f1fe"
+        },
+        {
+          "p": 257,
+          "n": 64,
+          "generator": 81,
+          "maximum_fiber": 5,
+          "multiplicity_histogram": {
+            "2": 1,
+            "4": 1,
+            "5": 2
+          },
+          "triple_gcd_degree": 8,
+          "triple_mass_Y": 38,
+          "eliminant_valuation": 38,
+          "balanced_energy": 4480,
+          "child_energy": 6816,
+          "parent_energy": 69696,
+          "T": 3648,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "8625bdd4aea35ad85848a7e9ef2fe72e037ad63b2df47f510d16458d2182bf0f"
+        },
+        {
+          "p": 449,
+          "n": 64,
+          "generator": 391,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "2": 2,
+            "3": 4
+          },
+          "triple_gcd_degree": 4,
+          "triple_mass_Y": 12,
+          "eliminant_valuation": 12,
+          "balanced_energy": 2816,
+          "child_energy": 5664,
+          "parent_energy": 45888,
+          "T": 2208,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "53bf435893a8c53dfeced74470dcefbf2c0b3e5f1e0e320bcb15f29561712a70"
+        },
+        {
+          "p": 577,
+          "n": 64,
+          "generator": 557,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "triple_gcd_degree": 3,
+          "triple_mass_Y": 11,
+          "eliminant_valuation": 11,
+          "balanced_energy": 2560,
+          "child_energy": 5664,
+          "parent_energy": 39744,
+          "T": 1632,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "4c4288218b18528e574a568d9944766420e1cd7a1573187be321f5c762cb5791"
+        },
+        {
+          "p": 641,
+          "n": 64,
+          "generator": 77,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 5,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 2048,
+          "child_energy": 5664,
+          "parent_energy": 38208,
+          "T": 1824,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "8b78c9dbc212ab925b8409af8ed7145f3ebfc7127b461a4930a03fb6ab690d09"
+        },
+        {
+          "p": 769,
+          "n": 64,
+          "generator": 64,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 1
+          },
+          "triple_gcd_degree": 3,
+          "triple_mass_Y": 11,
+          "eliminant_valuation": 11,
+          "balanced_energy": 2560,
+          "child_energy": 2976,
+          "parent_energy": 30528,
+          "T": 1152,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "4901eb4debf25a3bf35336e8b0a988c027b57cba17adb401a9569627efb13009"
+        },
+        {
+          "p": 4673,
+          "n": 64,
+          "generator": 2204,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 13,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1408,
+          "child_energy": 2976,
+          "parent_energy": 15936,
+          "T": 192,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "aa0d51d5ede6b5fcde45bfd31b52f744aaac11e2767ae1b9f118c4949f321612"
+        },
+        {
+          "p": 7873,
+          "n": 64,
+          "generator": 2000,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 13,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1408,
+          "child_energy": 2976,
+          "parent_energy": 14400,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "49f8d3c14a4380a556e5a26d8eb146c336e9c9a10405289c823ab6d4e81538a6"
+        },
+        {
+          "p": 7937,
+          "n": 64,
+          "generator": 1707,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 8,
+            "2": 2,
+            "4": 1
+          },
+          "triple_gcd_degree": 2,
+          "triple_mass_Y": 8,
+          "eliminant_valuation": 8,
+          "balanced_energy": 2048,
+          "child_energy": 3744,
+          "parent_energy": 25920,
+          "T": 768,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "1c370630663e4fd1a3192ced995df566ae55efdf14466fdcfd376511e992c0f8"
+        },
+        {
+          "p": 23041,
+          "n": 64,
+          "generator": 12817,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 15168,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "e71565a755b758f1aeb195f24b87e91e612874bf5d791f7acac705e6a6134c08"
+        },
+        {
+          "p": 48449,
+          "n": 64,
+          "generator": 39570,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 18240,
+          "T": 384,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "29826a8bcd159ed900ea48d4773a24113d8423b1ad37b0c012e2124d236c3726"
+        },
+        {
+          "p": 142529,
+          "n": 64,
+          "generator": 85830,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 16704,
+          "T": 192,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "fdc1bec639127d13f45ccccd270edf0bf956e3e7091b6058a1169f74af668f60"
+        },
+        {
+          "p": 176321,
+          "n": 64,
+          "generator": 79123,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 15168,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "16dfc7bd52400a691f598d377696634b68bace40fb731d4ae03a064c3593b0c4"
+        },
+        {
+          "p": 177473,
+          "n": 64,
+          "generator": 82878,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 15168,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "eb52bf07c4becb77a17d3887e2768425c86cba49b7374633ac357dbfe73a2d0a"
+        },
+        {
+          "p": 240641,
+          "n": 64,
+          "generator": 185002,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 15168,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "286db613887292224153698cdf3f691fc763713d7d606875ea18a5c0a9b1915e"
+        },
+        {
+          "p": 259201,
+          "n": 64,
+          "generator": 166900,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 15168,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "4f23482d785ecc6ce71216dc2fef66f01cf99a3375d7f66e183a105a7fcf8870"
+        },
+        {
+          "p": 697601,
+          "n": 64,
+          "generator": 540784,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 11,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 1536,
+          "child_energy": 2976,
+          "parent_energy": 17472,
+          "T": 288,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 5120,
+          "roots_sha256": "632222c0532e6d55c59d58a129e607b72730f55a19bddccef9bfa11425b26339"
+        }
+      ],
+      "quartic_triple_primes": [],
+      "seconds": 0.41304766700068285
+    },
+    {
+      "n": 128,
+      "degree": 32,
+      "coefficients_ascending": [
+        18446744073709551616,
+        6719762728897062798172935892726861888052475109738151550662115894626765791875428255358776350203818983497012718166984481380685894968509487599954313607218278305775123225883072768754797510656,
+        230104774990157168001922892713939939791983753616969349773669859709517567571162995157345547322169620904533161898559154009045402484403455749312636415366670189365579454584692858284574515718085249327777189380381950288751570932543156438209576999161672019597007380354093278006890478587240100246061056,
+        388344022572780161518290376250357884435213596055382732240354489913109217849344300909563231612684529874096336372840984099893615609880185117666690381746804410190113903580225233662955457046191788418040179236330551388140417540119261105967811860962316917493974168319749830448929609987833966471824735581738663588452611642541642001854205924383013828238430949329659760571337146368,
+        176305498993723738045950818825195035523213410333616955358186900364990319443869352618881777454199720291093692978024780258107409045739293101321302622998673437897141435765236922137207085486623111117840930352761512214865922340484813411014516664867700628836294236882109451816623061804495758411412444167502514191091568836672448883572942788943525911437583780687101360216741153132361665044349067181298920823306894314858717572867375946006528,
+        1293860443987530165752828864831022038223289487035360233237949868057189085613697423601308289588292645258195725442837091137423611836028136402081770797425673904184961504161109160639768055761410620675263537808737923132575835765395839519999945084478269915384963878269423428981512783762480987137288576744224585663969478013538382623854754431475434499043130208383108700248257602643725204959345352810655482580557169250922375105733368999569378962408397955566808938195841648691119363457024,
+        111286616468296228690901215593169101573661622225278518323872342135750945851227527308749347527320918092682911815103024394720745200882303233522518273242393748328949349599372959965027823688065116962693923559404371167963979648260171540085521438130235534963070821981596753608280799817139111744984089452476626753516447948218230252962545239692251208434074789797357575900859434739619524302738565880111304165870383503534174972678857330840398196841229387991364010010905922367894339433341589835918110148259481732830847827968,
+        9204091441746937137880374018890241610817314662396160631120206534423727623561737562264797371044337456959245346012254472508869132050241461119280229809488965723088183336008907194140279519323693351093842976096532828527481781317710092279428052517216299371586521549957178568210256055000295236683468381269162466995995283517861590853209193192653225408535482582429112725532838941501089984451666603362140312967178121839922365254055915366309689259949783554070604418975256995536623914807153376187400780082819099284990940008983951309563454274804908032,
+        17443429077803942267604717920839211291577311645519348714689047225484352559766227749663125020370609835906946372497044841265817519820091831664383185672693266489528022015256873556403918102107311675383387239249978371425494560396001022889198044972633323050329263084723661369962270261235676123060911895779029107252326609821487342197103177187519619825360569704569526295593066511386156016489016944888189188386194138911379456661698127577640691799439498792097772131571597663563217625841717957769829132033339943555129739982963503954315557387923591601875493270239313920,
+        8364452707151349415781192694840859250452749706660819781324330773208212972978664826683477969819128055495238570823437853303837438967696065425814825921270162497446963777544353042201805091562646433254688278523959461744880101160344328385072311594677465811960536588558859645030566024665865827887867275164616362818655922387804204190318155686054575820118663898388104153714108731453596007233928200341255718908141370474745433359126829270078092853557778498265524023888191110656694949273743960927573856633158947910924207486068857328694673676956672814775539305347104315281120428032,
+        6720989126895533154358796349457156452552707706804272914864096795251850069966112036785803279709945695232615981772095903689162620204024030455277455511796988293128901207330925523313607266949223728160850408405138950119628699462501161226944409612226073826144837775514578559345362442222419608612675577944650570436314297022545511785497484653993640531584394563930627173055661634231646508474544980167027167652200212269143775128028258890568346778505969573164048700351408525063673128678096412249115532286943935033052166940952845119475977318748581150956095891296822974632167770578485248,
+        41944749306702137554148447044198565512219817209934586674923022586001343803327413329302171508367216684374116394803358969016424013733293963254663545658493250908589352639782988291586795705391508807380533083377850735954460395836008199228681760609419272680015021745824492312859622277927072807155658659301903640135677936063605241867691246267074478761197920030247101136569837047906902438927527016725908411114908019188567131474189728121121543273798914169796170897024406057799038920064857941669803245690391023170404293728447416343176816644774127576700685216560968191909287230410063872,
+        7274864172255946776663372934516805317278940677926205176056612131792181733616916396343670266721845453755836549734629134427594311547931129484990436657403253469146904585839968388775446743313915408905185990819816173464272181930692365686430107851737667912495909274808751977843879863342890877916419391068714193009992495996716072350189153565230802068176507987347882060511261398989568320689854081783634150454117403102226727700540721433102989802962658841692897036663359064276553485011275146958046697696509083847809120768199760085005090525681074145490874310222977704389950629216256,
+        103389627675149283305371459987068513503810137613373193976168116822909114090736846898471353055508584080928931198324472159788721513339731417449568769142187826611177507921531792620591554017619857738298249295522332653089780133904067137194141206052751305746801751395032775224238926585936776046025148468877619414663862956552337632387776957692891970073264690801802254887539816155096819401249610861456806601872687120834621124448895521054609085728963134565626853514730440925969460584816421102963851015913289524133638413142726852082520015955852631554868741709583969679310848,
+        306060753747052178827639615321272374143605081026393364206021516753399071658337034801971092240517489517264030656584464494268633692596878017793399758553626958499516383238366288165339709531421343168750005739769151342910767040584132648269098042005947286303243316027752637729794747909794746727933994047515506041785843959903496809635480592025990234605354475899996363700970851539232943653124348016192459448006834378253865776476022694188712056931837408347437310810571026280630807108928315416984221376623116356465086198219192489613189604168735201276821564817408,
+        427156639653764327702001075337730453928918043268579045202246019474136866206379619410369845468912554829196471024549430383488798215354370755233334466812355167803066916981171630726646513169841861146201975800360654564641711472509537453842241923190996755268155220484819922980591430594882175053425830668483262157303001026701765401264469838517034177901100725101803962065568258276595488999369169467093250425199907773916142759033438883774368961284465909572682407799521136057541643785652566723744539212856131482887111946656524906537844633843531776,
+        580070648269322008289009194861869350690795853918401821361078276001890713845666956068798674311135785238396632740157509014713122994692718100332403574072380564176077953690950676031044749787909491300500219573967512672611880034526954133776879588516048781068117155312694405240572755609403679087769731447540348256381811218595491642764584231916749850155658068223926232145408675987427791065693205972568913587180053693836261386288634800644958389995725767905275511039939754916208285232765171656848270184390567621494479788129124352,
+        1468221494027525748825870875007097842191197434276821060354453227987589044133753581333396443493778238288327202712332738711428416087424460465435129751576630643289123002452167585146096165819982018612625295312814911046652858680621630012218713707846680724953680135026932825502208148152703726586526181282237130549589261854960226833799645348046601205619537843568314597245653258019400002304488092131837480889273327937019946088012257906419237222190172160269036482615438096748413391406444896653226571473092608,
+        12485383826923168430684391118474137625866167886373914719935440411307072068623977168594861442967219994071741217349426244541307132659646439216837636811049968030250845095772058183123578960882373083898287460130010446207397692412869167474844407835541480312740877039642591710857684967896459564589284464999396364968999448560496540616189814715545109104546105478639912145591166262032000739896657465115795318035677002762492045758882531240636368515851320344025479754917884715416177082368,
+        611536758900408330870838301506411205083169415513404942973860806231003802686919516031908340211209843635852058256463043257901368667140651088071500978415312553935271246184757732642944445160775388281966325205768640640882706145695386765660963979297440388911490165034442100792022007509469845482021116870907601700464884541878183465800381298803053022529105940328025189305914949515249638287784930842780956624329042021613310713302684185765235722584528443670528,
+        283722476513043375857002806375547000951797864241546999538148407112533732860191329554749355117267377377344644291931816365222766101250272411997281490906397676792545137069727209069806927370663763047878906435919892383997188995931430234252543012931576903883049613614526588215152786160874440226032048841386439749800212371250918563927127793506941006818536955827815816404726318392927444406776827998770311694064190102050469870305280,
+        1980555769075686853633619376285329349730228043782743717958843292083546403095764191131640902002855663546242040042335964042034256407658851988198292998525704168844249160314998975094126606631486275981833892707934918146827088945579191890440542307022971822220899519457654348711801328156268034052675431969107892134584858042081264023367380215718050505072128360430965895418229672419158887040311298621440,
+        320991190449414303994403850131616971295066630212578088122572098458598533000294639412261942930144588117249970707377978360086127343052041142611649508008848035678010801449473950390135005810740930573510168624529057250242806969441394586915151438937826094502274849559310802449972962860249022094597552467114229219765519894396582577537247437231082207515351993541753569280,
+        1819476444376801510301606391306561281567801701187265344363152877003873025792716585148493779596920817840273534052110399242374849594010700671794927413128709584459153904581079443986720907941432005725990668530416642357415703241796902487356636470773764275150851070541083194539912846462912899945261556590576903640563849447446220583731200,
+        532782020038752327327874487778412424260367590006069013245264078208445515390138356564219600160082048679157955874089408214768120715533407184034361710186679014789602570792284601408518047788960271506692270634131760801162606145597547415742149451112903762024114002476759130345411678034818984531910721536,
+        11726075200008814772382578354432944411093657468114190285491824825434507489318023426214156499155016062525420209981584897326361907099554926539396979747205015605831878119832235963146686083099700345293706466660846226268817631276356663239792384531948993651910005751808,
+        27958837264372234429107850226991880206058594932675767315270771710562043400164733264365344464919375792551175523333890526477892339778123325402609472902864368327724980681064346675106440248949580862524256922987820609441981815128064,
+        10375955737039199414735745340384279954080517861048289176592836216327797226513062243511643515646029435869181371309808138468364300805426389417061840141078857693512652043438563873111055159951360,
+        855043028978401784477691108906338598212426969462618479629838713507864955771152653895420330559968851459298554345643761708259402633796129012101926831290368,
+        21398058747969899682395905162966294942802109723646345401137956506665496311548473783071554249032427052212672457758720,
+        201414045946358150340742905841582601555189876120856556670590538356494262853376,
+        766436673341698651716338808844177655936,
+        1
+      ],
+      "resultant_first_hex": "0x98100f28c0559c85b7eafc5c75f4eaf90e7340b270387f6943c20afd25dc7088338734f252a783452ea7b4db513cfe60a6fb2d7c640b652c4d27813785eb0f3f5b78cc345c9949e1302ebd4fb576f2d3c0747bf585c5b15a8035088380f9b2418fa57b22de11c0b4def8e3c9b61f747c88c244bacef5351f41f8b210339116834fdde06f41d2a3490542078827580b61ac189e9f33f978ca48c479ff02a2babe46a76d45c5788dfac12e0480a997b58e779b92cf209c546f21a94115be94c1e16dc1bf02be343bff01d948e749bc62eb9783481b8320223b814a7eb371260c66ca291ff86153b83a8894f22b0979cee7418961b64dbf51cc1171f1e26040799eaf3feb2973e8a8bb7ca8bc14913048d2d728f41ef23bb999658cca1c17748c5a17fba0bcca0e07c9aa582443770cd137716084c8b34a65e1cea1712bdb6fb9f988cc823fbdc0d7bce3ba31ada9171165739e16f0b4ad2e57b38799284563c57b3c6384b5570f753af56f446bc42cab7878e8a99b99e9df029fb3a52557cfca6c73d88227da877eaac54f81234173afcbae8294d7cf43bb8a10267352d874532e7d8304ba452f49268ea04bb03e09bd19263db0a88e672fe7ff3f7b56bdf2a5de2758d4e697fdbb058e18e6cd7a57c9a412c91c75ae9458b1626835ee989fdb6c70b54b4c31794bb1d8cd6f8e3cb29d2c5decb69a53f52aa24a43926e8a8422f3dbaf235bcfdb7801e02b6f19c5e9006edc6bf1c5c9360e2315f1d7b13f003f98e45172fbff197cc887dccf92194579f2feb6c674a4336cb4dda216e94af7eb30862201a66caeb49c3cfbe70c5061163470479d79a13b00a93f62ba73f1408d79f233aa2a5f47228a85bb926d031f256363cc8b0e84d0ca99b19cd77c6d17dd07f412954459b50bb84e6a4227bf545656c4505410808f55d96253bdeff2e3478df4f67f4c17594627a25e824af15f29450c49db3367577c2d213f03881addbcaa3456885e0ea89f92a9cae07d858ab4c4a11c81583a2cc1cf240f908fdaeb6029d2691484bf835ebe6f8887a8f7d703817111633aed85bb088d803e1a27f8f75e616202468fc27fe9c1c9913637dab3fcb77992b272f568cbc9012b50af691b25d744dbbfb35ac35caf7d6ba2f24ca410d65f0a01245185cda3298d64f49cfaa04b72d8300b5708bb7e4761218db79827ca6df934c7c8dfc1a3719f74c22cba64adcd4b08ccc26fcf7a7045c53c6264d357319a5c89918a345b52704d6449ca6430e0cddaddda2af1caedb97a41c83107c6697a63492245f8b48962caabf6aae13f007a1182fa7aaccd83139edb0fa8a577fbe3e52e1d96e860797728179154c8c52a4b9d5e70c66191e585f549106d1d7d56c2127037a52a96ea94c7baff0641ff15d61d0c4865c94e8052f54e965d303aa10e4d75242ff9a68b3092bf926b2c0495d82d79345c203b74c97a633a45b8aa803cf53dfdc625a1a61d50de8235b6a388f89bfcb6dcb65266e0ec781902adbc39d6968a2444f561144bf3b79e180f32c4533fd4ab9de2cda4a76e07ffbeead76e0b805a1027727acc16d0195e4f03912d4e0da98c3a3eac91b6ce940156ac21f5d4ee5c92e8cb6c1ce165d374ed004909f6abb06bdea79daf3aea18bca224c66df919c38dc8c67fcff1973cd736bc44cafe7a9974872a42113bd64acd7635136c97713f2bf072b03a3bc6673aad14b316dd87c4ef982d76800d76557b5615fe4588a4a79d10b8320482b2d65567a9cc61716d98967c157b2b8727daab8c655ae6f4488d415b30ad4ceaeac66120f282bbd3464b7e7231a37ec790f8a304886e8dd14f5c3b0fed43c1df3d0fc8300377d4b3362901a4179c81a219eaa524d41307f393cbfa21c00b20271dcb4be21a90d2186b4be1b4e3fa952e397bdf8ab4b23484decc21ae916716ee354febfaea6162d3ee3ea8639e6737cfe9c5ff5d23898a64d7a9c2570e1aa7d30076d542bcb79317408d39327b7bc286606cf3e3924cbdc4e76d91cf5299eb503ddb184041d9347a1720b2b81746dfeeee219806e43507afc454582b5c0b50c359c0aff3bc25655ab880caeff6e33b09d79de4179f5750482e3db5f67af44a3db2b0f4dea6acca25136b05262740e93003d187dd3c7524ff5ecd3f97e37e16eea069141cda1cfad36fbcc6d7f91d0951eeef8a87853a026a8e6869e6e1988e4d20f296e697b0cc832e6642a1cab437166fa9876e769dc503789b7d5522355404641e1b289ff5b718289271eefd09636a3fc280e15c50acc5903f6c8ab40a5aba047f2f7b01717c5e25a0109ac84a0f62473f87f9c20f9eae3b1661bea9541c8a785848dde01d05556682220c4a4e49b31204eaab922fe60580fd3e29ec7f395568edbfaa4087047ebfce2f7d959394ca184b93bfb0f568c1b67b9e069fbca566a429c6517a52cb48bf6dd6eb27bad597ecdc5cbc2d03987dd688d4d58ab1532b2b9ae8bdf32baf8fc29ea05eba82de08332ae7ef9067ddc5ce5e83ae80c3534b376ac92ada60f0c08c2012cb5634ad6513dc4b8021fa693da200005c3f330eba3cd3e98a1a08a4bb5f078568c389708b6d6690a08862e15043fd21a730ccf7b8c37e7a245fa51d6a7239ec38713c614b4f60196d2dabb397a17d2ea7e2b3e5a5150aec084994f5a08e4ab78d009e6f828efc0f2317104eff77715b7fd7dff0f5b38be9b9d8f98fec9315330044426dcb6a89f9ec164a1fde9ec28d97fbe7a7c2253e5d436e41ab782195ab02e3be00d0fec5a3b51dba6f57297dc762ae126bfb6c220d70862bce5c046becef31bc87021a86b158876cced586dd8f77a75e5ed311f5f5ca11a551861d78fd8c66b3cca5a7a5dc8969e9160ab929b490a06353ed66333e7159b11d2cfd36adec47fba3d6872f6d0b07972733b16c3447022facd7f3f3c89b35b43f9bc7c5a9d3ae939512179092fdf27879be8c4b88b9702cf77cabf6e4e49f05a41b40efc8ae8c6a6bdd5c515b8507730e67fcce84f9cd41193b25456aca95e6ff78c33526573bd0feb53ff64a8ef95ac522bef64fe95b3f4726a7cf2370fd8a7bf4c94c937d459d44f3075b73e8096f3737e04a70f4b401a138aa8b7b3b5fb166d429823ad77d1e59d2204aa1ef0eca3c6fa6b8a523974d07f1b19c23ab6caa57fb3cb6962c561daa3fe2c034b633dd7cf46dd73d71ec1c98a23539a1f41dc268de73f0795925326c1481d3cdac77786d030a1f054f77ce0ee2a64494e13808f93ed41bb8632bc465f6af5d12149ff74dd7b83af279a449f2660dcfaefd908552dccc0079c8885e2eaac6cad0665e059ce872e55506bc64588085196927238951d5808ed033c25950dd57593ae7eb8940051818af43f953543d65be74dd342872abcf4e253739cd4c5c7564099fa251a7edd1974426a349a49fff270a8638ed7861c1b0fc30cf2b29aba3ad428dc3da6988b22ac7012b912c0d69bed4123a11b688a38c86df0e35085f644dfda750664190cb846a216adaf0921d94c296ad50a456f4d4e61b149bf394428ec26c8db2d695f5ccf76e753aa2856c52e712559d001c532c1bea347359296605fd624e1e8cb21e4825a085b46b71d21c9807e45cb272f8957d646e3aa69b81b318afcc668b5bb5fde7f2214f18e860156b74dde54b46eebe6301cd3dbd521b914be0e52408f98d97ddb2a68aadd2070915a0fd6623bfb7b9e12bbfc47d8f16476e557d906e8c99a3e706936236602b407261b6e0113db0627674e34e73ed2a7fd6e5d0d5f4a7196107979a116a9e0423164ef87b541eee4e5bd128b21435690cabea835bd8e26ecd7fc4394649d0e1c9bca623e1761d7635f55749c4862c20cb28a58a5a9ea1db61efbd9bf4a17608785fd3b0699e68c4ab0357e9e63d6d5f9f2c5a97c485c4d65e56a93d7ffb943216194269a365747e0de966d8c14643cd79c520ed72dcc93f777fc69008a4b87235075aa86cc7a1fc0415d12994ee90952b810ff202484e85d3a3858cb92df54df26b18bcc5e8f6f15d4cfe4d6493fc1c1ddb58ae8c373d525fa81c4e69af70452fb181ee9afc064bdb3b012c8fb11691ecc87d96ba7a562577fba443223666e85b256eb1944884a4b999fb6c39cf799a07253ddd9a69755a7b40f32186d8df5a4cbad188a8f7c7a38b53b94328a3bdd7a3ae47eb5a2957f9148e59ba15b435a440a95223e23ac68d658eb0360fee430edd48354f0e9c14157b90fe1a442fbe635701b4275866b7997075c91b1d3012edab7a50c31b962dab93c621557f8f31a316ed36be53e1557793d763f2759b626188c99404108032c8b3e2691289be79582c5a55fedde3443f63d3e059f5c65a8313caa99cf4a4a850e268fa6bfd27bd185f7cb9c5a2c1e7919160bfd6f0ef5ae80e0f10e89fe79e43301da3adc518922a3411f65043b1dab6eba20009261e7a6fd7b8b15653b9ebbf3eb8ed0bf93e1d2c0170d396b25f8c0269571f98f6c83eed42e7d79faba1c1ab0445f120900018bce8cd2813f01d4592fd7ce2a3b103dcf67492c92c3133e5e0e3ffb9ce44f724244a1e76c3c50635cb09656c83a501de4f4aeb599c41ee1c5892f0df9f11495637290e35b79ae644feabaaf2463fe699e88d2bc6506ec97120e7975ae9bd135e1b598458e2d4ff2eb92f111f2abd3354b1782e2263da5d659b4fa4d9b2e3542f97154ee68018032496dacab43a45c157f9960ec485f7d6d166259f70fd0ef304a20c200230ee7b2ab9c3f94a6480452fb57a12ec1e8719798401a517469a2cbcd9d062ed3438d2af70e5b19d0750949484abcc3b24c22e7e4db24746bbed3af0e996d53f7ff4554350831deae68e6ee99c6b1d6c06957621bdf9edaa88d9ab7c3f528eeb27058511280aab1a4505a1686a7f4e4d02291f3198b46d5157070ff97273933d0ff9a8be2b7a4c5a6357f64b2b38e960d1c2bfe10de48355967b58da667b8b8a440b9cfc3cc22c062dada8875da7e0d2d88a59652d81a399814e90c6533bb35b45b5c72ccf73dcae58f850569002d7eba78fa276ba27a32a92abf3d691349ed60ce7e76a819428698fba026eba8a78c9e02b39ef2c8775b11acf634221e4aefd2ba4a5f0cb46a07aa97777b3929ad8abdf1dc5266bc7c17d01f4cf6082828bd0909b26b01c694dfd7a2cf54ae1dd0b61f3c2cf4b9f9c54b3fa2c85b9e04577a347b668bf32f501e7aea312af81f7d464df0069d77dfe6fff743be311d78ccb801798ff021351931fabf601cfc03b9a0810a20b321f0fce3b08399189b64ea4e8173fa31e29c69450e66e042c7fa69ce3468a9850a63462c19c646ae4462a3506b729bc69122e0e5e56389e16d9d91563b5c6a93b665991aa1e22c6c7ad4f570e784f458040e4b5d72d39194da54c6fe38e995d63a8bd14030a767c918474c9662207b4d8c02f4d370289eb29599d5994aa5ee22ce49765e4dfab91360d2923399b40e5190b5b3cc32f29ff5137618fe9c6fc34442dff54564700f8ce10bd67d4f7eef4e6aa61fcaa40dda6c79b4e0e0b758e0b71b0ea49fc8b6734bb772662e189e94a956b8aaa0e099ab1d4157e0b1c4dd0c4dd14736173019935f34887efa82e4908cc4d2c14c4efb864a0e22499d7f5b5da98dd13b0772a5b668eab6be265cf5fe7f85d4899f5d18b964f344a69fe71d5c4e1b6f817ea2900ce5cfee9248b4fba003bfc27e9a2cbb767b38ce0b5946cc16d1563af72db412dca5becfbf71bfd9655c0c686279fd31f16e5f85a190ac89cec4a9c69865a2ef5e11def022ecdb55998e873c7b4930533f846c5527981d5b2c9f913189bede944c3b810a434e952964ffb904785cb4f35b7e64f1481eed261b10a5ceb4b437a9246df948564324bd4bd6faa5f3d8a15933e32e7fe3d242f63e5d0929a0e2ecd07ff232349b73810f3c84499697f6abffdd4c09478543d10be8cafee9cd02e079a60d6aeb2e528cf8edac37e776dcb60c86a76d2b75377a8b11631ca762e252631d3d23877bb0f0f7cfe40cc19dac68da7d6043f52b0bd0082528423382e712893c1050a58f80c545bf3907faf2635e1176ab55125c913bae0a34913dc5401013477034add9c4d027d6988cea22a3196d13486c5bd992fe2095f9dfe7f5c3f03e3a4f061bf33a0cec92c5a6ede72ac5b72832b806217629043ace0164871d86bfd5bef1307f22e0eb81fdf802589a4bf76866cf95f1159cf7706ec71c4cb9bb09e3b963e8183f6112f03735066dd0a455158899fecd339525e7a356c64e6d82a4366206af0a4127c391c542a48cdd5fe5c8798b39b3a50cab6e972b4fd81b1fc0eb24dccafa47275ee844a00a9e84d678bea8006e2ab1e9a7a9fa1f191fdf1446ec4f45acd07300dc0e35901d9df2b6ee4f530c087e6bfd42a593407ef69cd84318ba426f2aac1563888da90a5c32f61d818f14eccd79788bc62fc3eaa957d7051f7ea1c35ce00a1b4de73bf1852f0ff2aa6827b84d55fbbce6b6d7abbbadbe0f11c28a1fea970746f3e9c7fff3a8ce4b7283a384980d760bc544a866e9c6205f76646379921c5985120adfae32d6108952ddda0d4689ad5d68cce9de7653e90863584a40da3bd89287efaf1e227932d3b1454012724c9c894641f0ac0c2079a8513475499f2f2aa7c15cb6a8fe526ceaf6e3e1c6f78955207764a7f18da7e53f739d9506df1d1d7f2ffd9eedd1c7c0db622610c4dcd433f338960f0c071e103cc9da2f48d62f4f3e3b8a9393b19c2461b24ae5630a0779cc8deac90ceb02a80a65918614b3b5ebba601e542998d082dff0b686561ae1c5022353155643181ae56587c894a853687e09a88964a796604e71b8099baf362672f609aad5bc2e7a2f1545ba0f5cad0d61abec45b6c404ef60f1e878fd90498ddfe09c8a25e7f445d65b29d9012783730eb7a86eec3ad28a28c59d7de4a0813f2717fa27dc26e9821beb8f5fd5d6d07f643f2a9cebaddf09677cd9f1cde4a88edd83145162a7e0b341a14a4fb1234b6733ce90d9a47f3dda578ae07769dd302c1830ead00d0cebb519136806013f3ba3f76a2539d33fbc182b9e561a86a5ca37cd43abc2f17138cd228617852f74173a9ada37dedb93c8086cfed5557c8c5389b13d8b862f5347771d6e1b7517612abff97427cbcd36cbc7bd485cbf3a83086914fbdf8f499142d453053dd4597424af398be02b5b27b41a83b36c340ed47238d4d8c54839c3e48a3f274988cace69853991ddf6cd3dc36fc68b81573991209cd6ac5965e6f5e3861e353afc567f4fecf69183786d65da6cd844861641df4883fbc74c452eb2f89376139ccec285f3dcfde68b12d617fe61736a117e883a135b277c07d71bafccdbded8bd1bbc419ff0340c94ed0ad6c4fb9264236e3737920ca45b86f089bfcdfd0712a63937883c9067483cb08d4469eb1607ea27fa9651dd92ff57538d279a0a4c8cbdd0ecad08b3d1052da6e867c697250400f8f7509e69e56ca9f79a9dd4b1611639e2ac0c307bb6e669c376a781cdb0a431ff114bbf3376c76a906db40dfaf1385987929605e4022bf4599b9d35916a940dab867865fb01fdee5679b117e6060394970173691eab9500799edc34542d8b10d51a8deb604454e0788b9c59bbebda7c79bc276f27e156a897652a4b8f4c331c1abfe14413041b9d44d84a5e81b62f077934a2d58a673e8f7c77aec1272fb3543a0b6707215f8f2eda1309ea71d6edcd8a4744b97781aaf208211e0828e4ce1a02811356cd331a32a8eb6d5827894a61dc108ffcf81b6ab22fc8af691be3531519fc3c6adec340e3da34e9178f4325a40e541b19b5b99c46a01a975797b0ab7d6865f6dd5471f2789a586490fa8fd0d47e627bb66b185356d93c25721cb636b8aca88a1403a1ff521adc599db78e4a8e168561117e21480174516e38df206ef4ea539bf1d849efc0759364b4d1a99241e30aca4a75597ddca862c17ee22134fa27ebe83e1d38494f45e1e575cfc9d77a3f32d51f642d746c12530272f968f1c8e5b3ccfb314ceaeb3d786443051b2d8b92a10754306b93dbbf8431847330fe75ff4fe1fa6c3eddfe4c98816d76ae24261cfc1def4824da84a8c150734656c9637e115c311fc0bdcc91ee02f1952ed212b3922671024e92fb009da8714d532767262316630bb2db07e27f6f2ce868cb7d292fca3cc4aa99df3b11989e8af4a900438e55837d4fe92234264d695df512d007dd39e211bb92a4574db99b8e4fad741d4e1b4b4c25ff61768f3c3812b3bce4a70ccc0c78e88ecb3da3cc1c8ae7966be948954915c0883d86a4b61e0e4d1eeb92e6a362ac897a65811556cb17c0b47936976a96c80cfc249bef657727248392f59113adaec1e244d82b906a6c1ef9f65764d1511cd387a2b1fa93f898e85c338a54ce013e1a49a60a40de771af9fc6e6d2993d81a29a678c26e7eeea7ccabdc4a44f88c38e83ab39b203296b3fc6d202cc106c3576e0b72a5c3dd25d5a4eb1cc23281abbfced1be0fac7da8289365d987a25b248e82bf1fdd6be1a1dbf99003f9b275c0abc3b818f2dfbe39524930b3f275694a713e7e41603986b3473d32bee7450bceb52cd386dce5b6f097b7a90097d2dcad25db17f845a7a205ddc2cd0f2b99ed1f4048bfe8c62a6b4bc04b8781646651dcc6bd3289bc71c0121ee4897cff7eaf42ffa2c883c3f9d79e06983c4092674ceec937ff3bc09ffcede96a4fed0db32c9c88174a90881e01943d1592a21efb6c1793d8ac5b8d6cdcb8d7cd019b85ee8a64a1732cf61767de9e439dee10ddf5dd1cf9963ec0a08d265d9e3841a8b04568181dde7e1bbdc336cb8322b89f332151e5121d4b0836b92b781bf784857e0965d89b1b9156435457dd52428893dc629b01e53d8a086775d455e78e927d9b79afd3294d9c2e1f69da4cff978b5fba9fe6d1411a8f7b05a049cd8056f608ac48b47797d4bee6e9d8f14d599380b1f8e54ef45cbf5ad85ef320998b76aec31b9c510878560b9c364632cb0dc9320593d454f2e359eec2791ab6fd549162e70a92871f7b18fdab156ba79aaf41c9ebc1de5f151f4b183dcd68392747d5ded2088f04a5236db84fe27933263fa0717437750e073cb22a0f902526c0370400178ec4f2c01630021e738ae4125dd312e9b485765a99c65d05a354c585f6099bec7050dbecf8dbe2007ead6e407c56ff1c215e8d79a7bc3483806c899053b4b0f7007b7ca36b802950d112f72a9a2c6de641352cd093a91edf8fee9861302b91c01b8e1efe3a30e3edf81c43050bd53209a7f9b37d05a83eda8b2172f3a298da6eb99afdcfbbdfa0d311ef6eb6f670030fc599cf6b1fe903d984a5099e77435a66cf3061d7b971b348cead6b5157975b23a962003184a0477c2b558d5c20d06b479545db41e54f2af4dbe77d80521014d235fecb536a86304085cc54f47b59a169886692a35dccf77dffbd7f0c49e470debb5aef01ec94f40e9aa3d45dabff3dc3483068681447de1bc9d1928f778b3636f238067c8b2829c3e113e814cd78b98ade6b3881eeecb35f73e5695af63d227e090b81b8c238674353c97443632a659af050bba32f26ed334d07c3126b7d807d5ceb4b2769a2440b3c84b2f38cd7c5d55c526c56de571a77b99e4b212f5ae6b94f5804d9f812c3d02325f50cd13ff8c89d4d832263994659bc8b2b9218a594c87c00492fbcd80c4ce4c788fb484ef7e53a96d6ee5e0d3012138b873619ffad978073a81dd65c1e299efb47e387cecc03482b9be26ee8fe6cb9a18949bc1be61afb8efbf90a021091813f1c5593ec5f07a3613524f9db99aa2203d03d82704cd70abaef095def4417e57f6ee5a79e8de72888ad309f444370ae1034b2801dcff7fd494566e156b035d3cde841483d5fb8dba64b3c891189f20a6574dd01a4956a6f2489a4080f4977a427c788a0a847b175a4348e18cac38d8ed03f0ba6777ccc89fee5be090a65a291a91ab36b2a543e0158dd26a9114a7300d2dfa7dece7260f44915fdcf949fd5545b56a51413735c33557d1a20d3277a69c44f4b73d467893f86d63846fc12a5c2d4f50e11a4e7ba9357c8f025c993b070eb776b843765ececaae95dfc4892fa535c27a79007e7c6f7e76b681565ad241d0e9fbee2ad8748cb74339ba48fc67c1287dba70ff1bc750d753be82300bd8d05e6120fb6c0081ae3c3ba0f27f5735ede599bbae3a0cf7ed76fe2d564d9da8fa199457ae8f7505d8d777ac5007928981a1007a66945ba49d25bb01f40805cf694921752da8dd919c5c8e4a5cd014a425a427a2b8fd0829cf21b99de943ec9ae68e423154b16ee27704d067d6933f0f6e70c7dc28f472e7efebe15cc8ce4cc1cc1bb13fa8dfad4494b74b55ffa8826ca09d35fc6d8a269bf745d445eab81aa818cb4400385745092d3779a8ad156bc03a56141915a6adc060992b6ed0efa2772fd468cdaf84940001fb66b9b17e026ccafa6b352ada16868af560b9b39e224a33173d40d87b17f9baef4ce602b384dcd12d61f545cdfdd16c4732822a493c0be317d9312489574adc7ca5497e2a82c42a9f743f8cf07689eea6b9ddbc4893bc417e6c630eeb03811edd561b6ca92c538ed56e39091c5001ef5e41646d5b0894e1a9bdc65471a5bcd585dc05d2cd7f3c333cf55d319530732beaa85c1b9e6b57409567da3ec755649859eeea77b04f50025218b7b164b990ee5bb5827218a5f5c4563cfeb1649a3df0cd255980cbf3df87d644c80b7ac308403a821e79965ef06f5a6fbeaf3330dc6350560f01c1c9b45c08ad01fdd37abea536fb69c7998e027645e184da96897c24ccedbd64f3da1fc750e09780d004eb45ddc73241f8ea814205d4337c28a73247b2a892ed580044f269a6ab23deab1306db1908a217d3c45a5d09cd89b3e6027f9f381028d2772211c2d0d0b72dbc107a8de96b66826df65a0a0087a98ff4a1b1e9d59e264d5bd23d91122246bc0a555f0c43d5926a4774144b0c9d3ebb2f798e8de62b39a13d2e1e85073e61000af47ac73142af0e1c9de616318895d16b180fa5d62c630b2ba5eda49ce5d0c9dc0667ad94f6fcf59800b78af02079d66e6dcbd94cde7f0d943f871266d3dff43e975b6affd43480350ab90c1caa59e4f93e9fc3c793f3b8bffe4aad0c2221ff1355f21ebc9c86be4ead8555270f56131378fb9f1e3408a22e340401e0212ddd58431f55ca973f6f1f137c9b4ecbc28ab632c6584d61d9aae1ab003a52dfb347d9b76a085710305ff851c3b6c5fce0505efb733678ebf015c7a1ca81f44efd28b32ff7b5b296cf70a2c0646dc17b599a05b5e76540e8eb8e3d23f430fbe10e79a135106e29294c56a698f3b1d925277b7c979042120dbf6d79a2f65060c42e6ebf0b41ddb339fadd907b85f757fa0d34f790e28f97dc3c2958ac3db3ddf24d98c935bb013644746604076d6e1951d43d730b990ebd37b1fd30ff0fd3109d39a11839cced48ec5664159a81a3bcf22eebea8f50fea78e873e652a46254b80179595dfa333ff97be90244af4740e5117eba43a8a26d30b33b1e2989021116a96db55ae57eead43f64170bde33d059bdccab055c34fa558eb5997c77052957ea3098685cc51b344055a689962af7de1fba5c998150a5a3201755d16132cc6cd1aa93ac6ffcd4ab2edf55e0b22520c73189973c813b18361d33419405c7f5c6b5110ee7ddcba488428f9e760a5b179d74570b7994fa7b6788d81f685432acce0c9cb489ccf06999848c937c379233817ef5ef0de44ab1fcaa8c8b89a805118ff1ad13633a24bec62e1005f92f4b775d1fff6fc6ec4596adbf26cc6528d6ca2aa015ce3f52049837b4c5a59a7d19c5fd57510b449cbb3be1313397df2b5095ec90387c6ed1b1d0f191e68820794139b9f316b71ea046936bbc804ce8ced8874ee4647d0be2d14021f956f4b031d5dbe91ba66f4954fcfe3caaabef8d0c7ead8a212a758b3172931f2d8ee5029f8f224d25336058a9eac6577f4cecf77d87a57d8896e4f93537b967502cd2811b1395e9ff45adc24c781313dadf0d878e0627cab9708d01ed2f3b2fad9db01570654abe62b71bf08bf9ae5b510fb81a1e894ea5f3612560ab0f28a2b2bd5128219069b139ec137150bcfcc1bb31db271c0d7623cc25e748bd7d509944e5b9085ef29b33cf5c65213292b950f182f95d0a6af6242a8fc81d9cb32775386fc7752ba6345583bfe9d874d099e7e6bf25e4529ed433931ac9ffad2c419cc175c110aaae568dccbfb47e42a0f34b9479edb74e64ca0f0aa4dedc0840f929d842ff6702adf1acebbf51867f1e8ee3b7e5172abc3cd53bd0d629c763c2a723f8b5f19d4bdf33b654b1d395df847670f8d709a9f018f831987d176b48aecffbe09724b6052709d7ecd7f29331c4ca9924858dd14573efe4892c32e7cfe181e490de2da55fc3966c0e38cb6bfd9e5b0fc35b35e20baf38099baa58a6a4d24fcdf61f7fede6a31d82724c532245c254bd56025849c6bf2467c5a69f420f6dfd83b8ba9e37f407be9a3d840b3a6fca74bbbbe4b8f0459e01dfca01feec9bdafcb14729f6e5a03e732179804ed293c8a87f5f67a0c82c5f65cda35b5ddb95402ace8cfc340c2c00325a20167bd4bb1d15765fc415ad51cedd30e549df75f3bb8556b57005f6082759f1c1830d1821be320327e184dd2e3eedb41b6f200b1f6725064c69dd8acfbdbcb4db04044b53cba964d398d84838a4d9caea63ec517ba64dc8ff9b9b2c742b25f3cf5750ef535b2a1c4b5c58f83d9e11df29eff7b66cad90ff308fb730f2835a9d6380ca7df80f2c4df7c57f66b034710f15484fb5c8f22e9dee2fb0176c75e8302500ba8be91a3928e807243045457e928b67ef48b68e8332721a6150d1acbf314488ba47e74353c83faf698b1261ff1bf4c3d26f1efd27bf5cac6e21e066b406fd0541e858be90ac7d048c2c8e60b2ac1db4339ab8ea518d2d0c661e89b99976e9f0671185cf09a46924e4b741e1dec9a0291c9eda3230e6a40490ec880498c44f88bfc22050e3a71901a77c5ce237c16301a848ef2d4ca1463a6f78a3e800800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "resultant_second_hex": "-0x23abd77a4cf31f64cc9e1f2cb2719174235f76a40bd5dfac476f45390d0a0118d3b68b225862c2f59ca5820101fbe288a2e9034a5ccee2d4defdfba169d169d8f4bd70f97e60ed941b5355a7fab35b1024ec7dbd30833c527f597effe626981fd2e594826924975fa61e0575cff5d679c9e1ca924bdacae1ae20db35d847fec609cdbe18bcb19ae29698e20a32df191f64523265bd84f17f709bef07bd8173855b83177d5034874fffc8354a241c32d0278fccd2fe1ac9244d943f91b015358fc2fe754d6e02e8e21e0d03f2d1d78c4402b427ac5dc04aa5e4bc11374ee98cc237b3a5322d82929d77a902959c710bf6b256d7f02e02742217d1f73010dd43062c5e8b799e741b9997231d0eae9330a312686e291904a3a99329dbedd214772e2365219cc2a5a6e08a94aceeabf1f6f599502340738717c7250f1507865562099c79e02467bb1d052bbcc2e22425164c857f66ccfc638205ae4599fc09f7998ea568307d058052292a72be9577510bbac0ea6c4b9d45169ac3f9ae7180f609364d1f5ee4f6ce23d8f1efd3a5db78ef6ca35341ee3f7d5ea7fb9eb9a5dea97987615da319e35f28b26ffce3c49958399d5f7f49a57ba8293e72459b9684ce047c542987b43114470c7facdf29dee5cfa0102c17a7e2ed5b040b69c92951717d9373dd7042e53684f5bc4d26e83f8228fa99f1958e7ae6a2f35630495fd722d3242b05d2efbb10bc81f4a3702bc187bf7b0311726dcd601316a35f86e77f9a09f787edb12e505a4eb96ffcf97a0d40b8fc496b634cbd5ef24cf515758c3250ca6c5fd15097ac133260c337cdab4ab25dde8afc5d2f1f5e1904835eb639a955fd5fe82e0cbd7e4396e7e5246e196c2116e199c5c7c5b2f1cafbea520a2d82da46de1876c969b86d71202a9902e5d4bfc7ea5400419582162397f9be0a91ab32a66171bdfb1502ce88c3d0b5b67c37fe8d4c3d944a72d232b8c580e4f788ffe7b530faa4ccd6377775afac98f4f94f6bef5c264e8a6faaacaca2bae22303e37fbb272f8ce8cb6efa3772e9fa6c98d2c2f221eb09c22a2ebc9e146e24ea8555414b6e247305780af02c5995b2597391f3fb995403d62ff57f4b3b01795a11a2fe1c07ec94d79b54076f06e8b811098c42289c200bb63f4787b8d56a11df17d604cea43fe53ffc96ea0af2e119a751c2f0463461864496a3fe383687095b4c5a38f3bf796dc1588a698038f3b1c626c8129d66e814bed9691a276b4933c56df1b43db3c4a03e38dd196b4a4dcd61601f4e201970489e97cb94f4256f9697b85f54ae4ea43d6d295f4d450928acb8cb48571fb72afeaa6572e232b3239b12be35d5d41ebc0e4c7567d5eac33c323712da17aad011c9616b206255f7c09ecbb6b32fb6f6e76c24cd0bd804559fd61f4c84eb42c2c44e41aa0dda8880b63e344167406aed0c156f1cd06d832d39c3dd7665f8152d26d18d8dd27e0026b2aa6d8afe663a17eb119aa5d6d01d8756913aa191062df7fe81d99544be9dec6936c23092e79d78319735dc8156339b54a9385b7f6bede694089e88b1d24e4fce71cc1e5e1e5dc9579d1e9f0c3adb43532e77c537105ee23e9aa9381a85f165be12035500e52a489a627edbb0ff5cf6af4b9e9c4ae4e7ab59cad9ab8d16b2f47a828628114fea8f93a1b0f6bcfaa38060a11d09cada70dff010bc0bc0e12457928d6df874c6f9eda4f40f043f44a706e30b8959a17d40d9262380cb4e01974bcdb6bbc91df0bb95717babfe78c734df6703bf95c6d01da115d8cbb2563b063f1a10aeb25438b4fe1ac13ceac58bdcb737f5df7177789c19882bc9ee129695a62af8515235a739e02ce51c6c46d4bbf1555e2c12d12a833ad5dfbc6a030122b928bd81378adab2f5cb95db3d4ea7d2966570d0016718c5d0964fa0fbb7276c150237557cc7fea2a1baa889d01c4b51c7f657084690e5ebb87bed2e642310c5424a4e2672fb2e1348f32a6138a0287885259a5057fa6d37a0a87a014473a537f764cbdc2611e419d79e8db554d413c5e7ecde9af40297818f67a659995b348fbfdfd7dbe36815f7a50351e90338eeca07d875e352da2995677958960242f2dfdaa944b4d0de40757c545757c91740da28b4da2389c26d29c84c6a6ce8a86c6b31484b73630b122e498721a24f63c45565d329299a1214c9329eddb552bb302bf99292efb5e677d7ed0beb112bcd7c48e1d9ebc5bb5c7618b47c5d223eaeb445391093c8d48da6d1f8fc03d92d3ba55bc5c565ac1037ec01dc3497050dbdad4a3a7b7bbdb41380010a9453d6c4d3a42c7e68579a85157e9e0104d4b28c6ed70a237b329e032d3bffe86bfd0fd1bb636065c6f466315e8d9ab891543cbff4a4bb7cd42f1cdc8aae99cfaa8025c03fcf448c6fd0e6e2cb6e17673e7fa8485183bab7528cc55d41ca0ccba235fa81d4f816fbed0e0c95991b565cbbfd3edefa349d2dbd8a614ee3da29ec57d2292d75d4ec895072147df2aed9e6d8f9f1ad450e62fad3477b9ad6effb691bbcc815817001263510246ce6ff08e9456ad7448f32c37ab6d8ffafd79a0aa447d1294e07617940b7a4a9e21051c5484014f08ba9a5adc17ac36e237a3475265d36bb60782d312c5470d9840ac1971238b51e5e15c8c287918785146725aebd19131fc510a4b9d69b47d3755d06c0174e66cdee3d39225cecf74f881e8ecabb9fc069ccd4acf7277ab2b46c9d0db0055650bee2ffdaa20a1e322d8bbea4809d46c7be5de82341b4d931b754a5d5203b3c063d327b7037c5f45bb0ed80f9f59034f9d0240a3d74e3bc5fd4d0099026e412d38d9e3d7033da61605f3546e2187d3097cf1bcc98057d63cd25ebaaf21f13851ff7f9ad01df05683d91588ac16178d0230a3d521f4889a585d3a8302f41502ac5aa79b7c65908be75a69824ce1231c5d9efe82047300ff922d6df4b56a7d88debd545de8f9c51604140752d2c3361add0d688b15602361cbd569894a23aff868a298ef40fe7e719a9d6cad5f1eed22c16e9586548619cd7fdf899a46c9666e5a41d0cc74c40c1f078fc936883eacd28abaa5291accecdad9b01f5291a385346baf8679d7a9a0cb594d0a38d83a110b38ed742b56e2b70a7a17c9aa3e4c34d545d4fcbf14cca526be0395fc16b11e3d76fe972d434fb11f97efed86891c377e7295aca27269262bc9f54115775e5cfe09ddafb5a985ffa68689ddac39175fc87bd26afa727443af1948935dc5424c5a851191ad026c0132cc02d859bafd8f967d657ee88677ca65d33caa120611994bedc8108b805906e20c20b5993daa25111658cf9d8b71a823294b3edbd8e3589791d8022b22698197bb8fccad81b64c1d34f80da649ff897a5ebeb694937ca3cc596ec307fa2ebc7edadee6c43fe2f50334e1a4937459d7541e898460f5c687e30dbf3bb41954b1d4230041b763dd8b0ac97de11c531fd2f82905209e3729c9359548a3ebd6481783e3309bc85e26e714ca497257dfb49ca411a63a83788b43bcd52a69dbe48cc6ed68cdedf9f6ead7166719414a848d52ad7e4ea144da5e38446a709cfa42e75f4927d51713228b7fc7c1198040ad33def378f38c3d937b137c47bdc540b25f5760194cb5b36cc9c82e84733d9153c2bd0514ade7e12f6a141f15983cc9d0dd3973acaf332d356f95266050513e47051b21f08aba57634343adf49ed35f75b7652389f72f18bc161dc9293d00b7b546e1cf8a6f7cdde22c57aaef6a813d90af3c7dd8176785db4d5fbaf128005b3dd553ab1ec209a4c7ccc3b770a56e8498c071efb73d1cd39460cb39f6b729f81eaf5773d0163b62191fe0069d32dcf35e415180ddaf3668790dfe608a5682c0695d54ae60b5353ca4656986d12a4003940ef8210261a49e180977add821a4cefd94c9308475a8d8b7036f9e248381640e10fd30d568afe80e1bedc1d5ee193cf81533885c8a7f4d0172438024400766fe08a8ef302a9526176d7d2517dcf59cc72d43b8bc73635c658172a4a561e4d8e1ac1e47b4db439baa28d54d85be7b7b7992880d8338f3e76025cf8c235d6f20ccc2798f9b64e216a2a257863b6d083ea367a074956172d1156951acf3a8707e40bf6bdd46104c4a9aca3f811b0b4f17f57cd4235d7dadfb782458b6495843bc7637d673f0c90303b15a4a4c9784eddfdca29f37c4e9f3cb2114b5497f82eaa189ec7db498eff92334a2cb02475845c66d5aa4144f74d250301ef67a32dd077a6f6bfcc216c81b70aa9c068dcbf478032ebeb423f889fcc098536f2a0603047baf900f2ebe5b2cd6d27fedf82486d18116bda39c7c9b9abc00d64a0c47b4539ab39db666a0ef4ef6747a68e61e1c246c736bfb4082bf16d6b1bafd6969028913f33deb3700b63cbd8c7488ffe65b274dd28f3f0be61db40447b625d435edcbd88c0a7d9ae2c834131ec0191affab072a710fbcc1e53ffc7a30c8c2fa1381484d67008900740c638b8b629bd0fad7c580f6dec8b0b18422499c6dfadb9fbd0494795cdff4644af0ddef686e9beda24d1f0384bda24036b394d64f5fa0cdb488643d39675d7bdd37b08c499b0f963497b22691aba52d0f505cc7d8079bd24d4f01f7ab72ea31609cccd30224ac7bfac787298ba284d87ebcaeece9f544fb1a6bbeec721374075c335670e287937a023863fc58cfa7a96082c515c100d8a4058a8a499ffb2479943578789c22b51017219e7e0643fc862cba823dcba40477bf8072a2ca550542055a3b039f0f67ad2bbf3deaf42c8cc5732b6c58e3be6877b6fdc494bae8b35d32b656e1fbfa52f5b63381f6a3afa622727e69cf8ce37e8d0f7b58a0d6847401f6d779edd4bd02097d949ff7706eb56280dcf2b8fffefc927feaaaddf0c8b5125d9ac2e0f7d3f784cf96f29570f9b355349539f7d436536822dbf65b4c1c7549a16670e7c08d157a5ccb09ac11f77c064e95687af5f77d17de6260022665a879be286dcd87770c2a34248f227704c7331dc9ff93f6a523220d81125ec7237c1757a097eb46efb791faecda899fbd1cf74f2edcaaf56160de8b7e361c75c054dbaedfea0a52fb5167158f6b870dbeba39140d311de4dcc364ac632009e0e5237d9a1ad9a95e4356ea594b3f87d0c1c2834b0e5944abe18c01f1461307c454b3d0ae3531627223204adf63498ac0fa10d55cb193930a3a2831b8c77790f41e33aa8462895c5dfe496b35fa71a1c522c4ae7b185ab31d1c2e228c8f7810d9d0005c1e137c1fdd86f2b85e7acde1c7e03565737e00bf5db0634cb4499fc4436b7ffa49b8badeaff9a5219a6e1d335a9c7b85e214e5190fcb5c2d7c02c74fa01ca0ab765ab425c90ef546f1a6b66dec2a8a76abf6f25f5289f7b9c20e27d371c0f5343820cfa30e2c08f94d849955d5d037c120ebca1d3305db5a20bdb1bec2d3d21bbe103eb5193fc0c336ebde84d0e22ffcfbbbf4792b5fce3b86bc65a70cb19bc1f7a021c090cbe17f0f73331eefefce1f0740aca94c5bbf0983edaafabd277d72b9c94a92ca3beb4efb62d253e8de4b09e834bb54bb269dc61def8e3d438f63cbeb457ae57934d63bb22b7a76c913ca1d764b5f3cb6fd42bd30913f531b49d6318d420f0941aecd22f1ab039839043f678e8272189250f286b321fdf29c379d399e2ca876743ffd3c8e806504e99d1a731d077d342fba8776ed07eb2123336e9e9236df089eb333f85e96c340166ad59cc5f5ef5b037e7b5328b7009aa2827b235b05ff182315d22520ca83d2b4a96280aa2633c25125ad5042661dd5ca9c284a36ef71fcdb56297239dcfb92db088c82677e672964062a77d8b48397b7b62dd20fd5fd11f479e5234e97aa1ef302fb478a6094a2ff0683ef1c64ea029f99404dd9df7b494fb1f917a6c38662e0a9764649f4918af0436fcf301ee828dc4cf38e50eaae2989903b73ba6299a0aa2280403fbe27fa6f14f679f958fc2c892a0276872c50b740e1c16cd5177d9f7412becffa39d02db8c28dc2208eb24114abb2b30da6496bae2efbb10a338adc7dee60971352eee3f18aae74a426a86fea1abcf2873896bce16998342cf7eb04989dc9735b9ccad55e2a5cbe92f50a97bd99658cbdba72f4f68dc46f71018f3be274e24a3cd0fb8dfcaf4c06eab3f23b67f9a7e65fac5f5da7deec0cffc3c0ae3dd514cc1da0c0e51ec29c4a152b7bbaac573309e8395a6edb3094479a9c4e225027df4c53ab601578c4a0cb3cd314a9a3ef2c120768090f92c65e3bee3cdb4eb4c403589a28b421de2b9ebf8f70d14471af1934706181509893c639229320a8a5113d8ee0c500a1649addc8445a5b95bcf88cd4337537269d4bd0c4bd02fc264a45769a056950719b5816262671b89fb5f28e310e0f5385fa7e630d28fee86f720a569b8dbc9bad16bd70b14ed01779e9190ad8a3d6fe251db2ac7b6384e6d89bb2b90a564112be7e5da2b44fa5d4bc8e31bd5447822f6ef8c66e4b39397f7c0ba9207b44abf11a36c71ce9eeb44bc7df17cfb7cba1e8f5564f2b1f3986e6e079609f4c89504a257c3f241ab8308d7e44c02ee6c55203f3505d13621116d15fabd84f053b3f4f0710feb6af0b218b056d783d7cb13dfb3e540d240cdc1e54a5fede09286bf68c9dd98cc9aef081343ada354cb9787472a10f703b2e6145668b6e6f5665fec9efde3675362efea2b89f601280ade60b866f8cdce8e9bf0f01163b2c556ceabbf21f6f6555b1809733b0557c369b1fcaa438072ece3199bc54e7ed58469899788f6ada378f81644b6dfa8ec6b9e74a3e8419270c65e518f79fe3b0727795afbee4c84303a079075dc605770587e55ee84b44a071afd5f2a4d5032058f45356769d2669aa21124c965f7a39e545584ea57d50fbd49852ed31befd4f0d17b0de1c18344189f413e089e283ea8cb239d6f7775253a93a59dc61f87090044066a32188fb8fedbb4330c0bb754bfa881eec7498927131f7b0662e6b3fe54f02dbb4bea01ff0e590d7a5d4124c7c3ed83bcae0d00a63617bdfeefc1ff3a4da365b90c13c5d2867a692e93f25103592bd14e1b2993d7d54bbc19d5b2e797b0d09570bda55b34d0f9c32d2f49c23269e65b5fc18d188ee41c35f0351614ec495a0dd8679f961693b6d6936c156652b9c39ea501c34513e4025d4f345429c630cbdeda0a2d4b91949ff4c150c63845fa593198823ea4b5972c8caf88dd77b2d8bd9890b2575fb377f23bcb6e441c3556a53e8ae924b3e9d82b90a44dc74d22ddc0e3ab8503687b333ea20aa0c4007aa5b8e1499a86229f3bcb648f43d282d1939c89fb25c367b52a86dc679f3c082cb501ef3fc1087c72705627d75f684b7a56e6ca203e4f6056d123a1efd2f822e6abca6738b823e0e4631ecc7ea8d647075dc950e410e30909b962f89506fddf89564f5dbc3285af97ec85761b88b134ebf42f2e3969ada0f8e6a79b1444c6538a9463c611e573b35fc7e804b601938e9d354eab376b03dccf0926acaa938a1a3ae562c39b7b7deb531243e0e3e57db0cf0bae35574a71c13c912c1aab7f3dada439817c76fc607712d30f6a5183d71e69fa0860e0ff064564140cedffaf441dc73d9109d457ffc28040a8fce347baf4ec5e1c1cbe9089304df6fad675718381dd4cf27d643a3655ac661170d6e7afcf88749692089f7c57dfd306036df968842c597aa39287b55ac9342488c1a839aedfb8a7b1ef20cd5d9b65838dafc768764abe957a7b89097c2dd4e76efc7524a8b8e8654763ca6878852eba8cb0472cf4934848e3994760728829e1e859595dfd8d08440b428045d3ba226818a5abbfa778e64d69347a90a9e793db7e2788fdf5f622ace277dd03f5aa3fae6004eb9840f82513ee67a810930b14c4a87861f31fec5082073e1b912d2ff003b9bebd7f0c4fd25db4dda6d58fa1397469460d2e92e3aac8495f5be470932c1ecf3f7055d63f403a19d739dbcd5b9cd115708d3744849fe3cebac6e2346b314ee155609675485ea18e6a3244ce1d434a0926be07c4dc80d892987da7d8bcfd636860380c9bd4757ec511a93e75a8ffc5c0b11c1bc66ea4308fa205a2dd69eadfe2a7af4e2f86251813edd2025844172eaf852c7751cbe3e8e22f34ff9b0f3e13dce708420d878b47ed0b244a57db2e10934fab83c81f98d1e25152b7b13d1a57a5ea8a0e3385a4c733b882a4483c421e9e265c4e46acd1f11200743498b24f66e9ce4c5f3a11f38cc65ca7fd998f4b0171ee77b4b9bca8fae2bf859248bd042333a5c0cbe7c0d53fe36ba5380b0882baede2738f8f81bc31bd518394da2b154d3575067821029547bd80e42cf0fbbd295ecf674609df786e3dcee486462c460e598eb98ab05727f8e4e6c8f5d6087ad2684336038e1d9502a5ee5f9f413a198f96c7eda0b9b875eaed79fdc89ad4caf6264d59a1b8902c99af84f624643df514bbb537bbf29a8bfb26346908cb70d6344c27b8839544501ae8c9dbea1c024ada53347f0abb5b033808e8d8114dac0db1755c5d1945f3ad86090bc9b52d846e483814602d2ceb7b9d72fa96dc9d63203f705b455a6227a8205b4ebf0b2f91888f42629d41f6e068643198210472c8b0044f0ff2b47e7bfd3f3577bba6e116b63d5fb0674d75b740ccfa79916aa20335d7ca58d52eb289c9bc24e284470a02f068760996f4b9e09498d60c280c846f0b1ca56ea38afb9dcdfd86fb67912e0ec800199f87b5fb8eab440f9fb3efeaf6dd0ab51dab7a16a80117b5d37f15096f2a280e87d279e3f905822e0197eeb8f188d2d4153b4d00edffd6f80b6b676193ad664b3634d60b548e8543533c609fdf2ad8401c75f53c8159cb9b973aa7dacffb53324aaa0f2efb502fe63f356c5920ea1cd7f9015b0104438f274a27f46b3678ad7cd45677fd4345f3315989a46847f83a44847e301023c8798497900f2d9942022774bc7c511916886f49a860037f033dcd46b2e893e6cb7ef8eeecbf0f0decc6c2e81ef7de5611a46d9ea2552c2d12dc0b57ab55dd9e3af2db7a643a3b861799ebed7042879f7bfbfe788f463fee9f220db299619af835806d9cd8a077210d2750349418213317cce289e7d642c39b236c6616e177305b17834c795e1b5723e28a888772667f7f5613d4da91985bfe243b9d78f897827cf3ae51a145deadddaf943667d6d4ed1362e67b21d2b635fe9987e98612d1fccfb871a70b2ea872ffe7be6e1131b5935b60c608b499d6528329315591db75b0778c20b8a4dbfadac43a8e5b4d5c6d69c54810d5000568fd7605d92e90bc16a67b8360152ed65edee41a28f644157e764bde59cd896f5e4380a48da40f32a7612ac860adb25fa239fad10bf114fefb7e50698f8e9c2a3c9d9051350bb0426dde89bc10c1dcea93a175f945ece717ebf100582bf1ab5f35de26175790a21360730c18c722dadc81cdf261d153b8434e7c2f5a034c8e57e83cff6a48093e8061a3b8643a29aef3448dca42ba1d377a7cd670833223d6c8e07d1377795c66ba603660d96398f58dcb2f95fa9dae3b8b60635799ab1df28de48a2b07a3f12d592378f7bbc6764b3d7a798bbeef2812452ca3278976e9f424da4e5cede0584c0234c0ecb5dd184540ee9f48ec1f6066242237f3498126f4f2b85f10a7b5661ac7dd7e2583e2f86ded1fbcfd503c2ffff6ce3f63f1ae2fa9bda028f2be8b9043731fad83a8b04d3412e81c423b0f7f22c68508b2e7af19d74319a8f4c828c0435beff4e220638f22d5d4dace3cca4739205e546c2b0651a55494ceb01d9cc34cf75ae0fc60b1a9c017e4e1cbf0d8987a37b6bd61cef899dade7b857bebfbee42457c2aac50e169f0e3997830076a2460f1345fb24acd7465cd95ffa7044a8f7bc4cfb9b8b869a69c957e7b3f9f060e51135916b7769dd07a898b74184a5b2bbb80c8fe97d1193cc0baad20bf15139c49753cbcd7a655f0e7a1ef76287ac39a999149700544df46e26e138c6b18b9cf8d64cf15759d1d259fe05bc353f727c2e69334893c7638b24794cf3d8ee66b19da3cdb8b15ea230bca2eb1faa1e7cbd5928f59b57b15769506a9b94a9ac0f0fb26157e23ff6cdf21aaa0c02b64abb4309e69b10159071eb3c39e3e0e8f4e041c1f11be533111fd205be4b1e93992e41566126998373a52938108653fddcefb70b9d9a2f4bb71b8bcfe82e69453d8ec91bd188313ae7bcbdf32527322b70618e71a24109d1b5aae7b7da8ad554be5d1f70483203218f67782a075f0ee32b8a7c2802c954f2a8cf651ed707f416c1310360917256dd8bf09320dc7393acbce1638a8ba0db21bdd6ae7a8e4154b298759f3eae5009d3b31215bece43a79c5e64529707c048d68b8e0ffbbe314adfddf708325ae95c5894aae4360005d0e194b13e3a9d5666ac260c9e531caf446b100c8b127aae93aba6d3755d5b9281e727dc504c0251671a3e9b3c2a1937e0233ee67f964a7beecbae6fd8e02d682fc4be5a0c9ec2ec50d3b62bf38dcfc250b28aa192b1dda9bce050f6d054c29b9e24725a94f8e53112b4c49e1bd15486b5ca5765b9cb63957fa701270504d3d2969d4bdc66bfe666c00ab2e1ff4713e3f67a9a568448563ec4f8b73262e14eb6dde2bb278710b41f02581397f60f688d53d144aac39526fbbfa1a675767c94cc79c502764731092d560ba9f38d13a09716193ecc2c4df6782167c9147556da4c46f0f689ddd001008b43955112041677d43deddfea10b7cf81ce79b87c8014bdf0fec9520051a8006179ef125d0bfdede28fc646f86fa81618e86a1d41ee7bdf9dc55e8a73534436c2adcdcf6ab3389bd56d8e08f5075247fb3187d3faa3d055540e9c5582398eca16db171e24510fa5bc159e36839d02305d2528dccc17b4a419a885fe363b6d3229d73948990dc7ef701b710832fb613d4003ac24a0db33b8310f451a3782233671bb18f86d6b4689237f0da9fb00d8382c9d050c342687bd132296afa4ca504298064f8be5adeae32b8babb72d8fd55705c51c470e229115d4e2cd50f3b625a1ba53b51321701bd9cbbfdcbb19e4d715ac13714fa2da5760ee4605d9f76a65270400e16b4e023ac34da25b1c5355e19fa0d461d88a2235657a4a1cab69f1fd18689dfd162f4ce1639a6cec9ec91aabf9cc64fc413cc7c03338ac61dbb849db98a155e3aebc797763a87e3d1155118103efa950e53eae73d959fa1d464646065717aab7efb6730e7b8a440c1235de54c242f733a7c08ceb2b95af2e0ebf066bd47ba143f3c3bb072592a7821e928232d27d81086f85041a7b8c720485ca41e9d464e03746bf88a817c980594ebd55e982faf25ae8cd1850599e8721ab52ee1109f94410b61f437f377b7d97b30049961830c9a33e6b29693dd008e057722f6c7ba6925b2cab4d4db637be8b635c40c6fe92206f7cf9d0f6f6981c9d1f372c5628338e04a5be1c6ec8b7d6a4bc900d4e46b199e97ba92fe93b99851332f08da8b7f74ab29ee603af97e764fd30ec2136f7d4e8572bdfcc123111e65d14d7d507556e1fd88074735c5cfa91d1b228c6543ba56f856bb8932df300b4890b2d830ee6276a3d0d4d3416bcd3cbd4ef7b43afc9bdd5042dbc58d403c195bcc3a178d6221c9f6a5f0e4ee570eb9e89d1c3662649a0e8e5b0b72f65d5991aebf885e7fd6404503a534a7dd89061afc0ad037fddd00a1883f26b559724b8bd2ae95139dd977306ad9fd1873c7344a6d8be31f51deff5a4ed56c5979dde60929f4ce9f9f651dbafdfc421d8c543d007b859cb06860dcdba207078e77a91ee7c58706c8821fc813d37123341b7c55acb2843cf3099adeb16fa42f9f9340ba1c0ac7344853948ac1e92514caeb3fe90b8949e3f79d4584d1173a5240dacea641ba1580c572379d8a14019f9cfeb659198039f15d031b6e08f1be5096ed914e66fe2ffc2f57110b124f325b9d93f3bfe47c04c3f37108a8ff64242f442aa7ac8e55bec28b2a2889e3c6659e833b910396e50f48cc50e6970db4e5248d94344436a374c4d6e433644bc4d9a02db1f322d6b3d29ab496c715ce53dcf19302c72225780c55c0ff89a839a6189196dc3982c298680093ff1086878b27f2384ffbc87c83ee396b4b2f6dc5920d45e6ab71c7dc4982bc3d4e50b162886f9e317e95db30b0ed1096fb27ed702026f4d5c0b0680d87d884f893f910201d4a0975e17eb54bdd8235b77337889ee358219ead5aea9b0c5f88c9988b4e4d10a6ff61751d1e1f18ff6710110bb64ad3f1690c6cc539291252439177c2fe3c4e9d75e8836add4a0099cd48b2ad732d7818dd46228d2e70d069927a0f7b95464e4ba2275fc9570d2279f41985273f3e8cffdcf26715d8afc260aa26c9f34cdcb88a923de27d9f53c8e26322c5e015a60aae20bcb6196857940807c52c7ec26602f02fda2ebc6aac52ba6e61ccda03254dcd74d5e78afee9bd7a80f0a13a8a6fc79a63f2960764da831a5d426afe66b0031bc89f92ce5c6fff7fa0d437e2eec11b1c34ef785891685f1750b0b79017ff09c77ec0a79d58a5c96b5e1244854f11ee8176cfb27c076c851aa011a9eff7b7862ae2dacbdda411d7fbd3e0f83fc1f19841615f06039f8e6741681630bbab39ba05d99d19f75535e2bf810d49beb5898556d39aeecf0409529d40aca6cf2df86100023e5f15354db5713266dc2da0b18da35c153bc3409a1af47b13acad0e7009a25e9614bad9f1a9d8423f70da0fec5c8d27310f07d995583bf5f6b237ca5cf0e2528b7b30c38b834168d6aa66cf57e32f70117ce2eb8e971fe160130050639f21cfd0acf64581ad0c0c505c7bfe83fa907ef42f34bdbc35ad3efa1871447abc746ff56df47876481c7959a36cd378be4f6cea6c3243787fcade2d3b2cb974a350f4501f730af63b681ab31d0e4cfbcc08a701787dad445de4f8cb2f17955d8e12b0edf5cde7905a2428c4e2758a015eebafc1168b46f73dc4753fa1a83fe008321fa70f6d6a334957a6c584382aff8e4ab8d6f4205f9aa222868839f31350397fdfe38e693ac479fb77b60f1afd9e2bc5c8e14c99c2bfbed80daff12872c97ea287a2292f9eb5696d24a8a4bb41e7c10dcff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gcd_hex": "0x5acfd58a02dee424f5a52a9a98a377b4072a76cab101209aaae105fd6ec6967e9767e52e5e4e62435e14571de5c25fe33e16feebbefd9445e4bbf7c09775ea7c5e34573f11e39f3a03d83b6680ade85767810703c9f350e7b48bd7d8494cc3eef13c74e767e9fb4c59446af8cd39b65ce9014acb3f234a924eb88621058314e5323d30c53935b7ebc7230700fc1262edb8929cebcdbd0075fc58e3606f8a944cdbf49cee1dc589f9cf7b0bc962224f95aae1daff0bbfc49d7b71fb14d7556165c0c95d8dbb98a8569af733b7d98ec389d03eb6ba9d7729fbc1dca3b75224c6fe22cfe3ea21ca27897ad1bf83f1e942eeef880abf4e3b314b187e3a1c25c292f621a8f630acf9a94313767f7b59a622a637afa88c52c91f9abf24dc97fb10db9ad2a3e02ee86df3bba162fdb5f18854a890ac59fd19e49558ff336a6ca2940ac68fdecd98c5f14a972a2762832d6f160cd7cca9c0df05cc44849d8fb333dfddf0b72f837c13935086b48256848cf7aa7c3b7437858ebf6f5b793f82d5970f2d5af03ca9f5edef2bc0c49d3b3a81d18222adbe55b7c1cd089396a447004e9f71c9721d9a461ccc8ae36539a2e85d3dc2a249c6cd3be14d013d6d339e2c5d02c25b9b6deaf287f75a3b6c1039cc16227e71cb37abe762c2ab0c8d7ec0fee0bb378d1eca64235ef27c4da39735d3846ebeb560c8ab87c0eb3d53f1b1300d35e36454e2fa8fb0a101dd8ec036d9735374de92f3b04225ec75750e7047c1930e0b86ee532e4e38fa13f6a16814e43f9d04dc3182fd81dfb5bdb224dbbdb8f28af597790cfa7420eecb5a75097c2e59d99953e466d979e7742fb1a3149cb3403c7b2c7f44ad2176f0db7d158c2e4c6dd6484b242788df6e1d8b2c4cee7b404455547b16147be4e066a67be4669b09790f12143a4bfbcb94474aa036959775b8dd563b6ed9cccfe3a800aeb93f28407f2e3d57df10c8ef342b5ae97cf1bb266eb00500cbfaa34be16f64de2c60358337f1ccabfbfd76e5f62620526bd749d30095087175e6a95240583901d06878e58c9f28c5e5bec09616294624602aabdde8507b843febb75b12c1bd24b7d660282cb475c356b1cc2be35bf297bf7d10f51fc3cabf198713e0ce1cbbefd6989e02e315839d682b6e141c65ba94554598b9950b87e47dcdfcdc1ade2591ddfece770b161519ff3546bf249ede03766473bf339a149b8a8c7aceb953e01651281b0988268607a052183b26f32f09f35417c4aa328ed351b5d23dfcf4169afa1b500429fb441c34ebb8062e191cce05210058cf0cf81c073c06f38ff082c50cd04b087e0a9dc5492eb59b1823730af447288fc32b7492b56cd13fb118f5f7a33e855267e7cd8366fcdeee28e007c4e6ed622017e40504819a6a5ffa27bc6b258c4af29110bea81af96d28225d353b298f058e10295f5f3928615881470baeb9263a640649052fc45f654e5c260bc5e8355a2c758f0b4d7096e8538db414f882a217fea1af7679b4a24cb160e89ffa2ee129c6f86c318072754b90ca0682a293d2d62cb65457b0906925244f06363e858da28b673f46c5571fac37de6f48d73d49b4687dedafccced79bf279c56b5674858b967ac82d6a4ece90b147769be966528af92c188934d72b03db8c614ec48ae2e28aef7e5c28125de4c4ed519f223fb25a3226a9ba40272440899c9a83df0a8c7c56ad2d90810ff20903c195f56d6a5803c546b65afa459c004d88219dac14dbf0688fc0ce79215286e39b566ccd771575decd72441eb4a314d058d7391a6572c5a32e31d15c1ca58008a139923d3f03bf86efb8766c3f607756fde88a096db755036983fe6cbc756d6fdf68e5f9106df0900e8981688b86de05cf827823b7a7192af869f73676cfedca9b880233f9ba1ca9abed202298b68b996a939c9b5e9672da959b2b58c662e594e58535b5a8ed63af234a9d3b28a7480a801000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "complete_factorization": [
+        [
+          2,
+          6156
+        ],
+        [
+          257,
+          448
+        ],
+        [
+          641,
+          142
+        ],
+        [
+          769,
+          122
+        ],
+        [
+          1153,
+          66
+        ],
+        [
+          1409,
+          59
+        ],
+        [
+          2689,
+          22
+        ],
+        [
+          3329,
+          14
+        ],
+        [
+          4481,
+          6
+        ],
+        [
+          4993,
+          9
+        ],
+        [
+          6529,
+          3
+        ],
+        [
+          7297,
+          14
+        ],
+        [
+          9857,
+          3
+        ],
+        [
+          10753,
+          3
+        ],
+        [
+          14593,
+          8
+        ],
+        [
+          30977,
+          3
+        ],
+        [
+          31873,
+          3
+        ],
+        [
+          40193,
+          3
+        ],
+        [
+          158209,
+          3
+        ],
+        [
+          528001,
+          3
+        ],
+        [
+          932609,
+          3
+        ],
+        [
+          944897,
+          3
+        ],
+        [
+          1518337,
+          3
+        ],
+        [
+          6166273,
+          3
+        ],
+        [
+          6529153,
+          3
+        ],
+        [
+          6725249,
+          3
+        ],
+        [
+          24645377,
+          3
+        ],
+        [
+          26949761,
+          3
+        ],
+        [
+          27744257,
+          3
+        ],
+        [
+          30858241,
+          3
+        ],
+        [
+          53044993,
+          3
+        ],
+        [
+          65456257,
+          8
+        ],
+        [
+          77796353,
+          3
+        ],
+        [
+          118593281,
+          3
+        ],
+        [
+          181312129,
+          3
+        ],
+        [
+          323909633,
+          3
+        ],
+        [
+          886538753,
+          3
+        ],
+        [
+          2144280833,
+          3
+        ],
+        [
+          15064776193,
+          3
+        ],
+        [
+          25692456577,
+          3
+        ],
+        [
+          25971027073,
+          3
+        ],
+        [
+          36207211393,
+          3
+        ],
+        [
+          36819670273,
+          3
+        ],
+        [
+          40605716353,
+          3
+        ],
+        [
+          47463490433,
+          3
+        ],
+        [
+          209821185281,
+          3
+        ],
+        [
+          251169086977,
+          3
+        ],
+        [
+          973021549697,
+          3
+        ]
+      ],
+      "matrix_determinants_match": true,
+      "stdlib_bareiss_match": false,
+      "candidate_primes_are_exact_triple_primes": true,
+      "fields": [
+        {
+          "p": 257,
+          "n": 128,
+          "generator": 9,
+          "maximum_fiber": 16,
+          "multiplicity_histogram": {
+            "16": 2
+          },
+          "triple_gcd_degree": 28,
+          "triple_mass_Y": 448,
+          "eliminant_valuation": 448,
+          "balanced_energy": 65536,
+          "child_energy": 69696,
+          "parent_energy": 1048704,
+          "T": 64512,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "e9d6e87d2ca4214d7c3d23c54d2cdf435ac828a4822ceee92a5571f9eb8d5050"
+        },
+        {
+          "p": 641,
+          "n": 128,
+          "generator": 243,
+          "maximum_fiber": 7,
+          "multiplicity_histogram": {
+            "6": 3,
+            "7": 2
+          },
+          "triple_gcd_degree": 22,
+          "triple_mass_Y": 142,
+          "eliminant_valuation": 142,
+          "balanced_energy": 26368,
+          "child_energy": 38208,
+          "parent_energy": 440448,
+          "T": 25728,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "259c302309a61a40fc8a83d8a2fd6fd0905830d76368f33c9c8e4acd8446899f"
+        },
+        {
+          "p": 769,
+          "n": 128,
+          "generator": 761,
+          "maximum_fiber": 8,
+          "multiplicity_histogram": {
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "8": 1
+          },
+          "triple_gcd_degree": 20,
+          "triple_mass_Y": 122,
+          "eliminant_valuation": 122,
+          "balanced_energy": 23808,
+          "child_energy": 30528,
+          "parent_energy": 368256,
+          "T": 20544,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "25769dc63391612da31e261c3a3587cad6d50044bb0177a7984f4c4aadfc1d70"
+        },
+        {
+          "p": 1153,
+          "n": 128,
+          "generator": 1096,
+          "maximum_fiber": 6,
+          "multiplicity_histogram": {
+            "2": 3,
+            "3": 1,
+            "4": 3,
+            "5": 1,
+            "6": 1
+          },
+          "triple_gcd_degree": 14,
+          "triple_mass_Y": 66,
+          "eliminant_valuation": 66,
+          "balanced_energy": 16640,
+          "child_energy": 24384,
+          "parent_energy": 271488,
+          "T": 15360,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "dad1bec72dd359eff9c2ccc1f4ef852f9cc2470414fb671590af317f0b0e9d62"
+        },
+        {
+          "p": 1409,
+          "n": 128,
+          "generator": 1022,
+          "maximum_fiber": 6,
+          "multiplicity_histogram": {
+            "1": 1,
+            "2": 3,
+            "3": 1,
+            "4": 4,
+            "6": 1
+          },
+          "triple_gcd_degree": 13,
+          "triple_mass_Y": 59,
+          "eliminant_valuation": 59,
+          "balanced_energy": 15616,
+          "child_energy": 20544,
+          "parent_energy": 242304,
+          "T": 13440,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "08e93ebcc434e184c501d704a5004e7e8dc49b594e9a4ab3bf152af7d12ce2be"
+        },
+        {
+          "p": 2689,
+          "n": 128,
+          "generator": 491,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 8,
+            "2": 5,
+            "3": 2,
+            "4": 2
+          },
+          "triple_gcd_degree": 6,
+          "triple_mass_Y": 22,
+          "eliminant_valuation": 22,
+          "balanced_energy": 9984,
+          "child_energy": 18240,
+          "parent_energy": 144000,
+          "T": 5952,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "0640a140919ee9963209da483aa703958a41c46cbee5253ae3960e9b0031fd11"
+        },
+        {
+          "p": 3329,
+          "n": 128,
+          "generator": 1915,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 4,
+            "2": 9,
+            "3": 2,
+            "4": 1
+          },
+          "triple_gcd_degree": 4,
+          "triple_mass_Y": 14,
+          "eliminant_valuation": 14,
+          "balanced_energy": 9472,
+          "child_energy": 16704,
+          "parent_energy": 120960,
+          "T": 3840,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "fb7e004d0d99072fa552cc1300ca1943e989638fe0f73c81dff76538b86f4775"
+        },
+        {
+          "p": 4481,
+          "n": 128,
+          "generator": 1937,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 14,
+            "2": 6,
+            "3": 2
+          },
+          "triple_gcd_degree": 2,
+          "triple_mass_Y": 6,
+          "eliminant_valuation": 6,
+          "balanced_energy": 7168,
+          "child_energy": 12096,
+          "parent_energy": 93312,
+          "T": 3264,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "19882678c6df20e4ee2de7619c3ab5eaafab4dd1c989caecf15b8ff51cbaa986"
+        },
+        {
+          "p": 4993,
+          "n": 128,
+          "generator": 2201,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 13,
+            "2": 5,
+            "3": 3
+          },
+          "triple_gcd_degree": 3,
+          "triple_mass_Y": 9,
+          "eliminant_valuation": 9,
+          "balanced_energy": 7680,
+          "child_energy": 13632,
+          "parent_energy": 96384,
+          "T": 2880,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "6543de8ff3bc623dd5d5dcad46a0d0818401bf4f44f883f90fe0378b66954b11"
+        },
+        {
+          "p": 6529,
+          "n": 128,
+          "generator": 2338,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 6144,
+          "child_energy": 12096,
+          "parent_energy": 90240,
+          "T": 3648,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "63766261a9f20e427e3922a8be6e5b456e84ced4fc78490403a76eb2b6022190"
+        },
+        {
+          "p": 7297,
+          "n": 128,
+          "generator": 383,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 22,
+            "3": 2,
+            "4": 1
+          },
+          "triple_gcd_degree": 4,
+          "triple_mass_Y": 14,
+          "eliminant_valuation": 14,
+          "balanced_energy": 7168,
+          "child_energy": 13632,
+          "parent_energy": 88704,
+          "T": 2304,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "a03074254c8aee9693ebb7a17ab7e9ac83c233dab6e65b2cf661340c6570b76b"
+        },
+        {
+          "p": 9857,
+          "n": 128,
+          "generator": 3864,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 6144,
+          "child_energy": 12864,
+          "parent_energy": 71808,
+          "T": 1152,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "72d3f18c15d4b3f9e722d22968021ecb050b1cef674c0262d9da74ec5ab238b0"
+        },
+        {
+          "p": 10753,
+          "n": 128,
+          "generator": 7391,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 19,
+            "2": 5,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 6144,
+          "child_energy": 13632,
+          "parent_energy": 64128,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "588321c37cb54cc1936a4cd9f4ff799452f643bbe61754d93b14edf945f0180a"
+        },
+        {
+          "p": 14593,
+          "n": 128,
+          "generator": 8285,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 20,
+            "2": 4,
+            "4": 1
+          },
+          "triple_gcd_degree": 2,
+          "triple_mass_Y": 8,
+          "eliminant_valuation": 8,
+          "balanced_energy": 6656,
+          "child_energy": 12096,
+          "parent_energy": 70272,
+          "T": 768,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "fed9555ffa967b8877e6312e1de474a82e17ac53c7029c255b176d62c280fbdb"
+        },
+        {
+          "p": 30977,
+          "n": 128,
+          "generator": 4247,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "1ce5fe1ba44927080acbbe5cbefcf22158b4a18df5ab1739e48f953d323097b5"
+        },
+        {
+          "p": 31873,
+          "n": 128,
+          "generator": 14967,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 23,
+            "2": 3,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5632,
+          "child_energy": 12096,
+          "parent_energy": 67200,
+          "T": 1152,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "0e5ddbcff16f42d07e1e3a2ac1beb0ecf3dae6390290fcabb28f76cd1206526d"
+        },
+        {
+          "p": 40193,
+          "n": 128,
+          "generator": 5334,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "e4e8ab117723efd40b2e87308e25b699e984bd0e2c8f215f8b7435387aa74b3f"
+        },
+        {
+          "p": 158209,
+          "n": 128,
+          "generator": 62619,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 57984,
+          "T": 384,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "22dc2605a24423a13001fa9d7d74f802b75d1c24626a882e075f33b49ef5f1ca"
+        },
+        {
+          "p": 528001,
+          "n": 128,
+          "generator": 497705,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "906431b8f96578e4e59883167bb19808a2450bbfb745993525bf4f14deeed4f4"
+        },
+        {
+          "p": 932609,
+          "n": 128,
+          "generator": 431323,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "8a28db492c3c404d747177a1f92b7f61675b6e636538ec3daa5a3e4d77ddddad"
+        },
+        {
+          "p": 944897,
+          "n": 128,
+          "generator": 348636,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "e84eedca34aafa5dc2325f700392b5d9d7d5491b4c318468cdd4665b93e8c1c9"
+        },
+        {
+          "p": 1518337,
+          "n": 128,
+          "generator": 1161347,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 29,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 4864,
+          "child_energy": 12096,
+          "parent_energy": 53376,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "fc781e8d87a5a1d882b89243f3bd6450f3dea7783bd6643060dfc3e0ba4f440c"
+        },
+        {
+          "p": 6166273,
+          "n": 128,
+          "generator": 1966956,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "9ad93ebf0b7a9cb0743af73e36ca61121d328f5c403e7f62aa6e18c30287be4a"
+        },
+        {
+          "p": 6529153,
+          "n": 128,
+          "generator": 677143,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "a3b2d4881dd242666f873fc3de85621f9c96baa61c51d7f0dbfba945f4f30cfe"
+        },
+        {
+          "p": 6725249,
+          "n": 128,
+          "generator": 2511079,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "c565f59d7b5d2c8ae83eb10d75bc56dc668c7345a171468a429d60fd7c6a5303"
+        },
+        {
+          "p": 24645377,
+          "n": 128,
+          "generator": 16801460,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "412a8d973293e1f1afdc46a0a33cce012b12412ef269c6dd5c364d37cd50fc43"
+        },
+        {
+          "p": 26949761,
+          "n": 128,
+          "generator": 13788393,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "74f4865aab003bf6a37389db73829b3aae2686817d26a525962c9593329005b5"
+        },
+        {
+          "p": 27744257,
+          "n": 128,
+          "generator": 5927705,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 29,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 4864,
+          "child_energy": 12096,
+          "parent_energy": 53376,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "6006edf5d57524decc48953d1f5c33fb23aa1d41d70d4115a863ffbac272949d"
+        },
+        {
+          "p": 30858241,
+          "n": 128,
+          "generator": 7665925,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "6f3430e2c1cfb5ee64b3cf2eb44c2abfc174ab462a80392ab576269ac31936ff"
+        },
+        {
+          "p": 53044993,
+          "n": 128,
+          "generator": 49928432,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "db544af0f3417d04d54e2c8fa8027e6df62d9939e27f504b330c110a72d9e0c4"
+        },
+        {
+          "p": 65456257,
+          "n": 128,
+          "generator": 30667130,
+          "maximum_fiber": 4,
+          "multiplicity_histogram": {
+            "1": 24,
+            "2": 2,
+            "4": 1
+          },
+          "triple_gcd_degree": 2,
+          "triple_mass_Y": 8,
+          "eliminant_valuation": 8,
+          "balanced_energy": 6144,
+          "child_energy": 13632,
+          "parent_energy": 76416,
+          "T": 1536,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "b40f4ff211be071ab0639992bf6507aa5c8496ddc08f771b27f48be9f7a5423c"
+        },
+        {
+          "p": 77796353,
+          "n": 128,
+          "generator": 7906121,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": true,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "8d1759d06e26c5ae8fbb24c47e7e0a3bd3053aecbd4b6361f985e6cbbb2d68fc",
+          "largest_fiber_witness": {
+            "x": 725440,
+            "representations": [
+              [
+                65398459,
+                13123334
+              ],
+              [
+                49300312,
+                29221481
+              ],
+              [
+                75076016,
+                3445777
+              ]
+            ]
+          }
+        },
+        {
+          "p": 118593281,
+          "n": 128,
+          "generator": 46738379,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 57984,
+          "T": 384,
+          "quartic_window": true,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "cf7c79ce82297419194b23ab1f55bcd8c6d7c31273cfbe7f8f0a6dc998181154",
+          "largest_fiber_witness": {
+            "x": 17029,
+            "representations": [
+              [
+                50635584,
+                67974726
+              ],
+              [
+                80348769,
+                38261541
+              ],
+              [
+                25183388,
+                93426922
+              ]
+            ]
+          }
+        },
+        {
+          "p": 181312129,
+          "n": 128,
+          "generator": 173500955,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": true,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "be479caafe2107b24cf289451c84211eea55fba3a6354aa4ec2edb938d67d51a",
+          "largest_fiber_witness": {
+            "x": 2617445,
+            "representations": [
+              [
+                166875179,
+                17054395
+              ],
+              [
+                87281359,
+                96648215
+              ],
+              [
+                35562393,
+                148367181
+              ]
+            ]
+          }
+        },
+        {
+          "p": 323909633,
+          "n": 128,
+          "generator": 100768314,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "62accb6e075849e49965684a2775271624e2a961aabc46e9b5d5eab4de25f1ba"
+        },
+        {
+          "p": 886538753,
+          "n": 128,
+          "generator": 20962072,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "ace252ec13c62e033caefb5e1a34b29ab35c7ac073b30fe5fd1edeecb8fa4584"
+        },
+        {
+          "p": 2144280833,
+          "n": 128,
+          "generator": 244854582,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "df092e9c50b6e09336d2821654e13be0f4747e83ee8a0a6c289a1ab11ac3605c"
+        },
+        {
+          "p": 15064776193,
+          "n": 128,
+          "generator": 11995951248,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "2bd26b4daefdbfb9cc4542a7954c3a9e5bfb3e188e69a638840434390b172953"
+        },
+        {
+          "p": 25692456577,
+          "n": 128,
+          "generator": 13742829189,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "303e9a26014c54d073c6b173c4a28aa43ca4ddb2aafa010960f3cdfac147d8cd"
+        },
+        {
+          "p": 25971027073,
+          "n": 128,
+          "generator": 15901716431,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "2eba870eb4491e1acbdd59e86ab7ebcb414ab92ea0f15d60a5e4be1e6343da4e"
+        },
+        {
+          "p": 36207211393,
+          "n": 128,
+          "generator": 22195135210,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "b597b71ce20c2ec8c29faefc4fa009fd135e4ab62b637abfe6b3ba44a24d8c54"
+        },
+        {
+          "p": 36819670273,
+          "n": 128,
+          "generator": 12676287184,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "37d1551a375caa2a43cfb34580ed8a39c8445e6d2ad65d1b95cd9c070f28b797"
+        },
+        {
+          "p": 40605716353,
+          "n": 128,
+          "generator": 1132149188,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "31d8c46f980a95e827abaa4acafd9e82ebf5136f4cde6d784e24556b59049d10"
+        },
+        {
+          "p": 47463490433,
+          "n": 128,
+          "generator": 14178466170,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "21ed5ca1f92661b8e66c05617616a017b3a8e86618788ad460e0886f7ee5d46a"
+        },
+        {
+          "p": 209821185281,
+          "n": 128,
+          "generator": 63164160477,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "d4d3bb6125d5e74b3288b75993a367c531263169b9cf69f70dee6f5ee8d7b7ea"
+        },
+        {
+          "p": 251169086977,
+          "n": 128,
+          "generator": 241233700843,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 54912,
+          "T": 0,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "39275c13b2c988a2a1b10d374ac71952f2cf2b3da7c4a353eeea804fbb0b6630"
+        },
+        {
+          "p": 973021549697,
+          "n": 128,
+          "generator": 884763739182,
+          "maximum_fiber": 3,
+          "multiplicity_histogram": {
+            "1": 27,
+            "2": 1,
+            "3": 1
+          },
+          "triple_gcd_degree": 1,
+          "triple_mass_Y": 3,
+          "eliminant_valuation": 3,
+          "balanced_energy": 5120,
+          "child_energy": 12096,
+          "parent_energy": 59520,
+          "T": 576,
+          "quartic_window": false,
+          "literal_pair_checks": true,
+          "literal_pair_counts": 20480,
+          "roots_sha256": "91d88fea6e27fec5839352254418d5fc01fbc20b96f15aaabed67fc359ddb6bf"
+        }
+      ],
+      "quartic_triple_primes": [
+        77796353,
+        118593281,
+        181312129
+      ],
+      "seconds": 10.926131291999809
+    }
+  ],
+  "total_split_prime_checks": 70,
+  "literal_pair_counts": 1056320,
+  "no_lean_process_started": true,
+  "all_passed": true
+}

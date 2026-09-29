@@ -1,0 +1,69 @@
+{
+  "observed_at_utc": "2026-09-06T07:50:51.926593+00:00",
+  "classification": "progress: compatible norm budget, absolute prime-exception count, zero-diagonal witness, and exact affine recovery comparison",
+  "previous_turn_classification": "progress: improved W bound and checked exact conditional X criterion",
+  "goal_achieved": false,
+  "weighted_budget": "sum_(p=1 mod n) X_p log p <= (M/2) log([8n^2(n-1)^2-2n^4]/M)",
+  "quartic_absolute_exception_count": "O_c(n^(63/31)/log n) for X_p>n^(61/31)",
+  "uniform_X_bound_proved": false,
+  "energy_exponent": "49/20 unchanged",
+  "period_exponent": "71/72 unchanged",
+  "finite_scope": {
+    "complete_conductors": [
+      4,
+      8,
+      16
+    ],
+    "exceptional_counts": [
+      1,
+      2,
+      18
+    ],
+    "independent_determinants": 446,
+    "extra_split_primes": 101,
+    "reflection_center_tuples": 2266,
+    "zero_diagonal_witness_p": 353,
+    "zero_diagonal_witness_in_quartic_window": false
+  },
+  "review_scope": "Separate-agent check of coarse norm mechanism; root completed stronger AGM constant, source applications, and exact checks after agents reached usage limit.",
+  "parallel_lanes": "Main findings returned; all three subsequently failed at account usage limit.",
+  "no_lean_build": true,
+  "no_process_changes": true,
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": 18,
+  "local_links_checked": 18,
+  "artifacts_sha256": {
+    "experiments/parallel42_classical_affine.py": "fc10b3d196acbee0234b873a48a3b24cf3f588c9477ae75a71e3ebc30bc60ccd",
+    "experiments/parallel42_final_audit.py": "20c3e55ab48d7aec6e6af48f0fc51cc8e81b6ac3774095c5aa79f97951d2234a",
+    "experiments/parallel42_norm_budget.py": "7c6f08be5e77c50fe40779a50ac572936d59407a8383c4c9da51b6b98d808143",
+    "research/parallel42-classical-affine-recovery-2026-09-06.md": "e9e1d8d26c1a1a0a775c522685df8e542a764d886e81c6a842cce905d9486fbc",
+    "research/parallel42-excess-equations-2026-09-06.md": "9b7f908e5d507aff1104ca60901cf10dda8678335d2c2f1bcc1093e543be2bdb",
+    "research/parallel42-excess-source-audit-2026-09-06.md": "6c381654e8e3a53b3e660a362bfd3763c77d8ed3a2cafc5795ea19f15b5e0aa7",
+    "research/parallel42-independent-review-2026-09-06.md": "a57261538396672bc63f44d8d14d6e2826eff562221db444bb883d10b88c497a",
+    "research/parallel42-pass-summary-2026-09-06.md": "ffbc40a33437cb58c85a0cd32046bc4d42c3bf5c6dc840f4216b5b869620f34f",
+    "results/parallel42_classical_affine_2026_09_06.json": "17cb95827684ab676006b2524aed16e4424c9a26a73028ad26fa520c9325c614",
+    "results/parallel42_norm_budget_2026_09_06.json": "eab779d46697787e79784145c0076e4f44ea8748eb974c2765ef7a394a2dbe8b",
+    "results/parallel42_prior_state_2026_09_06.json": "4d1df9c08ab47b3f21ab911833f1f1b5a91895f243bf0430091954053eeb9787",
+    "results/parallel42_source_scope_2026_09_06.json": "c8130ccd63cc27151a91bfef20bb7dd0026446fe7d86e2dcc7d2e1547ff7211a"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "dbfb2c3c5b4c31bc47c44cf31b45ddc96b97c8508584876b2899e18e16bd5f48",
+      "after": "52dc8bdc31b737b543534f259c30701b8e15a52872a967be00c51c46d8d02516"
+    },
+    "research/frontier.md": {
+      "before": "c077c0b84042a4327f94539aab57dd4c6235bfd128bce3b6acdeb886666eb534",
+      "after": "f6a7f6b5fac981b731ee522adef307d75b1dd20cee8f53b976a4ec15b906215c"
+    },
+    "research/source-audit.md": {
+      "before": "b41e980300a5593f64107fad4aad4417c40d562a45d486bf1340c4c93715fa63",
+      "after": "0ab7435f328d0886cb7a383a9f0208094c570be7551fc98b7b6935cd77a48297"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "c912475343361dcc4c3d66b1758114fa2aea4d83c26c7b2b54ce325c72b6d189",
+      "after": "bc24a36dcef4c16ed9d1a60d4de3c4922dbb5a2eec6665794b29450a08f2ba7e"
+    }
+  },
+  "source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "next_action": "Control individual exceptional primes or exploit additional structure of actual joint incidence and difference levels; retain full original goal."
+}

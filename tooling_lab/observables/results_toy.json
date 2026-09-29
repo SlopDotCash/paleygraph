@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "suite": "toy",
+  "status": "finite exact diagnostic; no asymptotic bound or global novelty claim",
+  "script_sha256": "338e168e4f5ff93d954bfc2f334bb5aa2a6791a034fa6e86996925ebccfb5667",
+  "excluded_predictors": {
+    "m6": "target itself; positive leakage control only",
+    "t6_excluded": "equivalent target after known lower and boundary terms"
+  },
+  "cases": [
+    {
+      "p": 13,
+      "n": 6,
+      "sampling": "all normalized sets",
+      "seed": 20260905,
+      "records": 330,
+      "affine_orbits_are_not_uniformly_weighted": true,
+      "m6_range": [
+        1782,
+        46662
+      ],
+      "groups": {
+        "M2": {
+          "feature_names": [
+            "m2"
+          ],
+          "fibers": 1,
+          "ambiguous_fibers": 1,
+          "records_in_ambiguous_fibers": 330,
+          "total_record_weighted_range": 14810400,
+          "max_range": 44880,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 1,
+          "witness": [
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "m2": 42,
+              "m4": 246,
+              "m6": 1782,
+              "b2": 22,
+              "b4": 166,
+              "energy": 146,
+              "quartic_deck": [
+                -7,
+                -3,
+                -3,
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5
+              ],
+              "t6_excluded": 3
+            },
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                10
+              ],
+              "m2": 42,
+              "m4": 1302,
+              "m6": 46662,
+              "b2": 6,
+              "b4": 6,
+              "energy": 114,
+              "quartic_deck": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "t6_excluded": -5
+            }
+          ]
+        },
+        "M2_M4": {
+          "feature_names": [
+            "m2",
+            "m4"
+          ],
+          "fibers": 7,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_boundary": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4"
+          ],
+          "fibers": 7,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_energy": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "energy"
+          ],
+          "fibers": 11,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_quartic_deck": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "quartic_deck"
+          ],
+          "fibers": 12,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "all_admissible": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "energy",
+            "quartic_deck"
+          ],
+          "fibers": 14,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "leakage_control_M6": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "m6"
+          ],
+          "fibers": 7,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 42120,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        }
+      },
+      "checks": {
+        "sixth_identity": 330,
+        "second_identity": 330,
+        "scalar_witness_replays": 2,
+        "affine_replays": 14,
+        "leakage_control": true,
+        "refinement_monotonicity": true
+      },
+      "elapsed_seconds": 0.006
+    },
+    {
+      "p": 17,
+      "n": 6,
+      "sampling": "all normalized sets",
+      "seed": 20260905,
+      "records": 1365,
+      "affine_orbits_are_not_uniformly_weighted": true,
+      "m6_range": [
+        2166,
+        48246
+      ],
+      "groups": {
+        "M2": {
+          "feature_names": [
+            "m2"
+          ],
+          "fibers": 1,
+          "ambiguous_fibers": 1,
+          "records_in_ambiguous_fibers": 1365,
+          "total_record_weighted_range": 62899200,
+          "max_range": 46080,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": [
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                14
+              ],
+              "m2": 66,
+              "m4": 342,
+              "m6": 2166,
+              "b2": 22,
+              "b4": 166,
+              "energy": 106,
+              "quartic_deck": [
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "t6_excluded": 11
+            },
+            {
+              "C": [
+                0,
+                1,
+                2,
+                4,
+                10,
+                13
+              ],
+              "m2": 66,
+              "m4": 1494,
+              "m6": 48246,
+              "b2": 22,
+              "b4": 166,
+              "energy": 98,
+              "quartic_deck": [
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "t6_excluded": -5
+            }
+          ]
+        },
+        "M2_M4": {
+          "feature_names": [
+            "m2",
+            "m4"
+          ],
+          "fibers": 13,
+          "ambiguous_fibers": 1,
+          "records_in_ambiguous_fibers": 150,
+          "total_record_weighted_range": 648000,
+          "max_range": 4320,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": [
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                7,
+                8
+              ],
+              "m2": 66,
+              "m4": 822,
+              "m6": 12486,
+              "b2": 6,
+              "b4": 6,
+              "energy": 106,
+              "quartic_deck": [
+                -7,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "t6_excluded": -5
+            },
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6
+              ],
+              "m2": 66,
+              "m4": 822,
+              "m6": 16806,
+              "b2": 38,
+              "b4": 710,
+              "energy": 130,
+              "quartic_deck": [
+                -7,
+                -3,
+                -3,
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "t6_excluded": 3
+            }
+          ]
+        },
+        "plus_boundary": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4"
+          ],
+          "fibers": 14,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_energy": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "energy"
+          ],
+          "fibers": 28,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_quartic_deck": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "quartic_deck"
+          ],
+          "fibers": 31,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "all_admissible": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "energy",
+            "quartic_deck"
+          ],
+          "fibers": 39,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "leakage_control_M6": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "m6"
+          ],
+          "fibers": 14,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 55080,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        }
+      },
+      "checks": {
+        "sixth_identity": 1365,
+        "second_identity": 1365,
+        "scalar_witness_replays": 4,
+        "affine_replays": 14,
+        "leakage_control": true,
+        "refinement_monotonicity": true
+      },
+      "elapsed_seconds": 0.198
+    },
+    {
+      "p": 29,
+      "n": 6,
+      "sampling": "all normalized sets",
+      "seed": 20260905,
+      "records": 17550,
+      "affine_orbits_are_not_uniformly_weighted": true,
+      "m6_range": [
+        12198,
+        99318
+      ],
+      "groups": {
+        "M2": {
+          "feature_names": [
+            "m2"
+          ],
+          "fibers": 1,
+          "ambiguous_fibers": 1,
+          "records_in_ambiguous_fibers": 17550,
+          "total_record_weighted_range": 1528956000,
+          "max_range": 87120,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 1,
+          "witness": [
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                7,
+                25
+              ],
+              "m2": 138,
+              "m4": 1110,
+              "m6": 12198,
+              "b2": 38,
+              "b4": 326,
+              "energy": 98,
+              "quartic_deck": [
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5
+              ],
+              "t6_excluded": 11
+            },
+            {
+              "C": [
+                0,
+                1,
+                2,
+                4,
+                20,
+                23
+              ],
+              "m2": 138,
+              "m4": 3126,
+              "m6": 99318,
+              "b2": 22,
+              "b4": 166,
+              "energy": 82,
+              "quartic_deck": [
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                9,
+                9
+              ],
+              "t6_excluded": -5
+            }
+          ]
+        },
+        "M2_M4": {
+          "feature_names": [
+            "m2",
+            "m4"
+          ],
+          "fibers": 40,
+          "ambiguous_fibers": 19,
+          "records_in_ambiguous_fibers": 12075,
+          "total_record_weighted_range": 64886400,
+          "max_range": 17280,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 0,
+          "witness": [
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                25
+              ],
+              "m2": 138,
+              "m4": 1878,
+              "m6": 33318,
+              "b2": 38,
+              "b4": 710,
+              "energy": 102,
+              "quartic_deck": [
+                -7,
+                -7,
+                -7,
+                -3,
+                -3,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "t6_excluded": -5
+            },
+            {
+              "C": [
+                0,
+                1,
+                2,
+                3,
+                11,
+                14
+              ],
+              "m2": 138,
+              "m4": 1878,
+              "m6": 50598,
+              "b2": 38,
+              "b4": 326,
+              "energy": 90,
+              "quartic_deck": [
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -3,
+                -3,
+                1,
+                5,
+                5,
+                5,
+                5,
+                9,
+                9,
+                9
+              ],
+              "t6_excluded": 11
+            }
+          ]
+        },
+        "plus_boundary": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4"
+          ],
+          "fibers": 64,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_energy": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "energy"
+          ],
+          "fibers": 244,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "plus_quartic_deck": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "quartic_deck"
+          ],
+          "fibers": 320,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "all_admissible": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "b2",
+            "b4",
+            "energy",
+            "quartic_deck"
+          ],
+          "fibers": 512,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        },
+        "leakage_control_M6": {
+          "feature_names": [
+            "m2",
+            "m4",
+            "m6"
+          ],
+          "fibers": 64,
+          "ambiguous_fibers": 0,
+          "records_in_ambiguous_fibers": 0,
+          "total_record_weighted_range": 0,
+          "max_range": 0,
+          "threshold": 93960,
+          "fibers_straddling_threshold": 0,
+          "witness": null
+        }
+      },
+      "checks": {
+        "sixth_identity": 17550,
+        "second_identity": 17550,
+        "scalar_witness_replays": 4,
+        "affine_replays": 14,
+        "leakage_control": true,
+        "refinement_monotonicity": true
+      },
+      "elapsed_seconds": 1.675
+    }
+  ]
+}

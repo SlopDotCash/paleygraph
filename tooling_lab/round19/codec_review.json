@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "scope": "Separate rational polynomial inversion and full multiplication matrices check every membership result; calibration and one-row fallback are independently reconstructed. No producer import. Review is deliberately more expensive than the runtime codec.",
+  "cases": [
+    {
+      "name": "small_complete",
+      "mode": "field_projection",
+      "relation_support": 2,
+      "coefficient_products_per_reencoding": 16,
+      "groups": {
+        "positives": {
+          "records": 256,
+          "accepted": 256
+        },
+        "probes": {
+          "records": 90,
+          "accepted": 5
+        }
+      }
+    },
+    {
+      "name": "medium_walk",
+      "mode": "field_projection",
+      "relation_support": 2,
+      "coefficient_products_per_reencoding": 32,
+      "groups": {
+        "positives": {
+          "records": 65,
+          "accepted": 65
+        },
+        "probes": {
+          "records": 90,
+          "accepted": 1
+        }
+      }
+    },
+    {
+      "name": "known_short_walk",
+      "mode": "field_projection",
+      "relation_support": 2,
+      "coefficient_products_per_reencoding": 64,
+      "groups": {
+        "positives": {
+          "records": 65,
+          "accepted": 65
+        },
+        "probes": {
+          "records": 90,
+          "accepted": 1
+        }
+      }
+    },
+    {
+      "name": "known_centering_walk",
+      "mode": "field_projection",
+      "relation_support": 2,
+      "coefficient_products_per_reencoding": 64,
+      "groups": {
+        "positives": {
+          "records": 65,
+          "accepted": 65
+        },
+        "probes": {
+          "records": 90,
+          "accepted": 1
+        }
+      }
+    },
+    {
+      "name": "quartic_window_walk",
+      "mode": "field_projection",
+      "relation_support": 9,
+      "coefficient_products_per_reencoding": 576,
+      "groups": {
+        "positives": {
+          "records": 33,
+          "accepted": 33
+        },
+        "probes": {
+          "records": 90,
+          "accepted": 1
+        }
+      }
+    }
+  ],
+  "small_cube_words_checked": 6561,
+  "small_actual_words": 257,
+  "barrier_pairs_checked": 5,
+  "degeneracy_controls": [
+    {
+      "name": "scalar_p",
+      "mode": "field_projection",
+      "records_checked": 68,
+      "accepted": 17,
+      "p_divides_norm_cofactor": true
+    },
+    {
+      "name": "squared_relation",
+      "mode": "single_row_fallback",
+      "records_checked": 68,
+      "accepted": 17,
+      "p_divides_norm_cofactor": true
+    },
+    {
+      "name": "scalar_p_squared",
+      "mode": "single_row_fallback",
+      "records_checked": 68,
+      "accepted": 17,
+      "p_divides_norm_cofactor": true
+    }
+  ],
+  "malformed_controls_checked": 3,
+  "corrupt_artifacts_rejected": [
+    "certificate_beta",
+    "certificate_inverse_beta",
+    "certificate_calibration_digits",
+    "certificate_relation",
+    "certificate_digit_bound",
+    "certificate_relation_support",
+    "fallback_projection_weights",
+    "fallback_projection_modulus",
+    "fallback_k",
+    "output_extracted_scalar",
+    "output_coefficient_products",
+    "output_status"
+  ],
+  "source_sha256": {
+    "codec_review.py": "642cafcaabf3e1899be48f23a928e142510ad65eaf4f99341ba11e02a6cb196e",
+    "../round17/carry_review.py": "67038d0cc14ac2c8bd39a759cd62936b08d23269b83e2addce0b7f1790843633",
+    "../round17/realizability_review.py": "31fc2120c3bcdd5ccf4a8a862e34935c36021dbc6c056899f3b0c2ee842edaf8"
+  },
+  "input_sha256": {
+    "projection_codec.json": "93c3fc5367b1e93f05a5cb969b9a5216ca3868a6055f58a6f0a281447870b55b",
+    "../round17/realizability.json": "b0373d4e39a7106bff04c36f9ebbc7fdb33e3f61a2f009a88d345cf76505bb31",
+    "relation_barrier.json": "e649891412a65ab225bd794d17cd8dc10762e27d58502e020d707bc84f5b024c"
+  }
+}

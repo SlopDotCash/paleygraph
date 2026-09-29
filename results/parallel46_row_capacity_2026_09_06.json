@@ -1,0 +1,140 @@
+{
+  "scope": "Necessary row-capacity inequality, exclusion of the Sidon-filled family, and a surviving abstract family; no uniform bound improved.",
+  "actual_cases": [
+    {
+      "p": 7,
+      "n": 6,
+      "m": 1,
+      "in_sparse_source_range": false,
+      "X": 60,
+      "subset_checks": 1,
+      "positive_lower_certificates": 1,
+      "passed": true
+    },
+    {
+      "p": 13,
+      "n": 2,
+      "m": 6,
+      "in_sparse_source_range": true,
+      "X": 0,
+      "subset_checks": 63,
+      "positive_lower_certificates": 0,
+      "passed": true
+    },
+    {
+      "p": 97,
+      "n": 8,
+      "m": 12,
+      "in_sparse_source_range": true,
+      "X": 0,
+      "subset_checks": 4095,
+      "positive_lower_certificates": 0,
+      "passed": true
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "m": 16,
+      "in_sparse_source_range": true,
+      "X": 114,
+      "subset_checks": 700,
+      "positive_lower_certificates": 0,
+      "passed": true
+    },
+    {
+      "p": 353,
+      "n": 16,
+      "m": 22,
+      "in_sparse_source_range": true,
+      "X": 72,
+      "subset_checks": 1797,
+      "positive_lower_certificates": 0,
+      "passed": true
+    }
+  ],
+  "abstract_cases": [
+    {
+      "kind": "sidon",
+      "t": 2,
+      "n": 32,
+      "m": 32771,
+      "A2": 157,
+      "K": 43585,
+      "Q": 1024,
+      "norm_cube_lower_bound": 144485765797983553,
+      "actual_subgroup_realization": false,
+      "core_size": 3,
+      "core_mass": 270,
+      "max_outside_row_mass": 20
+    },
+    {
+      "kind": "interval",
+      "t": 2,
+      "n": 32,
+      "m": 32771,
+      "A2": 157,
+      "K": 60385,
+      "Q": 1024,
+      "norm_cube_lower_bound": 144485765797983553,
+      "actual_subgroup_realization": false,
+      "model_X_budget": 196608,
+      "all_subset_total_X_capacity": {
+        "thresholds": 11,
+        "largest_conservative_squared_ratio": "0",
+        "passed": true
+      }
+    },
+    {
+      "kind": "sidon",
+      "t": 4,
+      "n": 1024,
+      "m": 1073741827,
+      "A2": 17917,
+      "K": 849666273,
+      "Q": 1048576,
+      "norm_cube_lower_bound": 210365041945614068900094929830674432,
+      "actual_subgroup_realization": false,
+      "core_size": 7,
+      "core_mass": 66430,
+      "max_outside_row_mass": 132
+    },
+    {
+      "kind": "interval",
+      "t": 4,
+      "n": 1024,
+      "m": 1073741827,
+      "A2": 17917,
+      "K": 1747247073,
+      "Q": 1048576,
+      "norm_cube_lower_bound": 210365153898940432604678496472793088,
+      "actual_subgroup_realization": false,
+      "model_X_budget": 201326592,
+      "all_subset_total_X_capacity": {
+        "thresholds": 388,
+        "largest_conservative_squared_ratio": "0",
+        "passed": true
+      }
+    }
+  ],
+  "symbolic_checks": [
+    {
+      "t": 1024,
+      "n": 1125899906842624,
+      "core_mass": 1208925820740526934065150,
+      "valid_integer_numerator": 1023937701962012512223230,
+      "lower_X_squared_over_n4": "134193232904985975558822515805580936180879618271878295709507056226533375/5050054691622314537616307077740077955663968263281701937711507570688",
+      "excludes_192n2_budget": false,
+      "scope": "Closed-form necessary inequality; no huge group enumerated."
+    },
+    {
+      "t": 4096,
+      "n": 1152921504606846976,
+      "core_mass": 79228162515417258960711843838,
+      "valid_integer_numerator": 73164250897413283940055121918,
+      "lower_X_squared_over_n4": "48956098973551812740605152105400713864464719765454550796283008593127736162457307054079/88906614842662139882448844114456309805777746971700068233260244812280450821128192",
+      "excludes_192n2_budget": true,
+      "scope": "Closed-form necessary inequality; no huge group enumerated."
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,82 @@
+{
+  "observed_at_utc": "2026-09-05T21:42:30Z",
+  "logical_cpus": 16,
+  "processes": [
+    {
+      "pid": "38564",
+      "ppid": "90751",
+      "elapsed": "01:48:22",
+      "cpu_time": "0:36.50",
+      "cpu_percent": "0.0",
+      "state": "S",
+      "executable": "/Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lake"
+    },
+    {
+      "pid": "52280",
+      "ppid": "52237",
+      "elapsed": "01:44:21",
+      "cpu_time": "2:26.72",
+      "cpu_percent": "1.4",
+      "state": "S",
+      "executable": "/Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lake"
+    },
+    {
+      "pid": "58925",
+      "ppid": "45798",
+      "elapsed": "37:42",
+      "cpu_time": "0:02.63",
+      "cpu_percent": "0.0",
+      "state": "Ss",
+      "executable": "/Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lake"
+    },
+    {
+      "pid": "59248",
+      "ppid": "58925",
+      "elapsed": "37:33",
+      "cpu_time": "2:41.62",
+      "cpu_percent": "6.6",
+      "state": "R",
+      "executable": "lean"
+    },
+    {
+      "pid": "75893",
+      "ppid": "38564",
+      "elapsed": "11:51",
+      "cpu_time": "1:17.45",
+      "cpu_percent": "7.8",
+      "state": "R",
+      "executable": "/Users/shawwalters/.elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lean"
+    }
+  ],
+  "uptime": "17:42  up 1 day, 47 mins, 6 users, load averages: 274.50 253.94 193.09",
+  "scope": "Read-only snapshot; no processes stopped, restarted, or reprioritized. A running compiler is not evidence of eventual proof success.",
+  "sample": {
+    "pid": 75893,
+    "path": "/private/tmp/paley-lean-75893-performance-sample.txt",
+    "sha256": "95150ee5dbe9a5d382b94e49a0d7ee8fbae6fcabefad2e3300b618271be8e9c5",
+    "observed_activity": "Lean kernel type checking with deep definitional equality and reduction stacks; the one-second sample does not establish termination or exact completion time."
+  },
+  "compiler_targets": {
+    "75893": "/private/tmp/proximity-duplex-doc/ArkLib/ProofSystem/Binius/BinaryBasefold/QueryPhase.lean",
+    "59248": "/private/tmp/proximity-binius-metric/ArkLib/ProofSystem/Binius/BinaryBasefold/Soundness/PreTensorMetric.lean"
+  },
+  "build_errors": {
+    "path": "/private/tmp/append-adapters-final.log",
+    "latest_failed_module": "ArkLib.ProofSystem.Binius.BinaryBasefold.Steps.Commit",
+    "reported_task_counter": "4222/4228",
+    "observed_errors": [
+      "instance synthesis",
+      "unsolved goals",
+      "invalid constructor alternatives",
+      "rewrite failure",
+      "type mismatch"
+    ],
+    "interpretation": "The build has recorded failures while another compiler remains running; waiting alone cannot produce a clean build of this unchanged input."
+  },
+  "eta": "Unknown remaining kernel work. Recent cumulative CPU shares are about 11% and 7% of one core; one further CPU-minute would take about 9 or 14 wall-minutes if those shares persist. This is a rate conversion, not a completion forecast.",
+  "recommendations": [
+    "Reduce competing machine-wide compute and defer documentation generation during targeted proof checks.",
+    "Retain the warmed dependency cache and run only affected modules.",
+    "Profile and refactor the specific expensive proof boundary on a separate saved copy; do not restart the ongoing compiler merely to obtain diagnostics."
+  ]
+}

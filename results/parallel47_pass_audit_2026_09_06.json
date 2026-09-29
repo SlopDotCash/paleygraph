@@ -1,0 +1,116 @@
+{
+  "observed_at_utc": "2026-09-06T09:50:56.572005+00:00",
+  "classification": "progress: simpler anchored exclusions, a repaired abstract model, exact field-moment recognition, and one finite prime-field sieve; no new uniform bound",
+  "previous_goal_turn_classification": "progress: local row-capacity inequality, excluded Sidon filler, and surviving total-X model; no new uniform bound",
+  "goal_achieved": false,
+  "full_goal_status": "active and unproved",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "finite_checks": {
+    "exact_prime_certificates": 2,
+    "old_interval_anchor_failures": 4,
+    "repaired_model_threshold_checks": 257,
+    "actual_subgroup_anchored_indices": 1024,
+    "actual_subgroup_first_moments": 3,
+    "newton_moments": 53,
+    "full_newton_reconstructions": 3,
+    "admissible_finite_sieve_candidates": 2048,
+    "first_moment_survivors": 0
+  },
+  "finite_sieve_scope": "Exhaustive only over the stated R range at this one n,p; no uniform exclusion.",
+  "recognition_scope": "The first n-1 field power sums identify the actual profile by Newton recurrence. No improved uniform multiplicity, energy, excess or spectral bound follows here.",
+  "abstract_model_scope": "Listed scalar bounds, anchored rows, formal product congruence and total-X row inequalities only. No local X_D allocation, full multiplication law, actual incidence matrix or field realization supplied.",
+  "review_scope": "Root ordinary derivations and exact checks. No separate-agent, Lean, external review or novelty claim.",
+  "agent_state": "Previous pass verified all three lanes errored at usage limit; no restart, reset or new agent attempted in this pass.",
+  "no_lean_build": true,
+  "no_lean_poll": true,
+  "no_process_changes": true,
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": {
+    "experiments/parallel46_row_capacity.py": true,
+    "research/parallel46-pass-summary-2026-09-06.md": true,
+    "research/parallel46-row-capacity-2026-09-06.md": true,
+    "results/parallel46_prior_state_2026_09_06.json": true,
+    "results/parallel46_row_capacity_2026_09_06.json": true
+  },
+  "local_links_checked": [
+    {
+      "source": "research/parallel47-anchored-arithmetic-2026-09-06.md",
+      "target": "experiments/parallel47_anchored_arithmetic.py"
+    },
+    {
+      "source": "research/parallel47-anchored-arithmetic-2026-09-06.md",
+      "target": "results/parallel47_anchored_arithmetic_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel47-pass-summary-2026-09-06.md",
+      "target": "research/parallel47-anchored-arithmetic-2026-09-06.md"
+    },
+    {
+      "source": "research/parallel47-pass-summary-2026-09-06.md",
+      "target": "experiments/parallel47_anchored_arithmetic.py"
+    },
+    {
+      "source": "research/parallel47-pass-summary-2026-09-06.md",
+      "target": "results/parallel47_anchored_arithmetic_2026_09_06.json"
+    },
+    {
+      "source": "research/parallel47-pass-summary-2026-09-06.md",
+      "target": "results/parallel47_pass_audit_2026_09_06.json"
+    },
+    {
+      "source": "README.md",
+      "target": "research/parallel47-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/frontier.md",
+      "target": "research/parallel47-pass-summary-2026-09-06.md"
+    },
+    {
+      "source": "research/source-audit.md",
+      "target": "research/parallel47-anchored-arithmetic-2026-09-06.md"
+    },
+    {
+      "source": "research/checkpoint-2026-09-04.md",
+      "target": "research/parallel47-pass-summary-2026-09-06.md"
+    }
+  ],
+  "source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "imported_checker_dependency_hashes": {
+    "experiments/parallel46_row_capacity.py": "8102f0426d67fbeb78ebe65f42c06f1011dd54c551157b827a7e5428c042ea5f",
+    "experiments/mixed_period_collisions.py": "9e3a9860feacf3625a4556902072ff36311f5293affdae61a63b55e0f3a02544"
+  },
+  "artifacts_sha256": {
+    "experiments/parallel47_anchored_arithmetic.py": "20523cbe1ffebb82f75222a2477f983626152c1fe473a75194ee8799d71c7518",
+    "research/parallel47-anchored-arithmetic-2026-09-06.md": "dab9ed758e407cd2590f566fb1ffa5a90c18d8e7fd49d19482c1f30905badb2a",
+    "research/parallel47-pass-summary-2026-09-06.md": "ac1e298323e9fb4bcec8227642c1ce33764628d0d85fb84bbdf604fe3d2c2b82",
+    "results/parallel47_prior_state_2026_09_06.json": "75e2b436ebaf6542d63f95d7a1706c51c35a58aae642ce9a165cf4f766891b1a",
+    "results/parallel47_anchored_arithmetic_2026_09_06.json": "b439f0878c8e8bf7304e6917ed1570e42b63951dac7d87e5c14ca17fa930ed12"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "e37e08bf478158c34082903c2376f0f2ad5c0b76cc253558f1bd46fd57d266bd",
+      "after": "abe7331733bda4ac02d5c0f43033540fdad57590048026ce876e6e04a0b35728"
+    },
+    "research/frontier.md": {
+      "before": "f26b74d43063f88eee9b386c1b2284c906bfe792fb68e488c9bb893008f5eb45",
+      "after": "bdc8403ea5051e5dc05cf6a32327a02649a317f0e310dcbba6766c9b26a46b7e"
+    },
+    "research/source-audit.md": {
+      "before": "af523e220209635f5eabc8467507e96fa8bea593b9cbf80394bbeb46e2d4896f",
+      "after": "8394ca01e847e583bc7afda0c9e33192c0709cb1e153ff6d66a24d972a9f096d"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "5adda8e86d6dd0fec2757906207236910eb0f56a5391afc39f13914d20681190",
+      "after": "edc31e369dbf0198c112e8ab717ca1134832f7caac49eed9ad07f35e4939bd0e"
+    }
+  },
+  "next_action": "Extract a uniform multiplicity or shifted-excess bound from the exact arithmetic conditions or the full matrix multiplication law; neither profile recognition nor a finite-family sieve bounds every actual subgroup."
+}

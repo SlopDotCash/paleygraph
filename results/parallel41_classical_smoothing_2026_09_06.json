@@ -1,0 +1,188 @@
+{
+  "scope": "bounded exact verification; not an original-moment upper bound",
+  "cases": [
+    {
+      "p": 17,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "t": 1,
+      "shift_tuples": 17,
+      "M2": 30,
+      "M3": -6,
+      "M4": 114,
+      "M6": 450,
+      "expected_smoothed_M6": "450",
+      "expected_smoothed_ratio": "225/68",
+      "original_pairing": 4,
+      "mixed_additive_energy": 14,
+      "identities_passed": true
+    },
+    {
+      "p": 17,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "t": 2,
+      "shift_tuples": 289,
+      "M2": 30,
+      "M3": -6,
+      "M4": 114,
+      "M6": 450,
+      "expected_smoothed_M6": "29655/272",
+      "expected_smoothed_ratio": "29655/36992",
+      "original_pairing": 4,
+      "mixed_additive_energy": 14,
+      "identities_passed": true
+    },
+    {
+      "p": 17,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "t": 3,
+      "shift_tuples": 4913,
+      "M2": 30,
+      "M3": -6,
+      "M4": 114,
+      "M6": 450,
+      "expected_smoothed_M6": "33290/867",
+      "expected_smoothed_ratio": "16645/58956",
+      "original_pairing": 4,
+      "mixed_additive_energy": 14,
+      "identities_passed": true
+    },
+    {
+      "p": 29,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "t": 1,
+      "shift_tuples": 29,
+      "M2": 54,
+      "M3": -6,
+      "M4": 210,
+      "M6": 834,
+      "expected_smoothed_M6": "834",
+      "expected_smoothed_ratio": "417/116",
+      "original_pairing": 1,
+      "mixed_additive_energy": 14,
+      "identities_passed": true
+    },
+    {
+      "p": 29,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "t": 2,
+      "shift_tuples": 841,
+      "M2": 54,
+      "M3": -6,
+      "M4": 210,
+      "M6": 834,
+      "expected_smoothed_M6": "97323/464",
+      "expected_smoothed_ratio": "97323/107648",
+      "original_pairing": 1,
+      "mixed_additive_energy": 14,
+      "identities_passed": true
+    },
+    {
+      "p": 29,
+      "V": [
+        0,
+        1
+      ],
+      "A": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "t": 3,
+      "shift_tuples": 24389,
+      "M2": 54,
+      "M3": -6,
+      "M4": 210,
+      "M6": 834,
+      "expected_smoothed_M6": "5103998/68121",
+      "expected_smoothed_ratio": "2551999/7902036",
+      "original_pairing": 1,
+      "mixed_additive_energy": 14,
+      "identities_passed": true
+    },
+    {
+      "p": 97,
+      "V": [
+        0,
+        1,
+        3
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "t": 2,
+      "shift_tuples": 9409,
+      "M2": 282,
+      "M3": 66,
+      "M4": 1902,
+      "M6": 16302,
+      "expected_smoothed_M6": "4835157/1552",
+      "expected_smoothed_ratio": "1611719/1354896",
+      "original_pairing": 9,
+      "mixed_additive_energy": 31,
+      "identities_passed": true
+    }
+  ],
+  "total_shift_tuples": 39887,
+  "all_passed": true
+}

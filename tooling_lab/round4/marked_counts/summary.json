@@ -1,0 +1,508 @@
+{
+  "status": "exact marked-cell input layer implemented and validated; conditional moments computed elsewhere",
+  "cases": [
+    {
+      "file": "counts_p13_marks_0_1_2.json",
+      "sha256": "2afc544af8cb78c7ceae7217330445a470ee9a7fb83615890b33541cded16d2a",
+      "p": 13,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "cells": 9,
+      "nonzero_relations": 113,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 32,
+      "ntt_transforms": 9,
+      "singleton_cells_direct": 5,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244349,
+      "pair_count_bit_bound": 8,
+      "backend_elapsed_seconds": 0.00040575,
+      "wall_seconds": 0.24201208299200516,
+      "runner_lifetime_max_child_rss_bytes": 1474560,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 12
+    },
+    {
+      "file": "counts_p17_marks_0_1_2.json",
+      "sha256": "d5eb0e1ce33da833225d599c77ef327c16cff90635536b1208fd9d14cd750e52",
+      "p": 17,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "cells": 10,
+      "nonzero_relations": 149,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 64,
+      "ntt_transforms": 15,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244349,
+      "pair_count_bit_bound": 9,
+      "backend_elapsed_seconds": 0.000216833,
+      "wall_seconds": 0.004357542013167404,
+      "runner_lifetime_max_child_rss_bytes": 1490944,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 16
+    },
+    {
+      "file": "counts_p101_marks_0.json",
+      "sha256": "8298caeaa88212690d5d314fb3c7273e9eb6a17192e5e18209bdf4e95abceeaa",
+      "p": 101,
+      "marks": [
+        0
+      ],
+      "cells": 3,
+      "nonzero_relations": 15,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 5,
+      "singleton_cells_direct": 1,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244253,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 9.425e-05,
+      "wall_seconds": 0.0039446250011678785,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 32
+    },
+    {
+      "file": "counts_p101_marks_0_1.json",
+      "sha256": "9eff92dbdf57c40ada25223d03211c33355a49c269d0a4da5e93f0b7ae39d732",
+      "p": 101,
+      "marks": [
+        0,
+        1
+      ],
+      "cells": 6,
+      "nonzero_relations": 56,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 9,
+      "singleton_cells_direct": 2,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244303,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.00015425,
+      "wall_seconds": 0.004540000009001233,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 31
+    },
+    {
+      "file": "counts_p101_marks_0_1_2.json",
+      "sha256": "d7a2ef6ec5081e5c4c1dc313d51590a5ab9837182c85e0515ddebf8b84745d32",
+      "p": 101,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244327,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.000377416,
+      "wall_seconds": 0.003955332998884842,
+      "runner_lifetime_max_child_rss_bytes": 1490944,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 30
+    },
+    {
+      "file": "counts_p101_marks_0_1_3.json",
+      "sha256": "e8948a3cb6c3164b9608288eb9e9ff6763de9a6ffad2e07aa233119ceeed2e97",
+      "p": 101,
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244327,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.000342417,
+      "wall_seconds": 0.0037710830074502155,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 30
+    },
+    {
+      "file": "counts_p101_marks_0_1_4.json",
+      "sha256": "d14faf13e324486fbdf52bc7d4005c436cfb61bf64e6bf10594b219c3e7a2b3c",
+      "p": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244323,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.00034525,
+      "wall_seconds": 0.003759209008421749,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 31
+    },
+    {
+      "file": "counts_p101_marks_0_2.json",
+      "sha256": "773948380de2dc834207c4db254d5dcd5f5e19eaeceb8da762ad339150d908a1",
+      "p": 101,
+      "marks": [
+        0,
+        2
+      ],
+      "cells": 6,
+      "nonzero_relations": 56,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 9,
+      "singleton_cells_direct": 2,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244303,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.000153667,
+      "wall_seconds": 0.004814375002752058,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 31
+    },
+    {
+      "file": "counts_p101_marks_0_2_4.json",
+      "sha256": "274fac0fbd44f32391df7d5c595823c85a107fc32cb0fdfd2bcf9becb18301d8",
+      "p": 101,
+      "marks": [
+        0,
+        2,
+        4
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244327,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.000346333,
+      "wall_seconds": 0.004266500007361174,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 31
+    },
+    {
+      "file": "counts_p101_marks_0_4_8.json",
+      "sha256": "f556d142b80f4653e7672cbdf576d37dff45160ec3a68af57b16805cc8edcfac",
+      "p": 101,
+      "marks": [
+        0,
+        4,
+        8
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244327,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.000343791,
+      "wall_seconds": 0.004167792008956894,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 32
+    },
+    {
+      "file": "counts_p101_marks_1.json",
+      "sha256": "5fa57911cd29d5aa535a21579cf4541b3fa5ad65992e69a00d10aa5ee3fcc3d1",
+      "p": 101,
+      "marks": [
+        1
+      ],
+      "cells": 3,
+      "nonzero_relations": 15,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 5,
+      "singleton_cells_direct": 1,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244253,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 8.4792e-05,
+      "wall_seconds": 0.0032094579946715385,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 32
+    },
+    {
+      "file": "counts_p101_marks_1_2_3.json",
+      "sha256": "e88392b93c658278810f3789005d9e977eb48076ccfe160dc2a5a1d6c86dbf4f",
+      "p": 101,
+      "marks": [
+        1,
+        2,
+        3
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244327,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 0.000347208,
+      "wall_seconds": 0.003812333001405932,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 30
+    },
+    {
+      "file": "counts_p101_marks_none.json",
+      "sha256": "79a2dc15821c524ce25af71ad26710b56547335b81404d7d4d3725408bcb2d28",
+      "p": 101,
+      "marks": [],
+      "cells": 1,
+      "nonzero_relations": 3,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 256,
+      "ntt_transforms": 1,
+      "singleton_cells_direct": 0,
+      "full_cells_direct": 1,
+      "minimum_integer_recovery_margin": 998244151,
+      "pair_count_bit_bound": 14,
+      "backend_elapsed_seconds": 4.875e-05,
+      "wall_seconds": 0.0035026249970542267,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 33
+    },
+    {
+      "file": "counts_p1297_marks_0_1_2.json",
+      "sha256": "4bb806c158d0edb56dee6c8689a90e9a6d17cf0cec0974df1adb0440a1d4eae8",
+      "p": 1297,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 4096,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998244029,
+      "pair_count_bit_bound": 21,
+      "backend_elapsed_seconds": 0.00230317,
+      "wall_seconds": 0.007522499989136122,
+      "runner_lifetime_max_child_rss_bytes": 1622016,
+      "independently_recomputed_all_relations": true,
+      "independent_sampled_rows": 33
+    },
+    {
+      "file": "counts_p65537_marks_0_1_2.json",
+      "sha256": "b50c4b9903944cdfa936b730c0fd98da64d6f7ea3a12f25c120d6c366e0e7dab",
+      "p": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 262144,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 998227969,
+      "pair_count_bit_bound": 33,
+      "backend_elapsed_seconds": 0.159069,
+      "wall_seconds": 0.16391237500647549,
+      "runner_lifetime_max_child_rss_bytes": 6897664,
+      "independently_recomputed_all_relations": false,
+      "independent_sampled_rows": 33
+    },
+    {
+      "file": "counts_p1000033_marks_0_1_2.json",
+      "sha256": "44bc0f9041098c0955f25a2ea263c621cbe1aa3947007185030a38c79eea6303",
+      "p": 1000033,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "cells": 11,
+      "nonzero_relations": 193,
+      "ordered_row_pairs": true,
+      "field_primality_method": "trial division through sqrt(p)",
+      "ntt_modulus": 998244353,
+      "ntt_primitive_root": 3,
+      "ntt_length": 2097152,
+      "ntt_transforms": 17,
+      "singleton_cells_direct": 3,
+      "full_cells_direct": 0,
+      "minimum_integer_recovery_margin": 997993889,
+      "pair_count_bit_bound": 40,
+      "backend_elapsed_seconds": 1.79334,
+      "wall_seconds": 1.7990082909964258,
+      "runner_lifetime_max_child_rss_bytes": 49463296,
+      "independently_recomputed_all_relations": false,
+      "independent_sampled_rows": 33
+    }
+  ],
+  "total_independent_direct_pairs": 1794878,
+  "total_independent_sampled_row_terms": 35241682,
+  "affine_controls": [
+    {
+      "control": "one-mark translation",
+      "left_marks": [
+        0
+      ],
+      "right_marks": [
+        1
+      ],
+      "sign_multiplier": 1,
+      "passed": true
+    },
+    {
+      "control": "three-mark translation",
+      "left_marks": [
+        0,
+        1,
+        2
+      ],
+      "right_marks": [
+        1,
+        2,
+        3
+      ],
+      "sign_multiplier": 1,
+      "passed": true
+    },
+    {
+      "control": "square dilation",
+      "left_marks": [
+        0,
+        1,
+        2
+      ],
+      "right_marks": [
+        0,
+        4,
+        8
+      ],
+      "sign_multiplier": 1,
+      "passed": true
+    },
+    {
+      "control": "nonsquare dilation/sign reversal",
+      "left_marks": [
+        0,
+        1,
+        2
+      ],
+      "right_marks": [
+        0,
+        2,
+        4
+      ],
+      "sign_multiplier": -1,
+      "passed": true
+    },
+    {
+      "control": "two-mark nonsquare dilation/sign reversal",
+      "left_marks": [
+        0,
+        1
+      ],
+      "right_marks": [
+        0,
+        2
+      ],
+      "sign_multiplier": -1,
+      "passed": true
+    }
+  ],
+  "rejection_guard_tests": 9,
+  "runtime": {
+    "python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "version": "3.14.6",
+    "machine": "arm64",
+    "compiler": "Apple clang version 21.0.0 (clang-2100.0.123.102)"
+  },
+  "source_sha256": "63c56f697da2779dfab962ad4f698b5aa716e921d4581a4ecdfb25470451c613"
+}

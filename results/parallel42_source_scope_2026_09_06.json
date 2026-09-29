@@ -1,0 +1,60 @@
+{
+  "observed_at_utc": "2026-09-06T07:49:10.415282+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel42-excess/do_duc_leung_schmidt_2020_published.pdf",
+      "url": "https://alco.centre-mersenne.org/item/10.5802/alco.86.pdf",
+      "sha256": "9440636b0293589d20352f0a16e81594e5927b0038be263ca3c29b47fe1c2bb3",
+      "text_path": "sources/parallel42-excess/do_duc_leung_schmidt_2020_published.txt",
+      "text_sha256": "4057c1bf05ea075083b882641bf2d5c31a7b5370acc724daa80ced71cf1f3fde",
+      "use": "Theorems 1.2 and 1.3: exponential prime-size conditions and prime subgroup-order restriction; not a growing dyadic quartic bound."
+    },
+    {
+      "path": "sources/parallel42-excess/ke_kiechle_2023_overlaps_published.pdf",
+      "url": "https://admjournal.luguniv.edu.ua/index.php/adm/article/download/2130/pdf",
+      "sha256": "a247dbcba4a3a0644e916b52cc9b84d66ccbcc7cf7624f20e6b15ef83cfdae5f",
+      "text_path": "sources/parallel42-excess/ke_kiechle_2023_overlaps_published.txt",
+      "text_sha256": "6011c5665823fb4337f6735148a48dd9daf23371687178e835c396c0491ffeb2",
+      "use": "Theorem 2.1, Proposition 3.4 and Corollary 3.7: nontrivial product criterion and existential primitive-root norm characterization; finite exception support."
+    },
+    {
+      "path": "sources/parallel42-excess/ke_kiechle_2023_circularity_arxiv.pdf",
+      "url": "https://arxiv.org/pdf/2307.05586",
+      "sha256": "38495a154b79444263050c951337b533a6944d54c984fc51377e74f222adf340",
+      "text_path": "sources/parallel42-excess/ke_kiechle_2023_circularity_arxiv.txt",
+      "text_sha256": "2b78bd25113b726077a148dc5a5e694883c0962b1f82cc77eecd84f9d3a5193c",
+      "use": "arXiv2307.05586v2 Remark 3: finite-order exception sets and observed tables, not a growing-order density theorem. Published metadata separately verified as FFA98 (2024),102467."
+    },
+    {
+      "path": "sources/parallel42-excess/macourt_shkredov_shparlinski_2017_arxiv.pdf",
+      "url": "https://arxiv.org/pdf/1701.06192",
+      "sha256": "7f9dfe1ec462403926be15da4c10b4847603dcbd7c0baaaa1c51fd03be7ff615",
+      "text_path": "sources/parallel42-excess/macourt_shkredov_shparlinski_2017_arxiv.txt",
+      "text_sha256": "d02b65eed3266b6f6a504e565ee403ef3247ef04b4de0493e6663108bdf10dd1",
+      "use": "arXiv1701.06192v2 Theorem 1.2, Remark 1.3, Corollaries 4.1-4.2: shifted energy and set-size scope; no subquadratic excess saving in the sparse range."
+    },
+    {
+      "path": "sources/sigma-volostnov-shkredov-1712.09355.pdf",
+      "url": "https://arxiv.org/pdf/1712.09355v1",
+      "sha256": "24fb1309794d46ed9886a99f95436321fbb3ee98f2b6995d37a079df56ce2eec",
+      "use": "Previously checked individual Weil estimate, reused only for the reflection smoothed-moment upper bound under n^4<=p."
+    }
+  ],
+  "archive_manifest_path": "sources/parallel42-excess/manifest.json",
+  "archive_manifest_sha256": "ccb5b176bb94d77f160307a5c3d57aa8976cbcc23e4dd65b9e20608a3fffc3d9",
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "new_ordinary_arguments": [
+    "Compatible shifted-product weighted norm budget",
+    "Exact second-moment archimedean refinement",
+    "Absolute exceptional-prime count for the conditional triangle criterion",
+    "Matched reflection projection and exact recovery-certificate comparison"
+  ],
+  "unproved_inputs": [
+    "Pointwise X<<n^(61/31) in the quartic range",
+    "Uniform shell estimate",
+    "Original positive character moment bound",
+    "Full arbitrary-set Paley and official prize conclusion"
+  ],
+  "review_scope": "Separate-agent check of coarse norm mechanism; root completed stronger AGM constant, source applications, and exact checks after agents reached usage limit.",
+  "no_lean_or_external_peer_review": true
+}

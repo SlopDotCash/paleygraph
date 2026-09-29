@@ -1,0 +1,29 @@
+{
+  "status": "Proof review and exact-result audit complete; the full goal is unachieved.",
+  "input_hashes_verified": 13,
+  "python_scripts_parsed": 4,
+  "local_note_links_verified": 14,
+  "primary_source_manifest_verified": true,
+  "rendered_primary_pages_inspected": [
+    22,
+    52,
+    53
+  ],
+  "artifact_sha256": {
+    "research/parallel2-classical-2026-09-04.md": "be69dd47f7f18a8915b0c3ce7b5d07031a8f50a69f947b8649fad916e3ced6d8",
+    "research/parallel2-necklace-2026-09-04.md": "d4714695368adea9a23f62bd806510bfbbdbb129465593ad64646ad8d46f761e",
+    "research/parallel2-pass-summary-2026-09-04.md": "36b21e2877e6816b941ed9653e3870dd0fc032229658079adfd8e6c89f779aa9",
+    "research/parallel2-spectral-transfer-2026-09-04.md": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3",
+    "research/parallel2-subgroup-2026-09-04.md": "d2d7a0e427a3eb9859d9c0045f048dc79a551325dcd1753722809705ef22f98b",
+    "experiments/parallel2_classical_2026_09_04.py": "9533975e81cdd8e3f9a8a4068d93da0aa1c1458f3cf1f1ad0bb362782db5caab",
+    "experiments/parallel2_necklace_2026_09_04.py": "179ae2f248d5f6ec629b8668a8d6b953f6fea547f91dbf18cc8a7a916ab39d35",
+    "experiments/parallel2_spectral_transfer_2026_09_04.py": "7cfee95be33f9da7c95544e2e671ca178338b5fea06c6f80fbe945768773dea4",
+    "experiments/parallel2_subgroup_2026_09_04.py": "71704c284dce4efa63b153075472a02e8e9b41d9dffca0ba4e436a80b5c61793",
+    "results/parallel2_classical_2026_09_04.json": "568a54e59b4e0cd459a8b0d1799a1fe53521f4a8dfdd645dc19c35d9e471bb07",
+    "results/parallel2_necklace_2026_09_04.json": "cfb8dc0f2a0e66cb78bf2ff988363a98b77ecc698bfff10e7ff3dd19c9ce32ca",
+    "results/parallel2_spectral_transfer_2026_09_04.json": "c9dc197c0a4f506a94d64ce04f02b276af951bfab3dd31c086b1427fb87af85d",
+    "results/parallel2_subgroup_2026_09_04.json": "e23ce009efd9f60ceffd6bb88950465de9fdad2168da74af6e84d3c89e17a4a1",
+    "sources/katz-finite-field-mellin.pdf": "08e36a0fdeb8a1dc3d8c95734f44d7569fab23cd45fb1a5da8bea5576e3e1b73",
+    "sources/katz-finite-field-mellin.txt": "eb69f79c641a9d9448032bb237b77041307f525d4d8ec28e3922feb1ff67dfc1"
+  }
+}

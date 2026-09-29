@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "iteration": "minimum remaining cardinality pruning",
+  "comparisons": [
+    {
+      "case": "generic-n32-k4-s12",
+      "all_census_and_batch_certificates_equal": true,
+      "initial_node_visits": 16647,
+      "pruned_node_visits": 6210,
+      "median_seconds": {
+        "initial": 0.313542,
+        "pruned": 0.372839
+      },
+      "timing_samples": {
+        "initial": [
+          0.109405,
+          0.364951,
+          0.313542
+        ],
+        "pruned": [
+          0.3969,
+          0.251297,
+          0.372839
+        ]
+      }
+    },
+    {
+      "case": "aligned-n48-k6-s28",
+      "all_census_and_batch_certificates_equal": true,
+      "initial_node_visits": 31,
+      "pruned_node_visits": 15,
+      "median_seconds": {
+        "initial": 0.003432,
+        "pruned": 0.002226
+      },
+      "timing_samples": {
+        "initial": [
+          0.027381,
+          0.003432,
+          0.001157
+        ],
+        "pruned": [
+          0.001135,
+          0.003113,
+          0.002226
+        ]
+      }
+    },
+    {
+      "case": "interleaved-n48-k6-s28",
+      "all_census_and_batch_certificates_equal": true,
+      "initial_node_visits": 16711,
+      "pruned_node_visits": 7770,
+      "median_seconds": {
+        "initial": 0.64034,
+        "pruned": 0.675154
+      },
+      "timing_samples": {
+        "initial": [
+          0.406424,
+          0.740421,
+          0.64034
+        ],
+        "pruned": [
+          0.675154,
+          0.793529,
+          0.576029
+        ]
+      }
+    },
+    {
+      "case": "aligned-n128-k8-s80",
+      "all_census_and_batch_certificates_equal": true,
+      "initial_node_visits": 77,
+      "pruned_node_visits": 33,
+      "median_seconds": {
+        "initial": 0.004658,
+        "pruned": 0.00199
+      },
+      "timing_samples": {
+        "initial": [
+          0.002337,
+          0.004658,
+          0.006609
+        ],
+        "pruned": [
+          0.002052,
+          0.001823,
+          0.00199
+        ]
+      }
+    }
+  ],
+  "limits": "Exact operation counts are reproducible; timings depend on concurrent workloads.",
+  "source_sha256": {
+    "symbolic_batches_initial.py": "d8401ae9ea2897bd61c6f464f0e5ce3ada9b6ecc5691a00db67b1ca2afa994d1",
+    "symbolic_batches.py": "bde92e5a68878389a19848b4e99e0873faab24162b1a8f4a1666d4bfec91e356",
+    "compare_backends.py": "d8a1aa0a7acecc0645397b77164f90982c2f4dd49f0a1a8b0878b3a6ffe163ec"
+  }
+}

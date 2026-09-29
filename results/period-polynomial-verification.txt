@@ -1,0 +1,2 @@
+Independent rational audit passed: direct polynomial squaring, endpoint translations, full Bernstein expansion, source hash, and local links.
+Certificate SHA-256: 4e924958e6bae4cc590909589080c35af3a871743a81d635f8893847a477d885

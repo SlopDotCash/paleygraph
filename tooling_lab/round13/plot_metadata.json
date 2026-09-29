@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "Query counts only, with different guarantee types shown explicitly. These bars are not end-to-end runtime comparisons.",
+  "source_sha256": {
+    "plot_results.py": "92bde3da3a386fcafcd59abf930174a11231d6e5bf1bb0df855bfc63e5ec7618"
+  },
+  "input_sha256": {
+    "family_results.json": "7985a6ce064e01aea86f304df2ad62b2750cbda82d2991c508c2feafd75f4e55",
+    "actual_results.json": "7a1681ff070a527a94dd8008c32da32c1cece9077cdaaa74cf8cd2c0bc6ba904",
+    "../round12/pruning_results.json": "060aef45e3d0eb798741e7152958f2114cc45bd219a4c2447411891722815072"
+  },
+  "artifact_sha256": {
+    "overview.png": "5ec7a713765de63f8badf6b152402bfa341f02fb094705fee1c7f29858e13152",
+    "overview.pdf": "9b002cd60399fe2aef80eb11dd0a6c0ea95009c355e468a4b7f51c2b03161a28"
+  }
+}

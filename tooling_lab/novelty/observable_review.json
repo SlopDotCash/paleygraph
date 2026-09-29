@@ -1,0 +1,892 @@
+{
+  "date": "2026-09-05",
+  "scope": "Independent scalar witness replay and F29 exhaustive census",
+  "passed": true,
+  "inputs": [
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/tooling_lab/observables/results_toy.json",
+      "sha256": "749e03663ddc62b21929accd175a9f937284d57bbe7107c51cab5acdaefad58e"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/tooling_lab/observables/results_scale.json",
+      "sha256": "61b9c6cd6e0ca9c76af6d061a02f93fac31bd08e85df360d061f1ef820c8d8ef"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/tooling_lab/observables/results_holdout.json",
+      "sha256": "dcce1de1b8951630ff252fb20db3b2ad3a8adfe2497e9a37e3982a41b5c468ef"
+    },
+    {
+      "path": "/Users/shawwalters/Desktop/paleygraph/tooling_lab/observables/results_trades.json",
+      "sha256": "00db7baf28cbfa19adf2219e3d9eb0bd9aec3c675e840340094fc36fb6aec63c"
+    }
+  ],
+  "checks": 60,
+  "replayed": [
+    {
+      "file": "results_toy.json",
+      "p": 13,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "m6": 1782
+    },
+    {
+      "file": "results_toy.json",
+      "p": 13,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        10
+      ],
+      "m6": 46662
+    },
+    {
+      "file": "results_toy.json",
+      "p": 17,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        14
+      ],
+      "m6": 2166
+    },
+    {
+      "file": "results_toy.json",
+      "p": 17,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        4,
+        10,
+        13
+      ],
+      "m6": 48246
+    },
+    {
+      "file": "results_toy.json",
+      "p": 17,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "m6": 12486
+    },
+    {
+      "file": "results_toy.json",
+      "p": 17,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "m6": 16806
+    },
+    {
+      "file": "results_toy.json",
+      "p": 29,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        25
+      ],
+      "m6": 12198
+    },
+    {
+      "file": "results_toy.json",
+      "p": 29,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        4,
+        20,
+        23
+      ],
+      "m6": 99318
+    },
+    {
+      "file": "results_toy.json",
+      "p": 29,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        25
+      ],
+      "m6": 33318
+    },
+    {
+      "file": "results_toy.json",
+      "p": 29,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        14
+      ],
+      "m6": 50598
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        23
+      ],
+      "m6": 24270
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        8,
+        26,
+        28
+      ],
+      "m6": 156870
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        3,
+        4,
+        11,
+        31
+      ],
+      "m6": 41670
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        3,
+        13,
+        29,
+        39
+      ],
+      "m6": 64710
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        19
+      ],
+      "m6": 39630
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        35
+      ],
+      "m6": 62670
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        35
+      ],
+      "m6": 39030
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        2,
+        4,
+        19,
+        23
+      ],
+      "m6": 62070
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "plus_quartic_deck",
+      "C": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        36
+      ],
+      "m6": 39630
+    },
+    {
+      "file": "results_scale.json",
+      "p": 41,
+      "group": "plus_quartic_deck",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        35
+      ],
+      "m6": 62670
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        3,
+        8,
+        18,
+        25
+      ],
+      "m6": 42150
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        2,
+        4,
+        24,
+        53
+      ],
+      "m6": 244470
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        2,
+        7,
+        16,
+        29
+      ],
+      "m6": 74790
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        3,
+        16,
+        25,
+        44
+      ],
+      "m6": 115110
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "m6": 92070
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        3,
+        16,
+        25,
+        44
+      ],
+      "m6": 115110
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "m6": 98550
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        12,
+        52
+      ],
+      "m6": 121590
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "plus_quartic_deck",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "m6": 140190
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "plus_quartic_deck",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        34
+      ],
+      "m6": 163230
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "all_admissible",
+      "C": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "m6": 140190
+    },
+    {
+      "file": "results_scale.json",
+      "p": 61,
+      "group": "all_admissible",
+      "C": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        17
+      ],
+      "m6": 163230
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        51,
+        55,
+        63,
+        84
+      ],
+      "m6": 304326
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        103,
+        160,
+        221,
+        236
+      ],
+      "m6": 800886
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        26,
+        34,
+        69,
+        187
+      ],
+      "m6": 555126
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        26,
+        36,
+        219,
+        248
+      ],
+      "m6": 624246
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        26,
+        34,
+        69,
+        187
+      ],
+      "m6": 555126
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        26,
+        36,
+        219,
+        248
+      ],
+      "m6": 624246
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        26,
+        34,
+        69,
+        187
+      ],
+      "m6": 555126
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        54,
+        58,
+        92,
+        143
+      ],
+      "m6": 624246
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "plus_quartic_deck",
+      "C": [
+        0,
+        1,
+        34,
+        136,
+        162,
+        229
+      ],
+      "m6": 489846
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "plus_quartic_deck",
+      "C": [
+        0,
+        1,
+        24,
+        42,
+        130,
+        146
+      ],
+      "m6": 512886
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "all_admissible",
+      "C": [
+        0,
+        1,
+        34,
+        136,
+        162,
+        229
+      ],
+      "m6": 489846
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 257,
+      "group": "all_admissible",
+      "C": [
+        0,
+        1,
+        24,
+        42,
+        130,
+        146
+      ],
+      "m6": 512886
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        142,
+        416,
+        431,
+        816
+      ],
+      "m6": 2254206
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        83,
+        180,
+        359,
+        974
+      ],
+      "m6": 3480006
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        130,
+        349,
+        494,
+        1088
+      ],
+      "m6": 2759766
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        435,
+        991,
+        1112,
+        1204
+      ],
+      "m6": 2916726
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        154,
+        512,
+        586,
+        1186
+      ],
+      "m6": 2905206
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        84,
+        98,
+        590,
+        1119
+      ],
+      "m6": 3043446
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        154,
+        512,
+        586,
+        1186
+      ],
+      "m6": 2905206
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 1297,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        84,
+        98,
+        590,
+        1119
+      ],
+      "m6": 3043446
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        655,
+        1867,
+        2918,
+        3196,
+        3598,
+        3907
+      ],
+      "m6": 20427928
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "M2",
+      "C": [
+        0,
+        1,
+        301,
+        1713,
+        1790,
+        2375,
+        2642,
+        2766
+      ],
+      "m6": 27471208
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        369,
+        1137,
+        1541,
+        2873,
+        3036,
+        3666
+      ],
+      "m6": 23325688
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "M2_M4",
+      "C": [
+        0,
+        1,
+        327,
+        768,
+        999,
+        1348,
+        3444,
+        3917
+      ],
+      "m6": 24613048
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        1037,
+        1188,
+        1573,
+        2200,
+        2218,
+        2251
+      ],
+      "m6": 23875648
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "plus_boundary",
+      "C": [
+        0,
+        1,
+        863,
+        3191,
+        3284,
+        3891,
+        3942,
+        3950
+      ],
+      "m6": 24912448
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        1037,
+        1188,
+        1573,
+        2200,
+        2218,
+        2251
+      ],
+      "m6": 23875648
+    },
+    {
+      "file": "results_holdout.json",
+      "p": 4099,
+      "group": "plus_energy",
+      "C": [
+        0,
+        1,
+        863,
+        3191,
+        3284,
+        3891,
+        3942,
+        3950
+      ],
+      "m6": 24912448
+    }
+  ],
+  "primitive_trade_verified": true,
+  "independent_census": {
+    "p": 29,
+    "normalized_sets": 17550,
+    "actual_fibers": 64,
+    "upper_realizability_gap_fibers": 2,
+    "max_upper_gap": 23040
+  },
+  "census_compared_to_saved_trades": true,
+  "reviewer_script_sha256": "f17ffa26335910e0f02cc54c538ce86735ce85b523ac9fa028689b168efc79cd"
+}

@@ -1,0 +1,11 @@
+# Prior-art boundary, checked September 6, 2026
+
+| Ingredient | Primary source inspected | Consequence for this work |
+|---|---|---|
+| Pairwise rounding of discrete relaxations | [Ageev and Sviridenko, Pipage Rounding, 2004](https://link.springer.com/article/10.1023/B:JOCO.0000038913.96607.c2), publisher abstract | The occupancy transfer argument belongs to a known rounding pattern. The exact sign and capacity-box lemma are derived here; the subscription full text was not inspected, so no exact theorem match is asserted. |
+| Pruning a supplied affine code space | [Ashvinkumar, Habib and Srivastava, Algorithmic Improvements to List Decoding of Folded Reed-Solomon Codes, arXiv v1, 2025](https://arxiv.org/html/2508.12548v1), sections 1.1 and discussion | This paper reviews randomized coordinate conditioning and proves deterministic pruning of constant-dimensional spaces in near-linear time for general linear codes. It also treats faster randomized FRS pruning and asks about algebraic alternatives to expander-based derandomization. Our rank-three sampler is not a new general pruning algorithm. A finite coordinate-cover certificate would not resolve their general algorithmic questions. |
+| Rank-three incidence and familiar matroid summaries | [Round 11 audit](../round11/prior_art.md) | The entire flat incidence is the matroid itself. Renaming it does not create a new invariant. The finite equal-summary/different-minimum witness is a more specific candidate contribution. |
+
+The current potential contribution is the concrete combination of multiplicity-aware compilation, a separately implemented verifier, actual polynomial-space witnesses and operational cost measurements. No global absence-of-prior-invention claim is supportable. Literature searches establish positive overlaps and delimit comparisons; a negative search result does not establish originality.
+
+The next search concerns small coordinate query families whose coverage can be certified cheaply. Classical covering systems and existing deterministic pruning must be compared before promoting any new-method claim. Performance should include construction, certificate verification, candidate verification and the number of received words sharing the same space.

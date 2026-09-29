@@ -1,0 +1,35 @@
+{
+  "observed_at_utc": "2026-09-06T16:25:01.309600+00:00",
+  "mathematical_scope": "Root-derived resultant gcd, derivative valuation and aggregate tower inequality. Existing primitive polynomial, fiber identity and energy-to-triangle implication reused; no new external mathematical bound imported.",
+  "dependency_hashes": {
+    "research/kernel-discriminant.md": "7e1ad6608218b4ae29d9d8b9cd9ced2c8e3c6180093778b9da3d39a4e8f3abb0",
+    "research/parallel2-subgroup-2026-09-04.md": "d2d7a0e427a3eb9859d9c0045f048dc79a551325dcd1753722809705ef22f98b",
+    "research/parallel3-subgroup-2026-09-04.md": "d8bf6e1301a99f9dd8128a7a64b600ec6168057c46c1668d3808692f3585d28d",
+    "research/parallel43-energy-prime-exceptions-2026-09-06.md": "f865b3247e18b0e1478d6b3efee8e1aa786e12f4b1a7dc76adf4ac814342ce59",
+    "experiments/parallel2_subgroup_2026_09_04.py": "71704c284dce4efa63b153075472a02e8e9b41d9dffca0ba4e436a80b5c61793",
+    "experiments/cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288"
+  },
+  "primary_source_hashes": {
+    "sources/manifest.json": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+    "sources/mixed-periods-2026-09-04/shkredov-1504.04522.html": "be13a230cc3cfdb780fd8dca0606d35a6f561221cb3ba67a860be6f759a1f459",
+    "sources/sigma-subgroup-2026-09-05/mrss-1712.00410.pdf": "9154e144adaecd1aeb7ce87265b548328efd5ec811bb48d211043f41b8493477"
+  },
+  "compiled_backend": {
+    "package": "python-flint",
+    "version": "0.9.0",
+    "interpreter": "/opt/miniconda3/bin/python3",
+    "python_version": "3.13.2",
+    "installation": "project-ignored tmp/arithmetic/python-flint-0.9.0-cp313",
+    "metadata_sha256": "11a4b12677ac9762cb5741d077c22312cf901fb5f3a67cd167a8ffe265f7ef87",
+    "wheel_sha256": "aecca08cac3fb4a01947f41c1e448f1b957e72081164a44c60113084ca418e95",
+    "wheel_tag": "cp313-cp313-macosx_11_0_arm64",
+    "official_api_reference": "https://python-flint.readthedocs.io/en/latest/fmpz_poly.html",
+    "official_package_reference": "https://pypi.org/project/python-flint/",
+    "role": "Exact integer polynomial arithmetic only; no numerical root approximation or library-only primality verdict is used."
+  },
+  "factorization_scope": "Library factoring supplies candidates. The verifier recomputes both resultants, checks their gcd against the full prime-power product, and certifies every factor by trial division. Each eligible factor is tested by modular gcd and direct field counts.",
+  "no_general_converse_for_pair_gcd_assumed": true,
+  "no_uniform_valuation_bound_claimed": true,
+  "main_source_manifest_unchanged": true
+}

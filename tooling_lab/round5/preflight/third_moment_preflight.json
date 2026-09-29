@@ -1,0 +1,513 @@
+{
+  "status": "both twin third moments recovered without six-set enumeration",
+  "date": "2026-09-05",
+  "cases": [
+    {
+      "graph": "Paley13",
+      "q": 13,
+      "normalized_parameters": 11,
+      "normalization_maps_verified": 12,
+      "all_distinct_row_triple_type_checks": 297,
+      "tau_histogram": [
+        [
+          -6,
+          2
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "tau_even_power_sums": {
+        "0": 11,
+        "2": 140,
+        "4": 4016,
+        "6": 140480
+      },
+      "joint_edges_tau_histogram": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 6,
+          "count": 1
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -6,
+          "count": 1
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -6,
+          "count": 1
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": 2,
+          "count": 2
+        }
+      ],
+      "row_partition_numerators": {
+        "all_equal": -260,
+        "exactly_two_equal": -4680,
+        "all_distinct": -4056
+      },
+      "sum_T6_cubed": -8996,
+      "third_moment": [
+        -173,
+        33
+      ],
+      "six_column_subsets_enumerated": 0
+    },
+    {
+      "graph": "Paley17",
+      "q": 17,
+      "normalized_parameters": 15,
+      "normalization_maps_verified": 16,
+      "all_distinct_row_triple_type_checks": 695,
+      "tau_histogram": [
+        [
+          -6,
+          2
+        ],
+        [
+          -2,
+          7
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "tau_even_power_sums": {
+        "0": 15,
+        "2": 252,
+        "4": 7920,
+        "6": 280512
+      },
+      "joint_edges_tau_histogram": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -6,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 6,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -2,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 6,
+          "count": 2
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -2,
+          "count": 3
+        }
+      ],
+      "row_partition_numerators": {
+        "all_equal": -952,
+        "exactly_two_equal": -28560,
+        "all_distinct": 31824
+      },
+      "sum_T6_cubed": 2312,
+      "third_moment": [
+        17,
+        91
+      ],
+      "six_column_subsets_enumerated": 0
+    },
+    {
+      "graph": "Paley49",
+      "q": 49,
+      "normalized_parameters": 47,
+      "normalization_maps_verified": 48,
+      "all_distinct_row_triple_type_checks": 18471,
+      "tau_histogram": [
+        [
+          -10,
+          8
+        ],
+        [
+          -6,
+          4
+        ],
+        [
+          -2,
+          16
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          14,
+          3
+        ]
+      ],
+      "tau_even_power_sums": {
+        "0": 47,
+        "2": 2300,
+        "4": 251120,
+        "6": 35149760
+      },
+      "joint_edges_tau_histogram": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -6,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 2,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 10,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -10,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -2,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 6,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -10,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -2,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 6,
+          "count": 4
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -2,
+          "count": 8
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": 14,
+          "count": 3
+        }
+      ],
+      "row_partition_numerators": {
+        "all_equal": -99176,
+        "exactly_two_equal": -12496176,
+        "all_distinct": 30060912
+      },
+      "sum_T6_cubed": 17465560,
+      "third_moment": [
+        44555,
+        35673
+      ],
+      "six_column_subsets_enumerated": 0
+    },
+    {
+      "graph": "Peisert49",
+      "q": 49,
+      "normalized_parameters": 47,
+      "normalization_maps_verified": 48,
+      "all_distinct_row_triple_type_checks": 18471,
+      "tau_histogram": [
+        [
+          -10,
+          6
+        ],
+        [
+          -6,
+          6
+        ],
+        [
+          -2,
+          15
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          22,
+          2
+        ]
+      ],
+      "tau_even_power_sums": {
+        "0": 47,
+        "2": 2300,
+        "4": 552176,
+        "6": 233600960
+      },
+      "joint_edges_tau_histogram": [
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": -6,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            -1
+          ],
+          "tau": 2,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": -2,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            -1,
+            1
+          ],
+          "tau": 6,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": -2,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            -1
+          ],
+          "tau": 6,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -10,
+          "count": 6
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": -2,
+          "count": 3
+        },
+        {
+          "edges": [
+            1,
+            1,
+            1
+          ],
+          "tau": 22,
+          "count": 2
+        }
+      ],
+      "row_partition_numerators": {
+        "all_equal": -99176,
+        "exactly_two_equal": -12496176,
+        "all_distinct": 39092592
+      },
+      "sum_T6_cubed": 26497240,
+      "third_moment": [
+        6145,
+        3243
+      ],
+      "six_column_subsets_enumerated": 0
+    }
+  ],
+  "source_sha256": {
+    "third_moment_preflight.py": "f7d823b007b360776313fb253f7654d0d9f20119e17aa8073380a46c0d674252"
+  },
+  "acceptance_reference_sha256": "04e1f3c2912e6c98fab7b72845eb1886d8e29aa03a0b334a7ad03ce599ac010a",
+  "scope": "Tiny row-triple correctness preflight, not a general n>6 compiler or a historical novelty claim."
+}

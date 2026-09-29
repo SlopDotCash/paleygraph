@@ -1,0 +1,8 @@
+Lean (version 4.29.1, arm64-apple-darwin24.6.0, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)
+mathlib HEAD: 5e932f97dd25535344f80f9dd8da3aab83df0fe6
+source SHA-256: 2e72f8e51d8342d7e64b31281c6940bbc66cb9c057d45202185af43018316e4c
+exit code: 0
+axiom audit passed: True
+'PaleyResearch.witness_zero_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleyResearch.witness_moment_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaleyResearch.gaussian_eighth_moment_bound_fails' depends on axioms: [propext, Classical.choice, Quot.sound]

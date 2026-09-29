@@ -1,0 +1,340 @@
+{
+ "date": "2026-09-05",
+ "direction": "p2m",
+ "checks": 6241,
+ "failures": 0,
+ "witnesses": [],
+ "requests": [
+  {
+   "method": "POST",
+   "path": "/agent/refresh",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/verify?submission_id=965f3276-7f70-4916-9865-b8ca6c5ada62",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/verify?submission_id=6a5656c4-7ede-40bc-a230-2b366fba29aa",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/verify?submission_id=35802501-9a0a-4c58-84cc-c3bc2d6a8907",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/verify?submission_id=f31c31b7-907c-477a-b77f-6c00a2e986ad",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/973dac7a-fac5-4e8e-961a-936f59818faa",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/088f1fc8-5c05-4c9a-88ba-06444c4e3bef",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/3b819822-953a-4aec-8409-5f1197fa26a8",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/63bb5a7e-af3a-405c-ab99-53cb381ac121",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/3168650d-eaa9-4a62-b26e-2b51a554f39c",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/ca0607b1-a20c-4460-a5ab-61d9de0e8ad3",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/58b3552d-bb5c-42f6-8595-ecf402103ee1",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/theorems/cb279d48-6789-4966-9b30-fb95f7de7bc6",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/mission-proposals/b5e7121a-eb3c-48f1-a495-29fffd24e71d",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/mission-proposals/b5e7121a-eb3c-48f1-a495-29fffd24e71d/milestones",
+   "status": 200
+  },
+  {
+   "method": "GET",
+   "path": "/missions?limit=200&offset=0",
+   "status": 200
+  }
+ ],
+ "verdicts": {
+  "paley_shift_orthogonality": {
+   "http": 200,
+   "status": "ACCEPTED",
+   "error_message": "",
+   "theorem_id": "088f1fc8-5c05-4c9a-88ba-06444c4e3bef",
+   "submission_id": "965f3276-7f70-4916-9865-b8ca6c5ada62"
+  },
+  "paley_second_moment": {
+   "http": 200,
+   "status": "ACCEPTED",
+   "error_message": "",
+   "theorem_id": "3b819822-953a-4aec-8409-5f1197fa26a8",
+   "submission_id": "6a5656c4-7ede-40bc-a230-2b366fba29aa"
+  },
+  "paley_chung_bound": {
+   "http": 200,
+   "status": "ACCEPTED",
+   "error_message": "",
+   "theorem_id": "63bb5a7e-af3a-405c-ab99-53cb381ac121",
+   "submission_id": "35802501-9a0a-4c58-84cc-c3bc2d6a8907"
+  },
+  "paley_interval_nonresidue": {
+   "http": 200,
+   "status": "ACCEPTED",
+   "error_message": "",
+   "theorem_id": "3168650d-eaa9-4a62-b26e-2b51a554f39c",
+   "submission_id": "f31c31b7-907c-477a-b77f-6c00a2e986ad"
+  }
+ },
+ "theorems": {
+  "paley_two_set_conjecture": {
+   "http": 200,
+   "theorem_name": "paley_two_set_conjecture",
+   "status": "Open",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_shift_orthogonality": {
+   "http": 200,
+   "theorem_name": "paley_shift_orthogonality",
+   "status": "Proved",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_second_moment": {
+   "http": 200,
+   "theorem_name": "paley_second_moment",
+   "status": "Proved",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_chung_bound": {
+   "http": 200,
+   "theorem_name": "paley_chung_bound",
+   "status": "Proved",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_interval_nonresidue": {
+   "http": 200,
+   "theorem_name": "paley_interval_nonresidue",
+   "status": "Proved",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_karatsuba_amplification": {
+   "http": 200,
+   "theorem_name": "paley_karatsuba_amplification",
+   "status": "Open",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_hanson_petridis_difference_bound": {
+   "http": 200,
+   "theorem_name": "paley_hanson_petridis_difference_bound",
+   "status": "Open",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  },
+  "paley_hanson_petridis_clique_number": {
+   "http": 200,
+   "theorem_name": "paley_hanson_petridis_clique_number",
+   "status": "Open",
+   "mathlib_rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+   "deprecated_at": null,
+   "visibility": "private",
+   "is_private": null,
+   "private": null,
+   "created_by_username": null
+  }
+ },
+ "proposal": {
+  "http": 200,
+  "name": "Paley Graph Conjecture over Prime Fields",
+  "status": "Draft",
+  "visibility": "private",
+  "env": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "mission_type": "OpenProblem",
+  "main_item_id": "68aba001-86ca-4b07-b23d-601227941990",
+  "n_items": 8,
+  "fields": [
+   "combinatorics",
+   "number-theory"
+  ],
+  "items": [
+   {
+    "id": "68aba001-86ca-4b07-b23d-601227941990",
+    "kind": "reference",
+    "theorem_id": "973dac7a-fac5-4e8e-961a-936f59818faa",
+    "theorem_name": "paley_two_set_conjecture"
+   },
+   {
+    "id": "c0ee8331-ebf3-4101-8e60-6ac1ada55719",
+    "kind": "reference",
+    "theorem_id": "088f1fc8-5c05-4c9a-88ba-06444c4e3bef",
+    "theorem_name": "paley_shift_orthogonality"
+   },
+   {
+    "id": "da4793db-5464-45b0-accc-c7be6f58a2b8",
+    "kind": "reference",
+    "theorem_id": "3b819822-953a-4aec-8409-5f1197fa26a8",
+    "theorem_name": "paley_second_moment"
+   },
+   {
+    "id": "c584d555-71a0-4385-808c-0d96afeb3b7c",
+    "kind": "reference",
+    "theorem_id": "63bb5a7e-af3a-405c-ab99-53cb381ac121",
+    "theorem_name": "paley_chung_bound"
+   },
+   {
+    "id": "f4994443-2042-48f9-afc9-9e788a7f242d",
+    "kind": "reference",
+    "theorem_id": "3168650d-eaa9-4a62-b26e-2b51a554f39c",
+    "theorem_name": "paley_interval_nonresidue"
+   },
+   {
+    "id": "a4e1c07e-16ba-4e0b-9fc9-68080d39ae74",
+    "kind": "reference",
+    "theorem_id": "ca0607b1-a20c-4460-a5ab-61d9de0e8ad3",
+    "theorem_name": "paley_karatsuba_amplification"
+   },
+   {
+    "id": "4b34787b-d0d3-4b43-893c-e84dcded6df0",
+    "kind": "reference",
+    "theorem_id": "58b3552d-bb5c-42f6-8595-ecf402103ee1",
+    "theorem_name": "paley_hanson_petridis_difference_bound"
+   },
+   {
+    "id": "2ace7c8c-fa5d-4121-925e-829fb5db855d",
+    "kind": "reference",
+    "theorem_id": "cb279d48-6789-4966-9b30-fb95f7de7bc6",
+    "theorem_name": "paley_hanson_petridis_clique_number"
+   }
+  ],
+  "milestones": [
+   {
+    "sort_order": 0,
+    "theorem_id": "088f1fc8-5c05-4c9a-88ba-06444c4e3bef",
+    "item_id": "c0ee8331-ebf3-4101-8e60-6ac1ada55719",
+    "milestone_title": null
+   },
+   {
+    "sort_order": 1,
+    "theorem_id": "3b819822-953a-4aec-8409-5f1197fa26a8",
+    "item_id": "da4793db-5464-45b0-accc-c7be6f58a2b8",
+    "milestone_title": null
+   },
+   {
+    "sort_order": 2,
+    "theorem_id": "63bb5a7e-af3a-405c-ab99-53cb381ac121",
+    "item_id": "c584d555-71a0-4385-808c-0d96afeb3b7c",
+    "milestone_title": null
+   },
+   {
+    "sort_order": 3,
+    "theorem_id": "3168650d-eaa9-4a62-b26e-2b51a554f39c",
+    "item_id": "f4994443-2042-48f9-afc9-9e788a7f242d",
+    "milestone_title": null
+   },
+   {
+    "sort_order": 4,
+    "theorem_id": "ca0607b1-a20c-4460-a5ab-61d9de0e8ad3",
+    "item_id": "a4e1c07e-16ba-4e0b-9fc9-68080d39ae74",
+    "milestone_title": null
+   },
+   {
+    "sort_order": 5,
+    "theorem_id": "58b3552d-bb5c-42f6-8595-ecf402103ee1",
+    "item_id": "4b34787b-d0d3-4b43-893c-e84dcded6df0",
+    "milestone_title": null
+   },
+   {
+    "sort_order": 6,
+    "theorem_id": "cb279d48-6789-4966-9b30-fb95f7de7bc6",
+    "item_id": "2ace7c8c-fa5d-4121-925e-829fb5db855d",
+    "milestone_title": null
+   }
+  ]
+ },
+ "exact_arithmetic": {
+  "primes": [
+   3,
+   5,
+   7,
+   11,
+   13,
+   17,
+   19,
+   23,
+   29,
+   31
+  ],
+  "counts": {
+   "shift_orthogonality": 148,
+   "second_moment": 2936,
+   "chung_bound": 2936,
+   "interval_nonresidue": 148
+  }
+ },
+ "platform_version": "0.9.6",
+ "server_wall_seconds": 3.57,
+ "wall_seconds": 3.59
+}

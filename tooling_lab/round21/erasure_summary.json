@@ -1,0 +1,631 @@
+{
+  "status": "produced",
+  "scope": "Exact lattice-coordinate erasure decoding with scalar-invisible directions removed. No k-state table, full p-codebook at large p, asymptotic runtime claim or prize result.",
+  "cases": [
+    {
+      "name": "p17_basic_erase0",
+      "artifact": "p17_basic_erase0.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 0,
+      "visible_directions": 0,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 81,
+      "statuses": {
+        "complete": 81
+      },
+      "complete_counts": {
+        "0": 64,
+        "1": 17
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p17_basic_erase1",
+      "artifact": "p17_basic_erase1.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 1,
+      "visible_directions": 1,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 3,
+      "queries": 27,
+      "statuses": {
+        "complete": 27
+      },
+      "complete_counts": {
+        "0": 12,
+        "1": 14,
+        "3": 1
+      },
+      "maximum_observed_box": 3
+    },
+    {
+      "name": "p17_basic_erase2",
+      "artifact": "p17_basic_erase2.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 2,
+      "visible_directions": 2,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 9,
+      "queries": 9,
+      "statuses": {
+        "complete": 9
+      },
+      "complete_counts": {
+        "0": 2,
+        "2": 6,
+        "5": 1
+      },
+      "maximum_observed_box": 9
+    },
+    {
+      "name": "p17_basic_erase3",
+      "artifact": "p17_basic_erase3.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 3,
+      "visible_directions": 3,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 27,
+      "queries": 3,
+      "statuses": {
+        "complete": 3
+      },
+      "complete_counts": {
+        "4": 2,
+        "9": 1
+      },
+      "maximum_observed_box": 27
+    },
+    {
+      "name": "p17_basic_erase4",
+      "artifact": "p17_basic_erase4.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 4,
+      "visible_directions": 4,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 81,
+      "queries": 1,
+      "statuses": {
+        "complete": 1
+      },
+      "complete_counts": {
+        "17": 1
+      },
+      "maximum_observed_box": 81
+    },
+    {
+      "name": "p41_general_erase0",
+      "artifact": "p41_general_erase0.json",
+      "p": 41,
+      "N": 4,
+      "erasures": 0,
+      "visible_directions": 0,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 625,
+      "statuses": {
+        "complete": 625
+      },
+      "complete_counts": {
+        "0": 584,
+        "1": 41
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p41_general_erase1",
+      "artifact": "p41_general_erase1.json",
+      "p": 41,
+      "N": 4,
+      "erasures": 1,
+      "visible_directions": 1,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 5,
+      "queries": 125,
+      "statuses": {
+        "complete": 125
+      },
+      "complete_counts": {
+        "0": 102,
+        "1": 10,
+        "2": 8,
+        "3": 5
+      },
+      "maximum_observed_box": 5
+    },
+    {
+      "name": "p41_general_erase2",
+      "artifact": "p41_general_erase2.json",
+      "p": 41,
+      "N": 4,
+      "erasures": 2,
+      "visible_directions": 2,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 25,
+      "queries": 25,
+      "statuses": {
+        "complete": 25
+      },
+      "complete_counts": {
+        "0": 14,
+        "1": 4,
+        "6": 4,
+        "3": 2,
+        "7": 1
+      },
+      "maximum_observed_box": 25
+    },
+    {
+      "name": "p41_general_erase3",
+      "artifact": "p41_general_erase3.json",
+      "p": 41,
+      "N": 4,
+      "erasures": 3,
+      "visible_directions": 3,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 125,
+      "queries": 5,
+      "statuses": {
+        "complete": 5
+      },
+      "complete_counts": {
+        "1": 2,
+        "10": 2,
+        "19": 1
+      },
+      "maximum_observed_box": 125
+    },
+    {
+      "name": "p41_general_erase4",
+      "artifact": "p41_general_erase4.json",
+      "p": 41,
+      "N": 4,
+      "erasures": 4,
+      "visible_directions": 4,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 625,
+      "queries": 1,
+      "statuses": {
+        "complete": 1
+      },
+      "complete_counts": {
+        "41": 1
+      },
+      "maximum_observed_box": 625
+    },
+    {
+      "name": "p97_general_erase0",
+      "artifact": "p97_general_erase0.json",
+      "p": 97,
+      "N": 4,
+      "erasures": 0,
+      "visible_directions": 0,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 625,
+      "statuses": {
+        "complete": 625
+      },
+      "complete_counts": {
+        "0": 528,
+        "1": 97
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p97_general_erase1",
+      "artifact": "p97_general_erase1.json",
+      "p": 97,
+      "N": 4,
+      "erasures": 1,
+      "visible_directions": 1,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 5,
+      "queries": 125,
+      "statuses": {
+        "complete": 125
+      },
+      "complete_counts": {
+        "1": 30,
+        "0": 70,
+        "2": 12,
+        "3": 9,
+        "4": 4
+      },
+      "maximum_observed_box": 5
+    },
+    {
+      "name": "p97_general_erase2",
+      "artifact": "p97_general_erase2.json",
+      "p": 97,
+      "N": 4,
+      "erasures": 2,
+      "visible_directions": 2,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 25,
+      "queries": 25,
+      "statuses": {
+        "complete": 25
+      },
+      "complete_counts": {
+        "3": 4,
+        "2": 2,
+        "0": 6,
+        "4": 4,
+        "8": 4,
+        "1": 2,
+        "10": 2,
+        "11": 1
+      },
+      "maximum_observed_box": 25
+    },
+    {
+      "name": "p97_general_erase3",
+      "artifact": "p97_general_erase3.json",
+      "p": 97,
+      "N": 4,
+      "erasures": 3,
+      "visible_directions": 3,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 125,
+      "queries": 5,
+      "statuses": {
+        "complete": 5
+      },
+      "complete_counts": {
+        "8": 2,
+        "24": 2,
+        "33": 1
+      },
+      "maximum_observed_box": 125
+    },
+    {
+      "name": "p97_general_erase4",
+      "artifact": "p97_general_erase4.json",
+      "p": 97,
+      "N": 4,
+      "erasures": 4,
+      "visible_directions": 4,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 625,
+      "queries": 1,
+      "statuses": {
+        "complete": 1
+      },
+      "complete_counts": {
+        "97": 1
+      },
+      "maximum_observed_box": 625
+    },
+    {
+      "name": "squared_relation_erase1",
+      "artifact": "squared_relation_erase1.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 1,
+      "visible_directions": 1,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 32,
+      "statuses": {
+        "complete": 32
+      },
+      "complete_counts": {
+        "1": 17,
+        "0": 15
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "squared_relation_erase3",
+      "artifact": "squared_relation_erase3.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 3,
+      "visible_directions": 3,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 168,
+      "queries": 7,
+      "statuses": {
+        "complete": 7
+      },
+      "complete_counts": {
+        "5": 1,
+        "2": 6
+      },
+      "maximum_observed_box": 140
+    },
+    {
+      "name": "scalar_p_erase1",
+      "artifact": "scalar_p_erase1.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 1,
+      "visible_directions": 1,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 17,
+      "queries": 34,
+      "statuses": {
+        "complete": 34
+      },
+      "complete_counts": {
+        "1": 17,
+        "0": 17
+      },
+      "maximum_observed_box": 17
+    },
+    {
+      "name": "scalar_p_erase3",
+      "artifact": "scalar_p_erase3.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 3,
+      "visible_directions": 0,
+      "invisible_directions": 3,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 17,
+      "statuses": {
+        "complete": 17
+      },
+      "complete_counts": {
+        "1": 17
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "scalar_p_squared_erase1",
+      "artifact": "scalar_p_squared_erase1.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 1,
+      "visible_directions": 1,
+      "invisible_directions": 0,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 17,
+      "queries": 34,
+      "statuses": {
+        "complete": 34
+      },
+      "complete_counts": {
+        "1": 17,
+        "0": 17
+      },
+      "maximum_observed_box": 17
+    },
+    {
+      "name": "scalar_p_squared_erase3",
+      "artifact": "scalar_p_squared_erase3.json",
+      "p": 17,
+      "N": 4,
+      "erasures": 3,
+      "visible_directions": 0,
+      "invisible_directions": 3,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 18,
+      "statuses": {
+        "complete": 18
+      },
+      "complete_counts": {
+        "1": 17,
+        "0": 1
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase4",
+      "artifact": "p2013265921_erase4.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 4,
+      "visible_directions": 4,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 128,
+      "statuses": {
+        "complete": 128
+      },
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase8",
+      "artifact": "p2013265921_erase8.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 8,
+      "visible_directions": 8,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 128,
+      "statuses": {
+        "complete": 128
+      },
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase13",
+      "artifact": "p2013265921_erase13.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 13,
+      "visible_directions": 13,
+      "invisible_directions": 0,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 128,
+      "statuses": {
+        "complete": 128
+      },
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase14",
+      "artifact": "p2013265921_erase14.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 14,
+      "visible_directions": 13,
+      "invisible_directions": 1,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 128,
+      "statuses": {
+        "complete": 128
+      },
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase15",
+      "artifact": "p2013265921_erase15.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 15,
+      "visible_directions": 13,
+      "invisible_directions": 2,
+      "universal_unique_completion": true,
+      "universal_candidate_box_cap": 1,
+      "queries": 128,
+      "statuses": {
+        "complete": 128
+      },
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase16",
+      "artifact": "p2013265921_erase16.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 16,
+      "visible_directions": 13,
+      "invisible_directions": 3,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 2,
+      "queries": 128,
+      "statuses": {
+        "complete": 128
+      },
+      "complete_counts": {
+        "1": 64,
+        "0": 64
+      },
+      "maximum_observed_box": 1
+    },
+    {
+      "name": "p2013265921_erase20",
+      "artifact": "p2013265921_erase20.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 20,
+      "visible_directions": 13,
+      "invisible_directions": 7,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 8192,
+      "queries": 16,
+      "statuses": {
+        "complete": 16
+      },
+      "complete_counts": {
+        "1": 8,
+        "0": 8
+      },
+      "maximum_observed_box": 256
+    },
+    {
+      "name": "p2013265921_erase24",
+      "artifact": "p2013265921_erase24.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 24,
+      "visible_directions": 13,
+      "invisible_directions": 11,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 419904,
+      "queries": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "complete_counts": {
+        "1": 3,
+        "0": 3
+      },
+      "maximum_observed_box": 82944
+    },
+    {
+      "name": "p2013265921_erase32",
+      "artifact": "p2013265921_erase32.json",
+      "p": 2013265921,
+      "N": 64,
+      "erasures": 32,
+      "visible_directions": 13,
+      "invisible_directions": 19,
+      "universal_unique_completion": false,
+      "universal_candidate_box_cap": 110612791296,
+      "queries": 6,
+      "statuses": {
+        "budget_exceeded": 6
+      },
+      "complete_counts": {
+        "None": 6
+      },
+      "maximum_observed_box": 53106278400
+    }
+  ],
+  "fpylll_version": "0.6.4",
+  "source_sha256": {
+    "erasure_experiments.py": "37d6b5193484f9283f8599472f8e6d4bbae3ea6d43c9caa67170aab9102adaaf",
+    "lattice_erasure.py": "522c7486d34c44c68ca9810b21886041e54f5ac86508d1454d2ba7228a3bd603",
+    "../round17/realizability.py": "6b53d3bafb89cacf82210b6fdead586d39b88bc40b657ad98f5c8b57c9a17110",
+    "../round19/projection_codec.py": "c250b5b9d6563ae4c76f9d2c6906b8e73c625c6900d4fe2704fb6e1946682723"
+  },
+  "input_sha256": {
+    "../round20/p41_general.json": "aca5d690aa18e7f474924f60cb331c49e9638f3c345ab047ff4a937601bf6095",
+    "../round20/p97_general.json": "c15b0490561d324088f1b2a9b3f3c50be98535c1e63f3c88ca30420f8c8f2905",
+    "../round17/norm_compression.json": "dee00880cce3b58aae942755430b045757e8231dc529461940d3d68a59ea7f7c"
+  }
+}

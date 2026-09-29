@@ -1,0 +1,8 @@
+{"name": "p17_basic_erase2", "actual_pairs": 16, "records": 12, "separated": 4}
+{"name": "p17_basic_erase4", "actual_pairs": 136, "records": 12, "separated": 4}
+{"name": "p41_general_erase2", "actual_pairs": 87, "records": 12, "separated": 4}
+{"name": "p97_general_erase2", "actual_pairs": 295, "records": 12, "separated": 5}
+{"name": "p97_general_erase4", "actual_pairs": 4656, "records": 12, "separated": 5}
+{"name": "squared_relation_erase3", "actual_pairs": 16, "records": 12, "separated": 6}
+{"name": "scalar_p_squared_erase1", "actual_pairs": 0, "records": 6, "separated": 0}
+{"name": "scalar_p_squared_erase3", "actual_pairs": 0, "records": 0, "separated": 0}

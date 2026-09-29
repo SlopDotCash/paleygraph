@@ -1,0 +1,62 @@
+{
+  "q": 49,
+  "records": [
+    {
+      "monochromatic": false,
+      "theta": -6,
+      "count": 12
+    },
+    {
+      "monochromatic": false,
+      "theta": 2,
+      "count": 12
+    },
+    {
+      "monochromatic": false,
+      "theta": 10,
+      "count": 12
+    },
+    {
+      "monochromatic": true,
+      "theta": -2,
+      "count": 8
+    },
+    {
+      "monochromatic": true,
+      "theta": 14,
+      "count": 3
+    }
+  ],
+  "family_power_sums": [
+    {
+      "monochromatic": false,
+      "powers": [
+        36,
+        72,
+        1680,
+        9504,
+        135744,
+        1107072,
+        12560640
+      ]
+    },
+    {
+      "monochromatic": true,
+      "powers": [
+        11,
+        26,
+        620,
+        8168,
+        115376,
+        1613216,
+        22589120
+      ]
+    }
+  ],
+  "normalized_parameter_count": 47,
+  "ordered_distinct_row_weight": 2352,
+  "normalization_contract": "Requires independently verified normalized-pair transitivity under row/column permutations and complementation.",
+  "invariant": "theta=e01*e02*e12*tau; monochromatic iff theta mod8=(15-q) mod8",
+  "input_inventory_rows": 11,
+  "folded_inventory_rows": 5
+}

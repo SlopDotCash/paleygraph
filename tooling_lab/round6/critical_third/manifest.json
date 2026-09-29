@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 14416,
+      "sha256": "4d171efc3abd7d3a80ad55ea3a8a6cab55d1351cc28f262c3dac84221b214959"
+    },
+    {
+      "path": "compile_q_polynomials.py",
+      "bytes": 7245,
+      "sha256": "d6d5265ddd0c01b2bc03042f5c1d2a6a2040218935cd54df8fe600cb48bf930f"
+    },
+    {
+      "path": "derive_scaling.py",
+      "bytes": 9888,
+      "sha256": "3d4668d046aecc3230dbd7a5036f8bc66da1fba630ef77933aaff1cc0112d3b5"
+    },
+    {
+      "path": "inventory_free.py",
+      "bytes": 5252,
+      "sha256": "bafd3e3931f072902897be9163c455f032970900b6956561c62f9d62a5db7219"
+    },
+    {
+      "path": "inventory_free_results.json",
+      "bytes": 15198,
+      "sha256": "d6f5581d8c8fb9370be05ffd0fac673481b14670865f704412998c95d6ae14f3"
+    },
+    {
+      "path": "q_polynomials.json",
+      "bytes": 100131,
+      "sha256": "8ee7458b1a79e83dba600061a057da9a1d89b3a98c1e76c8d0dda42572bbc7d6"
+    },
+    {
+      "path": "runtime.json",
+      "bytes": 364,
+      "sha256": "337664e8dc8d3b5783d17f4b28ae2355fd066d5f56b98caa63229c0c24239848"
+    },
+    {
+      "path": "scaling_results.json",
+      "bytes": 57417,
+      "sha256": "6559c71f7ca767d32d359197d4d195a2e396f5a25ba5ef76c71a0c2e60672249"
+    }
+  ],
+  "scope": "Exact polynomial compilation and saved critical-scaling/application outputs; prior sources and inputs are hash-bound in the result files."
+}

@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "plot_results.py": "aacc8e7474d5e49a119f834d577d2464bec4a9ef75f4d3e0716fe3a6aefbcf84"
+  },
+  "input_sha256": {
+    "projection_scale.json": "882f8310347a29c03450d1b5d1606926984bceb94e0c83e48ae23cdc908b3690",
+    "projection_toy.json": "0ef62f80bafa17e7db79253669cef95cef046e7ee3702aa78e8485c671c495b0"
+  },
+  "scope": "Exact fractions converted to floating point only for plotting; chosen-input diagnostics, not uniform limits."
+}

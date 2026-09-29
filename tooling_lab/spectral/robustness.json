@@ -1,0 +1,1102 @@
+{
+  "status": "post-hoc robustness; no held-out validation or theorem",
+  "fixed_witness_thresholds": [
+    {
+      "q": 101,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 13,
+          "additive_closure_size": 101,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 5,
+          "additive_closure_size": 101,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 101,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 101,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 101,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        }
+      ]
+    },
+    {
+      "q": 257,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 5,
+          "additive_closure_size": 257,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        }
+      ]
+    },
+    {
+      "q": 401,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 401,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        }
+      ]
+    },
+    {
+      "q": 1009,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 1009,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        }
+      ]
+    },
+    {
+      "q": 2017,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        }
+      ]
+    },
+    {
+      "q": 4001,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 1,
+          "additive_closure_size": 1,
+          "proper_subfield_in_current_coordinates": false,
+          "anchor_normalized_prime_subfield_recovered": false
+        }
+      ]
+    },
+    {
+      "q": 121,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 11,
+          "additive_closure_size": 11,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 11,
+          "additive_closure_size": 11,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 5,
+          "additive_closure_size": 11,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 11,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 11,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        }
+      ]
+    },
+    {
+      "q": 289,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 17,
+          "additive_closure_size": 17,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 17,
+          "additive_closure_size": 17,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 17,
+          "additive_closure_size": 17,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 13,
+          "additive_closure_size": 17,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 3,
+          "additive_closure_size": 17,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        }
+      ]
+    },
+    {
+      "q": 529,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 23,
+          "additive_closure_size": 23,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 23,
+          "additive_closure_size": 23,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 23,
+          "additive_closure_size": 23,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 23,
+          "additive_closure_size": 23,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 23,
+          "additive_closure_size": 23,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        }
+      ]
+    },
+    {
+      "q": 961,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 31,
+          "additive_closure_size": 31,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 31,
+          "additive_closure_size": 31,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 31,
+          "additive_closure_size": 31,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 31,
+          "additive_closure_size": 31,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 31,
+          "additive_closure_size": 31,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        }
+      ]
+    },
+    {
+      "q": 1849,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 43,
+          "additive_closure_size": 43,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 43,
+          "additive_closure_size": 43,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 43,
+          "additive_closure_size": 43,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 43,
+          "additive_closure_size": 43,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 43,
+          "additive_closure_size": 43,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        }
+      ]
+    },
+    {
+      "q": 3721,
+      "thresholds": [
+        {
+          "threshold": [
+            1,
+            3
+          ],
+          "translation_count": 61,
+          "additive_closure_size": 61,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            1,
+            2
+          ],
+          "translation_count": 61,
+          "additive_closure_size": 61,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            5
+          ],
+          "translation_count": 61,
+          "additive_closure_size": 61,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            2,
+            3
+          ],
+          "translation_count": 61,
+          "additive_closure_size": 61,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        },
+        {
+          "threshold": [
+            3,
+            4
+          ],
+          "translation_count": 61,
+          "additive_closure_size": 61,
+          "proper_subfield_in_current_coordinates": true,
+          "anchor_normalized_prime_subfield_recovered": true
+        }
+      ]
+    }
+  ],
+  "affine_coordinate_controls": [
+    {
+      "q": 101,
+      "scale": 4,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        7
+      ],
+      "exact_translation_covariance_checks": 101,
+      "exact_character_entries_checked": 576,
+      "before": {
+        "translation_count": 3,
+        "additive_closure_size": 101,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      },
+      "after": {
+        "translation_count": 3,
+        "additive_closure_size": 101,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      }
+    },
+    {
+      "q": 257,
+      "scale": 2,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        5
+      ],
+      "exact_translation_covariance_checks": 257,
+      "exact_character_entries_checked": 3969,
+      "before": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      },
+      "after": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      }
+    },
+    {
+      "q": 401,
+      "scale": 2,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        5
+      ],
+      "exact_translation_covariance_checks": 401,
+      "exact_character_entries_checked": 9801,
+      "before": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      },
+      "after": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      }
+    },
+    {
+      "q": 1009,
+      "scale": 2,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        5
+      ],
+      "exact_translation_covariance_checks": 1009,
+      "exact_character_entries_checked": 63001,
+      "before": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      },
+      "after": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      }
+    },
+    {
+      "q": 2017,
+      "scale": 2,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        5
+      ],
+      "exact_translation_covariance_checks": 2017,
+      "exact_character_entries_checked": 253009,
+      "before": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      },
+      "after": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      }
+    },
+    {
+      "q": 4001,
+      "scale": 2,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        5
+      ],
+      "exact_translation_covariance_checks": 4001,
+      "exact_character_entries_checked": 998001,
+      "before": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      },
+      "after": {
+        "translation_count": 1,
+        "additive_closure_size": 1,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": false
+      }
+    },
+    {
+      "q": 121,
+      "scale": 11,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        14
+      ],
+      "exact_translation_covariance_checks": 121,
+      "exact_character_entries_checked": 841,
+      "before": {
+        "translation_count": 5,
+        "additive_closure_size": 11,
+        "proper_subfield_in_current_coordinates": true,
+        "anchor_normalized_prime_subfield_recovered": true
+      },
+      "after": {
+        "translation_count": 5,
+        "additive_closure_size": 11,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": true
+      }
+    },
+    {
+      "q": 289,
+      "scale": 18,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        21
+      ],
+      "exact_translation_covariance_checks": 289,
+      "exact_character_entries_checked": 5041,
+      "before": {
+        "translation_count": 17,
+        "additive_closure_size": 17,
+        "proper_subfield_in_current_coordinates": true,
+        "anchor_normalized_prime_subfield_recovered": true
+      },
+      "after": {
+        "translation_count": 17,
+        "additive_closure_size": 17,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": true
+      }
+    },
+    {
+      "q": 529,
+      "scale": 23,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        26
+      ],
+      "exact_translation_covariance_checks": 529,
+      "exact_character_entries_checked": 17161,
+      "before": {
+        "translation_count": 23,
+        "additive_closure_size": 23,
+        "proper_subfield_in_current_coordinates": true,
+        "anchor_normalized_prime_subfield_recovered": true
+      },
+      "after": {
+        "translation_count": 23,
+        "additive_closure_size": 23,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": true
+      }
+    },
+    {
+      "q": 961,
+      "scale": 31,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        34
+      ],
+      "exact_translation_covariance_checks": 961,
+      "exact_character_entries_checked": 57121,
+      "before": {
+        "translation_count": 31,
+        "additive_closure_size": 31,
+        "proper_subfield_in_current_coordinates": true,
+        "anchor_normalized_prime_subfield_recovered": true
+      },
+      "after": {
+        "translation_count": 31,
+        "additive_closure_size": 31,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": true
+      }
+    },
+    {
+      "q": 1849,
+      "scale": 43,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        46
+      ],
+      "exact_translation_covariance_checks": 1849,
+      "exact_character_entries_checked": 212521,
+      "before": {
+        "translation_count": 43,
+        "additive_closure_size": 43,
+        "proper_subfield_in_current_coordinates": true,
+        "anchor_normalized_prime_subfield_recovered": true
+      },
+      "after": {
+        "translation_count": 43,
+        "additive_closure_size": 43,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": true
+      }
+    },
+    {
+      "q": 3721,
+      "scale": 62,
+      "offset": 3,
+      "new_anchors": [
+        3,
+        65
+      ],
+      "exact_translation_covariance_checks": 3721,
+      "exact_character_entries_checked": 863041,
+      "before": {
+        "translation_count": 61,
+        "additive_closure_size": 61,
+        "proper_subfield_in_current_coordinates": true,
+        "anchor_normalized_prime_subfield_recovered": true
+      },
+      "after": {
+        "translation_count": 61,
+        "additive_closure_size": 61,
+        "proper_subfield_in_current_coordinates": false,
+        "anchor_normalized_prime_subfield_recovered": true
+      }
+    }
+  ],
+  "tail_window_controls": [
+    {
+      "q": 101,
+      "tail_window": 0.01,
+      "tail_rank": 2,
+      "radius_H": 0.7826463977624244,
+      "tail_subspace": {
+        "max_abs_overlap": 0.4293127489196076,
+        "maximizing_shift": 25,
+        "median_abs_overlap": 0.16046021186109488,
+        "count_ge_0_75": 0
+      },
+      "tail_witness_rayleigh_H": -0.7826463977624225
+    },
+    {
+      "q": 101,
+      "tail_window": 0.025,
+      "tail_rank": 3,
+      "radius_H": 0.7826463977624244,
+      "tail_subspace": {
+        "max_abs_overlap": 0.7974668393246206,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.23280958317770228,
+        "count_ge_0_75": 2
+      },
+      "tail_witness_rayleigh_H": -0.7621493423472057
+    },
+    {
+      "q": 101,
+      "tail_window": 0.05,
+      "tail_rank": 3,
+      "radius_H": 0.7826463977624244,
+      "tail_subspace": {
+        "max_abs_overlap": 0.7974668393246206,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.23280958317770228,
+        "count_ge_0_75": 2
+      },
+      "tail_witness_rayleigh_H": -0.7621493423472057
+    },
+    {
+      "q": 401,
+      "tail_window": 0.01,
+      "tail_rank": 2,
+      "radius_H": 0.8794977323882048,
+      "tail_subspace": {
+        "max_abs_overlap": 0.30285067199519555,
+        "maximizing_shift": 123,
+        "median_abs_overlap": 0.10564080682543507,
+        "count_ge_0_75": 0
+      },
+      "tail_witness_rayleigh_H": -0.8794977323882057
+    },
+    {
+      "q": 401,
+      "tail_window": 0.025,
+      "tail_rank": 3,
+      "radius_H": 0.8794977323882048,
+      "tail_subspace": {
+        "max_abs_overlap": 0.42057234770474067,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.14511513395861075,
+        "count_ge_0_75": 0
+      },
+      "tail_witness_rayleigh_H": -0.8688765206508924
+    },
+    {
+      "q": 401,
+      "tail_window": 0.05,
+      "tail_rank": 5,
+      "radius_H": 0.8794977323882048,
+      "tail_subspace": {
+        "max_abs_overlap": 0.4226867834675643,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.19348354396163014,
+        "count_ge_0_75": 0
+      },
+      "tail_witness_rayleigh_H": -0.8687062368280561
+    },
+    {
+      "q": 289,
+      "tail_window": 0.01,
+      "tail_rank": 1,
+      "radius_H": 0.9699108946780507,
+      "tail_subspace": {
+        "max_abs_overlap": 0.7901713710467929,
+        "maximizing_shift": 4,
+        "median_abs_overlap": 0.0331007144476754,
+        "count_ge_0_75": 2
+      },
+      "tail_witness_rayleigh_H": 0.9699108946780512
+    },
+    {
+      "q": 289,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "radius_H": 0.9699108946780507,
+      "tail_subspace": {
+        "max_abs_overlap": 0.7901713710467929,
+        "maximizing_shift": 4,
+        "median_abs_overlap": 0.0331007144476754,
+        "count_ge_0_75": 2
+      },
+      "tail_witness_rayleigh_H": 0.9699108946780512
+    },
+    {
+      "q": 289,
+      "tail_window": 0.05,
+      "tail_rank": 1,
+      "radius_H": 0.9699108946780507,
+      "tail_subspace": {
+        "max_abs_overlap": 0.7901713710467929,
+        "maximizing_shift": 4,
+        "median_abs_overlap": 0.0331007144476754,
+        "count_ge_0_75": 2
+      },
+      "tail_witness_rayleigh_H": 0.9699108946780512
+    },
+    {
+      "q": 961,
+      "tail_window": 0.01,
+      "tail_rank": 1,
+      "radius_H": 0.9811001103143429,
+      "tail_subspace": {
+        "max_abs_overlap": 0.9221324599394898,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.027623234221103216,
+        "count_ge_0_75": 30
+      },
+      "tail_witness_rayleigh_H": 0.9811001103143452
+    },
+    {
+      "q": 961,
+      "tail_window": 0.025,
+      "tail_rank": 1,
+      "radius_H": 0.9811001103143429,
+      "tail_subspace": {
+        "max_abs_overlap": 0.9221324599394898,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.027623234221103216,
+        "count_ge_0_75": 30
+      },
+      "tail_witness_rayleigh_H": 0.9811001103143452
+    },
+    {
+      "q": 961,
+      "tail_window": 0.05,
+      "tail_rank": 1,
+      "radius_H": 0.9811001103143429,
+      "tail_subspace": {
+        "max_abs_overlap": 0.9221324599394898,
+        "maximizing_shift": 1,
+        "median_abs_overlap": 0.027623234221103216,
+        "count_ge_0_75": 30
+      },
+      "tail_witness_rayleigh_H": 0.9811001103143452
+    }
+  ],
+  "source_sha256": "ddd2572401c7460a43f1bafc4beef84f8faff8db5737346d80559f398be59e0c"
+}

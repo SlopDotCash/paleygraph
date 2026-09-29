@@ -1,0 +1,161 @@
+{
+  "status": "exact inventory and normalization validation passed; large tau arrays independently sampled",
+  "cases": [
+    {
+      "p": 13,
+      "inventory_file": "inventory_p13.json",
+      "inventory_sha256": "7dc5302a6f72555769ee220573c8bb3c2edcbf217ee8690a2cae8ea04a9793ab",
+      "all_character_values_verified": 13,
+      "direct_tau_rows": 13,
+      "direct_integer_terms": 169,
+      "full_tau_array_independently_recomputed": true,
+      "literal_triple_type_checks": 11,
+      "reflection_and_signed_inversion_parameters_checked": 11,
+      "affine_sign_map_point_checks": 156,
+      "direct_row_third_moment": {
+        "all_unordered_distinct_row_triples": 286,
+        "all_ordered_two_equal_pairs": 156,
+        "third_moment": [
+          -173,
+          33
+        ]
+      },
+      "seconds": 0.0042681659979280084
+    },
+    {
+      "p": 17,
+      "inventory_file": "inventory_p17.json",
+      "inventory_sha256": "71e06f865e60b2fb7a657a5e3bcb5668199fd10a34d04a7620146923efbce444",
+      "all_character_values_verified": 17,
+      "direct_tau_rows": 17,
+      "direct_integer_terms": 289,
+      "full_tau_array_independently_recomputed": true,
+      "literal_triple_type_checks": 15,
+      "reflection_and_signed_inversion_parameters_checked": 15,
+      "affine_sign_map_point_checks": 272,
+      "direct_row_third_moment": {
+        "all_unordered_distinct_row_triples": 680,
+        "all_ordered_two_equal_pairs": 272,
+        "third_moment": [
+          17,
+          91
+        ]
+      },
+      "seconds": 0.1711062079994008
+    },
+    {
+      "p": 29,
+      "inventory_file": "inventory_p29.json",
+      "inventory_sha256": "75d6ba163f4727b5ee63f32a8d499a9b8e589e88ccbcbc8ae10b506a17fcc2e4",
+      "all_character_values_verified": 29,
+      "direct_tau_rows": 29,
+      "direct_integer_terms": 841,
+      "full_tau_array_independently_recomputed": true,
+      "literal_triple_type_checks": 27,
+      "reflection_and_signed_inversion_parameters_checked": 27,
+      "affine_sign_map_point_checks": 812,
+      "direct_row_third_moment": {
+        "all_unordered_distinct_row_triples": 3654,
+        "all_ordered_two_equal_pairs": 812,
+        "third_moment": [
+          271,
+          117
+        ]
+      },
+      "seconds": 0.18375758299953304
+    },
+    {
+      "p": 101,
+      "inventory_file": "inventory_p101.json",
+      "inventory_sha256": "0a17251ae818b6c39f8bd6e1b5fcb5a3132065939786a5fc0fb399f7fdaf55b8",
+      "all_character_values_verified": 101,
+      "direct_tau_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_tau_array_independently_recomputed": true,
+      "literal_triple_type_checks": 99,
+      "reflection_and_signed_inversion_parameters_checked": 99,
+      "affine_sign_map_point_checks": 10100,
+      "direct_row_third_moment": null,
+      "seconds": 0.007022958001471125
+    },
+    {
+      "p": 1297,
+      "inventory_file": "inventory_p1297.json",
+      "inventory_sha256": "980ca8541473952efedf44ea417c30ca143215b9d81df31d860b2a04e48702ba",
+      "all_character_values_verified": 1297,
+      "direct_tau_rows": 1297,
+      "direct_integer_terms": 1682209,
+      "full_tau_array_independently_recomputed": true,
+      "literal_triple_type_checks": 3,
+      "reflection_and_signed_inversion_parameters_checked": 1295,
+      "affine_sign_map_point_checks": 35,
+      "direct_row_third_moment": null,
+      "seconds": 1.1688269169972045
+    },
+    {
+      "p": 65537,
+      "inventory_file": "inventory_p65537.json",
+      "inventory_sha256": "6ecb808c821f608e886a55e8734fa5dfb23b23c753c5784514e9535ca1be9b1d",
+      "all_character_values_verified": 65537,
+      "direct_tau_rows": 33,
+      "direct_integer_terms": 2162721,
+      "full_tau_array_independently_recomputed": false,
+      "literal_triple_type_checks": 3,
+      "reflection_and_signed_inversion_parameters_checked": 65535,
+      "affine_sign_map_point_checks": 35,
+      "direct_row_third_moment": null,
+      "seconds": 2.380836707990966
+    },
+    {
+      "p": 1000033,
+      "inventory_file": "inventory_p1000033.json",
+      "inventory_sha256": "d00469d3c17c4a402a4549ea63eeca55b56b4c41aab93ccc70382dafe18f3f20",
+      "all_character_values_verified": 1000033,
+      "direct_tau_rows": 33,
+      "direct_integer_terms": 33001089,
+      "full_tau_array_independently_recomputed": false,
+      "literal_triple_type_checks": 3,
+      "reflection_and_signed_inversion_parameters_checked": 1000031,
+      "affine_sign_map_point_checks": 35,
+      "direct_row_third_moment": null,
+      "seconds": 33.453540542002884
+    }
+  ],
+  "guard_rejections": [
+    {
+      "args": [],
+      "error": "usage: trace_inventory p output_tau.bin"
+    },
+    {
+      "args": [
+        "9",
+        "/Users/shawwalters/Desktop/paleygraph/tooling_lab/round5/trace_backend/rejected_should_not_exist.bin"
+      ],
+      "error": "p outside prime Paley degree6 transform domain"
+    },
+    {
+      "args": [
+        "49",
+        "/Users/shawwalters/Desktop/paleygraph/tooling_lab/round5/trace_backend/rejected_should_not_exist.bin"
+      ],
+      "error": "field parameter is not prime"
+    },
+    {
+      "args": [
+        "15",
+        "/Users/shawwalters/Desktop/paleygraph/tooling_lab/round5/trace_backend/rejected_should_not_exist.bin"
+      ],
+      "error": "p outside prime Paley degree6 transform domain"
+    },
+    {
+      "args": [
+        "5242889",
+        "/Users/shawwalters/Desktop/paleygraph/tooling_lab/round5/trace_backend/rejected_should_not_exist.bin"
+      ],
+      "error": "p outside prime Paley degree6 transform domain"
+    }
+  ],
+  "preflight_sha256": "4c1bc914183ddf97486a7740ea95cc63b3d74d877d3616fc6c68d743bf47c04f",
+  "elapsed_seconds": 37.70037037500879,
+  "source_sha256": "95083166e5343406975707cd080d4d4998e1297572c301317f7af6367e56daf2"
+}

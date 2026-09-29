@@ -1,0 +1,110 @@
+{
+  "status": "independent finite certificate checks passed; full goal unproved",
+  "check_counts": {
+    "fixed_parameters": 1,
+    "independent_trial_primality": 1,
+    "subgroup_order": 1,
+    "triangle_equation": 1,
+    "one_distinct_triangle_orbit": 1,
+    "independent_integer_inverse_certificate": 1,
+    "six_distinct_exponents": 119,
+    "opposite_free_exponents": 119,
+    "distinct_canonical_orbit": 119,
+    "direct_zero_sum": 119,
+    "independent_all_product_partitions_unbalanced": 119,
+    "all_proper_subsets_checked": 119,
+    "independent_integral_quotient_certificate": 119,
+    "minimum_length_and_norm_arithmetic": 119,
+    "minimum_cycle_rank_arithmetic": 65,
+    "complete_minimum_length_profile": 1,
+    "prior_independent_total_count": 1,
+    "prior_independent_triangle_count": 1
+  },
+  "profile": [
+    {
+      "kind": "primitive",
+      "minimum_length": 4,
+      "orbits": 20,
+      "example": [
+        0,
+        1,
+        10,
+        36,
+        82,
+        120
+      ]
+    },
+    {
+      "kind": "primitive",
+      "minimum_length": 38,
+      "orbits": 1,
+      "example": [
+        0,
+        8,
+        16,
+        45,
+        62,
+        100
+      ]
+    },
+    {
+      "kind": "primitive",
+      "minimum_length": 40,
+      "orbits": 9,
+      "example": [
+        0,
+        1,
+        9,
+        10,
+        46,
+        120
+      ]
+    },
+    {
+      "kind": "primitive",
+      "minimum_length": 42,
+      "orbits": 17,
+      "example": [
+        0,
+        1,
+        9,
+        28,
+        37,
+        111
+      ]
+    },
+    {
+      "kind": "primitive",
+      "minimum_length": 44,
+      "orbits": 18,
+      "example": [
+        0,
+        6,
+        18,
+        35,
+        52,
+        108
+      ]
+    },
+    {
+      "kind": "triangular",
+      "minimum_length": 2,
+      "orbits": 54,
+      "example": [
+        0,
+        1,
+        2,
+        3,
+        19,
+        21
+      ]
+    }
+  ],
+  "certificate_sha256": "dbda8295da9bd2804abfe703091cd405915fa8599c4e41ab46e8e67864ca594f",
+  "input_sha256": {
+    "experiments/parallel31_check_certificate_2026_09_05.py": "0998891eec2b4e8e4d82f2a209049f708507a966826553b411d95db9c10d4856",
+    "results/parallel31_short_multiples_2026_09_05.json": "dbda8295da9bd2804abfe703091cd405915fa8599c4e41ab46e8e67864ca594f",
+    "results/parallel30_verification_2026_09_05.json": "b74d7c380457bad8596764d47647cb1a8836dae2272d49d66244c8916ad40bfe"
+  },
+  "scope": "Exact certificates in one field; ordinary minimum-length proof separate; not Lean verified."
+}

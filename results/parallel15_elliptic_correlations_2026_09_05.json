@@ -1,0 +1,402 @@
+{
+  "status": "Exact checks passed. Higher twisted correlations and an abstract obstruction; full Paley and spectral-edge goals unproved.",
+  "small_cases": [
+    {
+      "p": 13,
+      "r": 4,
+      "quotient_order": 4,
+      "parity_patterns": 35,
+      "twisted_supports": 6,
+      "twisted_bound_leading_minors": 24,
+      "square_matrix_entries": 16,
+      "square_strata": {
+        "odd_0_even_1": 4,
+        "odd_0_even_2": 12
+      },
+      "cyclotomic_product_entries": 20
+    },
+    {
+      "p": 29,
+      "r": 5,
+      "quotient_order": 8,
+      "parity_patterns": 330,
+      "twisted_supports": 17,
+      "twisted_bound_leading_minors": 136,
+      "square_matrix_entries": 64,
+      "square_strata": {
+        "odd_0_even_1": 4,
+        "odd_2_even_1": 32,
+        "odd_0_even_2": 20,
+        "odd_4_even_0": 8
+      },
+      "cyclotomic_product_entries": 40
+    },
+    {
+      "p": 41,
+      "r": 2,
+      "quotient_order": 8,
+      "parity_patterns": 330,
+      "twisted_supports": 17,
+      "twisted_bound_leading_minors": 136,
+      "square_matrix_entries": 64,
+      "square_strata": {
+        "odd_0_even_1": 4,
+        "odd_2_even_1": 32,
+        "odd_0_even_2": 20,
+        "odd_4_even_0": 8
+      },
+      "cyclotomic_product_entries": 40
+    },
+    {
+      "p": 97,
+      "r": 2,
+      "quotient_order": 20,
+      "parity_patterns": 80,
+      "twisted_supports": 36,
+      "twisted_bound_leading_minors": 720,
+      "square_matrix_entries": 400,
+      "square_strata": {
+        "odd_0_even_1": 4,
+        "odd_2_even_1": 128,
+        "odd_0_even_2": 44,
+        "odd_4_even_0": 224
+      },
+      "cyclotomic_product_entries": 0
+    },
+    {
+      "p": 257,
+      "r": 62,
+      "quotient_order": 68,
+      "parity_patterns": 272,
+      "twisted_supports": 86,
+      "twisted_bound_leading_minors": 5848,
+      "square_matrix_entries": 4624,
+      "square_strata": {
+        "odd_0_even_1": 4,
+        "odd_2_even_1": 512,
+        "odd_0_even_2": 140,
+        "odd_4_even_0": 3968
+      },
+      "cyclotomic_product_entries": 0
+    }
+  ],
+  "planted_models": [
+    {
+      "p": 10009,
+      "r": 2,
+      "elliptic_group_order": 10016,
+      "quotient_order": 2504,
+      "invariant_factors": [
+        2,
+        1252
+      ],
+      "box_dimensions": [
+        101,
+        1
+      ],
+      "box_size": 101,
+      "modification_region_size": 405,
+      "changed_signs": 192,
+      "paired_test_vector_support": 202,
+      "kernel_quadratic_form": 40400,
+      "centered_normalized_rayleigh": "4*(m-1-m/sqrt(p))/sqrt(7*p)",
+      "rational_rayleigh_lower_bound": "9899/7575",
+      "rational_margin_numerator": 2324,
+      "exceptional_entries_checked": 10016,
+      "symmetry_checks": 4096,
+      "perturbation_certificates": [
+        {
+          "odd": 3,
+          "l1_difference": 444,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 624,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 728,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 896,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 1088,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 1136,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 1032,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 868,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 868,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 1032,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 1144,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 1072,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 896,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 728,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 624,
+          "bound": 1152
+        },
+        {
+          "odd": 3,
+          "l1_difference": 444,
+          "bound": 1152
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        }
+      ],
+      "limitation": "Modified even sign kernel with preserved square-root orders and larger constants; not a Paley graph, no Kummer realization or ambient projection identity claimed."
+    },
+    {
+      "p": 65537,
+      "r": 2,
+      "elliptic_group_order": 65536,
+      "quotient_order": 16384,
+      "invariant_factors": [
+        128,
+        128
+      ],
+      "box_dimensions": [
+        32,
+        9
+      ],
+      "box_size": 288,
+      "modification_region_size": 2672,
+      "changed_signs": 1414,
+      "paired_test_vector_support": 576,
+      "kernel_quadratic_form": 330624,
+      "centered_normalized_rayleigh": "4*(m-1-m/sqrt(p))/sqrt(7*p)",
+      "rational_rayleigh_lower_bound": "2287/1542",
+      "rational_margin_numerator": 745,
+      "exceptional_entries_checked": 65536,
+      "symmetry_checks": 4096,
+      "perturbation_certificates": [
+        {
+          "odd": 3,
+          "l1_difference": 7212,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8440,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8436,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 7072,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 6028,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8444,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8440,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 6084,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 6084,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8440,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8436,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 6020,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 7088,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8436,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 8440,
+          "bound": 8484
+        },
+        {
+          "odd": 3,
+          "l1_difference": 7212,
+          "bound": 8484
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        },
+        {
+          "odd": 0,
+          "l1_difference": 0,
+          "bound": 0
+        }
+      ],
+      "limitation": "Modified even sign kernel with preserved square-root orders and larger constants; not a Paley graph, no Kummer realization or ambient projection identity claimed."
+    }
+  ],
+  "totals": {
+    "small_curves": 5,
+    "parity_patterns": 1047,
+    "twisted_supports": 162,
+    "twisted_bound_leading_minors": 6864,
+    "square_matrix_entries": 5168,
+    "cyclotomic_product_entries": 100,
+    "planted_models": 2,
+    "exceptional_entries": 75552,
+    "symmetry_checks": 8192,
+    "perturbation_certificates": 48
+  },
+  "arithmetic": "Integer finite fields and group coordinates, exact Bareiss positivity, cyclotomic polynomial identities and rational Rayleigh lower bounds; no floating-point acceptance.",
+  "input_sha256": {
+    "research/parallel15-elliptic-correlations-2026-09-05.md": "72e532a27b729b3fc443c5f3c200a5a6a135ce5d88ef4a2d54f9290040b3734a",
+    "experiments/parallel15_elliptic_correlations_2026_09_05.py": "9623e26e0d9e3fc88ac581bcd015ff973254ef056b3544f2468d7107a3bd1420",
+    "research/parallel14-elliptic-model-2026-09-05.md": "d24c58a1e0f89d500af8684ed80e9ef929eac1269b2be987386cc7778330dd72",
+    "experiments/parallel14_elliptic_model_2026_09_05.py": "f906c2c71d803aa1b00acf66b522d1f85429d5bd45df1716c64f9a422e1936f7",
+    "experiments/parallel3_conic_2026_09_04.py": "94564f177448815650457eb1945470968f576f1208f339643e255124fb6c6cbd",
+    "experiments/parallel10_word_aggregate_2026_09_05.py": "3d22f949d9a8f5b8b88a06b602fbadaaba6d31087c7fc69c538f476e055f61a9",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+    "sources/bekker-zarhin-1702.02255v2.html": "49a902d503a66c7702e599a51322e362d13fbd3fb8a721aefb7573a742686096"
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "status": "Passed artifact audit. Ordinary proofs and imported source theorems are not formally verified by these finite checks. Full goal remains unproved.",
+  "input_hash_checks": [
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "research/parallel5-anchor-aggregate-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "experiments/parallel5_anchor_aggregate_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "research/parallel4-kernel-aggregate-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "research/parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "experiments/parallel_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "experiments/parallel3_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "sources/katz-g2-hypergeometric.pdf"
+    ],
+    [
+      "results/parallel5_anchor_aggregate_2026_09_04.json",
+      "sources/katz-gauss-kloosterman-monodromy.pdf"
+    ],
+    [
+      "results/parallel5_classical_2026_09_04.json",
+      "research/parallel5-classical-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_classical_2026_09_04.json",
+      "experiments/parallel5_classical_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "research/parallel5-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "experiments/parallel5_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "research/parallel4-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "research/parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "research/parallel-necklace-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "research/planar-necklace-reductions.md"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "experiments/parallel_necklace_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "experiments/localized_necklace_identities.py"
+    ],
+    [
+      "results/parallel5_necklace_2026_09_04.json",
+      "sources/katz-g2-hypergeometric.pdf"
+    ],
+    [
+      "results/parallel5_subgroup_2026_09_04.json",
+      "experiments/parallel5_subgroup_2026_09_04.py"
+    ],
+    [
+      "results/parallel5_subgroup_2026_09_04.json",
+      "research/parallel5-subgroup-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_subgroup_2026_09_04.json",
+      "research/parallel4-subgroup-2026-09-04.md"
+    ],
+    [
+      "results/parallel5_subgroup_2026_09_04.json",
+      "research/cyclotomic-prime-average.md"
+    ],
+    [
+      "results/parallel5_subgroup_2026_09_04.json",
+      "research/analytic-bounds-and-amplification.md"
+    ],
+    [
+      "results/parallel5_subgroup_2026_09_04.json",
+      "sources/analytic-bounds-2026-09-04/di-benedetto-et-al-2003.06165v1.html"
+    ]
+  ],
+  "script_syntax_checks": [
+    "experiments/parallel5_anchor_aggregate_2026_09_04.py",
+    "experiments/parallel5_classical_2026_09_04.py",
+    "experiments/parallel5_necklace_2026_09_04.py",
+    "experiments/parallel5_subgroup_2026_09_04.py"
+  ],
+  "local_link_checks": [
+    [
+      "research/parallel5-anchor-aggregate-2026-09-04.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-anchor-aggregate-2026-09-04.md",
+      "parallel4-kernel-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-anchor-aggregate-2026-09-04.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-anchor-aggregate-2026-09-04.md",
+      "../experiments/parallel5_anchor_aggregate_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-anchor-aggregate-2026-09-04.md",
+      "../results/parallel5_anchor_aggregate_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-classical-2026-09-04.md",
+      "../results/parallel5_classical_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "parallel4-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "../sources/katz-g2-hypergeometric.pdf"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "parallel-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "../experiments/parallel5_necklace_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-necklace-2026-09-04.md",
+      "../results/parallel5_necklace_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "parallel5-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "parallel5-necklace-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "parallel5-anchor-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "parallel5-classical-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../experiments/parallel5_subgroup_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../results/parallel5_subgroup_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../experiments/parallel5_necklace_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../results/parallel5_necklace_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../experiments/parallel5_anchor_aggregate_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../results/parallel5_anchor_aggregate_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../experiments/parallel5_classical_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../results/parallel5_classical_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-pass-summary-2026-09-04.md",
+      "../results/parallel5_pass_audit_2026_09_04.json"
+    ],
+    [
+      "research/parallel5-subgroup-2026-09-04.md",
+      "cyclotomic-prime-average.md"
+    ],
+    [
+      "research/parallel5-subgroup-2026-09-04.md",
+      "parallel4-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/parallel5-subgroup-2026-09-04.md",
+      "../experiments/parallel5_subgroup_2026_09_04.py"
+    ],
+    [
+      "research/parallel5-subgroup-2026-09-04.md",
+      "../results/parallel5_subgroup_2026_09_04.json"
+    ],
+    [
+      "README.md",
+      "research/parallel5-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel4-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel3-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel2-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/parallel-pass-summary-2026-09-04.md"
+    ],
+    [
+      "README.md",
+      "research/subgroup-target.md"
+    ],
+    [
+      "README.md",
+      "research/source-audit.md"
+    ],
+    [
+      "README.md",
+      "research/moments-and-obstructions.md"
+    ],
+    [
+      "README.md",
+      "research/MomentObstruction.lean"
+    ],
+    [
+      "README.md",
+      "experiments/paley_exact.py"
+    ],
+    [
+      "README.md",
+      "results/exact_checks.json"
+    ],
+    [
+      "README.md",
+      "research/frontier.md"
+    ],
+    [
+      "README.md",
+      "experiments/subgroup_moments.py"
+    ],
+    [
+      "README.md",
+      "research/SubgroupQuarticCounterexample.lean"
+    ],
+    [
+      "README.md",
+      "research/finite-spectral-obstruction.md"
+    ],
+    [
+      "README.md",
+      "research/geometric-lift-and-alias.md"
+    ],
+    [
+      "README.md",
+      "research/prize-reduction-audit.md"
+    ],
+    [
+      "README.md",
+      "research/coset-coherence.md"
+    ],
+    [
+      "README.md",
+      "research/period-polynomial-certificate.md"
+    ],
+    [
+      "README.md",
+      "research/jacobi-coefficient-route.md"
+    ],
+    [
+      "README.md",
+      "research/cyclotomic-prime-average.md"
+    ],
+    [
+      "README.md",
+      "research/official-profile-and-trace.md"
+    ],
+    [
+      "README.md",
+      "research/subset-sums-and-lists.md"
+    ],
+    [
+      "README.md",
+      "research/riesz-tail-route.md"
+    ],
+    [
+      "README.md",
+      "research/analytic-bounds-and-amplification.md"
+    ],
+    [
+      "README.md",
+      "research/mixed-periods-and-shifted-energy.md"
+    ],
+    [
+      "README.md",
+      "research/kernel-discriminant.md"
+    ],
+    [
+      "README.md",
+      "research/quadruple-orbits-and-cube.md"
+    ],
+    [
+      "README.md",
+      "research/dyadic-descent-and-mixed-energy.md"
+    ],
+    [
+      "README.md",
+      "research/positive-product-moments.md"
+    ],
+    [
+      "README.md",
+      "research/signed-quotient-operators.md"
+    ],
+    [
+      "README.md",
+      "research/list-to-winning-set.md"
+    ],
+    [
+      "README.md",
+      "research/localized-necklace-identities.md"
+    ],
+    [
+      "README.md",
+      "research/planar-necklace-reductions.md"
+    ],
+    [
+      "research/frontier.md",
+      "geometric-lift-and-alias.md"
+    ],
+    [
+      "research/frontier.md",
+      "coset-coherence.md"
+    ],
+    [
+      "research/frontier.md",
+      "period-polynomial-certificate.md"
+    ],
+    [
+      "research/frontier.md",
+      "jacobi-coefficient-route.md"
+    ],
+    [
+      "research/frontier.md",
+      "cyclotomic-prime-average.md"
+    ],
+    [
+      "research/frontier.md",
+      "official-profile-and-trace.md"
+    ],
+    [
+      "research/frontier.md",
+      "subset-sums-and-lists.md"
+    ],
+    [
+      "research/frontier.md",
+      "riesz-tail-route.md"
+    ],
+    [
+      "research/frontier.md",
+      "analytic-bounds-and-amplification.md"
+    ],
+    [
+      "research/frontier.md",
+      "mixed-periods-and-shifted-energy.md"
+    ],
+    [
+      "research/frontier.md",
+      "kernel-discriminant.md"
+    ],
+    [
+      "research/frontier.md",
+      "quadruple-orbits-and-cube.md"
+    ],
+    [
+      "research/frontier.md",
+      "dyadic-descent-and-mixed-energy.md"
+    ],
+    [
+      "research/frontier.md",
+      "positive-product-moments.md"
+    ],
+    [
+      "research/frontier.md",
+      "signed-quotient-operators.md"
+    ],
+    [
+      "research/frontier.md",
+      "list-to-winning-set.md"
+    ],
+    [
+      "research/frontier.md",
+      "localized-necklace-identities.md"
+    ],
+    [
+      "research/frontier.md",
+      "planar-necklace-reductions.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-spectral-transfer-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel2-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-conic-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel3-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-kernel-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel4-classical-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-pass-summary-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-subgroup-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-necklace-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-anchor-aggregate-2026-09-04.md"
+    ],
+    [
+      "research/frontier.md",
+      "parallel5-classical-2026-09-04.md"
+    ]
+  ],
+  "source_manifest_checks": [
+    {
+      "name": "katz-g2-hypergeometric",
+      "url": "https://web.math.princeton.edu/~nmk/g2hyper62finalcorrected.pdf",
+      "path": "sources/katz-g2-hypergeometric.pdf",
+      "sha256": "0bf485bcc9dde2afebc8268af679566bcff65aa6d6ed8c9f4b0387d7e9e954c1",
+      "bytes": 479161,
+      "version_note": "54-page primary PDF. Section 2, printed pages 3-5 rendered and independently inspected: disjoint lists, rank, weight, irreducibility, singular stalk and tame local monodromy."
+    },
+    {
+      "name": "katz-gauss-kloosterman-monodromy",
+      "url": "https://web.math.princeton.edu/~nmk/Katz-GKM.pdf",
+      "path": "sources/katz-gauss-kloosterman-monodromy.pdf",
+      "sha256": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+      "bytes": 6307344,
+      "version_note": "127-page scanned primary PDF with two printed pages per PDF page. Printed pages 32-33 and 38-41 rendered and independently inspected; Euler-Poincare, Lefschetz trace formula and H_c^1 weight bound."
+    },
+    {
+      "name": "thorner-zaman-2108.10878v2",
+      "url": "https://arxiv.org/html/2108.10878v2",
+      "path": "sources/thorner-zaman-2108.10878v2.html",
+      "bytes": 428325,
+      "sha256": "ecc1ba8e04d9ce868f150e6542e312152b58241b2e32d2493b6f93c93edd938d",
+      "version_note": "Versioned primary HTML. Corollary 3.1, Section 3.1 and equation (3.2) independently checked for dyadic moduli and the quartic annulus; no numerical asymptotic threshold claimed."
+    },
+    {
+      "name": "di-benedetto-et-al-2003.06165v1",
+      "url": "https://arxiv.org/html/2003.06165",
+      "path": "sources/analytic-bounds-2026-09-04/di-benedetto-et-al-2003.06165v1.html",
+      "bytes": 287859,
+      "sha256": "1df3718ccfe5d44f2844cfe09e641fe48deec2c5a2f6b0f6978f98f8c37031f8",
+      "version_note": "Existing primary v1 archive reused. Section 5 fixed selections and Lemma 4.1 independently inspected; energy parameters retained in fifth-pass proof."
+    },
+    {
+      "name": "petridis-shparlinski-1604.08469v4",
+      "url": "https://arxiv.org/html/1604.08469v4",
+      "path": "sources/petridis-shparlinski-1604.08469v4.html",
+      "bytes": 652698,
+      "sha256": "94d8be554227b46460f64ac07c348fb8791181ef60801c5bbc35556ca3726168",
+      "version_note": "Primary versioned HTML; Theorem 1.1 and definitions inspected. Ordering handled by permuting sets and factorwise weights; no quadrilinear size condition imported."
+    }
+  ],
+  "verification_counts": {
+    "anchor": {
+      "kernel_entries": 8848,
+      "pointwise_checks": 340,
+      "pair_sums": 636,
+      "mellin_operator_certificates": 294,
+      "positive_pivots": 3726,
+      "zero_pivots": 90,
+      "quadratic_checks": 648,
+      "cell_checks": 1512,
+      "nonzero_boundary_corrections": 978
+    },
+    "necklace": {
+      "inner_factorization_and_bound_checks": 1580,
+      "included_t1_stalk_trace_checks": 1580,
+      "excluded_t_inverse_x_corrections": 1580,
+      "master_identity_and_bound_checks": 472,
+      "full_U_zero_corrections": 472,
+      "full_quartic_checks": 472,
+      "reversal_checks": 472,
+      "length_five_necklace_checks": 1215,
+      "mobius_maps_checked": 95,
+      "parseval_checks": 22,
+      "literal_necklaces": 9
+    },
+    "subgroup": {
+      "fixed_prime_cases": 12,
+      "moment_levels": 47,
+      "norm_certificates": 3,
+      "selection_certificates": 5
+    },
+    "classical": {
+      "subset_checks": 12384,
+      "rectangle_checks": 92410,
+      "structured_witnesses": 8,
+      "energy_checks": 38,
+      "moment_checks": 24,
+      "exponent_checks": 99
+    }
+  },
+  "word_coverage": {
+    "5": {
+      "at_most_two_labels": 93,
+      "two_singleton_exceptions": 60,
+      "three_gap_family": 90,
+      "remaining": 0,
+      "covered": 243,
+      "total": 243
+    },
+    "6": {
+      "at_most_two_labels": 189,
+      "two_singleton_exceptions": 90,
+      "three_gap_family": 360,
+      "remaining": 90,
+      "covered": 639,
+      "total": 729
+    }
+  },
+  "independent_reviews": {
+    "anchor_aggregate": "classical_paley independently accepted invariant exclusion, actual stalks, complex coefficients, Gamma_A, half-valued boundary and relative anchor range.",
+    "subgroup_maximum": "classical_paley and root independently accepted six-term norm, density constants, thresholds, zero deletions, phase weights and 23/24 plus log7/72 calculation. Original trilinear ordering separately checked.",
+    "necklace": "root independently checked Mobius local data, Betti dimension, full kappa at zero, U correction, all other fibers and uniform length-five consequence.",
+    "classical": "root independently checked single-size sampling/rounding, digit construction, Newton argument and forced-row asymptotics."
+  },
+  "artifact_sha256": {
+    "research/parallel5-anchor-aggregate-2026-09-04.md": "239a195a99cdc0fd8879280f53adc86136a1482cd28e939cea39840ec9142ff1",
+    "research/parallel5-classical-2026-09-04.md": "91dda305c8d3cfa72ca4493e61deb7e816c821e146e96701ac7b8376cf4f9eb9",
+    "research/parallel5-necklace-2026-09-04.md": "19e5a2e41bc715b4c0c6f177f31db1a64fae1c11a233b7e83b2f448be315e1df",
+    "research/parallel5-pass-summary-2026-09-04.md": "a1837788eaeb57dadc9b1ae5e83df3cde981b8873e4b6000487058af663f20aa",
+    "research/parallel5-subgroup-2026-09-04.md": "feac7ce978920e6ffcbd05e070ac2aa06d6a437de92f9f3a8cfdcd54433dc55e",
+    "experiments/parallel5_anchor_aggregate_2026_09_04.py": "8e15d1dc1e87f45db93827259a1b06250428ce2c3dcd41698dece49e9bdf0184",
+    "experiments/parallel5_classical_2026_09_04.py": "ea402f6f236d8d0bc37f9e207a619d3ad4e0f69911c670ee7a90d689b87d09e4",
+    "experiments/parallel5_necklace_2026_09_04.py": "defa571b505137f843a7d04023c04ebcd56cc559f3c21992785d052a911f8531",
+    "experiments/parallel5_subgroup_2026_09_04.py": "8a7d2cbe8f556e184464ca2ad09eb7add1c406d1beda60e19a6d82cc7ae6d560",
+    "results/parallel5_anchor_aggregate_2026_09_04.json": "4f0c82745a0fd8f3e9f2fb20ab6a5776724e888873178589d32c9fd451b4ce75",
+    "results/parallel5_classical_2026_09_04.json": "7cbdc237ba4f4b1f13346bde5be0fa9d2d751941c58e042169d831bb29c6023e",
+    "results/parallel5_necklace_2026_09_04.json": "4370128a56808d3e14f9fed8a434a9ca0edfa6505c25cf76791039fa4dd5448d",
+    "results/parallel5_subgroup_2026_09_04.json": "f86a585e7284039c41ac382dc94d9033b17513f390deba24dc6c1f3e1fb581c1",
+    "sources/katz-g2-hypergeometric.pdf": "0bf485bcc9dde2afebc8268af679566bcff65aa6d6ed8c9f4b0387d7e9e954c1",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe",
+    "sources/thorner-zaman-2108.10878v2.html": "ecc1ba8e04d9ce868f150e6542e312152b58241b2e32d2493b6f93c93edd938d",
+    "sources/analytic-bounds-2026-09-04/di-benedetto-et-al-2003.06165v1.html": "1df3718ccfe5d44f2844cfe09e641fe48deec2c5a2f6b0f6978f98f8c37031f8",
+    "sources/petridis-shparlinski-1604.08469v4.html": "94d8be554227b46460f64ac07c348fb8791181ef60801c5bbc35556ca3726168"
+  },
+  "central_file_sha256": {
+    "README.md": "b6be958ceab88c9f967fe26d8f4e3b3ec88e7bd07c416ea6a635780c9a3a0b91",
+    "research/frontier.md": "39a9ba6c57afbd1010492a27bbb65cff911258f634bcbc03bb07f33752066f97",
+    "research/source-audit.md": "014c4029d1cdafbbb41098696a1a08dd0e810d3cab7ce2328375ee97f59aa9b7",
+    "research/checkpoint-2026-09-04.md": "c0e1ea9e71e6b5cf2dd55f7d13dfb0fdec112c10da36bae67a05c2d7ea946b1d",
+    "sources/manifest.json": "e6ddd34523a4a39d22e3e1efa1477ccdeed56186419c978f119b39ad93225970"
+  },
+  "goal_status": "active and unachieved"
+}

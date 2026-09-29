@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "independent_readbacks": [
+    {
+      "file": "coset_medium_characteristic_sample0.certificate.json",
+      "tracks": 118,
+      "covered_s_sets": 4368,
+      "nodes": 3,
+      "scalar_track_pairs_checked": 119062,
+      "coverage_minimum_multiplicity": 1,
+      "whole_field_tracks": 0
+    },
+    {
+      "file": "coset_small_characteristic_sample3.certificate.json",
+      "tracks": 49,
+      "covered_s_sets": 4368,
+      "nodes": 18,
+      "scalar_track_pairs_checked": 833,
+      "coverage_minimum_multiplicity": 1,
+      "whole_field_tracks": 0
+    }
+  ],
+  "tiny_full_codebook_cases": 73,
+  "tiny_nodes": 196,
+  "tiny_whole_field_tracks": 44,
+  "corrupted_certificates_rejected": [
+    "false_support",
+    "false_polynomial",
+    "missing_required_track",
+    "missing_node",
+    "duplicate_node",
+    "noncanonical_domain"
+  ],
+  "source_bindings": [
+    {
+      "path": "coset_medium_characteristic_sample0.certificate.json",
+      "sha256": "28559c457413bde8cfa1b873513754d94b87ed9dc36be80317c69e4387f6666a"
+    },
+    {
+      "path": "coset_small_characteristic_sample3.certificate.json",
+      "sha256": "498f687b3bea34378c5a6234266de53968409ca2aecc127d84e1fa5414461764"
+    },
+    {
+      "path": "overlap_cover.py",
+      "sha256": "989ecbab215758dff4ae7522bf5aa8e22b69da5404d878f83c44b58581bdccc1"
+    },
+    {
+      "path": "run_overlap.py",
+      "sha256": "286399f618c4f1927d530f8ee2bf1e90072596aab867403e81e72a5f86835683"
+    },
+    {
+      "path": "verify_overlap.py",
+      "sha256": "b530641192f0fb047735065eda7ee27f26e98b35bec32bb4d75d3b17a4513d21"
+    }
+  ],
+  "scope": "All field scalars for every selected track, all s-sets, separate full-codebook tiny controls.",
+  "elapsed_seconds": 36.8279227919993
+}

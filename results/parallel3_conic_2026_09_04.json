@@ -1,0 +1,331 @@
+{
+  "status": "Exact representations and symmetry checks; no improved uniform spectral bound.",
+  "arithmetic": "Integer matrices and polynomial reduction modulo cyclotomic polynomials; no floating-point acceptance.",
+  "cases": [
+    {
+      "p": 5,
+      "generator": 2,
+      "m": 0,
+      "conic_entry_checks": 16,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        0,
+        0,
+        0
+      ],
+      "cyclotomic_DFT_entry_checks": 16,
+      "jacobi_identity_checks": 2,
+      "off_diagonal_witnesses": []
+    },
+    {
+      "p": 13,
+      "generator": 2,
+      "m": 2,
+      "conic_entry_checks": 144,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        1,
+        1,
+        0
+      ],
+      "cyclotomic_DFT_entry_checks": 144,
+      "jacobi_identity_checks": 6,
+      "off_diagonal_witnesses": [
+        {
+          "a": 0,
+          "b": 4,
+          "N_times_Mellin_entry_coefficients": [
+            40
+          ]
+        },
+        {
+          "a": 0,
+          "b": 8,
+          "N_times_Mellin_entry_coefficients": [
+            40
+          ]
+        },
+        {
+          "a": 2,
+          "b": 6,
+          "N_times_Mellin_entry_coefficients": [
+            -24
+          ]
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "generator": 3,
+      "m": 3,
+      "conic_entry_checks": 256,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        1,
+        0,
+        1
+      ],
+      "cyclotomic_DFT_entry_checks": 256,
+      "jacobi_identity_checks": 8,
+      "off_diagonal_witnesses": [
+        {
+          "a": 0,
+          "b": 4,
+          "N_times_Mellin_entry_coefficients": [
+            72
+          ]
+        },
+        {
+          "a": 0,
+          "b": 8,
+          "N_times_Mellin_entry_coefficients": [
+            72
+          ]
+        },
+        {
+          "a": 0,
+          "b": 12,
+          "N_times_Mellin_entry_coefficients": [
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "p": 29,
+      "generator": 2,
+      "m": 6,
+      "conic_entry_checks": 784,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        1,
+        1,
+        2
+      ],
+      "cyclotomic_DFT_entry_checks": 784,
+      "jacobi_identity_checks": 14,
+      "off_diagonal_witnesses": [
+        {
+          "a": 0,
+          "b": 4,
+          "N_times_Mellin_entry_coefficients": [
+            104
+          ]
+        },
+        {
+          "a": 0,
+          "b": 8,
+          "N_times_Mellin_entry_coefficients": [
+            104
+          ]
+        },
+        {
+          "a": 0,
+          "b": 12,
+          "N_times_Mellin_entry_coefficients": [
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "p": 41,
+      "generator": 6,
+      "m": 9,
+      "conic_entry_checks": 1600,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        2,
+        1,
+        3
+      ],
+      "cyclotomic_DFT_entry_checks": 1600,
+      "jacobi_identity_checks": 20,
+      "off_diagonal_witnesses": [
+        {
+          "a": 0,
+          "b": 4,
+          "N_times_Mellin_entry_coefficients": [
+            264,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            64,
+            0,
+            0,
+            0,
+            -64
+          ]
+        },
+        {
+          "a": 0,
+          "b": 8,
+          "N_times_Mellin_entry_coefficients": [
+            72,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -64,
+            0,
+            0,
+            0,
+            64
+          ]
+        },
+        {
+          "a": 0,
+          "b": 12,
+          "N_times_Mellin_entry_coefficients": [
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -64,
+            0,
+            0,
+            0,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "p": 53,
+      "generator": 2,
+      "m": 12,
+      "conic_entry_checks": 2704,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "p": 61,
+      "generator": 2,
+      "m": 14,
+      "conic_entry_checks": 3600,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "p": 73,
+      "generator": 5,
+      "m": 17,
+      "conic_entry_checks": 5184,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        4,
+        3,
+        5
+      ]
+    },
+    {
+      "p": 89,
+      "generator": 3,
+      "m": 21,
+      "conic_entry_checks": 7744,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        4,
+        3,
+        7
+      ]
+    },
+    {
+      "p": 97,
+      "generator": 5,
+      "m": 23,
+      "conic_entry_checks": 9216,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        5,
+        4,
+        7
+      ]
+    },
+    {
+      "p": 101,
+      "generator": 2,
+      "m": 24,
+      "conic_entry_checks": 10000,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "p": 109,
+      "generator": 6,
+      "m": 26,
+      "conic_entry_checks": 11664,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        5,
+        5,
+        8
+      ]
+    },
+    {
+      "p": 137,
+      "generator": 3,
+      "m": 33,
+      "conic_entry_checks": 18496,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        6,
+        5,
+        11
+      ]
+    },
+    {
+      "p": 149,
+      "generator": 2,
+      "m": 36,
+      "conic_entry_checks": 21904,
+      "exact_quotient_checks": 6,
+      "anharmonic_symmetries": 6,
+      "S3_multiplicities_trivial_sign_standard": [
+        6,
+        6,
+        12
+      ]
+    }
+  ],
+  "input_sha256": {
+    "research/parallel3-conic-2026-09-04.md": "19327a47515a3476cc30b49c5b875a1d7443d82b1f665e88eeace41c1f2425c6",
+    "research/parallel2-spectral-transfer-2026-09-04.md": "290f6f308e0d79cfe49f1154b8a80548c4fb39de00e581380dfada6dc823dda3"
+  }
+}

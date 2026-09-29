@@ -1,0 +1,208 @@
+{
+  "status": "verified",
+  "created_utc": "2026-09-06T08:19:58.265913+00:00",
+  "scope": "Complete supplied-space conditional decoding, a measured verification regression and its singleton-profile repair. Independent query/full-word review, affine/routing controls and preserved baseline artifacts. No historical novelty, full ambient decoder or prize proof claim.",
+  "previous_round15_artifacts_preserved": 34,
+  "source_and_input_bindings": 169,
+  "python_sources_compiled": 12,
+  "markdown_local_links_passed": true,
+  "full_scale_review_totals": {
+    "queries_independently_replayed": 429712,
+    "candidate_words_fully_evaluated": 429559,
+    "candidate_coordinate_values_checked": 413235758
+  },
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "cb5f6a936758798a6a937bf9506c5381e026ed7bd4ecbef3f9640507c71b72c0",
+      "bytes": 4252
+    },
+    "README.md": {
+      "sha256": "6a9eb2eb01368c51952cf720c07ec7f5be360ec923b21b9dfb6a853472337f16",
+      "bytes": 7550
+    },
+    "basis_controls.json": {
+      "sha256": "27d2d06a27578350f73155cbfb97d67e6aa569a9e087e5a830bb0a4714f593e5",
+      "bytes": 1940
+    },
+    "basis_controls.log": {
+      "sha256": "4c086777a8e7c9efaac2dfa4830d88ca250d74b9c85e7f5a1047ae43ae92bced",
+      "bytes": 301
+    },
+    "basis_controls.py": {
+      "sha256": "397bf8a30796e7342c89fb1d09acd37558fd11b83b8d9bb11d84d3741d187f63",
+      "bytes": 2378
+    },
+    "boundary.conditional.json": {
+      "sha256": "cd3f4361fdba585cff0e9606095cb14777747a4f31b8f6ac58ea496ead43824e",
+      "bytes": 103425
+    },
+    "boundary.decoded.json": {
+      "sha256": "802c81088fd35dbd824c8e9a1779b4efdeaac452175c254b080274e1f7520858",
+      "bytes": 20978875
+    },
+    "boundary.guarded.decoded.json": {
+      "sha256": "d733095c64c0c03c85fad25c2a07ce4d80159e06a14e5e661aedd9d130611109",
+      "bytes": 18102444
+    },
+    "boundary.guarded.json": {
+      "sha256": "10d48b682b1fd50623011e297f96290ef8a22a47be27779c04ac66a7940c90a4",
+      "bytes": 91751
+    },
+    "checkpoint.json": {
+      "sha256": "7271b733ec1d3bec13cc500142926f8efa1294ee84ea27a4465d5c8075f7d267",
+      "bytes": 3489
+    },
+    "checkpoint.log": {
+      "sha256": "e5959fc1b73f5e148367755d73a4b69ba2072488dab98c1a593c73a352fbcdc2",
+      "bytes": 83
+    },
+    "checkpoint.py": {
+      "sha256": "6a7769f403f5dd7c9307e14b43670c6506643b90e95bf313133c91319cf89d60",
+      "bytes": 4298
+    },
+    "conditional_cover.log": {
+      "sha256": "03f65add2732cf7894e99fb3beec0982a1f8ab8331725a1f1bd3c076fa5f95ba",
+      "bytes": 829
+    },
+    "conditional_cover.py": {
+      "sha256": "53e427c4c47ea650bd52b8cf65a35f20e547b38ea71e7fca93adf223a98a301b",
+      "bytes": 8687
+    },
+    "conditional_decoding.json": {
+      "sha256": "2453776061c5b94aef0186c608b0ac5d3d7f8c1014db3756055ccfd14feaae09",
+      "bytes": 2904
+    },
+    "conditional_pruning.log": {
+      "sha256": "f502648ef1ab69e2fe3470e4253c7980ae1bb8af12fdf9bb96feeb42c5d79367",
+      "bytes": 2182
+    },
+    "conditional_pruning.py": {
+      "sha256": "0e2a288cb1778fb1f8a10e6458920eb32f1e89303d39d020b30ead7a914898e8",
+      "bytes": 5680
+    },
+    "conditional_results.json": {
+      "sha256": "bca78a0dfe91c25ba2282128ba3e6ba8783eebeacf15d8f2358b1388d43f929a",
+      "bytes": 2968
+    },
+    "conditional_review.json": {
+      "sha256": "4362ec30e445a5497a42ec607ea871093556aaa5a2b049a55ea78fa6132a367d",
+      "bytes": 1997
+    },
+    "conditional_review.log": {
+      "sha256": "3f9f0d5f59db6d575caf6f0679f91d34eeff86fac932e05bb59dce4ea44002a7",
+      "bytes": 755
+    },
+    "conditional_verifier.py": {
+      "sha256": "4f59795241db54d9bc24a73527da7187aef47855ccf632a36f581c6c8dbbdb92",
+      "bytes": 5850
+    },
+    "decoding_controls.json": {
+      "sha256": "ee86a2e45e7923b9477eae00d2b0a51acad52b5b27ec5378ed995788d5a5aee6",
+      "bytes": 2689
+    },
+    "decoding_controls.log": {
+      "sha256": "25b44acd22f91d2e24c0e5cdbdc5098fdb99f9ff2f741cc43d748d4308a1c478",
+      "bytes": 925
+    },
+    "decoding_controls.py": {
+      "sha256": "90338dd86041fe2ece47a5eb94244367804c2d94d12821272c086ee991133af2",
+      "bytes": 3801
+    },
+    "decoding_review.json": {
+      "sha256": "19a4c9d0a3a142e1fbb2e35e2c4c766f5ba6bdec560162d2f2cc84c6192bc0b8",
+      "bytes": 7801
+    },
+    "decoding_review.log": {
+      "sha256": "1a2b814057b67765a3c3c5b4342e972efa79354b6931dfd70db1c99c1db65fc1",
+      "bytes": 3815
+    },
+    "decoding_review.py": {
+      "sha256": "06ef53cce17a848ae716ffcb7e9482b6eec492a91d02f8c8e774e4ba75b68118",
+      "bytes": 6100
+    },
+    "guard_profiles.log": {
+      "sha256": "824670ffeedc27bd42d3089b8e34de4b70bdc4a5c3bd3a5feacbd5973caad30a",
+      "bytes": 1701
+    },
+    "guard_profiles.py": {
+      "sha256": "16d877667aab4bb52c665389531520fd290330dde606beee61a2565127aa26fb",
+      "bytes": 4752
+    },
+    "guard_results.json": {
+      "sha256": "08ceba3ab9facd0a738fab032e2023fe932725076ecf65fe5354e5ecf6deaed9",
+      "bytes": 4175
+    },
+    "guard_review.json": {
+      "sha256": "aeb90303d671719ffd4a5ce4174d82929b9df5809bb806c26c70203f2bbe6334",
+      "bytes": 9566
+    },
+    "guard_review.log": {
+      "sha256": "ad64b5fc15aac20ec0bc8c0690e0c6fc26f667e593dfc1be8466dc14878e19b2",
+      "bytes": 4858
+    },
+    "guard_review.py": {
+      "sha256": "b1863a79982306a2bdeba13d5ed4211d4e369ef9c88bf3853c4e087e90797fd0",
+      "bytes": 2622
+    },
+    "late_near_miss.conditional.json": {
+      "sha256": "1dfa6c97b48264942d7442f2c4de80268241a5f8d73a31c1413f45712ea1a101",
+      "bytes": 103405
+    },
+    "late_near_miss.decoded.json": {
+      "sha256": "9c4c247821ceca15034823b3bc000f9fa04d5088ef56cdf7b07d90ca8b0816b2",
+      "bytes": 20972472
+    },
+    "late_near_miss.guarded.decoded.json": {
+      "sha256": "dfdbaf6452a9d46bbb6ee2354bed83911d564faf8127a5789b1a56da82a06190",
+      "bytes": 18097221
+    },
+    "late_near_miss.guarded.json": {
+      "sha256": "dfc9d59116fa4a1df85fe29f613f8a358a638a381207cf2b8a563a65d255be4f",
+      "bytes": 91731
+    },
+    "routing_controls.json": {
+      "sha256": "692177a1ca7b57b5e61d907c20ce4ac141c9be80ab896e50e4dd6cb67122ed0f",
+      "bytes": 1705
+    },
+    "routing_controls.log": {
+      "sha256": "361c35b4b2ab6d88131bb0bd6e5a5453257d3f3444e61f63a81ce7417b5b9100",
+      "bytes": 443
+    },
+    "routing_controls.py": {
+      "sha256": "dc51d3ea9d0356af5d8073a6241822b7c8be89e33838de8070391ad766ebf2c9",
+      "bytes": 3139
+    },
+    "toy_controls.json": {
+      "sha256": "1fa0ad556d7947520167928bf03e61222510ebf750135b0dddabb7520ac090a7",
+      "bytes": 1777
+    },
+    "toy_controls.log": {
+      "sha256": "8e205b934fca48d2d9e4a0d3a634bdfbc85b729c5c04723a940a01ffdff4ee57",
+      "bytes": 538
+    },
+    "toy_controls.py": {
+      "sha256": "2cbb45c49aa48f8340a8081a135339f28a8e8b56eaaf95be434aa9886bd40b02",
+      "bytes": 4885
+    },
+    "true_guard_mismatch.conditional.json": {
+      "sha256": "11b6906369a6a79637f4d0aa8e104afaf29613e7ac25e0920e8761e22dbfc0d4",
+      "bytes": 103512
+    },
+    "true_guard_mismatch.decoded.json": {
+      "sha256": "5233f0b4573a04f9445eefb7501ad92d41f235df6f15b7d8f5b3d7c85c5d50a1",
+      "bytes": 29053403
+    },
+    "true_guard_mismatch.guarded.decoded.json": {
+      "sha256": "07e49112aac6576f1add081863cd6187f95c2525f55dac69535ae2e3a97676e0",
+      "bytes": 18628335
+    },
+    "true_guard_mismatch.guarded.json": {
+      "sha256": "8ce7584fe4600158872db4291f458869a17a5f4bfcfd3e6257dcd3aefa0d9a01",
+      "bytes": 92989
+    },
+    "verify_round.py": {
+      "sha256": "e47a3195d6b683134a8aca625d78151d73676f5c088aadc21786189d6578ca92",
+      "bytes": 4586
+    }
+  }
+}

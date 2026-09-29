@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-05T20:28:44.947321+00:00",
+  "status": "bounded preflight and independent acceptance passed; generic n>6 compiler still to implement",
+  "artifacts": {
+    "README.md": {
+      "sha256": "d31ad8dc2db70a18818b67fae11b8a9e94183b0923d96fd85d9fce0cbe7325dc",
+      "bytes": 14458
+    },
+    "root_acceptance_check.json": {
+      "sha256": "e75357284c5917a8c5985e951583174ad7659a7721ab4c131e7da8a15bcbf4a5",
+      "bytes": 1189
+    },
+    "root_acceptance_check.py": {
+      "sha256": "dcf757e5486871c77e5fdd0d431d4049a73bade575607ccd8cf19dad05446ddf",
+      "bytes": 2269
+    },
+    "third_moment_preflight.json": {
+      "sha256": "4c1bc914183ddf97486a7740ea95cc63b3d74d877d3616fc6c68d743bf47c04f",
+      "bytes": 8860
+    },
+    "third_moment_preflight.py": {
+      "sha256": "f7d823b007b360776313fb253f7654d0d9f20119e17aa8073380a46c0d674252",
+      "bytes": 6288
+    }
+  }
+}

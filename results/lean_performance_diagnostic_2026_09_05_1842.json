@@ -1,0 +1,83 @@
+{
+  "observed_utc": "2026-09-05T22:41:50.017397+00:00",
+  "target": "/private/tmp/proximity-duplex-doc/ArkLib/ProofSystem/Binius/BinaryBasefold/QueryPhase.lean",
+  "process_snapshot": {
+    "columns": [
+      "pid",
+      "ppid",
+      "elapsed",
+      "cpu_time",
+      "cpu_percent",
+      "rss_kib",
+      "state"
+    ],
+    "ps": "75893 38564 01:11:09  12:35.50  93.7 19783168 R",
+    "exit_code": 0
+  },
+  "rate_samples": [
+    {
+      "at_utc": "2026-09-05T22:40:19.451061+00:00",
+      "monotonic": 92324.825185833,
+      "ps": "75893 38564 01:09:39  11:57.03  70.3 18942512 R",
+      "exit_code": 0
+    },
+    {
+      "at_utc": "2026-09-05T22:40:34.462297+00:00",
+      "monotonic": 92339.836212333,
+      "ps": "75893 38564 01:09:54  12:05.46  49.9 19137312 R",
+      "exit_code": 0
+    }
+  ],
+  "measured_wall_seconds": 15.01102649999666,
+  "measured_cpu_seconds": 8.430000000000064,
+  "measured_one_core_fraction": 0.561587177266121,
+  "sample": {
+    "path": "/private/tmp/paley-lean-75893-sample-1839.txt",
+    "sha256": "503d236b2664de2cb9483be766d080f6b7724afa2aee0d3b181205ab5ff313df",
+    "observed": "Active worker in Lean kernel type checking, definitional equality, expression equality and hash lookup. Other threads waiting. Exact declaration not identified."
+  },
+  "logs": [
+    {
+      "path": "/private/tmp/append-adapters-final.log",
+      "modified_utc": "2026-09-05T21:32:07.366800+00:00",
+      "bytes": 1710521,
+      "last_task_counter": [
+        "4222",
+        "4228"
+      ],
+      "error_modules": [
+        "ArkLib/ProofSystem/Binius/BinaryBasefold/Steps/Commit.lean",
+        "ArkLib/ProofSystem/Binius/BinaryBasefold/Steps/Relay.lean"
+      ]
+    },
+    {
+      "path": "/private/tmp/proximity-actions-api-docs-https.log",
+      "modified_utc": "2026-09-05T22:39:56.383974+00:00",
+      "bytes": 15628468,
+      "last_task_counter": [
+        "17805",
+        "28906"
+      ],
+      "error_modules": []
+    }
+  ],
+  "build_slots": [
+    {
+      "slot": "slot-1",
+      "owner": "52237 /private/tmp/proximity-review/final",
+      "heartbeat": "1788648097"
+    },
+    {
+      "slot": "slot-2",
+      "owner": "90751 /private/tmp/proximity-duplex-doc",
+      "heartbeat": "1788648097"
+    }
+  ],
+  "eta": "Unknown: observed execution rate does not bound remaining kernel work or establish eventual termination. Build task counters are not time completion percentages. Current overall build already has errors.",
+  "recommended_improvements": [
+    "Schedule documentation generation separately from proof validation to free a shared build slot.",
+    "Preserve cached dependencies and validate only affected modules.",
+    "On the next isolated, bounded run, enable Lean declaration profiling to identify and split the expensive proof; benchmark before claiming improvement."
+  ],
+  "changes_made": "Read-only process sampling and saved diagnostics. No proof edits, cache changes, process restarts, or scheduling changes."
+}

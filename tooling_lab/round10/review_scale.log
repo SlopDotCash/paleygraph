@@ -1,0 +1,8 @@
+{"q": 1297, "n": 6, "family": "arithmetic_progression", "all_pair_means_checked": 15, "seconds": 0.008324333000928164}
+{"q": 1297, "n": 6, "family": "seeded_uniform", "all_pair_means_checked": 15, "seconds": 0.006790874991565943}
+{"q": 65537, "n": 16, "family": "arithmetic_progression", "all_pair_means_checked": 120, "seconds": 0.025908958006766625}
+{"q": 65537, "n": 16, "family": "seeded_uniform", "all_pair_means_checked": 120, "seconds": 0.027045166003517807}
+{"q": 1000033, "n": 31, "family": "arithmetic_progression", "all_pair_means_checked": 465, "seconds": 0.9121981249918463}
+{"q": 1000033, "n": 31, "family": "seeded_uniform", "all_pair_means_checked": 465, "seconds": 0.690538666996872}
+{"q": 6700417, "n": 50, "family": "arithmetic_progression", "all_pair_means_checked": 1225, "seconds": 22.601614583007176}
+{"q": 6700417, "n": 50, "family": "seeded_uniform", "all_pair_means_checked": 1225, "seconds": 24.08884266699897}

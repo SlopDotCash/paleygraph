@@ -1,0 +1,76 @@
+{
+  "observed_at_utc": "2026-09-06T05:39:27.590262+00:00",
+  "classification": "progress: published-source discrepancy resolved; missing hypothesis identified and independently verified",
+  "goal_achieved": false,
+  "uniform_bounds_improved": false,
+  "current_energy_exponent": "49/20, unchanged",
+  "current_period_exponent": "71/72, unchanged",
+  "source_files_verified": 6,
+  "prior_noncentral_artifacts_unchanged": [
+    "research/parallel36-shell-inversion-2026-09-05.md",
+    "research/parallel36-pass-summary-2026-09-05.md",
+    "experiments/parallel36_shell_certificate.cpp",
+    "experiments/parallel36_verify_2026_09_05.py",
+    "experiments/parallel36_final_audit_2026_09_05.py",
+    "results/parallel36_prior_state_2026_09_05.json",
+    "results/parallel36_resume_state_2026_09_05.json",
+    "results/parallel36_source_scope_2026_09_05.json",
+    "results/parallel36_verification_2026_09_05.json",
+    "results/parallel36_shell_6700417_64_256_2026_09_05.json",
+    "results/parallel36_shell_6700417_64_4096_2026_09_05.json",
+    "sources/parallel36-shell/nist-equations.md",
+    "results/parallel36_pass_audit_2026_09_05.json",
+    "results/parallel37_source_state_2026_09_06.json",
+    "research/parallel37-energy-source-audit-2026-09-06.md",
+    "sources/manifest.json"
+  ],
+  "review_lanes": [
+    "energy_published_source",
+    "energy_incidence_audit"
+  ],
+  "review_scope": "published pages and exact missing-hypothesis/weighted identity; not full Paley, full published proof, or Lean formalization",
+  "finite_verifier_exit": 0,
+  "finite_output_reproducible": true,
+  "finite_verifier_output": "old_proof_dyadic_level p= 1153 |S|= 8 image= 64 required= 64 I= 0 unweighted= 0\nold_proof_dyadic_level p= 1153 |S|= 24 image= 1600 required= 1728 I= 192 unweighted= 192\nnested_subgroups p= 97 |S|= 24 image= 576 required= 1728 I= 48 unweighted= 16\n/Users/shawwalters/Desktop/paleygraph/results/parallel38_coset_multiplicity_2026_09_06.json",
+  "local_links_checked": [
+    {
+      "note": "research/parallel38-pass-summary-2026-09-06.md",
+      "target": "research/parallel38-published-energy-2026-09-06.md"
+    },
+    {
+      "note": "research/parallel38-pass-summary-2026-09-06.md",
+      "target": "research/parallel38-independent-incidence-2026-09-06.md"
+    },
+    {
+      "note": "research/parallel38-pass-summary-2026-09-06.md",
+      "target": "experiments/parallel38_coset_multiplicity.py"
+    },
+    {
+      "note": "research/parallel38-pass-summary-2026-09-06.md",
+      "target": "sources/parallel38-energy-source/manifest.json"
+    }
+  ],
+  "artifacts_sha256": {
+    "research/parallel38-independent-incidence-2026-09-06.md": "8741f9a261835991221256d6ff9ef00aa72d02583b10ee805f345d13b9b02191",
+    "research/parallel38-published-energy-2026-09-06.md": "dfe3e024700984e51446b8dbe242eb55b1519e38094abd5fb5cdce41c2c6ecfb",
+    "research/parallel38-pass-summary-2026-09-06.md": "212b8df2f229adcef175d42694d483feee0880055796a4887674928279b41519",
+    "experiments/parallel38_coset_multiplicity.py": "6924545afee1673803e46bd9af8993777822fb6dabc8a76d8599b872514393a7",
+    "results/parallel38_coset_multiplicity_2026_09_06.json": "c594c36d497b387216a23cce4ffc1c99f7f385a62e0703dd0ece0a0af4e609db",
+    "results/parallel38_prior_state_2026_09_06.json": "8f6b329ef42ac0bbdec55a3c8d78d2c03cbcd5a36d0f4bb4e21957d37d21d6d3",
+    "sources/parallel38-energy-source/manifest.json": "1e8906d7043decb6abc2fdb9984846fb6951277bcf59f8831c6fe19bef27d2a2",
+    "sources/parallel38-energy-source/shkredov-vyugin-1102.1172v1.pdf": "8a8368e912b16cd7ef8693014879c03dff2b5160e2af53c61fcd5aced9329080",
+    "sources/parallel38-energy-source/publisher-article66.html": "5d5aa4f27de27b3d1b35e0212a9a10c750c45d00004532467045c1268d66e4eb",
+    "sources/parallel38-energy-source/publisher-volume3-issue3-4.html": "bb00ecea3e58ad8fbe7548245e3e444df36462da4c79761b1c08a26c2f757daa",
+    "sources/parallel38-energy-source/shkredov-2013-published-page10.png": "f97db86163781e1151dd3e85d379c3a5816a82eadb20429ee69e1bbb5f0e8023",
+    "sources/parallel38-energy-source/shkredov-2013-published-page29.png": "e5e952169ab7e20dbd3fb3e2a413ddbb9106479bcb71ce9186b34ec2195bdfe0",
+    "sources/parallel38-energy-source/shkredov-2013-published.pdf": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206"
+  },
+  "central_sha256": {
+    "README.md": "72110d4c6bb2d4bd91044d2d51746bc1b8e7ab46daf0aa4f8cc6b2462b6886a1",
+    "research/checkpoint-2026-09-04.md": "2f72282cc30eb8760708f7b63c5c94585886860572c6e63b924ea44302589970",
+    "research/frontier.md": "814933974a1b769db06477c4e8b8a134b2abd5ce2e63e734b845964d55e21845",
+    "research/source-audit.md": "65e06b7f8e1211ac872e2063b48f60c49fa909235df9f2f043ae21b5e3b70d74"
+  },
+  "main_source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "next_action": "resume actual missing uniform moment or lattice-deviation estimate using scoped inputs; do not recycle preprint22/9 without new proof"
+}

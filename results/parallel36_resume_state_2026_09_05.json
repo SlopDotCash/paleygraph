@@ -1,0 +1,12 @@
+{
+  "resumed_at_utc": "2026-09-05T23:41:17.982860+00:00",
+  "previous_goal_turn_classification": "progress: confirmed the long Lean process terminal with errors and recorded the next validation action",
+  "diagnostic_sha256": "800d446060761d8abb1146cf06363f82589d94d2449dc12607a6422717e1cdf1",
+  "central_file_sha256_before": {
+    "README.md": "7234df80dba8c551206c193e0f6a39b020578d920574109ca2f4f5b25086af75",
+    "research/frontier.md": "b9dffc8a80ca27675e3e7a97f56712eb8bf07d6c1ab4ff76fe2734d4323ec7e8",
+    "research/source-audit.md": "e007741dcd46d5b29c8504984b5e6efd7857bf638e26abbbb36481b5cb395ac3",
+    "research/checkpoint-2026-09-04.md": "61996ec8d16d0f41ef0c981520c138327f1fc7195bb1621b2f060f0624138dca"
+  },
+  "mathematical_pass": "36; prior state hashes revalidated"
+}

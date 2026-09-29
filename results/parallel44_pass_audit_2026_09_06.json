@@ -1,0 +1,55 @@
+{
+  "observed_at_utc": "2026-09-06T08:33:22.322973+00:00",
+  "classification": "progress: actual supergroup-coset mass restriction, conditional nested-level triangle bound, interval obstruction, and exact matrix constraints",
+  "previous_turn_classification": "progress: improved absolute prime-exception exponent, actual quartic obstruction, and exact collision lift accounting",
+  "goal_achieved": false,
+  "uniform_energy_exponent": "49/20 unchanged",
+  "uniform_period_exponent": "71/72 unchanged",
+  "uniform_triangle_exponent": "86/15 unchanged",
+  "quartic_absolute_exception_exponent": "5/3 unchanged",
+  "structural_hypothesis_proved_for_all_actual_levels": false,
+  "review_scope": "Root: subgroup mass transfer, nested normalization, interval family, and exact incidence-matrix identities.",
+  "no_separate_agent_lean_or_external_review": true,
+  "finite_scope": {
+    "actual_mass_identities": 24,
+    "nested_incidence_checks": 3,
+    "abstract_interval_models": 2,
+    "matrix_square_entries": 21364,
+    "shifted_matrix_inner_products": 178,
+    "weighted_frobenius_checks": 9
+  },
+  "no_lean_build": true,
+  "no_process_changes": true,
+  "no_prove2me_submission": true,
+  "prior_noncentral_files_unchanged": 8,
+  "local_links_checked": 10,
+  "artifacts_sha256": {
+    "experiments/parallel44_structured_levels.py": "82a245f7a457fd7835449b7a52a2c037321a57b27e393134c535ffe0b6928043",
+    "research/parallel44-interval-and-matrix-review-2026-09-06.md": "3b8a84aab68c226e12fec554f7b1445c05debdc1c6d6492884d44970b476a2a5",
+    "research/parallel44-pass-summary-2026-09-06.md": "be1b10c98256c693e40b8426c34ae658e64a5489d3dd305a4c67c17a32ee8f26",
+    "research/parallel44-structured-levels-2026-09-06.md": "942660c623288774f0c154febdf8da0e200ab64143e65917278b44299433b7c7",
+    "results/parallel44_prior_state_2026_09_06.json": "933eeebdc24825e8a1fc75f68057d9fa3d5bc796c91bf9c4db1cf64e78974874",
+    "results/parallel44_source_scope_2026_09_06.json": "841965c9cfff706338d6e55f61d34726fae3e9bc653140c07079ee3efec28204",
+    "results/parallel44_structured_levels_2026_09_06.json": "5e655ea81ff8b6bee7f0b52bf01f662eff714df6f555bddada97450b94b8abcf"
+  },
+  "central_changes": {
+    "README.md": {
+      "before": "df573d097ab985957f362a3d7eac4998f5ad26c05a94f400215fa81e0afdca50",
+      "after": "becdebb037b06ed72a1e0036ab311cdb93259669623f2c50acb9c5a494a0d4b3"
+    },
+    "research/frontier.md": {
+      "before": "945c6e95aacd6045f708e8759ceb3303e3d70a9f993274e43721161a470d7644",
+      "after": "5649a70caf68b749ae4c3620c4022e53928447934981d3a141df4420568f135b"
+    },
+    "research/source-audit.md": {
+      "before": "d44100d486e6e8d0303f639990b33404b7e85df308a27ec8bcf522f128cd7f21",
+      "after": "656a0f45a96783fd06d446b7c37c04a5478f5b19b1d0b5cd1ef776a056c307b2"
+    },
+    "research/checkpoint-2026-09-04.md": {
+      "before": "2031ef1b63e1c3aed88d39d275fef3e55c75956dd080cead89b22a50c86d35c7",
+      "after": "c613457cf49aa3b633e7b95263ed7feeb742b40d5b6f394e6fd1760a70ccf8b0"
+    }
+  },
+  "source_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "next_action": "Use actual matrix or arithmetic constraints to control general large-level concentration; do not assume a subgroup-coset partition or a prime-field realization of the interval model."
+}

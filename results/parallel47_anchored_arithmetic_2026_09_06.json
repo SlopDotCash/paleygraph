@@ -1,0 +1,195 @@
+{
+  "scope": "Necessary anchored-row and cyclotomic arithmetic constraints; repaired abstract model and one finite prime-field sieve, not an improved uniform estimate.",
+  "prime_pair": {
+    "n": 1024,
+    "m": 1094909953,
+    "p": 1121187791873,
+    "m_proth_c": 16707,
+    "m_proth_s": 16,
+    "m_witness": 5,
+    "p_witness": 2,
+    "exact_prime_certificates_passed": true
+  },
+  "old_interval_anchor_failures": [
+    {
+      "t": 2,
+      "required": 56,
+      "actual_model_row_mass": 28
+    },
+    {
+      "t": 4,
+      "required": 4032,
+      "actual_model_row_mass": 1580
+    },
+    {
+      "t": 8,
+      "required": 261632,
+      "actual_model_row_mass": 57820
+    },
+    {
+      "t": 16,
+      "required": 16773120,
+      "actual_model_row_mass": 1970108
+    }
+  ],
+  "repaired_model": {
+    "t": 4,
+    "n": 1024,
+    "m": 1094909953,
+    "R": 10241,
+    "odd_label": 973840840,
+    "filler_length": 255,
+    "a0": 64,
+    "A2": 33789,
+    "K": 7006904289,
+    "Q": 2097152,
+    "formal_X_budget": 402653184,
+    "anchored_rows_passed": true,
+    "formal_product_congruence_passed": true,
+    "total_X_threshold_check": {
+      "thresholds": 257,
+      "largest_conservative_squared_ratio": "0",
+      "passed": true
+    },
+    "norm_cube_lower_bound": 12980744422140057494905811160760320000,
+    "actual_incidence_matrix_supplied": false
+  },
+  "actual_subgroup": {
+    "generator_base": 3,
+    "subgroup_generator": 162130440188,
+    "support": 512,
+    "a0": 0,
+    "A2": 2045,
+    "max_a": 2,
+    "anchored_indices_checked": 1024,
+    "product_residue": 816948322761,
+    "moments": [
+      {
+        "k": 1,
+        "residue": 2048
+      },
+      {
+        "k": 2,
+        "residue": 1111363281658
+      },
+      {
+        "k": 3,
+        "residue": 733906628052
+      }
+    ],
+    "counts_sha256": "8c60309742814273c500ce9bff0749ed86c11e0ff96f1deb68ff69d3dcdc780c",
+    "all_passed": true
+  },
+  "newton_reconstruction_checks": [
+    {
+      "p": 97,
+      "n": 8,
+      "moments_checked": 7,
+      "polynomial_coefficients_ascending": [
+        1,
+        90,
+        8,
+        27,
+        49,
+        50,
+        81,
+        1
+      ],
+      "direct_factor_product_matches": true
+    },
+    {
+      "p": 353,
+      "n": 16,
+      "moments_checked": 15,
+      "polynomial_coefficients_ascending": [
+        166,
+        280,
+        293,
+        191,
+        267,
+        340,
+        313,
+        263,
+        321,
+        271,
+        131,
+        160,
+        24,
+        330,
+        321,
+        1
+      ],
+      "direct_factor_product_matches": true
+    },
+    {
+      "p": 278177,
+      "n": 32,
+      "moments_checked": 31,
+      "polynomial_coefficients_ascending": [
+        52890,
+        104298,
+        127756,
+        108866,
+        9888,
+        32154,
+        163193,
+        102747,
+        154316,
+        107800,
+        176804,
+        126755,
+        23922,
+        151277,
+        82424,
+        195131,
+        255790,
+        243696,
+        66764,
+        42747,
+        190320,
+        32530,
+        169467,
+        67717,
+        111888,
+        55449,
+        191001,
+        69840,
+        103627,
+        197165,
+        278113,
+        1
+      ],
+      "direct_factor_product_matches": true
+    }
+  ],
+  "finite_sieve": {
+    "R_range": [
+      10241,
+      12288
+    ],
+    "candidate_positions": 2048,
+    "skipped_overlapping_odd_label": 0,
+    "admissible_candidates": 2048,
+    "first_power_moment_survivors": 0,
+    "residues_sha256": "bc2c273c64356efb55a2a3ad7519d666980543b91c4d7782dae533318ffccb61",
+    "first_samples": [
+      [
+        10241,
+        973840840,
+        974073755929
+      ],
+      [
+        10242,
+        243900928,
+        946034627457
+      ],
+      [
+        10243,
+        608870969,
+        355311903232
+      ]
+    ],
+    "scope": "Exhaustive only over the stated R range at this one n,p; no uniform exclusion."
+  },
+  "all_passed": true
+}

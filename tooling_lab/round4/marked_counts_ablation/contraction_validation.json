@@ -1,0 +1,377 @@
+{
+  "status": "single-convolution Q matches all exact full relation counts and independent direct checks",
+  "cases": [
+    {
+      "file": "contraction_p1000033_marks_0_1_2.json",
+      "sha256": "3717347d81b890ddd92b6bfd178852259147ce4e10dc677e211dde995b58e0e4",
+      "p": 1000033,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "Q": -571662,
+      "ntt_modulus": 998244353,
+      "ntt_length": 2097152,
+      "transforms": 3,
+      "h3_l1": 1000030,
+      "h2_l1": 1500042,
+      "integer_recovery_margin": 996244293,
+      "Q_absolute_bound": 1500087001260,
+      "backend_seconds": 1.30734,
+      "Q_from_full_exact_relations": -571662,
+      "relation_Q_matched": true,
+      "direct_rows": 33,
+      "direct_integer_terms": 33001089,
+      "full_independent_direct_Q": false,
+      "all_character_values_checked_by_Euler_criterion": 1000033
+    },
+    {
+      "file": "contraction_p101_marks_0_1_2.json",
+      "sha256": "31e31fa0afa426ad5c4c77608c7c621cec3210466332b7edcd3558b1c6307ac5",
+      "p": 101,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "Q": -226,
+      "ntt_modulus": 998244353,
+      "ntt_length": 256,
+      "transforms": 3,
+      "h3_l1": 98,
+      "h2_l1": 146,
+      "integer_recovery_margin": 998244157,
+      "Q_absolute_bound": 14308,
+      "backend_seconds": 0.000115916,
+      "Q_from_full_exact_relations": -226,
+      "relation_Q_matched": true,
+      "direct_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 101
+    },
+    {
+      "file": "contraction_p101_marks_0_1_3.json",
+      "sha256": "c037cdfeac2647d577874986cb05979b30ac3fe88c1c1b0cca96d8a95e2c30e4",
+      "p": 101,
+      "marks": [
+        0,
+        1,
+        3
+      ],
+      "Q": -146,
+      "ntt_modulus": 998244353,
+      "ntt_length": 256,
+      "transforms": 3,
+      "h3_l1": 98,
+      "h2_l1": 146,
+      "integer_recovery_margin": 998244157,
+      "Q_absolute_bound": 14308,
+      "backend_seconds": 6.3083e-05,
+      "Q_from_full_exact_relations": -146,
+      "relation_Q_matched": true,
+      "direct_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 101
+    },
+    {
+      "file": "contraction_p101_marks_0_1_4.json",
+      "sha256": "77297885036fd4970e31d6ae8debd8797f11812028308ab80e2cab1b9243de9c",
+      "p": 101,
+      "marks": [
+        0,
+        1,
+        4
+      ],
+      "Q": 62,
+      "ntt_modulus": 998244353,
+      "ntt_length": 256,
+      "transforms": 3,
+      "h3_l1": 98,
+      "h2_l1": 146,
+      "integer_recovery_margin": 998244157,
+      "Q_absolute_bound": 14308,
+      "backend_seconds": 6.4959e-05,
+      "Q_from_full_exact_relations": 62,
+      "relation_Q_matched": true,
+      "direct_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 101
+    },
+    {
+      "file": "contraction_p101_marks_0_2_4.json",
+      "sha256": "b6c3bdebd01cd91e2a9b1f6ab86430f578655b0aa8cee28c556510840d9cd8aa",
+      "p": 101,
+      "marks": [
+        0,
+        2,
+        4
+      ],
+      "Q": -226,
+      "ntt_modulus": 998244353,
+      "ntt_length": 256,
+      "transforms": 3,
+      "h3_l1": 98,
+      "h2_l1": 146,
+      "integer_recovery_margin": 998244157,
+      "Q_absolute_bound": 14308,
+      "backend_seconds": 0.00021275,
+      "Q_from_full_exact_relations": -226,
+      "relation_Q_matched": true,
+      "direct_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 101
+    },
+    {
+      "file": "contraction_p101_marks_0_4_8.json",
+      "sha256": "9cab2a9ed01d8c6041574bdeef0b44d418938031f3b2dd22f669e8812a3d2930",
+      "p": 101,
+      "marks": [
+        0,
+        4,
+        8
+      ],
+      "Q": -226,
+      "ntt_modulus": 998244353,
+      "ntt_length": 256,
+      "transforms": 3,
+      "h3_l1": 98,
+      "h2_l1": 146,
+      "integer_recovery_margin": 998244157,
+      "Q_absolute_bound": 14308,
+      "backend_seconds": 6.6416e-05,
+      "Q_from_full_exact_relations": -226,
+      "relation_Q_matched": true,
+      "direct_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 101
+    },
+    {
+      "file": "contraction_p101_marks_1_2_3.json",
+      "sha256": "1e6527ad43ced79b4315c73003d67720b2cba0a5b31261a7afe67bc6502cb81a",
+      "p": 101,
+      "marks": [
+        1,
+        2,
+        3
+      ],
+      "Q": -226,
+      "ntt_modulus": 998244353,
+      "ntt_length": 256,
+      "transforms": 3,
+      "h3_l1": 98,
+      "h2_l1": 146,
+      "integer_recovery_margin": 998244157,
+      "Q_absolute_bound": 14308,
+      "backend_seconds": 0.000125208,
+      "Q_from_full_exact_relations": -226,
+      "relation_Q_matched": true,
+      "direct_rows": 101,
+      "direct_integer_terms": 10201,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 101
+    },
+    {
+      "file": "contraction_p1297_marks_0_1_2.json",
+      "sha256": "00a66bfbeed0ff2a5a886ea8583ba0a04b4f7234ca46bdb593eaed22dd0dbafc",
+      "p": 1297,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "Q": 3330,
+      "ntt_modulus": 998244353,
+      "ntt_length": 4096,
+      "transforms": 3,
+      "h3_l1": 1294,
+      "h2_l1": 1938,
+      "integer_recovery_margin": 998241765,
+      "Q_absolute_bound": 2507772,
+      "backend_seconds": 0.000539458,
+      "Q_from_full_exact_relations": 3330,
+      "relation_Q_matched": true,
+      "direct_rows": 1297,
+      "direct_integer_terms": 1682209,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 1297
+    },
+    {
+      "file": "contraction_p13_marks_0_1_2.json",
+      "sha256": "fb56d0c8ad297702ff491dd5cf8070d2f8c9dc7e0bc75590b27b1cdf25832842",
+      "p": 13,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "Q": -26,
+      "ntt_modulus": 998244353,
+      "ntt_length": 32,
+      "transforms": 3,
+      "h3_l1": 10,
+      "h2_l1": 14,
+      "integer_recovery_margin": 998244333,
+      "Q_absolute_bound": 140,
+      "backend_seconds": 4.2e-05,
+      "Q_from_full_exact_relations": -26,
+      "relation_Q_matched": true,
+      "direct_rows": 13,
+      "direct_integer_terms": 169,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 13
+    },
+    {
+      "file": "contraction_p17_marks_0_1_2.json",
+      "sha256": "e7dc63eafaf034e5bddbb987a93ceec870bd454ef319a5837f7a6b1d4dbe432e",
+      "p": 17,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "Q": 2,
+      "ntt_modulus": 998244353,
+      "ntt_length": 64,
+      "transforms": 3,
+      "h3_l1": 14,
+      "h2_l1": 18,
+      "integer_recovery_margin": 998244325,
+      "Q_absolute_bound": 252,
+      "backend_seconds": 5.0625e-05,
+      "Q_from_full_exact_relations": 2,
+      "relation_Q_matched": true,
+      "direct_rows": 17,
+      "direct_integer_terms": 289,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 17
+    },
+    {
+      "file": "contraction_p65537_marks_0_1_2.json",
+      "sha256": "306b94ed6a043725688e3cabfee243a16478d5d29dc4298299cf69d11c5a3173",
+      "p": 65537,
+      "marks": [
+        0,
+        1,
+        2
+      ],
+      "Q": 196626,
+      "ntt_modulus": 998244353,
+      "ntt_length": 262144,
+      "transforms": 3,
+      "h3_l1": 65534,
+      "h2_l1": 98298,
+      "integer_recovery_margin": 998113285,
+      "Q_absolute_bound": 6441861132,
+      "backend_seconds": 0.213415,
+      "Q_from_full_exact_relations": 196626,
+      "relation_Q_matched": true,
+      "direct_rows": 33,
+      "direct_integer_terms": 2162721,
+      "full_independent_direct_Q": false,
+      "all_character_values_checked_by_Euler_criterion": 65537
+    },
+    {
+      "file": "contraction_p29_marks_1_4_0.json",
+      "sha256": "f1906bf9cd4582d83c6eceb0a0b8a6fae168783d0c3c44433110a8af9e89f913",
+      "p": 29,
+      "marks": [
+        1,
+        4,
+        0
+      ],
+      "Q": -42,
+      "ntt_modulus": 998244353,
+      "ntt_length": 64,
+      "transforms": 3,
+      "h3_l1": 26,
+      "h2_l1": 38,
+      "integer_recovery_margin": 998244301,
+      "Q_absolute_bound": 988,
+      "backend_seconds": 0.000932292,
+      "Q_from_full_exact_relations": -42,
+      "relation_Q_matched": true,
+      "direct_rows": 29,
+      "direct_integer_terms": 841,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 29
+    },
+    {
+      "file": "contraction_p29_marks_1_9_0.json",
+      "sha256": "c1028108fcf3b0d69b9a82168859de75a4c04691493c100a7e99ae7ac70b4302",
+      "p": 29,
+      "marks": [
+        1,
+        9,
+        0
+      ],
+      "Q": 86,
+      "ntt_modulus": 998244353,
+      "ntt_length": 64,
+      "transforms": 3,
+      "h3_l1": 26,
+      "h2_l1": 38,
+      "integer_recovery_margin": 998244301,
+      "Q_absolute_bound": 988,
+      "backend_seconds": 4.9334e-05,
+      "Q_from_full_exact_relations": 86,
+      "relation_Q_matched": true,
+      "direct_rows": 29,
+      "direct_integer_terms": 841,
+      "full_independent_direct_Q": true,
+      "all_character_values_checked_by_Euler_criterion": 29
+    }
+  ],
+  "guard_rejections": [
+    {
+      "args": [],
+      "error": "usage: single_contraction p mark1 mark2 mark3"
+    },
+    {
+      "args": [
+        "49",
+        "0",
+        "1",
+        "2"
+      ],
+      "error": "field parameter is not prime"
+    },
+    {
+      "args": [
+        "29",
+        "0",
+        "0",
+        "1"
+      ],
+      "error": "marks must be distinct"
+    },
+    {
+      "args": [
+        "29",
+        "0",
+        "1",
+        "29"
+      ],
+      "error": "noncanonical mark"
+    },
+    {
+      "args": [
+        "5242889",
+        "0",
+        "1",
+        "2"
+      ],
+      "error": "field exceeds supported exact prime domain"
+    }
+  ],
+  "runtime": {
+    "python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "version": "3.14.6"
+  },
+  "source_sha256": "f3564cb52dcc1f40224564606b2b3869688e8357f167a7101b74f5c53680de37"
+}

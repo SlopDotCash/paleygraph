@@ -1,0 +1,26 @@
+{
+  "repository_head": "25de4107388ce3e371c2f56252279ab6455eb1a9",
+  "files": [
+    {
+      "path": "/Users/shawwalters/proximityprize/ArkLib/Data/CodingTheory/ProximityGap/AGENTS.md",
+      "sha256": "6324769ccea98f1be05403a7a0168a8a851f3f0d3b4763bfe569341e93649420"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/scripts/probes/probe_syz71_verify_f41.py",
+      "sha256": "eb97f3b3eb1e3592087ba1a1ca8590b8314bc12157e3de71834c21988bfeab3f"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/scripts/probes/probe_syz53_p_scaling.py",
+      "sha256": "ec03aac9ddb930dab7c22079ea3cbdfea0cd1aa9941189b1819d8c56ec52e7e0"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/ArkLib/Data/CodingTheory/ProximityGap/Frontier/_SW1_F1_UniformSylvesterRefuted.lean",
+      "sha256": "c305a5d0f3bc5fcf9f1b3644966ed0256a67619109597c852fd58d82c615721e"
+    },
+    {
+      "path": "/Users/shawwalters/proximityprize/docs/kb/deltastar-sw1-nec-2026-09-05.md",
+      "sha256": "a927c40403b7258d0a00f263aae6a1a2a17b347c602806f2fdb02c577f3b2d7a"
+    }
+  ],
+  "lean_validation_performed": false
+}

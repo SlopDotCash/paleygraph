@@ -1,0 +1,3 @@
+{"case": "boundary", "review": {"status": "verified", "queries_rank_checked": 71113, "branches_checked": 2, "projective_class_size": 62, "outside_coordinates": 962, "routing_complete_in_supplied_space": true, "cutoff_optimality_checked": false}}
+{"case": "late_near_miss", "review": {"status": "verified", "queries_rank_checked": 71113, "branches_checked": 2, "projective_class_size": 62, "outside_coordinates": 962, "routing_complete_in_supplied_space": true, "cutoff_optimality_checked": false}}
+{"case": "true_guard_mismatch", "review": {"status": "verified", "queries_rank_checked": 70892, "branches_checked": 2, "projective_class_size": 62, "outside_coordinates": 962, "routing_complete_in_supplied_space": true, "cutoff_optimality_checked": false}}

@@ -1,0 +1,851 @@
+{
+  "status": "cell sizes alone are insufficient; concrete exact ablations and a single-convolution compression",
+  "ablation_pairs": [
+    {
+      "witness_file": "witness.json",
+      "q": 29,
+      "same_literal_cell_profile": true,
+      "pair": [
+        {
+          "graph": "Paley29",
+          "marks": [
+            1,
+            4,
+            0
+          ],
+          "Q_direct_matrix": -42,
+          "direct_Q_pair_terms": 841,
+          "reduced_moments": {
+            "6": {
+              "q": 29,
+              "marks": [
+                1,
+                4,
+                0
+              ],
+              "n": 6,
+              "degree": 6,
+              "cell_only_term": [
+                7323,
+                325
+              ],
+              "Q": -42,
+              "Q_coefficient": [
+                0,
+                1
+              ],
+              "mean": [
+                -6,
+                325
+              ],
+              "second_moment": [
+                7323,
+                325
+              ],
+              "variance": [
+                2379939,
+                105625
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 0,
+              "uneliminated_ordered_walsh_terms": 0
+            },
+            "7": {
+              "q": 29,
+              "marks": [
+                1,
+                4,
+                0
+              ],
+              "n": 7,
+              "degree": 6,
+              "cell_only_term": [
+                941207,
+                7475
+              ],
+              "Q": -42,
+              "Q_coefficient": [
+                -2,
+                7475
+              ],
+              "mean": [
+                -213,
+                1495
+              ],
+              "second_moment": [
+                72407,
+                575
+              ],
+              "variance": [
+                56280128,
+                447005
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 24,
+              "uneliminated_ordered_walsh_terms": 6
+            },
+            "8": {
+              "q": 29,
+              "marks": [
+                1,
+                4,
+                0
+              ],
+              "n": 8,
+              "degree": 6,
+              "cell_only_term": [
+                6729956,
+                16445
+              ],
+              "Q": -42,
+              "Q_coefficient": [
+                2,
+                16445
+              ],
+              "mean": [
+                -888,
+                1495
+              ],
+              "second_moment": [
+                6729872,
+                16445
+              ],
+              "variance": [
+                10052484656,
+                24585275
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 32,
+              "uneliminated_ordered_walsh_terms": 6
+            }
+          }
+        },
+        {
+          "graph": "Paley29",
+          "marks": [
+            1,
+            9,
+            0
+          ],
+          "Q_direct_matrix": 86,
+          "direct_Q_pair_terms": 841,
+          "reduced_moments": {
+            "6": {
+              "q": 29,
+              "marks": [
+                1,
+                9,
+                0
+              ],
+              "n": 6,
+              "degree": 6,
+              "cell_only_term": [
+                7323,
+                325
+              ],
+              "Q": 86,
+              "Q_coefficient": [
+                0,
+                1
+              ],
+              "mean": [
+                -6,
+                325
+              ],
+              "second_moment": [
+                7323,
+                325
+              ],
+              "variance": [
+                2379939,
+                105625
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 0,
+              "uneliminated_ordered_walsh_terms": 0
+            },
+            "7": {
+              "q": 29,
+              "marks": [
+                1,
+                9,
+                0
+              ],
+              "n": 7,
+              "degree": 6,
+              "cell_only_term": [
+                941207,
+                7475
+              ],
+              "Q": 86,
+              "Q_coefficient": [
+                -2,
+                7475
+              ],
+              "mean": [
+                -213,
+                1495
+              ],
+              "second_moment": [
+                188207,
+                1495
+              ],
+              "variance": [
+                281324096,
+                2235025
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 24,
+              "uneliminated_ordered_walsh_terms": 6
+            },
+            "8": {
+              "q": 29,
+              "marks": [
+                1,
+                9,
+                0
+              ],
+              "n": 8,
+              "degree": 6,
+              "cell_only_term": [
+                6729956,
+                16445
+              ],
+              "Q": 86,
+              "Q_coefficient": [
+                2,
+                16445
+              ],
+              "mean": [
+                -888,
+                1495
+              ],
+              "second_moment": [
+                6730128,
+                16445
+              ],
+              "variance": [
+                10052867376,
+                24585275
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 32,
+              "uneliminated_ordered_walsh_terms": 6
+            }
+          }
+        }
+      ],
+      "gaps": [
+        {
+          "n": 6,
+          "second_moment_right_minus_left": [
+            0,
+            1
+          ],
+          "Q_coefficient": [
+            0,
+            1
+          ],
+          "exact_gap_explained_by_Q": true
+        },
+        {
+          "n": 7,
+          "second_moment_right_minus_left": [
+            -256,
+            7475
+          ],
+          "Q_coefficient": [
+            -2,
+            7475
+          ],
+          "exact_gap_explained_by_Q": true
+        },
+        {
+          "n": 8,
+          "second_moment_right_minus_left": [
+            256,
+            16445
+          ],
+          "Q_coefficient": [
+            2,
+            16445
+          ],
+          "exact_gap_explained_by_Q": true
+        }
+      ],
+      "independently_enumerated_completions": 166660
+    },
+    {
+      "witness_file": "twins_witness.json",
+      "q": 49,
+      "same_literal_cell_profile": true,
+      "pair": [
+        {
+          "graph": "Paley49",
+          "marks": [
+            0,
+            1,
+            3
+          ],
+          "Q_direct_matrix": 162,
+          "direct_Q_pair_terms": 2401,
+          "reduced_moments": {
+            "6": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                3
+              ],
+              "n": 6,
+              "degree": 6,
+              "cell_only_term": [
+                53953,
+                1265
+              ],
+              "Q": 162,
+              "Q_coefficient": [
+                0,
+                1
+              ],
+              "mean": [
+                -43,
+                3795
+              ],
+              "second_moment": [
+                53953,
+                1265
+              ],
+              "variance": [
+                614253056,
+                14402025
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 0,
+              "uneliminated_ordered_walsh_terms": 0
+            },
+            "7": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                3
+              ],
+              "n": 7,
+              "degree": 6,
+              "cell_only_term": [
+                13992739,
+                54395
+              ],
+              "Q": 162,
+              "Q_coefficient": [
+                -8,
+                54395
+              ],
+              "mean": [
+                -2135,
+                32637
+              ],
+              "second_moment": [
+                13991443,
+                54395
+              ],
+              "variance": [
+                1369893384448,
+                5325868845
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 24,
+              "uneliminated_ordered_walsh_terms": 6
+            },
+            "8": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                3
+              ],
+              "n": 8,
+              "degree": 6,
+              "cell_only_term": [
+                69086176,
+                76153
+              ],
+              "Q": 162,
+              "Q_coefficient": [
+                -296,
+                685377
+              ],
+              "mean": [
+                -7676,
+                32637
+              ],
+              "second_moment": [
+                69080848,
+                76153
+              ],
+              "variance": [
+                6763362461696,
+                7456216383
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 32,
+              "uneliminated_ordered_walsh_terms": 6
+            }
+          }
+        },
+        {
+          "graph": "Paley49",
+          "marks": [
+            0,
+            1,
+            7
+          ],
+          "Q_direct_matrix": -94,
+          "direct_Q_pair_terms": 2401,
+          "reduced_moments": {
+            "6": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                7
+              ],
+              "n": 6,
+              "degree": 6,
+              "cell_only_term": [
+                53953,
+                1265
+              ],
+              "Q": -94,
+              "Q_coefficient": [
+                0,
+                1
+              ],
+              "mean": [
+                -43,
+                3795
+              ],
+              "second_moment": [
+                53953,
+                1265
+              ],
+              "variance": [
+                614253056,
+                14402025
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 0,
+              "uneliminated_ordered_walsh_terms": 0
+            },
+            "7": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                7
+              ],
+              "n": 7,
+              "degree": 6,
+              "cell_only_term": [
+                13992739,
+                54395
+              ],
+              "Q": -94,
+              "Q_coefficient": [
+                -8,
+                54395
+              ],
+              "mean": [
+                -2135,
+                32637
+              ],
+              "second_moment": [
+                13993491,
+                54395
+              ],
+              "variance": [
+                1370093906176,
+                5325868845
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 24,
+              "uneliminated_ordered_walsh_terms": 6
+            },
+            "8": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                7
+              ],
+              "n": 8,
+              "degree": 6,
+              "cell_only_term": [
+                69086176,
+                76153
+              ],
+              "Q": -94,
+              "Q_coefficient": [
+                -296,
+                685377
+              ],
+              "mean": [
+                -7676,
+                32637
+              ],
+              "second_moment": [
+                621803408,
+                685377
+              ],
+              "variance": [
+                6764186828800,
+                7456216383
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 32,
+              "uneliminated_ordered_walsh_terms": 6
+            }
+          }
+        }
+      ],
+      "gaps": [
+        {
+          "n": 6,
+          "second_moment_right_minus_left": [
+            0,
+            1
+          ],
+          "Q_coefficient": [
+            0,
+            1
+          ],
+          "exact_gap_explained_by_Q": true
+        },
+        {
+          "n": 7,
+          "second_moment_right_minus_left": [
+            2048,
+            54395
+          ],
+          "Q_coefficient": [
+            -8,
+            54395
+          ],
+          "exact_gap_explained_by_Q": true
+        },
+        {
+          "n": 8,
+          "second_moment_right_minus_left": [
+            75776,
+            685377
+          ],
+          "Q_coefficient": [
+            -296,
+            685377
+          ],
+          "exact_gap_explained_by_Q": true
+        }
+      ],
+      "independently_enumerated_completions": 3098238
+    },
+    {
+      "witness_file": "cross_twins_witness.json",
+      "q": 49,
+      "same_literal_cell_profile": true,
+      "pair": [
+        {
+          "graph": "Paley49",
+          "marks": [
+            0,
+            1,
+            3
+          ],
+          "Q_direct_matrix": 162,
+          "direct_Q_pair_terms": 2401,
+          "reduced_moments": {
+            "6": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                3
+              ],
+              "n": 6,
+              "degree": 6,
+              "cell_only_term": [
+                53953,
+                1265
+              ],
+              "Q": 162,
+              "Q_coefficient": [
+                0,
+                1
+              ],
+              "mean": [
+                -43,
+                3795
+              ],
+              "second_moment": [
+                53953,
+                1265
+              ],
+              "variance": [
+                614253056,
+                14402025
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 0,
+              "uneliminated_ordered_walsh_terms": 0
+            },
+            "7": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                3
+              ],
+              "n": 7,
+              "degree": 6,
+              "cell_only_term": [
+                13992739,
+                54395
+              ],
+              "Q": 162,
+              "Q_coefficient": [
+                -8,
+                54395
+              ],
+              "mean": [
+                -2135,
+                32637
+              ],
+              "second_moment": [
+                13991443,
+                54395
+              ],
+              "variance": [
+                1369893384448,
+                5325868845
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 24,
+              "uneliminated_ordered_walsh_terms": 6
+            },
+            "8": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                3
+              ],
+              "n": 8,
+              "degree": 6,
+              "cell_only_term": [
+                69086176,
+                76153
+              ],
+              "Q": 162,
+              "Q_coefficient": [
+                -296,
+                685377
+              ],
+              "mean": [
+                -7676,
+                32637
+              ],
+              "second_moment": [
+                69080848,
+                76153
+              ],
+              "variance": [
+                6763362461696,
+                7456216383
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 32,
+              "uneliminated_ordered_walsh_terms": 6
+            }
+          }
+        },
+        {
+          "graph": "Peisert49",
+          "marks": [
+            0,
+            1,
+            2
+          ],
+          "Q_direct_matrix": 354,
+          "direct_Q_pair_terms": 2401,
+          "reduced_moments": {
+            "6": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                2
+              ],
+              "n": 6,
+              "degree": 6,
+              "cell_only_term": [
+                53953,
+                1265
+              ],
+              "Q": 354,
+              "Q_coefficient": [
+                0,
+                1
+              ],
+              "mean": [
+                -43,
+                3795
+              ],
+              "second_moment": [
+                53953,
+                1265
+              ],
+              "variance": [
+                614253056,
+                14402025
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 0,
+              "uneliminated_ordered_walsh_terms": 0
+            },
+            "7": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                2
+              ],
+              "n": 7,
+              "degree": 6,
+              "cell_only_term": [
+                13992739,
+                54395
+              ],
+              "Q": 354,
+              "Q_coefficient": [
+                -8,
+                54395
+              ],
+              "mean": [
+                -2135,
+                32637
+              ],
+              "second_moment": [
+                13989907,
+                54395
+              ],
+              "variance": [
+                1369742993152,
+                5325868845
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 24,
+              "uneliminated_ordered_walsh_terms": 6
+            },
+            "8": {
+              "q": 49,
+              "marks": [
+                0,
+                1,
+                2
+              ],
+              "n": 8,
+              "degree": 6,
+              "cell_only_term": [
+                69086176,
+                76153
+              ],
+              "Q": 354,
+              "Q_coefficient": [
+                -296,
+                685377
+              ],
+              "mean": [
+                -7676,
+                32637
+              ],
+              "second_moment": [
+                207223600,
+                228459
+              ],
+              "variance": [
+                6762744186368,
+                7456216383
+              ],
+              "identity": "E[T_d(C)^2 | M subset C] = cell_only_term + Q_coefficient * Q",
+              "Q_definition": "h2^T S h3; h2(x)=sum_{i<j} S(x,m_i)S(x,m_j), h3(x)=product_i S(x,m_i), both set to zero on M",
+              "nonzero_walsh_coefficients": 32,
+              "uneliminated_ordered_walsh_terms": 6
+            }
+          }
+        }
+      ],
+      "gaps": [
+        {
+          "n": 6,
+          "second_moment_right_minus_left": [
+            0,
+            1
+          ],
+          "Q_coefficient": [
+            0,
+            1
+          ],
+          "exact_gap_explained_by_Q": true
+        },
+        {
+          "n": 7,
+          "second_moment_right_minus_left": [
+            -1536,
+            54395
+          ],
+          "Q_coefficient": [
+            -8,
+            54395
+          ],
+          "exact_gap_explained_by_Q": true
+        },
+        {
+          "n": 8,
+          "second_moment_right_minus_left": [
+            -18944,
+            228459
+          ],
+          "Q_coefficient": [
+            -296,
+            685377
+          ],
+          "exact_gap_explained_by_Q": true
+        }
+      ],
+      "independently_enumerated_completions": 3098238
+    }
+  ],
+  "total_direct_completions": 6363136,
+  "contraction_validation_file": "contraction_validation.json",
+  "contraction_validation_sha256": "87762381a7e59629018cdf995b0e73c463fea1136f9f8acc56dfc9e063033bc3",
+  "compiler_source_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+  "reduction_source_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+  "source_sha256": "2246d8a150f28e37edff9a9e99ec0fbd2a341a09b60e2f65063d19b2172d3226"
+}

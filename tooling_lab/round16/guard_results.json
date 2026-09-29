@@ -1,0 +1,78 @@
+{
+  "status": "produced",
+  "scope": "Guard-reserving conditional profiles certified and decoded. Separate complete branch replay is required before accepting numerical improvements.",
+  "cases": [
+    {
+      "case": "boundary",
+      "certificate": "boundary.guarded.json",
+      "decoded": "boundary.guarded.decoded.json",
+      "metrics": {
+        "query_systems_solved": 71520,
+        "branch_candidates_generated": 71488,
+        "branch_candidate_coordinate_evaluations": 72433,
+        "branch_output_word_coordinate_evaluations": 962,
+        "final_whole_word_coordinate_evaluations": 1024,
+        "branch_full_scan_coordinate_evaluations": 68771456,
+        "total_explicit_coordinate_evaluations": 74419
+      },
+      "outputs": 1
+    },
+    {
+      "case": "late_near_miss",
+      "certificate": "late_near_miss.guarded.json",
+      "decoded": "late_near_miss.guarded.decoded.json",
+      "metrics": {
+        "query_systems_solved": 71520,
+        "branch_candidates_generated": 71491,
+        "branch_candidate_coordinate_evaluations": 72345,
+        "branch_output_word_coordinate_evaluations": 0,
+        "final_whole_word_coordinate_evaluations": 0,
+        "branch_full_scan_coordinate_evaluations": 68774342,
+        "total_explicit_coordinate_evaluations": 72345
+      },
+      "outputs": 0
+    },
+    {
+      "case": "true_guard_mismatch",
+      "certificate": "true_guard_mismatch.guarded.json",
+      "decoded": "true_guard_mismatch.guarded.decoded.json",
+      "metrics": {
+        "query_systems_solved": 73554,
+        "branch_candidates_generated": 73532,
+        "branch_candidate_coordinate_evaluations": 74290,
+        "branch_output_word_coordinate_evaluations": 962,
+        "final_whole_word_coordinate_evaluations": 1024,
+        "branch_full_scan_coordinate_evaluations": 70737784,
+        "total_explicit_coordinate_evaluations": 76276
+      },
+      "outputs": 1
+    }
+  ],
+  "source_sha256": {
+    "guard_profiles.py": "16d877667aab4bb52c665389531520fd290330dde606beee61a2565127aa26fb",
+    "conditional_pruning.py": "0e2a288cb1778fb1f8a10e6458920eb32f1e89303d39d020b30ead7a914898e8",
+    "conditional_verifier.py": "4f59795241db54d9bc24a73527da7187aef47855ccf632a36f581c6c8dbbdb92",
+    "conditional_cover.py": "53e427c4c47ea650bd52b8cf65a35f20e547b38ea71e7fca93adf223a98a301b",
+    "../round15/capacity_search.py": "7d788d29b073a22a418361145cf5a250d46fae1dffe212a46809a1b3f3ced514",
+    "../round15/projective_profile.py": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+    "../round14/arc_pruning.py": "f17ec68596ea342675d1a28b02d5f0ace859c2e04e8bcd3d15b5d1e5be9fbf4e",
+    "../round14/arc_filter_fast.py": "c2d1b1c51036571f268984926ae72a4fbe8dc841c57be0306ed05a437f379f94",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8",
+    "../round14/arc_certificate.py": "48305a4d4fd98068992d4893a66eca3f9359261804015def975e0a7b5a30b513",
+    "../round14/dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a",
+    "../round14/arc_profile.py": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f"
+  },
+  "input_sha256": {
+    "boundary.conditional.json": "cd3f4361fdba585cff0e9606095cb14777747a4f31b8f6ac58ea496ead43824e",
+    "late_near_miss.conditional.json": "1dfa6c97b48264942d7442f2c4de80268241a5f8d73a31c1413f45712ea1a101",
+    "true_guard_mismatch.conditional.json": "11b6906369a6a79637f4d0aa8e104afaf29613e7ac25e0920e8761e22dbfc0d4"
+  },
+  "artifact_sha256": {
+    "boundary.guarded.json": "10d48b682b1fd50623011e297f96290ef8a22a47be27779c04ac66a7940c90a4",
+    "boundary.guarded.decoded.json": "d733095c64c0c03c85fad25c2a07ce4d80159e06a14e5e661aedd9d130611109",
+    "late_near_miss.guarded.json": "dfc9d59116fa4a1df85fe29f613f8a358a638a381207cf2b8a563a65d255be4f",
+    "late_near_miss.guarded.decoded.json": "dfdbaf6452a9d46bbb6ee2354bed83911d564faf8127a5789b1a56da82a06190",
+    "true_guard_mismatch.guarded.json": "8ce7584fe4600158872db4291f458869a17a5f4bfcfd3e6257dcd3aefa0d9a01",
+    "true_guard_mismatch.guarded.decoded.json": "07e49112aac6576f1add081863cd6187f95c2525f55dac69535ae2e3a97676e0"
+  }
+}

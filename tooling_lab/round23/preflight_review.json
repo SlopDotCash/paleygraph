@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "consecutive33",
+      "queries_replayed": 16,
+      "scalar_candidates_checked": 413,
+      "cuts_verified": 33,
+      "optimality_certificates": 33,
+      "difference_box_size": 2657205,
+      "uniform_candidate_cap": 12288
+    },
+    {
+      "name": "consecutive36",
+      "queries_replayed": 16,
+      "scalar_candidates_checked": 9976,
+      "cuts_verified": 36,
+      "optimality_certificates": 36,
+      "difference_box_size": 7381125,
+      "uniform_candidate_cap": 27648
+    },
+    {
+      "name": "consecutive40",
+      "queries_replayed": 16,
+      "scalar_candidates_checked": 215424,
+      "cuts_verified": 40,
+      "optimality_certificates": 40,
+      "difference_box_size": 439453125,
+      "uniform_candidate_cap": 708588
+    }
+  ],
+  "input_sha256": {
+    "preflight.json": "92521d9cc33345ade744daa9de4fbf0a930dc9b2512a4432f95ef2c57949093b",
+    "consecutive33.json": "4f1666d22a9511bb37ff175e503d4af269b53f925adef747563c60aab23b22c1",
+    "consecutive36.json": "cb41b7f3da57e2960d19a6580c6304be8363eaa0457b4363eb47fae28915c935",
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028"
+  },
+  "source_sha256": {
+    "preflight_review.py": "70fff010b0dd20486bb4811619db8f568cebd3bf8c163ed058b2494ff86e737d",
+    "../round22/conditioned_review.py": "541554d050c916cbbac05acf6347dd88377e3822926e64806da5987a1aed2ec6",
+    "../round22/metric_review.py": "8fe9a63d5398e4dd9fa06131a5c8a3793e98e5edf925a7735ad83a5872db247e"
+  }
+}

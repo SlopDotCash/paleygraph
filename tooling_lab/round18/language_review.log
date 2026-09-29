@@ -1,0 +1,9 @@
+{"p": 17, "N": 4, "all_residue_profiles_checked": 1, "actual_scalar_words_checked": 17, "scalar_coordinate_transitions": 68, "actual_support_distribution": [1, 8, 0, 8, 0], "minimum_nonzero_support": 1, "maximum_support": 3}
+{"p": 257, "N": 8, "all_residue_profiles_checked": 1, "actual_scalar_words_checked": 257, "scalar_coordinate_transitions": 2056, "actual_support_distribution": [1, 16, 0, 112, 0, 112, 0, 16, 0], "minimum_nonzero_support": 1, "maximum_support": 7}
+{"p": 65537, "N": 16, "all_residue_profiles_checked": 1, "actual_scalar_words_checked": 65537, "scalar_coordinate_transitions": 1048592, "actual_support_distribution": [1, 32, 0, 1120, 0, 8736, 0, 22880, 0, 22880, 0, 8736, 0, 1120, 0, 32, 0], "minimum_nonzero_support": 1, "maximum_support": 15}
+{"p": 6700417, "N": 32, "all_residue_profiles_checked": 641, "actual_scalar_words_checked": 6700417, "scalar_coordinate_transitions": 214413344, "actual_support_distribution": [1, 0, 0, 0, 0, 512, 0, 11264, 0, 86656, 0, 400192, 0, 1091648, 0, 1755776, 0, 1770496, 0, 1083072, 0, 401664, 0, 88064, 0, 10496, 0, 576, 0, 0, 0, 0, 0], "minimum_nonzero_support": 5, "maximum_support": 27}
+low-support resultants checked 128/512
+low-support resultants checked 256/512
+low-support resultants checked 384/512
+low-support resultants checked 512/512
+{"status": "passed", "actual_scalars": 6766228, "low_support_norms": 512}

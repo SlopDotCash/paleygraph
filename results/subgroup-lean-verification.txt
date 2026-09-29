@@ -1,0 +1,9 @@
+Lean (version 4.29.1, arm64-apple-darwin24.6.0, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)
+mathlib HEAD: 5e932f97dd25535344f80f9dd8da3aab83df0fe6
+source SHA-256: 1183a650690f2579c7f200670d8bdb6690d697067f6d8bd477a193a36a75f322
+exit code: 0
+axiom audit passed: True
+'PaleySubgroupCertificate.product_closed' depends on axioms: [propext, Quot.sound]
+'PaleySubgroupCertificate.all_roots' depends on axioms: [propext, Quot.sound]
+'PaleySubgroupCertificate.normalized_count' depends on axioms: [propext, Quot.sound]
+'PaleySubgroupCertificate.gaussian_comparison_failure_arithmetic' depends on axioms: [propext, Quot.sound]

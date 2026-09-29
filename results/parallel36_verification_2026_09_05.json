@@ -1,0 +1,668 @@
+{
+  "created_at_utc": "2026-09-05T23:46:34.601772+00:00",
+  "checks": 41574,
+  "elapsed_seconds": 25.402448707987787,
+  "dirichlet_inverse_coefficients_checked": 4096,
+  "general_symmetric_cases": [
+    {
+      "p": 3,
+      "A": [
+        1,
+        2
+      ],
+      "D": "0"
+    },
+    {
+      "p": 7,
+      "A": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "D": "13/147"
+    },
+    {
+      "p": 13,
+      "A": [
+        1,
+        3,
+        4,
+        9,
+        10,
+        12
+      ],
+      "D": "3/26"
+    },
+    {
+      "p": 17,
+      "A": [
+        1,
+        2,
+        3,
+        14,
+        15,
+        16
+      ],
+      "D": "125/578"
+    },
+    {
+      "p": 29,
+      "A": [
+        1,
+        4,
+        7,
+        22,
+        25,
+        28
+      ],
+      "D": "399/1682"
+    },
+    {
+      "p": 17,
+      "A": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "D": "0"
+    }
+  ],
+  "full_cpp_comparisons": [
+    {
+      "p": 3,
+      "n": 2,
+      "truncation": 16,
+      "cosets": 1,
+      "upper": "1"
+    },
+    {
+      "p": 5,
+      "n": 2,
+      "truncation": 16,
+      "cosets": 2,
+      "upper": "155375925972627630604260221/89335319756800000000000000"
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "truncation": 16,
+      "cosets": 1,
+      "upper": "1"
+    },
+    {
+      "p": 7,
+      "n": 6,
+      "truncation": 16,
+      "cosets": 1,
+      "upper": "1"
+    },
+    {
+      "p": 17,
+      "n": 4,
+      "truncation": 32,
+      "cosets": 4,
+      "upper": "5995873187262766074647597/1992864825344000000000000"
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "truncation": 32,
+      "cosets": 2,
+      "upper": "175270482240170875531562623/67757404061696000000000000"
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "truncation": 32,
+      "cosets": 1,
+      "upper": "1"
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "truncation": 64,
+      "cosets": 5,
+      "upper": "5600790755611665988749684301/1184758138667008000000000000"
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "truncation": 128,
+      "cosets": 6,
+      "upper": "530729666532281954070635121701/75270092136382464000000000000"
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "truncation": 256,
+      "cosets": 16,
+      "upper": "878251418547152155924603409367/93320224773767168000000000000"
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "truncation": 128,
+      "cosets": 144,
+      "upper": "2738366948241012952580782773837557/379201977293217988608000000000000"
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "truncation": 256,
+      "cosets": 2107,
+      "upper": "15285743507835151942429242708325623853103/1109600330046512769190068224000000000000"
+    }
+  ],
+  "dyadic_norm_cases": [
+    {
+      "p": 5,
+      "n": 4,
+      "generator": 2,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        2
+      ],
+      "square_sum": 5,
+      "norm": 5,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "generator": 2,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        -1
+      ],
+      "square_sum": 5,
+      "norm": 5,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "generator": 2,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        -2,
+        1
+      ],
+      "square_sum": 5,
+      "norm": 5,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "generator": 2,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        -1
+      ],
+      "square_sum": 5,
+      "norm": 5,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 2,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "square_sum": 85,
+      "norm": 4913,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 2,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        4,
+        8,
+        -1
+      ],
+      "square_sum": 85,
+      "norm": 4913,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 2,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        3,
+        6,
+        -5,
+        7
+      ],
+      "square_sum": 119,
+      "norm": 4913,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 17,
+      "n": 8,
+      "generator": 2,
+      "frequency": 8,
+      "centered_power_coordinates": [
+        8,
+        -1,
+        -2,
+        -4
+      ],
+      "square_sum": 85,
+      "norm": 4913,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        3,
+        -8,
+        -7,
+        -4,
+        5,
+        -2,
+        -6
+      ],
+      "square_sum": 204,
+      "norm": 820677346,
+      "norm_over_p_to_N_minus_1": "2"
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        6,
+        1,
+        3,
+        -8,
+        -7,
+        -4,
+        5
+      ],
+      "square_sum": 204,
+      "norm": 820677346,
+      "norm_over_p_to_N_minus_1": "2"
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        3,
+        -8,
+        -7,
+        -4,
+        5,
+        -2,
+        -6,
+        -1
+      ],
+      "square_sum": 204,
+      "norm": 820677346,
+      "norm_over_p_to_N_minus_1": "2"
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "frequency": 8,
+      "centered_power_coordinates": [
+        8,
+        7,
+        4,
+        -5,
+        2,
+        6,
+        1,
+        3
+      ],
+      "square_sum": 204,
+      "norm": 820677346,
+      "norm_over_p_to_N_minus_1": "2"
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "generator": 3,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        3,
+        9,
+        -14
+      ],
+      "square_sum": 287,
+      "norm": 68921,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "generator": 3,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        6,
+        18,
+        13
+      ],
+      "square_sum": 533,
+      "norm": 68921,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "generator": 3,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        3,
+        9,
+        -14,
+        -1
+      ],
+      "square_sum": 287,
+      "norm": 68921,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 41,
+      "n": 8,
+      "generator": 3,
+      "frequency": 20,
+      "centered_power_coordinates": [
+        20,
+        19,
+        16,
+        7
+      ],
+      "square_sum": 1066,
+      "norm": 275684,
+      "norm_over_p_to_N_minus_1": "4"
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "generator": 8,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        8,
+        -33,
+        27,
+        22,
+        -18,
+        -47,
+        12
+      ],
+      "square_sum": 5044,
+      "norm": 161596568956226,
+      "norm_over_p_to_N_minus_1": "2"
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "generator": 8,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        16,
+        31,
+        -43,
+        44,
+        -36,
+        3,
+        24
+      ],
+      "square_sum": 6887,
+      "norm": 80798284478113,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "generator": 8,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        3,
+        24,
+        -2,
+        -16,
+        -31,
+        43,
+        -44,
+        36
+      ],
+      "square_sum": 6887,
+      "norm": 80798284478113,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "generator": 8,
+      "frequency": 48,
+      "centered_power_coordinates": [
+        48,
+        -4,
+        -32,
+        35,
+        -11,
+        9,
+        -25,
+        -6
+      ],
+      "square_sum": 5432,
+      "norm": 646386275824904,
+      "norm_over_p_to_N_minus_1": "8"
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "generator": 2,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "square_sum": 21845,
+      "norm": 74051159531521793,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "generator": 2,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        -1
+      ],
+      "square_sum": 21845,
+      "norm": 74051159531521793,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "generator": 2,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        3,
+        6,
+        12,
+        24,
+        48,
+        96,
+        -65,
+        127
+      ],
+      "square_sum": 32639,
+      "norm": 74051159531521793,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "generator": 2,
+      "frequency": 128,
+      "centered_power_coordinates": [
+        128,
+        -1,
+        -2,
+        -4,
+        -8,
+        -16,
+        -32,
+        -64
+      ],
+      "square_sum": 21845,
+      "norm": 74051159531521793,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "generator": 75,
+      "frequency": 1,
+      "centered_power_coordinates": [
+        1,
+        75,
+        -140,
+        -123
+      ],
+      "square_sum": 40355,
+      "norm": 1532808577,
+      "norm_over_p_to_N_minus_1": "1"
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "generator": 75,
+      "frequency": 2,
+      "centered_power_coordinates": [
+        2,
+        150,
+        -280,
+        -246
+      ],
+      "square_sum": 161420,
+      "norm": 24524937232,
+      "norm_over_p_to_N_minus_1": "16"
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "generator": 75,
+      "frequency": 3,
+      "centered_power_coordinates": [
+        3,
+        225,
+        -420,
+        -369
+      ],
+      "square_sum": 363195,
+      "norm": 124157494737,
+      "norm_over_p_to_N_minus_1": "81"
+    },
+    {
+      "p": 1153,
+      "n": 8,
+      "generator": 75,
+      "frequency": 576,
+      "centered_power_coordinates": [
+        576,
+        539,
+        70,
+        -515
+      ],
+      "square_sum": 892422,
+      "norm": 55181108772,
+      "norm_over_p_to_N_minus_1": "36"
+    }
+  ],
+  "large_certificates": [
+    {
+      "p": 6700417,
+      "n": 64,
+      "truncation": 256,
+      "certificate_upper": "9555239702313680960954285755528490307622071884189/216424853605024088901109844375764992000000000000",
+      "upper_float_for_display_only": 44.15038080493296,
+      "other_cosets_upper": "8689396680799672216942668783797611749325833672911/216424853605024088901109844375764992000000000000",
+      "other_cosets_upper_float_for_display_only": 40.14971726240759,
+      "eta_one_interval": [
+        "21901241398813/500000000000",
+        "43802482797627/1000000000000"
+      ],
+      "maximum_proved_to_occur_on_H": true,
+      "cpp_elapsed_seconds": 0.0461364
+    },
+    {
+      "p": 6700417,
+      "n": 64,
+      "truncation": 4096,
+      "certificate_upper": "6324089198021686431059351954446002915371256517869/144283235736682725934073229583843328000000000000",
+      "upper_float_for_display_only": 43.831074107342346,
+      "other_cosets_upper": "5747820209047240894602567887365299674140348214893/144283235736682725934073229583843328000000000000",
+      "other_cosets_upper_float_for_display_only": 39.83706201001083,
+      "eta_one_interval": [
+        "21901241398813/500000000000",
+        "43802482797627/1000000000000"
+      ],
+      "maximum_proved_to_occur_on_H": true,
+      "cpp_elapsed_seconds": 0.633025
+    }
+  ],
+  "pi_squared_rational_lower": "9869604401089/1000000000000",
+  "source_sha256": "0b454165c4916586952e7f73fddcbf7acf0b2e5dc0b1c13002cc5e7028bbcf03",
+  "cpp_sha256": "f3ffa8d85428f2235051c300debe5225c58fc06fb09e515a9c0baa707c627816",
+  "scope": "Exact finite verification by the same author using independent computational paths. The analytic argument is not Lean-verified or independently reviewed; the uniform bound and full conjectures remain unproved."
+}

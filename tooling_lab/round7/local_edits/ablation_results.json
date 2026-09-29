@@ -1,0 +1,2293 @@
+{
+  "status": "passed",
+  "scope": "Complete normalized actual-set scan at q17; quartic-deck and deletion-summary ablations. No sufficiency beyond this finite domain.",
+  "cases": [
+    {
+      "q": 17,
+      "n": 6,
+      "normalized_inputs": 1365,
+      "all_set_targets_cached": 12376,
+      "direct_neighbour_targets": 90090,
+      "models": [
+        {
+          "model": "histogram",
+          "fibres": 70,
+          "nontrivial_fibres": 70,
+          "ambiguous_variance_fibres": 12,
+          "witness": {
+            "lower": {
+              "q": 17,
+              "n": 6,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                9
+              ],
+              "target": -1,
+              "neighbour_count": 66,
+              "delta_mean": [
+                34,
+                33
+              ],
+              "delta_second_moment": [
+                104,
+                11
+              ],
+              "neighbour_mean": [
+                1,
+                33
+              ],
+              "neighbour_second_moment": [
+                277,
+                33
+              ],
+              "neighbour_variance": [
+                9140,
+                1089
+              ],
+              "internal_contraction": [
+                [
+                  -1,
+                  2,
+                  6,
+                  -2,
+                  -8,
+                  -2
+                ],
+                [
+                  2,
+                  -1,
+                  -2,
+                  0,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  -2,
+                  -1,
+                  -8,
+                  0,
+                  -4
+                ],
+                [
+                  -4,
+                  2,
+                  -6,
+                  -1,
+                  4,
+                  4
+                ],
+                [
+                  -6,
+                  4,
+                  2,
+                  4,
+                  -1,
+                  -4
+                ],
+                [
+                  -2,
+                  6,
+                  -4,
+                  6,
+                  -2,
+                  -1
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 16,
+                  "delta_square_sum": 96
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 0,
+                  "delta_square_sum": 96
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 204,
+                  "delta_sum": 20,
+                  "delta_square_sum": 112
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 12,
+                  "delta_square_sum": 112
+                },
+                {
+                  "point": 4,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 12,
+                  "delta_square_sum": 112
+                },
+                {
+                  "point": 9,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 8,
+                  "delta_square_sum": 96
+                }
+              ],
+              "complete_insertion_energy": 1144,
+              "excluded_internal_energy": 590,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2,
+                  4
+                ],
+                [
+                  0,
+                  3,
+                  5
+                ],
+                [
+                  0,
+                  4,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  3
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 36,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 0.00011379198986105621
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "upper": {
+              "q": 17,
+              "n": 6,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                8
+              ],
+              "target": -1,
+              "neighbour_count": 66,
+              "delta_mean": [
+                34,
+                33
+              ],
+              "delta_second_moment": [
+                136,
+                11
+              ],
+              "neighbour_mean": [
+                1,
+                33
+              ],
+              "neighbour_second_moment": [
+                373,
+                33
+              ],
+              "neighbour_variance": [
+                12308,
+                1089
+              ],
+              "internal_contraction": [
+                [
+                  -1,
+                  0,
+                  -2,
+                  -2,
+                  2,
+                  -2
+                ],
+                [
+                  2,
+                  -1,
+                  2,
+                  4,
+                  4,
+                  4
+                ],
+                [
+                  -2,
+                  0,
+                  -1,
+                  0,
+                  -2,
+                  -4
+                ],
+                [
+                  -4,
+                  4,
+                  2,
+                  -1,
+                  -6,
+                  4
+                ],
+                [
+                  2,
+                  6,
+                  -2,
+                  -8,
+                  -1,
+                  -2
+                ],
+                [
+                  -2,
+                  6,
+                  -4,
+                  6,
+                  -2,
+                  -1
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 16,
+                  "delta_square_sum": 192
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": -4,
+                  "delta_square_sum": 112
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 204,
+                  "delta_sum": 20,
+                  "delta_square_sum": 208
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 12,
+                  "delta_square_sum": 112
+                },
+                {
+                  "point": 4,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 16,
+                  "delta_square_sum": 96
+                },
+                {
+                  "point": 8,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 12,
+                  "complete_transform_norm_squared": 188,
+                  "delta_sum": 8,
+                  "delta_square_sum": 96
+                }
+              ],
+              "complete_insertion_energy": 1144,
+              "excluded_internal_energy": 398,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2,
+                  4
+                ],
+                [
+                  0,
+                  3,
+                  5
+                ],
+                [
+                  0,
+                  4,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  3
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 36,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 0.00013258299441076815
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "variance_gap": [
+              32,
+              11
+            ]
+          }
+        },
+        {
+          "model": "histogram_and_quartic_deck",
+          "fibres": 84,
+          "nontrivial_fibres": 84,
+          "ambiguous_variance_fibres": 0,
+          "witness": null
+        },
+        {
+          "model": "histogram_and_deletion_summaries",
+          "fibres": 98,
+          "nontrivial_fibres": 98,
+          "ambiguous_variance_fibres": 0,
+          "witness": null
+        }
+      ]
+    },
+    {
+      "q": 17,
+      "n": 7,
+      "normalized_inputs": 3003,
+      "all_set_targets_cached": 19448,
+      "direct_neighbour_targets": 210210,
+      "models": [
+        {
+          "model": "histogram",
+          "fibres": 96,
+          "nontrivial_fibres": 96,
+          "ambiguous_variance_fibres": 30,
+          "witness": {
+            "lower": {
+              "q": 17,
+              "n": 7,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                11
+              ],
+              "target": 5,
+              "neighbour_count": 70,
+              "delta_mean": [
+                -184,
+                35
+              ],
+              "delta_second_moment": [
+                2368,
+                35
+              ],
+              "neighbour_mean": [
+                -9,
+                35
+              ],
+              "neighbour_second_moment": [
+                1403,
+                35
+              ],
+              "neighbour_variance": [
+                49024,
+                1225
+              ],
+              "internal_contraction": [
+                [
+                  2,
+                  -5,
+                  -1,
+                  -1,
+                  3,
+                  19,
+                  -5
+                ],
+                [
+                  -1,
+                  2,
+                  7,
+                  -5,
+                  3,
+                  -5,
+                  11
+                ],
+                [
+                  -5,
+                  -1,
+                  6,
+                  -1,
+                  15,
+                  -5,
+                  -5
+                ],
+                [
+                  -5,
+                  -5,
+                  7,
+                  2,
+                  3,
+                  -5,
+                  15
+                ],
+                [
+                  3,
+                  3,
+                  15,
+                  3,
+                  2,
+                  7,
+                  3
+                ],
+                [
+                  15,
+                  -5,
+                  -5,
+                  -5,
+                  -1,
+                  6,
+                  -1
+                ],
+                [
+                  -13,
+                  7,
+                  -9,
+                  3,
+                  -5,
+                  -5,
+                  10
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": -32,
+                  "delta_square_sum": 512
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": -8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": -32,
+                  "delta_square_sum": 640
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 42,
+                  "complete_transform_norm_squared": 698,
+                  "delta_sum": -64,
+                  "delta_square_sum": 768
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": -32,
+                  "delta_square_sum": 512
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 34,
+                  "complete_transform_norm_squared": 578,
+                  "delta_sum": -56,
+                  "delta_square_sum": 448
+                },
+                {
+                  "point": 6,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 42,
+                  "complete_transform_norm_squared": 698,
+                  "delta_sum": -64,
+                  "delta_square_sum": 768
+                },
+                {
+                  "point": 11,
+                  "insertion_sum": -8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": -88,
+                  "delta_square_sum": 1088
+                }
+              ],
+              "complete_insertion_energy": 5182,
+              "excluded_internal_energy": 2470,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                [
+                  0,
+                  3,
+                  3
+                ],
+                [
+                  0,
+                  4,
+                  4
+                ],
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  3
+                ],
+                [
+                  1,
+                  3,
+                  1
+                ],
+                [
+                  1,
+                  4,
+                  2
+                ],
+                [
+                  1,
+                  5,
+                  1
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 49,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 7.700000423938036e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "upper": {
+              "q": 17,
+              "n": 7,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                10,
+                12
+              ],
+              "target": 5,
+              "neighbour_count": 70,
+              "delta_mean": [
+                -184,
+                35
+              ],
+              "delta_second_moment": [
+                2944,
+                35
+              ],
+              "neighbour_mean": [
+                -9,
+                35
+              ],
+              "neighbour_second_moment": [
+                1979,
+                35
+              ],
+              "neighbour_variance": [
+                69184,
+                1225
+              ],
+              "internal_contraction": [
+                [
+                  2,
+                  -5,
+                  -1,
+                  3,
+                  -5,
+                  -1,
+                  19
+                ],
+                [
+                  -1,
+                  2,
+                  7,
+                  -5,
+                  -5,
+                  11,
+                  3
+                ],
+                [
+                  -1,
+                  3,
+                  2,
+                  -5,
+                  -1,
+                  3,
+                  11
+                ],
+                [
+                  -1,
+                  -9,
+                  -5,
+                  6,
+                  7,
+                  3,
+                  3
+                ],
+                [
+                  -5,
+                  -1,
+                  -1,
+                  11,
+                  2,
+                  -5,
+                  11
+                ],
+                [
+                  -9,
+                  7,
+                  3,
+                  -1,
+                  -5,
+                  6,
+                  3
+                ],
+                [
+                  11,
+                  -1,
+                  -1,
+                  -5,
+                  3,
+                  -5,
+                  10
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": -32,
+                  "delta_square_sum": 512
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": -8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": -32,
+                  "delta_square_sum": 640
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": -32,
+                  "delta_square_sum": 768
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 42,
+                  "complete_transform_norm_squared": 698,
+                  "delta_sum": -64,
+                  "delta_square_sum": 896
+                },
+                {
+                  "point": 6,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": -32,
+                  "delta_square_sum": 640
+                },
+                {
+                  "point": 10,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 42,
+                  "complete_transform_norm_squared": 698,
+                  "delta_sum": -64,
+                  "delta_square_sum": 896
+                },
+                {
+                  "point": 12,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 34,
+                  "complete_transform_norm_squared": 578,
+                  "delta_sum": -112,
+                  "delta_square_sum": 1536
+                }
+              ],
+              "complete_insertion_energy": 5310,
+              "excluded_internal_energy": 1830,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                [
+                  0,
+                  3,
+                  3
+                ],
+                [
+                  0,
+                  4,
+                  4
+                ],
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  3
+                ],
+                [
+                  1,
+                  3,
+                  1
+                ],
+                [
+                  1,
+                  4,
+                  2
+                ],
+                [
+                  1,
+                  5,
+                  1
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 49,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 7.845800428185612e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "variance_gap": [
+              576,
+              35
+            ]
+          }
+        },
+        {
+          "model": "histogram_and_quartic_deck",
+          "fibres": 142,
+          "nontrivial_fibres": 142,
+          "ambiguous_variance_fibres": 6,
+          "witness": {
+            "lower": {
+              "q": 17,
+              "n": 7,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7
+              ],
+              "target": -3,
+              "neighbour_count": 70,
+              "delta_mean": [
+                88,
+                35
+              ],
+              "delta_second_moment": [
+                1856,
+                35
+              ],
+              "neighbour_mean": [
+                -17,
+                35
+              ],
+              "neighbour_second_moment": [
+                1643,
+                35
+              ],
+              "neighbour_variance": [
+                57216,
+                1225
+              ],
+              "internal_contraction": [
+                [
+                  2,
+                  -13,
+                  -5,
+                  7,
+                  7,
+                  -5,
+                  -13
+                ],
+                [
+                  -5,
+                  -2,
+                  -1,
+                  7,
+                  -9,
+                  -9,
+                  7
+                ],
+                [
+                  7,
+                  3,
+                  -6,
+                  11,
+                  -1,
+                  -5,
+                  -5
+                ],
+                [
+                  11,
+                  11,
+                  11,
+                  -6,
+                  11,
+                  11,
+                  11
+                ],
+                [
+                  7,
+                  -9,
+                  -5,
+                  7,
+                  -2,
+                  -9,
+                  -1
+                ],
+                [
+                  3,
+                  -1,
+                  -5,
+                  15,
+                  -5,
+                  -6,
+                  3
+                ],
+                [
+                  -13,
+                  7,
+                  -9,
+                  3,
+                  -5,
+                  -5,
+                  2
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": 0,
+                  "delta_square_sum": 256
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 58,
+                  "complete_transform_norm_squared": 970,
+                  "delta_sum": 32,
+                  "delta_square_sum": 768
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": 56,
+                  "delta_square_sum": 832
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 66,
+                  "complete_transform_norm_squared": 1122,
+                  "delta_sum": 0,
+                  "delta_square_sum": 0
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": 12,
+                  "insertion_norm_squared": 58,
+                  "complete_transform_norm_squared": 842,
+                  "delta_sum": 32,
+                  "delta_square_sum": 640
+                },
+                {
+                  "point": 6,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": 56,
+                  "delta_square_sum": 832
+                },
+                {
+                  "point": 7,
+                  "insertion_sum": -8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": 0,
+                  "delta_square_sum": 384
+                }
+              ],
+              "complete_insertion_energy": 6142,
+              "excluded_internal_energy": 2790,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4,
+                  3
+                ],
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  4
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 49,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 8.433399489149451e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "upper": {
+              "q": 17,
+              "n": 7,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                7,
+                9
+              ],
+              "target": -3,
+              "neighbour_count": 70,
+              "delta_mean": [
+                88,
+                35
+              ],
+              "delta_second_moment": [
+                2368,
+                35
+              ],
+              "neighbour_mean": [
+                -17,
+                35
+              ],
+              "neighbour_second_moment": [
+                431,
+                7
+              ],
+              "neighbour_variance": [
+                75136,
+                1225
+              ],
+              "internal_contraction": [
+                [
+                  -2,
+                  -9,
+                  -1,
+                  7,
+                  -5,
+                  -9,
+                  7
+                ],
+                [
+                  -5,
+                  -6,
+                  -5,
+                  11,
+                  11,
+                  -5,
+                  -5
+                ],
+                [
+                  3,
+                  -5,
+                  -6,
+                  19,
+                  -1,
+                  -5,
+                  -1
+                ],
+                [
+                  3,
+                  7,
+                  11,
+                  2,
+                  3,
+                  11,
+                  7
+                ],
+                [
+                  -9,
+                  3,
+                  -13,
+                  3,
+                  2,
+                  -1,
+                  -5
+                ],
+                [
+                  -1,
+                  -1,
+                  -5,
+                  19,
+                  3,
+                  -6,
+                  -5
+                ],
+                [
+                  7,
+                  -9,
+                  -9,
+                  7,
+                  -1,
+                  -5,
+                  -2
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 58,
+                  "complete_transform_norm_squared": 970,
+                  "delta_sum": 32,
+                  "delta_square_sum": 768
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": 16,
+                  "insertion_norm_squared": 66,
+                  "complete_transform_norm_squared": 866,
+                  "delta_sum": 64,
+                  "delta_square_sum": 896
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": 56,
+                  "delta_square_sum": 704
+                },
+                {
+                  "point": 4,
+                  "insertion_sum": -8,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 786,
+                  "delta_sum": -64,
+                  "delta_square_sum": 640
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": 16,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 594,
+                  "delta_sum": 0,
+                  "delta_square_sum": 256
+                },
+                {
+                  "point": 7,
+                  "insertion_sum": 0,
+                  "insertion_norm_squared": 50,
+                  "complete_transform_norm_squared": 850,
+                  "delta_sum": 56,
+                  "delta_square_sum": 704
+                },
+                {
+                  "point": 9,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 58,
+                  "complete_transform_norm_squared": 970,
+                  "delta_sum": 32,
+                  "delta_square_sum": 768
+                }
+              ],
+              "complete_insertion_energy": 5886,
+              "excluded_internal_energy": 2534,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4,
+                  3
+                ],
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  4
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 49,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 7.854199793655425e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "variance_gap": [
+              512,
+              35
+            ]
+          }
+        },
+        {
+          "model": "histogram_and_deletion_summaries",
+          "fibres": 148,
+          "nontrivial_fibres": 148,
+          "ambiguous_variance_fibres": 0,
+          "witness": null
+        }
+      ]
+    },
+    {
+      "q": 17,
+      "n": 8,
+      "normalized_inputs": 5005,
+      "all_set_targets_cached": 24310,
+      "direct_neighbour_targets": 360360,
+      "models": [
+        {
+          "model": "histogram",
+          "fibres": 111,
+          "nontrivial_fibres": 111,
+          "ambiguous_variance_fibres": 47,
+          "witness": {
+            "lower": {
+              "q": 17,
+              "n": 8,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                12,
+                13,
+                14
+              ],
+              "target": -4,
+              "neighbour_count": 72,
+              "delta_mean": [
+                3,
+                1
+              ],
+              "delta_second_moment": [
+                488,
+                3
+              ],
+              "neighbour_mean": [
+                -1,
+                1
+              ],
+              "neighbour_second_moment": [
+                464,
+                3
+              ],
+              "neighbour_variance": [
+                461,
+                3
+              ],
+              "internal_contraction": [
+                [
+                  -1,
+                  -2,
+                  -10,
+                  6,
+                  -10,
+                  34,
+                  -14,
+                  -2
+                ],
+                [
+                  -2,
+                  -1,
+                  -10,
+                  2,
+                  -14,
+                  2,
+                  -2,
+                  18
+                ],
+                [
+                  6,
+                  6,
+                  -17,
+                  2,
+                  22,
+                  2,
+                  6,
+                  6
+                ],
+                [
+                  2,
+                  6,
+                  -10,
+                  -1,
+                  18,
+                  -2,
+                  -10,
+                  -2
+                ],
+                [
+                  -14,
+                  -10,
+                  2,
+                  18,
+                  -1,
+                  -6,
+                  -6,
+                  2
+                ],
+                [
+                  26,
+                  2,
+                  -22,
+                  -14,
+                  -10,
+                  7,
+                  2,
+                  -14
+                ],
+                [
+                  -2,
+                  10,
+                  -6,
+                  -2,
+                  2,
+                  22,
+                  -9,
+                  2
+                ],
+                [
+                  -6,
+                  22,
+                  -14,
+                  -2,
+                  2,
+                  -2,
+                  -6,
+                  -1
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 12,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2678,
+                  "delta_sum": 8,
+                  "delta_square_sum": 1088
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": -12,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2406,
+                  "delta_sum": 16,
+                  "delta_square_sum": 1792
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 70,
+                  "complete_transform_norm_squared": 1174,
+                  "delta_sum": 120,
+                  "delta_square_sum": 1728
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 20,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2422,
+                  "delta_sum": 8,
+                  "delta_square_sum": 1856
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": 20,
+                  "insertion_norm_squared": 134,
+                  "complete_transform_norm_squared": 1878,
+                  "delta_sum": 24,
+                  "delta_square_sum": 1216
+                },
+                {
+                  "point": 12,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2806,
+                  "delta_sum": -40,
+                  "delta_square_sum": 1216
+                },
+                {
+                  "point": 13,
+                  "insertion_sum": -12,
+                  "insertion_norm_squared": 86,
+                  "complete_transform_norm_squared": 1318,
+                  "delta_sum": 64,
+                  "delta_square_sum": 1024
+                },
+                {
+                  "point": 14,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2534,
+                  "delta_sum": 16,
+                  "delta_square_sum": 1792
+                }
+              ],
+              "complete_insertion_energy": 17216,
+              "excluded_internal_energy": 7624,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                [
+                  0,
+                  3,
+                  1
+                ],
+                [
+                  0,
+                  4,
+                  4
+                ],
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  0,
+                  6,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  3
+                ],
+                [
+                  1,
+                  4,
+                  4
+                ],
+                [
+                  1,
+                  5,
+                  1
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 64,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 0.0001875000016298145
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "upper": {
+              "q": 17,
+              "n": 8,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                13,
+                15
+              ],
+              "target": -4,
+              "neighbour_count": 72,
+              "delta_mean": [
+                3,
+                1
+              ],
+              "delta_second_moment": [
+                568,
+                3
+              ],
+              "neighbour_mean": [
+                -1,
+                1
+              ],
+              "neighbour_second_moment": [
+                544,
+                3
+              ],
+              "neighbour_variance": [
+                541,
+                3
+              ],
+              "internal_contraction": [
+                [
+                  -1,
+                  -14,
+                  -2,
+                  2,
+                  -10,
+                  18,
+                  -2,
+                  2
+                ],
+                [
+                  -14,
+                  -1,
+                  -2,
+                  -2,
+                  -6,
+                  2,
+                  -6,
+                  22
+                ],
+                [
+                  10,
+                  10,
+                  -17,
+                  6,
+                  6,
+                  6,
+                  2,
+                  2
+                ],
+                [
+                  6,
+                  -6,
+                  -10,
+                  -1,
+                  -6,
+                  -6,
+                  26,
+                  -10
+                ],
+                [
+                  -2,
+                  2,
+                  2,
+                  6,
+                  -9,
+                  -2,
+                  22,
+                  6
+                ],
+                [
+                  22,
+                  6,
+                  -10,
+                  -6,
+                  -14,
+                  -1,
+                  2,
+                  -6
+                ],
+                [
+                  -14,
+                  -10,
+                  -14,
+                  18,
+                  2,
+                  -6,
+                  7,
+                  -6
+                ],
+                [
+                  2,
+                  22,
+                  -10,
+                  -14,
+                  -2,
+                  -2,
+                  6,
+                  -1
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 12,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2406,
+                  "delta_sum": 16,
+                  "delta_square_sum": 1792
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2534,
+                  "delta_sum": 16,
+                  "delta_square_sum": 1792
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 54,
+                  "complete_transform_norm_squared": 902,
+                  "delta_sum": 128,
+                  "delta_square_sum": 2048
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2534,
+                  "delta_sum": 16,
+                  "delta_square_sum": 1536
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 102,
+                  "complete_transform_norm_squared": 1718,
+                  "delta_sum": 56,
+                  "delta_square_sum": 1344
+                },
+                {
+                  "point": 6,
+                  "insertion_sum": 20,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2150,
+                  "delta_sum": 16,
+                  "delta_square_sum": 1280
+                },
+                {
+                  "point": 13,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2806,
+                  "delta_sum": -40,
+                  "delta_square_sum": 1984
+                },
+                {
+                  "point": 15,
+                  "insertion_sum": -12,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2678,
+                  "delta_sum": 8,
+                  "delta_square_sum": 1856
+                }
+              ],
+              "complete_insertion_energy": 17728,
+              "excluded_internal_energy": 6344,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                [
+                  0,
+                  3,
+                  1
+                ],
+                [
+                  0,
+                  4,
+                  4
+                ],
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  0,
+                  6,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  3
+                ],
+                [
+                  1,
+                  4,
+                  4
+                ],
+                [
+                  1,
+                  5,
+                  1
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 64,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 9.879098797682673e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "variance_gap": [
+              80,
+              3
+            ]
+          }
+        },
+        {
+          "model": "histogram_and_quartic_deck",
+          "fibres": 181,
+          "nontrivial_fibres": 181,
+          "ambiguous_variance_fibres": 6,
+          "witness": {
+            "lower": {
+              "q": 17,
+              "n": 8,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                11
+              ],
+              "target": 12,
+              "neighbour_count": 72,
+              "delta_mean": [
+                -37,
+                3
+              ],
+              "delta_second_moment": [
+                2440,
+                9
+              ],
+              "neighbour_mean": [
+                -1,
+                3
+              ],
+              "neighbour_second_moment": [
+                1072,
+                9
+              ],
+              "neighbour_variance": [
+                119,
+                1
+              ],
+              "internal_contraction": [
+                [
+                  7,
+                  -6,
+                  6,
+                  2,
+                  -2,
+                  18,
+                  -2,
+                  10
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  6,
+                  10,
+                  -6,
+                  -2,
+                  2
+                ],
+                [
+                  10,
+                  10,
+                  7,
+                  14,
+                  -2,
+                  -2,
+                  6,
+                  -2
+                ],
+                [
+                  -10,
+                  -6,
+                  6,
+                  15,
+                  -6,
+                  2,
+                  -14,
+                  22
+                ],
+                [
+                  -2,
+                  10,
+                  2,
+                  6,
+                  7,
+                  -2,
+                  10,
+                  2
+                ],
+                [
+                  22,
+                  -2,
+                  -2,
+                  18,
+                  -6,
+                  7,
+                  2,
+                  -6
+                ],
+                [
+                  -2,
+                  -2,
+                  10,
+                  -2,
+                  10,
+                  6,
+                  7,
+                  14
+                ],
+                [
+                  6,
+                  -2,
+                  -10,
+                  22,
+                  -2,
+                  -14,
+                  2,
+                  15
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 86,
+                  "complete_transform_norm_squared": 1446,
+                  "delta_sum": -96,
+                  "delta_square_sum": 1792
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 86,
+                  "complete_transform_norm_squared": 1446,
+                  "delta_sum": -96,
+                  "delta_square_sum": 1920
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 102,
+                  "complete_transform_norm_squared": 1718,
+                  "delta_sum": -104,
+                  "delta_square_sum": 2240
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 150,
+                  "complete_transform_norm_squared": 2534,
+                  "delta_sum": -144,
+                  "delta_square_sum": 3712
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 86,
+                  "complete_transform_norm_squared": 1446,
+                  "delta_sum": -96,
+                  "delta_square_sum": 2048
+                },
+                {
+                  "point": 6,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 86,
+                  "complete_transform_norm_squared": 1446,
+                  "delta_sum": -96,
+                  "delta_square_sum": 1408
+                },
+                {
+                  "point": 7,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 102,
+                  "complete_transform_norm_squared": 1718,
+                  "delta_sum": -104,
+                  "delta_square_sum": 2240
+                },
+                {
+                  "point": 11,
+                  "insertion_sum": 12,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2678,
+                  "delta_sum": -152,
+                  "delta_square_sum": 4160
+                }
+              ],
+              "complete_insertion_energy": 14432,
+              "excluded_internal_energy": 5384,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  3,
+                  3
+                ],
+                [
+                  0,
+                  4,
+                  2
+                ],
+                [
+                  0,
+                  5,
+                  3
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  3
+                ],
+                [
+                  1,
+                  5,
+                  2
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 64,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 8.933299977798015e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "upper": {
+              "q": 17,
+              "n": 8,
+              "degree": 6,
+              "selected": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                9,
+                11
+              ],
+              "target": 12,
+              "neighbour_count": 72,
+              "delta_mean": [
+                -37,
+                3
+              ],
+              "delta_second_moment": [
+                2504,
+                9
+              ],
+              "neighbour_mean": [
+                -1,
+                3
+              ],
+              "neighbour_second_moment": [
+                1136,
+                9
+              ],
+              "neighbour_variance": [
+                1135,
+                9
+              ],
+              "internal_contraction": [
+                [
+                  -1,
+                  6,
+                  6,
+                  22,
+                  6,
+                  6,
+                  2,
+                  2
+                ],
+                [
+                  6,
+                  -1,
+                  6,
+                  2,
+                  2,
+                  6,
+                  2,
+                  18
+                ],
+                [
+                  -2,
+                  -2,
+                  7,
+                  2,
+                  22,
+                  2,
+                  6,
+                  6
+                ],
+                [
+                  2,
+                  -10,
+                  -2,
+                  15,
+                  2,
+                  -10,
+                  -10,
+                  30
+                ],
+                [
+                  -14,
+                  -10,
+                  18,
+                  2,
+                  15,
+                  10,
+                  2,
+                  -6
+                ],
+                [
+                  -6,
+                  2,
+                  -2,
+                  -2,
+                  10,
+                  7,
+                  6,
+                  18
+                ],
+                [
+                  -2,
+                  -2,
+                  10,
+                  -2,
+                  10,
+                  6,
+                  7,
+                  14
+                ],
+                [
+                  -22,
+                  2,
+                  -10,
+                  18,
+                  -10,
+                  6,
+                  -6,
+                  23
+                ]
+              ],
+              "deletion_records": [
+                {
+                  "point": 0,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 70,
+                  "complete_transform_norm_squared": 1174,
+                  "delta_sum": -40,
+                  "delta_square_sum": 448
+                },
+                {
+                  "point": 1,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 54,
+                  "complete_transform_norm_squared": 902,
+                  "delta_sum": -32,
+                  "delta_square_sum": 384
+                },
+                {
+                  "point": 2,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 102,
+                  "complete_transform_norm_squared": 1718,
+                  "delta_sum": -104,
+                  "delta_square_sum": 2112
+                },
+                {
+                  "point": 3,
+                  "insertion_sum": 20,
+                  "insertion_norm_squared": 166,
+                  "complete_transform_norm_squared": 2422,
+                  "delta_sum": -152,
+                  "delta_square_sum": 3520
+                },
+                {
+                  "point": 5,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 102,
+                  "complete_transform_norm_squared": 1718,
+                  "delta_sum": -152,
+                  "delta_square_sum": 3264
+                },
+                {
+                  "point": 6,
+                  "insertion_sum": 4,
+                  "insertion_norm_squared": 86,
+                  "complete_transform_norm_squared": 1446,
+                  "delta_sum": -96,
+                  "delta_square_sum": 1792
+                },
+                {
+                  "point": 9,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 102,
+                  "complete_transform_norm_squared": 1718,
+                  "delta_sum": -104,
+                  "delta_square_sum": 2240
+                },
+                {
+                  "point": 11,
+                  "insertion_sum": -4,
+                  "insertion_norm_squared": 182,
+                  "complete_transform_norm_squared": 3078,
+                  "delta_sum": -208,
+                  "delta_square_sum": 6272
+                }
+              ],
+              "complete_insertion_energy": 14176,
+              "excluded_internal_energy": 6792,
+              "signed_row_count_histogram": [
+                [
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  3,
+                  3
+                ],
+                [
+                  0,
+                  4,
+                  2
+                ],
+                [
+                  0,
+                  5,
+                  3
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  4,
+                  3
+                ],
+                [
+                  1,
+                  5,
+                  2
+                ]
+              ],
+              "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+              "work": {
+                "streamed_rows": 17,
+                "internal_matrix_entries": 64,
+                "neighbour_targets_evaluated": 0,
+                "effective_chunk": 8192,
+                "seconds": 8.712499402463436e-05
+              },
+              "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+            },
+            "variance_gap": [
+              64,
+              9
+            ]
+          }
+        },
+        {
+          "model": "histogram_and_deletion_summaries",
+          "fibres": 190,
+          "nontrivial_fibres": 190,
+          "ambiguous_variance_fibres": 0,
+          "witness": null
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "local_edits.py": "3dcace6ad81d5f1f4fc811d51b1d3ff4918352dc207377254a2d11847a88df7f",
+    "run_experiments.py": "c0641868f143dadf58a90d117cc2d030974386a98de69e7d26d51ab015201b73",
+    "ablate_information.py": "feb99eea28578ef60a098009c662dd3a98ac5046326400e334758981105de1a6"
+  },
+  "elapsed_seconds": 25.8255899999931
+}

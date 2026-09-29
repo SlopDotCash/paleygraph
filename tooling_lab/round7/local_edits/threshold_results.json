@@ -1,0 +1,349 @@
+{
+  "status": "passed",
+  "finite_distribution_event_bounds_checked": 8298,
+  "invalid_queries_rejected": 11,
+  "maximum_n_boundary_cases": [
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 0,
+      "exact_agreement": true
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 1,
+      "exact_agreement": true
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 3,
+      "exact_agreement": true
+    },
+    {
+      "q": 101,
+      "n": 64,
+      "degree": 6,
+      "exact_agreement": true
+    }
+  ],
+  "scale_query_consumer_comparisons": 8,
+  "scale_threshold_bounds": [
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "arithmetic_progression",
+      "target": -21,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap >= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "upper",
+        "probability_upper": [
+          1,
+          1
+        ],
+        "neighbour_count_upper": 7746,
+        "complement_count_lower": 0,
+        "method": "Trivial bound: threshold is on the other side of the mean"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap >= -21/2",
+        "threshold": [
+          -21,
+          2
+        ],
+        "direction": "upper",
+        "probability_upper": [
+          1,
+          1
+        ],
+        "neighbour_count_upper": 7746,
+        "complement_count_lower": 0,
+        "method": "Trivial bound: threshold is on the other side of the mean"
+      },
+      "half_magnitude_persistence_lower_float": 0.0,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 1297,
+      "n": 6,
+      "family": "seeded_uniform",
+      "target": 19,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap <= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          19361347232,
+          19361347761
+        ],
+        "neighbour_count_upper": 7745,
+        "complement_count_lower": 1,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap <= 19/2",
+        "threshold": [
+          19,
+          2
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          1,
+          1
+        ],
+        "neighbour_count_upper": 7746,
+        "complement_count_lower": 0,
+        "method": "Trivial bound: threshold is on the other side of the mean"
+      },
+      "half_magnitude_persistence_lower_float": 0.0,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "arithmetic_progression",
+      "target": 27160,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap <= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          60937404113440145,
+          99571176863401753
+        ],
+        "neighbour_count_upper": 641579,
+        "complement_count_lower": 406757,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap <= 13580",
+        "threshold": [
+          13580,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          121874808226880290,
+          124958012533919171
+        ],
+        "neighbour_count_upper": 1022469,
+        "complement_count_lower": 25867,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_persistence_lower_float": 0.024674341050960762,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 65537,
+      "n": 16,
+      "family": "seeded_uniform",
+      "target": 22240,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap <= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          1025673729039681043,
+          1689210292331892048
+        ],
+        "neighbour_count_upper": 636540,
+        "complement_count_lower": 411796,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap <= 11120",
+        "threshold": [
+          11120,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          1025673729039681043,
+          1052211338395746448
+        ],
+        "neighbour_count_upper": 1021896,
+        "complement_count_lower": 26440,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_persistence_lower_float": 0.025220921536606586,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "arithmetic_progression",
+      "target": 7042771,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap <= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          608823692003778531274496,
+          49351988454271171597507895
+        ],
+        "neighbour_count_upper": 382427,
+        "complement_count_lower": 30617635,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap <= 7042771/2",
+        "threshold": [
+          7042771,
+          2
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          129070622704801048630193152,
+          1621246307876413789516851235
+        ],
+        "neighbour_count_upper": 2467976,
+        "complement_count_lower": 28532086,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_persistence_lower_float": 0.9203880301916816,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 1000033,
+      "n": 31,
+      "family": "seeded_uniform",
+      "target": -654693,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap >= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "upper",
+        "probability_upper": [
+          69239599004455842927336128,
+          136209800415063189922895817
+        ],
+        "neighbour_count_upper": 15758277,
+        "complement_count_lower": 15241785,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap >= -654693/2",
+        "threshold": [
+          -654693,
+          2
+        ],
+        "direction": "upper",
+        "probability_upper": [
+          276958396017823371709344512,
+          315638124160379311087580601
+        ],
+        "neighbour_count_upper": 27201173,
+        "complement_count_lower": 3798889,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_persistence_lower_float": 0.12254456136249017,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "arithmetic_progression",
+      "target": -98772836,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap >= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "upper",
+        "probability_upper": [
+          17512901864189840296564360077,
+          6642214695188621890857256147775
+        ],
+        "neighbour_count_upper": 883311,
+        "complement_count_lower": 334135039,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap >= -49386418",
+        "threshold": [
+          -49386418,
+          1
+        ],
+        "direction": "upper",
+        "probability_upper": [
+          140103214913518722372514880616,
+          10022368011807730481133579867025
+        ],
+        "neighbour_count_upper": 4683239,
+        "complement_count_lower": 330335111,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_persistence_lower_float": 0.9860209478077843,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    },
+    {
+      "q": 6700417,
+      "n": 50,
+      "family": "seeded_uniform",
+      "target": 7795804,
+      "same_sign_failure_bound": {
+        "event": "T_after_swap <= 0",
+        "threshold": [
+          0,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          37529851558690547389314140434,
+          120065586788947717727113686875
+        ],
+        "neighbour_count_upper": 104719339,
+        "complement_count_lower": 230299011,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_failure_bound": {
+        "event": "T_after_swap <= 3897902",
+        "threshold": [
+          3897902,
+          1
+        ],
+        "direction": "lower",
+        "probability_upper": [
+          150119406234762189557256561736,
+          211679710730878190175594188825
+        ],
+        "neighbour_count_upper": 237588929,
+        "complement_count_lower": 97429421,
+        "method": "Exact Cantelli bound and finite-count floor"
+      },
+      "half_magnitude_persistence_lower_float": 0.29081816264691174,
+      "scope": "All one-swap neighbours of this saved input; no multi-step or uniform-input assertion."
+    }
+  ],
+  "source_sha256": {
+    "threshold_experiments.py": "4acc38600569ef4e1f1ed981692cecca9f73cb62fded6a7573e9b11510155336",
+    "query.py": "c345c44dd9f471dbc0dcf0972b1bfd46849ed33c7640b5cfce6c10bf63db3e37",
+    "local_edits.py": "3dcace6ad81d5f1f4fc811d51b1d3ff4918352dc207377254a2d11847a88df7f",
+    "gram_oracle.cpp": "a0b7b6a3b9fe20e06d1a81448af65d675171cbdc9d93ba4b8b934f1d85488d31",
+    "gram_oracle": "b0832637aee7380c007f36617f1774e4bebbe8b74544da7492773b1a364da2b2"
+  },
+  "input_sha256": {
+    "results.json": "6f1be8e1e1ad71e7e63665403450958da039d2864785bf420ed9c1cd9c8f0783",
+    "gram_results.json": "0b36b6baa94a557042f8bda73d61694c9b7a40349a1c61c7ab1aa784494d97c1"
+  }
+}

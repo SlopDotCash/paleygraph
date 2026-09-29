@@ -1,0 +1,17 @@
+{
+  "observed_at_utc": "2026-09-06T08:33:53.514932+00:00",
+  "previous_turn_classification": "progress: actual coset mass bound, conditional structured triangle case, interval obstruction, and exact matrix constraints",
+  "files": {
+    "experiments/parallel44_structured_levels.py": "82a245f7a457fd7835449b7a52a2c037321a57b27e393134c535ffe0b6928043",
+    "research/parallel44-interval-and-matrix-review-2026-09-06.md": "3b8a84aab68c226e12fec554f7b1445c05debdc1c6d6492884d44970b476a2a5",
+    "research/parallel44-pass-summary-2026-09-06.md": "be1b10c98256c693e40b8426c34ae658e64a5489d3dd305a4c67c17a32ee8f26",
+    "research/parallel44-structured-levels-2026-09-06.md": "942660c623288774f0c154febdf8da0e200ab64143e65917278b44299433b7c7",
+    "results/parallel44_prior_state_2026_09_06.json": "933eeebdc24825e8a1fc75f68057d9fa3d5bc796c91bf9c4db1cf64e78974874",
+    "results/parallel44_source_scope_2026_09_06.json": "841965c9cfff706338d6e55f61d34726fae3e9bc653140c07079ee3efec28204",
+    "results/parallel44_structured_levels_2026_09_06.json": "5e655ea81ff8b6bee7f0b52bf01f662eff714df6f555bddada97450b94b8abcf",
+    "README.md": "becdebb037b06ed72a1e0036ab311cdb93259669623f2c50acb9c5a494a0d4b3",
+    "research/frontier.md": "5649a70caf68b749ae4c3620c4022e53928447934981d3a141df4420568f135b",
+    "research/source-audit.md": "656a0f45a96783fd06d446b7c37c04a5478f5b19b1d0b5cd1ef776a056c307b2",
+    "research/checkpoint-2026-09-04.md": "c613457cf49aa3b633e7b95263ed7feeb742b40d5b6f394e6fd1760a70ccf8b0"
+  }
+}

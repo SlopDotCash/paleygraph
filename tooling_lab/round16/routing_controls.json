@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "received_words": 125,
+  "supported_cutoffs_tested": 250,
+  "mixed_light_and_fibre_covers": 25,
+  "multiple_fibre_covers": 100,
+  "constituent_queries_checked": 475,
+  "corrupt_routing_certificates_rejected": 3,
+  "complete_space_members_per_word": 125,
+  "scope": "All supported cutoffs on125 structured received words, including deliberately nonminimal choices that exercise mixed residual/fibre and multiple-fibre decoding unions.",
+  "source_sha256": {
+    "routing_controls.py": "dc51d3ea9d0356af5d8073a6241822b7c8be89e33838de8070391ad766ebf2c9",
+    "toy_controls.py": "2cbb45c49aa48f8340a8081a135339f28a8e8b56eaaf95be434aa9886bd40b02",
+    "conditional_cover.py": "53e427c4c47ea650bd52b8cf65a35f20e547b38ea71e7fca93adf223a98a301b",
+    "conditional_verifier.py": "4f59795241db54d9bc24a73527da7187aef47855ccf632a36f581c6c8dbbdb92",
+    "../round15/capacity_search.py": "7d788d29b073a22a418361145cf5a250d46fae1dffe212a46809a1b3f3ced514",
+    "../round15/projective_profile.py": "b9b03416b9f1d1a36b9e0474659d6f1039b6a360c6eed542ba183d77f157ea6b",
+    "../round14/arc_pruning.py": "f17ec68596ea342675d1a28b02d5f0ace859c2e04e8bcd3d15b5d1e5be9fbf4e",
+    "../round14/arc_filter_fast.py": "c2d1b1c51036571f268984926ae72a4fbe8dc841c57be0306ed05a437f379f94",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8",
+    "../round14/arc_certificate.py": "48305a4d4fd98068992d4893a66eca3f9359261804015def975e0a7b5a30b513",
+    "../round14/dimension_preflight.py": "51c41c97cd9b17152637611def53ef097e78c17db7647a1fcbdf623ae344b97a",
+    "../round14/arc_profile.py": "450b1b28bc966953f32c589089ac61f0ffbca614fe4870bbec027f46679df74f"
+  }
+}

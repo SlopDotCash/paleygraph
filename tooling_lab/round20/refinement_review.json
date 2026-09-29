@@ -1,0 +1,395 @@
+{
+  "status": "passed",
+  "scope": "All distinguishing columns checked by independent partition refinement. Every new adaptive suffix is replayed on every supplied prefix using direct scalar reconstruction and dense arithmetic. Complete diagrams certify only the supplied-prefix stopping criterion.",
+  "cases": [
+    {
+      "name": "p65537_canonical",
+      "pair_witnesses_checked": 10,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          32,
+          5
+        ],
+        [
+          64,
+          5
+        ],
+        [
+          128,
+          5
+        ],
+        [
+          256,
+          5
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": 5,
+      "certified_initial_lower_bound": 5
+    },
+    {
+      "name": "p65537_saved",
+      "pair_witnesses_checked": 18915,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          32,
+          40
+        ],
+        [
+          64,
+          75
+        ],
+        [
+          128,
+          149
+        ],
+        [
+          256,
+          195
+        ]
+      ],
+      "adaptive_suffixes_checked": 9,
+      "adaptive_arithmetic_words": 2304,
+      "final_supplied_prefix_classes": 205,
+      "certified_initial_lower_bound": 195
+    },
+    {
+      "name": "p6700417_canonical",
+      "pair_witnesses_checked": 29890,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          245
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": 245,
+      "certified_initial_lower_bound": 245
+    },
+    {
+      "name": "p2013265921_natural_cut4",
+      "pair_witnesses_checked": 20503,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          64,
+          61
+        ],
+        [
+          128,
+          109
+        ],
+        [
+          256,
+          203
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": null,
+      "certified_initial_lower_bound": 203
+    },
+    {
+      "name": "p2013265921_natural_cut8",
+      "pair_witnesses_checked": 32385,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          128,
+          129
+        ],
+        [
+          256,
+          255
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": null,
+      "certified_initial_lower_bound": 255
+    },
+    {
+      "name": "p2013265921_natural_cut32",
+      "pair_witnesses_checked": 32640,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          128,
+          129
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": null,
+      "certified_initial_lower_bound": 256
+    },
+    {
+      "name": "p2013265921_reversed_cut32",
+      "pair_witnesses_checked": 32640,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          128,
+          129
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": null,
+      "certified_initial_lower_bound": 256
+    },
+    {
+      "name": "p2013265921_even_odd_cut32",
+      "pair_witnesses_checked": 32640,
+      "column_refinement_profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          128,
+          129
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "adaptive_suffixes_checked": 0,
+      "adaptive_arithmetic_words": 0,
+      "final_supplied_prefix_classes": null,
+      "certified_initial_lower_bound": 256
+    }
+  ],
+  "corrupt_artifacts_rejected": [
+    "wrong_distinguishing_column",
+    "wrong_adaptive_verdict"
+  ],
+  "source_sha256": {
+    "refinement_review.py": "d1f999823e6648f6583f8131f132cf2a9a404c403ae7cbc7c4b2d8a792e591c1"
+  },
+  "input_sha256": {
+    "residual_refinement.json": "7ffb83b7c973f00259ac118d71cb807cc1643ba70723449ce650cee8a666f59e",
+    "p65537_canonical_splice.json": "be060bd83bb020ed1305163b8f4dc472dc705ed0c5596d9f66de5aa035e08503",
+    "p65537_canonical.json": "9eaabf5b622cdaab98980807d6348e21e12541dfdd362581ff0fbe44447b62f1",
+    "p65537_saved_splice.json": "1de9e5902e7c9bb26227f16da5022b9768ad2717487316e2e2d98fa31f355d9f",
+    "p65537_saved.json": "b18b7e618290016d91aeb4d59ecb4de2aea7b18ac919a309c52b5729fdde32d5",
+    "p6700417_canonical_splice.json": "418751f8155371beae0918fa74f6af930e361f6f544a9e168e65e41abe441a9e",
+    "symbolic_N32_k641.json": "7451199ec35cf7455fa5ffee7f3bb7aecc506d5c4213a9efc26d1a57a4fa505b",
+    "p2013265921_natural_cut4_splice.json": "a44bc03dd9422ca0db6d195e8d4f84c8a58457f73763444db516b6069512a807",
+    "p2013265921_natural_cut8_splice.json": "9b2ad22add34b70ae68ccde143f148992affcd1e6caf18b1e3c4c9b6f7c789e1",
+    "p2013265921_natural_cut32_splice.json": "55148597e77b42d326946d1e7d9986042c56dc7a5c08548426b2c900e0c926f7",
+    "p2013265921_reversed_cut32_splice.json": "f0e520ddc874b379e5e66e8141eb6fb92ba6f029147abf0ab6dfe736bcfe5bbc",
+    "p2013265921_even_odd_cut32_splice.json": "e7cb28c92712775b6814f30338318846ff3115fba18db4785335c57a25c2ad08"
+  }
+}

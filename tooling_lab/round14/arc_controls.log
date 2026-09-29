@@ -1,0 +1,5 @@
+{"dimension": 2, "received_words": 3125, "space_members": 25, "queries_replayed": 31250, "list_size_histogram": [[1, 25], [5, 500], [6, 1500], [8, 1000], [10, 100]]}
+{"dimension": 3, "received_words": 3125, "space_members": 125, "queries_replayed": 31250, "list_size_histogram": [[1, 125], [7, 2500], [10, 500]]}
+{"dimension": 4, "received_words": 3125, "space_members": 625, "queries_replayed": 15625, "list_size_histogram": [[1, 625], [5, 2500]]}
+{"dimension": 5, "received_words": 3125, "space_members": 3125, "queries_replayed": 3125, "list_size_histogram": [[1, 3125]]}
+{"status": "passed", "received_words": 12500, "queries_replayed": 81250, "corrupted_certificates": 14, "corrupted_transcripts": 8}

@@ -1,0 +1,164 @@
+{
+  "p": 13,
+  "marks": [
+    0,
+    1,
+    2
+  ],
+  "Q": -26,
+  "cells": [
+    {
+      "pattern": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": 2
+    },
+    {
+      "pattern": [
+        -1,
+        -1,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        0
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        -1,
+        1,
+        1
+      ],
+      "size": 2
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        -1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        -1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        -1,
+        1
+      ],
+      "size": 2
+    },
+    {
+      "pattern": [
+        1,
+        0,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        -1
+      ],
+      "size": 2
+    }
+  ],
+  "sampled_convolution_rows": [
+    {
+      "x": 0,
+      "value": 0
+    },
+    {
+      "x": 1,
+      "value": -2
+    },
+    {
+      "x": 2,
+      "value": 0
+    },
+    {
+      "x": 3,
+      "value": 1
+    },
+    {
+      "x": 4,
+      "value": -3
+    },
+    {
+      "x": 5,
+      "value": 5
+    },
+    {
+      "x": 6,
+      "value": 1
+    },
+    {
+      "x": 7,
+      "value": -3
+    },
+    {
+      "x": 9,
+      "value": 1
+    },
+    {
+      "x": 10,
+      "value": 5
+    },
+    {
+      "x": 11,
+      "value": -3
+    },
+    {
+      "x": 12,
+      "value": 1
+    }
+  ],
+  "metadata": {
+    "ntt_modulus": 998244353,
+    "ntt_length": 32,
+    "transforms": 3,
+    "h3_l1": 10,
+    "h2_l1": 14,
+    "integer_recovery_margin": 998244333,
+    "Q_absolute_bound": 140,
+    "backend_seconds": 4.2e-05
+  },
+  "reduced_moments": [],
+  "validation": {
+    "Q_from_full_exact_relations": -26,
+    "relation_Q_matched": true,
+    "direct_rows": 13,
+    "direct_integer_terms": 169,
+    "full_independent_direct_Q": true,
+    "all_character_values_checked_by_Euler_criterion": 13
+  },
+  "provenance": {
+    "input_file": "marked_counts/counts_p13_marks_0_1_2.json",
+    "input_sha256": "2afc544af8cb78c7ceae7217330445a470ee9a7fb83615890b33541cded16d2a",
+    "cpp_sha256": "73478bb4b272ff6826fd6e8b7213503fdf88e44b05428008c938e7c8841707d5",
+    "header_sha256": "beb539544b42e9f589ff999c59223f7b99d7492c0c49c91e9802c82ff561ca8f",
+    "binary_sha256": "cf1ee8e6fdacc6b3accfb0352053b50632390c9489f283b8b556826c101e1090",
+    "verifier_sha256": "f3564cb52dcc1f40224564606b2b3869688e8357f167a7101b74f5c53680de37",
+    "reduction_source_sha256": "33cd449e84a2353dbcf6a062a879a8c10ed34f9f11a4bfab9d03e154322c571b",
+    "conditional_compiler_source_sha256": "5724a8ad72daca66f5f2a47a4513f03ac2d3fe25a28ef52cf87d5cb281a7b105",
+    "wall_including_independent_validation_seconds": 0.16118129099777434,
+    "runner_lifetime_max_child_rss_bytes": 38109184
+  }
+}

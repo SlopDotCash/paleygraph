@@ -1,0 +1,11 @@
+Tiny direct oracles: {'cases': 120, 'direct_neighbour_targets': 6432, 'matrix_prime_backend_equalities': 120}
+Actual histogram ambiguity: {'q': 17, 'n': 6, 'degree': 6, 'normalization': 'All sets containing 0 and 1, not all affine equivalence classes.', 'all_set_targets_cached': 12376, 'normalized_inputs': 1365, 'histogram_fibres': 70, 'ambiguous_variance_fibres': 12, 'direct_neighbour_targets': 90090}
+{"q": 1297, "n": 6, "family": "arithmetic_progression", "target": -21, "variance": 1294.1269697080604, "seconds": 0.0004937500052619725}
+{"q": 1297, "n": 6, "family": "seeded_uniform", "target": 19, "variance": 1290.7453817230505, "seconds": 0.0009015830000862479}
+{"q": 65537, "n": 16, "family": "arithmetic_progression", "target": 27160, "variance": 454226945.513407, "seconds": 1.8503915409964975}
+{"q": 65537, "n": 16, "family": "seeded_uniform", "target": 22240, "variance": 298647037.258146, "seconds": 1.0187282499973662}
+{"q": 1000033, "n": 31, "family": "arithmetic_progression", "target": 7042771, "variance": 402924369689.46643, "seconds": 50.831285874999594}
+{"q": 1000033, "n": 31, "family": "seeded_uniform", "target": -654693, "variance": 288196970018.2755, "seconds": 58.932073292002315}
+{"q": 6700417, "n": 50, "family": "arithmetic_progression", "target": -98772836, "variance": 19972429323758.63, "seconds": 224.26873791699472}
+{"q": 6700417, "n": 50, "family": "seeded_uniform", "target": 7795804, "variance": 21400288587232.797, "seconds": 243.15202587499516}
+Completed local-edit experiments.

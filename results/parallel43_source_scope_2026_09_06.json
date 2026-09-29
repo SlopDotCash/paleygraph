@@ -1,0 +1,29 @@
+{
+  "observed_at_utc": "2026-09-06T08:10:21.046441+00:00",
+  "sources": [
+    {
+      "path": "sources/parallel38-energy-source/shkredov-2013-published.pdf",
+      "url": "http://mjcnt.phystech.edu/en/download.php?id=66",
+      "sha256": "79dbfd8841ae220880ad8c692684bcd0889e417b700a96e2ed64f3ac7983c206",
+      "use": "Published Lemma2, equation18, printed page197, applied to three single H-cosets; ratio-image hypothesis explicitly verified.",
+      "viewed_image_path": "sources/parallel38-energy-source/shkredov-2013-published-page10.png",
+      "viewed_image_sha256": "f97db86163781e1151dd3e85d379c3a5816a82eadb20429ee69e1bbb5f0e8023"
+    }
+  ],
+  "local_dependencies_sha256": {
+    "research/cyclotomic-prime-average.md": "0082c26329418e5c6803504170275596ea9d1eacdbac3c0cacc0ae4ff7722fe1",
+    "research/parallel41-correlation-optimization-2026-09-06.md": "408204d7bbfb76dfc5d90b8788575261921fa450c012dd31caaced188b93d069",
+    "research/parallel42-excess-equations-2026-09-06.md": "9b7f908e5d507aff1104ca60901cf10dda8678335d2c2f1bcc1093e543be2bdb",
+    "results/parallel42_norm_budget_2026_09_06.json": "eab779d46697787e79784145c0076e4f44ea8748eb974c2765ef7a394a2dbe8b",
+    "research/kernel-discriminant.md": "7e1ad6608218b4ae29d9d8b9cd9ced2c8e3c6180093778b9da3d39a4e8f3abb0",
+    "experiments/mixed_period_collisions.py": "9e3a9860feacf3625a4556902072ff36311f5293affdae61a63b55e0f3a02544",
+    "experiments/parallel41_independent_verify.py": "84d64fa0581492f263eb4922ca9d6eeff7dc1496006c1adf4cd2b46378fdbf68"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "review_scope": "Root ordinary proof review, primary-page visual inspection, independent numerical methods; no separate-agent, Lean or external peer review.",
+  "unproved_inputs": [
+    "Pointwise additive energy E<<n^(7/3) in the quartic range",
+    "Pointwise collision saving X<<n^(61/31)",
+    "Full arbitrary-set Paley and official prize conclusion"
+  ]
+}

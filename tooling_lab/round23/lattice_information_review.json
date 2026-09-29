@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "source": "consecutive33.json",
+      "rows_checked": 33,
+      "integral_rows": 33,
+      "scalar_congruent_rows": 33,
+      "integer_carry_directions": 20,
+      "invisible_directions": 20
+    },
+    {
+      "source": "consecutive36.json",
+      "rows_checked": 36,
+      "integral_rows": 36,
+      "scalar_congruent_rows": 36,
+      "integer_carry_directions": 23,
+      "invisible_directions": 23
+    },
+    {
+      "source": "consecutive40.json",
+      "rows_checked": 40,
+      "integral_rows": 40,
+      "scalar_congruent_rows": 40,
+      "integer_carry_directions": 27,
+      "invisible_directions": 27
+    },
+    {
+      "source": "../round22/metric_alternating32.json",
+      "rows_checked": 32,
+      "integral_rows": 32,
+      "scalar_congruent_rows": 32,
+      "integer_carry_directions": 0,
+      "invisible_directions": 0
+    },
+    {
+      "source": "../round22/metric_random32.json",
+      "rows_checked": 32,
+      "integral_rows": 32,
+      "scalar_congruent_rows": 32,
+      "integer_carry_directions": 1,
+      "invisible_directions": 1
+    },
+    {
+      "source": "../round22/small_scalar_p_squared_erase1.json",
+      "rows_checked": 1,
+      "integral_rows": 1,
+      "scalar_congruent_rows": 0,
+      "integer_carry_directions": 0,
+      "invisible_directions": 0
+    },
+    {
+      "source": "../round22/small_scalar_p_squared_erase3.json",
+      "rows_checked": 3,
+      "integral_rows": 0,
+      "scalar_congruent_rows": 0,
+      "integer_carry_directions": 0,
+      "invisible_directions": 3
+    }
+  ],
+  "input_sha256": {
+    "lattice_information.json": "9dfb39737b84a3ef8b5778f40f54fece7e2e7f8f9f6eb60ab4627cf171ca9fa5",
+    "consecutive33.json": "4f1666d22a9511bb37ff175e503d4af269b53f925adef747563c60aab23b22c1",
+    "consecutive36.json": "cb41b7f3da57e2960d19a6580c6304be8363eaa0457b4363eb47fae28915c935",
+    "consecutive40.json": "aa0718ded97f5dd7bb9ee53a7f426e6f7f0557e43134eba1bf2a99f78453d028",
+    "../round22/metric_alternating32.json": "909e3dc5262f37fc037292feee9b29489100dcd9e5d03626ac6c16a8684ee2bc",
+    "../round22/metric_random32.json": "21cdf4a1893be9e3c49b50a01bea6490e9fb5ade57d07baf065ecb96490ddd8b",
+    "../round22/small_scalar_p_squared_erase1.json": "df1c594e9be4acefac793774675e5b3ce850b6235acbe5bc22f72d1fa42355f8",
+    "../round22/small_scalar_p_squared_erase3.json": "379dd43d4a83551f1e16d75d032cc3caff423a72118fa1babfa14585144e0b37"
+  },
+  "source_sha256": {
+    "lattice_information_review.py": "4ff6516a080c9b3b51e4a804fc452479af745526d2498c2590b51faaf22884e1",
+    "../round22/conditioned_review.py": "541554d050c916cbbac05acf6347dd88377e3822926e64806da5987a1aed2ec6"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "created_utc": "2026-09-06T06:07:14.351945+00:00",
+  "scope": "Multiplicity-aware and full-length declared-space certificates plus verified actual pruning. No cluster discovery, general prize proof, historical novelty certification or end-to-end speedup claim.",
+  "previous_round11_artifacts_preserved": 49,
+  "source_and_input_bindings": 103,
+  "small_certificates_rechecked": 5,
+  "large_review_and_pruning_replay": "Earlier completed numerical reviews are bound to all exact sources and inputs; unchanged expensive reviews are not rerun by this integration.",
+  "python_sources_compiled": 13,
+  "markdown_local_links_passed": true,
+  "artifacts": {
+    "DERIVATION.md": {
+      "sha256": "fa2db0ad3dd51eed79d03e7e9c2c96eb4a662b93eebc9902934b9d183ce6eb34",
+      "bytes": 3936
+    },
+    "README.md": {
+      "sha256": "aae150878d1418e57f5ee98b70e9edc2ef1cb7e9d2c59c294adef32fc2be90d3",
+      "bytes": 4902
+    },
+    "actual_preflight.log": {
+      "sha256": "f35cb907df85791e8cc6da1f1dda1708cc5efe61fdd9ad40644f2737f550acfd",
+      "bytes": 958
+    },
+    "actual_preflight.py": {
+      "sha256": "f23a527052caab4317bd0ffca6d1756ba22ae90682d435ca5aa3a6fdc63339f2",
+      "bytes": 4700
+    },
+    "actual_results.json": {
+      "sha256": "5af1bf4f3d1a7ca9acf41a9ed73555f70a96a0bb81af4ab48da33f544e2918e7",
+      "bytes": 10925289
+    },
+    "capacitated_pinning.py": {
+      "sha256": "f98680ec721ba454091759e5ad9b0e1e9ec32393d697fe1a2307e8daa7f6a225",
+      "bytes": 4334
+    },
+    "certificate_verification.json": {
+      "sha256": "c98f574db6e33e880aa38df0be49a2cf048325680e1c532dc5c7f8afaad29af0",
+      "bytes": 6752
+    },
+    "certificate_verification.log": {
+      "sha256": "78f306fac42fd4003ba85f01ddbfa8234c637258c44ee97719cdeb3391208769",
+      "bytes": 2984
+    },
+    "certificate_verifier.py": {
+      "sha256": "6a13a4e94905a5be28e5da072b205564a4d692d6ed46317f3045f39733245be4",
+      "bytes": 8386
+    },
+    "checkpoint.json": {
+      "sha256": "c0ba358939261243383885e84b27495a629d2f957921cc4512dbe1f4be1f56cb",
+      "bytes": 298
+    },
+    "common_roots.certificate.json": {
+      "sha256": "b604f67d1e33ec48829d318964cb82dc9da866cc9adf00f1aa18c9706af40a04",
+      "bytes": 2828
+    },
+    "common_roots.input.json": {
+      "sha256": "0aea0d8a0374a8e32b682e8dda80694c50bf5c23de27bafc2cbcdef614592ec8",
+      "bytes": 413
+    },
+    "export_certificates.py": {
+      "sha256": "cacbceed6c8e414ee0fc4b910454ad0e015f3eeb4ff0fc237099933f3738a765",
+      "bytes": 5853
+    },
+    "full_length.certificate.json": {
+      "sha256": "3b3c935e23c0344933b2567b55d05e7b133aa727b322fef8c0c281f564e79476",
+      "bytes": 50376
+    },
+    "full_length.input.json": {
+      "sha256": "681200946fcaf1d8e3822882eb122ff54b149bd2b97dcb77ee17484b7c1a6b65",
+      "bytes": 14345
+    },
+    "hard_rank3.certificate.json": {
+      "sha256": "74f9d94e15d0e38834f50f6e6513a4c8002c8263f554593f940921f0e1a83771",
+      "bytes": 2739
+    },
+    "hard_rank3.input.json": {
+      "sha256": "3e7027f53e37b89a652e4bc960c04c73717a573d52bd96d4f0007a544b11af99",
+      "bytes": 524
+    },
+    "pair_space.log": {
+      "sha256": "8c6d777773f71c3ba2a0268f74ac73e2469288089ca5c175faec27ba9751699f",
+      "bytes": 846
+    },
+    "pair_space_controls.json": {
+      "sha256": "8705ef29c669b4d917accf6b2cdd5d0e98434a75b2505f237097fc77da8423a9",
+      "bytes": 16002
+    },
+    "pair_space_controls.py": {
+      "sha256": "4d152cc6485376f02b27d6e0fcd3b382454e5f497b556b191553b4e179c202fc",
+      "bytes": 2880
+    },
+    "pair_space_preflight.py": {
+      "sha256": "792c447ba0163b7fe3613ef9873caa2d1a85de9ae05f3b5ab74da648cd3bb1a9",
+      "bytes": 6156
+    },
+    "pair_space_results.json": {
+      "sha256": "34a9deb42d68acd2f295e6b72a1b6d945c415b8651da494c669aa13d9be23422",
+      "bytes": 153746
+    },
+    "parallel_conic.certificate.json": {
+      "sha256": "62bcb76e07fc7b6bdc76185417fb88039b36b5d3b876095a2c27e4df5ad20f25",
+      "bytes": 1769
+    },
+    "parallel_conic.input.json": {
+      "sha256": "f80b8d3e04492e329b65f2461bbf60586bc761638feadb06391867ce0133626c",
+      "bytes": 306
+    },
+    "polynomial_certificate.py": {
+      "sha256": "df9531e3fb6c4d825b0432c3ea2f8ddeefde65224be57542fece89120417043b",
+      "bytes": 2717
+    },
+    "preflight.py": {
+      "sha256": "6cb60ff5ecc6ae40afdac673545a04dc258eefa3e83277cfe40e643c2c424f70",
+      "bytes": 2885
+    },
+    "preflight_results.json": {
+      "sha256": "0683377752037f091468034c461db21990206f0637acde9bf4e50a124006cb22",
+      "bytes": 638
+    },
+    "prior_art.md": {
+      "sha256": "64d9e86fee87d96ff82a53498b9b9a9e4ae9948fd0bfcb53b531cc94b46f3c15",
+      "bytes": 2248
+    },
+    "pruning.log": {
+      "sha256": "99adb2c40733416de3e93c0b4d74fb0f83a5a27ea273bca4179c7b265c2822d1",
+      "bytes": 328
+    },
+    "pruning_controls.json": {
+      "sha256": "5a6c4a5da98d54b6772cc3c1a6263642248812b8c0265ce2a707a2825619fc30",
+      "bytes": 3636
+    },
+    "pruning_controls.py": {
+      "sha256": "3a8fdea5cdaa64a2881d205dd9b2b94064971872b2a583d9681c351c6ae8abc1",
+      "bytes": 4454
+    },
+    "pruning_results.json": {
+      "sha256": "060aef45e3d0eb798741e7152958f2114cc45bd219a4c2447411891722815072",
+      "bytes": 168659
+    },
+    "pruning_sampler.py": {
+      "sha256": "f053cd009d32c75b1beb0d715482990bdcb98f3bc508fb41efe92a9f0f3b5ebf",
+      "bytes": 5120
+    },
+    "pruning_verification.json": {
+      "sha256": "df6af18db545a9db499bac2a9e616a1ff17b442f779a315bd5b34966e374c3f4",
+      "bytes": 7822
+    },
+    "pruning_verification.log": {
+      "sha256": "095f0bd8a0321627960bc1d1273141b0ca894b7a259c146a4d9f50b717aff1b7",
+      "bytes": 102
+    },
+    "pruning_verifier.py": {
+      "sha256": "f9be29e8139d790a6205d0d0018d3a69ea332c0ca42a1fe5c9cff764a64124b4",
+      "bytes": 8293
+    },
+    "run_pruning.py": {
+      "sha256": "30acfee638b2ddad67c2cfaa86a71aff0293f17b84dd3813881f618fdd45dd66",
+      "bytes": 5751
+    },
+    "simple_corner.certificate.json": {
+      "sha256": "b0369745ff5b2ff60b5aa7dcfb4930830c35d6f70961d1b8e3d04364b6cade50",
+      "bytes": 6434
+    },
+    "simple_corner.input.json": {
+      "sha256": "0b7e3c02b4254bfa2bea7869194294e75bcc2c1edd23dbc5c2c6e383d8ce5ff4",
+      "bytes": 315
+    },
+    "simple_pair.certificate.json": {
+      "sha256": "9a4dcd151b7ab54368a8f61a208bd1b383a3819e1a189faa558cc77e79c56776",
+      "bytes": 919
+    },
+    "simple_pair.input.json": {
+      "sha256": "0b7e3c02b4254bfa2bea7869194294e75bcc2c1edd23dbc5c2c6e383d8ce5ff4",
+      "bytes": 315
+    },
+    "verify_round.py": {
+      "sha256": "bf3fd93078ad486b240c0c40f51b425b3ab8f23e91b11c409023968394e39704",
+      "bytes": 5728
+    }
+  }
+}

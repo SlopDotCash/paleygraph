@@ -1,0 +1,28 @@
+{
+  "status": "Root proof review and final artifact audit completed; full conjectures remain unproved.",
+  "notes_reviewed": [
+    "research/parallel-classical-2026-09-04.md",
+    "research/parallel-necklace-2026-09-04.md",
+    "research/parallel-pass-summary-2026-09-04.md",
+    "research/parallel-prize-subfield-2026-09-04.md",
+    "research/parallel-subgroup-2026-09-04.md"
+  ],
+  "recorded_input_hashes_verified": 13,
+  "python_scripts_parsed": 4,
+  "local_note_links_verified": 18,
+  "artifact_sha256": {
+    "research/parallel-classical-2026-09-04.md": "fa128433913e976c9c293b1eb20e177285e50c8aafe3dfdd41cdee86daf80aef",
+    "research/parallel-necklace-2026-09-04.md": "f72b87b6fdc9a0ee7f568408f6551e84ccadfcb78ea867b200b0f8c0330a91d7",
+    "research/parallel-pass-summary-2026-09-04.md": "52cdb012c27869122d86c8cc4c78609dfbbc2ed17a4d48da206cb7d158215b7c",
+    "research/parallel-prize-subfield-2026-09-04.md": "68311e1c8e382e4bb9c910003c5a951288a09f06f63161b916ad37d38143e46c",
+    "research/parallel-subgroup-2026-09-04.md": "d78460dfc147fa8c069c6fd2f6df9f4f17f4e3ed353242a971f733d43384bf82",
+    "experiments/parallel_classical_2026_09_04.py": "15e1f99bfbcfbb573caf5b573c9452ffbe7494e8a212ae6f30413462eb6113b3",
+    "experiments/parallel_necklace_2026_09_04.py": "400c2ba43d1ec3861508da30fb3bd08745c09b8c4ee5258674cac38ec9567c46",
+    "experiments/parallel_prize_subfield_2026_09_04.py": "817e21b9c367c2eed20e6832b8557888425fd2954625ccc19511d287af75a4e3",
+    "experiments/parallel_subgroup_2026_09_04.py": "ea13514659d47c6777531ca4a39ec4316ca77ddbaa5c9d4e6c8d5c35a6aca0a0",
+    "results/parallel_classical_2026_09_04.json": "a0f041f17a44b03a0f66c779b0d0109c11bf2c445569ecd33b65e1b6a2b06a84",
+    "results/parallel_necklace_2026_09_04.json": "fd60c9fc3306d5b652f055ea90e81dd87826c67c5281377b818cdea9b246ccd2",
+    "results/parallel_prize_subfield_2026_09_04.json": "13a0c2ee7944aa20e2c345b901251825649490918198cce9bed648aeee2cbdc6",
+    "results/parallel_subgroup_2026_09_04.json": "573f5fa47346cd9ee2563c1faa4e73f93c8e7e5ef2d248930641ed8a590f4dca"
+  }
+}

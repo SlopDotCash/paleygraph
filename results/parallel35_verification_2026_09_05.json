@@ -1,0 +1,8769 @@
+{
+  "status": "single-degree finite checks passed; full targets unproved",
+  "created_at_utc": "2026-09-05T23:12:59.579491+00:00",
+  "duration_seconds": 1.709830541993142,
+  "check_counts": {
+    "pointwise lower": 114,
+    "pointwise absolute": 114,
+    "pointwise reverse": 114,
+    "small-size branch": 36,
+    "normalization": 78,
+    "normalization bounds": 78,
+    "shifted coefficient identity": 78,
+    "exact Sturm root enclosure": 78,
+    "large-sum product lower": 3,
+    "finite-field lower": 43,
+    "finite-field absolute": 43,
+    "finite-field reverse": 43,
+    "witness primality": 1,
+    "witness subgroup": 1,
+    "witness quartic window": 1,
+    "witness full signed enumeration": 1,
+    "witness centered polynomial": 1,
+    "witness translation": 1,
+    "paired power sum identity": 32,
+    "group algebra Newton identity": 32,
+    "reverse error absorption": 32,
+    "single-degree constant": 128,
+    "ten-term lower constant": 1
+  },
+  "rational_rows": [
+    {
+      "N": 2,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4096,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 65536,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -8,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -8,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -9,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 81,
+        "denominator": 16
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -9,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 6561,
+        "denominator": 256
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -9,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 531441,
+        "denominator": 4096
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -9,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 43046721,
+        "denominator": 65536
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 48,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 512,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3,
+          "denominator": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 384,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4096,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 262144,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16777216,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -16,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ],
+      "root_radius_squared": 512,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -16,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3,
+          "denominator": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 384,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 3
+        }
+      ],
+      "root_radius_squared": 512,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -12,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3,
+          "denominator": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -384,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4096,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 4,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 65536,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": -17,
+        "denominator": 4
+      },
+      "moment": {
+        "numerator": 49,
+        "denominator": 16
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 512,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -419,
+          "denominator": 64
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3,
+          "denominator": 4
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": -18,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 2401,
+        "denominator": 256
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 117649,
+        "denominator": 4096
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 5764801,
+        "denominator": 65536
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 224,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ],
+      "root_radius_squared": 1024,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 7,
+          "denominator": 8
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 26880,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 65536,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105,
+        "denominator": 256
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105,
+          "denominator": 256
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 1290240,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16777216,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 10321920,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4294967296,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -32,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 1024,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -32,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 7,
+          "denominator": 8
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 2304,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105,
+        "denominator": 256
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 2304,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -90,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105,
+          "denominator": 256
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -184320,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 10321920,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 6
+        }
+      ],
+      "root_radius_squared": 1024,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -24,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 7,
+          "denominator": 8
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -3840,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4096,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 6
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 3,
+      "variation_left": 3,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105,
+        "denominator": 256
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 720,
+          "denominator": 1
+        },
+        {
+          "numerator": -240,
+          "denominator": 1
+        },
+        {
+          "numerator": -135,
+          "denominator": 2
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105,
+          "denominator": 256
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 184320,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 262144,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 6
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 8,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 10321920,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16777216,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 6
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -13,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 1024,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -111,
+          "denominator": 8
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 7,
+          "denominator": 8
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 9597,
+        "denominator": 32
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105,
+        "denominator": 256
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 86661,
+          "denominator": 256
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -4995,
+          "denominator": 128
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105,
+          "denominator": 256
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -138915,
+        "denominator": 32
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 960,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1024,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 15,
+          "denominator": 16
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 698880,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1048576,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1365,
+        "denominator": 2048
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1365,
+          "denominator": 2048
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 369008640,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1073741824,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 6144,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 45045,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 45045,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 132843110400,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1099511627776,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2027025,
+        "denominator": 16777216
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2027025,
+          "denominator": 16777216
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -64,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -64,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 15,
+          "denominator": 16
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 10752,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1365,
+        "denominator": 2048
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 10752,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -273,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1365,
+          "denominator": 2048
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -2580480,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ],
+      "root_radius_squared": 6144,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 45045,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -2580480,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 83160,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -45045,
+          "denominator": 128
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 45045,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 722534400,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 8
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2027025,
+        "denominator": 16777216
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 722534400,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -25401600,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1091475,
+          "denominator": 8
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -945945,
+          "denominator": 4096
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2027025,
+          "denominator": 16777216
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 192,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 12
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -48,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 15,
+          "denominator": 16
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -13824,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 65536,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 12
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1365,
+        "denominator": 2048
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 4896,
+          "denominator": 1
+        },
+        {
+          "numerator": -624,
+          "denominator": 1
+        },
+        {
+          "numerator": -819,
+          "denominator": 4
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1365,
+          "denominator": 2048
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -4055040,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16777216,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 12
+        }
+      ],
+      "root_radius_squared": 6144,
+      "root_count": 5,
+      "variation_left": 5,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 45045,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -190080,
+          "denominator": 1
+        },
+        {
+          "numerator": 285120,
+          "denominator": 1
+        },
+        {
+          "numerator": 75735,
+          "denominator": 2
+        },
+        {
+          "numerator": -6435,
+          "denominator": 4
+        },
+        {
+          "numerator": -135135,
+          "denominator": 512
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 45045,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 2043740160,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4294967296,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 12
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 5,
+      "variation_left": 5,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2027025,
+        "denominator": 16777216
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -183617280,
+          "denominator": 1
+        },
+        {
+          "numerator": -71850240,
+          "denominator": 1
+        },
+        {
+          "numerator": -1871100,
+          "denominator": 1
+        },
+        {
+          "numerator": 935550,
+          "denominator": 1
+        },
+        {
+          "numerator": 7952175,
+          "denominator": 128
+        },
+        {
+          "numerator": -405405,
+          "denominator": 256
+        },
+        {
+          "numerator": -2837835,
+          "denominator": 16384
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2027025,
+          "denominator": 16777216
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 2
+      },
+      "H": {
+        "numerator": -25,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 2048,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -1615,
+          "denominator": 64
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 15,
+          "denominator": 16
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 2
+      },
+      "H": {
+        "numerator": 23433,
+        "denominator": 16
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 16
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1365,
+        "denominator": 2048
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 49109889,
+          "denominator": 32768
+        },
+        {
+          "numerator": 29835,
+          "denominator": 2048
+        },
+        {
+          "numerator": -440895,
+          "denominator": 4096
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1365,
+          "denominator": 2048
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 2
+      },
+      "H": {
+        "numerator": -6825375,
+        "denominator": 64
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 64
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 6144,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 45045,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -933950774025,
+          "denominator": 8388608
+        },
+        {
+          "numerator": -1892238975,
+          "denominator": 524288
+        },
+        {
+          "numerator": 24309395055,
+          "denominator": 2097152
+        },
+        {
+          "numerator": 4922775,
+          "denominator": 131072
+        },
+        {
+          "numerator": -72747675,
+          "denominator": 524288
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 45045,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -1,
+        "denominator": 2
+      },
+      "H": {
+        "numerator": 3878391195,
+        "denominator": 512
+      },
+      "moment": {
+        "numerator": 1,
+        "denominator": 256
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2027025,
+        "denominator": 16777216
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 34992595712232585,
+          "denominator": 4294967296
+        },
+        {
+          "numerator": 80810384777325,
+          "denominator": 134217728
+        },
+        {
+          "numerator": -294194493817875,
+          "denominator": 268435456
+        },
+        {
+          "numerator": -198685092375,
+          "denominator": 16777216
+        },
+        {
+          "numerator": 2552486480775,
+          "denominator": 134217728
+        },
+        {
+          "numerator": 310134825,
+          "denominator": 8388608
+        },
+        {
+          "numerator": -1527701175,
+          "denominator": 16777216
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2027025,
+          "denominator": 16777216
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 3968,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4096,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 31,
+        "denominator": 32
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 31,
+          "denominator": 32
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 13808640,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16777216,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 13485,
+        "denominator": 16384
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 13485,
+          "denominator": 16384
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 41757327360,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 68719476736,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 12288,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2548665,
+        "denominator": 4194304
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2548665,
+          "denominator": 4194304
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 108569051136000,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 281474976710656,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 828316125,
+        "denominator": 2147483648
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 828316125,
+          "denominator": 2147483648
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -128,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 31,
+        "denominator": 32
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -128,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 31,
+          "denominator": 32
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 46080,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 13485,
+        "denominator": 16384
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 46080,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -1305,
+          "denominator": 2
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 13485,
+          "denominator": 16384
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -25804800,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 12288,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2548665,
+        "denominator": 4194304
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -25804800,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 510300,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -1233225,
+          "denominator": 1024
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2548665,
+          "denominator": 4194304
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 18785894400,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 16
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 828316125,
+        "denominator": 2147483648
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 18785894400,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -458640000,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 96744375,
+          "denominator": 64
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -187039125,
+          "denominator": 131072
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 828316125,
+          "denominator": 2147483648
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 896,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1024,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 24
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 31,
+        "denominator": 32
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -96,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 31,
+          "denominator": 32
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 340992,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1048576,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 24
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 13485,
+        "denominator": 16384
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 23616,
+          "denominator": 1
+        },
+        {
+          "numerator": -1392,
+          "denominator": 1
+        },
+        {
+          "numerator": -3915,
+          "denominator": 8
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 13485,
+          "denominator": 16384
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -149667840,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1073741824,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 24
+        }
+      ],
+      "root_radius_squared": 12288,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2548665,
+        "denominator": 4194304
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -6693120,
+          "denominator": 1
+        },
+        {
+          "numerator": 1632960,
+          "denominator": 1
+        },
+        {
+          "numerator": 1046115,
+          "denominator": 4
+        },
+        {
+          "numerator": -82215,
+          "denominator": 16
+        },
+        {
+          "numerator": -3699675,
+          "denominator": 4096
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2548665,
+          "denominator": 4194304
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -71056097280,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 1099511627776,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 24
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 828316125,
+        "denominator": 2147483648
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 335301120,
+          "denominator": 1
+        },
+        {
+          "numerator": -1481760000,
+          "denominator": 1
+        },
+        {
+          "numerator": -118959750,
+          "denominator": 1
+        },
+        {
+          "numerator": 19348875,
+          "denominator": 2
+        },
+        {
+          "numerator": 793303875,
+          "denominator": 1024
+        },
+        {
+          "numerator": -37407825,
+          "denominator": 4096
+        },
+        {
+          "numerator": -561117375,
+          "denominator": 524288
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 828316125,
+          "denominator": 2147483648
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": -389,
+        "denominator": 8
+      },
+      "moment": {
+        "numerator": 9,
+        "denominator": 16
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ],
+      "root_radius_squared": 4096,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 31,
+        "denominator": 32
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -25175,
+          "denominator": 512
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 31,
+          "denominator": 32
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 201477,
+        "denominator": 32
+      },
+      "moment": {
+        "numerator": 81,
+        "denominator": 256
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 13485,
+        "denominator": 16384
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 27035426121,
+          "denominator": 4194304
+        },
+        {
+          "numerator": -1548513,
+          "denominator": 131072
+        },
+        {
+          "numerator": -32853375,
+          "denominator": 131072
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 13485,
+          "denominator": 16384
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": -305848845,
+        "denominator": 256
+      },
+      "moment": {
+        "numerator": 729,
+        "denominator": 4096
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ],
+      "root_radius_squared": 12288,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 2548665,
+        "denominator": 4194304
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -21296727344353365,
+          "denominator": 17179869184
+        },
+        {
+          "numerator": 3524120387505,
+          "denominator": 536870912
+        },
+        {
+          "numerator": 76645433053035,
+          "denominator": 1073741824
+        },
+        {
+          "numerator": -1463344785,
+          "denominator": 33554432
+        },
+        {
+          "numerator": -31046439375,
+          "denominator": 67108864
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2548665,
+          "denominator": 4194304
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 141358179375,
+        "denominator": 512
+      },
+      "moment": {
+        "numerator": 6561,
+        "denominator": 65536
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 1
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 2
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 2
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 828316125,
+        "denominator": 2147483648
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 40896901365003110805525,
+          "denominator": 140737488355328
+        },
+        {
+          "numerator": -6420156265320091875,
+          "denominator": 2199023255552
+        },
+        {
+          "numerator": -48450054708403905375,
+          "denominator": 2199023255552
+        },
+        {
+          "numerator": 2672457960524625,
+          "denominator": 68719476736
+        },
+        {
+          "numerator": 58122786731884875,
+          "denominator": 274877906944
+        },
+        {
+          "numerator": -665821877175,
+          "denominator": 8589934592
+        },
+        {
+          "numerator": -4708709971875,
+          "denominator": 8589934592
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 828316125,
+          "denominator": 2147483648
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 16128,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16384,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 63,
+        "denominator": 64
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 63,
+          "denominator": 64
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 243984384,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 268435456,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 119133,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 119133,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 3454818877440,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4398046511104,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 24576,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105432705,
+        "denominator": 134217728
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105432705,
+          "denominator": 134217728
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 45686524835266560,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 72057594037927936,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 174280261365,
+        "denominator": 274877906944
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 174280261365,
+          "denominator": 274877906944
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -256,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 63,
+        "denominator": 64
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -256,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 63,
+          "denominator": 64
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 190464,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 119133,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 190464,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -5673,
+          "denominator": 4
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 119133,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -228556800,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 24576,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105432705,
+        "denominator": 134217728
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -228556800,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 2469150,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -25103025,
+          "denominator": 8192
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105432705,
+          "denominator": 134217728
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 371176243200,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 32
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 174280261365,
+        "denominator": 274877906944
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 371176243200,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -5165294400,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 4761755775,
+          "denominator": 512
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -19364473485,
+          "denominator": 4194304
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 174280261365,
+          "denominator": 274877906944
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 3840,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4096,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 48
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 63,
+        "denominator": 64
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -192,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 63,
+          "denominator": 64
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 10807296,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16777216,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 48
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 119133,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 102528,
+          "denominator": 1
+        },
+        {
+          "numerator": -2928,
+          "denominator": 1
+        },
+        {
+          "numerator": -17019,
+          "denominator": 16
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 119133,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 17961615360,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 68719476736,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 48
+        }
+      ],
+      "root_radius_squared": 24576,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105432705,
+        "denominator": 134217728
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -78451200,
+          "denominator": 1
+        },
+        {
+          "numerator": 7646400,
+          "denominator": 1
+        },
+        {
+          "numerator": 10633275,
+          "denominator": 8
+        },
+        {
+          "numerator": -809775,
+          "denominator": 64
+        },
+        {
+          "numerator": -75309075,
+          "denominator": 32768
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105432705,
+          "denominator": 134217728
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 64,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 603708456960,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 281474976710656,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 16
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 48
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 174280261365,
+        "denominator": 274877906944
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 61820236800,
+          "denominator": 1
+        },
+        {
+          "numerator": -17167852800,
+          "denominator": 1
+        },
+        {
+          "numerator": -1772966475,
+          "denominator": 1
+        },
+        {
+          "numerator": 460815075,
+          "denominator": 8
+        },
+        {
+          "numerator": 41012541675,
+          "denominator": 8192
+        },
+        {
+          "numerator": -1873981305,
+          "denominator": 65536
+        },
+        {
+          "numerator": -58093420455,
+          "denominator": 16777216
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 174280261365,
+          "denominator": 274877906944
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -787,
+        "denominator": 8
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 8192,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 63,
+        "denominator": 64
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -787,
+          "denominator": 8
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 63,
+          "denominator": 64
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 877383,
+        "denominator": 32
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 119133,
+        "denominator": 131072
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 877383,
+          "denominator": 32
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -4464651,
+          "denominator": 8192
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 119133,
+          "denominator": 131072
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -3072437775,
+        "denominator": 256
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 24576,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 105432705,
+        "denominator": 134217728
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -3072437775,
+          "denominator": 256
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 11647259325,
+          "denominator": 32768
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -19756080675,
+          "denominator": 16777216
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 105432705,
+          "denominator": 134217728
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 3540242999475,
+        "denominator": 512
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 3
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 4
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 4
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 174280261365,
+        "denominator": 274877906944
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 3540242999475,
+          "denominator": 512
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -35551177494525,
+          "denominator": 131072
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 44923479216525,
+          "denominator": 33554432
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -15239840632695,
+          "denominator": 8589934592
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 174280261365,
+          "denominator": 274877906944
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 1,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 65024,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 65536,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 128
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 127,
+        "denominator": 128
+      },
+      "high_sum_branch": true,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 127,
+          "denominator": 128
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 2,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 4096512000,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4294967296,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 128
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1000125,
+        "denominator": 1048576
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1000125,
+          "denominator": 1048576
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 3,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 249920004096000,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 281474976710656,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 128
+        }
+      ],
+      "root_radius_squared": 49152,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3813476625,
+        "denominator": 4294967296
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3813476625,
+          "denominator": 4294967296
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 4,
+      "label": "constant positive",
+      "sum": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 14757276401860608000,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 18446744073709551616,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 128
+        }
+      ],
+      "root_radius_squared": 65536,
+      "root_count": 1,
+      "variation_left": 1,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 28147270969125,
+        "denominator": 35184372088832
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 28147270969125,
+          "denominator": 35184372088832
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 1,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -512,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 64
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 127,
+        "denominator": 128
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -512,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 127,
+          "denominator": 128
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 2,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 774144,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 64
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1000125,
+        "denominator": 1048576
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 774144,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -23625,
+          "denominator": 8
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1000125,
+          "denominator": 1048576
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 3,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": -1919877120,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 64
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 49152,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3813476625,
+        "denominator": 4294967296
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -1919877120,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 10809855,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -450410625,
+          "denominator": 65536
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3813476625,
+          "denominator": 4294967296
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 4,
+      "label": "balanced endpoints",
+      "sum": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 6558300241920,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 64
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 64
+        }
+      ],
+      "root_radius_squared": 65536,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 28147270969125,
+        "denominator": 35184372088832
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 6558300241920,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -48434712480,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 186170926095,
+          "denominator": 4096
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": -1551424384125,
+          "denominator": 134217728
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 28147270969125,
+          "denominator": 35184372088832
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 1,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 15872,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 16384,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 96
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 127,
+        "denominator": 128
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -384,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 127,
+          "denominator": 128
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 2,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 219402240,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 268435456,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 96
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1000125,
+        "denominator": 1048576
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 426240,
+          "denominator": 1
+        },
+        {
+          "numerator": -6000,
+          "denominator": 1
+        },
+        {
+          "numerator": -70875,
+          "denominator": 32
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1000125,
+          "denominator": 1048576
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 3,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 2563767336960,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 4398046511104,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 96
+        }
+      ],
+      "root_radius_squared": 49152,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3813476625,
+        "denominator": 4294967296
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -735667200,
+          "denominator": 1
+        },
+        {
+          "numerator": 32944320,
+          "denominator": 1
+        },
+        {
+          "numerator": 95229675,
+          "denominator": 16
+        },
+        {
+          "numerator": -7149375,
+          "denominator": 256
+        },
+        {
+          "numerator": -1351231875,
+          "denominator": 262144
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3813476625,
+          "denominator": 4294967296
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 4,
+      "label": "skew endpoints",
+      "sum": {
+        "numerator": 128,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 24072458624040960,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 72057594037927936,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 32
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 96
+        }
+      ],
+      "root_radius_squared": 65536,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 28147270969125,
+        "denominator": 35184372088832
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 1584078612480,
+          "denominator": 1
+        },
+        {
+          "numerator": -162432103680,
+          "denominator": 1
+        },
+        {
+          "numerator": -37118864475,
+          "denominator": 2
+        },
+        {
+          "numerator": 8865282195,
+          "denominator": 32
+        },
+        {
+          "numerator": 1640077206075,
+          "denominator": 65536
+        },
+        {
+          "numerator": -73877351625,
+          "denominator": 1048576
+        },
+        {
+          "numerator": -4654273152375,
+          "denominator": 536870912
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 28147270969125,
+          "denominator": 35184372088832
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 1,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": -190,
+        "denominator": 1
+      },
+      "moment": {
+        "numerator": 49,
+        "denominator": 16
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 7
+        }
+      ],
+      "root_radius_squared": 16384,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 127,
+        "denominator": 128
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -395343,
+          "denominator": 2048
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 127,
+          "denominator": 128
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 2,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 3367461,
+        "denominator": 32
+      },
+      "moment": {
+        "numerator": 2401,
+        "denominator": 256
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 7
+        }
+      ],
+      "root_radius_squared": 32768,
+      "root_count": 4,
+      "variation_left": 4,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 1000125,
+        "denominator": 1048576
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 29169584591913,
+          "denominator": 268435456
+        },
+        {
+          "numerator": 149245125,
+          "denominator": 8388608
+        },
+        {
+          "numerator": -9339978375,
+          "denominator": 8388608
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1000125,
+          "denominator": 1048576
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 3,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": -12075290505,
+        "denominator": 128
+      },
+      "moment": {
+        "numerator": 117649,
+        "denominator": 4096
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 7
+        }
+      ],
+      "root_radius_squared": 49152,
+      "root_count": 6,
+      "variation_left": 6,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 3813476625,
+        "denominator": 4294967296
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": -1742446868938425893925,
+          "denominator": 17592186044416
+        },
+        {
+          "numerator": -27091268634982725,
+          "denominator": 549755813888
+        },
+        {
+          "numerator": 1668354390734464035,
+          "denominator": 1099511627776
+        },
+        {
+          "numerator": 2845358308125,
+          "denominator": 34359738368
+        },
+        {
+          "numerator": -178066687719375,
+          "denominator": 68719476736
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3813476625,
+          "denominator": 4294967296
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "s": 4,
+      "label": "rational asymmetric",
+      "sum": {
+        "numerator": -7,
+        "denominator": 4
+      },
+      "H": {
+        "numerator": 58838645553975,
+        "denominator": 512
+      },
+      "moment": {
+        "numerator": 5764801,
+        "denominator": 65536
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": -2,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": -1,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 5,
+            "denominator": 4
+          },
+          "count": 7
+        },
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 7,
+            "denominator": 4
+          },
+          "count": 8
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 7
+        }
+      ],
+      "root_radius_squared": 65536,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 28147270969125,
+        "denominator": 35184372088832
+      },
+      "high_sum_branch": false,
+      "shifted_polynomial": [
+        {
+          "numerator": 282987520130078673150750034365,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 4458266678050098382850535,
+          "denominator": 36028797018963968
+        },
+        {
+          "numerator": -90027002377441650661422975,
+          "denominator": 36028797018963968
+        },
+        {
+          "numerator": -466574858854550817525,
+          "denominator": 1125899906842624
+        },
+        {
+          "numerator": 28732955435359184432115,
+          "denominator": 4503599627370496
+        },
+        {
+          "numerator": 29402225541178875,
+          "denominator": 140737488355328
+        },
+        {
+          "numerator": -613344770293129875,
+          "denominator": 140737488355328
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 28147270969125,
+          "denominator": 35184372088832
+        }
+      ]
+    },
+    {
+      "N": 512,
+      "s": 1,
+      "label": "large biased rational row",
+      "sum": {
+        "numerator": 1945,
+        "denominator": 2
+      },
+      "H": {
+        "numerator": 1887777,
+        "denominator": 2
+      },
+      "moment": {
+        "numerator": 3783025,
+        "denominator": 4
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 103
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 409
+        }
+      ],
+      "root_radius_squared": 65536,
+      "root_count": 2,
+      "variation_left": 2,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 511,
+        "denominator": 512
+      },
+      "high_sum_branch": true,
+      "shifted_polynomial": [
+        {
+          "numerator": -42127,
+          "denominator": 2048
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 511,
+          "denominator": 512
+        }
+      ]
+    },
+    {
+      "N": 2048,
+      "s": 4,
+      "label": "large biased rational row",
+      "sum": {
+        "numerator": 3891,
+        "denominator": 1
+      },
+      "H": {
+        "numerator": 103635622491463305168694288065,
+        "denominator": 2
+      },
+      "moment": {
+        "numerator": 52539973140497626480571493921,
+        "denominator": 1
+      },
+      "values": [
+        {
+          "value": {
+            "numerator": 3,
+            "denominator": 2
+          },
+          "count": 410
+        },
+        {
+          "value": {
+            "numerator": 2,
+            "denominator": 1
+          },
+          "count": 1638
+        }
+      ],
+      "root_radius_squared": 1048576,
+      "root_count": 8,
+      "variation_left": 8,
+      "variation_right": 0,
+      "normalization": {
+        "numerator": 9316328685351178175685,
+        "denominator": 9444732965739290427392
+      },
+      "high_sum_branch": true,
+      "shifted_polynomial": [
+        {
+          "numerator": 43425674907545145140768444708925,
+          "denominator": 9444732965739290427392
+        },
+        {
+          "numerator": -161922945873277659590871972075,
+          "denominator": 590295810358705651712
+        },
+        {
+          "numerator": -536190429310142267453774865975,
+          "denominator": 2361183241434822606848
+        },
+        {
+          "numerator": 658578187519654550732139465,
+          "denominator": 295147905179352825856
+        },
+        {
+          "numerator": 6572705483923654726412655075,
+          "denominator": 4722366482869645213696
+        },
+        {
+          "numerator": -1605186520933765452494175,
+          "denominator": 590295810358705651712
+        },
+        {
+          "numerator": -5348878862916097908474075,
+          "denominator": 2361183241434822606848
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 9316328685351178175685,
+          "denominator": 9444732965739290427392
+        }
+      ]
+    }
+  ],
+  "finite_field_rows": [
+    {
+      "p": 17,
+      "n": 16,
+      "s": 1,
+      "B": {
+        "numerator": -224,
+        "denominator": 17
+      },
+      "T": {
+        "numerator": 16,
+        "denominator": 17
+      }
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "s": 2,
+      "B": {
+        "numerator": 5760,
+        "denominator": 17
+      },
+      "T": {
+        "numerator": 16,
+        "denominator": 17
+      }
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "s": 3,
+      "B": {
+        "numerator": -115200,
+        "denominator": 17
+      },
+      "T": {
+        "numerator": 16,
+        "denominator": 17
+      }
+    },
+    {
+      "p": 17,
+      "n": 16,
+      "s": 4,
+      "B": {
+        "numerator": 645120,
+        "denominator": 17
+      },
+      "T": {
+        "numerator": 16,
+        "denominator": 17
+      }
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "s": 1,
+      "B": {
+        "numerator": -224,
+        "denominator": 97
+      },
+      "T": {
+        "numerator": 1296,
+        "denominator": 97
+      }
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "s": 2,
+      "B": {
+        "numerator": 10368,
+        "denominator": 97
+      },
+      "T": {
+        "numerator": 41552,
+        "denominator": 97
+      }
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "s": 3,
+      "B": {
+        "numerator": -172800,
+        "denominator": 97
+      },
+      "T": {
+        "numerator": 1815744,
+        "denominator": 97
+      }
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "s": 4,
+      "B": {
+        "numerator": -10321920,
+        "denominator": 97
+      },
+      "T": {
+        "numerator": 85343184,
+        "denominator": 97
+      }
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "s": 1,
+      "B": {
+        "numerator": -224,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 2832,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "s": 2,
+      "B": {
+        "numerator": -26880,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 85776,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "s": 3,
+      "B": {
+        "numerator": 933120,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 3449184,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 16,
+      "s": 4,
+      "B": {
+        "numerator": -10321920,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 164651280,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "s": 1,
+      "B": {
+        "numerator": -960,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 5152,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "s": 2,
+      "B": {
+        "numerator": -105984,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 217504,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "s": 3,
+      "B": {
+        "numerator": 17856000,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 10949056,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "s": 4,
+      "B": {
+        "numerator": -2358558720,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 601792672,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "s": 5,
+      "B": {
+        "numerator": 296922931200,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 34736231872,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 193,
+      "n": 32,
+      "s": 6,
+      "B": {
+        "numerator": -35637719040000,
+        "denominator": 193
+      },
+      "T": {
+        "numerator": 2063624001856,
+        "denominator": 193
+      }
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "s": 1,
+      "B": {
+        "numerator": -224,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 3856,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "s": 2,
+      "B": {
+        "numerator": -26880,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 168848,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "s": 3,
+      "B": {
+        "numerator": -1290240,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 11451664,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 16,
+      "s": 4,
+      "B": {
+        "numerator": -10321920,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 896716432,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "s": 1,
+      "B": {
+        "numerator": -960,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 7200,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "s": 2,
+      "B": {
+        "numerator": -106752,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 703136,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "s": 3,
+      "B": {
+        "numerator": -19653120,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 91475616,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "s": 4,
+      "B": {
+        "numerator": 9741312000,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 12622170272,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "s": 5,
+      "B": {
+        "numerator": -1047649075200,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 1766301944480,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 32,
+      "s": 6,
+      "B": {
+        "numerator": -151502458060800,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 248099405372576,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "s": 1,
+      "B": {
+        "numerator": -3968,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 12352,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "s": 2,
+      "B": {
+        "numerator": -387072,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 1134656,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "s": 3,
+      "B": {
+        "numerator": 200862720,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 107919424,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "s": 4,
+      "B": {
+        "numerator": -60979322880,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 10347716672,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "s": 5,
+      "B": {
+        "numerator": 11804457369600,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 999067322432,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 64,
+      "s": 6,
+      "B": {
+        "numerator": 2378085831475200,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 97084000596032,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "s": 1,
+      "B": {
+        "numerator": -224,
+        "denominator": 33713
+      },
+      "T": {
+        "numerator": 539152,
+        "denominator": 33713
+      }
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "s": 2,
+      "B": {
+        "numerator": -26880,
+        "denominator": 33713
+      },
+      "T": {
+        "numerator": 24207824,
+        "denominator": 33713
+      }
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "s": 3,
+      "B": {
+        "numerator": -1290240,
+        "denominator": 33713
+      },
+      "T": {
+        "numerator": 1703934304,
+        "denominator": 33713
+      }
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "s": 4,
+      "B": {
+        "numerator": -10321920,
+        "denominator": 33713
+      },
+      "T": {
+        "numerator": 158078168272,
+        "denominator": 33713
+      }
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "s": 1,
+      "B": {
+        "numerator": -360,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 4740,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "s": 2,
+      "B": {
+        "numerator": -6624,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 307740,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "s": 3,
+      "B": {
+        "numerator": 2165760,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 37001514,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "s": 4,
+      "B": {
+        "numerator": -340139520,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 5910115164,
+        "denominator": 257
+      }
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "s": 5,
+      "B": {
+        "numerator": -3715891200,
+        "denominator": 257
+      },
+      "T": {
+        "numerator": 1058854539350,
+        "denominator": 257
+      }
+    }
+  ],
+  "averaged_polynomial_witness": {
+    "p": 1153,
+    "n": 8,
+    "elements": [
+      1,
+      75,
+      123,
+      140,
+      1013,
+      1030,
+      1078,
+      1152
+    ],
+    "signed_selections": 81,
+    "unordered_zero_counts": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "p_times_centered_coefficients": [
+      1152,
+      -8,
+      -24,
+      -32,
+      -16
+    ],
+    "translated_coefficients": [
+      1153,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "real_roots": 2,
+    "nonreal_roots": 2,
+    "scope": "The averaged generating polynomial need not be real-rooted; not a Paley counterexample."
+  },
+  "newton_group_cases": [
+    {
+      "p": 1153,
+      "n": 8,
+      "maximum_degree": 8,
+      "unordered_zero_coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "p": 97,
+      "n": 16,
+      "maximum_degree": 8,
+      "unordered_zero_coefficients": [
+        1,
+        0,
+        0,
+        0,
+        16,
+        16,
+        16,
+        16,
+        0
+      ]
+    },
+    {
+      "p": 33713,
+      "n": 16,
+      "maximum_degree": 8,
+      "unordered_zero_coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "p": 257,
+      "n": 20,
+      "maximum_degree": 8,
+      "unordered_zero_coefficients": [
+        1,
+        0,
+        0,
+        16,
+        12,
+        8,
+        64,
+        48,
+        12
+      ]
+    }
+  ],
+  "ten_term_lower": {
+    "constant": 3435973836800090,
+    "conclusion": "O_10 >= n^6 - (90+1280^5)n^5 for n>=90 and p<=n^4",
+    "scope": "A lower estimate only; no matching upper estimate or prime/subgroup existence claim."
+  },
+  "input_sha256": {
+    "experiments/parallel35_verify_2026_09_05.py": "ec1f6e48bce5370814882dbce38e7cd8ea9b28b4c5a45b66f30a1a472e4a9d82",
+    "results/parallel34_verification_2026_09_05.json": "89a3b8bef904874f36157334c1d45b418df541221c492a65797862a32147be54",
+    "sources/parallel35-single-degree/ravichandran-1609.04187v2.pdf": "01389932e3b45075eea3155d035b3d6caea254ed043aa1f23ea907fc6c450f27"
+  },
+  "scope": "Exact rational pointwise comparisons, Sturm enclosures, finite-field counts, and counterexample. The uniform proof uses the cited derivative-root theorem and is not Lean-verified or independently reviewed."
+}

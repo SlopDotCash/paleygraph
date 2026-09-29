@@ -1,0 +1,44 @@
+{
+  "q": 101,
+  "statistics": {
+    "mono_theta1": -48,
+    "mono_theta2": 1248,
+    "mono_theta3": 2112,
+    "mixed_theta3": -51288,
+    "mono_theta4": 83328,
+    "mixed_theta4": 1924272,
+    "total_theta6": 524181696
+  },
+  "normalization_contract": {
+    "family": "prime Paley only",
+    "row_order": [
+      "0",
+      "1",
+      "t"
+    ],
+    "edge_order": [
+      "S[0,1]",
+      "S[0,t]",
+      "S[1,t]"
+    ],
+    "edge_formula": [
+      "1",
+      "chi(t)",
+      "chi(t-1)"
+    ],
+    "trace_definition": "tau(t)=sum_x chi(x(x-1)(x-t))",
+    "frobenius_trace_sign": "a_t(p)=-tau(t)",
+    "excluded_parameters": [
+      0,
+      1
+    ],
+    "affine_map": "x -> (x-a)/(b-a); t=(c-a)/(b-a)",
+    "sign_complement_multiplier": "chi(b-a)",
+    "valid_target_symmetry": "Degree6 row coefficients and their third products are invariant under simultaneous sign complement.",
+    "distinct_ordered_triples_per_parameter": 10100,
+    "weights_applied_to_records": false
+  },
+  "ordered_distinct_row_weight": 10100,
+  "normalized_parameter_count": 99,
+  "trust_boundary": "Exact sufficient statistics from a separately certified inventory; this object does not certify realizability."
+}

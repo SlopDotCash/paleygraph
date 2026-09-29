@@ -1,0 +1,21 @@
+{"name": "p17_basic_erase0", "artifact": "small_p17_basic_erase0.json", "queries": 81, "cuts": 0, "optimality_certificates": 0, "complete_counts": {"0": 64, "1": 17}}
+{"name": "p17_basic_erase1", "artifact": "small_p17_basic_erase1.json", "queries": 27, "cuts": 1, "optimality_certificates": 1, "complete_counts": {"0": 12, "1": 14, "3": 1}}
+{"name": "p17_basic_erase2", "artifact": "small_p17_basic_erase2.json", "queries": 9, "cuts": 2, "optimality_certificates": 2, "complete_counts": {"0": 2, "2": 6, "5": 1}}
+{"name": "p17_basic_erase3", "artifact": "small_p17_basic_erase3.json", "queries": 3, "cuts": 3, "optimality_certificates": 3, "complete_counts": {"4": 2, "9": 1}}
+{"name": "p17_basic_erase4", "artifact": "small_p17_basic_erase4.json", "queries": 1, "cuts": 4, "optimality_certificates": 4, "complete_counts": {"17": 1}}
+{"name": "p41_general_erase0", "artifact": "small_p41_general_erase0.json", "queries": 625, "cuts": 0, "optimality_certificates": 0, "complete_counts": {"0": 584, "1": 41}}
+{"name": "p41_general_erase1", "artifact": "small_p41_general_erase1.json", "queries": 125, "cuts": 1, "optimality_certificates": 1, "complete_counts": {"0": 102, "1": 10, "2": 8, "3": 5}}
+{"name": "p41_general_erase2", "artifact": "small_p41_general_erase2.json", "queries": 25, "cuts": 2, "optimality_certificates": 2, "complete_counts": {"0": 14, "1": 4, "6": 4, "3": 2, "7": 1}}
+{"name": "p41_general_erase3", "artifact": "small_p41_general_erase3.json", "queries": 5, "cuts": 3, "optimality_certificates": 3, "complete_counts": {"1": 2, "10": 2, "19": 1}}
+{"name": "p41_general_erase4", "artifact": "small_p41_general_erase4.json", "queries": 1, "cuts": 4, "optimality_certificates": 4, "complete_counts": {"41": 1}}
+{"name": "p97_general_erase0", "artifact": "small_p97_general_erase0.json", "queries": 625, "cuts": 0, "optimality_certificates": 0, "complete_counts": {"0": 528, "1": 97}}
+{"name": "p97_general_erase1", "artifact": "small_p97_general_erase1.json", "queries": 125, "cuts": 1, "optimality_certificates": 1, "complete_counts": {"1": 30, "0": 70, "2": 12, "3": 9, "4": 4}}
+{"name": "p97_general_erase2", "artifact": "small_p97_general_erase2.json", "queries": 25, "cuts": 2, "optimality_certificates": 2, "complete_counts": {"3": 4, "2": 2, "0": 6, "4": 4, "8": 4, "1": 2, "10": 2, "11": 1}}
+{"name": "p97_general_erase3", "artifact": "small_p97_general_erase3.json", "queries": 5, "cuts": 3, "optimality_certificates": 3, "complete_counts": {"8": 2, "24": 2, "33": 1}}
+{"name": "p97_general_erase4", "artifact": "small_p97_general_erase4.json", "queries": 1, "cuts": 4, "optimality_certificates": 4, "complete_counts": {"97": 1}}
+{"name": "squared_relation_erase1", "artifact": "small_squared_relation_erase1.json", "queries": 32, "cuts": 1, "optimality_certificates": 1, "complete_counts": {"1": 17, "0": 15}}
+{"name": "squared_relation_erase3", "artifact": "small_squared_relation_erase3.json", "queries": 7, "cuts": 3, "optimality_certificates": 3, "complete_counts": {"5": 1, "2": 6}}
+{"name": "scalar_p_erase1", "artifact": "small_scalar_p_erase1.json", "queries": 34, "cuts": 1, "optimality_certificates": 1, "complete_counts": {"1": 17, "0": 17}}
+{"name": "scalar_p_erase3", "artifact": "small_scalar_p_erase3.json", "queries": 17, "cuts": 3, "optimality_certificates": 3, "complete_counts": {"1": 17}}
+{"name": "scalar_p_squared_erase1", "artifact": "small_scalar_p_squared_erase1.json", "queries": 34, "cuts": 1, "optimality_certificates": 1, "complete_counts": {"1": 17, "0": 17}}
+{"name": "scalar_p_squared_erase3", "artifact": "small_scalar_p_squared_erase3.json", "queries": 18, "cuts": 3, "optimality_certificates": 3, "complete_counts": {"1": 17, "0": 1}}

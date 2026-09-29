@@ -1,0 +1,813 @@
+{
+  "status": "All exact checks passed. Weighted relaxation only; no actual Paley upper bound.",
+  "arithmetic": "Python integers and Fraction; exact integer-root and trial-primality checks; no floating-point acceptance.",
+  "counts": {
+    "explicit_cube_density_bounds": 508,
+    "explicit_column_mass_and_mean": 70,
+    "explicit_gram_entries": 203,
+    "explicit_all_subset_correlations": 508,
+    "explicit_unsigned_moment_formulas": 536,
+    "explicit_unsigned_lower_moment_bounds": 268,
+    "explicit_real_coefficient_lower_bounds": 332,
+    "explicit_weighted_rows": 2300,
+    "binomial_pairing_and_covariance_checks": 1560,
+    "compressed_all_degree_correlations": 558,
+    "large_Weil_shaped_degree_bounds": 268,
+    "large_unsigned_lower_moment_bounds": 1922,
+    "B_h_label_existence_thresholds": 29,
+    "large_prime_size_slices": 17,
+    "explicit_B_h_multiset_sums": 185
+  },
+  "explicit_small_measures": [
+    {
+      "k": 2,
+      "p": 17,
+      "rows": 8,
+      "row_measure_sha256": "6516a2de15c1945231a23db1cd8ef21b42de5d68e83ca0e178df614560ff4767",
+      "coefficient_vectors": 10,
+      "unsigned_subsets": 3,
+      "sixth_ratio": "225/68",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    },
+    {
+      "k": 3,
+      "p": 83,
+      "rows": 20,
+      "row_measure_sha256": "5fac676dd692d5a99afba4269d4a80a872e5a55aa401685b82285a1fd9950cf3",
+      "coefficient_vectors": 28,
+      "unsigned_subsets": 7,
+      "sixth_ratio": "4730/747",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    },
+    {
+      "k": 4,
+      "p": 257,
+      "rows": 48,
+      "row_measure_sha256": "958929108e38e6e5a52e9714276311e427e64e79fd4f2c3425e27cb2fd219ca8",
+      "coefficient_vectors": 82,
+      "unsigned_subsets": 15,
+      "sixth_ratio": "35743/4112",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    },
+    {
+      "k": 5,
+      "p": 631,
+      "rows": 112,
+      "row_measure_sha256": "0e2b0bdaca275b02579befb89b46604cca49227f19da7ba7b3754104a8fd5db2",
+      "coefficient_vectors": 10,
+      "unsigned_subsets": 31,
+      "sixth_ratio": "170366/15775",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    },
+    {
+      "k": 6,
+      "p": 1297,
+      "rows": 256,
+      "row_measure_sha256": "f22b4bc47d49cebf18bb4d5ca40dcabe0cc1ffe99d9c7ca7548759555e32e59c",
+      "coefficient_vectors": 11,
+      "unsigned_subsets": 63,
+      "sixth_ratio": "594661/46692",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    },
+    {
+      "k": 7,
+      "p": 2411,
+      "rows": 576,
+      "row_measure_sha256": "3559822fde5d414ecd0268ea480f0f51c35c4edc389b8a389265d05784a93a87",
+      "coefficient_vectors": 12,
+      "unsigned_subsets": 7,
+      "sixth_ratio": "1712554/118139",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    },
+    {
+      "k": 8,
+      "p": 4099,
+      "rows": 1280,
+      "row_measure_sha256": "cfb8c64bac56f4a4cf15eea81590918fc2ba54beffef807bb4ea8c3a795fce79",
+      "coefficient_vectors": 13,
+      "unsigned_subsets": 8,
+      "sixth_ratio": "4238531/262336",
+      "scope": "Actual rational weighted vectors, not prime-field character rows. Algebra fixtures include k below asymptotic threshold."
+    }
+  ],
+  "compressed_prime_slices": [
+    {
+      "r": 3,
+      "p": 4099,
+      "k": 8,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "top_moment_ratio": "4238531/262336",
+      "ratio_lower_bound": "4",
+      "lower_moment_ratios": {
+        "1": "4091/4099",
+        "2": "103295/32792"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 3,
+      "p": 65537,
+      "k": 16,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "top_moment_ratio": "453132331/16777472",
+      "ratio_lower_bound": "8",
+      "lower_moment_ratios": {
+        "1": "65521/65537",
+        "2": "3712171/1048592"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 3,
+      "p": 1048583,
+      "k": 32,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        31,
+        32
+      ],
+      "top_moment_ratio": "48145312731/1073748992",
+      "ratio_lower_bound": "16",
+      "lower_moment_ratios": {
+        "1": "1048551/1048583",
+        "2": "126178191/33554656"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 3,
+      "p": 16777259,
+      "k": 64,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        63,
+        64
+      ],
+      "top_moment_ratio": "5351521108795/68719652864",
+      "ratio_lower_bound": "32",
+      "lower_moment_ratios": {
+        "1": "16777195/16777259",
+        "2": "4163592679/1073744576"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 3,
+      "p": 268435459,
+      "k": 128,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        127,
+        128
+      ],
+      "top_moment_ratio": "626395657943291/4398046560256",
+      "ratio_lower_bound": "64",
+      "lower_moment_ratios": {
+        "1": "268435331/268435459",
+        "2": "135314344055/34359738752"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 3,
+      "p": 4294967311,
+      "k": 256,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        255,
+        256
+      ],
+      "top_moment_ratio": "76198092112431675/281474977693696",
+      "ratio_lower_bound": "128",
+      "lower_moment_ratios": {
+        "1": "4294967055/4294967311",
+        "2": "4363870549215/1099511631616"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 4,
+      "p": 100003,
+      "k": 10,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "top_moment_ratio": "7655913921/100003000",
+      "ratio_lower_bound": "5",
+      "lower_moment_ratios": {
+        "1": "99993/100003",
+        "2": "2849961/1000030",
+        "3": "128627913/10000300"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 4,
+      "p": 1048583,
+      "k": 16,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "top_moment_ratio": "411982877497/4294995968",
+      "ratio_lower_bound": "8",
+      "lower_moment_ratios": {
+        "1": "1048567/1048583",
+        "2": "48932287/16777328",
+        "3": "3771895627/268437248"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 4,
+      "p": 33554467,
+      "k": 32,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        31,
+        32
+      ],
+      "top_moment_ratio": "136460577751097/1099512774656",
+      "ratio_lower_bound": "16",
+      "lower_moment_ratios": {
+        "1": "33554435/33554467",
+        "2": "3181731287/1073742944",
+        "3": "516750136475/34359774208"
+      },
+      "allowed_relation_orders_checked": [
+        2
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 5,
+      "p": 2985991,
+      "k": 12,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "top_moment_ratio": "33067108093939/61917509376",
+      "ratio_lower_bound": "6",
+      "lower_moment_ratios": {
+        "1": "2985979/2985991",
+        "2": "101665483/35831892",
+        "3": "5450443159/429982704",
+        "4": "385907971753/5159792448"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 5,
+      "p": 16777259,
+      "k": 16,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "top_moment_ratio": "688442899819063/1099514445824",
+      "ratio_lower_bound": "8",
+      "lower_moment_ratios": {
+        "1": "16777243/16777259",
+        "2": "772451383/268436144",
+        "3": "56871905803/4294978304",
+        "4": "5629121791993/68719652864"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 5,
+      "p": 191102981,
+      "k": 24,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23,
+        24
+      ],
+      "top_moment_ratio": "46498072869721727/63403382624256",
+      "ratio_lower_bound": "12",
+      "lower_moment_ratios": {
+        "1": "191102957/191102981",
+        "2": "13383325979/4586471544",
+        "3": "1520877120467/110075317056",
+        "4": "236384680144889/2641807609344"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 6,
+      "p": 105413513,
+      "k": 14,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "top_moment_ratio": "276268746381646209/56693917215712",
+      "ratio_lower_bound": "7",
+      "lower_moment_ratios": {
+        "1": "105413499/105413513",
+        "2": "602410827/210827026",
+        "3": "267416019789/20661048548",
+        "4": "22551941706849/289254679672",
+        "5": "331376645359947/578509359344"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 6,
+      "p": 268435459,
+      "k": 16,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "top_moment_ratio": "1516448443900123053/281474979856384",
+      "ratio_lower_bound": "8",
+      "lower_moment_ratios": {
+        "1": "268435443/268435459",
+        "2": "12348728583/4294967344",
+        "3": "906469989003/68719477504",
+        "4": "89103140099193/1099511640064",
+        "5": "10760955651742263/17592186241024"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 7,
+      "p": 4294967311,
+      "k": 16,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "top_moment_ratio": "3837192612142136886075/72057594289586176",
+      "ratio_lower_bound": "8",
+      "lower_moment_ratios": {
+        "1": "4294967295/4294967311",
+        "2": "197569193775/68719476976",
+        "3": "14500041521355/1099511631616",
+        "4": "1424687649280185/17592186105856",
+        "5": "171921185778537015/281474977693696",
+        "6": "24197190861931747245/4503599643099136"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3,
+        4
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 8,
+      "p": 198359290373,
+      "k": 18,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "top_moment_ratio": "81609130720197136360878593/121439531099655351936",
+      "ratio_lower_bound": "9",
+      "lower_moment_ratios": {
+        "1": "198359290355/198359290373",
+        "2": "10314684419513/3570467226714",
+        "3": "860086427471345/64268410080852",
+        "4": "96520232486102273/1156831381455336",
+        "5": "13376321435365047185/20822964866196048",
+        "6": "2174453319702699629633/374813367591528864",
+        "7": "400611100835718582427025/6746640616647519552"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3,
+        4
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    },
+    {
+      "r": 9,
+      "p": 10240000000081,
+      "k": 20,
+      "checked_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20
+      ],
+      "top_moment_ratio": "2517743371385638781747179450211/262144000002073600000000",
+      "ratio_lower_bound": "10",
+      "lower_moment_ratios": {
+        "1": "10240000000061/10240000000081",
+        "2": "118784000465611/40960000000324",
+        "3": "55459841162935151/4096000000032400",
+        "4": "1399783522614091381/16384000000129600",
+        "5": "1095482937878546627771/1638400000012960000",
+        "6": "40406435213277897344281/6553600000051840000",
+        "7": "42422747287794638164359791/655360000005184000000",
+        "8": "1979266721466546984011047261/2621440000020736000000"
+      },
+      "allowed_relation_orders_checked": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "scope": "Exact compressed weighted measure on a genuine prime-size slice; no actual character kernel is evaluated."
+    }
+  ],
+  "explicit_relation_free_labels": [
+    {
+      "r": 3,
+      "h": 2,
+      "k": 4,
+      "p": 257,
+      "labels": [
+        1,
+        3,
+        9,
+        27
+      ],
+      "distinct_h_sums": 10,
+      "scope": "Label-only finite fixture, below the asymptotic top-moment threshold; no link to sign rows is imposed."
+    },
+    {
+      "r": 3,
+      "h": 2,
+      "k": 5,
+      "p": 631,
+      "labels": [
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "distinct_h_sums": 15,
+      "scope": "Label-only finite fixture, below the asymptotic top-moment threshold; no link to sign rows is imposed."
+    },
+    {
+      "r": 5,
+      "h": 3,
+      "k": 4,
+      "p": 4099,
+      "labels": [
+        1,
+        4,
+        16,
+        64
+      ],
+      "distinct_h_sums": 20,
+      "scope": "Label-only finite fixture, below the asymptotic top-moment threshold; no link to sign rows is imposed."
+    },
+    {
+      "r": 5,
+      "h": 3,
+      "k": 5,
+      "p": 15629,
+      "labels": [
+        1,
+        4,
+        16,
+        64,
+        256
+      ],
+      "distinct_h_sums": 35,
+      "scope": "Label-only finite fixture, below the asymptotic top-moment threshold; no link to sign rows is imposed."
+    },
+    {
+      "r": 7,
+      "h": 4,
+      "k": 4,
+      "p": 65537,
+      "labels": [
+        1,
+        5,
+        25,
+        125
+      ],
+      "distinct_h_sums": 35,
+      "scope": "Label-only finite fixture, below the asymptotic top-moment threshold; no link to sign rows is imposed."
+    },
+    {
+      "r": 7,
+      "h": 4,
+      "k": 5,
+      "p": 390647,
+      "labels": [
+        1,
+        5,
+        25,
+        125,
+        625
+      ],
+      "distinct_h_sums": 70,
+      "scope": "Label-only finite fixture, below the asymptotic top-moment threshold; no link to sign rows is imposed."
+    }
+  ],
+  "input_sha256": {
+    "research/parallel22-all-orders-obstruction-2026-09-05.md": "b959300e5c9c886e2936c306a2b0846f01d47e77b795bf1c36b5325877ee926c",
+    "experiments/parallel22_all_orders_obstruction_2026_09_05.py": "fcfc55580cc71071f7695349925501c2939c2437233dfe357544fcbb04895bda",
+    "research/parallel21-squarefree-moments-2026-09-05.md": "42bfee31ccd53abaa9081128a3dfa250c5316570c407740c439b7175759f0210",
+    "research/parallel19-relation-free-reduction-2026-09-05.md": "b2cc0897740cef28acd6533178e1e1b438d22a2546ac5e9f4e41744178d30552"
+  },
+  "limitations": [
+    "The positive rational measure is not uniform sampling over p prime-field translates.",
+    "Finite checks do not prove the asymptotic claims; those have a separate prose proof.",
+    "Arbitrary real coefficient bounds are proved by cube density and pairings, not by enumerating all real vectors.",
+    "B_h labels do not supply field-difference or multiplicative-character identities.",
+    "All full classical, subgroup, spectral and official prize targets remain unproved."
+  ]
+}

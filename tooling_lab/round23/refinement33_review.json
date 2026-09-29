@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "cover33_refined",
+      "nodes_verified": 1337,
+      "cuts_verified": 64,
+      "exact_narrowing_steps": 5620,
+      "unresolved_leaves": 0,
+      "unresolved_integer_points_up_to_sign": 0,
+      "continuous_witnesses_checked": 0,
+      "universal_unique_completion": true,
+      "actual_small_ambiguity_pairs_preserved": 0,
+      "actual_difference_classes_preserved": 0,
+      "earlier_finished_nodes_preserved": 1336,
+      "old_nodes": 1337,
+      "old_cuts": 64,
+      "old_unresolved_leaves": [
+        16
+      ],
+      "added_cuts": 0,
+      "added_nodes": 0
+    }
+  ],
+  "input_sha256": {
+    "cover33_refined.json": "af352f5c0f946f5b6b1b0cdef8a38fff8b736803f1ba7095884930dde8c85294",
+    "cover33.json": "f656f2a3ee5ac9f49e227ab4f9e61b5b2ca23793d36e38c0a2cc6b0d8debd85a",
+    "consecutive33.json": "4f1666d22a9511bb37ff175e503d4af269b53f925adef747563c60aab23b22c1"
+  },
+  "source_sha256": {
+    "refinement_review.py": "c270960e36a517be1bea5fecb38c4be3b2d6e81adfc1ec661eb906f2e4d5ae8b",
+    "cover_review.py": "4acdb7a8af21a14b7c78a77bc8648f9ab20b2a20aefb2f86ec6c6c02f41b22b1"
+  }
+}

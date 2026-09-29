@@ -1,0 +1,1067 @@
+{
+  "status": "All exact checks passed. Uniform proof is in the note; full Paley goal remains open.",
+  "arithmetic": "Integers and exact signs in Q(sqrt(p)); no floating-point acceptance.",
+  "scope": "All fixed length-six degree-two words; no growing-depth aggregate or Paley proof.",
+  "infinity_correction_policy": "No guessed kappa. Finite bounds allow all complex tau,kappa with |tau|<=sqrt(p), |kappa|<=p.",
+  "monodromy": [
+    {
+      "a": 0,
+      "b": 0,
+      "first": {
+        "finite_codimensions": {
+          "0": 2,
+          "1": 2,
+          "y": 1
+        },
+        "auxiliary_rank": 5,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 4,
+        "local_types": {
+          "0": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "second": {
+        "finite_codimensions": {
+          "0": 4,
+          "1": 2,
+          "y": 1
+        },
+        "auxiliary_rank": 7,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 6,
+        "local_types": {
+          "0": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "1": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "infinity": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "first": {
+        "finite_codimensions": {
+          "0": 2,
+          "1": 2,
+          "y": 1
+        },
+        "auxiliary_rank": 5,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 4,
+        "local_types": {
+          "0": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "1": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "second": {
+        "finite_codimensions": {
+          "0": 4,
+          "1": 2,
+          "y": 1
+        },
+        "auxiliary_rank": 7,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 6,
+        "local_types": {
+          "0": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "1": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "infinity": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "first": {
+        "finite_codimensions": {
+          "0": 2,
+          "1": 2,
+          "y": 1
+        },
+        "auxiliary_rank": 5,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 4,
+        "local_types": {
+          "0": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "second": {
+        "finite_codimensions": {
+          "0": 2,
+          "1": 4,
+          "y": 1
+        },
+        "auxiliary_rank": 7,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 6,
+        "local_types": {
+          "0": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "1": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "infinity": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "first": {
+        "finite_codimensions": {
+          "0": 2,
+          "1": 2,
+          "y": 1
+        },
+        "auxiliary_rank": 5,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 4,
+        "local_types": {
+          "0": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "1": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "infinity": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "second": {
+        "finite_codimensions": {
+          "0": 2,
+          "1": 4,
+          "y": 1
+        },
+        "auxiliary_rank": 7,
+        "twisted_infinity_invariants": 1,
+        "output_rank": 6,
+        "local_types": {
+          "0": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "y": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "infinity": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "coverage": {
+    "previous_coverage": 687,
+    "new_count": 42,
+    "total_coverage": 729,
+    "remaining_count": 0,
+    "new_classes": {
+      "ABBACC": [
+        "AABCCB",
+        "AACBBC",
+        "ABBACC",
+        "ABCCBA",
+        "ACBBCA",
+        "ACCABB",
+        "BAABCC",
+        "BACCAB",
+        "BBACCA",
+        "BBCAAC",
+        "BCAACB",
+        "BCCBAA",
+        "CAACBB",
+        "CABBAC",
+        "CBAABC",
+        "CBBCAA",
+        "CCABBA",
+        "CCBAAB"
+      ],
+      "ABCBAC": [
+        "ABACBC",
+        "ABCACB",
+        "ABCBAC",
+        "ACABCB",
+        "ACBABC",
+        "ACBCAB",
+        "BABCAC",
+        "BACABC",
+        "BACBCA",
+        "BCABAC",
+        "BCACBA",
+        "BCBACA",
+        "CABACB",
+        "CABCBA",
+        "CACBAB",
+        "CBABCA",
+        "CBACAB",
+        "CBCABA"
+      ],
+      "ABCABC": [
+        "ABCABC",
+        "ACBACB",
+        "BACBAC",
+        "BCABCA",
+        "CABCAB",
+        "CBACBA"
+      ]
+    }
+  },
+  "counts": {
+    "finite_stalk_checks": 1900,
+    "compact_vector_checks": 1140,
+    "interval_pointwise_checks": 11180,
+    "interval_core_bounds": 1140,
+    "formal_coefficient_checks": 3420,
+    "generic_fiber_bounds": 1140,
+    "exceptional_fiber_bounds": 120,
+    "monodromy_cases": 4,
+    "direct_trace_identities": 15,
+    "new_orbit_values": 210,
+    "original_literal_necklaces": 3
+  },
+  "cases": [
+    {
+      "p": 5,
+      "finite_stalk_checks": 60,
+      "compact_vector_checks": 36,
+      "interval_pointwise_checks": 60,
+      "interval_core_bounds": 36,
+      "formal_coefficient_checks": 108,
+      "generic_fiber_bounds": 36,
+      "exceptional_fiber_bounds": 24,
+      "direct_identities": {
+        "ABBACC": -14,
+        "ABCBAC": 27,
+        "ABCABC": 19
+      },
+      "nested_contraction": -31,
+      "t4": -3,
+      "coincident_anchor_term": -68,
+      "orbit_values": {
+        "ABBACC": {
+          "AABCCB": -14,
+          "AACBBC": -54,
+          "ABBACC": -14,
+          "ABCCBA": -14,
+          "ACBBCA": -54,
+          "ACCABB": -14,
+          "BAABCC": -14,
+          "BACCAB": -14,
+          "BBACCA": -14,
+          "BBCAAC": -54,
+          "BCAACB": -54,
+          "BCCBAA": -14,
+          "CAACBB": -54,
+          "CABBAC": -14,
+          "CBAABC": -14,
+          "CBBCAA": -54,
+          "CCABBA": -14,
+          "CCBAAB": -14
+        },
+        "ABCBAC": {
+          "ABACBC": 2,
+          "ABCACB": 2,
+          "ABCBAC": 27,
+          "ACABCB": 27,
+          "ACBABC": 2,
+          "ACBCAB": 2,
+          "BABCAC": 2,
+          "BACABC": 27,
+          "BACBCA": 2,
+          "BCABAC": 2,
+          "BCACBA": 2,
+          "BCBACA": 27,
+          "CABACB": 2,
+          "CABCBA": 27,
+          "CACBAB": 2,
+          "CBABCA": 2,
+          "CBACAB": 27,
+          "CBCABA": 2
+        },
+        "ABCABC": {
+          "ABCABC": 19,
+          "ACBACB": 19,
+          "BACBAC": 19,
+          "BCABCA": 19,
+          "CABCAB": 19,
+          "CBACBA": 19
+        }
+      },
+      "literal_graphs": {
+        "full": -620,
+        "distinct_anchors": -14,
+        "coincident_anchors": -68,
+        "fixed_C_pair": -31
+      },
+      "literal_necklaces": {
+        "ABBACC": -14,
+        "ABCBAC": 27,
+        "ABCABC": 19
+      }
+    },
+    {
+      "p": 13,
+      "finite_stalk_checks": 220,
+      "compact_vector_checks": 132,
+      "interval_pointwise_checks": 572,
+      "interval_core_bounds": 132,
+      "formal_coefficient_checks": 396,
+      "generic_fiber_bounds": 132,
+      "exceptional_fiber_bounds": 24,
+      "direct_identities": {
+        "ABBACC": 330,
+        "ABCBAC": 3139,
+        "ABCABC": 1067
+      },
+      "nested_contraction": -127,
+      "t4": -35,
+      "coincident_anchor_term": -5484,
+      "orbit_values": {
+        "ABBACC": {
+          "AABCCB": 330,
+          "AACBBC": -606,
+          "ABBACC": 330,
+          "ABCCBA": 330,
+          "ACBBCA": -606,
+          "ACCABB": 330,
+          "BAABCC": 330,
+          "BACCAB": 330,
+          "BBACCA": 330,
+          "BBCAAC": -606,
+          "BCAACB": -606,
+          "BCCBAA": 330,
+          "CAACBB": -606,
+          "CABBAC": 330,
+          "CBAABC": 330,
+          "CBBCAA": -606,
+          "CCABBA": 330,
+          "CCBAAB": 330
+        },
+        "ABCBAC": {
+          "ABACBC": 2970,
+          "ABCACB": 2970,
+          "ABCBAC": 3139,
+          "ACABCB": 3139,
+          "ACBABC": 2970,
+          "ACBCAB": 2970,
+          "BABCAC": 2970,
+          "BACABC": 3139,
+          "BACBCA": 2970,
+          "BCABAC": 2970,
+          "BCACBA": 2970,
+          "BCBACA": 3139,
+          "CABACB": 2970,
+          "CABCBA": 3139,
+          "CACBAB": 2970,
+          "CBABCA": 2970,
+          "CBACAB": 3139,
+          "CBCABA": 2970
+        },
+        "ABCABC": {
+          "ABCABC": 1067,
+          "ACBACB": 1067,
+          "BACBAC": 1067,
+          "BCABCA": 1067,
+          "CABCAB": 1067,
+          "CBACBA": 1067
+        }
+      },
+      "literal_graphs": {},
+      "literal_necklaces": {}
+    },
+    {
+      "p": 17,
+      "finite_stalk_checks": 300,
+      "compact_vector_checks": 180,
+      "interval_pointwise_checks": 1020,
+      "interval_core_bounds": 180,
+      "formal_coefficient_checks": 540,
+      "generic_fiber_bounds": 180,
+      "exceptional_fiber_bounds": 24,
+      "direct_identities": {
+        "ABBACC": 2502,
+        "ABCBAC": -10777,
+        "ABCABC": 1351
+      },
+      "nested_contraction": 1361,
+      "t4": -67,
+      "coincident_anchor_term": -18256,
+      "orbit_values": {
+        "ABBACC": {
+          "AABCCB": 2502,
+          "AACBBC": 190,
+          "ABBACC": 2502,
+          "ABCCBA": 2502,
+          "ACBBCA": 190,
+          "ACCABB": 2502,
+          "BAABCC": 2502,
+          "BACCAB": 2502,
+          "BBACCA": 2502,
+          "BBCAAC": 190,
+          "BCAACB": 190,
+          "BCCBAA": 2502,
+          "CAACBB": 190,
+          "CABBAC": 2502,
+          "CBAABC": 2502,
+          "CBBCAA": 190,
+          "CCABBA": 2502,
+          "CCBAAB": 2502
+        },
+        "ABCBAC": {
+          "ABACBC": -11066,
+          "ABCACB": -11066,
+          "ABCBAC": -10777,
+          "ACABCB": -10777,
+          "ACBABC": -11066,
+          "ACBCAB": -11066,
+          "BABCAC": -11066,
+          "BACABC": -10777,
+          "BACBCA": -11066,
+          "BCABAC": -11066,
+          "BCACBA": -11066,
+          "BCBACA": -10777,
+          "CABACB": -11066,
+          "CABCBA": -10777,
+          "CACBAB": -11066,
+          "CBABCA": -11066,
+          "CBACAB": -10777,
+          "CBCABA": -11066
+        },
+        "ABCABC": {
+          "ABCABC": 1351,
+          "ACBACB": 1351,
+          "BACBAC": 1351,
+          "BCABCA": 1351,
+          "CABCAB": 1351,
+          "CBACBA": 1351
+        }
+      },
+      "literal_graphs": {},
+      "literal_necklaces": {}
+    },
+    {
+      "p": 29,
+      "finite_stalk_checks": 540,
+      "compact_vector_checks": 324,
+      "interval_pointwise_checks": 3132,
+      "interval_core_bounds": 324,
+      "formal_coefficient_checks": 972,
+      "generic_fiber_bounds": 324,
+      "exceptional_fiber_bounds": 24,
+      "direct_identities": {
+        "ABBACC": 42106,
+        "ABCBAC": 17427,
+        "ABCABC": -77093
+      },
+      "nested_contraction": 35521,
+      "t4": -227,
+      "coincident_anchor_term": -184380,
+      "orbit_values": {
+        "ABBACC": {
+          "AABCCB": 42106,
+          "AACBBC": 28882,
+          "ABBACC": 42106,
+          "ABCCBA": 42106,
+          "ACBBCA": 28882,
+          "ACCABB": 42106,
+          "BAABCC": 42106,
+          "BACCAB": 42106,
+          "BBACCA": 42106,
+          "BBCAAC": 28882,
+          "BCAACB": 28882,
+          "BCCBAA": 42106,
+          "CAACBB": 28882,
+          "CABBAC": 42106,
+          "CBAABC": 42106,
+          "CBBCAA": 28882,
+          "CCABBA": 42106,
+          "CCBAAB": 42106
+        },
+        "ABCBAC": {
+          "ABACBC": 16586,
+          "ABCACB": 16586,
+          "ABCBAC": 17427,
+          "ACABCB": 17427,
+          "ACBABC": 16586,
+          "ACBCAB": 16586,
+          "BABCAC": 16586,
+          "BACABC": 17427,
+          "BACBCA": 16586,
+          "BCABAC": 16586,
+          "BCACBA": 16586,
+          "BCBACA": 17427,
+          "CABACB": 16586,
+          "CABCBA": 17427,
+          "CACBAB": 16586,
+          "CBABCA": 16586,
+          "CBACAB": 17427,
+          "CBCABA": 16586
+        },
+        "ABCABC": {
+          "ABCABC": -77093,
+          "ACBACB": -77093,
+          "BACBAC": -77093,
+          "BCABCA": -77093,
+          "CABCAB": -77093,
+          "CBACBA": -77093
+        }
+      },
+      "literal_graphs": {},
+      "literal_necklaces": {}
+    },
+    {
+      "p": 41,
+      "finite_stalk_checks": 780,
+      "compact_vector_checks": 468,
+      "interval_pointwise_checks": 6396,
+      "interval_core_bounds": 468,
+      "formal_coefficient_checks": 1404,
+      "generic_fiber_bounds": 468,
+      "exceptional_fiber_bounds": 24,
+      "direct_identities": {
+        "ABBACC": -53618,
+        "ABCBAC": 139935,
+        "ABCABC": -52145
+      },
+      "nested_contraction": -47183,
+      "t4": 157,
+      "coincident_anchor_term": 257400,
+      "orbit_values": {
+        "ABBACC": {
+          "AABCCB": -53618,
+          "AACBBC": -40826,
+          "ABBACC": -53618,
+          "ABCCBA": -53618,
+          "ACBBCA": -40826,
+          "ACCABB": -53618,
+          "BAABCC": -53618,
+          "BACCAB": -53618,
+          "BBACCA": -53618,
+          "BBCAAC": -40826,
+          "BCAACB": -40826,
+          "BCCBAA": -53618,
+          "CAACBB": -40826,
+          "CABBAC": -53618,
+          "CBAABC": -53618,
+          "CBBCAA": -40826,
+          "CCABBA": -53618,
+          "CCBAAB": -53618
+        },
+        "ABCBAC": {
+          "ABACBC": 138254,
+          "ABCACB": 138254,
+          "ABCBAC": 139935,
+          "ACABCB": 139935,
+          "ACBABC": 138254,
+          "ACBCAB": 138254,
+          "BABCAC": 138254,
+          "BACABC": 139935,
+          "BACBCA": 138254,
+          "BCABAC": 138254,
+          "BCACBA": 138254,
+          "BCBACA": 139935,
+          "CABACB": 138254,
+          "CABCBA": 139935,
+          "CACBAB": 138254,
+          "CBABCA": 138254,
+          "CBACAB": 139935,
+          "CBCABA": 138254
+        },
+        "ABCABC": {
+          "ABCABC": -52145,
+          "ACBACB": -52145,
+          "BACBAC": -52145,
+          "BCABCA": -52145,
+          "CABCAB": -52145,
+          "CBACBA": -52145
+        }
+      },
+      "literal_graphs": {},
+      "literal_necklaces": {}
+    }
+  ],
+  "input_sha256": {
+    "research/parallel8-necklace-2026-09-05.md": "d2e8e0948db40f0df7ed5a22d8b1d83a859e62faea92936f75764df06e938bf2",
+    "experiments/parallel8_necklace_2026_09_05.py": "0c63e3629270e810af3d4f306f9b296adead404a44b6c251178853873a6b576f",
+    "research/parallel7-necklace-2026-09-04.md": "af2302c98061ca70aec9738b5ff1159287d8e570f1c31e6cc493f11dbf405693",
+    "research/parallel6-necklace-2026-09-04.md": "b394c1e59282ed4c6b505205314e6f8a08a1aa98027ddd49ab15d3c4c91f1df8",
+    "research/parallel-necklace-2026-09-04.md": "f72b87b6fdc9a0ee7f568408f6551e84ccadfcb78ea867b200b0f8c0330a91d7",
+    "experiments/parallel7_necklace_2026_09_04.py": "7455f9c05016d29b7813dd17b5c8ae5c23626a4ecf86afc1a865b0bbb1f53913",
+    "experiments/parallel6_necklace_2026_09_04.py": "ec07944d99fe4db365b5bfb9f2a8043e33d0b2486ce9bbe8af75b2cba3020e41",
+    "experiments/parallel_necklace_2026_09_04.py": "400c2ba43d1ec3861508da30fb3bd08745c09b8c4ee5258674cac38ec9567c46",
+    "experiments/planar_necklace_reductions.py": "545d58a8bc505a3abedf71c694dcec58ca81a236c17e40dc8ec4ca79e7efeffb",
+    "sources/katz-rigid-local-systems.pdf": "ca6eb8d5d9e21076dda4e154e83dfa2821f586d6ccbe8c8f1b371b4352f753d1",
+    "sources/katz-gauss-kloosterman-monodromy.pdf": "8711424f8edb14f38c0e61606ef49d6efc67d5a93ac9f5bd9fa3e13b7c7d9ffe"
+  }
+}

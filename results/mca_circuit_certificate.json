@@ -1,0 +1,3950 @@
+{
+  "source_sha256": "17b6d74c12491352488edb654e5fefd22663c64700bf94a1b2895e5fefa650b2",
+  "proof_scope": "Exact field computations plus the circuit theorem in the research note; not Lean.",
+  "fields": [
+    {
+      "p": 2017,
+      "n": 8,
+      "k": 4,
+      "radius": "3/8",
+      "generator": 438,
+      "domain": [
+        1,
+        229,
+        438,
+        548,
+        1469,
+        1579,
+        1788,
+        2016
+      ],
+      "quartic_window_n4_over4_to_n4": true,
+      "offset_coefficients_low_to_high": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "direction_coefficients_low_to_high": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "exact_global_mca_error": "56/2017",
+      "structural_upper_bound": {
+        "opposite_pair_triples": 24,
+        "their_possible_scalars_per_monomial_pair": 8,
+        "remaining_circuits": 32,
+        "total_upper_bound": 40
+      },
+      "monomial_maximum": 40,
+      "monomial_maximizers": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "monomial_count_matrix_rows_offset_columns_direction": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          40,
+          20,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          40,
+          1,
+          24,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20,
+          24,
+          1,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          20,
+          40,
+          1
+        ]
+      ],
+      "monomial_bad_scalar_sets": {
+        "0,0": [],
+        "0,1": [],
+        "0,2": [],
+        "0,3": [],
+        "0,4": [
+          0
+        ],
+        "0,5": [
+          0
+        ],
+        "0,6": [
+          0
+        ],
+        "0,7": [
+          0
+        ],
+        "1,0": [],
+        "1,1": [],
+        "1,2": [],
+        "1,3": [],
+        "1,4": [
+          0
+        ],
+        "1,5": [
+          0
+        ],
+        "1,6": [
+          0
+        ],
+        "1,7": [
+          0
+        ],
+        "2,0": [],
+        "2,1": [],
+        "2,2": [],
+        "2,3": [],
+        "2,4": [
+          0
+        ],
+        "2,5": [
+          0
+        ],
+        "2,6": [
+          0
+        ],
+        "2,7": [
+          0
+        ],
+        "3,0": [],
+        "3,1": [],
+        "3,2": [],
+        "3,3": [],
+        "3,4": [
+          0
+        ],
+        "3,5": [
+          0
+        ],
+        "3,6": [
+          0
+        ],
+        "3,7": [
+          0
+        ],
+        "4,0": [],
+        "4,1": [],
+        "4,2": [],
+        "4,3": [],
+        "4,4": [
+          2016
+        ],
+        "4,5": [
+          1,
+          37,
+          70,
+          106,
+          119,
+          208,
+          222,
+          229,
+          320,
+          339,
+          405,
+          413,
+          420,
+          438,
+          548,
+          636,
+          668,
+          776,
+          985,
+          987,
+          1030,
+          1032,
+          1241,
+          1349,
+          1381,
+          1469,
+          1579,
+          1597,
+          1604,
+          1612,
+          1678,
+          1697,
+          1788,
+          1795,
+          1809,
+          1898,
+          1911,
+          1947,
+          1980,
+          2016
+        ],
+        "4,6": [
+          1,
+          37,
+          119,
+          229,
+          339,
+          405,
+          420,
+          636,
+          985,
+          987,
+          1030,
+          1032,
+          1381,
+          1597,
+          1612,
+          1678,
+          1788,
+          1898,
+          1980,
+          2016
+        ],
+        "4,7": [
+          1,
+          229,
+          438,
+          548,
+          1469,
+          1579,
+          1788,
+          2016
+        ],
+        "5,0": [],
+        "5,1": [],
+        "5,2": [],
+        "5,3": [],
+        "5,4": [
+          1,
+          109,
+          111,
+          119,
+          208,
+          210,
+          229,
+          318,
+          320,
+          339,
+          438,
+          548,
+          666,
+          668,
+          757,
+          776,
+          778,
+          802,
+          985,
+          987,
+          1030,
+          1032,
+          1215,
+          1239,
+          1241,
+          1260,
+          1349,
+          1351,
+          1469,
+          1579,
+          1678,
+          1697,
+          1699,
+          1788,
+          1807,
+          1809,
+          1898,
+          1906,
+          1908,
+          2016
+        ],
+        "5,5": [
+          2016
+        ],
+        "5,6": [
+          1,
+          6,
+          73,
+          229,
+          298,
+          336,
+          438,
+          548,
+          581,
+          611,
+          643,
+          746,
+          1271,
+          1374,
+          1406,
+          1436,
+          1469,
+          1579,
+          1681,
+          1719,
+          1788,
+          1944,
+          2011,
+          2016
+        ],
+        "5,7": [
+          1,
+          109,
+          111,
+          119,
+          229,
+          339,
+          757,
+          802,
+          985,
+          987,
+          1030,
+          1032,
+          1215,
+          1260,
+          1678,
+          1788,
+          1898,
+          1906,
+          1908,
+          2016
+        ],
+        "6,0": [],
+        "6,1": [],
+        "6,2": [],
+        "6,3": [],
+        "6,4": [
+          1,
+          109,
+          111,
+          119,
+          229,
+          339,
+          757,
+          802,
+          985,
+          987,
+          1030,
+          1032,
+          1215,
+          1260,
+          1678,
+          1788,
+          1898,
+          1906,
+          1908,
+          2016
+        ],
+        "6,5": [
+          1,
+          6,
+          73,
+          229,
+          298,
+          336,
+          438,
+          548,
+          581,
+          611,
+          643,
+          746,
+          1271,
+          1374,
+          1406,
+          1436,
+          1469,
+          1579,
+          1681,
+          1719,
+          1788,
+          1944,
+          2011,
+          2016
+        ],
+        "6,6": [
+          2016
+        ],
+        "6,7": [
+          1,
+          109,
+          111,
+          119,
+          208,
+          210,
+          229,
+          318,
+          320,
+          339,
+          438,
+          548,
+          666,
+          668,
+          757,
+          776,
+          778,
+          802,
+          985,
+          987,
+          1030,
+          1032,
+          1215,
+          1239,
+          1241,
+          1260,
+          1349,
+          1351,
+          1469,
+          1579,
+          1678,
+          1697,
+          1699,
+          1788,
+          1807,
+          1809,
+          1898,
+          1906,
+          1908,
+          2016
+        ],
+        "7,0": [],
+        "7,1": [],
+        "7,2": [],
+        "7,3": [],
+        "7,4": [
+          1,
+          229,
+          438,
+          548,
+          1469,
+          1579,
+          1788,
+          2016
+        ],
+        "7,5": [
+          1,
+          37,
+          119,
+          229,
+          339,
+          405,
+          420,
+          636,
+          985,
+          987,
+          1030,
+          1032,
+          1381,
+          1597,
+          1612,
+          1678,
+          1788,
+          1898,
+          1980,
+          2016
+        ],
+        "7,6": [
+          1,
+          37,
+          70,
+          106,
+          119,
+          208,
+          222,
+          229,
+          320,
+          339,
+          405,
+          413,
+          420,
+          438,
+          548,
+          636,
+          668,
+          776,
+          985,
+          987,
+          1030,
+          1032,
+          1241,
+          1349,
+          1381,
+          1469,
+          1579,
+          1597,
+          1604,
+          1612,
+          1678,
+          1697,
+          1788,
+          1795,
+          1809,
+          1898,
+          1911,
+          1947,
+          1980,
+          2016
+        ],
+        "7,7": [
+          2016
+        ]
+      },
+      "attaining_bad_scalars": [
+        2,
+        103,
+        110,
+        120,
+        140,
+        173,
+        226,
+        230,
+        263,
+        333,
+        334,
+        340,
+        353,
+        395,
+        460,
+        525,
+        666,
+        690,
+        706,
+        738,
+        748,
+        758,
+        803,
+        871,
+        878,
+        923,
+        935,
+        988,
+        1033,
+        1070,
+        1098,
+        1129,
+        1143,
+        1144,
+        1216,
+        1224,
+        1232,
+        1261,
+        1333,
+        1406,
+        1529,
+        1561,
+        1679,
+        1691,
+        1709,
+        1716,
+        1725,
+        1750,
+        1785,
+        1789,
+        1840,
+        1865,
+        1899,
+        1907,
+        1920,
+        2011
+      ],
+      "certificates": [
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            548,
+            1469
+          ],
+          "gamma": 738,
+          "cubic_coefficients_low_to_high": [
+            284,
+            669,
+            1949,
+            1876
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            1030,
+            868,
+            348,
+            1349,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            548,
+            1579
+          ],
+          "gamma": 1529,
+          "cubic_coefficients_low_to_high": [
+            675,
+            790,
+            464,
+            1623
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            111,
+            228,
+            986,
+            1239,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            548,
+            1788
+          ],
+          "gamma": 1070,
+          "cubic_coefficients_low_to_high": [
+            902,
+            169,
+            1851,
+            171
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            987,
+            1029,
+            988,
+            1030,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            548,
+            2016
+          ],
+          "gamma": 333,
+          "cubic_coefficients_low_to_high": [
+            247,
+            477,
+            88,
+            1544
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            109,
+            986,
+            1907,
+            802,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            1469,
+            1579
+          ],
+          "gamma": 1129,
+          "cubic_coefficients_low_to_high": [
+            1075,
+            1225,
+            464,
+            388
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            1908,
+            228,
+            1031,
+            318,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            1469,
+            1788
+          ],
+          "gamma": 334,
+          "cubic_coefficients_low_to_high": [
+            550,
+            1802,
+            218,
+            1804
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            1906,
+            110,
+            1907,
+            109,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            1469,
+            2016
+          ],
+          "gamma": 525,
+          "cubic_coefficients_low_to_high": [
+            1932,
+            1501,
+            612,
+            520
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            987,
+            348,
+            1029,
+            1898,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            1579,
+            1788
+          ],
+          "gamma": 871,
+          "cubic_coefficients_low_to_high": [
+            1333,
+            1556,
+            464,
+            1558
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            1788,
+            228,
+            1789,
+            2016,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            1579,
+            2016
+          ],
+          "gamma": 1333,
+          "cubic_coefficients_low_to_high": [
+            871,
+            1104,
+            464,
+            917
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            229,
+            228,
+            1787,
+            1788,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            438,
+            1788,
+            2016
+          ],
+          "gamma": 748,
+          "cubic_coefficients_low_to_high": [
+            748,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            2016,
+            0,
+            0,
+            1579,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            548,
+            1469,
+            1579
+          ],
+          "gamma": 1920,
+          "cubic_coefficients_low_to_high": [
+            1466,
+            1904,
+            1149,
+            1441
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            985,
+            693,
+            568,
+            208,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            548,
+            1469,
+            1788
+          ],
+          "gamma": 1144,
+          "cubic_coefficients_low_to_high": [
+            690,
+            455,
+            1565,
+            457
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            229,
+            1787,
+            230,
+            2016,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            548,
+            1469,
+            2016
+          ],
+          "gamma": 226,
+          "cubic_coefficients_low_to_high": [
+            1789,
+            919,
+            456,
+            1102
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            1788,
+            230,
+            228,
+            1788,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            548,
+            1579,
+            1788
+          ],
+          "gamma": 1691,
+          "cubic_coefficients_low_to_high": [
+            1467,
+            225,
+            1795,
+            227
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            109,
+            1907,
+            110,
+            1906,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            548,
+            1579,
+            2016
+          ],
+          "gamma": 395,
+          "cubic_coefficients_low_to_high": [
+            1182,
+            711,
+            1232,
+            1310
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            1032,
+            568,
+            984,
+            1678,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            548,
+            1788,
+            2016
+          ],
+          "gamma": 1224,
+          "cubic_coefficients_low_to_high": [
+            1224,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            2016,
+            0,
+            0,
+            1469,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            1469,
+            1579,
+            1788
+          ],
+          "gamma": 935,
+          "cubic_coefficients_low_to_high": [
+            1127,
+            1826,
+            194,
+            1828
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            1032,
+            984,
+            1033,
+            985,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            1469,
+            1579,
+            2016
+          ],
+          "gamma": 1865,
+          "cubic_coefficients_low_to_high": [
+            1959,
+            1357,
+            1925,
+            664
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            1906,
+            1031,
+            110,
+            757,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            1469,
+            1788,
+            2016
+          ],
+          "gamma": 1709,
+          "cubic_coefficients_low_to_high": [
+            1709,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            2016,
+            0,
+            0,
+            548,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            229,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 353,
+          "cubic_coefficients_low_to_high": [
+            353,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            2016,
+            0,
+            0,
+            438,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            548,
+            1469,
+            1579
+          ],
+          "gamma": 2011,
+          "cubic_coefficients_low_to_high": [
+            6,
+            2016,
+            2015,
+            2014
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            1,
+            0,
+            0,
+            2016,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            548,
+            1469,
+            1788
+          ],
+          "gamma": 666,
+          "cubic_coefficients_low_to_high": [
+            1168,
+            1450,
+            1565,
+            523
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            1908,
+            1787,
+            986,
+            1807,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            548,
+            1469,
+            2016
+          ],
+          "gamma": 263,
+          "cubic_coefficients_low_to_high": [
+            177,
+            919,
+            88,
+            1102
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            1788,
+            986,
+            228,
+            1579,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            548,
+            1579,
+            1788
+          ],
+          "gamma": 1232,
+          "cubic_coefficients_low_to_high": [
+            1694,
+            1223,
+            408,
+            1947
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            1030,
+            1106,
+            1669,
+            1697,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            548,
+            1579,
+            2016
+          ],
+          "gamma": 1840,
+          "cubic_coefficients_low_to_high": [
+            1754,
+            1104,
+            88,
+            917
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            229,
+            986,
+            1787,
+            1469,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            548,
+            1788,
+            2016
+          ],
+          "gamma": 1725,
+          "cubic_coefficients_low_to_high": [
+            1639,
+            1542,
+            88,
+            479
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            1906,
+            986,
+            110,
+            1260,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            1469,
+            1579,
+            1788
+          ],
+          "gamma": 140,
+          "cubic_coefficients_low_to_high": [
+            602,
+            258,
+            488,
+            815
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            985,
+            1371,
+            1449,
+            776,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            1469,
+            1579,
+            2016
+          ],
+          "gamma": 173,
+          "cubic_coefficients_low_to_high": [
+            267,
+            1104,
+            1925,
+            917
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            229,
+            1031,
+            1787,
+            548,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            1469,
+            1788,
+            2016
+          ],
+          "gamma": 1716,
+          "cubic_coefficients_low_to_high": [
+            741,
+            1406,
+            977,
+            615
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            1032,
+            1449,
+            984,
+            339,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            438,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 1785,
+          "cubic_coefficients_low_to_high": [
+            230,
+            1104,
+            1557,
+            917
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            229,
+            1789,
+            1787,
+            229,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            548,
+            1469,
+            1579,
+            1788
+          ],
+          "gamma": 706,
+          "cubic_coefficients_low_to_high": [
+            1128,
+            565,
+            1565,
+            1488
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            111,
+            1787,
+            1031,
+            666,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            548,
+            1469,
+            1579,
+            2016
+          ],
+          "gamma": 1750,
+          "cubic_coefficients_low_to_high": [
+            1844,
+            919,
+            1925,
+            1102
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            1788,
+            1031,
+            228,
+            438,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            548,
+            1469,
+            1788,
+            2016
+          ],
+          "gamma": 690,
+          "cubic_coefficients_low_to_high": [
+            1144,
+            919,
+            1565,
+            1102
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            1788,
+            1787,
+            228,
+            229,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            548,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 1406,
+          "cubic_coefficients_low_to_high": [
+            171,
+            436,
+            1237,
+            1585
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            987,
+            1669,
+            1029,
+            119,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            1469,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 103,
+          "cubic_coefficients_low_to_high": [
+            197,
+            662,
+            1925,
+            1359
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            109,
+            1031,
+            1907,
+            1215,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            548,
+            1469,
+            1579
+          ],
+          "gamma": 460,
+          "cubic_coefficients_low_to_high": [
+            1557,
+            2016,
+            2015,
+            2014
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            1,
+            0,
+            0,
+            1788,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            548,
+            1469,
+            1788
+          ],
+          "gamma": 878,
+          "cubic_coefficients_low_to_high": [
+            1094,
+            455,
+            218,
+            457
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            229,
+            110,
+            230,
+            1579,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            548,
+            1469,
+            2016
+          ],
+          "gamma": 120,
+          "cubic_coefficients_low_to_high": [
+            1895,
+            1095,
+            456,
+            1138
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            111,
+            230,
+            1031,
+            1351,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            548,
+            1579,
+            1788
+          ],
+          "gamma": 1098,
+          "cubic_coefficients_low_to_high": [
+            874,
+            1556,
+            1795,
+            1558
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            1788,
+            1907,
+            1789,
+            1469,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            548,
+            1579,
+            2016
+          ],
+          "gamma": 1216,
+          "cubic_coefficients_low_to_high": [
+            754,
+            415,
+            1337,
+            462
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            985,
+            646,
+            1449,
+            1241,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            548,
+            1788,
+            2016
+          ],
+          "gamma": 988,
+          "cubic_coefficients_low_to_high": [
+            984,
+            2014,
+            2015,
+            2016
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            1032,
+            1033,
+            1033,
+            1032,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            1469,
+            1579,
+            1788
+          ],
+          "gamma": 923,
+          "cubic_coefficients_low_to_high": [
+            1139,
+            1556,
+            218,
+            1558
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            1788,
+            110,
+            1789,
+            548,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            1469,
+            1579,
+            2016
+          ],
+          "gamma": 1261,
+          "cubic_coefficients_low_to_high": [
+            799,
+            680,
+            1777,
+            637
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            1030,
+            911,
+            1669,
+            320,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            1469,
+            1788,
+            2016
+          ],
+          "gamma": 1907,
+          "cubic_coefficients_low_to_high": [
+            106,
+            217,
+            218,
+            219
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            109,
+            110,
+            110,
+            111,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            438,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 230,
+          "cubic_coefficients_low_to_high": [
+            1785,
+            1556,
+            1557,
+            1558
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1788,
+            1788,
+            1789,
+            1789,
+            1,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            548,
+            1469,
+            1579,
+            1788
+          ],
+          "gamma": 1143,
+          "cubic_coefficients_low_to_high": [
+            919,
+            455,
+            1795,
+            457
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            229,
+            1907,
+            230,
+            438,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            548,
+            1469,
+            1579,
+            2016
+          ],
+          "gamma": 340,
+          "cubic_coefficients_low_to_high": [
+            1675,
+            920,
+            456,
+            873
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            1908,
+            230,
+            986,
+            210,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            548,
+            1469,
+            1788,
+            2016
+          ],
+          "gamma": 1789,
+          "cubic_coefficients_low_to_high": [
+            226,
+            455,
+            456,
+            457
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            229,
+            230,
+            230,
+            1,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            548,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 110,
+          "cubic_coefficients_low_to_high": [
+            1903,
+            1794,
+            1795,
+            1796
+          ],
+          "vanishing_coefficients_low_to_high": [
+            2016,
+            1906,
+            1907,
+            1907,
+            1908,
+            1
+          ]
+        },
+        {
+          "witness": [
+            229,
+            1469,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 1033,
+          "cubic_coefficients_low_to_high": [
+            1029,
+            2014,
+            2015,
+            2016
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            987,
+            988,
+            988,
+            987,
+            1
+          ]
+        },
+        {
+          "witness": [
+            438,
+            548,
+            1469,
+            1579,
+            1788
+          ],
+          "gamma": 1561,
+          "cubic_coefficients_low_to_high": [
+            456,
+            2016,
+            2015,
+            2014
+          ],
+          "vanishing_coefficients_low_to_high": [
+            229,
+            1,
+            0,
+            0,
+            229,
+            1
+          ]
+        },
+        {
+          "witness": [
+            438,
+            548,
+            1469,
+            1579,
+            2016
+          ],
+          "gamma": 2,
+          "cubic_coefficients_low_to_high": [
+            2015,
+            2016,
+            2015,
+            2014
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "witness": [
+            438,
+            548,
+            1469,
+            1788,
+            2016
+          ],
+          "gamma": 758,
+          "cubic_coefficients_low_to_high": [
+            1212,
+            1551,
+            676,
+            1598
+          ],
+          "vanishing_coefficients_low_to_high": [
+            438,
+            985,
+            1324,
+            568,
+            1809,
+            1
+          ]
+        },
+        {
+          "witness": [
+            438,
+            548,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 1899,
+          "cubic_coefficients_low_to_high": [
+            116,
+            875,
+            1557,
+            918
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1469,
+            1908,
+            1789,
+            1031,
+            1699,
+            1
+          ]
+        },
+        {
+          "witness": [
+            438,
+            1469,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 1679,
+          "cubic_coefficients_low_to_high": [
+            336,
+            1140,
+            1557,
+            1093
+          ],
+          "vanishing_coefficients_low_to_high": [
+            548,
+            111,
+            1789,
+            986,
+            778,
+            1
+          ]
+        },
+        {
+          "witness": [
+            548,
+            1469,
+            1579,
+            1788,
+            2016
+          ],
+          "gamma": 803,
+          "cubic_coefficients_low_to_high": [
+            1257,
+            1376,
+            236,
+            1333
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1579,
+            1030,
+            1149,
+            348,
+            668,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "p": 65537,
+      "n": 8,
+      "k": 4,
+      "radius": "3/8",
+      "generator": 16,
+      "domain": [
+        1,
+        16,
+        256,
+        4096,
+        61441,
+        65281,
+        65521,
+        65536
+      ],
+      "quartic_window_n4_over4_to_n4": false,
+      "offset_coefficients_low_to_high": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "direction_coefficients_low_to_high": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "exact_global_mca_error": "56/65537",
+      "structural_upper_bound": {
+        "opposite_pair_triples": 24,
+        "their_possible_scalars_per_monomial_pair": 8,
+        "remaining_circuits": 32,
+        "total_upper_bound": 40
+      },
+      "monomial_maximum": 40,
+      "monomial_maximizers": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "monomial_count_matrix_rows_offset_columns_direction": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          40,
+          20,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          40,
+          1,
+          24,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20,
+          24,
+          1,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          20,
+          40,
+          1
+        ]
+      ],
+      "monomial_bad_scalar_sets": {
+        "0,0": [],
+        "0,1": [],
+        "0,2": [],
+        "0,3": [],
+        "0,4": [
+          0
+        ],
+        "0,5": [
+          0
+        ],
+        "0,6": [
+          0
+        ],
+        "0,7": [
+          0
+        ],
+        "1,0": [],
+        "1,1": [],
+        "1,2": [],
+        "1,3": [],
+        "1,4": [
+          0
+        ],
+        "1,5": [
+          0
+        ],
+        "1,6": [
+          0
+        ],
+        "1,7": [
+          0
+        ],
+        "2,0": [],
+        "2,1": [],
+        "2,2": [],
+        "2,3": [],
+        "2,4": [
+          0
+        ],
+        "2,5": [
+          0
+        ],
+        "2,6": [
+          0
+        ],
+        "2,7": [
+          0
+        ],
+        "3,0": [],
+        "3,1": [],
+        "3,2": [],
+        "3,3": [],
+        "3,4": [
+          0
+        ],
+        "3,5": [
+          0
+        ],
+        "3,6": [
+          0
+        ],
+        "3,7": [
+          0
+        ],
+        "4,0": [],
+        "4,1": [],
+        "4,2": [],
+        "4,3": [],
+        "4,4": [
+          65536
+        ],
+        "4,5": [
+          1,
+          16,
+          241,
+          256,
+          273,
+          1371,
+          1451,
+          3841,
+          3856,
+          4079,
+          4081,
+          4096,
+          4351,
+          4368,
+          20566,
+          20571,
+          21766,
+          21936,
+          23216,
+          23291,
+          42246,
+          42321,
+          43601,
+          43771,
+          44966,
+          44971,
+          61169,
+          61186,
+          61441,
+          61456,
+          61458,
+          61681,
+          61696,
+          64086,
+          64166,
+          65264,
+          65281,
+          65296,
+          65521,
+          65536
+        ],
+        "4,6": [
+          1,
+          256,
+          1371,
+          3856,
+          4079,
+          4081,
+          4368,
+          20571,
+          23216,
+          23291,
+          42246,
+          42321,
+          44966,
+          61169,
+          61456,
+          61458,
+          61681,
+          64166,
+          65281,
+          65536
+        ],
+        "4,7": [
+          1,
+          16,
+          256,
+          4096,
+          61441,
+          65281,
+          65521,
+          65536
+        ],
+        "5,0": [],
+        "5,1": [],
+        "5,2": [],
+        "5,3": [],
+        "5,4": [
+          1,
+          16,
+          239,
+          241,
+          256,
+          271,
+          273,
+          3824,
+          3839,
+          3841,
+          3856,
+          4079,
+          4081,
+          4096,
+          4111,
+          4113,
+          4336,
+          4351,
+          4353,
+          4368,
+          61169,
+          61184,
+          61186,
+          61201,
+          61424,
+          61426,
+          61441,
+          61456,
+          61458,
+          61681,
+          61696,
+          61698,
+          61713,
+          65264,
+          65266,
+          65281,
+          65296,
+          65298,
+          65521,
+          65536
+        ],
+        "5,5": [
+          65536
+        ],
+        "5,6": [
+          1,
+          16,
+          256,
+          1194,
+          2741,
+          4096,
+          19104,
+          19211,
+          20309,
+          21681,
+          22021,
+          24651,
+          40886,
+          43516,
+          43856,
+          45228,
+          46326,
+          46433,
+          61441,
+          62796,
+          64343,
+          65281,
+          65521,
+          65536
+        ],
+        "5,7": [
+          1,
+          256,
+          3824,
+          3856,
+          4079,
+          4081,
+          4111,
+          4113,
+          4336,
+          4368,
+          61169,
+          61201,
+          61424,
+          61426,
+          61456,
+          61458,
+          61681,
+          61713,
+          65281,
+          65536
+        ],
+        "6,0": [],
+        "6,1": [],
+        "6,2": [],
+        "6,3": [],
+        "6,4": [
+          1,
+          256,
+          3824,
+          3856,
+          4079,
+          4081,
+          4111,
+          4113,
+          4336,
+          4368,
+          61169,
+          61201,
+          61424,
+          61426,
+          61456,
+          61458,
+          61681,
+          61713,
+          65281,
+          65536
+        ],
+        "6,5": [
+          1,
+          16,
+          256,
+          1194,
+          2741,
+          4096,
+          19104,
+          19211,
+          20309,
+          21681,
+          22021,
+          24651,
+          40886,
+          43516,
+          43856,
+          45228,
+          46326,
+          46433,
+          61441,
+          62796,
+          64343,
+          65281,
+          65521,
+          65536
+        ],
+        "6,6": [
+          65536
+        ],
+        "6,7": [
+          1,
+          16,
+          239,
+          241,
+          256,
+          271,
+          273,
+          3824,
+          3839,
+          3841,
+          3856,
+          4079,
+          4081,
+          4096,
+          4111,
+          4113,
+          4336,
+          4351,
+          4353,
+          4368,
+          61169,
+          61184,
+          61186,
+          61201,
+          61424,
+          61426,
+          61441,
+          61456,
+          61458,
+          61681,
+          61696,
+          61698,
+          61713,
+          65264,
+          65266,
+          65281,
+          65296,
+          65298,
+          65521,
+          65536
+        ],
+        "7,0": [],
+        "7,1": [],
+        "7,2": [],
+        "7,3": [],
+        "7,4": [
+          1,
+          16,
+          256,
+          4096,
+          61441,
+          65281,
+          65521,
+          65536
+        ],
+        "7,5": [
+          1,
+          256,
+          1371,
+          3856,
+          4079,
+          4081,
+          4368,
+          20571,
+          23216,
+          23291,
+          42246,
+          42321,
+          44966,
+          61169,
+          61456,
+          61458,
+          61681,
+          64166,
+          65281,
+          65536
+        ],
+        "7,6": [
+          1,
+          16,
+          241,
+          256,
+          273,
+          1371,
+          1451,
+          3841,
+          3856,
+          4079,
+          4081,
+          4096,
+          4351,
+          4368,
+          20566,
+          20571,
+          21766,
+          21936,
+          23216,
+          23291,
+          42246,
+          42321,
+          43601,
+          43771,
+          44966,
+          44971,
+          61169,
+          61186,
+          61441,
+          61456,
+          61458,
+          61681,
+          61696,
+          64086,
+          64166,
+          65264,
+          65281,
+          65296,
+          65521,
+          65536
+        ],
+        "7,7": [
+          65536
+        ]
+      },
+      "attaining_bad_scalars": [
+        2,
+        34,
+        62,
+        253,
+        257,
+        514,
+        771,
+        1279,
+        3118,
+        3538,
+        3825,
+        3857,
+        4082,
+        4112,
+        4337,
+        4369,
+        4656,
+        8194,
+        11439,
+        11792,
+        12234,
+        12340,
+        12786,
+        13135,
+        13326,
+        16382,
+        19759,
+        21199,
+        44240,
+        45872,
+        49151,
+        52560,
+        52721,
+        53205,
+        53291,
+        53779,
+        53936,
+        54255,
+        57347,
+        60367,
+        60979,
+        61170,
+        61202,
+        61425,
+        61459,
+        61682,
+        61714,
+        61905,
+        64256,
+        64772,
+        65027,
+        65278,
+        65282,
+        65471,
+        65507,
+        65531
+      ],
+      "certificates": [
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            4096,
+            61441
+          ],
+          "gamma": 44240,
+          "cubic_coefficients_low_to_high": [
+            43732,
+            10885,
+            23894,
+            31272
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            4079,
+            57090,
+            4624,
+            65264,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            4096,
+            65281
+          ],
+          "gamma": 53205,
+          "cubic_coefficients_low_to_high": [
+            44977,
+            8229,
+            57311,
+            8231
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            4111,
+            61425,
+            4112,
+            61424,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            4096,
+            65521
+          ],
+          "gamma": 52560,
+          "cubic_coefficients_low_to_high": [
+            10931,
+            32800,
+            518,
+            8317
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            4113,
+            255,
+            4080,
+            61184,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            4096,
+            65536
+          ],
+          "gamma": 53779,
+          "cubic_coefficients_low_to_high": [
+            60847,
+            39910,
+            58471,
+            25631
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            61458,
+            4624,
+            4078,
+            61169,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            61441,
+            65281
+          ],
+          "gamma": 12234,
+          "cubic_coefficients_low_to_high": [
+            45143,
+            32629,
+            32911,
+            32631
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            61458,
+            4078,
+            61459,
+            4079,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            61441,
+            65521
+          ],
+          "gamma": 11439,
+          "cubic_coefficients_low_to_high": [
+            52052,
+            32735,
+            518,
+            57214
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            61426,
+            255,
+            61457,
+            3839,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            61441,
+            65536
+          ],
+          "gamma": 60367,
+          "cubic_coefficients_low_to_high": [
+            44051,
+            17473,
+            16318,
+            48068
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            61424,
+            61457,
+            4112,
+            3824,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            65281,
+            65521
+          ],
+          "gamma": 64256,
+          "cubic_coefficients_low_to_high": [
+            64772,
+            65022,
+            518,
+            65024
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            65281,
+            255,
+            65282,
+            65536,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            65281,
+            65536
+          ],
+          "gamma": 52721,
+          "cubic_coefficients_low_to_high": [
+            52721,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            65536,
+            0,
+            0,
+            65521,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            256,
+            65521,
+            65536
+          ],
+          "gamma": 64772,
+          "cubic_coefficients_low_to_high": [
+            64256,
+            64516,
+            518,
+            1025
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            256,
+            255,
+            65280,
+            65281,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            4096,
+            61441,
+            65281
+          ],
+          "gamma": 21199,
+          "cubic_coefficients_low_to_high": [
+            46388,
+            8063,
+            65031,
+            32797
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            4113,
+            65280,
+            61457,
+            239,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            4096,
+            61441,
+            65521
+          ],
+          "gamma": 65531,
+          "cubic_coefficients_low_to_high": [
+            6,
+            65536,
+            65535,
+            65534
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            1,
+            0,
+            0,
+            65536,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            4096,
+            61441,
+            65536
+          ],
+          "gamma": 65471,
+          "cubic_coefficients_low_to_high": [
+            49155,
+            1027,
+            16318,
+            64514
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            65281,
+            61457,
+            255,
+            65521,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            4096,
+            65281,
+            65521
+          ],
+          "gamma": 53936,
+          "cubic_coefficients_low_to_high": [
+            54452,
+            30245,
+            25175,
+            9607
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            61456,
+            225,
+            3600,
+            61696,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            4096,
+            65281,
+            65536
+          ],
+          "gamma": 3538,
+          "cubic_coefficients_low_to_high": [
+            45551,
+            58278,
+            23526,
+            7263
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            4081,
+            3600,
+            61455,
+            61681,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            4096,
+            65521,
+            65536
+          ],
+          "gamma": 49151,
+          "cubic_coefficients_low_to_high": [
+            65475,
+            64516,
+            49215,
+            1025
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            256,
+            4080,
+            65280,
+            61441,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            61441,
+            65281,
+            65521
+          ],
+          "gamma": 13135,
+          "cubic_coefficients_low_to_high": [
+            13651,
+            30182,
+            41366,
+            59016
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            4079,
+            289,
+            60913,
+            4351,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            61441,
+            65281,
+            65536
+          ],
+          "gamma": 13326,
+          "cubic_coefficients_low_to_high": [
+            62547,
+            48066,
+            16318,
+            17475
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            4111,
+            61457,
+            61425,
+            4336,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            61441,
+            65521,
+            65536
+          ],
+          "gamma": 16382,
+          "cubic_coefficients_low_to_high": [
+            66,
+            64516,
+            16318,
+            1025
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            256,
+            61457,
+            65280,
+            4096,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            16,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 65278,
+          "cubic_coefficients_low_to_high": [
+            257,
+            64516,
+            65023,
+            1025
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            256,
+            65282,
+            65280,
+            256,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            4096,
+            61441,
+            65281
+          ],
+          "gamma": 1279,
+          "cubic_coefficients_low_to_high": [
+            771,
+            509,
+            65031,
+            511
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            256,
+            65280,
+            257,
+            65536,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            4096,
+            61441,
+            65521
+          ],
+          "gamma": 19759,
+          "cubic_coefficients_low_to_high": [
+            19251,
+            59782,
+            40599,
+            31207
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            61456,
+            7937,
+            61937,
+            65296,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            4096,
+            61441,
+            65536
+          ],
+          "gamma": 253,
+          "cubic_coefficients_low_to_high": [
+            65282,
+            1027,
+            510,
+            64514
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            65281,
+            257,
+            255,
+            65281,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            4096,
+            65281,
+            65521
+          ],
+          "gamma": 53291,
+          "cubic_coefficients_low_to_high": [
+            20406,
+            32886,
+            32654,
+            32888
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            4081,
+            61455,
+            4082,
+            61456,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            4096,
+            65281,
+            65536
+          ],
+          "gamma": 61905,
+          "cubic_coefficients_low_to_high": [
+            61905,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            65536,
+            0,
+            0,
+            61441,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            4096,
+            65521,
+            65536
+          ],
+          "gamma": 3118,
+          "cubic_coefficients_low_to_high": [
+            19442,
+            50114,
+            49215,
+            15427
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            4111,
+            4080,
+            61425,
+            61201,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            61441,
+            65281,
+            65521
+          ],
+          "gamma": 12340,
+          "cubic_coefficients_low_to_high": [
+            20560,
+            57318,
+            8222,
+            57320
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            61424,
+            4112,
+            61425,
+            4111,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            61441,
+            65281,
+            65536
+          ],
+          "gamma": 4656,
+          "cubic_coefficients_low_to_high": [
+            4656,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            65536,
+            0,
+            0,
+            4096,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            61441,
+            65521,
+            65536
+          ],
+          "gamma": 12786,
+          "cubic_coefficients_low_to_high": [
+            3662,
+            23589,
+            9126,
+            41952
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            4081,
+            61937,
+            61455,
+            3856,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            256,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 11792,
+          "cubic_coefficients_low_to_high": [
+            11792,
+            1,
+            2,
+            3
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            65536,
+            0,
+            0,
+            16,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            4096,
+            61441,
+            65281,
+            65521
+          ],
+          "gamma": 45872,
+          "cubic_coefficients_low_to_high": [
+            21715,
+            57472,
+            65031,
+            32734
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            61426,
+            65280,
+            4080,
+            271,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            4096,
+            61441,
+            65281,
+            65536
+          ],
+          "gamma": 771,
+          "cubic_coefficients_low_to_high": [
+            1279,
+            1027,
+            65031,
+            64514
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            65281,
+            65280,
+            255,
+            256,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            4096,
+            61441,
+            65521,
+            65536
+          ],
+          "gamma": 62,
+          "cubic_coefficients_low_to_high": [
+            16386,
+            1027,
+            49215,
+            64514
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            65281,
+            4080,
+            255,
+            16,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            4096,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 54255,
+          "cubic_coefficients_low_to_high": [
+            5042,
+            15425,
+            49215,
+            50116
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            61424,
+            4080,
+            4112,
+            61713,
+            1
+          ]
+        },
+        {
+          "witness": [
+            1,
+            61441,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 60979,
+          "cubic_coefficients_low_to_high": [
+            21006,
+            9317,
+            39975,
+            56224
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            61458,
+            60913,
+            4078,
+            4368,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            4096,
+            61441,
+            65281
+          ],
+          "gamma": 34,
+          "cubic_coefficients_low_to_high": [
+            57343,
+            509,
+            57311,
+            511
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            256,
+            61425,
+            257,
+            65521,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            4096,
+            61441,
+            65521
+          ],
+          "gamma": 514,
+          "cubic_coefficients_low_to_high": [
+            65023,
+            65536,
+            65535,
+            65534
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            1,
+            0,
+            0,
+            65281,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            4096,
+            61441,
+            65536
+          ],
+          "gamma": 4369,
+          "cubic_coefficients_low_to_high": [
+            61166,
+            57344,
+            510,
+            65502
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            61426,
+            257,
+            4080,
+            65266,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            4096,
+            65281,
+            65521
+          ],
+          "gamma": 8194,
+          "cubic_coefficients_low_to_high": [
+            65503,
+            65022,
+            57311,
+            65024
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            65281,
+            61425,
+            65282,
+            61441,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            4096,
+            65281,
+            65536
+          ],
+          "gamma": 4112,
+          "cubic_coefficients_low_to_high": [
+            61421,
+            57310,
+            57311,
+            57312
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            61424,
+            61425,
+            61425,
+            61426,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            4096,
+            65521,
+            65536
+          ],
+          "gamma": 4337,
+          "cubic_coefficients_low_to_high": [
+            3821,
+            64990,
+            56799,
+            56832
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            4079,
+            65248,
+            60913,
+            61186,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            61441,
+            65281,
+            65521
+          ],
+          "gamma": 57347,
+          "cubic_coefficients_low_to_high": [
+            30,
+            65022,
+            8222,
+            65024
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            65281,
+            4112,
+            65282,
+            4096,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            61441,
+            65281,
+            65536
+          ],
+          "gamma": 61459,
+          "cubic_coefficients_low_to_high": [
+            61455,
+            65534,
+            65535,
+            65536
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            4081,
+            4082,
+            4082,
+            4081,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            61441,
+            65521,
+            65536
+          ],
+          "gamma": 61714,
+          "cubic_coefficients_low_to_high": [
+            61198,
+            65054,
+            7710,
+            7679
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            61456,
+            65312,
+            3600,
+            3841,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            256,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 257,
+          "cubic_coefficients_low_to_high": [
+            65278,
+            65022,
+            65023,
+            65024
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65281,
+            65281,
+            65282,
+            65282,
+            1,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            4096,
+            61441,
+            65281,
+            65521
+          ],
+          "gamma": 65027,
+          "cubic_coefficients_low_to_high": [
+            510,
+            65536,
+            65535,
+            65534
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            1,
+            0,
+            0,
+            256,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            4096,
+            61441,
+            65281,
+            65536
+          ],
+          "gamma": 61202,
+          "cubic_coefficients_low_to_high": [
+            61710,
+            57854,
+            57823,
+            479
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            61456,
+            57600,
+            61937,
+            241,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            4096,
+            61441,
+            65521,
+            65536
+          ],
+          "gamma": 2,
+          "cubic_coefficients_low_to_high": [
+            65535,
+            65536,
+            65535,
+            65534
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            4096,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 3857,
+          "cubic_coefficients_low_to_high": [
+            61678,
+            65504,
+            65023,
+            57342
+          ],
+          "vanishing_coefficients_low_to_high": [
+            61441,
+            61426,
+            65282,
+            61457,
+            61698,
+            1
+          ]
+        },
+        {
+          "witness": [
+            16,
+            61441,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 61170,
+          "cubic_coefficients_low_to_high": [
+            4365,
+            31,
+            65023,
+            8189
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            4113,
+            65282,
+            4080,
+            4353,
+            1
+          ]
+        },
+        {
+          "witness": [
+            256,
+            4096,
+            61441,
+            65281,
+            65521
+          ],
+          "gamma": 65507,
+          "cubic_coefficients_low_to_high": [
+            8190,
+            509,
+            8222,
+            511
+          ],
+          "vanishing_coefficients_low_to_high": [
+            4096,
+            256,
+            4112,
+            257,
+            16,
+            1
+          ]
+        },
+        {
+          "witness": [
+            256,
+            4096,
+            61441,
+            65281,
+            65536
+          ],
+          "gamma": 65282,
+          "cubic_coefficients_low_to_high": [
+            253,
+            509,
+            510,
+            511
+          ],
+          "vanishing_coefficients_low_to_high": [
+            256,
+            256,
+            257,
+            257,
+            1,
+            1
+          ]
+        },
+        {
+          "witness": [
+            256,
+            4096,
+            61441,
+            65521,
+            65536
+          ],
+          "gamma": 61682,
+          "cubic_coefficients_low_to_high": [
+            3853,
+            8191,
+            510,
+            29
+          ],
+          "vanishing_coefficients_low_to_high": [
+            16,
+            4113,
+            257,
+            61457,
+            65298,
+            1
+          ]
+        },
+        {
+          "witness": [
+            256,
+            4096,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 4082,
+          "cubic_coefficients_low_to_high": [
+            4078,
+            65534,
+            65535,
+            65536
+          ],
+          "vanishing_coefficients_low_to_high": [
+            1,
+            61458,
+            61459,
+            61459,
+            61458,
+            1
+          ]
+        },
+        {
+          "witness": [
+            256,
+            61441,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 61425,
+          "cubic_coefficients_low_to_high": [
+            4108,
+            8221,
+            8222,
+            8223
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65536,
+            4111,
+            4112,
+            4112,
+            4113,
+            1
+          ]
+        },
+        {
+          "witness": [
+            4096,
+            61441,
+            65281,
+            65521,
+            65536
+          ],
+          "gamma": 3825,
+          "cubic_coefficients_low_to_high": [
+            4333,
+            8701,
+            8734,
+            543
+          ],
+          "vanishing_coefficients_low_to_high": [
+            65521,
+            4079,
+            8447,
+            4624,
+            273,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

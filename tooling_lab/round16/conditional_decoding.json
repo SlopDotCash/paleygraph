@@ -1,0 +1,65 @@
+{
+  "status": "produced",
+  "scope": "All three conditional decodings produced; separate Cramer/full-word review required before acceptance.",
+  "cases": [
+    {
+      "case": "boundary",
+      "file": "boundary.decoded.json",
+      "outputs": 1,
+      "metrics": {
+        "query_systems_solved": 71113,
+        "branch_candidates_generated": 71092,
+        "branch_candidate_coordinate_evaluations": 450963,
+        "branch_output_word_coordinate_evaluations": 962,
+        "final_whole_word_coordinate_evaluations": 1024,
+        "branch_full_scan_coordinate_evaluations": 68390504,
+        "total_explicit_coordinate_evaluations": 452949
+      }
+    },
+    {
+      "case": "late_near_miss",
+      "file": "late_near_miss.decoded.json",
+      "outputs": 0,
+      "metrics": {
+        "query_systems_solved": 71113,
+        "branch_candidates_generated": 71090,
+        "branch_candidate_coordinate_evaluations": 450835,
+        "branch_output_word_coordinate_evaluations": 0,
+        "final_whole_word_coordinate_evaluations": 0,
+        "branch_full_scan_coordinate_evaluations": 68388580,
+        "total_explicit_coordinate_evaluations": 450835
+      }
+    },
+    {
+      "case": "true_guard_mismatch",
+      "file": "true_guard_mismatch.decoded.json",
+      "outputs": 1,
+      "metrics": {
+        "query_systems_solved": 70892,
+        "branch_candidates_generated": 70866,
+        "branch_candidate_coordinate_evaluations": 1465386,
+        "branch_output_word_coordinate_evaluations": 962,
+        "final_whole_word_coordinate_evaluations": 1024,
+        "branch_full_scan_coordinate_evaluations": 68173092,
+        "total_explicit_coordinate_evaluations": 1467372
+      }
+    }
+  ],
+  "source_sha256": {
+    "conditional_pruning.py": "0e2a288cb1778fb1f8a10e6458920eb32f1e89303d39d020b30ead7a914898e8",
+    "conditional_verifier.py": "4f59795241db54d9bc24a73527da7187aef47855ccf632a36f581c6c8dbbdb92",
+    "../round14/arc_pruning.py": "f17ec68596ea342675d1a28b02d5f0ace859c2e04e8bcd3d15b5d1e5be9fbf4e",
+    "../round14/arc_filter_fast.py": "c2d1b1c51036571f268984926ae72a4fbe8dc841c57be0306ed05a437f379f94",
+    "../round14/arc_verifier.py": "9ba79cf5972907641693a8aa8a346bdcacb857ef04a1d606d9dd529ae10706e8"
+  },
+  "input_sha256": {
+    "boundary.conditional.json": "cd3f4361fdba585cff0e9606095cb14777747a4f31b8f6ac58ea496ead43824e",
+    "late_near_miss.conditional.json": "1dfa6c97b48264942d7442f2c4de80268241a5f8d73a31c1413f45712ea1a101",
+    "true_guard_mismatch.conditional.json": "11b6906369a6a79637f4d0aa8e104afaf29613e7ac25e0920e8761e22dbfc0d4"
+  },
+  "artifact_sha256": {
+    "boundary.decoded.json": "802c81088fd35dbd824c8e9a1779b4efdeaac452175c254b080274e1f7520858",
+    "late_near_miss.decoded.json": "9c4c247821ceca15034823b3bc000f9fa04d5088ef56cdf7b07d90ca8b0816b2",
+    "true_guard_mismatch.decoded.json": "5233f0b4573a04f9445eefb7501ad92d41f235df6f15b7d8f5b3d7c85c5d50a1"
+  }
+}

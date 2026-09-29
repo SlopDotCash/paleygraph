@@ -1,0 +1,1 @@
+{"status": "found", "attempts": 23, "dependent_queries_by_attempt": [2, 1, 2, 3, 2, 2, 2, 1, 1, 3, 3, 2, 1, 1, 2, 3, 3, 4, 2, 2, 2, 2, 0], "profile_queries": 136155, "complete_arc_partition_optimum_attained": true}

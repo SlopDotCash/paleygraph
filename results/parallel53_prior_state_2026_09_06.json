@@ -1,0 +1,17 @@
+{
+  "observed_at_utc": "2026-09-06T17:58:54.810666+00:00",
+  "previous_goal_turn_classification": "progress: exact cubic increment budgets, equality criterion, and independent cell/product evidence; no improved uniform bound",
+  "files": {
+    "experiments/parallel52_cubic_increments.py": "f60e98e148cab5767cde81c191cd35c0351d5d3df76e1da1f2734d2470cae523",
+    "research/parallel52-cubic-increments-2026-09-06.md": "4dd7e4a76c3070d4cfcf575b83b612b60a2de6f052a183c7332bf58a1c332e71",
+    "research/parallel52-pass-summary-2026-09-06.md": "f7140eb1d226d225e6285e08b9ff440854ce112d7d7845ec4c398205bb4aaab8",
+    "results/parallel52_prior_state_2026_09_06.json": "626c6c1f327d7b0478cc70553df11bfd6894649e5e36c70e53ed020a1c92f82b",
+    "results/parallel52_cubic_increments_2026_09_06.json": "0859f0ea2645f71b2d687a7f5176f8f45f6b6b66af3f19686249c9824d90db99",
+    "results/parallel52_source_scope_2026_09_06.json": "3c38cf4bc8cbeb0537d38025ba13545bb3bd215d6ab1a97068ed0c815c752f6c",
+    "README.md": "4097bf462328d0aa680f1e68b272c40ab0d97ab8c4d28b7f049fe554e5372900",
+    "research/frontier.md": "5542f9526547f7402774bbe93618b60250a5722d7dd1ed44dab1eaf8b65fd23a",
+    "research/source-audit.md": "f6c2554c27d23c49ed186049bd1923bdaf5de3ce8c649e9a792e24410ce90e8f",
+    "research/checkpoint-2026-09-04.md": "5202522adc11ed4db775f7363ee49541235de3e7ed51f3bbb2044a1e49e2dfc1"
+  },
+  "direction": "Return to the direct two-anchor spectral operator; recent tower refinements have not changed the uniform exponent."
+}

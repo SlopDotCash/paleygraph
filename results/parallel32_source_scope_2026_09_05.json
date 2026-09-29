@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-05T21:58:58.007488+00:00",
+  "mathematical_inputs": "Explicit periodic inverse, complex reverse triangle inequality, finite Fourier orthogonality, Cauchy-Schwarz, signed convolution, and finite-index multiplication. Full elementary argument included in the note.",
+  "local_input_sha256": {
+    "research/parallel31-short-multiples-2026-09-05.md": "0ef0f47aea857aea61da59c828dedfb3b472f5bcbe77d8d67be49ecd4f3bc328",
+    "results/parallel31_short_multiples_2026_09_05.json": "dbda8295da9bd2804abfe703091cd405915fa8599c4e41ab46e8e67864ca594f",
+    "research/parallel30-triangle-remainder-2026-09-05.md": "43669f2c9b9db9d43766455073d372e6aa21897e4087b706ea662322a30aa483"
+  },
+  "main_manifest_sha256": "bdd6f7ac239fee0c7f33e3721c33fe0e78e014ecf6adbd90bc1a108f4d347c41",
+  "primary_source_inventory_only": [
+    {
+      "url": "https://www.math.purdue.edu/~ishkredo/",
+      "use": "Current publication inventory read; no listed theorem imported or assessed as a new bound in this pass."
+    }
+  ],
+  "scope": "Uniform bound on minimum derivation length using one fixed triangle orbit, conditional on the target lying in its integer ideal. Not a count of short outputs, full Paley proof, or official prize certificate."
+}

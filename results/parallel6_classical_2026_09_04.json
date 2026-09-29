@@ -1,0 +1,769 @@
+{
+  "status": "Exact variance and typical-set SS fourth-moment bound; no uniform SS or Paley bound.",
+  "arithmetic": "Integer polynomial identities, exact subset enumeration, rational mean and variance.",
+  "symbolic_certificates": [
+    {
+      "epsilon": 1,
+      "factors": [
+        [
+          "cancelled_denominator",
+          0
+        ],
+        [
+          "cancelled_denominator",
+          1
+        ],
+        [
+          "cancelled_denominator",
+          5
+        ],
+        [
+          "n",
+          0
+        ],
+        [
+          "p-n",
+          0
+        ],
+        [
+          "n",
+          1
+        ],
+        [
+          "p-n",
+          1
+        ],
+        [
+          "n",
+          2
+        ],
+        [
+          "p-n",
+          2
+        ]
+      ],
+      "variance_polynomial_residual": {},
+      "mean_polynomial_residual": {},
+      "partitions_of_eight": 4140,
+      "raw_numerator_monomials": 66,
+      "remaining_numerator": [
+        [
+          0,
+          0,
+          216
+        ],
+        [
+          0,
+          2,
+          -360
+        ],
+        [
+          1,
+          0,
+          72
+        ],
+        [
+          1,
+          1,
+          360
+        ],
+        [
+          1,
+          2,
+          312
+        ],
+        [
+          2,
+          0,
+          -720
+        ],
+        [
+          2,
+          1,
+          -312
+        ],
+        [
+          2,
+          2,
+          72
+        ],
+        [
+          3,
+          0,
+          504
+        ],
+        [
+          3,
+          1,
+          -72
+        ],
+        [
+          3,
+          2,
+          -24
+        ],
+        [
+          4,
+          0,
+          -72
+        ],
+        [
+          4,
+          1,
+          24
+        ]
+      ]
+    },
+    {
+      "epsilon": -1,
+      "factors": [
+        [
+          "cancelled_denominator",
+          0
+        ],
+        [
+          "cancelled_denominator",
+          1
+        ],
+        [
+          "cancelled_denominator",
+          3
+        ],
+        [
+          "cancelled_denominator",
+          7
+        ],
+        [
+          "n",
+          0
+        ],
+        [
+          "p-n",
+          0
+        ],
+        [
+          "n",
+          1
+        ],
+        [
+          "p-n",
+          1
+        ],
+        [
+          "n",
+          2
+        ],
+        [
+          "p-n",
+          2
+        ]
+      ],
+      "variance_polynomial_residual": {},
+      "mean_polynomial_residual": {},
+      "partitions_of_eight": 4140,
+      "raw_numerator_monomials": 66,
+      "remaining_numerator": [
+        [
+          0,
+          0,
+          -216
+        ],
+        [
+          0,
+          2,
+          -24
+        ],
+        [
+          1,
+          1,
+          24
+        ],
+        [
+          1,
+          2,
+          -48
+        ],
+        [
+          2,
+          0,
+          144
+        ],
+        [
+          2,
+          1,
+          48
+        ],
+        [
+          2,
+          2,
+          -24
+        ],
+        [
+          3,
+          0,
+          -72
+        ],
+        [
+          3,
+          1,
+          24
+        ]
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "p": 11,
+      "fixed_size_classes": [
+        {
+          "n": 0,
+          "subsets": 1,
+          "mean": [
+            0,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 1,
+          "subsets": 11,
+          "mean": [
+            10,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 2,
+          "subsets": 55,
+          "mean": [
+            66,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 3,
+          "subsets": 165,
+          "mean": [
+            136,
+            1
+          ],
+          "variance": [
+            512,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 4,
+          "subsets": 330,
+          "mean": [
+            196,
+            1
+          ],
+          "variance": [
+            5376,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 5,
+          "subsets": 462,
+          "mean": [
+            230,
+            1
+          ],
+          "variance": [
+            74240,
+            7
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 6,
+          "subsets": 462,
+          "mean": [
+            230,
+            1
+          ],
+          "variance": [
+            74240,
+            7
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 7,
+          "subsets": 330,
+          "mean": [
+            196,
+            1
+          ],
+          "variance": [
+            5376,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 8,
+          "subsets": 165,
+          "mean": [
+            136,
+            1
+          ],
+          "variance": [
+            512,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 9,
+          "subsets": 55,
+          "mean": [
+            66,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 10,
+          "subsets": 11,
+          "mean": [
+            10,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 11,
+          "subsets": 1,
+          "mean": [
+            0,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "fixed_size_classes": [
+        {
+          "n": 0,
+          "subsets": 1,
+          "mean": [
+            0,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 1,
+          "subsets": 13,
+          "mean": [
+            12,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 2,
+          "subsets": 78,
+          "mean": [
+            82,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 3,
+          "subsets": 286,
+          "mean": [
+            1950,
+            11
+          ],
+          "variance": [
+            41472,
+            121
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 4,
+          "subsets": 715,
+          "mean": [
+            2988,
+            11
+          ],
+          "variance": [
+            4119552,
+            605
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 5,
+          "subsets": 1287,
+          "mean": [
+            3800,
+            11
+          ],
+          "variance": [
+            2159616,
+            121
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 6,
+          "subsets": 1716,
+          "mean": [
+            4242,
+            11
+          ],
+          "variance": [
+            3191040,
+            121
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 7,
+          "subsets": 1716,
+          "mean": [
+            4242,
+            11
+          ],
+          "variance": [
+            3191040,
+            121
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 8,
+          "subsets": 1287,
+          "mean": [
+            3800,
+            11
+          ],
+          "variance": [
+            2159616,
+            121
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 9,
+          "subsets": 715,
+          "mean": [
+            2988,
+            11
+          ],
+          "variance": [
+            4119552,
+            605
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 10,
+          "subsets": 286,
+          "mean": [
+            1950,
+            11
+          ],
+          "variance": [
+            41472,
+            121
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 11,
+          "subsets": 78,
+          "mean": [
+            82,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 12,
+          "subsets": 13,
+          "mean": [
+            12,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 13,
+          "subsets": 1,
+          "mean": [
+            0,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        }
+      ]
+    },
+    {
+      "p": 17,
+      "fixed_size_classes": [
+        {
+          "n": 0,
+          "subsets": 1,
+          "mean": [
+            0,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 1,
+          "subsets": 17,
+          "mean": [
+            16,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 2,
+          "subsets": 136,
+          "mean": [
+            114,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 3,
+          "subsets": 680,
+          "mean": [
+            1302,
+            5
+          ],
+          "variance": [
+            9216,
+            25
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 4,
+          "subsets": 2380,
+          "mean": [
+            2132,
+            5
+          ],
+          "variance": [
+            239616,
+            25
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 5,
+          "subsets": 6188,
+          "mean": [
+            588,
+            1
+          ],
+          "variance": [
+            2856960,
+            91
+          ],
+          "above_gaussian_three": 0
+        }
+      ]
+    },
+    {
+      "p": 19,
+      "fixed_size_classes": [
+        {
+          "n": 0,
+          "subsets": 1,
+          "mean": [
+            0,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 1,
+          "subsets": 19,
+          "mean": [
+            18,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 2,
+          "subsets": 171,
+          "mean": [
+            130,
+            1
+          ],
+          "variance": [
+            0,
+            1
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 3,
+          "subsets": 969,
+          "mean": [
+            5136,
+            17
+          ],
+          "variance": [
+            138240,
+            289
+          ],
+          "above_gaussian_three": 0
+        },
+        {
+          "n": 4,
+          "subsets": 3876,
+          "mean": [
+            8580,
+            17
+          ],
+          "variance": [
+            3214080,
+            289
+          ],
+          "above_gaussian_three": 0
+        }
+      ]
+    }
+  ],
+  "precise_slice_exception": {
+    "p": 1009,
+    "B": [
+      23,
+      44,
+      288,
+      319,
+      336,
+      393,
+      408,
+      485,
+      511,
+      599
+    ],
+    "U": [
+      1008,
+      997,
+      982,
+      736,
+      916,
+      535,
+      826,
+      312
+    ],
+    "n": 10,
+    "M4": 316554,
+    "gaussian_three": 302700,
+    "internal_square_sum": 34,
+    "R": [
+      279584502,
+      1007
+    ],
+    "D": [
+      39185376,
+      1007
+    ],
+    "mean": [
+      279250470,
+      1007
+    ],
+    "variance": [
+      681678128906095486814208,
+      5724257120422849
+    ]
+  },
+  "remainder_certificate": {
+    "expected_remainder_polynomial_residual": {}
+  },
+  "source_sha256": {
+    "research/parallel6-classical-2026-09-04.md": "b9c1cea861c8df6b99c0966f376c0f709bc974819650891ec903d0a43f28a9c6",
+    "experiments/parallel6_classical_2026_09_04.py": "63c7fdb85c0911d88ee04dd71f82503762557ee8905681b2886c91a48ef56e6a"
+  }
+}

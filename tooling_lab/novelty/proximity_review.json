@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-05",
+  "passed": true,
+  "brute_force_three_coefficient_jet_systems": 256,
+  "exhaustive_F3_RS31_pencils": 729,
+  "saved_track_replay": {
+    "stacks": 16,
+    "nodes": 95,
+    "tracks": 383
+  },
+  "scope": "Independent finite brute-force oracles and saved incidence replay, not full large-field census or Lean validation",
+  "source_hashes": {
+    "/Users/shawwalters/Desktop/paleygraph/tooling_lab/proximity/stack_provenance.py": "8bfc3b156b6cd76439789054f9fb322ee97a6da2b2d39e24f8e36c3188dc3575",
+    "/Users/shawwalters/Desktop/paleygraph/tooling_lab/proximity/verify_artifacts.py": "dbedb8dd3d8977837f6b5a0f38aa9f25026fc0a0bbebf80a604bb2692bcfd126",
+    "/Users/shawwalters/Desktop/paleygraph/tooling_lab/proximity/extension_field_probe.py": "735f9cb2fe80018adc95e97777e5f4720366b03a1324a6efda3f19ab8301127f",
+    "/Users/shawwalters/Desktop/paleygraph/tooling_lab/proximity/deformation_microscope.py": "555cae6b3d85584b6a3a50c5dc1c03f9238ab585dd19b9ff1c3b891d5efd4bf7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_sha256": {
+    "plot_results.py": "fb0c984c89107925386112664c8cddd28c2e4c3081eee209ed0358ddc2b69749"
+  },
+  "input_sha256": {
+    "rank_three_review.json": "273025f3e6ca238e80d81372226c8cf1ed2112f80bbd0341d53f3e20ccb6723a",
+    "rank_three_scale.json": "ceb49a14a113f41af9ce9b4cd4136d54272e6d8a5fe4cc8c6235bef9289df7eb",
+    "actual_results.json": "9cae3188c4b47c96cbd236a0341e2ed65dcc7813fb7b1c47d0d23360ed2526eb"
+  },
+  "figure_sha256": {
+    "overview.png": "6540bfbf73ee78fc68d17e5c85e2b7cce8cca2b6ecadfc4d61cadd89b953ab36",
+    "overview.pdf": "b396093eee3afc41adee69e636bf264a411c2d8d59fededc9d373958d288946a"
+  }
+}

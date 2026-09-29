@@ -1,0 +1,21 @@
+{
+  "status": "produced",
+  "candidate_caps": [
+    41472,
+    27648,
+    512
+  ],
+  "difference_sign_representatives": [
+    9841,
+    86,
+    0
+  ],
+  "input_sha256": {
+    "conditioned_summary.json": "f96beeb40c5a6eadc5b776a254a7d591264bcffd14bf143d4b21179874b3a9d2",
+    "metric_summary.json": "6b3e3cfb4b92a69d5f9f1541b4ffc9c63228ce13c82b02e8f6d8ac0e03e9181a",
+    "coupled_review.json": "a2170fbd1d95cdb5602c8041695e4280bddb72f33b22c6d6823c10082d57c7a4"
+  },
+  "source_sha256": {
+    "plot_results.py": "ed6aef490b0a36d67a94fd53cdc121a81730b0335134c1e6c7c6f81f072bd094"
+  }
+}

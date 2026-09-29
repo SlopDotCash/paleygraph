@@ -1,0 +1,20 @@
+{
+  "observed_at_utc": "2026-09-06T05:25:49.120462+00:00",
+  "mathematical_status": "source discrepancy unresolved; no adopted stronger bound; full goal unproved",
+  "rendered_and_viewed": "arxiv v3 PDF page 21, Theorem 34",
+  "blocked_fetches": [
+    "https://mjcnt.phystech.edu/en/published_volumes.php?i=3&v=3",
+    "https://mjcnt.phystech.edu/en/published_volumes.php?i=2&v=3"
+  ],
+  "arithmetic_assertions_passed": 5,
+  "artifacts": {
+    "sources/parallel37-energy-source/shkredov-1208.2344v3.html": "b7dd2989e3b80d55b0968eca1d8c2f06d446bbd68b52ca9682e2cdb9914d5e5b",
+    "sources/parallel37-energy-source/shkredov-1208.2344v3.pdf": "4c58aa703d8189c44eac08895358b9cba436f97f92a615edc88fa133c4294f86",
+    "research/parallel37-energy-source-audit-2026-09-06.md": "20359c8779adc0ab087c32ddedebc879dacdbb606d06bc7914f63de8fc00de04",
+    "research/lean-performance-2026-09-06.md": "9a1fba7bb2851fbfbaca7fe9809a03b24744d9ca6bacead8663b66dc45a1fbdb",
+    "results/lean_performance_live_2026_09_06.json": "daa131904978123f7818db66068b5b6d9420a0c1331ac0ed119f847bfddee026",
+    "results/lean_kernel_sample_2026_09_06.txt": "9de51080e470d46f299e56be479289da981fcbf21c01287459a3da1cdbb47e6d"
+  },
+  "final_lean_process": "PID ELAPSED      TIME  %CPU    RSS STAT COMM\n13687   09:21   9:26.54  99.3 16844528 R+   lean",
+  "current_lean_exit_file_present": false
+}

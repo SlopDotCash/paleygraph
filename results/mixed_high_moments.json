@@ -1,0 +1,1078 @@
+{
+  "status": "passed; uniform product-moment and Paley bounds unproved",
+  "source_and_input_sha256": {
+    "experiments/mixed_high_moments.py": "e70a49ec6014e6136bc90961d3a43a2a40d86dc4cc2007ad219643fff3133f31",
+    "experiments/quotient_moments.py": "6e7a4de1c94171cd8a987645cec46eaa5547ead5829b6ab966314d1173ecc110",
+    "experiments/kernel_discriminant.py": "bbced3a3416735e4be56268d214c1f0d10263c4a97af42a980a23530de471f93",
+    "experiments/paley_exact.py": "dc49be40d787a8a8bb7eb638b4ea8574de60330f3000d2de9f08ab30c00c3b8c",
+    "experiments/cyclotomic_norm_audit.py": "45b838bacab2a9cc21c550f64d92782fd653537f2ac4e26f005bc790ffdb8288",
+    "results/quotient_moments.json": "8e49bc8fa46f4cbbd35c07afc359c1b06bd0b6c24a7c893cb3391b3eb6cd0fba"
+  },
+  "numpy_version": "2.4.4",
+  "dense_validation_towers": [
+    {
+      "p": 17,
+      "n": 16,
+      "generator": 3,
+      "q": 8,
+      "levels": [
+        {
+          "p": 17,
+          "child_order": 2,
+          "parent_order": 4,
+          "coset_generator": 13,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 2,
+              "centered_numerator": -4,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 2,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 4,
+              "pure_additive_energy_at_order_q": 6,
+              "centered_numerator": 52,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 4,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 2,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 20,
+              "centered_numerator": -64,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 4,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 36,
+              "pure_additive_energy_at_order_q": 70,
+              "centered_numerator": 356,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 36,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 6,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 20,
+              "pure_additive_energy_at_order_q": 252,
+              "centered_numerator": -684,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 20,
+              "int64_pre_step_bound": 12,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 400,
+              "pure_additive_energy_at_order_q": 924,
+              "centered_numerator": 2704,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 400,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 20,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 588,
+              "pure_additive_energy_at_order_q": 3432,
+              "centered_numerator": -6388,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 588,
+              "int64_pre_step_bound": 40,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 5124,
+              "pure_additive_energy_at_order_q": 12870,
+              "centered_numerator": 21572,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 4900,
+              "extra_over_complex": 224,
+              "int64_pre_step_bound": 70,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": null
+        },
+        {
+          "p": 17,
+          "child_order": 4,
+          "parent_order": 8,
+          "coset_generator": 9,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 4,
+              "centered_numerator": -16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 4,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 16,
+              "pure_additive_energy_at_order_q": 36,
+              "centered_numerator": 16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 16,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 4,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 240,
+              "pure_additive_energy_at_order_q": 400,
+              "centered_numerator": -16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 240,
+              "int64_pre_step_bound": 16,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 3856,
+              "pure_additive_energy_at_order_q": 5124,
+              "centered_numerator": 16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 1296,
+              "extra_over_complex": 2560,
+              "int64_pre_step_bound": 36,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 61680,
+              "pure_additive_energy_at_order_q": 72084,
+              "centered_numerator": -16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 61680,
+              "int64_pre_step_bound": 144,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 986896,
+              "pure_additive_energy_at_order_q": 1073424,
+              "centered_numerator": 16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 160000,
+              "extra_over_complex": 826896,
+              "int64_pre_step_bound": 400,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 15790320,
+              "pure_additive_energy_at_order_q": 16515412,
+              "centered_numerator": -16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 15790320,
+              "int64_pre_step_bound": 1600,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 252645136,
+              "pure_additive_energy_at_order_q": 258744132,
+              "centered_numerator": 16,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 24010000,
+              "extra_over_complex": 228635136,
+              "int64_pre_step_bound": 5124,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": {
+            "value": "-1",
+            "variance": 0,
+            "positive_part_identically_zero": true
+          }
+        },
+        {
+          "p": 17,
+          "child_order": 8,
+          "parent_order": 16,
+          "coset_generator": 3,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 8,
+              "centered_numerator": -64,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 8,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 256,
+              "pure_additive_energy_at_order_q": 264,
+              "centered_numerator": 256,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 64,
+              "extra_over_complex": 192,
+              "int64_pre_step_bound": 8,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 15360,
+              "pure_additive_energy_at_order_q": 15560,
+              "centered_numerator": -1024,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 15360,
+              "int64_pre_step_bound": 64,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 987136,
+              "pure_additive_energy_at_order_q": 987784,
+              "centered_numerator": 4096,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 28224,
+              "extra_over_complex": 958912,
+              "int64_pre_step_bound": 264,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 63160320,
+              "pure_additive_energy_at_order_q": 63167048,
+              "centered_numerator": -16384,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 63160320,
+              "int64_pre_step_bound": 2112,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 4042326016,
+              "pure_additive_energy_at_order_q": 4042359816,
+              "centered_numerator": 65536,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 26214400,
+              "extra_over_complex": 4016111616,
+              "int64_pre_step_bound": 15560,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 258708602880,
+              "pure_additive_energy_at_order_q": 258708864968,
+              "centered_numerator": -262144,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 258708602880,
+              "int64_pre_step_bound": 124480,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 16557351632896,
+              "pure_additive_energy_at_order_q": 16557353188744,
+              "centered_numerator": 1048576,
+              "nonprincipal_denominator": 16,
+              "intrinsic_complex_count": 36145614400,
+              "extra_over_complex": 16521206018496,
+              "int64_pre_step_bound": 987784,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": {
+            "value": "-4",
+            "variance": 0,
+            "positive_part_identically_zero": true
+          }
+        }
+      ],
+      "whole_tower_CM_C1_checked": true
+    },
+    {
+      "p": 97,
+      "n": 32,
+      "generator": 28,
+      "q": 8,
+      "levels": [
+        {
+          "p": 97,
+          "child_order": 2,
+          "parent_order": 4,
+          "coset_generator": 22,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 2,
+              "centered_numerator": -4,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 2,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 4,
+              "pure_additive_energy_at_order_q": 6,
+              "centered_numerator": 372,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 4,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 2,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 20,
+              "centered_numerator": -64,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 4,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 36,
+              "pure_additive_energy_at_order_q": 70,
+              "centered_numerator": 3236,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 36,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 6,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 252,
+              "centered_numerator": -1024,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 12,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 400,
+              "pure_additive_energy_at_order_q": 924,
+              "centered_numerator": 34704,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 400,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 20,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 3432,
+              "centered_numerator": -16384,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 40,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 4900,
+              "pure_additive_energy_at_order_q": 12870,
+              "centered_numerator": 409764,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 4900,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 70,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": null
+        },
+        {
+          "p": 97,
+          "child_order": 4,
+          "parent_order": 8,
+          "coset_generator": 64,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 4,
+              "centered_numerator": -16,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 4,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 16,
+              "pure_additive_energy_at_order_q": 36,
+              "centered_numerator": 1296,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 16,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 4,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 400,
+              "centered_numerator": -4096,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 16,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 1296,
+              "pure_additive_energy_at_order_q": 4900,
+              "centered_numerator": 60176,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 1296,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 36,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 8080,
+              "pure_additive_energy_at_order_q": 63504,
+              "centered_numerator": -264816,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 8080,
+              "int64_pre_step_bound": 144,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 204688,
+              "pure_additive_energy_at_order_q": 853776,
+              "centered_numerator": 3077520,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 160000,
+              "extra_over_complex": 44688,
+              "int64_pre_step_bound": 400,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 2604056,
+              "pure_additive_energy_at_order_q": 11778624,
+              "centered_numerator": -15842024,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 2604056,
+              "int64_pre_step_bound": 1600,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 45946768,
+              "pure_additive_energy_at_order_q": 165636900,
+              "centered_numerator": 161869200,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 24010000,
+              "extra_over_complex": 21936768,
+              "int64_pre_step_bound": 4900,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": null
+        },
+        {
+          "p": 97,
+          "child_order": 8,
+          "parent_order": 16,
+          "coset_generator": 8,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 8,
+              "centered_numerator": -64,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 8,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 64,
+              "pure_additive_energy_at_order_q": 168,
+              "centered_numerator": 2112,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 64,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 8,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 2736,
+              "pure_additive_energy_at_order_q": 5600,
+              "centered_numerator": 3248,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 2736,
+              "int64_pre_step_bound": 64,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 173952,
+              "pure_additive_energy_at_order_q": 248808,
+              "centered_numerator": 96128,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 28224,
+              "extra_over_complex": 145728,
+              "int64_pre_step_bound": 168,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 11073040,
+              "pure_additive_energy_at_order_q": 13182288,
+              "centered_numerator": 343056,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 11073040,
+              "int64_pre_step_bound": 1344,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 708503632,
+              "pure_additive_energy_at_order_q": 769191456,
+              "centered_numerator": 5375568,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 26214400,
+              "extra_over_complex": 682289232,
+              "int64_pre_step_bound": 5600,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 45340956640,
+              "pure_additive_energy_at_order_q": 47116251624,
+              "centered_numerator": 26282976,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 45340956640,
+              "int64_pre_step_bound": 44800,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 2901807157120,
+              "pure_additive_energy_at_order_q": 2954169124968,
+              "centered_numerator": 317529984,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 36145614400,
+              "extra_over_complex": 2865661542720,
+              "int64_pre_step_bound": 248808,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": null
+        },
+        {
+          "p": 97,
+          "child_order": 16,
+          "parent_order": 32,
+          "coset_generator": 28,
+          "q_checked": 8,
+          "dense_crosscheck": true,
+          "moments": [
+            {
+              "q": 1,
+              "balanced_zero_count": 0,
+              "pure_additive_energy_at_order_q": 16,
+              "centered_numerator": -256,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 0,
+              "int64_pre_step_bound": 16,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 2,
+              "balanced_zero_count": 832,
+              "pure_additive_energy_at_order_q": 1104,
+              "centered_numerator": 15168,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 256,
+              "extra_over_complex": 576,
+              "int64_pre_step_bound": 16,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 3,
+              "balanced_zero_count": 170784,
+              "pure_additive_energy_at_order_q": 191680,
+              "centered_numerator": -211168,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 170784,
+              "int64_pre_step_bound": 256,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 4,
+              "balanced_zero_count": 44328512,
+              "pure_additive_energy_at_order_q": 45157840,
+              "centered_numerator": 4898368,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 518400,
+              "extra_over_complex": 43810112,
+              "int64_pre_step_bound": 1104,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 5,
+              "balanced_zero_count": 11334260320,
+              "pure_additive_energy_at_order_q": 11377186176,
+              "centered_numerator": -88376736,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 11334260320,
+              "int64_pre_step_bound": 17664,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 6,
+              "balanced_zero_count": 2901822371488,
+              "pure_additive_energy_at_order_q": 2903817489408,
+              "centered_numerator": 1793323680,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 2556313600,
+              "extra_over_complex": 2899266057888,
+              "int64_pre_step_bound": 191680,
+              "CM_C1_at_even_order": true
+            },
+            {
+              "q": 7,
+              "balanced_zero_count": 742861439882912,
+              "pure_additive_energy_at_order_q": 742958382288096,
+              "centered_numerator": -34369285472,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 0,
+              "extra_over_complex": 742861439882912,
+              "int64_pre_step_bound": 3066880,
+              "CM_C1_at_even_order": null
+            },
+            {
+              "q": 8,
+              "balanced_zero_count": 190172626295605568,
+              "pure_additive_energy_at_order_q": 190177253430698448,
+              "centered_numerator": 676964188480,
+              "nonprincipal_denominator": 96,
+              "intrinsic_complex_count": 21619524102400,
+              "extra_over_complex": 190151006771503168,
+              "int64_pre_step_bound": 45157840,
+              "CM_C1_at_even_order": true
+            }
+          ],
+          "CM_C1_at_requested_order": true,
+          "constant_negative_product_certificate": null
+        }
+      ],
+      "whole_tower_CM_C1_checked": true
+    }
+  ],
+  "critical_depth_target_tower": {
+    "p": 6700417,
+    "n": 64,
+    "generator": 2,
+    "q": 12,
+    "levels": [
+      {
+        "child_order": 2,
+        "parent_order": 4,
+        "q": 12,
+        "certificate": "Pointwise |eta_K eta_gK| <= k^2 <= q*k",
+        "CM_C1_at_requested_order": true
+      },
+      {
+        "child_order": 4,
+        "parent_order": 8,
+        "q": 12,
+        "certificate": "Pointwise |eta_K eta_gK| <= k^2 <= q*k",
+        "CM_C1_at_requested_order": true
+      },
+      {
+        "child_order": 8,
+        "parent_order": 16,
+        "q": 12,
+        "certificate": "Pointwise |eta_K eta_gK| <= k^2 <= q*k",
+        "CM_C1_at_requested_order": true
+      },
+      {
+        "p": 6700417,
+        "child_order": 16,
+        "parent_order": 32,
+        "coset_generator": 4,
+        "q_checked": 12,
+        "dense_crosscheck": false,
+        "moments": [
+          {
+            "q": 1,
+            "balanced_zero_count": 0,
+            "pure_additive_energy_at_order_q": 16,
+            "centered_numerator": -256,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 0,
+            "int64_pre_step_bound": 16,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 2,
+            "balanced_zero_count": 256,
+            "pure_additive_energy_at_order_q": 720,
+            "centered_numerator": 1715241216,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 256,
+            "extra_over_complex": 0,
+            "int64_pre_step_bound": 16,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 3,
+            "balanced_zero_count": 0,
+            "pure_additive_energy_at_order_q": 50560,
+            "centered_numerator": -16777216,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 0,
+            "int64_pre_step_bound": 256,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 4,
+            "balanced_zero_count": 518400,
+            "pure_additive_energy_at_order_q": 4649680,
+            "centered_numerator": 3469201205504,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 518400,
+            "extra_over_complex": 0,
+            "int64_pre_step_bound": 720,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 5,
+            "balanced_zero_count": 143360,
+            "pure_additive_energy_at_order_q": 514031616,
+            "centered_numerator": -138939846656,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 143360,
+            "int64_pre_step_bound": 11520,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 6,
+            "balanced_zero_count": 2562534400,
+            "pure_additive_energy_at_order_q": 64941883776,
+            "centered_numerator": 16888574080134144,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 2556313600,
+            "extra_over_complex": 6220800,
+            "int64_pre_step_bound": 50560,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 7,
+            "balanced_zero_count": 11006249856,
+            "pure_additive_energy_at_order_q": 9071319628800,
+            "centered_numerator": 1688869603462016,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 11006249856,
+            "int64_pre_step_bound": 808960,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 8,
+            "balanced_zero_count": 23178892414720,
+            "pure_additive_energy_at_order_q": 1369263687414480,
+            "centered_numerator": 136861500703051386624,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 21619524102400,
+            "extra_over_complex": 1559368312320,
+            "int64_pre_step_bound": 4649680,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 9,
+            "balanced_zero_count": 688706491576320,
+            "pure_additive_energy_at_order_q": 219705672931613440,
+            "centered_numerator": -107745798701313888256,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 688706491576320,
+            "int64_pre_step_bound": 74394880,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 10,
+            "balanced_zero_count": 409457473011972096,
+            "pure_additive_energy_at_order_q": 37024402443528248320,
+            "centered_numerator": 1534609993331829860857856,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 264228502247571456,
+            "extra_over_complex": 145228970764400640,
+            "int64_pre_step_bound": 514031616,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 11,
+            "balanced_zero_count": 45031823751956433920,
+            "pure_additive_energy_at_order_q": 6493816651369598853120,
+            "centered_numerator": -7753012412732395627836416,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 45031823751956433920,
+            "int64_pre_step_bound": 8224505856,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 12,
+            "balanced_zero_count": 15017051898500251066368,
+            "pure_additive_energy_at_order_q": 1177308924817459278033280,
+            "centered_numerator": 21392347316329019155816325120,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 4217448268375492018176,
+            "extra_over_complex": 10799603630124759048192,
+            "int64_pre_step_bound": 64941883776,
+            "CM_C1_at_even_order": true
+          }
+        ],
+        "CM_C1_at_requested_order": true,
+        "constant_negative_product_certificate": null
+      },
+      {
+        "p": 6700417,
+        "child_order": 32,
+        "parent_order": 64,
+        "coset_generator": 2,
+        "q_checked": 12,
+        "dense_crosscheck": false,
+        "moments": [
+          {
+            "q": 1,
+            "balanced_zero_count": 0,
+            "pure_additive_energy_at_order_q": 32,
+            "centered_numerator": -1024,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 0,
+            "int64_pre_step_bound": 32,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 2,
+            "balanced_zero_count": 1024,
+            "pure_additive_energy_at_order_q": 2976,
+            "centered_numerator": 6860178432,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 1024,
+            "extra_over_complex": 0,
+            "int64_pre_step_bound": 32,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 3,
+            "balanced_zero_count": 26112,
+            "pure_additive_energy_at_order_q": 446720,
+            "centered_numerator": 173887546880,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 26112,
+            "int64_pre_step_bound": 1024,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 4,
+            "balanced_zero_count": 11677184,
+            "pure_additive_energy_at_order_q": 90898080,
+            "centered_numerator": 77142490557952,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 8856576,
+            "extra_over_complex": 2820608,
+            "int64_pre_step_bound": 2976,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 5,
+            "balanced_zero_count": 1813877760,
+            "pure_additive_energy_at_order_q": 23055888672,
+            "centered_numerator": 11027837472183296,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 1813877760,
+            "int64_pre_step_bound": 95232,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 6,
+            "balanced_zero_count": 716321167360,
+            "pure_additive_energy_at_order_q": 6970216230912,
+            "centered_numerator": 3646729022631942144,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 199558758400,
+            "extra_over_complex": 516762408960,
+            "int64_pre_step_bound": 446720,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 7,
+            "balanced_zero_count": 337602173178368,
+            "pure_additive_energy_at_order_q": 2467412582863904,
+            "centered_numerator": 1081483719683869676032,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 337602173178368,
+            "int64_pre_step_bound": 14295040,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 8,
+            "balanced_zero_count": 240355312111481344,
+            "pure_additive_energy_at_order_q": 1032575159826314400,
+            "centered_numerator": 401554999697446317814272,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 8260832134374400,
+            "extra_over_complex": 232094479977106944,
+            "int64_pre_step_bound": 90898080,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 9,
+            "balanced_zero_count": 208020479701688426496,
+            "pure_additive_energy_at_order_q": 527032710166324524800,
+            "centered_numerator": 155883919255967786697924608,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 208020479701688426496,
+            "int64_pre_step_bound": 2908738560,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 10,
+            "balanced_zero_count": 198884062022744498781184,
+            "pure_additive_energy_at_order_q": 335220417313274537331616,
+            "centered_numerator": 64955549978022224793221348352,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 529595703482101530624,
+            "extra_over_complex": 198354466319262397250560,
+            "int64_pre_step_bound": 23055888672,
+            "CM_C1_at_even_order": true
+          },
+          {
+            "q": 11,
+            "balanced_zero_count": 197911827198036755049889280,
+            "pure_additive_energy_at_order_q": 259075424434866194118650400,
+            "centered_numerator": 28017556825080933028489897524736,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 0,
+            "extra_over_complex": 197911827198036755049889280,
+            "int64_pre_step_bound": 737788437504,
+            "CM_C1_at_even_order": null
+          },
+          {
+            "q": 12,
+            "balanced_zero_count": 200236162188167876951130732032,
+            "pure_additive_energy_at_order_q": 228753294342573574145761334784,
+            "centered_numerator": 12437789355441368673457465849312768,
+            "nonprincipal_denominator": 6700416,
+            "intrinsic_complex_count": 47497516627922325969371136,
+            "extra_over_complex": 200188664671539954625161360896,
+            "int64_pre_step_bound": 6970216230912,
+            "CM_C1_at_even_order": true
+          }
+        ],
+        "CM_C1_at_requested_order": true,
+        "constant_negative_product_certificate": null
+      }
+    ],
+    "whole_tower_CM_C1_checked": true,
+    "q_is_smallest_even_integer_at_least_log_index": true,
+    "existing_q_moment_conclusion_checked": true
+  },
+  "forced_extra_balanced_relations": {
+    "q": 6,
+    "minimum_dyadic_child_order": 64,
+    "minimum_parent_order": 128,
+    "base_intrinsic_single_color_count": 3750400,
+    "base_intrinsic_balanced_count": 14065500160000,
+    "base_principal_lower_bound_at_p_equal_parent_fourth_power": 17592186044416,
+    "base_forced_extra_count_at_least": 3526685884416,
+    "strict_integer_margin": 946687533551972253696,
+    "scope": "All dyadic k>=64 and all eligible primes p<=(2k)^4",
+    "known_quartic_prime_witness": {
+      "p": 67403009,
+      "parent_order": 128,
+      "balanced_count_lower_bound": 70061656785525,
+      "complex_count": 14065500160000,
+      "forced_extra_count_at_least": 55996156625525
+    }
+  }
+}

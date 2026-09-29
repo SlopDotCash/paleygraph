@@ -1,0 +1,18 @@
+{
+  "problems": [
+    {
+      "theorem_name": "paley_projection_survival_count",
+      "theorem_title": "Exact finite count from projection survival",
+      "formal_statement": "theorem paley_projection_survival_count {\u03b1 \u03b2 : Type*} (S : Finset \u03b1) (P : Finset \u03b2)\n    (R : \u03b1 \u2192 \u03b2 \u2192 Prop) [\u2200 a b, Decidable (R a b)]\n    (q t K : \u2115) (hq : 2 \u2264 q) (ht : 1 \u2264 t) (hK : K < q)\n    (hP : P.card + 1 = q * t)\n    (hS : \u2200 a \u2208 S, (q - 1) * t \u2264 (P.bipartiteAbove R a).card)\n    (hcap : \u2200 b \u2208 P, (S.bipartiteBelow R b).card \u2264 K) :\n    S.card \u2264 K := by sorry",
+      "natural_language_statement": "Let $S$ and $P$ be finite sets and let $R\\subseteq S\\times P$ be a relation. Suppose $q,t,K$ are natural numbers with $q\\ge2$, $t\\ge1$, and $K<q$. Assume $|P|+1=qt$, every element of $S$ is related to at least $(q-1)t$ elements of $P$, and every element of $P$ is related to at most $K$ elements of $S$. Then\n\n$$|S|\\le K.$$\n\nThe assertion includes empty $S$, $K=0$, $t=1$, and $K=q-1$. It supplies the exact integer-count step in nonzero projection arguments. The incidence hypotheses are explicit; finite-field projection counts and code-theoretic witnesses are not part of this statement.",
+      "preamble": "import Mathlib.Combinatorics.Enumerative.DoubleCounting\nimport Mathlib.Tactic.Linarith\nimport Lean.Elab.Tactic.Omega\n\nopen Finset",
+      "source": "Paleygraph research, Finite counting lemma for the projection reduction, 2026-09-05, Section 1 (research/prove2me-projection-count-2026-09-05.md); extracted from Section 2, equations (2)-(3), of research/parallel25-prize-projection-2026-09-05.md. Elementary project derivation; no literature novelty claim.",
+      "tags": [
+        "combinatorics",
+        "coding-theory"
+      ]
+    }
+  ],
+  "env": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+  "private": true
+}

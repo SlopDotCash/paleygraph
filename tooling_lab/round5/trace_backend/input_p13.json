@@ -1,0 +1,7 @@
+{
+  "p": 13,
+  "family": "prime Paley",
+  "degree": 6,
+  "parameter_normalization": "ordered rows (0,1,t), t!=0,1",
+  "trace_sign": "tau=-FrobeniusTrace"
+}

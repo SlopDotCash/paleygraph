@@ -1,0 +1,27 @@
+{
+  "original_source": "/private/tmp/queryphase-preservation-v19.lean",
+  "original_sha256": "138b2b0eb454e2b0010b59fe92462ef41f21496a93d68c624a493182cf740abb",
+  "files": {
+    "prefix": {
+      "path": "/private/tmp/paley-queryphase-benchmark-20260906-0845/queryphase-prefix.lean",
+      "sha256": "883f0b13c4720e4b85bb1cc0857b88328f2b5b3873088f437d7d7621339b899c"
+    },
+    "positive": {
+      "path": "/private/tmp/paley-queryphase-benchmark-20260906-0845/queryphase-positive.lean",
+      "sha256": "a19935f3101acd602db17c32479b7941767f0fcd75bd79dc9123da5037faf280"
+    },
+    "zero": {
+      "path": "/private/tmp/paley-queryphase-benchmark-20260906-0845/queryphase-zero.lean",
+      "sha256": "46257c0b60ae251fae1cad03a1d6638ccf4438ec3347c313b67116bc49c26142"
+    },
+    "combined": {
+      "path": "/private/tmp/paley-queryphase-benchmark-20260906-0845/queryphase-combined.lean",
+      "sha256": "e01069801eda7ee8b7de9733618a245b348bc0acf746255642b7d7b67b25e1f7"
+    }
+  },
+  "source_branches_preserved": true,
+  "original_wrapper_signature_preserved": true,
+  "lean_validated": false,
+  "benchmarked": false,
+  "existing_job_changed": false
+}

@@ -1,0 +1,453 @@
+{
+  "status": "passed",
+  "literal_global_subsets_checked": 65536,
+  "small_query_avoiding_subset_histogram": [
+    1,
+    16,
+    120,
+    550,
+    1696,
+    3660,
+    5577,
+    5904,
+    4140,
+    1728,
+    324,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "exact_query_family_threshold_checked": 11,
+  "corrupted_certificates_rejected": [
+    "missing_coordinate",
+    "overlapping_blocks",
+    "missing_query",
+    "duplicate_query",
+    "query_outside_block",
+    "false_local_capacity",
+    "false_histogram",
+    "false_witness",
+    "false_total_capacity",
+    "false_query_count",
+    "threshold_at_avoiding_capacity",
+    "dependent_basis",
+    "duplicate_domain",
+    "nonprime_field",
+    "degree_violation"
+  ],
+  "transformation_controls": [
+    {
+      "status": "verified",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "blocks_checked": 5,
+      "queries_rank_checked": 10,
+      "literal_local_subsets_checked": 52,
+      "maximum_query_avoiding_set": 10,
+      "query_avoiding_witness": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "minimum_guaranteed_agreement": 11,
+      "scope": "Deterministic query coverage in the declared affine space for every received word. No claim of a smallest query family or guaranteed construction on other spaces."
+    },
+    {
+      "status": "verified",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "blocks_checked": 5,
+      "queries_rank_checked": 10,
+      "literal_local_subsets_checked": 52,
+      "maximum_query_avoiding_set": 10,
+      "query_avoiding_witness": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "minimum_guaranteed_agreement": 11,
+      "scope": "Deterministic query coverage in the declared affine space for every received word. No claim of a smallest query family or guaranteed construction on other spaces."
+    }
+  ],
+  "common_root_control": {
+    "certificate": {
+      "schema": "affine_rank_three_query_cover_v1",
+      "input": {
+        "p": 17,
+        "n": 16,
+        "k": 8,
+        "s": 11,
+        "domain": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "origin": [],
+        "basis": [
+          [
+            0,
+            7,
+            1,
+            1,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            7,
+            1,
+            1,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            7,
+            1,
+            1,
+            7,
+            1
+          ]
+        ]
+      },
+      "blocks": [
+        {
+          "coordinates": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "queries": [],
+          "no_query_capacity": 5,
+          "no_query_witness": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "no_query_subset_histogram": [
+            1,
+            5,
+            10,
+            10,
+            5,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "queries": [
+            [
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              6,
+              8
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              5,
+              7,
+              8
+            ],
+            [
+              5,
+              7,
+              9
+            ],
+            [
+              5,
+              8,
+              9
+            ],
+            [
+              6,
+              7,
+              8
+            ],
+            [
+              6,
+              7,
+              9
+            ],
+            [
+              6,
+              8,
+              9
+            ],
+            [
+              7,
+              8,
+              9
+            ]
+          ],
+          "no_query_capacity": 2,
+          "no_query_witness": [
+            5,
+            6
+          ],
+          "no_query_subset_histogram": [
+            1,
+            5,
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coordinates": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "queries": [
+            [
+              10,
+              11,
+              12
+            ],
+            [
+              10,
+              11,
+              13
+            ],
+            [
+              10,
+              11,
+              14
+            ],
+            [
+              10,
+              11,
+              15
+            ],
+            [
+              10,
+              12,
+              13
+            ],
+            [
+              10,
+              12,
+              14
+            ],
+            [
+              10,
+              12,
+              15
+            ],
+            [
+              10,
+              13,
+              14
+            ],
+            [
+              10,
+              13,
+              15
+            ],
+            [
+              10,
+              14,
+              15
+            ],
+            [
+              11,
+              12,
+              13
+            ],
+            [
+              11,
+              12,
+              14
+            ],
+            [
+              11,
+              12,
+              15
+            ],
+            [
+              11,
+              13,
+              14
+            ],
+            [
+              11,
+              13,
+              15
+            ],
+            [
+              11,
+              14,
+              15
+            ],
+            [
+              12,
+              13,
+              14
+            ],
+            [
+              12,
+              13,
+              15
+            ],
+            [
+              12,
+              14,
+              15
+            ],
+            [
+              13,
+              14,
+              15
+            ]
+          ],
+          "no_query_capacity": 2,
+          "no_query_witness": [
+            10,
+            11
+          ],
+          "no_query_subset_histogram": [
+            1,
+            6,
+            15,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "query_count": 30,
+      "no_query_capacity": 9,
+      "guarantee": "Every coordinate set of size at least s contains a listed independent triple. The queries recover every nearby member of this supplied affine space for every received word."
+    },
+    "review": {
+      "status": "verified",
+      "p": 17,
+      "n": 16,
+      "k": 8,
+      "s": 11,
+      "blocks_checked": 3,
+      "queries_rank_checked": 30,
+      "literal_local_subsets_checked": 128,
+      "maximum_query_avoiding_set": 9,
+      "query_avoiding_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "minimum_guaranteed_agreement": 10,
+      "scope": "Deterministic query coverage in the declared affine space for every received word. No claim of a smallest query family or guaranteed construction on other spaces."
+    }
+  },
+  "search_exhaustion_control": {
+    "status": "not_found",
+    "seed": 1306,
+    "attempts": 1,
+    "best_capacity": 16,
+    "scope": "Search exhaustion proves no impossibility statement."
+  },
+  "invalid_partition_and_received_controls": 4,
+  "toy_received_words_exhausted": 3125,
+  "toy_space_members": 125,
+  "toy_list_size_histogram": [
+    [
+      1,
+      125
+    ],
+    [
+      7,
+      2500
+    ],
+    [
+      10,
+      500
+    ]
+  ],
+  "toy_queries_independently_replayed": 31250,
+  "corrupted_runs_rejected": [
+    "missing_output",
+    "wrong_parameters",
+    "wrong_polynomial",
+    "bad_agreement",
+    "false_query_count",
+    "false_candidate_count"
+  ],
+  "source_sha256": {
+    "controls.py": "c2d69e6d274400ca4ffe1f3722fdb56e445558f8e7bfe3a95509bcad5aee8dbf",
+    "query_cover.py": "741ed1ae6e16bf75b02396ceda643fa58943e83eb3beb4e30995619a8bbddfb8",
+    "cover_verifier.py": "0ec1396fe0ce7ec7138403a03bee6d4524b570671558d0725ea0de694f162a13",
+    "deterministic_pruning.py": "a3d4dbd2d1ac4ed427c054e981ad8a204a64c1024125d4a1fce6df3673214793",
+    "pruning_review.py": "bcecc958fb66006dbf2808ad635cc939bee60e407e7a83f2f86442d7dc6d8d39"
+  },
+  "input_sha256": {
+    "small.certificate.json": "26d1a5d6be80f46f47ed42c18f2cb8b3f2f1d30e2ef4a3360687cf8311ec4fed",
+    "full_length.certificate.json": "d69b8739d6082eb9646f296035fa32b04155223c536cba16d72956dba44347ac",
+    "actual_results.json": "7a1681ff070a527a94dd8008c32da32c1cece9077cdaaa74cf8cd2c0bc6ba904",
+    "../round12/common_roots.certificate.json": "b604f67d1e33ec48829d318964cb82dc9da866cc9adf00f1aa18c9706af40a04"
+  }
+}

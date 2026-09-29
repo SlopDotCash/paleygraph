@@ -1,0 +1,404 @@
+{
+  "tiny": {
+    "cases": 120,
+    "direct_neighbour_targets": 6432,
+    "matrix_prime_backend_equalities": 120
+  },
+  "collision_search": {
+    "q": 17,
+    "n": 6,
+    "degree": 6,
+    "normalization": "All sets containing 0 and 1, not all affine equivalence classes.",
+    "all_set_targets_cached": 12376,
+    "normalized_inputs": 1365,
+    "histogram_fibres": 70,
+    "ambiguous_variance_fibres": 12,
+    "direct_neighbour_targets": 90090,
+    "witness": {
+      "lower": {
+        "q": 17,
+        "n": 6,
+        "degree": 6,
+        "selected": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          9
+        ],
+        "target": -1,
+        "neighbour_count": 66,
+        "delta_mean": [
+          34,
+          33
+        ],
+        "delta_second_moment": [
+          104,
+          11
+        ],
+        "neighbour_mean": [
+          1,
+          33
+        ],
+        "neighbour_second_moment": [
+          277,
+          33
+        ],
+        "neighbour_variance": [
+          9140,
+          1089
+        ],
+        "internal_contraction": [
+          [
+            -1,
+            2,
+            6,
+            -2,
+            -8,
+            -2
+          ],
+          [
+            2,
+            -1,
+            -2,
+            0,
+            6,
+            6
+          ],
+          [
+            6,
+            -2,
+            -1,
+            -8,
+            0,
+            -4
+          ],
+          [
+            -4,
+            2,
+            -6,
+            -1,
+            4,
+            4
+          ],
+          [
+            -6,
+            4,
+            2,
+            4,
+            -1,
+            -4
+          ],
+          [
+            -2,
+            6,
+            -4,
+            6,
+            -2,
+            -1
+          ]
+        ],
+        "deletion_records": [
+          {
+            "point": 0,
+            "insertion_sum": -4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 16,
+            "delta_square_sum": 96
+          },
+          {
+            "point": 1,
+            "insertion_sum": -4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 0,
+            "delta_square_sum": 96
+          },
+          {
+            "point": 2,
+            "insertion_sum": 0,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 204,
+            "delta_sum": 20,
+            "delta_square_sum": 112
+          },
+          {
+            "point": 3,
+            "insertion_sum": 4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 12,
+            "delta_square_sum": 112
+          },
+          {
+            "point": 4,
+            "insertion_sum": 4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 12,
+            "delta_square_sum": 112
+          },
+          {
+            "point": 9,
+            "insertion_sum": -4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 8,
+            "delta_square_sum": 96
+          }
+        ],
+        "complete_insertion_energy": 1144,
+        "excluded_internal_energy": 590,
+        "signed_row_count_histogram": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            4,
+            3
+          ]
+        ],
+        "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+        "work": {
+          "streamed_rows": 17,
+          "internal_matrix_entries": 36,
+          "neighbour_targets_evaluated": 0,
+          "effective_chunk": 8192,
+          "seconds": 0.0001177079975605011
+        },
+        "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+      },
+      "upper": {
+        "q": 17,
+        "n": 6,
+        "degree": 6,
+        "selected": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        "target": -1,
+        "neighbour_count": 66,
+        "delta_mean": [
+          34,
+          33
+        ],
+        "delta_second_moment": [
+          136,
+          11
+        ],
+        "neighbour_mean": [
+          1,
+          33
+        ],
+        "neighbour_second_moment": [
+          373,
+          33
+        ],
+        "neighbour_variance": [
+          12308,
+          1089
+        ],
+        "internal_contraction": [
+          [
+            -1,
+            0,
+            -2,
+            -2,
+            2,
+            -2
+          ],
+          [
+            2,
+            -1,
+            2,
+            4,
+            4,
+            4
+          ],
+          [
+            -2,
+            0,
+            -1,
+            0,
+            -2,
+            -4
+          ],
+          [
+            -4,
+            4,
+            2,
+            -1,
+            -6,
+            4
+          ],
+          [
+            2,
+            6,
+            -2,
+            -8,
+            -1,
+            -2
+          ],
+          [
+            -2,
+            6,
+            -4,
+            6,
+            -2,
+            -1
+          ]
+        ],
+        "deletion_records": [
+          {
+            "point": 0,
+            "insertion_sum": 4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 16,
+            "delta_square_sum": 192
+          },
+          {
+            "point": 1,
+            "insertion_sum": -4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": -4,
+            "delta_square_sum": 112
+          },
+          {
+            "point": 2,
+            "insertion_sum": 0,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 204,
+            "delta_sum": 20,
+            "delta_square_sum": 208
+          },
+          {
+            "point": 3,
+            "insertion_sum": 4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 12,
+            "delta_square_sum": 112
+          },
+          {
+            "point": 4,
+            "insertion_sum": -4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 16,
+            "delta_square_sum": 96
+          },
+          {
+            "point": 8,
+            "insertion_sum": -4,
+            "insertion_norm_squared": 12,
+            "complete_transform_norm_squared": 188,
+            "delta_sum": 8,
+            "delta_square_sum": 96
+          }
+        ],
+        "complete_insertion_energy": 1144,
+        "excluded_internal_energy": 398,
+        "signed_row_count_histogram": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            4,
+            3
+          ]
+        ],
+        "arithmetic": "Exact bounded int64 block contractions, unbounded integer aggregation, rational moments.",
+        "work": {
+          "streamed_rows": 17,
+          "internal_matrix_entries": 36,
+          "neighbour_targets_evaluated": 0,
+          "effective_chunk": 8192,
+          "seconds": 0.00012529200466815382
+        },
+        "input_contract": "Prime Paley character; primality checked by trial division, conference identity follows algebraically."
+      },
+      "variance_gap": [
+        32,
+        11
+      ],
+      "direct_neighbour_ranges": [
+        [
+          -5,
+          3
+        ],
+        [
+          -5,
+          11
+        ]
+      ]
+    }
+  },
+  "source_sha256": {
+    "local_edits.py": "3dcace6ad81d5f1f4fc811d51b1d3ff4918352dc207377254a2d11847a88df7f",
+    "run_experiments.py": "c0641868f143dadf58a90d117cc2d030974386a98de69e7d26d51ab015201b73"
+  }
+}
