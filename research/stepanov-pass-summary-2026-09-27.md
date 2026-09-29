@@ -204,3 +204,10 @@ semidefinite hybrids) each end in exact certificates showing their
 constraint families cannot exclude tight configurations. Improving the
 prime Paley clique bound `√(p/2)` needs a genuinely new prime-specific
 input.
+
+`research/stepanov-padic-2026-09-29.md` (1,314,056 checks, reproduced):
+lifting Hanson–Petridis to `ℤ/p²` or `ℤ_p` gives nothing. `p`-adic root
+counting equals `F_p` root counting; the Fermat quotients of the sums on
+complete bicliques behave like those of random rectangles; extra vanishing
+mod `p²` occurs only under Wieferich-type coincidences, and forcing it costs a
+factor `p` in degree. OPEN.
