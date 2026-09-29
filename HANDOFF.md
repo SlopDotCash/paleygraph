@@ -148,3 +148,15 @@ copyrighted papers. Re-fetch them from the arXiv ids in the notes.
 - Lean: Hanson–Petridis (all proper divisors), the clique bound and the
   sharp example are in `experiments/stepanov_leanhp_lean/`; submission to
   prove2me waits on a restored workspace and API key.
+
+## 10. Update 2026-09-29
+
+- Theorems A, B, D of the robust note are formalized in Lean:
+  `experiments/stepanov_leanrobust_lean/StepanovRobust.lean` compiles with
+  zero errors and only `propext, Classical.choice, Quot.sound` in Lean
+  v4.30.0-rc2 / Mathlib `5450b53` and Lean v4.29.1 / Mathlib `5e932f9`
+  (compile by calling the toolchain's `lean` with `LEAN_PATH` pointed at the
+  prebuilt packages of `~/proximityprize` or `~/TheLeaningOfEverything`,
+  read-only; see the verifier). `subset_bound` needs `maxHeartbeats 1000000`.
+- The referee and sharpening verifiers were reproduced (257,753,636 and
+  5,911,513 checks, 0 failures).

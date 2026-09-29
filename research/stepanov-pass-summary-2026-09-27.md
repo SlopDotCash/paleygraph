@@ -6,7 +6,8 @@ and, as a consequence, the first constant-factor cancellation bound for
 arbitrary sets in the window `p/2 < |A||B| < p`, where Chung's bound is
 trivial. The threshold `1/2` is sharp. The argument has been read line by
 line by the orchestrator, re-proved independently by a referee agent,
-and checked by three independent programs. It has not been reviewed by a
+checked by three independent programs, and formalized in Lean 4 (compiling
+with only the standard axioms in two Mathlib versions). It has not been reviewed by a
 human mathematician, and targeted literature
 searches found no prior statement of it; novelty is not established.**
 
@@ -75,6 +76,7 @@ where the prime field enters.
 | independent exhaustive C check of Theorem A, every `A ∋ 0`, `|A| ≤ (p+1)/2`, all `e`, `p ≤ 29` (`experiments/stepanov_star_exhaustive_2026_09_27.c`) | 1,074,401,579 | 0 |
 | Theorem D on the 165 most biased `F_p` rectangles found by the adversary | 165 | 0 |
 | orchestrator's line-by-line reading of Thm 2.1 steps 1–5, Lemma 2.2, Thms 2.4–2.5 | — | none found |
+| Lean 4 formalization of Theorems A, B, D (`experiments/stepanov_leanrobust_lean/StepanovRobust.lean`), two Mathlib versions, standard axioms only | 17 theorems | 0 |
 | independent referee (`research/stepanov-referee2-2026-09-27.md`): own proof of every step; full polynomials `H_{e+1}` in 2,509 cases; `Λ ≢ 0` for every `p ≤ 1500`, `m ≤ (p+1)/2`, `e ≤ 12`; exhaustive `p ≤ 23`; Corollary E at 40 primes | 257,753,636 | 0 |
 
 Theorem A is tight at `e = 1` for `p ≤ 13` (ratio exactly 1 in the
@@ -122,6 +124,12 @@ window was found (searches of 2026-09-26 and 2026-09-27).
   data for `p ≤ 61` over 774 million sets; the best robust ratios found at
   `η = 1/16` are `0.70` (`p = 503`) and `0.54` (`p = 1009`), far inside
   Theorem C.
+- **Lean, robust theorem** (`stepanov-leanrobust`, 202,148 checks): Theorem A
+  (unconditional, with a new elementary proof that `Λ ≢ 0 mod p`, no
+  Krattenthaler), Theorem B and Theorem D are formalized in Lean 4 and
+  compile with zero errors and only the standard axioms in two Mathlib
+  versions (`5450b53`, `5e932f9`); compile results checked by the
+  orchestrator. Not yet compiled in prove2me's `c5ea003` or submitted.
 - **Lean** (`stepanov-leanhp`, 102,524 checks): Hanson–Petridis
   Theorem 1.2 for every proper divisor `d`, the Paley clique bound
   `|A|(|A|−1) ≤ (p−1)/2`, and the sharp `|A| = 2` example, all proved in
@@ -147,7 +155,8 @@ Hanson–Petridis itself.
 2. Close the gap `(4/3)κ² ≲ η(κ) ≲ 2κ` for the saving; (★) alone cannot.
 3. The bias statement for characters of order `k` (Proposition 2.9 gives
    the inequality, not the bias bound).
-4. Formalize Theorems A–D in Lean, building on the Hanson–Petridis
-   formalization; submit to prove2me once a workspace and key exist.
+4. Done locally: Theorems A, B, D are formalized in Lean (two Mathlib
+   versions). Remaining: compile in prove2me's `c5ea003` and submit once a
+   workspace and key exist.
 5. Whether any variant of the Hankel-minor idea can reduce the degree
    budget below `(e+1)d`; that would be needed to reach below `√p`.

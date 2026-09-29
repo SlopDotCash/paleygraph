@@ -13,8 +13,10 @@ polynomial's derivatives, whose error part has low rank identically in
 checks) and by an independent exhaustive program (1.07 billion cases,
 `p ≤ 29`), and an independent referee agent re-proved every step
 (257.8 million further checks). It has not been reviewed by a human mathematician, and novelty is
-not established beyond targeted searches. Hanson–Petridis itself is now
-proved in Lean 4 for every proper divisor, not yet submitted to prove2me. This is
+not established beyond targeted searches. The main theorem (constant cancellation), the Hankel-minor inequality and
+Hanson–Petridis itself (every proper divisor) are formalized in Lean 4 and
+compile with only the standard axioms in two Mathlib versions; they are not
+yet submitted to prove2me. This is
 not a proof of the conjecture: it gives no power saving and does not go
 below the square-root scale.
 
