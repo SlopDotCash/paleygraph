@@ -1,0 +1,471 @@
+{
+ "description": "Verifier for paper/robust-hanson-petridis.md; exact unless the key says float (D_* bias checks and H_* density checks use float64 with margin 1e-9 / 1e-12).",
+ "checks": {
+  "A_fact0_A_exhaustive": 54475,
+  "A_degF_A_exhaustive": 3201,
+  "A_lemma31bc_A_exhaustive": 228653,
+  "A_lemma31d_A_exhaustive": 39997,
+  "A_fact0_A_random": 795,
+  "A_degF_A_random": 32,
+  "A_lemma31bc_A_random": 8157,
+  "A_lemma31d_A_random": 960,
+  "B_us_is_normalised_derivative": 996,
+  "B_us_top_vanish": 996,
+  "B_us_lead": 996,
+  "B_step1_eps_order": 75911,
+  "B_H_degree_exact": 578,
+  "B_H_leading_coeff_is_Lambda": 578,
+  "B_H_order_ge_step3_bound": 44056,
+  "B_sum_orders_le_degree": 578,
+  "C_star_terms_nonneg": 2492028,
+  "C_star": 872329,
+  "C_corB_allB": 872329,
+  "C_thmC_display1": 2410205,
+  "C_second_moment_levelset": 872329,
+  "C_thmC_display2": 2410205,
+  "C_thmC_eta_form": 346298,
+  "C_thmC_sizefree_n_le_1": 135094,
+  "C_equality_witness_p13": 1,
+  "C_jacobsthal_count": 1032,
+  "C_thmC_eta_form_large_p": 500,
+  "C_thmC_display1_large_p": 7293,
+  "D_thmD_final_exhaustive": 6022265,
+  "D_core_lemma_exhaustive": 7042524,
+  "D_thmD_final_large_p": 85442,
+  "D_core_lemma_large_p": 170884,
+  "D_nonvacuity_threshold": 3,
+  "D_eps_decreasing_in_p": 1,
+  "D_vacuous_p_le_13_interval": 2,
+  "D_m0_bound": 2261,
+  "D_m0_bound_ge11": 2258,
+  "D_m0_bound_fails_p7": 1,
+  "E_pair_p1mod4": 211,
+  "E_m2_S_le_d": 428,
+  "E_pair_p3mod4": 217,
+  "E_padding": 10,
+  "F_krattenthaler_product": 3289,
+  "F_lambda_nonzero_mod_p_paley": 23231,
+  "F_lambda_nonzero_mod_p_general_d": 9302,
+  "F_counterexample_D_ge_p": 1,
+  "F_elem_factorisation": 99256,
+  "F_elem_diagonal_unit": 1060,
+  "F_elem_lambda_factorises": 360,
+  "F_elem_triangular_zero": 1716,
+  "G_series_(1-u)^2": 1,
+  "G_u_range": 1,
+  "G_mn_gt_d_over_u2": 1,
+  "G_crossing_eta": 1,
+  "G_crossing_side": 1,
+  "G_eta_star_series": 1,
+  "G_table_values": 5,
+  "G_beta5_kappa_half": 1,
+  "G_beta2_equals_w": 199,
+  "G_beta5_formula": 140,
+  "G_11_over_48": 1,
+  "H_identity_S_4E": 851,
+  "H_corE_exhaustive": 1600,
+  "H_corE_greedy": 30,
+  "I_jacobsthal_minus1": 1032,
+  "I_second_moment": 138,
+  "I_vinogradov_bound": 138
+ },
+ "total_checks": 24349465,
+ "failures": [],
+ "n_failures": 0,
+ "witnesses": {
+  "B_polynomials": {
+   "count": 578,
+   "primes": "11..151",
+   "e_max": "4 (p <= 61), 3",
+   "points_with_order_equal_bound_e_ge_1": 976
+  },
+  "C_star_tightest_e_ge_1": {
+   "5": [
+    "1",
+    {
+     "p": 5,
+     "A": [
+      0,
+      1,
+      3
+     ],
+     "e": 1,
+     "lhs": "2",
+     "rhs": 2
+    }
+   ],
+   "7": [
+    "1",
+    {
+     "p": 7,
+     "A": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "e": 1,
+     "lhs": "4",
+     "rhs": 4
+    }
+   ],
+   "11": [
+    "1",
+    {
+     "p": 11,
+     "A": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "e": 1,
+     "lhs": "8",
+     "rhs": 8
+    }
+   ],
+   "13": [
+    "1",
+    {
+     "p": 13,
+     "A": [
+      0,
+      1,
+      3,
+      11
+     ],
+     "e": 1,
+     "lhs": "10",
+     "rhs": 10
+    }
+   ],
+   "17": [
+    "13/14",
+    {
+     "p": 17,
+     "A": [
+      0,
+      1,
+      2,
+      8
+     ],
+     "e": 1,
+     "lhs": "13",
+     "rhs": 14
+    }
+   ],
+   "19": [
+    "15/16",
+    {
+     "p": 19,
+     "A": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "e": 1,
+     "lhs": "15",
+     "rhs": 16
+    }
+   ]
+  },
+  "C_equality_e1": {
+   "p": 13,
+   "A": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "e": 1,
+   "terms": {
+    "1": "2",
+    "7": "2",
+    "9": "2",
+    "10": "1",
+    "11": "1",
+    "12": "2"
+   },
+   "lhs": "10",
+   "rhs": 10
+  },
+  "D_exhaustive": {
+   "11": {
+    "sets": 1024,
+    "pairs": 11264,
+    "min_slack_nonvacuous": null
+   },
+   "13": {
+    "sets": 4096,
+    "pairs": 53248,
+    "min_slack_nonvacuous": null
+   },
+   "17": {
+    "sets": 65536,
+    "pairs": 1114112,
+    "min_slack_nonvacuous": 14.85956203544606
+   },
+   "19": {
+    "sets": 262144,
+    "pairs": 4980736,
+    "min_slack_nonvacuous": 14.661574011477978
+   }
+  },
+  "D_large_p_min_slack_nonvacuous": {
+   "101": 28.39423236863628,
+   "211": 52.54576949903449,
+   "409": 77.93641552712512,
+   "1009": 139.9225268735131,
+   "2003": 222.8501929515412,
+   "10009": 681.9604310533514
+  },
+  "D_thresholds": {
+   "1/10": 2741,
+   "1/2": 47,
+   "3/2": 17,
+   "p11_min_interval_margin": 0.03449147106024986,
+   "p13_min_interval_margin": 0.004099254013021479
+  },
+  "E_padding_saving_vs_2k_over_1p2k": {
+   "10009:1/20": [
+    0.09117326552851435,
+    0.09090909090909091
+   ],
+   "10009:1/10": [
+    0.16683316683316685,
+    0.16666666666666666
+   ],
+   "10009:1/4": [
+    0.3335109216835376,
+    0.3333333333333333
+   ],
+   "10009:1/2": [
+    0.5000999000999001,
+    0.5
+   ],
+   "10009:1": [
+    0.6667110696683096,
+    0.6666666666666666
+   ],
+   "100049:1/20": [
+    0.0909355237333721,
+    0.09090909090909091
+   ],
+   "100049:1/10": [
+    0.16668332500416458,
+    0.16666666666666666
+   ],
+   "100049:1/4": [
+    0.33335110210826513,
+    0.3333333333333333
+   ],
+   "100049:1/2": [
+    0.5000099950024988,
+    0.5
+   ],
+   "100049:1": [
+    0.6666711089195997,
+    0.6666666666666666
+   ]
+  },
+  "F_counterexample": {
+   "d": 2,
+   "m": 3,
+   "e": 1,
+   "D": 4,
+   "Lambda": -3,
+   "p": 3
+  },
+  "G_crossing_eta": 0.08578643762690495,
+  "G_eta_star_and_(1-u)^2": {
+   "1/100": [
+    0.00012900455189572237,
+    9.707090939647973e-05
+   ],
+   "1/10": [
+    0.009838081988822318,
+    0.0075914749827796215
+   ],
+   "1/2": [
+    0.10435607626104,
+    0.08578643762690495
+   ],
+   "1": [
+    0.20923955891032855,
+    0.1786327949540818
+   ],
+   "3/2": [
+    0.2864745084375789,
+    0.25
+   ]
+  },
+  "G_saving_cap_kappa_half_m5": "29/80",
+  "H_greedy_density_vs_bounds": {
+   "101:0.05:dense": [
+    0.8929,
+    -0.0943,
+    1.0943
+   ],
+   "101:0.05:sparse": [
+    0.1071,
+    -0.0943,
+    1.0943
+   ],
+   "101:0.25:dense": [
+    0.8889,
+    -0.0708,
+    1.0708
+   ],
+   "101:0.25:sparse": [
+    0.1389,
+    -0.0708,
+    1.0708
+   ],
+   "101:0.5:dense": [
+    0.8364,
+    -0.0332,
+    1.0332
+   ],
+   "101:0.5:sparse": [
+    0.2182,
+    -0.0332,
+    1.0332
+   ],
+   "101:1.0:dense": [
+    0.7692,
+    0.019,
+    0.981
+   ],
+   "101:1.0:sparse": [
+    0.2308,
+    0.019,
+    0.981
+   ],
+   "101:1.5:dense": [
+    0.7333,
+    0.0575,
+    0.9425
+   ],
+   "101:1.5:sparse": [
+    0.2667,
+    0.0575,
+    0.9425
+   ],
+   "401:0.05:dense": [
+    0.8476,
+    -0.0452,
+    1.0452
+   ],
+   "401:0.05:sparse": [
+    0.1429,
+    -0.0452,
+    1.0452
+   ],
+   "401:0.25:dense": [
+    0.8301,
+    -0.0237,
+    1.0237
+   ],
+   "401:0.25:sparse": [
+    0.1634,
+    -0.0237,
+    1.0237
+   ],
+   "401:0.5:dense": [
+    0.7905,
+    0.0062,
+    0.9938
+   ],
+   "401:0.5:sparse": [
+    0.1857,
+    0.0062,
+    0.9938
+   ],
+   "401:1.0:dense": [
+    0.7667,
+    0.0556,
+    0.9444
+   ],
+   "401:1.0:sparse": [
+    0.2367,
+    0.0556,
+    0.9444
+   ],
+   "401:1.5:dense": [
+    0.7389,
+    0.0926,
+    0.9074
+   ],
+   "401:1.5:sparse": [
+    0.2512,
+    0.0926,
+    0.9074
+   ],
+   "1009:0.05:dense": [
+    0.8225,
+    -0.027,
+    1.027
+   ],
+   "1009:0.05:sparse": [
+    0.1703,
+    -0.027,
+    1.027
+   ],
+   "1009:0.25:dense": [
+    0.8201,
+    -0.0084,
+    1.0084
+   ],
+   "1009:0.25:sparse": [
+    0.1958,
+    -0.0084,
+    1.0084
+   ],
+   "1009:0.5:dense": [
+    0.7681,
+    0.0198,
+    0.9802
+   ],
+   "1009:0.5:sparse": [
+    0.2379,
+    0.0198,
+    0.9802
+   ],
+   "1009:1.0:dense": [
+    0.7314,
+    0.0684,
+    0.9316
+   ],
+   "1009:1.0:sparse": [
+    0.2497,
+    0.0684,
+    0.9316
+   ],
+   "1009:1.5:dense": [
+    0.7141,
+    0.1048,
+    0.8952
+   ],
+   "1009:1.5:sparse": [
+    0.2838,
+    0.1048,
+    0.8952
+   ]
+  }
+ },
+ "notes": [],
+ "timing_seconds": {
+  "A": 0.6,
+  "B": 7.0,
+  "C": 0.6,
+  "D": 7.3,
+  "E": 0.4,
+  "F": 0.3,
+  "G": 0.1,
+  "H": 0.4,
+  "I": 0.0
+ },
+ "elapsed_seconds": 16.7,
+ "cpu_seconds": 16.9
+}

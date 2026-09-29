@@ -160,3 +160,6 @@ copyrighted papers. Re-fetch them from the arXiv ids in the notes.
   read-only; see the verifier). `subset_bound` needs `maxHeartbeats 1000000`.
 - The referee and sharpening verifiers were reproduced (257,753,636 and
   5,911,513 checks, 0 failures).
+- Paper-style write-up for human review: `paper/robust-hanson-petridis.md`
+  (proofs of Theorems A–D and Corollaries B, E; verifier
+  `experiments/paper_robust_hp_2026_09_29.py`, 24,349,465 checks).

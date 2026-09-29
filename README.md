@@ -2,6 +2,8 @@
 
 **Status: open. No proof of the Paley graph conjecture or the Proximity Prize is claimed.**
 
+A self-contained write-up for human review is in
+[paper/robust-hanson-petridis.md](paper/robust-hanson-petridis.md).
 The [Stepanov wave](research/stepanov-pass-summary-2026-09-27.md)
 (2026-09-26/27) proves a robust form of the Hanson–Petridis inequality
 and, from it, a constant-factor cancellation bound for arbitrary sets:

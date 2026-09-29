@@ -232,7 +232,12 @@ server verdict (no workspace or key on this machine).
 
 ## 5. Exact checks (`experiments/stepanov_leanrobust_2026_09_27.py`)
 
-PENDING.
+Final run (orchestrator, 2026-09-29): 202,148 checks, 0 failures, `ok: true`.
+Per check: (★) exhaustive 22,003 and random 4,178; `Λ ≢ 0 (mod p)` 18,076; the binomial factor
+identity and witness evaluations of the elementary non-vanishing proof 71,682 each; full
+polynomial degree/top coefficient 48 and order at `b` 716; Step 1 order of `ε_s` 2,638;
+`charSum_eq` 600; Corollary 2.3 inequality and bound 4,759 each; `constant_bias` 598;
+`subset_bound` 406; Lean source scan 1; Lean runs 2 (E1 and E2, §4).
 
 ## 6. Fidelity notes
 
